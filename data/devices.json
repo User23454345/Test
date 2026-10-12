@@ -146,10 +146,10 @@
         "en": {
           "name": "Sterilization & hygiene",
           "short": "Devices for the safe reprocessing of instruments – cleaning, packaging and sterilization.",
-          "description": "Reprocessing of medical devices follows a fixed chain: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are machine-cleaned and disinfected in a washer-disinfector, then inspected, packaged, sealed and sterilized in a steam sterilizer. Every step must be validated and documented, because gaps in reprocessing endanger patients and violate legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
+          "description": "The reprocessing of medical devices follows a fixed sequence: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are cleaned and disinfected automatically in a washer-disinfector, then inspected, packaged, sealed and sterilized in a steam sterilizer. Every step must be validated and documented, because gaps in reprocessing endanger patients and breach legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
         },
         "ar": {
-          "name": "التعقيم والنظافة",
+          "name": "التعقيم والنظافة الصحية",
           "short": "أجهزة لإعادة معالجة الأدوات بأمان – التنظيف والتغليف والتعقيم.",
           "description": "تتبع إعادة معالجة الأجهزة الطبية سلسلة ثابتة: فبعد التنظيف الأولي – مع معالجة مسبقة في حمام الموجات فوق الصوتية عند الحاجة – تُنظَّف الأدوات وتُطهَّر آليًا في جهاز الغسل والتطهير، ثم تُفحص وتُغلَّف وتُختم وتُعقَّم في جهاز التعقيم بالبخار. ويجب التحقق من صحة كل خطوة وتوثيقها، لأن الثغرات في إعادة المعالجة تعرّض المرضى للخطر وتخالف المتطلبات القانونية. يشرح هذا القسم الأجهزة الأساسية لإعادة المعالجة ويبيّن ما ينبغي مراعاته عند الاختيار والشراء."
         }
@@ -4979,7 +4979,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "IIa (Sterilisator für Medizinprodukte, Regel 15 MDR)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -4996,7 +4996,7 @@
           ],
           "procurement": [
             "Geräteklasse und Kammervolumen am Sterilgutaufkommen ausrichten: Klasse B nach DIN EN 13060 für verpackte Hohlkörper und Textilien in Praxen, Großsterilisatoren nach DIN EN 285 für die ZSVA; die Kammergröße sollte das tägliche Volumen mit Reserve abdecken.",
-            "Wasser- und Stromversorgung prüfen: Autoklaven benötigen vollentsalztes oder destilliertes Wasser (Aufbereitungsanlage oder Kanister), einen Abwasseranschluss sowie je nach Größe Drehstrom und ausreichende Raumlüftung wegen der Wärmeabgabe.",
+            "Wasser- und Stromversorgung prüfen: Autoklaven benötigen vollentsalztes oder destilliertes Wasser (Aufbereitungsanlage oder Kanister), je nach Gerät einen Abwasseranschluss oder einen Abwassertank sowie je nach Größe Drehstrom und ausreichende Raumlüftung wegen der Wärmeabgabe.",
             "Dokumentation und Schnittstellen: Chargendokumentation über USB, Netzwerk oder Drucker, idealerweise mit Anbindung an eine Instrumentenverfolgungs- oder Praxissoftware, erleichtert die Freigabe und die Nachweispflicht.",
             "Validierung einplanen: Nach der Installation ist eine Leistungsqualifikation durch einen qualifizierten Dienstleister erforderlich, danach eine regelmäßige, in der Regel jährliche Requalifizierung; die Kosten gehören in die Gesamtkalkulation.",
             "Servicevertrag und Verbrauchsmaterial kalkulieren: Türdichtungen, Filter, Wasseraufbereitungskartuschen, Indikatoren und Prüfkörper sind laufende Kosten; Wartungsintervalle und Reaktionszeiten vertraglich festlegen und das Personal nachweislich einweisen."
@@ -5029,21 +5029,21 @@
           "subtitle": "Sterilization with saturated steam under pressure",
           "short": "Steam sterilizers (autoclaves) use saturated, pressurized steam to destroy all microorganisms including spores on packaged instruments and are the standard sterilization method in hospitals and practices.",
           "how": [
-            "Air is first removed from the sterilization chamber, in class B devices by a fractionated pre-vacuum with several evacuation and steam pulses. Only then can steam penetrate hollow items such as tubing and handpieces as well as porous textiles. Pure steam is then admitted until pressure and temperature reach the set point.",
+            "Air is first removed from the sterilization chamber, in class B devices by a fractionated pre-vacuum with several evacuation and steam pulses. Only in this way can the steam also penetrate hollow items such as tubing and handpieces as well as porous textiles. Pure steam is then admitted until pressure and temperature reach the set point.",
             "The actual sterilization takes place at 134 °C and about 2 bar gauge pressure for at least three minutes, or at 121 °C for at least 15 minutes. The hot, moist steam condenses on the load, transfers its energy and denatures the proteins of the microorganisms. The combination of temperature, moisture, pressure and time is decisive, so the device monitors all parameters continuously.",
-            "After the holding time the steam is released and the load is dried in a post-vacuum so that the packaging stays dry and therefore microbially tight. Every cycle is recorded with its pressure, temperature and time profile, and batch monitoring, helix test and Bowie-Dick test additionally prove steam penetration. This release documentation is mandatory and must be retained."
+            "After the holding time the steam is released and the load is dried in a post-vacuum so that the packaging stays dry and thus maintains its microbial barrier. Every cycle is recorded with its pressure, temperature and time profile, and batch monitoring, helix test and Bowie-Dick test additionally prove steam penetration. This release documentation is mandatory and must be retained."
           ],
           "use": [
             "Central sterile services department (CSSD) in hospitals",
             "Reprocessing room in medical practices and outpatient clinics",
-            "Dental practices (tabletop autoclaves)",
+            "Dental practices (benchtop autoclaves)",
             "Laboratories and nursing facilities",
             "Sterilization of textiles, hollow items and packaged instrument sets"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "IIa (sterilizer for medical devices, MDR Rule 15)"
             },
             {
               "label": "Typical settings",
@@ -5051,7 +5051,7 @@
             },
             {
               "label": "Space requirement",
-              "value": "Tabletop unit from approx. 50 × 60 cm footprint; large sterilizers as pass-through installation between the clean and sterile sides"
+              "value": "Benchtop unit with a footprint from approx. 50 × 60 cm; large sterilizers as pass-through installations between the clean and sterile sides"
             },
             {
               "label": "Typical service life",
@@ -5059,11 +5059,11 @@
             }
           ],
           "procurement": [
-            "Match device class and chamber volume to the load volume: class B according to EN 13060 for packaged hollow items and textiles in practices, large sterilizers according to EN 285 for the CSSD; the chamber size should cover the daily volume with reserve.",
-            "Check water and power supply: autoclaves need demineralized or distilled water (treatment unit or canisters), a drain connection and, depending on size, three-phase power and adequate room ventilation because of the heat output.",
-            "Documentation and interfaces: batch documentation via USB, network or printer, ideally connected to instrument tracking or practice software, simplifies release and meeting the record-keeping obligation.",
-            "Plan for validation: after installation, a performance qualification by a qualified service provider is required, followed by regular, usually annual, requalification; these costs belong in the total calculation.",
-            "Calculate service contract and consumables: door seals, filters, water treatment cartridges, indicators and test devices are running costs; set maintenance intervals and response times in the contract and document the training of staff."
+            "Match device class and chamber volume to the volume of goods to be sterilized: class B according to EN 13060 for packaged hollow items and textiles in practices, large sterilizers according to EN 285 for the CSSD; the chamber size should cover the daily volume with some capacity to spare.",
+            "Check water and power supply: autoclaves need demineralized or distilled water (treatment unit or canisters), depending on the model a drain connection or a waste-water tank and, depending on size, three-phase power and adequate room ventilation because of the heat output.",
+            "Documentation and interfaces: batch documentation via USB, network or printer, ideally linked to instrument tracking or practice management software, simplifies release and compliance with record-keeping obligations.",
+            "Plan for validation: after installation, a performance qualification by a qualified service provider is required, followed by regular, usually annual, requalification; include these costs in the overall calculation.",
+            "Budget for the service contract and consumables: door seals, filters, water treatment cartridges, indicators and process challenge devices are running costs; set maintenance intervals and response times in the contract and ensure staff receive documented user training."
           ],
           "glossary": [
             {
@@ -5093,13 +5093,13 @@
           "subtitle": "التعقيم بالبخار المشبع تحت الضغط",
           "short": "تستخدم أجهزة التعقيم بالبخار (الأوتوكلاف) البخار المشبع المضغوط للقضاء على جميع الكائنات الدقيقة بما فيها الأبواغ على الأدوات المغلّفة، وهي الطريقة القياسية للتعقيم في المستشفيات والعيادات.",
           "how": [
-            "يُزال الهواء أولًا من حجرة التعقيم، وفي أجهزة الفئة B يتم ذلك عبر تفريغ مسبق مجزّأ بعدة نبضات من التفريغ والبخار. وبذلك فقط يستطيع البخار اختراق الأجسام المجوّفة مثل الأنابيب والقبضات وكذلك المنسوجات المسامية. ثم يُدخَل بخار نقي حتى يبلغ الضغط ودرجة الحرارة القيمة المحددة.",
-            "يتم التعقيم الفعلي عند 134 درجة مئوية وضغط يزيد على الضغط الجوي بنحو 2 بار لمدة ثلاث دقائق على الأقل، أو عند 121 درجة مئوية لمدة 15 دقيقة على الأقل. يتكثف البخار الساخن الرطب على الحمولة فينقل طاقته ويُفسد بروتينات الكائنات الدقيقة. والجمع بين درجة الحرارة والرطوبة والضغط والزمن هو الحاسم، لذلك يراقب الجهاز جميع المعايير باستمرار.",
-            "بعد زمن التعريض يُطلَق البخار وتُجفَّف الحمولة في تفريغ لاحق لتبقى العبوة جافة وبالتالي محكمة ضد الميكروبات. وتُسجَّل كل دورة بمنحنى الضغط ودرجة الحرارة والزمن، كما تثبت مراقبة الدفعات واختبار الحلزون (Helix) واختبار بوي-ديك (Bowie-Dick) اختراق البخار. وتوثيق الإفراج هذا إلزامي ويجب الاحتفاظ به."
+            "يُزال الهواء أولًا من حجرة التعقيم، وفي أجهزة الفئة B يتم ذلك عبر تفريغ مسبق مجزّأ بعدة نبضات من التفريغ والبخار. وبذلك فقط يستطيع البخار النفاذ إلى الأجسام المجوّفة مثل الأنابيب والقبضات وكذلك المنسوجات المسامية. ثم يُدخَل بخار نقي حتى يبلغ الضغط ودرجة الحرارة القيمة المحددة.",
+            "يتم التعقيم الفعلي عند 134 درجة مئوية وضغط يزيد على الضغط الجوي بنحو 2 بار لمدة ثلاث دقائق على الأقل، أو عند 121 درجة مئوية لمدة 15 دقيقة على الأقل. يتكثف البخار الساخن الرطب على الحمولة فينقل طاقته ويُحدث تمسُّخًا في بروتينات الكائنات الدقيقة. والجمع بين درجة الحرارة والرطوبة والضغط والزمن هو الحاسم، لذلك يراقب الجهاز جميع المعايير باستمرار.",
+            "بعد زمن التعريض يُطلَق البخار وتُجفَّف الحمولة في تفريغ لاحق لتبقى العبوة جافة وبالتالي محكمة ضد الميكروبات. وتُسجَّل كل دفعة بمنحنى الضغط ودرجة الحرارة والزمن، كما تثبت مراقبة الدفعات واختبار هيليكس (Helix) واختبار بوي-ديك (Bowie-Dick) نفاذ البخار. وتوثيق الإفراج هذا إلزامي ويجب الاحتفاظ به."
           ],
           "use": [
             "قسم التعقيم المركزي (CSSD) في المستشفيات",
-            "غرفة إعادة المعالجة في العيادات الطبية والمراكز الخارجية",
+            "غرفة إعادة المعالجة في العيادات الطبية ومراكز جراحة اليوم الواحد",
             "عيادات الأسنان (أجهزة أوتوكلاف منضدية)",
             "المختبرات ومرافق الرعاية التمريضية",
             "تعقيم المنسوجات والأجسام المجوّفة وأطقم الأدوات المغلّفة"
@@ -5107,7 +5107,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "IIa (جهاز تعقيم للأجهزة الطبية، القاعدة 15 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5124,10 +5124,10 @@
           ],
           "procurement": [
             "اختيار فئة الجهاز وحجم الحجرة وفق كمية المواد المعقّمة: الفئة B وفق المعيار EN 13060 للأجسام المجوّفة المغلّفة والمنسوجات في العيادات، وأجهزة التعقيم الكبيرة وفق المعيار EN 285 لقسم التعقيم المركزي؛ وينبغي أن يغطي حجم الحجرة الكمية اليومية مع احتياطي.",
-            "التحقق من إمداد الماء والكهرباء: تحتاج أجهزة الأوتوكلاف إلى ماء منزوع المعادن أو مقطّر (وحدة معالجة أو عبوات)، ووصلة صرف، وبحسب الحجم تيارًا ثلاثي الأطوار وتهوية كافية للغرفة بسبب الحرارة المنبعثة.",
+            "التحقق من إمداد الماء والكهرباء: تحتاج أجهزة الأوتوكلاف إلى ماء منزوع المعادن أو مقطّر (وحدة معالجة أو عبوات)، وبحسب الطراز وصلة صرف أو خزان ماء عادم، وبحسب الحجم تيارًا ثلاثي الأطوار وتهوية كافية للغرفة بسبب الحرارة المنبعثة.",
             "التوثيق والواجهات: توثيق الدفعات عبر USB أو الشبكة أو الطابعة، ويُفضَّل ربطه ببرنامج تتبّع الأدوات أو برنامج إدارة العيادة، مما يسهّل الإفراج والوفاء بواجب التوثيق.",
-            "التخطيط للتحقق من الصلاحية: بعد التركيب يلزم إجراء تأهيل أداء من قبل مزوّد خدمة مؤهل، ثم إعادة تأهيل منتظمة، سنوية في العادة؛ وتُدرج هذه التكاليف في الحساب الإجمالي.",
-            "حساب عقد الصيانة والمواد الاستهلاكية: حشوات الأبواب والمرشحات وخراطيش معالجة الماء والمؤشرات وأجسام الاختبار تكاليف جارية؛ ويجب تحديد فترات الصيانة وأزمنة الاستجابة في العقد وتوثيق تدريب العاملين."
+            "التخطيط للتحقق من صحة العملية: بعد التركيب يلزم إجراء تأهيل أداء من قبل مزوّد خدمة مؤهل، ثم إعادة تأهيل منتظمة، سنوية في العادة؛ وتُدرج هذه التكاليف في الحساب الإجمالي.",
+            "حساب عقد الصيانة والمواد الاستهلاكية: حشيات الأبواب والمرشحات وخراطيش معالجة الماء والمؤشرات وأجسام الاختبار تكاليف جارية؛ ويجب تحديد فترات الصيانة وأزمنة الاستجابة في العقد وتوثيق تدريب العاملين."
           ],
           "glossary": [
             {
@@ -5136,7 +5136,7 @@
             },
             {
               "term": "اختبار بوي-ديك (Bowie-Dick)",
-              "text": "اختبار يومي بحزمة مؤشرات يثبت إزالة الهواء واختراق البخار في الحجرة."
+              "text": "اختبار يومي بحزمة مؤشرات يثبت إزالة الهواء ونفاذ البخار في الحجرة."
             },
             {
               "term": "الدفعة (الحمولة)",
@@ -5172,14 +5172,14 @@
           "use": [
             "ZSVA/AEMP im Krankenhaus mit mehreren Großgeräten",
             "Aufbereitungsraum chirurgischer und zahnärztlicher Praxen",
-            "Endoskopieabteilungen mit speziellen RDG-E für flexible Endoskope",
+            "Endoskopieabteilungen mit speziellen RDG-E für flexible Endoskope (chemothermische Desinfektion bei niedrigerer Temperatur)",
             "Aufbereitung von Anästhesie- und Beatmungszubehör",
             "Reinigung von Sterilgutcontainern und OP-Schuhen in großen Kammergeräten"
           ],
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "IIa; IIb, wenn die Desinfektion invasiver Produkte (z. B. flexibler Endoskope) der letzte Aufbereitungsschritt ist (Regel 15 MDR)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5225,25 +5225,25 @@
           ]
         },
         "en": {
-          "name": "Washer-Disinfector",
+          "name": "Washer-Disinfector (WD)",
           "subtitle": "Automated cleaning and thermal disinfection",
-          "short": "Washer-disinfectors clean and disinfect instruments automatically in a validated program and thus replace error-prone manual reprocessing.",
+          "short": "Washer-disinfectors clean and disinfect instruments automatically in a validated programme and thus replace error-prone manual reprocessing.",
           "how": [
-            "The instruments are placed in the chamber in mesh baskets or on special loading carts, and hollow instruments are connected to flushing adapters so that their lumens are rinsed from the inside. The program starts with a cold-water pre-rinse that loosens blood and tissue residues before heat could coagulate them.",
+            "The instruments are placed in the chamber in mesh baskets or on special loading carts, and hollow instruments are connected to flushing adapters so that they are flushed internally. The programme starts with a cold-water pre-rinse that loosens blood and tissue residues before heat could coagulate them.",
             "In the cleaning phase, warm water with a usually alkaline or enzymatic detergent circulates through the chamber via spray arms. Intermediate rinses follow and, if necessary, neutralization with an acidic agent. For thermal disinfection, the demineralized rinse water is heated to 90 to 93 °C and held for a few minutes, which corresponds to a defined A0 value, usually 3000.",
-            "Finally, a hot-air blower dries the load so that it can be inspected and packaged immediately. All program parameters such as temperature, time and dosing quantity are recorded and stored as a batch record. Validation according to EN ISO 15883 proves that the device reproducibly achieves the required result with the loads and chemicals used."
+            "Finally, a hot-air blower dries the load so that it can be inspected and packaged immediately. All programme parameters such as temperature, time and dosing quantity are recorded and stored as a batch record. Validation according to EN ISO 15883 demonstrates that the device reproducibly achieves the required result with the loads and chemicals used."
           ],
           "use": [
             "CSSD in hospitals with several large units",
-            "Reprocessing room of surgical and dental practices",
-            "Endoscopy departments with special endoscope washer-disinfectors for flexible endoscopes",
-            "Reprocessing of anesthesia and ventilation accessories",
-            "Cleaning of sterilization containers and OR shoes in large chamber units"
+            "Reprocessing room in surgical and dental practices",
+            "Endoscopy departments with special endoscope washer-disinfectors for flexible endoscopes (chemo-thermal disinfection at lower temperature)",
+            "Reprocessing of anaesthesia and ventilation accessories",
+            "Cleaning of sterilization containers and theatre shoes in large chamber units"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "IIa; IIb if disinfection of invasive devices (e.g. flexible endoscopes) is the end point of processing (MDR Rule 15)"
             },
             {
               "label": "Typical settings",
@@ -5251,7 +5251,7 @@
             },
             {
               "label": "Space requirement",
-              "value": "Undercounter or freestanding unit from approx. 60 cm width; pass-through units as a barrier between the dirty and clean sides"
+              "value": "Under-counter or free-standing unit from approx. 60 cm wide; pass-through units as a barrier between the dirty and clean sides"
             },
             {
               "label": "Typical service life",
@@ -5259,16 +5259,16 @@
             }
           ],
           "procurement": [
-            "Define capacity and loading systems: the number of mesh baskets per cycle and inserts for hollow instruments, dental handpieces, anesthesia accessories or minimally invasive instruments determine whether the device fits the actual instrument inventory.",
+            "Define capacity and loading systems: the number of mesh baskets per cycle and inserts for hollow instruments, dental handpieces, anaesthesia accessories or instruments for minimally invasive surgery determine whether the device fits the actual instrument inventory.",
             "Plan room and connections: cold, hot and demineralized water, a temperature-resistant drain, three-phase power and, for pass-through units, a structural separation into dirty and clean sides; take exhaust air and heat load in the room into account.",
             "Process chemicals and dosing: detergent, neutralizer and rinse aid must be matched to the device and the instrument materials; automatic dosing pumps with level monitoring prevent faulty cycles.",
-            "Plan for validation according to EN ISO 15883 and regular performance qualification, including test soils for cleaning performance and protein detection; without valid validation, release of the batch is not permitted.",
-            "Documentation, service and training: archive batch records digitally, check connection to instrument tracking, agree on a service contract with maintenance and spare parts, and train staff as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
+            "Plan for validation according to EN ISO 15883 and regular performance qualification, including test soils for cleaning performance and protein detection; without a current validation, the batch may not be released.",
+            "Documentation, service and training: archive batch records digitally, check integration with instrument tracking systems, agree on a service contract with maintenance and spare parts, and provide staff with user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
           ],
           "glossary": [
             {
               "term": "A0 value",
-              "text": "Measure of the killing of microorganisms by moist heat; A0 3000 corresponds, for example, to 90 °C for five minutes and is the usual value for thermal disinfection of instruments."
+              "text": "Measure of the inactivation of microorganisms by moist heat; an A0 value of 3000 corresponds, for example, to 90 °C for five minutes and is the usual value for the thermal disinfection of instruments."
             },
             {
               "term": "Thermal disinfection",
@@ -5295,19 +5295,19 @@
           "how": [
             "تُوضع الأدوات في الحجرة في سلال شبكية أو على عربات تحميل خاصة، وتُوصَل الأدوات المجوّفة بمحوّلات شطف لتُشطف تجاويفها من الداخل. يبدأ البرنامج بشطف أولي بالماء البارد يُذيب بقايا الدم والأنسجة قبل أن تتخثر بفعل الحرارة.",
             "في مرحلة التنظيف يدور ماء دافئ مع منظّف قلوي أو إنزيمي في الغالب عبر أذرع الرش في الحجرة. ثم تلي ذلك عمليات شطف وسيطة، وعند الحاجة معادلة بمادة حمضية. وللتطهير الحراري يُسخَّن ماء الشطف منزوع المعادن إلى 90 حتى 93 درجة مئوية ويُحفَظ عندها لبضع دقائق، وهو ما يقابل قيمة A0 محددة، عادةً 3000.",
-            "وأخيرًا يجفف منفاخ الهواء الساخن الحمولة لتُفحص وتُغلَّف فورًا. وتُسجَّل جميع معايير البرنامج مثل درجة الحرارة والزمن وكمية الجرعة وتُحفظ كسجل للدفعة. ويثبت التحقق من الصلاحية وفق المعيار EN ISO 15883 أن الجهاز يحقق النتيجة المطلوبة بصورة قابلة للتكرار مع الحمولات والمواد الكيميائية المستخدمة."
+            "وأخيرًا يجفف منفاخ الهواء الساخن الحمولة لتُفحص وتُغلَّف فورًا. وتُسجَّل جميع معايير البرنامج مثل درجة الحرارة والزمن وكمية الجرعة وتُحفظ كسجل للدفعة. ويثبت التحقق من صحة العملية وفق المعيار EN ISO 15883 أن الجهاز يحقق النتيجة المطلوبة بصورة قابلة للتكرار مع الحمولات والمواد الكيميائية المستخدمة."
           ],
           "use": [
             "قسم التعقيم المركزي في المستشفيات مع عدة أجهزة كبيرة",
             "غرفة إعادة المعالجة في العيادات الجراحية وعيادات الأسنان",
-            "أقسام التنظير مع أجهزة غسل وتطهير خاصة بالمناظير المرنة",
+            "أقسام التنظير مع أجهزة غسل وتطهير خاصة بالمناظير المرنة (تطهير كيميائي حراري عند درجة حرارة أقل)",
             "إعادة معالجة ملحقات التخدير والتهوية",
             "تنظيف حاويات التعقيم وأحذية غرف العمليات في الأجهزة ذات الحجرات الكبيرة"
           ],
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "IIa؛ وIIb إذا كان تطهير الأجهزة الباضعة (مثل المناظير المرنة) هو الخطوة الأخيرة في إعادة المعالجة (القاعدة 15 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5315,7 +5315,7 @@
             },
             {
               "label": "المساحة المطلوبة",
-              "value": "جهاز تحت الطاولة أو قائم بعرض يبدأ من نحو 60 سم؛ أجهزة العبور كحاجز بين الجانب الملوّث والجانب النظيف"
+              "value": "جهاز تحت الطاولة أو أرضي بعرض يبدأ من نحو 60 سم؛ أجهزة العبور كحاجز بين الجانب الملوّث والجانب النظيف"
             },
             {
               "label": "مدة الاستخدام النموذجية",
@@ -5323,10 +5323,10 @@
             }
           ],
           "procurement": [
-            "تحديد السعة وأنظمة التحميل: عدد السلال الشبكية في كل دورة، والحوامل للأدوات المجوّفة وقبضات الأسنان وملحقات التخدير أو أدوات الجراحة طفيفة التوغل تحدد ما إذا كان الجهاز يناسب مخزون الأدوات الفعلي.",
+            "تحديد السعة وأنظمة التحميل: عدد السلال الشبكية في كل دفعة، والحوامل للأدوات المجوّفة وقبضات الأسنان وملحقات التخدير أو أدوات الجراحة طفيفة التوغل تحدد ما إذا كان الجهاز يناسب مخزون الأدوات الفعلي.",
             "تخطيط الغرفة والوصلات: ماء بارد وساخن ومنزوع المعادن، وصرف مقاوم للحرارة، وتيار ثلاثي الأطوار، وفي أجهزة العبور فصل إنشائي بين الجانب الملوّث والجانب النظيف؛ مع مراعاة هواء العادم والحمل الحراري في الغرفة.",
-            "المواد الكيميائية للعملية والجرعات: يجب أن يتوافق المنظّف ومادة المعادلة ومادة الشطف مع الجهاز ومواد صنع الأدوات؛ ومضخات الجرعات الآلية مع مراقبة المستوى تمنع الدورات الخاطئة.",
-            "التخطيط للتحقق من الصلاحية وفق المعيار EN ISO 15883 ولتأهيل الأداء الدوري، بما في ذلك أجسام اختبار لأداء التنظيف وكشف البروتين؛ فمن دون تحقق ساري المفعول لا يُسمح بالإفراج عن الدفعة.",
+            "المواد الكيميائية للعملية والجرعات: يجب أن يتوافق المنظّف ومادة المعادلة ومادة الشطف مع الجهاز ومواد صنع الأدوات؛ ومضخات الجرعات الآلية مع مراقبة المستوى تمنع الدفعات المعيبة.",
+            "التخطيط للتحقق من صحة العملية وفق المعيار EN ISO 15883 ولتأهيل الأداء الدوري، بما في ذلك أجسام اختبار لأداء التنظيف وكشف البروتين؛ فمن دون تحقق ساري المفعول من صحة العملية لا يُسمح بالإفراج عن الدفعة.",
             "التوثيق والخدمة والتدريب: أرشفة سجلات الدفعات رقميًا، والتحقق من الربط بنظام تتبّع الأدوات، والاتفاق على عقد خدمة يشمل الصيانة وقطع الغيار، وتدريب العاملين وفق اللائحة الألمانية لتشغيل الأجهزة الطبية (MPBetreibV)."
           ],
           "glossary": [
@@ -5378,7 +5378,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "in der Regel I (Reinigungsgerät, Regel 1 MDR); bei vom Hersteller ausgelobter Desinfektionswirkung IIa (Regel 15)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5440,7 +5440,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "usually I (cleaning device, MDR Rule 1); IIa if the manufacturer claims a disinfecting effect (Rule 15)"
             },
             {
               "label": "Typical settings",
@@ -5448,7 +5448,7 @@
             },
             {
               "label": "Space requirement",
-              "value": "Tabletop unit; tank volume usually 3 to 30 liters, footprint from approx. 30 × 30 cm"
+              "value": "Benchtop unit; tank volume usually 3 to 30 litres, footprint from approx. 30 × 30 cm"
             },
             {
               "label": "Typical service life",
@@ -5457,15 +5457,15 @@
           ],
           "procurement": [
             "Match tank volume and basket dimensions to the longest instruments and to the batch volume; instruments must be fully submerged without touching each other or overloading the basket.",
-            "Check the features: adjustable time, heating with temperature limit, degassing function, a lid against aerosols and a drain tap make operation easier and protect staff.",
-            "Choose suitable cleaning chemicals: use only detergents approved for ultrasonic use and for the instrument materials (stainless steel, aluminum, plastics) and document the dosing and the service time of the bath.",
-            "Integrate the ultrasonic step into the validated reprocessing chain: follow the instrument manufacturers' instructions, write a work instruction and prove effectiveness regularly with test devices.",
+            "Check the features: an adjustable timer, heating with a temperature limit, a degassing function, a lid to contain aerosols and a drain tap make operation easier and protect staff.",
+            "Choose suitable cleaning chemicals: use only detergents approved for ultrasonic use and for the instrument materials (stainless steel, aluminium, plastics) and document the dosing and the in-use time of the bath.",
+            "Integrate the ultrasonic step into the validated reprocessing chain: follow the instrument manufacturers' instructions, draw up a work instruction and verify effectiveness regularly with test pieces.",
             "Expect low purchase costs, but budget for wear parts such as the tank, transducers and lid as well as the ongoing need for detergent and demineralized water; consider noise protection in continuous operation."
           ],
           "glossary": [
             {
               "term": "Cavitation",
-              "text": "Formation and implosion of microscopic vapor bubbles in a liquid caused by ultrasound; the energy released loosens soil from surfaces."
+              "text": "Formation and implosion of microscopic vapour bubbles in a liquid caused by ultrasound; the energy released loosens soil from surfaces."
             },
             {
               "term": "Degassing",
@@ -5491,7 +5491,7 @@
           "how": [
             "تُثبَّت في قاع الحوض المصنوع من الفولاذ المقاوم للصدأ أو على جدرانه محوّلات طاقة تحوّل الطاقة الكهربائية إلى موجات صوتية بترددات تتراوح عادةً بين 35 و45 كيلوهرتز. تولّد هذه الموجات في سائل التنظيف فقاعات فراغية دقيقة تنهار في أجزاء من الثانية. وتُسمى هذه العملية التكهّف.",
             "تعمل هذه الانهيارات كملايين الفُرَش الصغيرة فتزيل الدم وبقايا الأنسجة ورواسب الإسمنت حتى في الأماكن التي لا يمكن الوصول إليها ميكانيكيًا، مثل المفاصل والتسنينات والتجاويف. ويدعم منظّف في الحمام متوافق مع مادة الأدوات العملية كيميائيًا، كما يحسّن التسخين إلى نحو 40 درجة مئوية الفعالية دون تثبيت البروتينات.",
-            "تُوضع الأدوات مفتوحة في سلة شبكية تُبعدها عن قاع الحوض، وتُشطف جيدًا بعد بضع دقائق. وحمام الموجات فوق الصوتية خطوة تنظيف أولي: فالتطهير والتعقيم اللاحقان يتمان في جهاز الغسل والتطهير وجهاز التعقيم. ويجب إزالة الغازات من السائل بعد كل تعبئة جديدة، وتغيير الحمام بانتظام – يوميًا في العادة؛ ويمكن التحقق من الفعالية باختبارات الرقائق أو المؤشرات."
+            "تُوضع الأدوات مفتوحة في سلة شبكية تُبعدها عن قاع الحوض، وتُشطف جيدًا بعد بضع دقائق. وحمام الموجات فوق الصوتية خطوة تنظيف أولي: فالتطهير والتعقيم اللاحقان يتمان في جهاز الغسل والتطهير وجهاز التعقيم. ويجب إزالة الغازات من السائل بعد كل تعبئة جديدة، وتغيير الحمام بانتظام – في كل يوم عمل في العادة؛ ويمكن التحقق من الفعالية باختبارات الرقائق أو المؤشرات."
           ],
           "use": [
             "التنظيف الأولي للأدوات الجراحية ذات المفاصل والتفاصيل الدقيقة",
@@ -5502,7 +5502,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "عادةً I (جهاز تنظيف، القاعدة 1 من لائحة MDR)؛ وIIa إذا أعلن المصنّع عن فعالية تطهير (القاعدة 15)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5521,8 +5521,8 @@
             "اختيار حجم الحوض وأبعاد السلة وفق أطول الأدوات وحجم الدفعة؛ ويجب أن تكون الأدوات مغمورة بالكامل دون أن تتلامس أو تُحمَّل السلة فوق طاقتها.",
             "التحقق من التجهيزات: زمن قابل للضبط، وتسخين مع حد لدرجة الحرارة، ووظيفة إزالة الغازات، وغطاء ضد الرذاذ، وصنبور تصريف، كلها تسهّل التشغيل وتحمي العاملين.",
             "اختيار المواد الكيميائية المناسبة للتنظيف: لا تُستخدم إلا المنظّفات المعتمدة للموجات فوق الصوتية ولمواد صنع الأدوات (الفولاذ المقاوم للصدأ والألمنيوم واللدائن)، مع توثيق الجرعة ومدة صلاحية الحمام.",
-            "دمج خطوة الموجات فوق الصوتية في سلسلة إعادة المعالجة المتحقَّق منها: اتباع تعليمات مصنّعي الأدوات، وإعداد تعليمات عمل، وإثبات الفعالية بانتظام بأجسام الاختبار.",
-            "توقّع تكاليف شراء منخفضة، مع احتساب قطع التآكل مثل الحوض ومحوّلات الطاقة والغطاء والحاجة المستمرة إلى المنظّف والماء منزوع المعادن؛ ومراعاة الحماية من الضجيج عند التشغيل المتواصل."
+            "دمج خطوة الموجات فوق الصوتية في سلسلة إعادة المعالجة المتحقَّق من صحتها: اتباع تعليمات مصنّعي الأدوات، وإعداد تعليمات عمل، وإثبات الفعالية بانتظام بأجسام الاختبار.",
+            "توقّع تكاليف شراء منخفضة، مع احتساب الأجزاء المعرّضة للتآكل مثل الحوض ومحوّلات الطاقة والغطاء والحاجة المستمرة إلى المنظّف والماء منزوع المعادن؛ ومراعاة الحماية من الضجيج عند التشغيل المتواصل."
           ],
           "glossary": [
             {
@@ -5572,7 +5572,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "in der Regel I, sofern vom Hersteller als Medizinprodukt in Verkehr gebracht (nicht invasiv, Regel 1 MDR)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5619,23 +5619,23 @@
         },
         "en": {
           "name": "Heat Sealer for Sterile Packaging",
-          "subtitle": "Microbially tight sealing of sterilization pouches",
-          "short": "Heat sealers weld paper-film pouches and reels into a microbially tight sterile barrier so that instruments remain sterile from sterilization until use.",
+          "subtitle": "Sealing sterilization packaging as a microbial barrier",
+          "short": "Heat sealers seal transparent paper-film pouches and reels to form a sterile barrier that is impermeable to microorganisms, so that instruments remain sterile from sterilization until use.",
           "how": [
-            "The instruments are placed in a pouch or a reel section cut to length, made of sterilization paper and transparent film. The sealer presses the open side between a heated sealing bar and a counter support. The coating of the film melts and bonds permanently with the paper.",
-            "Three parameters are decisive: temperature, contact pressure and sealing time. Only if they match the packaging material does a uniform seal at least six millimeters wide form, without creases, channels or burnt spots. Rotary sealers pull the packaging through the heating zone at constant speed and suit larger volumes, while bar sealers close each pack individually.",
+            "The instruments are placed in a pouch or a reel section cut to length, made of sterilization paper and transparent film. The sealer presses the open end between a heated sealing bar and a counter-pressure bar. The coating of the film melts and bonds permanently with the paper.",
+            "Three parameters are decisive: temperature, contact pressure and sealing time. Only when they are matched to the packaging material does a uniform seal at least six millimetres wide form, without creases, channels or burnt spots. Rotary sealers pull the packaging through the heating zone at a constant speed and are suitable for larger volumes, while bar sealers close each pack individually.",
             "Modern devices monitor temperature and pressure electronically, report deviations and, if required, print the sterilization date, expiry date and batch number directly on the packaging. The seal can be checked with the ink test or the peel test. According to EN ISO 11607, the sealing process must be validated and checked regularly."
           ],
           "use": [
             "Packaging instruments before steam sterilization in practices and the CSSD",
             "Dental practices for handpieces, burs and single instruments",
             "Sealing pouches for gas and plasma sterilization",
-            "Labeling sterile goods with date and batch"
+            "Labelling sterile goods with date and batch"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "usually I, if placed on the market by the manufacturer as a medical device (non-invasive, MDR Rule 1)"
             },
             {
               "label": "Typical settings",
@@ -5643,7 +5643,7 @@
             },
             {
               "label": "Space requirement",
-              "value": "Tabletop unit approx. 40 to 60 cm wide, additional space for reel holders"
+              "value": "Benchtop unit approx. 40 to 60 cm wide, additional space for reel holders"
             },
             {
               "label": "Typical service life",
@@ -5652,15 +5652,15 @@
           ],
           "procurement": [
             "Choose the design according to throughput: bar sealers for small practices with few packs per day, rotary sealers with reel holder and cutter for larger reprocessing units.",
-            "Look for validatable process parameters: devices with monitored temperature, contact pressure and sealing speed, a warning on deviation and record output meet the requirements of EN ISO 11607 much more easily.",
+            "Look for process parameters that can be validated: devices with monitored temperature, contact pressure and sealing speed, an alarm on deviation and record printout or export meet the requirements of EN ISO 11607 much more easily.",
             "Match packaging material and device: the sealing temperature differs between paper-film packaging and special materials for low-temperature processes; check the manufacturer's material approvals and the availability of consumables.",
             "Plan for an integrated printer or label printer so that sterilization date, expiry date, batch and packer are documented directly on each pack; this is a prerequisite for traceability.",
-            "Define annual maintenance and calibration, test equipment for seal inspection (ink test, peel test strips) and staff training in correct packing and sealing in the contract and in the organization."
+            "Specify annual maintenance and calibration, test equipment for seal inspection (ink test, peel-test strips) and staff training in correct packing and sealing, both contractually and in internal procedures."
           ],
           "glossary": [
             {
               "term": "Seal (seam)",
-              "text": "The bond between paper and film created by heat and pressure; it must be continuous, uniform and peelable so that the pack stays sterile and can be opened aseptically in the OR."
+              "text": "The bond between paper and film created by heat and pressure; it must be continuous, uniform and peelable so that the pack stays sterile and can be opened aseptically in the operating theatre."
             },
             {
               "term": "Sterile barrier system",
@@ -5668,7 +5668,7 @@
             },
             {
               "term": "Peel test",
-              "text": "Test in which the seal is pulled open by hand or in a test device; it must open evenly without fiber tear or gaps."
+              "text": "Test in which the seal is pulled open by hand or in a test device; it must open evenly without fibre tear or gaps."
             }
           ],
           "keywords": [
@@ -5698,7 +5698,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "عادةً I إذا طرحه المصنّع في السوق كجهاز طبي (غير باضع، القاعدة 1 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5740,7 +5740,7 @@
             "جهاز ختم دوّار",
             "عبوات التعقيم",
             "خط الختم",
-            "أكياس التعقيم"
+            "أكياس التعقيم الشفافة"
           ]
         }
       }
