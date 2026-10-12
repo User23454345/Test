@@ -52,7 +52,8 @@
     "menuClose": "Close menu",
     "mainNavLabel": "Main navigation",
     "language": "Language",
-    "logoLabel": "Medny – go to homepage"
+    "logoLabel": "Medny – go to homepage",
+    "breadcrumb": "Breadcrumb"
   },
   "common": {
     "learnMore": "Learn more",

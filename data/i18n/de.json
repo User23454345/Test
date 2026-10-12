@@ -52,7 +52,8 @@
     "menuClose": "Menü schließen",
     "mainNavLabel": "Hauptnavigation",
     "language": "Sprache",
-    "logoLabel": "Medny – zur Startseite"
+    "logoLabel": "Medny – zur Startseite",
+    "breadcrumb": "Brotkrumen-Navigation"
   },
   "common": {
     "learnMore": "Mehr erfahren",
@@ -83,10 +84,22 @@
     },
     "trust": {
       "items": [
-        { "title": "Herstellerneutral", "text": "Keine eigene Produktlinie, keine Vorgaben – nur die Lösung, die zu Ihnen passt." },
-        { "title": "Technischer Sachverstand", "text": "Beratung durch einen M.Sc. Biomedizintechnik mit Blick auf Klinik, Technik und Betrieb." },
-        { "title": "Transparente Angebote", "text": "Vergleichbare Angebote, klare Konditionen und nachvollziehbare Empfehlungen." },
-        { "title": "Begleitung bis zum Betrieb", "text": "Von der ersten Analyse bis zur Inbetriebnahme und darüber hinaus." }
+        {
+          "title": "Herstellerneutral",
+          "text": "Keine eigene Produktlinie, keine Vorgaben – nur die Lösung, die zu Ihnen passt."
+        },
+        {
+          "title": "Technischer Sachverstand",
+          "text": "Beratung durch einen M.Sc. Biomedizintechnik mit Blick auf Klinik, Technik und Betrieb."
+        },
+        {
+          "title": "Transparente Angebote",
+          "text": "Vergleichbare Angebote, klare Konditionen und nachvollziehbare Empfehlungen."
+        },
+        {
+          "title": "Begleitung bis zum Betrieb",
+          "text": "Von der ersten Analyse bis zur Inbetriebnahme und darüber hinaus."
+        }
       ]
     },
     "services": {
@@ -115,19 +128,43 @@
       "title": "So arbeiten wir",
       "intro": "Ein klarer, vierstufiger Prozess – damit Sie jederzeit wissen, wo Ihr Projekt steht.",
       "steps": [
-        { "title": "Bedarfsanalyse", "text": "Gemeinsam klären wir, was Ihre Einrichtung wirklich braucht – fachlich, räumlich und finanziell." },
-        { "title": "Beratung", "text": "Wir stellen passende Lösungen gegenüber und sprechen eine begründete, herstellerneutrale Empfehlung aus." },
-        { "title": "Beschaffung", "text": "Wir organisieren Angebote, Vergleich, Bestellung und Lieferung – inklusive Installation und Abnahme." },
-        { "title": "Support", "text": "Einweisung, Dokumentation und Wartungsplanung: Wir sorgen dafür, dass Ihr Gerät sicher im Einsatz bleibt." }
+        {
+          "title": "Bedarfsanalyse",
+          "text": "Gemeinsam klären wir, was Ihre Einrichtung wirklich braucht – fachlich, räumlich und finanziell."
+        },
+        {
+          "title": "Beratung",
+          "text": "Wir stellen passende Lösungen gegenüber und sprechen eine begründete, herstellerneutrale Empfehlung aus."
+        },
+        {
+          "title": "Beschaffung",
+          "text": "Wir organisieren Angebote, Vergleich, Bestellung und Lieferung – inklusive Installation und Abnahme."
+        },
+        {
+          "title": "Support",
+          "text": "Einweisung, Dokumentation und Wartungsplanung: Wir sorgen dafür, dass Ihr Gerät sicher im Einsatz bleibt."
+        }
       ]
     },
     "audience": {
       "title": "Für wen wir arbeiten",
       "items": [
-        { "title": "Krankenhäuser & Kliniken", "text": "Investitionsplanung, Ersatzbeschaffung und Ausstattung neuer Abteilungen." },
-        { "title": "Arztpraxen & MVZ", "text": "Passende Gerätetechnik für Praxisgründung, Erweiterung oder Modernisierung." },
-        { "title": "Pflege- & Reha-Einrichtungen", "text": "Robuste, einfach bedienbare Technik für Alltag und Therapie." },
-        { "title": "Labore & Dentalpraxen", "text": "Analyse-, Behandlungs- und Hygienetechnik, abgestimmt auf Ihre Abläufe." }
+        {
+          "title": "Krankenhäuser & Kliniken",
+          "text": "Investitionsplanung, Ersatzbeschaffung und Ausstattung neuer Abteilungen."
+        },
+        {
+          "title": "Arztpraxen & MVZ",
+          "text": "Passende Gerätetechnik für Praxisgründung, Erweiterung oder Modernisierung."
+        },
+        {
+          "title": "Pflege- & Reha-Einrichtungen",
+          "text": "Robuste, einfach bedienbare Technik für Alltag und Therapie."
+        },
+        {
+          "title": "Labore & Dentalpraxen",
+          "text": "Analyse-, Behandlungs- und Hygienetechnik, abgestimmt auf Ihre Abläufe."
+        }
       ]
     },
     "portal": {
@@ -164,10 +201,22 @@
     "values": {
       "title": "Wofür wir stehen",
       "items": [
-        { "title": "Unabhängigkeit", "text": "Wir sind an keinen Hersteller gebunden und empfehlen ausschließlich, was fachlich und wirtschaftlich für Sie sinnvoll ist." },
-        { "title": "Fachkompetenz", "text": "Biomedizintechnisches Know-how trifft auf Erfahrung in Beschaffungsprozessen des Gesundheitswesens." },
-        { "title": "Transparenz", "text": "Nachvollziehbare Vergleiche, offene Kommunikation und klare Konditionen – ohne Kleingedrucktes." },
-        { "title": "Verlässlichkeit", "text": "Wir halten Zusagen ein und bleiben Ihr Ansprechpartner auch nach der Lieferung." }
+        {
+          "title": "Unabhängigkeit",
+          "text": "Wir sind an keinen Hersteller gebunden und empfehlen ausschließlich, was fachlich und wirtschaftlich für Sie sinnvoll ist."
+        },
+        {
+          "title": "Fachkompetenz",
+          "text": "Biomedizintechnisches Know-how trifft auf Erfahrung in Beschaffungsprozessen des Gesundheitswesens."
+        },
+        {
+          "title": "Transparenz",
+          "text": "Nachvollziehbare Vergleiche, offene Kommunikation und klare Konditionen – ohne Kleingedrucktes."
+        },
+        {
+          "title": "Verlässlichkeit",
+          "text": "Wir halten Zusagen ein und bleiben Ihr Ansprechpartner auch nach der Lieferung."
+        }
       ]
     },
     "services": {
@@ -265,21 +314,56 @@
       "title": "Warum Medizintechnik so wichtig ist",
       "intro": "Ohne Medizintechnik wäre moderne Medizin nicht denkbar. Sie trägt in allen Phasen der Versorgung dazu bei, Patientinnen und Patienten sicher, schnell und präzise zu behandeln.",
       "items": [
-        { "title": "Frühe und genaue Diagnose", "text": "Bildgebende und labordiagnostische Verfahren machen Krankheiten sichtbar, oft lange bevor Symptome auftreten." },
-        { "title": "Wirksame Therapie", "text": "Von Infusionspumpen bis zur Dialyse: Therapiegeräte unterstützen oder ersetzen lebenswichtige Körperfunktionen." },
-        { "title": "Sicherheit und Überwachung", "text": "Monitoring-Systeme erfassen Vitalparameter kontinuierlich und schlagen Alarm, bevor ein Zustand kritisch wird." },
-        { "title": "Hygiene und Patientenschutz", "text": "Sterilisation und Aufbereitung verhindern Infektionen und schützen Patientinnen, Patienten und Personal." },
-        { "title": "Effizienz im Versorgungsalltag", "text": "Gute Gerätetechnik beschleunigt Abläufe, entlastet Personal und senkt langfristig Kosten." }
+        {
+          "title": "Frühe und genaue Diagnose",
+          "text": "Bildgebende und labordiagnostische Verfahren machen Krankheiten sichtbar, oft lange bevor Symptome auftreten."
+        },
+        {
+          "title": "Wirksame Therapie",
+          "text": "Von Infusionspumpen bis zur Dialyse: Therapiegeräte unterstützen oder ersetzen lebenswichtige Körperfunktionen."
+        },
+        {
+          "title": "Sicherheit und Überwachung",
+          "text": "Monitoring-Systeme erfassen Vitalparameter kontinuierlich und schlagen Alarm, bevor ein Zustand kritisch wird."
+        },
+        {
+          "title": "Hygiene und Patientenschutz",
+          "text": "Sterilisation und Aufbereitung verhindern Infektionen und schützen Patientinnen, Patienten und Personal."
+        },
+        {
+          "title": "Effizienz im Versorgungsalltag",
+          "text": "Gute Gerätetechnik beschleunigt Abläufe, entlastet Personal und senkt langfristig Kosten."
+        }
       ]
     },
     "classification": {
       "title": "Risikoklassen von Medizinprodukten",
       "intro": "Die MDR teilt Medizinprodukte nach ihrem Risikopotenzial in vier Klassen ein. Je höher die Klasse, desto strenger sind die Anforderungen an Nachweise, Prüfung und Überwachung.",
       "classes": [
-        { "name": "Klasse I", "risk": "Geringes Risiko", "text": "Nicht-invasive oder einfache Produkte mit geringem Gefährdungspotenzial.", "examples": "Beispiele: Rollstühle, Verbandmaterial, einfache Untersuchungsliegen" },
-        { "name": "Klasse IIa", "risk": "Mittleres Risiko", "text": "Produkte mit mäßigem Risiko, häufig aktive Geräte zur Diagnose oder kurzzeitigen Anwendung.", "examples": "Beispiele: Ultraschallgeräte, Hörgeräte, viele Dentalinstrumente" },
-        { "name": "Klasse IIb", "risk": "Erhöhtes Risiko", "text": "Produkte mit erhöhtem Risiko, etwa aktive Geräte, die Energie abgeben oder lebenswichtige Funktionen unterstützen.", "examples": "Beispiele: Röntgengeräte, Beatmungsgeräte, Infusionspumpen, Defibrillatoren" },
-        { "name": "Klasse III", "risk": "Hohes Risiko", "text": "Produkte mit dem höchsten Risiko, insbesondere Implantate und Produkte mit Kontakt zu Herz, zentralem Kreislauf oder zentralem Nervensystem.", "examples": "Beispiele: Herzschrittmacher, Herzklappen, Gelenkimplantate" }
+        {
+          "name": "Klasse I",
+          "risk": "Geringes Risiko",
+          "text": "Nicht-invasive oder einfache Produkte mit geringem Gefährdungspotenzial.",
+          "examples": "Beispiele: Rollstühle, Verbandmaterial, einfache Untersuchungsliegen"
+        },
+        {
+          "name": "Klasse IIa",
+          "risk": "Mittleres Risiko",
+          "text": "Produkte mit mäßigem Risiko, häufig aktive Geräte zur Diagnose oder kurzzeitigen Anwendung.",
+          "examples": "Beispiele: Ultraschallgeräte, Hörgeräte, viele Dentalinstrumente"
+        },
+        {
+          "name": "Klasse IIb",
+          "risk": "Erhöhtes Risiko",
+          "text": "Produkte mit erhöhtem Risiko, etwa aktive Geräte, die Energie abgeben oder lebenswichtige Funktionen unterstützen.",
+          "examples": "Beispiele: Röntgengeräte, Beatmungsgeräte, Infusionspumpen, Defibrillatoren"
+        },
+        {
+          "name": "Klasse III",
+          "risk": "Hohes Risiko",
+          "text": "Produkte mit dem höchsten Risiko, insbesondere Implantate und Produkte mit Kontakt zu Herz, zentralem Kreislauf oder zentralem Nervensystem.",
+          "examples": "Beispiele: Herzschrittmacher, Herzklappen, Gelenkimplantate"
+        }
       ]
     },
     "areas": {
@@ -287,35 +371,96 @@
       "intro": "Die Medizintechnik lässt sich in verschiedene Teilbereiche gliedern. In unserem Geräte-Wissen stellen wir typische Geräte jeder Kategorie vor.",
       "linkLabel": "Geräte ansehen",
       "items": [
-        { "id": "imaging", "title": "Bildgebung", "text": "Verfahren, die das Innere des Körpers sichtbar machen: Ultraschall, Röntgen, Computertomografie und Magnetresonanztomografie." },
-        { "id": "lab", "title": "Labordiagnostik", "text": "Analysegeräte, die Blut, Urin und andere Proben untersuchen – von der Zentrifuge bis zum vollautomatischen Analysator." },
-        { "id": "monitoring", "title": "Patientenüberwachung", "text": "Systeme, die Vitalparameter wie Herzrhythmus, Sauerstoffsättigung und Blutdruck kontinuierlich erfassen." },
-        { "id": "surgery", "title": "OP-Technik", "text": "Ausstattung des Operationssaals: Narkosegeräte, HF-Chirurgie, Endoskopie, OP-Leuchten und -Tische." },
-        { "id": "therapy", "title": "Therapie", "text": "Geräte, die Körperfunktionen unterstützen oder Behandlungen durchführen: Beatmung, Infusion, Dialyse, Defibrillation." },
-        { "id": "dental", "title": "Dentaltechnik", "text": "Technik für die zahnärztliche Praxis: Behandlungseinheiten, Dentalröntgen und digitale Abformung." },
-        { "id": "sterilization", "title": "Sterilisation & Hygiene", "text": "Aufbereitung von Instrumenten und Geräten: Reinigung, Desinfektion, Verpackung und Sterilisation." }
+        {
+          "id": "imaging",
+          "title": "Bildgebung",
+          "text": "Verfahren, die das Innere des Körpers sichtbar machen: Ultraschall, Röntgen, Computertomografie und Magnetresonanztomografie."
+        },
+        {
+          "id": "lab",
+          "title": "Labordiagnostik",
+          "text": "Analysegeräte, die Blut, Urin und andere Proben untersuchen – von der Zentrifuge bis zum vollautomatischen Analysator."
+        },
+        {
+          "id": "monitoring",
+          "title": "Patientenüberwachung",
+          "text": "Systeme, die Vitalparameter wie Herzrhythmus, Sauerstoffsättigung und Blutdruck kontinuierlich erfassen."
+        },
+        {
+          "id": "surgery",
+          "title": "OP-Technik",
+          "text": "Ausstattung des Operationssaals: Narkosegeräte, HF-Chirurgie, Endoskopie, OP-Leuchten und -Tische."
+        },
+        {
+          "id": "therapy",
+          "title": "Therapie",
+          "text": "Geräte, die Körperfunktionen unterstützen oder Behandlungen durchführen: Beatmung, Infusion, Dialyse, Defibrillation."
+        },
+        {
+          "id": "dental",
+          "title": "Dentaltechnik",
+          "text": "Technik für die zahnärztliche Praxis: Behandlungseinheiten, Dentalröntgen und digitale Abformung."
+        },
+        {
+          "id": "sterilization",
+          "title": "Sterilisation & Hygiene",
+          "text": "Aufbereitung von Instrumenten und Geräten: Reinigung, Desinfektion, Verpackung und Sterilisation."
+        }
       ]
     },
     "lifecycle": {
       "title": "Der Lebenszyklus eines Medizingeräts",
       "intro": "Ein Gerät zu kaufen ist nur der Anfang. Wer die gesamte Nutzungsdauer im Blick hat, trifft bessere Entscheidungen.",
       "steps": [
-        { "title": "Bedarf & Planung", "text": "Klärung des klinischen Bedarfs, der Räume, Schnittstellen und des Budgets." },
-        { "title": "Beschaffung", "text": "Anforderungsprofil, Angebotsvergleich, Verhandlung, Bestellung und Abnahme." },
-        { "title": "Inbetriebnahme & Einweisung", "text": "Installation, Funktionsprüfung und dokumentierte Einweisung des Personals." },
-        { "title": "Betrieb & Instandhaltung", "text": "Wartung, sicherheitstechnische und messtechnische Kontrollen, Dokumentation im Medizinproduktebuch." },
-        { "title": "Außerbetriebnahme", "text": "Fachgerechte Stilllegung, Datenlöschung und Entsorgung oder Weiterverkauf." }
+        {
+          "title": "Bedarf & Planung",
+          "text": "Klärung des klinischen Bedarfs, der Räume, Schnittstellen und des Budgets."
+        },
+        {
+          "title": "Beschaffung",
+          "text": "Anforderungsprofil, Angebotsvergleich, Verhandlung, Bestellung und Abnahme."
+        },
+        {
+          "title": "Inbetriebnahme & Einweisung",
+          "text": "Installation, Funktionsprüfung und dokumentierte Einweisung des Personals."
+        },
+        {
+          "title": "Betrieb & Instandhaltung",
+          "text": "Wartung, sicherheitstechnische und messtechnische Kontrollen, Dokumentation im Medizinproduktebuch."
+        },
+        {
+          "title": "Außerbetriebnahme",
+          "text": "Fachgerechte Stilllegung, Datenlöschung und Entsorgung oder Weiterverkauf."
+        }
       ]
     },
     "glossary": {
       "title": "Wichtige Begriffe",
       "items": [
-        { "term": "MDR", "text": "Medical Device Regulation – die EU-Verordnung 2017/745 über Medizinprodukte. Sie legt fest, welche Anforderungen Produkte vor dem Inverkehrbringen erfüllen müssen." },
-        { "term": "CE-Kennzeichnung", "text": "Bestätigt, dass ein Medizinprodukt die geltenden EU-Anforderungen erfüllt. Bei höheren Risikoklassen wird eine Benannte Stelle einbezogen." },
-        { "term": "MPDG & MPBetreibV", "text": "Das deutsche Medizinprodukterecht-Durchführungsgesetz und die Medizinprodukte-Betreiberverordnung regeln u. a. Pflichten beim Betreiben und Anwenden von Medizinprodukten." },
-        { "term": "STK / MTK", "text": "Sicherheitstechnische bzw. messtechnische Kontrollen – regelmäßige Prüfungen, die für bestimmte Geräte vorgeschrieben sind." },
-        { "term": "Medizinproduktebuch", "text": "Dokumentation für bestimmte aktive Medizinprodukte: Einweisungen, Funktionsprüfungen, Wartungen und Störungen." },
-        { "term": "UDI", "text": "Unique Device Identification – eine eindeutige Produktkennung zur Rückverfolgbarkeit von Medizinprodukten." }
+        {
+          "term": "MDR",
+          "text": "Medical Device Regulation – die EU-Verordnung 2017/745 über Medizinprodukte. Sie legt fest, welche Anforderungen Produkte vor dem Inverkehrbringen erfüllen müssen."
+        },
+        {
+          "term": "CE-Kennzeichnung",
+          "text": "Bestätigt, dass ein Medizinprodukt die geltenden EU-Anforderungen erfüllt. Bei höheren Risikoklassen wird eine Benannte Stelle einbezogen."
+        },
+        {
+          "term": "MPDG & MPBetreibV",
+          "text": "Das deutsche Medizinprodukterecht-Durchführungsgesetz und die Medizinprodukte-Betreiberverordnung regeln u. a. Pflichten beim Betreiben und Anwenden von Medizinprodukten."
+        },
+        {
+          "term": "STK / MTK",
+          "text": "Sicherheitstechnische bzw. messtechnische Kontrollen – regelmäßige Prüfungen, die für bestimmte Geräte vorgeschrieben sind."
+        },
+        {
+          "term": "Medizinproduktebuch",
+          "text": "Dokumentation für bestimmte aktive Medizinprodukte: Einweisungen, Funktionsprüfungen, Wartungen und Störungen."
+        },
+        {
+          "term": "UDI",
+          "text": "Unique Device Identification – eine eindeutige Produktkennung zur Rückverfolgbarkeit von Medizinprodukten."
+        }
       ]
     },
     "cta": {

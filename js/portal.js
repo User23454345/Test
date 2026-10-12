@@ -171,7 +171,7 @@
     var t = loc(device);
     var cat = findCategory(data, device.category);
     var isLearned = learned.has(device.id);
-    var card = el("article", { class: "device-card" }, [
+    var card = el("article", { class: "device-card" + (isLearned ? " device-card--learned" : "") }, [
       isLearned
         ? el("span", { class: "badge badge--success device-card__learned" }, [ICONS.icon("check"), " " + I18N.t("devices.detail.markedLearned")])
         : null,
@@ -599,7 +599,7 @@
           el("li", null, [
             el("a", { href: deviceHref(d.id), "aria-current": d.id === device.id ? "page" : null }, [
               dt.name,
-              learned.has(d.id) ? el("span", { class: "badge badge--success", style: "margin-inline-start:0.4rem;font-size:0.7rem" }, ["✓"]) : null
+              learned.has(d.id) ? el("span", { class: "badge badge--success badge--icon", "aria-label": I18N.t("devices.detail.markedLearned") }, [ICONS.icon("check")]) : null
             ])
           ])
         );
@@ -621,8 +621,6 @@
         pagerWrap.appendChild(
           el("a", { class: "pager__prev", href: deviceHref(prev.id) }, [el("span", null, [I18N.t("devices.detail.prev")]), el("span", null, [loc(prev).name])])
         );
-      } else {
-        pagerWrap.appendChild(el("span", null));
       }
       if (next) {
         pagerWrap.appendChild(

@@ -52,7 +52,8 @@
     "menuClose": "إغلاق القائمة",
     "mainNavLabel": "التنقل الرئيسي",
     "language": "اللغة",
-    "logoLabel": "Medny – إلى الصفحة الرئيسية"
+    "logoLabel": "Medny – إلى الصفحة الرئيسية",
+    "breadcrumb": "مسار التنقل"
   },
   "common": {
     "learnMore": "اعرف المزيد",

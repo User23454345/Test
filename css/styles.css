@@ -1484,6 +1484,25 @@ html[lang="ar"] .class-card__risk {
   border-color: #cfe0ee;
 }
 
+.device-card--learned .device-card__media {
+  padding-top: 2.75rem;
+}
+
+.badge--icon {
+  padding: 0.15rem;
+  margin-inline-start: 0.4rem;
+  vertical-align: middle;
+}
+
+.badge--icon svg {
+  width: 12px;
+  height: 12px;
+}
+
+.required-mark {
+  white-space: nowrap;
+}
+
 .device-card__media {
   aspect-ratio: 4 / 3;
   background: var(--color-bg-alt);
@@ -1602,6 +1621,8 @@ html[lang="ar"] .class-card__risk {
 
 [dir="rtl"] .breadcrumb li + li::before {
   content: "‹";
+  /* Pseudo-Element ist LTR-isoliert, daher Abstand physisch auf die linke Seite */
+  margin-inline: 0.35rem 0;
 }
 
 .breadcrumb a {
@@ -1914,6 +1935,10 @@ html[lang="ar"] .pager a span:first-child {
 .pager a span:last-child {
   font-weight: 600;
   color: var(--color-primary);
+}
+
+.pager a.pager__next:only-child {
+  grid-column: 2;
 }
 
 .pager a.pager__next {
