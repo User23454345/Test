@@ -129,7 +129,29 @@
         "ar": {
           "name": "تقنيات طب الأسنان",
           "short": "أجهزة التشخيص والعلاج والنظافة في طب الأسنان – من وحدة العلاج إلى جهاز التعقيم.",
-          "description": "تشمل تقنيات طب الأسنان جميع الأجهزة المستخدمة في عيادات الأسنان وتقويم الأسنان وجراحة الفم والوجه والفكين ومختبرات الأسنان. ويشمل ذلك وحدات العلاج والتصوير السني والطبعات الرقمية وإعادة معالجة الأدوات. وترتبط كثير من هذه الأجهزة ببعضها ارتباطاً وثيقاً، ولذلك تكتسب الواجهات ومتطلبات النظافة أهمية خاصة عند الشراء."
+          "description": "تشمل تقنيات طب الأسنان جميع الأجهزة المستخدمة في عيادات الأسنان وتقويم الأسنان وجراحة الفم والوجه والفكين ومختبرات الأسنان. ويشمل ذلك وحدات العلاج والتصوير السني والطبعات الرقمية وإعادة معالجة الأدوات. ويرتبط كثير من هذه الأجهزة بعضها ببعض ارتباطاً وثيقاً، ولذلك تكتسب الواجهات ومتطلبات النظافة أهمية خاصة عند الشراء."
+        }
+      }
+    },
+    {
+      "id": "sterilization",
+      "icon": "assets/img/categories/sterilization.svg",
+      "order": 7,
+      "i18n": {
+        "de": {
+          "name": "Sterilisation & Hygiene",
+          "short": "Geräte für die sichere Aufbereitung von Instrumenten – Reinigung, Verpackung und Sterilisation.",
+          "description": "Die Aufbereitung von Medizinprodukten folgt einer festen Kette: Nach der Vorreinigung – bei Bedarf mit Vorbehandlung im Ultraschallbad – werden Instrumente im Reinigungs- und Desinfektionsgerät maschinell gereinigt und desinfiziert, anschließend geprüft, verpackt, versiegelt und im Dampfsterilisator sterilisiert. Jeder Schritt muss validiert und dokumentiert werden, denn Lücken in der Aufbereitung gefährden Patienten und verstoßen gegen gesetzliche Vorgaben. Dieser Bereich erklärt die zentralen Geräte der Aufbereitung und zeigt, worauf Sie bei Auswahl und Beschaffung achten sollten."
+        },
+        "en": {
+          "name": "Sterilization & hygiene",
+          "short": "Devices for the safe reprocessing of instruments – cleaning, packaging and sterilization.",
+          "description": "Reprocessing of medical devices follows a fixed chain: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are machine-cleaned and disinfected in a washer-disinfector, then inspected, packaged, sealed and sterilized in a steam sterilizer. Every step must be validated and documented, because gaps in reprocessing endanger patients and violate legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
+        },
+        "ar": {
+          "name": "التعقيم والنظافة",
+          "short": "أجهزة لإعادة معالجة الأدوات بأمان – التنظيف والتغليف والتعقيم.",
+          "description": "تتبع إعادة معالجة الأجهزة الطبية سلسلة ثابتة: فبعد التنظيف الأولي – مع معالجة مسبقة في حمام الموجات فوق الصوتية عند الحاجة – تُنظَّف الأدوات وتُطهَّر آليًا في جهاز الغسل والتطهير، ثم تُفحص وتُغلَّف وتُختم وتُعقَّم في جهاز التعقيم بالبخار. ويجب التحقق من صحة كل خطوة وتوثيقها، لأن الثغرات في إعادة المعالجة تعرّض المرضى للخطر وتخالف المتطلبات القانونية. يشرح هذا القسم الأجهزة الأساسية لإعادة المعالجة ويبيّن ما ينبغي مراعاته عند الاختيار والشراء."
         }
       }
     }
@@ -276,7 +298,7 @@
           "how": [
             "يحتوي المسبار (الترانسديوسر) على بلورات كهرضغطية تحوّل النبضات الكهربائية إلى موجات صوتية عالية التردد (عادةً بين 2 و15 ميغاهرتز). تخترق هذه الموجات الأنسجة وتنعكس جزئيًا عند الحدود بين الأنسجة ذات الكثافات المختلفة. يستقبل المسبار الأصداء العائدة ويحوّلها مجددًا إلى إشارات كهربائية.",
             "يحسب الجهاز من زمن عودة الأصداء وشدتها عمق البنى وطبيعتها، ويركّبها في صورة ثنائية الأبعاد بتدرج رمادي (النمط B). ولأن الجهاز يُنتج صورًا كثيرة في الثانية، يمكن متابعة الحركات مثل نبض القلب في الزمن الحقيقي. ويمنع الجل الموضوع بين المسبار والجلد وجود الهواء الذي كان سيعكس الصوت.",
-            "تستخدم تقنية الدوبلر انزياح تردد الأصداء المنعكسة من الدم المتحرك لعرض اتجاه الجريان وسرعته بالألوان. وتوفر الأنظمة الحديثة أيضًا تصويرًا ثلاثي ورباعي الأبعاد وتقنية الإيلاستوغرافي لتقييم صلابة الأنسجة. وتُصمَّم المسابير المختلفة (الخطية والمحدبة والقطاعية) لتناسب عمق الاختراق ومنطقة الجسم المطلوبة."
+            "تستخدم تقنية الدوبلر انزياح تردد الأصداء المنعكسة من الدم المتحرك لعرض اتجاه الجريان وسرعته بالألوان. وتوفر الأنظمة الحديثة أيضًا تصويرًا ثلاثي ورباعي الأبعاد والتصوير المرن (الإيلاستوغرافي) لتقييم صلابة الأنسجة. وتُصمَّم المسابير المختلفة (الخطية والمحدبة والقطاعية) لتناسب عمق الاختراق ومنطقة الجسم المطلوبة."
           ],
           "use": [
             "البطن: الكبد والكلى والمرارة والطحال",
@@ -348,7 +370,7 @@
           "how": [
             "Eine Röntgenröhre erzeugt Strahlung, indem Elektronen im Vakuum stark beschleunigt werden und auf eine Anode treffen. Die Strahlung durchdringt den Körper und wird je nach Gewebedichte unterschiedlich stark abgeschwächt: Knochen absorbieren viel, Luft in der Lunge sehr wenig.",
             "Hinter dem Patienten misst ein digitaler Flachdetektor (DR) die verbleibende Intensität; bei Speicherfolien (CR) wird stattdessen eine Kassette anschließend ausgelesen. Die Messwerte werden in ein Graustufenbild umgerechnet, das in wenigen Sekunden am Monitor erscheint und digital nachbearbeitet, archiviert (PACS) und versendet werden kann.",
-            "Ein Generator steuert Röhrenspannung (kV) und Strom-Zeit-Produkt (mAs) und damit Bildqualität und Dosis. Belichtungsautomatik, Streustrahlenraster und Einblendung (Kollimation) begrenzen die Dosis auf das notwendige Maß. Das Dosisflächenprodukt wird zur Dokumentation automatisch erfasst."
+            "Ein Generator steuert Röhrenspannung (kV) und Strom-Zeit-Produkt (mAs) und damit Bildqualität und Dosis. Belichtungsautomatik und Einblendung (Kollimation) begrenzen die Dosis auf das notwendige Maß; ein Streustrahlenraster vor dem Detektor absorbiert Streustrahlung und verbessert so den Bildkontrast. Das Dosisflächenprodukt wird zur Dokumentation automatisch erfasst."
           ],
           "use": [
             "Thoraxaufnahmen (Lunge, Herz)",
@@ -377,7 +399,7 @@
           ],
           "procurement": [
             "Detektortyp wählen: fester Flachdetektor in Tisch/Wandstativ oder kabelloser mobiler Detektor (WLAN) – letzterer ist flexibler, aber sturzempfindlich; Versicherung bzw. Sturzschutz im Vertrag klären.",
-            "Strahlenschutz und Genehmigung: Anzeige bzw. Genehmigung bei der zuständigen Behörde nach Strahlenschutzgesetz (StrlSchG), Sachverständigenprüfung, bauliche Abschirmung des Raums und ein Strahlenschutzbeauftragter sind Voraussetzung für den Betrieb.",
+            "Strahlenschutz und Genehmigung: Anzeige bzw. Genehmigung bei der zuständigen Behörde nach Strahlenschutzgesetz (StrlSchG), Prüfung durch einen behördlich bestimmten Sachverständigen, bauliche Abschirmung des Raums und Personal mit Fachkunde im Strahlenschutz (ggf. Benennung eines Strahlenschutzbeauftragten) sind Voraussetzung für den Betrieb.",
             "Schnittstellen: DICOM (Store, Worklist, MPPS) zum PACS/RIS, Dosisdokumentation (DICOM RDSR) und Anbindung an das Informationssystem prüfen.",
             "Qualitätssicherung: Abnahme- und Konstanzprüfungen (nach DIN 6868) einplanen; Prüfkörper und Personalzeit für regelmäßige Prüfungen berücksichtigen.",
             "Servicevertrag auf Röhrenabdeckung prüfen: Röntgenröhre und Detektor sind die teuersten Verschleißteile; Reaktionszeiten und Software-Updates festlegen."
@@ -412,7 +434,7 @@
           "how": [
             "An X-ray tube generates radiation by accelerating electrons in a vacuum and letting them strike an anode. The radiation passes through the body and is attenuated to different degrees depending on tissue density: bone absorbs a lot, air in the lungs very little.",
             "Behind the patient, a digital flat-panel detector (DR) measures the remaining intensity; with storage phosphor plates (CR), a cassette is read out afterwards instead. The measurements are converted into a greyscale image that appears on the monitor within seconds and can be digitally post-processed, archived (PACS) and transmitted.",
-            "A generator controls tube voltage (kV) and the current-time product (mAs), and thus image quality and dose. Automatic exposure control, anti-scatter grids and collimation limit the dose to what is necessary. The dose-area product is recorded automatically for documentation."
+            "A generator controls tube voltage (kV) and the current-time product (mAs), and thus image quality and dose. Automatic exposure control and collimation limit the dose to what is necessary; an anti-scatter grid in front of the detector absorbs scattered radiation and thereby improves image contrast. The dose-area product is recorded automatically for documentation."
           ],
           "use": [
             "Chest radiographs (lungs, heart)",
@@ -441,10 +463,10 @@
           ],
           "procurement": [
             "Choose the detector type: fixed flat-panel detector in table/wall stand or wireless portable detector (Wi-Fi) – the latter is more flexible but vulnerable to drops; clarify insurance or drop protection in the contract.",
-            "Radiation protection and licensing: notification or licence from the competent authority under radiation protection law (in Germany: StrlSchG), expert inspection, structural shielding of the room and a radiation protection officer are prerequisites for operation.",
+            "Radiation protection and licensing: notification or licence from the competent authority under radiation protection law (in Germany: StrlSchG), inspection by an officially appointed expert, structural shielding of the room and staff qualified in radiation protection (appointing a radiation protection officer where required) are prerequisites for operation.",
             "Interfaces: check DICOM (Store, Worklist, MPPS) to PACS/RIS, dose documentation (DICOM RDSR) and connection to the information system.",
             "Quality assurance: plan acceptance and constancy tests (in Germany per DIN 6868); allow for test phantoms and staff time for regular checks.",
-            "Check the service contract for tube cover: the X-ray tube and the detector are the most expensive wear parts; define response times and software updates."
+            "Check the service contract for tube coverage: the X-ray tube and the detector are the most expensive wear parts; define response times and software updates."
           ],
           "glossary": [
             {
@@ -475,8 +497,8 @@
           "short": "تستخدم أنظمة الأشعة السينية الرقمية الإشعاع السيني لإنتاج صور إسقاطية للعظام والرئتين وغيرها من البنى؛ ويوفر الكاشف اللوحي المسطح الصورة على الشاشة خلال ثوانٍ.",
           "how": [
             "يولّد أنبوب الأشعة السينية الإشعاع عبر تسريع الإلكترونات في الفراغ وجعلها تصطدم بالمصعد (الأنود). يخترق الإشعاع الجسم ويضعف بدرجات متفاوتة حسب كثافة الأنسجة: فالعظم يمتص الكثير منه، بينما لا يمتص الهواء في الرئتين إلا القليل.",
-            "خلف المريض يقيس كاشف لوحي مسطح رقمي (DR) الشدة المتبقية؛ وبدلًا من ذلك تُقرأ الكاسيت لاحقًا في حالة ألواح الفوسفور التخزينية (CR). تُحوَّل القياسات إلى صورة بتدرج رمادي تظهر على الشاشة خلال ثوانٍ ويمكن معالجتها رقميًا وأرشفتها (PACS) وإرسالها.",
-            "يتحكم المولّد في جهد الأنبوب (kV) وحاصل ضرب التيار في الزمن (mAs)، وبالتالي في جودة الصورة والجرعة. ويحدّ التحكم الآلي في التعريض وشبكة منع التشتت وتضييق الحزمة (الكوليماتور) من الجرعة إلى الحد الضروري. ويُسجَّل حاصل ضرب الجرعة في المساحة تلقائيًا للتوثيق."
+            "خلف المريض يقيس كاشف لوحي مسطح رقمي (DR) الشدة المتبقية؛ أما في حالة ألواح الفوسفور التخزينية (CR) فتُقرأ الكاسيت لاحقًا بدلًا من ذلك. تُحوَّل القياسات إلى صورة بتدرج رمادي تظهر على الشاشة خلال ثوانٍ ويمكن معالجتها رقميًا وأرشفتها (PACS) وإرسالها.",
+            "يتحكم المولّد في جهد الأنبوب (kV) وحاصل ضرب التيار في الزمن (mAs)، وبالتالي في جودة الصورة والجرعة. ويحدّ التحكم الآلي في التعريض وتحديد حقل الإشعاع (الكوليماتور) من الجرعة إلى الحد الضروري؛ بينما تمتص شبكة منع التشتت الموضوعة أمام الكاشف الإشعاع المتشتت فتحسّن بذلك تباين الصورة. ويُسجَّل حاصل ضرب الجرعة في المساحة تلقائيًا للتوثيق."
           ],
           "use": [
             "صور الصدر (الرئتان والقلب)",
@@ -505,7 +527,7 @@
           ],
           "procurement": [
             "اختيار نوع الكاشف: كاشف لوحي ثابت في الطاولة/الحامل الجداري أو كاشف محمول لاسلكي (Wi-Fi) – الأخير أكثر مرونة لكنه معرّض للتلف عند السقوط؛ يُوضَّح التأمين أو الحماية من السقوط في العقد.",
-            "الحماية من الإشعاع والترخيص: الإخطار أو الترخيص من الجهة المختصة وفق قانون الحماية من الإشعاع (في ألمانيا: StrlSchG)، وفحص الخبير، والتدريع الإنشائي للغرفة، وتعيين مسؤول للحماية من الإشعاع شروط مسبقة للتشغيل.",
+            "الحماية من الإشعاع والترخيص: الإخطار أو الترخيص من الجهة المختصة وفق قانون الحماية من الإشعاع (في ألمانيا: StrlSchG)، والفحص من قِبل خبير معتمد رسميًا، والتدريع الإنشائي للغرفة، ووجود موظفين مؤهلين في الحماية من الإشعاع (مع تعيين مسؤول للحماية من الإشعاع عند الاقتضاء) شروط مسبقة للتشغيل.",
             "الواجهات: التحقق من DICOM (Store وWorklist وMPPS) للربط مع PACS/RIS، وتوثيق الجرعة (DICOM RDSR)، والربط بنظام المعلومات.",
             "ضمان الجودة: التخطيط لاختبارات القبول واختبارات الثبات (في ألمانيا وفق DIN 6868)؛ مع احتساب الأجسام الاختبارية (الفانتوم) ووقت الموظفين للفحوصات الدورية.",
             "مراجعة عقد الصيانة بشأن تغطية الأنبوب: أنبوب الأشعة والكاشف هما أغلى الأجزاء القابلة للاستهلاك؛ تُحدَّد أزمنة الاستجابة وتحديثات البرمجيات."
@@ -577,7 +599,7 @@
           ],
           "procurement": [
             "Zeilenzahl, Rotationszeit und Gantry-Öffnung nach klinischem Profil wählen: Notfall- und Kardio-CT benötigen schnelle Rotation und viele Zeilen, eine Praxis mit Standarduntersuchungen weniger.",
-            "Bauliche Vorbereitung: Strahlenschutzberechnung, Bodenbelastung, Kühlung/Klimatisierung, Stromanschluss mit hoher Anschlussleistung und Transportweg des Gantrys frühzeitig mit Fachplanern klären.",
+            "Bauliche Vorbereitung: Strahlenschutzberechnung, Bodenbelastung, Kühlung/Klimatisierung, Stromanschluss mit hoher Anschlussleistung und Transportweg der Gantry frühzeitig mit Fachplanern klären.",
             "Zubehör und Verbrauch: Kontrastmittelinjektor, Lagerungshilfen, Phantome für die Qualitätssicherung; Kontrastmittel und Verbrauchsmaterial sind laufende Betriebskosten.",
             "Service: Der Röhrenwechsel ist der größte Einzelkostenpunkt – Vollwartungsverträge inklusive Röhre, garantierte Verfügbarkeit (Uptime) und Fernwartung vergleichen.",
             "Regulatorik: Anzeige bzw. Genehmigung nach Strahlenschutzgesetz, Sachverständigenabnahme, Konstanzprüfungen, Dosismanagement-Software (DICOM RDSR) und Einweisung des Personals einplanen."
@@ -640,7 +662,7 @@
             }
           ],
           "procurement": [
-            "Choose detector rows, rotation time and gantry aperture according to the clinical profile: emergency and cardiac CT need fast rotation and many rows, a practice with standard examinations needs fewer.",
+            "Choose detector rows, rotation time and gantry bore according to the clinical profile: emergency and cardiac CT need fast rotation and many rows, a practice with standard examinations needs fewer.",
             "Site preparation: clarify the radiation shielding calculation, floor loading, cooling/air conditioning, power supply with high connected load and the transport route for the gantry early on with specialist planners.",
             "Accessories and consumables: contrast injector, positioning aids, phantoms for quality assurance; contrast medium and consumables are ongoing running costs.",
             "Service: a tube replacement is the largest single cost item – compare full-service contracts including the tube, guaranteed uptime and remote maintenance.",
@@ -672,10 +694,10 @@
         "ar": {
           "name": "جهاز التصوير المقطعي المحوسب (CT)",
           "subtitle": "صور مقطعية من أشعة سينية دوّارة",
-          "short": "يُنشئ جهاز التصوير المقطعي المحوسب من إسقاطات كثيرة للأشعة السينية صورًا مقطعية خالية من التراكب وإعادات بناء ثلاثية الأبعاد للجسم – بسرعة وتفصيل عالٍ، مثلًا في السكتة الدماغية والإصابات وتشخيص الأورام.",
+          "short": "يُنشئ جهاز التصوير المقطعي المحوسب من إسقاطات كثيرة للأشعة السينية صورًا مقطعية خالية من التراكب ونماذج ثلاثية الأبعاد للجسم – بسرعة وبتفاصيل دقيقة، مثلًا في السكتة الدماغية والإصابات وتشخيص الأورام.",
           "how": [
-            "داخل حلقة الجانتري يدور أنبوب الأشعة السينية وقوس الكواشف المقابل له حول المريض، بينما تتحرك الطاولة باستمرار عبر الفتحة (التصوير المقطعي الحلزوني). وتُجمع بذلك ملامح توهين الجسم من مئات الزوايا.",
-            "يعيد الحاسوب بناء الصور المقطعية من هذه الإسقاطات، ويُسند إلى كل عنصر حجمي (فوكسل) قيمة توهين بوحدات هاونسفيلد. فالماء يساوي 0 وحدة، والهواء نحو −1000 وحدة، والعظم الكثيف قيم موجبة واضحة. وتلتقط الكواشف متعددة الصفوف (مثلًا من 16 إلى أكثر من 256 صفًا) شرائح كثيرة في دورة واحدة.",
+            "داخل حلقة الجانتري يدور أنبوب الأشعة السينية وقوس الكواشف المقابل له حول المريض، بينما تتحرك الطاولة باستمرار عبر الفتحة (التصوير المقطعي الحلزوني). وبذلك تُجمع بيانات توهين الأشعة في الجسم من مئات المواضع الزاوية.",
+            "يعيد الحاسوب بناء الصور المقطعية من هذه الإسقاطات، ويُسند إلى كل عنصر حجمي (فوكسل) قيمة توهين بوحدات هاونسفيلد. فالماء يساوي 0 وحدة، والهواء نحو −1000 وحدة، وللعظم الكثيف قيم موجبة واضحة. وتلتقط الكواشف متعددة الصفوف (مثلًا من 16 إلى أكثر من 256 صفًا) شرائح كثيرة في دورة واحدة.",
             "يمكن من مجموعة البيانات حساب أي مستوى وعروض ثلاثية الأبعاد. وتُبرز مادة التباين اليودية المحقونة عبر حاقن آلي الأوعية والأعضاء (تصوير الأوعية المقطعي). وتخفّض تقنيات تقليل الجرعة مثل إعادة البناء التكرارية والتعديل الآلي لتيار الأنبوب التعرض للإشعاع."
           ],
           "use": [
@@ -704,9 +726,9 @@
             }
           ],
           "procurement": [
-            "اختيار عدد صفوف الكواشف وزمن الدوران وفتحة الجانتري وفق الملف السريري: يحتاج التصوير المقطعي للطوارئ والقلب إلى دوران سريع وصفوف كثيرة، بينما تحتاج العيادة ذات الفحوصات القياسية إلى أقل من ذلك.",
+            "اختيار عدد صفوف الكواشف وزمن الدوران وفتحة الجانتري وفق الاحتياجات السريرية: يحتاج التصوير المقطعي للطوارئ والقلب إلى دوران سريع وصفوف كثيرة، بينما تحتاج العيادة ذات الفحوصات القياسية إلى أقل من ذلك.",
             "التجهيز الإنشائي: توضيح حسابات التدريع الإشعاعي وحمل الأرضية والتبريد/التكييف والتغذية الكهربائية ذات القدرة العالية ومسار نقل الجانتري مبكرًا مع المخططين المتخصصين.",
-            "الملحقات والمستهلكات: حاقن مادة التباين، ووسائل تثبيت المريض، والأجسام الاختبارية لضمان الجودة؛ وتُحتسب مادة التباين والمستهلكات ضمن تكاليف التشغيل الجارية.",
+            "الملحقات والمستهلكات: حاقن مادة التباين، ووسائل توضيع المريض، والأجسام الاختبارية (الفانتوم) لضمان الجودة؛ وتُحتسب مادة التباين والمستهلكات ضمن تكاليف التشغيل الجارية.",
             "الصيانة: استبدال الأنبوب هو أكبر بند تكلفة منفرد – تُقارَن عقود الصيانة الشاملة التي تتضمن الأنبوب، ونسبة الجاهزية المضمونة، والصيانة عن بُعد.",
             "الجانب التنظيمي: التخطيط للإخطار أو الترخيص وفق قانون الحماية من الإشعاع، واختبار القبول من الخبير، واختبارات الثبات، وبرمجيات إدارة الجرعة (DICOM RDSR)، وتدريب الموظفين."
           ],
@@ -728,7 +750,7 @@
             "تصوير مقطعي",
             "أشعة مقطعية",
             "CT",
-            "سكانر",
+            "سي تي",
             "تصوير الأوعية المقطعي",
             "طبقي محوري"
           ]
@@ -780,12 +802,12 @@
             "Bauliche Anforderungen sind erheblich: HF-Abschirmung (Faraday-Käfig), magnetische Abschirmung, Bodenlast von mehreren Tonnen, Quench-Leitung ins Freie und Transportöffnung für den Magneten – Fachplaner früh einbinden.",
             "Betriebskosten: Helium-Nachfüllung bzw. heliumarme Systeme, Stromverbrauch, Kühlung und Kontrastmittel vergleichen; prüfen, ob der Vollwartungsvertrag Kaltkopf (Coldhead) und Spulen abdeckt.",
             "Spulenpaket passend zum Untersuchungsspektrum (Kopf, Wirbelsäule, Gelenke, Körper, Mamma) zusammenstellen – Spulen sind teuer und bestimmen die Bildqualität wesentlich.",
-            "Sicherheit: MR-Sicherheitskonzept mit Zonen, Schulung des Personals, Prüfung auf MR-bedingt taugliche Implantate/Geräte und MR-sicheres Zubehör (Narkose, Monitoring, Infusionspumpen) einplanen."
+            "Sicherheit und Betreiberpflichten: MR-Sicherheitskonzept mit Zonen, Schulung des Personals, Prüfung von Implantaten/Geräten auf MR-Sicherheit (MR-sicher bzw. MR-bedingt sicher) und MR-sicheres Zubehör (Narkose, Monitoring, Infusionspumpen) einplanen. MRT-Geräte fallen unter Anlage 1 der MPBetreibV: Einweisung durch den Hersteller oder eine beauftragte Person, Medizinproduktebuch und regelmäßige sicherheitstechnische Kontrollen sind Pflicht."
           ],
           "glossary": [
             {
               "term": "Tesla (T)",
-              "text": "Einheit der magnetischen Flussdichte. Klinische MRT-Systeme arbeiten meist mit 1,5 oder 3 T – zehntausendfach stärker als das Erdmagnetfeld."
+              "text": "Einheit der magnetischen Flussdichte. Klinische MRT-Systeme arbeiten meist mit 1,5 oder 3 T – einige Zehntausend Mal stärker als das Erdmagnetfeld."
             },
             {
               "term": "Sequenz (T1/T2)",
@@ -844,7 +866,7 @@
             "Structural requirements are considerable: RF shielding (Faraday cage), magnetic shielding, floor loads of several tonnes, a quench pipe to the outside and a transport opening for the magnet – involve specialist planners early.",
             "Running costs: compare helium refilling or low-helium systems, power consumption, cooling and contrast medium; check that the full-service contract covers the cold head and the coils.",
             "Assemble a coil package to match the examination spectrum (head, spine, joints, body, breast) – coils are expensive and largely determine image quality.",
-            "Safety: plan an MR safety concept with zones, staff training, screening for MR-conditional implants/devices and MR-safe accessories (anaesthesia, monitoring, infusion pumps)."
+            "Safety and operator duties: plan an MR safety concept with zones, staff training, screening of implants/devices for MR safety (MR safe or MR conditional) and MR-safe accessories (anaesthesia, monitoring, infusion pumps). In Germany, MRI scanners fall under Annex 1 of the MPBetreibV: training by the manufacturer or an authorised person, a medical device logbook and regular safety inspections are mandatory."
           ],
           "glossary": [
             {
@@ -875,7 +897,7 @@
           "short": "يصوّر جهاز الرنين المغناطيسي الأنسجة الرخوة والدماغ والمفاصل والأعضاء من دون أشعة سينية – باستخدام مجال مغناطيسي قوي وموجات راديوية وتباين ممتاز للأنسجة الرخوة.",
           "how": [
             "يولّد مغناطيس فائق التوصيل مجالًا مغناطيسيًا ثابتًا قويًا جدًا (سريريًا غالبًا 1.5 أو 3 تسلا). وتصطف فيه نوى الهيدروجين (البروتونات) في الجسم. تُخرج نبضات راديوية قصيرة البروتونات عن اصطفافها؛ وعند عودتها تُصدر إشارة ضعيفة تلتقطها ملفات الاستقبال.",
-            "تغيّر ملفات التدرج المجال المغناطيسي تغييرًا طفيفًا في الفضاء بحيث يمكن إسناد كل إشارة إلى موقعها – وهذا ما يسبب أصوات الطرق العالية المعروفة. وتتلاشى الإشارة بسرعات مختلفة حسب النسيج (استرخاء T1 وT2)؛ وينتج عن ذلك تسلسلات بتباين مختلف يكمل بعضها بعضًا.",
+            "تغيّر ملفات التدرج المجال المغناطيسي تغييرًا طفيفًا بحسب الموضع بحيث يمكن إسناد كل إشارة إلى مكانها – وهذا ما يسبب أصوات الطرق العالية المعروفة. وتتلاشى الإشارة بسرعات مختلفة حسب النسيج (استرخاء T1 وT2)؛ وينتج عن ذلك تسلسلات بتباين مختلف يكمل بعضها بعضًا.",
             "تُبرز مواد التباين المحتوية على الغادولينيوم الأوعية والعمليات الالتهابية أو الورمية. وتتيح تسلسلات خاصة التصوير الانتشاري (مثل العلامات المبكرة للسكتة الدماغية) وتصوير الأوعية من دون مادة تباين والتصوير الوظيفي. ويبقى المغناطيس نشطًا دائمًا – حتى عند إيقاف تشغيل الجهاز – ولذلك تلزم قواعد دخول صارمة."
           ],
           "use": [
@@ -896,7 +918,7 @@
             },
             {
               "label": "المساحة المطلوبة",
-              "value": "غرفة معزولة عن الترددات الراديوية (قفص فاراداي)، وغرفة تحكم وغرفة تجهيزات، مع ضبط الدخول"
+              "value": "غرفة معزولة عن الترددات الراديوية (قفص فاراداي)، وغرفة تحكم وغرفة تجهيزات، مع التحكم في الدخول"
             },
             {
               "label": "مدة الاستخدام النموذجية",
@@ -908,7 +930,7 @@
             "المتطلبات الإنشائية كبيرة: العزل عن الترددات الراديوية (قفص فاراداي)، والتدريع المغناطيسي، وأحمال أرضية بعدة أطنان، وأنبوب تفريغ (كوينش) إلى الخارج، وفتحة لنقل المغناطيس – يُشرك المخططون المتخصصون مبكرًا.",
             "تكاليف التشغيل: مقارنة إعادة تعبئة الهيليوم أو الأنظمة منخفضة الهيليوم، واستهلاك الكهرباء، والتبريد، ومادة التباين؛ والتحقق من أن عقد الصيانة الشاملة يغطي رأس التبريد والملفات.",
             "تجميع حزمة الملفات بما يناسب نطاق الفحوصات (الرأس والعمود الفقري والمفاصل والجسم والثدي) – فالملفات باهظة الثمن وتحدد جودة الصورة إلى حد كبير.",
-            "السلامة: التخطيط لمفهوم سلامة الرنين المغناطيسي بمناطق محددة، وتدريب الموظفين، وفحص المرضى بحثًا عن غرسات/أجهزة مشروطة التوافق مع الرنين، واستخدام ملحقات آمنة للرنين (التخدير والمراقبة ومضخات التسريب)."
+            "السلامة وواجبات المشغّل: التخطيط لمفهوم سلامة الرنين المغناطيسي بمناطق محددة، وتدريب الموظفين، وفحص الغرسات/الأجهزة من حيث سلامتها في الرنين المغناطيسي (آمنة أو آمنة بشروط)، واستخدام ملحقات آمنة للرنين (التخدير والمراقبة ومضخات التسريب). وفي ألمانيا تندرج أجهزة الرنين المغناطيسي ضمن الملحق 1 من لائحة MPBetreibV: فالتدريب من قِبل الشركة المصنّعة أو شخص مفوَّض، وسجل الجهاز الطبي، والفحوصات الفنية الدورية للسلامة إلزامية."
           ],
           "glossary": [
             {
@@ -959,7 +981,7 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse (MDR)",
+              "label": "Risikoklasse (MDR/IVDR)",
               "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
@@ -1023,7 +1045,7 @@
           ],
           "facts": [
             {
-              "label": "Risk class (MDR)",
+              "label": "Risk class (MDR/IVDR)",
               "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
@@ -1087,7 +1109,7 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر (MDR)",
+              "label": "فئة المخاطر (MDR/IVDR)",
               "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
@@ -1159,7 +1181,7 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse (MDR)",
+              "label": "Risikoklasse (MDR/IVDR)",
               "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
@@ -1223,7 +1245,7 @@
           ],
           "facts": [
             {
-              "label": "Risk class (MDR)",
+              "label": "Risk class (MDR/IVDR)",
               "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
@@ -1287,7 +1309,7 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر (MDR)",
+              "label": "فئة المخاطر (MDR/IVDR)",
               "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
@@ -1359,7 +1381,7 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse (MDR)",
+              "label": "Risikoklasse (MDR/IVDR)",
               "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
@@ -1423,7 +1445,7 @@
           ],
           "facts": [
             {
-              "label": "Risk class (MDR)",
+              "label": "Risk class (MDR/IVDR)",
               "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
@@ -1487,7 +1509,7 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر (MDR)",
+              "label": "فئة المخاطر (MDR/IVDR)",
               "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
@@ -1559,7 +1581,7 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse (MDR)",
+              "label": "Risikoklasse (MDR/IVDR)",
               "value": "Allgemeines Laborgerät; wenn vom Hersteller für die In-vitro-Diagnostik bestimmt, in der Regel Klasse A nach IVDR"
             },
             {
@@ -1623,7 +1645,7 @@
           ],
           "facts": [
             {
-              "label": "Risk class (MDR)",
+              "label": "Risk class (MDR/IVDR)",
               "value": "General laboratory equipment; if intended by the manufacturer for in-vitro diagnostics, usually class A under the IVDR"
             },
             {
@@ -1687,7 +1709,7 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر (MDR)",
+              "label": "فئة المخاطر (MDR/IVDR)",
               "value": "جهاز مخبري عام؛ وإذا خصّصه المصنّع للتشخيص المخبري فهو عادةً من الفئة A وفق لائحة IVDR"
             },
             {
@@ -1780,7 +1802,7 @@
             "Prüfen Sie die Schnittstellen zur Zentralüberwachung und zum Krankenhausinformationssystem (z. B. HL7) sowie die Kompatibilität mit vorhandenen Monitoren und der Infrastruktur (Netzwerk, WLAN).",
             "Kalkulieren Sie die laufenden Kosten für Verbrauchsmaterial wie Elektroden, SpO2-Sensoren, Blutdruckmanschetten und Temperatursonden; herstellerspezifische Sensoren können die Folgekosten erheblich beeinflussen.",
             "Berücksichtigen Sie Alarmmanagement und Ergonomie: einheitliche Alarmphilosophie im Haus, gute Ablesbarkeit, einfache Bedienung und leicht zu reinigende Oberflächen.",
-            "Vereinbaren Sie einen Servicevertrag, die sicherheitstechnischen Kontrollen (STK) nach Medizinprodukte-Betreiberverordnung, die Einweisung des Personals und Ersatzgeräte für Ausfallzeiten."
+            "Vereinbaren Sie einen Servicevertrag, die Einweisung des Personals und Ersatzgeräte für Ausfallzeiten. Beachten Sie die Prüfpflichten nach Medizinprodukte-Betreiberverordnung (MPBetreibV): sicherheitstechnische Kontrollen (STK) bei Monitoren mit invasiver Druckmessung, messtechnische Kontrollen (MTK) für die nicht-invasive Blutdruckmessung."
           ],
           "glossary": [
             {
@@ -1844,7 +1866,7 @@
             "Check the interfaces to the central station and the hospital information system (e.g. HL7) as well as compatibility with existing monitors and the infrastructure (network, Wi-Fi).",
             "Calculate the running costs for consumables such as electrodes, SpO2 sensors, blood pressure cuffs and temperature probes; proprietary sensors can significantly affect follow-up costs.",
             "Consider alarm management and ergonomics: a consistent alarm philosophy across the facility, good readability, simple operation and surfaces that are easy to clean.",
-            "Agree on a service contract, the periodic safety inspections (in Germany: STK under the Medical Devices Operator Ordinance), staff training and backup devices for downtime."
+            "Agree on a service contract, staff training and backup devices for downtime. Observe the inspection duties under the Medical Devices Operator Ordinance (in Germany: MPBetreibV): periodic safety inspections (STK) for monitors with invasive pressure measurement and metrological checks (MTK) for the non-invasive blood pressure function."
           ],
           "glossary": [
             {
@@ -1875,13 +1897,13 @@
           "short": "يسجّل جهاز مراقبة المريض عدة علامات حيوية في آن واحد، ويعرضها على شكل منحنيات وقيم رقمية، ويطلق إنذاراً عند تجاوز الحدود المضبوطة. وهو جهاز المراقبة المركزي في وحدات العناية المركزة وغرف العمليات وأقسام الطوارئ.",
           "how": [
             "يلتقط الجهاز إشارات القياس مباشرة من المريض عبر الأقطاب الكهربائية والمستشعرات وأكمام قياس الضغط. وتشمل المعايير النموذجية تخطيط القلب (ECG) مع معدل ضربات القلب، وتشبّع الأكسجين (SpO2)، وضغط الدم غير الباضع (NIBP)، ومعدل التنفس، ودرجة حرارة الجسم. ويمكن حسب التجهيز إضافة ضغط الدم الباضع أو قياس ثاني أكسيد الكربون في هواء الزفير (etCO2) أو النتاج القلبي.",
-            "تُعالج الإشارات رقمياً وتُعرض على شكل منحنيات وقيم رقمية، وتُقارن بحدود إنذار قابلة للضبط. وعند تجاوز هذه الحدود صعوداً أو هبوطاً يصدر الجهاز إنذارات بصرية وصوتية بدرجات أولوية متفاوتة. كما تُظهر شاشات الاتجاهات مسار القيم على مدى ساعات مما يسهّل التقييم.",
+            "تُعالج الإشارات رقمياً وتُعرض على شكل منحنيات وقيم رقمية، وتُقارن بحدود إنذار قابلة للضبط. وعند تجاوز هذه الحدود صعوداً أو هبوطاً يصدر الجهاز إنذارات بصرية وصوتية بدرجات أولوية متفاوتة. كما تُظهر عروض الاتجاهات الزمنية مسار القيم على مدى ساعات، مما يسهّل التقييم.",
             "كثير من الأجهزة ذات بنية معيارية، إذ يمكن إدخال وحدات القياس أو إزالتها حسب الحاجة. وعبر اتصال شبكي يمكن نقل البيانات إلى محطة مراقبة مركزية وإلى نظام إدارة بيانات المرضى، بحيث يتابع الطاقم عدة أسرّة في الوقت نفسه."
           ],
           "use": [
             "وحدات العناية المركزة والعناية المتوسطة",
             "غرفة العمليات وغرفة الإفاقة",
-            "قسم الطوارئ وغرفة الصدمات",
+            "قسم الطوارئ وغرفة الإنعاش",
             "نقل المرضى داخل المستشفى وخارجه",
             "مراقبة المرضى المعرضين للخطر في الأقسام العامة"
           ],
@@ -1905,10 +1927,10 @@
           ],
           "procurement": [
             "حدّدوا مجموعة المعايير المطلوبة لكل وحدة (الأساسية: تخطيط القلب وSpO2 وNIBP ودرجة الحرارة؛ العناية المركزة: إضافة الضغط الباضع وقياس ثاني أكسيد الكربون) واحرصوا على إمكانية الترقية لاحقاً بوحدات إضافية.",
-            "تحققوا من واجهات الربط مع محطة المراقبة المركزية ونظام معلومات المستشفى (مثل HL7)، ومن التوافق مع الأجهزة الموجودة والبنية التحتية (الشبكة، الواي فاي).",
+            "تحققوا من واجهات الربط مع محطة المراقبة المركزية ونظام معلومات المستشفى (مثل HL7)، ومن التوافق مع الأجهزة الموجودة والبنية التحتية (الشبكة، الشبكة اللاسلكية).",
             "احسبوا التكاليف الجارية للمستهلكات مثل الأقطاب ومستشعرات SpO2 وأكمام ضغط الدم ومجسات الحرارة؛ فالمستشعرات الخاصة بالمصنّع قد تؤثر بشكل كبير في التكاليف اللاحقة.",
             "راعوا إدارة الإنذارات وسهولة الاستخدام: فلسفة إنذار موحدة في المنشأة، ووضوح القراءة، وبساطة التشغيل، وأسطح سهلة التنظيف.",
-            "اتفقوا على عقد صيانة، وفحوصات السلامة الدورية (في ألمانيا: فحوصات STK وفق لائحة مشغّلي الأجهزة الطبية)، وتدريب الطاقم، وتوفير أجهزة احتياطية لفترات التعطل."
+            "اتفقوا على عقد صيانة، وتدريب الطاقم، وتوفير أجهزة احتياطية لفترات التعطل. وراعوا واجبات الفحص وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV): فحوصات السلامة التقنية الدورية (STK) للأجهزة المزوّدة بقياس الضغط الباضع، والفحوصات المترولوجية (MTK) لوظيفة قياس ضغط الدم غير الباضع."
           ],
           "glossary": [
             {
@@ -1980,7 +2002,7 @@
             "Prüfen Sie die Qualität der Interpretationssoftware und die Möglichkeit, frühere EKGs zum Vergleich aufzurufen.",
             "Klären Sie das Elektrodensystem: Klebeelektroden verursachen laufende Kosten, Saugelektroden oder Elektrodengurte sparen Zeit bei hohem Patientenaufkommen.",
             "Achten Sie auf Akkubetrieb und Gewicht, wenn das Gerät zwischen Räumen oder auf Station bewegt wird, sowie auf die Eignung für Belastungs-EKG, falls dies geplant ist.",
-            "Planen Sie die Einweisung des Personals, regelmäßige messtechnische Kontrollen und einen Servicevertrag ein; Thermopapier und Patientenkabel sind typische Verschleißteile."
+            "Planen Sie die Einweisung des Personals, die Instandhaltung nach Herstellerangaben und einen Servicevertrag ein; Thermopapier und Patientenkabel sind typische Verschleißteile. Ruhe-EKG-Geräte unterliegen nach Medizinprodukte-Betreiberverordnung (MPBetreibV) in der Regel weder der sicherheitstechnischen (STK) noch der messtechnischen Kontrolle (MTK); ein für Belastungs-EKGs angeschlossenes Ergometer ist jedoch MTK-pflichtig."
           ],
           "glossary": [
             {
@@ -2040,11 +2062,11 @@
             }
           ],
           "procurement": [
-            "Choose between a model with thermal printer, a screen-only device or a PC-based system; for practices, direct connection to the practice management software (e.g. via the GDT interface common in German practices, or DICOM/HL7 in hospitals) is a key criterion.",
+            "Choose between a model with a thermal printer, a screen-only device or a PC-based system; for practices, direct connection to the practice management software (e.g. via the GDT interface common in German practices, or DICOM/HL7 in hospitals) is a key criterion.",
             "Check the quality of the interpretation software and the option to retrieve earlier ECGs for comparison.",
             "Clarify the electrode system: adhesive electrodes cause ongoing costs, while suction electrodes or electrode belts save time with high patient volumes.",
             "Pay attention to battery operation and weight if the device is moved between rooms or on the ward, and to suitability for exercise ECG if this is planned.",
-            "Plan staff training, regular metrological checks and a service contract; thermal paper and patient cables are typical wear parts."
+            "Plan staff training, maintenance according to the manufacturer's instructions and a service contract; thermal paper and patient cables are typical wear parts. Under the Medical Devices Operator Ordinance (in Germany: MPBetreibV), resting ECG machines are generally subject neither to periodic safety inspections (STK) nor to metrological checks (MTK); an ergometer connected for exercise ECGs, however, does require metrological checks."
           ],
           "glossary": [
             {
@@ -2072,7 +2094,7 @@
         "ar": {
           "name": "جهاز تخطيط القلب (12 قناة)",
           "subtitle": "تسجيل النشاط الكهربائي للقلب",
-          "short": "يسجّل جهاز تخطيط القلب ذو 12 قناة النشاط الكهربائي للقلب عبر عشرة أقطاب كهربائية ويعرضه في اثني عشر اتجاهاً (Lead). وهو الإجراء القياسي لتشخيص اضطرابات نظم القلب وضعف تروية عضلة القلب.",
+          "short": "يسجّل جهاز تخطيط القلب ذو 12 قناة النشاط الكهربائي للقلب عبر عشرة أقطاب كهربائية ويعرضه في اثني عشر اتجاهاً (Lead). وهو الإجراء القياسي لتشخيص اضطرابات نظم القلب واضطرابات تروية عضلة القلب.",
           "how": [
             "تنشأ كل ضربة قلب عن إثارة كهربائية تنتشر عبر عضلة القلب. ويمكن قياس هذه التغيرات الطفيفة في الجهد على سطح الجلد. ولهذا الغرض تُثبّت أربعة أقطاب على الأطراف وستة أقطاب على جدار الصدر.",
             "يحسب الجهاز من إشارات الأقطاب العشرة اثني عشر اتجاهاً تصوّر القلب من زوايا مختلفة. وتُضخَّم المنحنيات وتُرشَّح وتُسجَّل كتخطيط قلب في حالة الراحة على مدى عشر ثوانٍ تقريباً. وتقدّم الأجزاء المميزة مثل الموجة P ومركّب QRS والموجة T معلومات عن النظم والتوصيل الكهربائي والتروية.",
@@ -2108,7 +2130,7 @@
             "تحققوا من جودة برنامج التفسير ومن إمكانية استدعاء تخطيطات سابقة للمقارنة.",
             "وضّحوا نظام الأقطاب: الأقطاب اللاصقة تسبب تكاليف جارية، بينما توفر أقطاب الشفط أو أحزمة الأقطاب الوقت عند ارتفاع عدد المرضى.",
             "انتبهوا إلى التشغيل بالبطارية والوزن إذا كان الجهاز يُنقل بين الغرف أو في القسم، وإلى ملاءمته لتخطيط القلب بالجهد إن كان ذلك مخططاً.",
-            "خططوا لتدريب الطاقم، والفحوصات المترولوجية المنتظمة، وعقد صيانة؛ فالورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية."
+            "خططوا لتدريب الطاقم، والصيانة وفق تعليمات الجهة المصنّعة، وعقد صيانة؛ فالورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية. ووفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV) لا تخضع أجهزة تخطيط القلب في الراحة عادةً لفحوصات السلامة التقنية (STK) ولا للفحوصات المترولوجية (MTK)، في حين يخضع جهاز قياس الجهد (Ergometer) الموصول لتخطيط القلب بالجهد للفحوصات المترولوجية."
           ],
           "glossary": [
             {
@@ -2180,7 +2202,7 @@
             "Achten Sie auf Sensoren in passenden Größen (Erwachsene, Kinder, Neugeborene) und klären Sie, ob Einmal- oder Mehrwegsensoren wirtschaftlicher sind.",
             "Prüfen Sie die Messleistung bei Bewegung und schwacher Durchblutung, insbesondere für Kinder, Notfälle und unruhige Patienten.",
             "Für die kontinuierliche Überwachung sind Alarmlautstärke, Akkulaufzeit, Datenspeicher und eine Schnittstelle zum Patientenmonitor oder zur Dokumentation wichtig.",
-            "Berücksichtigen Sie messtechnische Kontrollen, Reinigung und Desinfektion der Sensoren sowie die Einweisung in typische Fehlerquellen."
+            "Berücksichtigen Sie die regelmäßige Funktionsprüfung und Wartung nach Herstellerangaben, Reinigung und Desinfektion der Sensoren sowie die Einweisung in typische Fehlerquellen; eine messtechnische Kontrolle nach Medizinprodukte-Betreiberverordnung (MPBetreibV) ist für Pulsoximeter nicht vorgeschrieben."
           ],
           "glossary": [
             {
@@ -2244,7 +2266,7 @@
             "Make sure sensors are available in suitable sizes (adults, children, newborns) and clarify whether single-use or reusable sensors are more economical.",
             "Check measurement performance during movement and low perfusion, especially for children, emergencies and restless patients.",
             "For continuous monitoring, alarm volume, battery life, data storage and an interface to the patient monitor or documentation system are important.",
-            "Take into account metrological checks, cleaning and disinfection of the sensors and training on typical sources of error."
+            "Take into account regular function checks and maintenance according to the manufacturer's instructions, cleaning and disinfection of the sensors and training on typical sources of error; metrological checks under the Medical Devices Operator Ordinance (in Germany: MPBetreibV) are not required for pulse oximeters."
           ],
           "glossary": [
             {
@@ -2282,7 +2304,7 @@
             "المراقبة الروتينية في الأقسام والعيادات",
             "طب الطوارئ وخدمات الإسعاف",
             "التهدئة والتخدير وغرفة الإفاقة",
-            "التهوية المنزلية وأمراض الرئة المزمنة",
+            "التهوية الميكانيكية المنزلية وأمراض الرئة المزمنة",
             "فحص حديثي الولادة للكشف عن عيوب القلب"
           ],
           "facts": [
@@ -2305,10 +2327,10 @@
           ],
           "procurement": [
             "اختاروا الشكل المناسب: جهاز إصبع للفحوصات السريعة، أو جهاز محمول بمستشعر سلكي للنقل والإسعاف، أو جهاز مكتبي مزوّد بإنذارات للمراقبة المستمرة.",
-            "احرصوا على توفر مستشعرات بمقاسات مناسبة (البالغون، الأطفال، حديثو الولادة) ووضّحوا ما إذا كانت المستشعرات أحادية الاستخدام أم متعددة الاستخدام أكثر اقتصادية.",
-            "تحققوا من أداء القياس أثناء الحركة وعند ضعف التروية، خاصةً لدى الأطفال وفي الحالات الطارئة والمرضى غير المستقرين.",
+            "احرصوا على توفر مستشعرات بمقاسات مناسبة (البالغون، الأطفال، حديثو الولادة) ووضّحوا أيّهما أكثر اقتصادية: المستشعرات أحادية الاستخدام أم القابلة لإعادة الاستخدام.",
+            "تحققوا من أداء القياس أثناء الحركة وعند ضعف التروية، خاصةً لدى الأطفال وفي الحالات الطارئة والمرضى كثيري الحركة.",
             "للمراقبة المستمرة تُعدّ شدة صوت الإنذار وعمر البطارية وتخزين البيانات وواجهة الربط بجهاز مراقبة المريض أو نظام التوثيق أموراً مهمة.",
-            "راعوا الفحوصات المترولوجية وتنظيف المستشعرات وتطهيرها والتدريب على مصادر الخطأ الشائعة."
+            "راعوا الفحص الوظيفي المنتظم والصيانة وفق تعليمات الجهة المصنّعة، وتنظيف المستشعرات وتطهيرها، والتدريب على مصادر الخطأ الشائعة؛ ولا تُشترط لمقاييس التأكسج النبضي فحوصات مترولوجية وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)."
           ],
           "glossary": [
             {
@@ -2380,7 +2402,7 @@
             "Für den Kreißsaal ist eine zentrale Überwachung mit Anbindung mehrerer Geräte und digitaler Archivierung der Aufzeichnungen (Dokumentationspflicht) ein wichtiges Kriterium.",
             "Prüfen Sie Verbrauchsmaterial und Zubehör: Registrierpapier, Ultraschallgel, Gurte sowie wiederaufladbare kabellose oder wasserfeste Sensoren für die Gebärwanne.",
             "Achten Sie auf die Signalqualität bei adipösen Patientinnen und bei Bewegung sowie auf eine einfache Sensorpositionierung durch das Personal.",
-            "Vereinbaren Sie Schulungen zur CTG-Interpretation, einen Servicevertrag und die regelmäßigen sicherheits- und messtechnischen Kontrollen."
+            "Vereinbaren Sie Schulungen zur CTG-Interpretation, einen Servicevertrag und die regelmäßige Instandhaltung nach Herstellerangaben; eine integrierte mütterliche Blutdruckmessung unterliegt zusätzlich der messtechnischen Kontrolle (MTK) nach Medizinprodukte-Betreiberverordnung (MPBetreibV)."
           ],
           "glossary": [
             {
@@ -2444,7 +2466,7 @@
             "For the delivery room, central monitoring with connection of several devices and digital archiving of the recordings (documentation requirements) is an important criterion.",
             "Check consumables and accessories: recording paper, ultrasound gel, belts, and rechargeable wireless or waterproof sensors for the birthing pool.",
             "Pay attention to signal quality in obese patients and during movement, and to easy sensor positioning by staff.",
-            "Arrange training in CTG interpretation, a service contract and the regular safety and metrological checks."
+            "Arrange training in CTG interpretation, a service contract and regular maintenance according to the manufacturer's instructions; an integrated maternal blood pressure function is additionally subject to metrological checks (MTK) under the Medical Devices Operator Ordinance (in Germany: MPBetreibV)."
           ],
           "glossary": [
             {
@@ -2475,7 +2497,7 @@
           "short": "يسجّل جهاز مراقبة الجنين (تخطيط قلب الجنين والانقباضات، CTG) في الوقت نفسه معدل ضربات قلب الجنين وانقباضات رحم الأم. ويُستخدم في رعاية الحمل وأثناء المخاض لمراقبة سلامة الجنين.",
           "how": [
             "يكشف مستشعر دوبلر بالموجات فوق الصوتية يوضع على بطن الأم حركات قلب الجنين ويحسب منها معدل ضربات قلبه. ويسجّل مستشعر ثانٍ، وهو محوّل ضغط (مقياس الانقباضات)، توتر جدار البطن وبالتالي تكرار الانقباضات ومدتها. ويُثبّت كلا المستشعرين بأحزمة مرنة.",
-            "يعرض الجهاز الإشارتين كمنحنيين متوازيين على مدار الزمن، على الورق أو على الشاشة. ويأخذ التقييم في الاعتبار المعدل الأساسي والتغيّرية والتسارعات والتباطؤات في معدل ضربات قلب الجنين بالنسبة إلى الانقباضات. وبذلك يمكن التعرف على مؤشرات نقص إمداد الجنين بالأكسجين.",
+            "يعرض الجهاز الإشارتين كمنحنيين متوازيين على مدار الزمن، على الورق أو على الشاشة. ويأخذ التقييم في الاعتبار المعدل الأساسي والتباين والتسارعات والتباطؤات في معدل ضربات قلب الجنين بالنسبة إلى الانقباضات. وبذلك يمكن التعرف على مؤشرات نقص إمداد الجنين بالأكسجين.",
             "تراقب كثير من الأجهزة إضافةً إلى ذلك نبض الأم وتشبّع الأكسجين لديها لتجنب الخلط مع معدل ضربات قلب الجنين. وتتوفر للحمل المتعدد أجهزة بقناتين أو ثلاث قنوات لمعدل ضربات القلب، كما تتيح المستشعرات اللاسلكية للحامل مزيداً من حرية الحركة."
           ],
           "use": [
@@ -2508,7 +2530,7 @@
             "بالنسبة لغرفة الولادة تُعدّ المراقبة المركزية مع ربط عدة أجهزة والأرشفة الرقمية للتسجيلات (متطلبات التوثيق) معياراً مهماً.",
             "تحققوا من المستهلكات والملحقات: ورق التسجيل، وهلام الموجات فوق الصوتية، والأحزمة، والمستشعرات اللاسلكية القابلة للشحن أو المقاومة للماء لحوض الولادة.",
             "انتبهوا إلى جودة الإشارة لدى المريضات ذوات السمنة وأثناء الحركة، وإلى سهولة وضع المستشعرات من قبل الطاقم.",
-            "رتّبوا تدريباً على تفسير تخطيط CTG، وعقد صيانة، والفحوصات الدورية للسلامة والقياس."
+            "رتّبوا تدريباً على تفسير تخطيط CTG، وعقد صيانة، والصيانة المنتظمة وفق تعليمات الجهة المصنّعة؛ وتخضع وظيفة قياس ضغط دم الأم المدمجة في الجهاز إضافةً إلى ذلك للفحوصات المترولوجية (MTK) وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)."
           ],
           "glossary": [
             {
@@ -2520,7 +2542,7 @@
               "text": "محوّل ضغط يوضع على جدار البطن يسجّل الانقباضات دون قياس شدتها الفعلية."
             },
             {
-              "term": "التغيّرية",
+              "term": "التباين (Variability)",
               "text": "التذبذب الطبيعي في معدل ضربات قلب الجنين من ضربة إلى أخرى؛ وهو علامة مهمة على سلامة الجنين."
             }
           ],
@@ -2547,7 +2569,7 @@
           "short": "Narkosegeräte (Anästhesie-Arbeitsplätze) dosieren Sauerstoff, Luft und Narkosegase, beatmen den Patienten während der Operation und überwachen die Atemgase kontinuierlich.",
           "how": [
             "Ein Narkosegerät mischt aus der zentralen Gasversorgung oder aus Gasflaschen Sauerstoff, medizinische Luft und bei Bedarf Lachgas zu einem definierten Frischgasfluss. Ein Verdampfer (Vapor) reichert dieses Gas mit einem flüchtigen Narkosemittel wie Sevofluran oder Desfluran in genau einstellbarer Konzentration an. Das Gasgemisch gelangt über das Atemsystem und den Beatmungstubus oder die Larynxmaske zum Patienten.",
-            "Da narkotisierte Patienten meist nicht ausreichend selbst atmen, übernimmt der integrierte Ventilator die Beatmung mit einstellbarem Volumen, Druck und Frequenz. Im Kreissystem wird die Ausatemluft zurückgeführt: Ein Atemkalk-Absorber entfernt das Kohlendioxid, sodass Narkosemittel und Sauerstoff wiederverwendet werden können. Dieser Niedrigflussbetrieb spart Narkosemittel und schont die Umwelt.",
+            "Da narkotisierte Patienten meist nicht ausreichend selbst atmen, übernimmt der integrierte Ventilator die Beatmung mit einstellbarem Volumen, Druck und Frequenz. Im Kreissystem wird die Ausatemluft zurückgeführt: Ein Atemkalk-Absorber entfernt das Kohlendioxid, sodass Narkosemittel und Sauerstoff wiederverwendet werden können. Der Betrieb mit niedrigem Frischgasfluss (Niedrigflussnarkose) spart Narkosemittel und schont die Umwelt.",
             "Ein Gasmonitor misst fortlaufend die ein- und ausgeatmeten Konzentrationen von Sauerstoff, Kohlendioxid (Kapnografie) und Narkosemittel. Zusammen mit dem Patientenmonitor (EKG, Blutdruck, Sauerstoffsättigung) ergibt sich ein vollständiges Bild von Narkosetiefe und Vitalfunktionen. Alarme warnen bei Diskonnektion, Atemstillstand oder Sauerstoffmangel."
           ],
           "use": [
@@ -2580,7 +2602,7 @@
             "Beatmungsmodi und Patientenspektrum abgleichen: Für Kinder und Neugeborene sind druckkontrollierte Modi und kleine Tidalvolumina erforderlich; Niedrigflussfähigkeit senkt die Narkosemittelkosten dauerhaft.",
             "Verbrauchsmaterial einplanen: Atemkalk, Atemsysteme, Filter, Masken, Verdampfer je Narkosemittel sowie Sensoren und Wasserfallen für den Gasmonitor verursachen laufende Kosten.",
             "Schnittstellen prüfen: Datenübergabe an das elektronische Narkoseprotokoll bzw. Patientendatenmanagementsystem (PDMS) und Kopplung mit dem Patientenmonitor.",
-            "Sicherheitstechnische Kontrollen (STK) nach MPBetreibV, Wartungsintervalle und einen Servicevertrag mit Reaktionszeit vereinbaren; die Einweisung aller Anwender ist zu dokumentieren."
+            "Sicherheitstechnische Kontrollen (STK) nach MPBetreibV, Wartungsintervalle und einen Servicevertrag mit Reaktionszeit vereinbaren; Narkosegeräte fallen unter Anlage 1 der MPBetreibV, daher sind ein Medizinproduktebuch zu führen und die Einweisung aller Anwender darin zu dokumentieren."
           ],
           "glossary": [
             {
@@ -2589,7 +2611,7 @@
             },
             {
               "term": "Kreissystem",
-              "text": "Atemsystem, in dem die Ausatemluft nach Entfernung des Kohlendioxids durch Atemkalk wieder dem Patienten zugeführt wird – spart Narkosegas, Feuchtigkeit und Wärme."
+              "text": "Atemsystem, in dem die Ausatemluft nach Entfernung des Kohlendioxids durch Atemkalk wieder dem Patienten zugeführt wird – spart Narkosegas und erhält Feuchtigkeit und Wärme der Atemluft."
             },
             {
               "term": "Kapnografie",
@@ -2611,7 +2633,7 @@
           "short": "Anesthesia machines (anesthesia workstations) dose oxygen, air and anesthetic gases, ventilate the patient during surgery and continuously monitor the respiratory gases.",
           "how": [
             "An anesthesia machine blends oxygen, medical air and, when required, nitrous oxide from the central gas supply or gas cylinders into a defined fresh gas flow. A vaporizer enriches this gas with a volatile anesthetic such as sevoflurane or desflurane at a precisely adjustable concentration. The gas mixture reaches the patient through the breathing system and an endotracheal tube or laryngeal mask.",
-            "Because anesthetized patients usually do not breathe adequately on their own, the integrated ventilator takes over ventilation with adjustable volume, pressure and rate. In the circle system, exhaled gas is recirculated: a soda-lime absorber removes the carbon dioxide so that anesthetic agent and oxygen can be reused. This low-flow operation saves anesthetic agent and protects the environment.",
+            "Because anesthetized patients usually do not breathe adequately on their own, the integrated ventilator takes over ventilation with adjustable volume, pressure and rate. In the circle system, exhaled gas is recirculated: a soda-lime absorber removes the carbon dioxide so that anesthetic agent and oxygen can be reused. Operating with a low fresh gas flow (low-flow anesthesia) saves anesthetic agent and protects the environment.",
             "A gas monitor continuously measures the inspired and expired concentrations of oxygen, carbon dioxide (capnography) and anesthetic agent. Together with the patient monitor (ECG, blood pressure, oxygen saturation), this gives a complete picture of the depth of anesthesia and the vital functions. Alarms warn of disconnection, respiratory arrest or lack of oxygen."
           ],
           "use": [
@@ -2644,7 +2666,7 @@
             "Match ventilation modes to the patient population: children and newborns require pressure-controlled modes and small tidal volumes; low-flow capability permanently reduces anesthetic agent costs.",
             "Plan for consumables: soda lime, breathing circuits, filters, masks, one vaporizer per anesthetic agent as well as sensors and water traps for the gas monitor generate ongoing costs.",
             "Check interfaces: data transfer to the electronic anesthesia record or patient data management system (PDMS) and coupling with the patient monitor.",
-            "Agree on safety inspections as required by national medical device regulations, maintenance intervals and a service contract with a defined response time; training of all users must be documented."
+            "Agree on periodic safety inspections (STK) under the German Medical Devices Operator Ordinance (MPBetreibV), maintenance intervals and a service contract with a defined response time; anesthesia machines fall under Annex 1 of the MPBetreibV, so a medical device logbook must be kept and the training of all users documented in it."
           ],
           "glossary": [
             {
@@ -2653,7 +2675,7 @@
             },
             {
               "term": "Circle system",
-              "text": "Breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime – saving anesthetic gas, moisture and heat."
+              "text": "Breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime – saving anesthetic gas and preserving the moisture and heat of the breathing gas."
             },
             {
               "term": "Capnography",
@@ -2675,7 +2697,7 @@
           "short": "تقوم أجهزة التخدير (محطات عمل التخدير) بضبط جرعات الأكسجين والهواء وغازات التخدير، وتهوية المريض أثناء الجراحة، ومراقبة غازات التنفس باستمرار.",
           "how": [
             "يمزج جهاز التخدير الأكسجين والهواء الطبي، وعند الحاجة أكسيد النيتروز، من شبكة الغازات الطبية المركزية أو من الأسطوانات للحصول على تدفق غاز طازج محدد. ويضيف المبخّر (Vaporizer) إلى هذا الغاز مخدّرًا طيّارًا مثل السيفوفلوران أو الديسفلوران بتركيز قابل للضبط بدقة. ويصل خليط الغازات إلى المريض عبر دارة التنفس والأنبوب الرغامي أو القناع الحنجري.",
-            "ولأن المريض المخدَّر لا يتنفس عادةً بشكل كافٍ من تلقاء نفسه، يتولى جهاز التهوية المدمج عملية التنفس بحجم وضغط وتردد قابلة للضبط. وفي الدارة الدائرية يُعاد تدوير هواء الزفير: إذ يزيل ممتص الجير الصودي ثاني أكسيد الكربون بحيث يمكن إعادة استخدام المخدّر والأكسجين. ويوفّر هذا التشغيل منخفض التدفق كمية المخدّر المستهلكة ويحافظ على البيئة.",
+            "ولأن المريض المخدَّر لا يتنفس عادةً بشكل كافٍ من تلقاء نفسه، يتولى جهاز التهوية المدمج عملية التنفس بحجم وضغط وتردد قابلة للضبط. وفي الدارة الدائرية يُعاد تدوير هواء الزفير: إذ يزيل ممتص الجير الصودي ثاني أكسيد الكربون بحيث يمكن إعادة استخدام المخدّر والأكسجين. ويقلّل التشغيل بتدفق غاز طازج منخفض (التخدير منخفض التدفق) استهلاك المخدّر ويحافظ على البيئة.",
             "يقيس جهاز مراقبة الغازات باستمرار تركيزات الأكسجين وثاني أكسيد الكربون (تخطيط ثاني أكسيد الكربون) والمخدّر في هواء الشهيق والزفير. وبالاقتران مع جهاز مراقبة المريض (ECG، ضغط الدم، تشبع الأكسجين) تتكوّن صورة كاملة عن عمق التخدير والوظائف الحيوية. وتُطلق الإنذارات تحذيرًا عند انفصال الدارة أو توقف التنفس أو نقص الأكسجين."
           ],
           "use": [
@@ -2708,7 +2730,7 @@
             "مطابقة أنماط التهوية مع فئات المرضى: يحتاج الأطفال وحديثو الولادة إلى أنماط مضبوطة بالضغط وأحجام مدّية صغيرة؛ كما تخفّض إمكانية التدفق المنخفض تكاليف المخدّر بشكل دائم.",
             "التخطيط للمستهلكات: يتسبب الجير الصودي ودارات التنفس والمرشحات والأقنعة ومبخّر لكل مخدّر، إضافة إلى مستشعرات ومصائد الماء لجهاز مراقبة الغازات، في تكاليف تشغيل مستمرة.",
             "التحقق من الواجهات: نقل البيانات إلى سجل التخدير الإلكتروني أو نظام إدارة بيانات المرضى (PDMS) والربط مع جهاز مراقبة المريض.",
-            "الاتفاق على فحوصات السلامة التقنية وفق لوائح الأجهزة الطبية المعمول بها، وفترات الصيانة، وعقد خدمة بزمن استجابة محدد؛ ويجب توثيق تدريب جميع المستخدمين."
+            "الاتفاق على فحوصات السلامة التقنية الدورية (STK) وفق لائحة تشغيل الأجهزة الطبية الألمانية (MPBetreibV)، وفترات الصيانة، وعقد خدمة بزمن استجابة محدد؛ وتندرج أجهزة التخدير ضمن الملحق 1 من هذه اللائحة، لذا يجب مسك سجل الجهاز الطبي وتوثيق تدريب جميع المستخدمين فيه."
           ],
           "glossary": [
             {
@@ -2717,7 +2739,7 @@
             },
             {
               "term": "الدارة الدائرية",
-              "text": "دارة تنفس يُعاد فيها هواء الزفير إلى المريض بعد إزالة ثاني أكسيد الكربون بواسطة الجير الصودي – ما يوفّر غاز التخدير والرطوبة والحرارة."
+              "text": "دارة تنفس يُعاد فيها هواء الزفير إلى المريض بعد إزالة ثاني أكسيد الكربون بواسطة الجير الصودي – ما يوفّر غاز التخدير ويحافظ على رطوبة غاز التنفس وحرارته."
             },
             {
               "term": "تخطيط ثاني أكسيد الكربون (Capnography)",
@@ -2777,10 +2799,10 @@
           ],
           "procurement": [
             "Eingriffsspektrum definieren: Reicht ein monopolar-bipolares Grundgerät oder werden Zusatzfunktionen wie Gefäßversiegelung, Argon-Plasma-Koagulation oder spezielle Modi für die Endoskopie benötigt?",
-            "Kompatibilität des Instrumentariums prüfen: Steckersysteme für Handgriffe, bipolare Zangen und Neutralelektroden sind nicht herstellerübergreifend genormt; Kosten für Adapter oder Neuanschaffung einrechnen.",
+            "Kompatibilität des Instrumentariums prüfen: Steckersysteme für Handgriffe, bipolare Zangen und Neutralelektroden sind nicht durchgängig herstellerübergreifend genormt; Kosten für Adapter oder Neuanschaffung einrechnen.",
             "Verbrauchskosten kalkulieren: Einmal-Neutralelektroden, Elektrodenspitzen und Einmalinstrumente für die Gefäßversiegelung machen einen großen Teil der laufenden Kosten aus.",
             "Sicherheitsfunktionen fordern: Neutralelektroden-Überwachung (Kontaktqualität), automatische Leistungsregelung und eine Rauchgasabsaugung zum Schutz des OP-Personals.",
-            "Einweisung und Prüfpflichten beachten: HF-Chirurgiegeräte unterliegen den sicherheitstechnischen Kontrollen nach MPBetreibV; Anwender müssen zu Risiken wie Verbrennungen bei falscher Elektrodenlage geschult sein."
+            "Einweisung und Prüfpflichten beachten: HF-Chirurgiegeräte sind in Anlage 1 der MPBetreibV gelistet und unterliegen den sicherheitstechnischen Kontrollen (STK), der Pflicht zum Medizinproduktebuch und zur dokumentierten Einweisung; Anwender müssen zu Risiken wie Verbrennungen bei falscher Elektrodenlage geschult sein."
           ],
           "glossary": [
             {
@@ -2841,10 +2863,10 @@
           ],
           "procurement": [
             "Define the range of procedures: is a basic monopolar/bipolar unit sufficient, or are additional functions such as vessel sealing, argon plasma coagulation or special modes for endoscopy required?",
-            "Check compatibility of the instruments: connector systems for handpieces, bipolar forceps and return electrodes are not standardized across manufacturers; budget for adapters or new instruments.",
+            "Check compatibility of the instruments: connector systems for handpieces, bipolar forceps and return electrodes are not consistently standardized across manufacturers; budget for adapters or new instruments.",
             "Calculate consumable costs: single-use return electrodes, electrode tips and single-use instruments for vessel sealing make up a large share of the running costs.",
             "Require safety functions: return electrode monitoring (contact quality), automatic power regulation and a surgical smoke evacuation system to protect the operating room staff.",
-            "Observe training and inspection duties: electrosurgical units are subject to periodic safety inspections under national medical device regulations; users must be trained in risks such as burns caused by incorrect electrode placement."
+            "Observe training and inspection duties: electrosurgical units are listed in Annex 1 of the German Medical Devices Operator Ordinance (MPBetreibV) and are subject to periodic safety inspections (STK), a mandatory medical device logbook and documented user training; users must be trained in risks such as burns caused by incorrect electrode placement."
           ],
           "glossary": [
             {
@@ -2905,10 +2927,10 @@
           ],
           "procurement": [
             "تحديد نطاق العمليات: هل يكفي جهاز أساسي أحادي وثنائي القطب، أم تلزم وظائف إضافية مثل إغلاق الأوعية أو التخثير ببلازما الأرغون أو أنماط خاصة بالتنظير؟",
-            "التحقق من توافق الأدوات: أنظمة الموصلات للمقابض والملاقط ثنائية القطب وأقطاب العودة غير موحّدة بين الشركات المصنّعة؛ لذا يجب احتساب تكاليف المحوّلات أو شراء أدوات جديدة.",
+            "التحقق من توافق الأدوات: أنظمة الموصلات للمقابض والملاقط ثنائية القطب وأقطاب العودة غير موحّدة بالكامل بين الشركات المصنّعة؛ لذا يجب احتساب تكاليف المحوّلات أو شراء أدوات جديدة.",
             "حساب تكاليف المستهلكات: تشكّل أقطاب العودة أحادية الاستخدام ورؤوس الأقطاب والأدوات أحادية الاستخدام لإغلاق الأوعية جزءًا كبيرًا من تكاليف التشغيل.",
             "اشتراط وظائف السلامة: مراقبة قطب العودة (جودة التلامس)، والتنظيم التلقائي للقدرة، ونظام شفط الدخان الجراحي لحماية فريق غرفة العمليات.",
-            "مراعاة واجبات التدريب والفحص: تخضع أجهزة الجراحة الكهربائية لفحوصات السلامة الدورية وفق لوائح الأجهزة الطبية المعمول بها؛ ويجب تدريب المستخدمين على المخاطر مثل الحروق الناتجة عن الوضع الخاطئ للأقطاب."
+            "مراعاة واجبات التدريب والفحص: تندرج أجهزة الجراحة الكهربائية ضمن الملحق 1 من لائحة تشغيل الأجهزة الطبية الألمانية (MPBetreibV)، وتخضع لفحوصات السلامة التقنية الدورية (STK) ولوجوب مسك سجل الجهاز الطبي وتوثيق التدريب؛ ويجب تدريب المستخدمين على المخاطر مثل الحروق الناتجة عن الوضع الخاطئ للأقطاب."
           ],
           "glossary": [
             {
@@ -2978,7 +3000,7 @@
           "procurement": [
             "Fachrichtungen und Endoskoptypen festlegen: Starre Optiken (Laparoskopie, Arthroskopie) und flexible Videoendoskope (Gastroenterologie, Bronchoskopie) stellen unterschiedliche Anforderungen an Kamera, Lichtquelle und Aufbereitung.",
             "Bildkette als Ganzes bewerten: Auflösung (Full HD, 4K), LED-Lichtquelle, Monitorgröße und Signalübertragung müssen zueinander passen; ein 4K-Monitor nützt ohne passende Kamera und Optik wenig.",
-            "Aufbereitung mitplanen: Flexible Endoskope erfordern ein validiertes Reinigungs- und Desinfektionsverfahren (Endoskop-RDG), Trockenschränke und Dichtigkeitsprüfungen; Reparaturen an Endoskopen sind ein wesentlicher Kostenfaktor.",
+            "Aufbereitung mitplanen: Flexible Endoskope erfordern ein validiertes Reinigungs- und Desinfektionsverfahren (Endoskop-RDG) gemäß § 8 MPBetreibV und KRINKO/BfArM-Empfehlung, Trockenschränke und Dichtigkeitsprüfungen; Reparaturen an Endoskopen sind ein wesentlicher Kostenfaktor.",
             "Verbrauchsmaterial und Reserven berücksichtigen: Kohlendioxid für den Insufflator, Spülflüssigkeit, Einmalinstrumente sowie Ersatzoptiken, damit der OP-Betrieb bei Reparaturen weiterläuft.",
             "Dokumentation und Schnittstellen klären: Bild- und Videoexport in das PACS oder Krankenhausinformationssystem, Integration in die OP-Saal-Steuerung sowie Einweisung des Personals nach MPBetreibV."
           ],
@@ -3042,9 +3064,9 @@
           "procurement": [
             "Define the specialties and endoscope types: rigid telescopes (laparoscopy, arthroscopy) and flexible video endoscopes (gastroenterology, bronchoscopy) place different demands on camera, light source and reprocessing.",
             "Evaluate the imaging chain as a whole: resolution (Full HD, 4K), LED light source, monitor size and signal transmission must match each other; a 4K monitor is of little use without a matching camera and telescope.",
-            "Plan for reprocessing: flexible endoscopes require a validated cleaning and disinfection process (endoscope washer-disinfector), drying cabinets and leak tests; endoscope repairs are a major cost factor.",
+            "Plan for reprocessing: flexible endoscopes require a validated cleaning and disinfection process (endoscope washer-disinfector) in line with Section 8 of the German MPBetreibV and the KRINKO/BfArM recommendation, drying cabinets and leak tests; endoscope repairs are a major cost factor.",
             "Consider consumables and spares: carbon dioxide for the insufflator, irrigation fluid, single-use instruments and spare telescopes so that surgery can continue while items are being repaired.",
-            "Clarify documentation and interfaces: image and video export to the PACS or hospital information system, integration into the operating room control system and user training as required by national medical device regulations."
+            "Clarify documentation and interfaces: image and video export to the PACS or hospital information system, integration into the operating room control system and user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
           ],
           "glossary": [
             {
@@ -3076,7 +3098,7 @@
           "how": [
             "المنظار أداة صلبة أو مرنة تُدخل إلى الجسم عبر فتحة طبيعية أو شق صغير. ويوجّه مصدر الضوء البارد الضوء عبر ألياف زجاجية إلى المنظار ليضيء حقل العملية. وتُلتقط الصورة إما عبر نظام عدسات (منظار صلب) أو مباشرة بواسطة مستشعر صورة في طرف المنظار (منظار فيديو).",
             "تعالج وحدة التحكم بالكاميرا الإشارة وتعرضها بدقة عالية على شاشة واحدة أو أكثر بحيث يتابعها فريق الجراحة بأكمله. وفي تنظير البطن يملأ جهاز النفخ (Insufflator) تجويف البطن بثاني أكسيد الكربون لتوفير مساحة للأدوات. ومن مكوّنات البرج الأخرى نظام التوثيق ومضخة الري والشفط وغالبًا جهاز الجراحة الكهربائية.",
-            "تُركَّب جميع المكوّنات على عربة أجهزة متنقلة (برج) أو على أذرع سقفية في غرفة عمليات متكاملة. وتسهّل الوظائف الخاصة مثل التصوير الفلوري أو العرض ثلاثي الأبعاد التعرّف على البنى التشريحية. كما تحتوي المناظير المرنة الخاصة بالجهاز الهضمي أو المجاري التنفسية على قنوات عمل لملاقط الخزعة والري."
+            "تُركَّب جميع المكوّنات على عربة أجهزة متنقلة (برج) أو على أذرع سقفية في غرفة عمليات متكاملة. وتسهّل الوظائف الخاصة مثل التصوير بالتألق (الفلورسنت) أو العرض ثلاثي الأبعاد التعرّف على البنى التشريحية. كما تحتوي المناظير المرنة الخاصة بالجهاز الهضمي أو المجاري التنفسية على قنوات عمل لملاقط الخزعة والري."
           ],
           "use": [
             "الجراحة بتنظير البطن (التجويف البطني)",
@@ -3106,9 +3128,9 @@
           "procurement": [
             "تحديد التخصصات وأنواع المناظير: تفرض المناظير الصلبة (تنظير البطن والمفاصل) ومناظير الفيديو المرنة (الجهاز الهضمي وتنظير القصبات) متطلبات مختلفة على الكاميرا ومصدر الضوء وإعادة المعالجة.",
             "تقييم سلسلة التصوير ككل: يجب أن تتوافق الدقة (Full HD، 4K) ومصدر الضوء LED وحجم الشاشة ونقل الإشارة مع بعضها؛ فشاشة 4K قليلة الفائدة من دون كاميرا ومنظار مناسبين.",
-            "التخطيط لإعادة المعالجة: تتطلب المناظير المرنة إجراء تنظيف وتطهير مُصادقًا عليه (جهاز غسل وتطهير المناظير) وخزائن تجفيف واختبارات تسرّب؛ وتُعدّ إصلاحات المناظير عامل تكلفة رئيسيًا.",
-            "مراعاة المستهلكات والاحتياطي: ثاني أكسيد الكربون لجهاز النفخ، وسائل الري، والأدوات أحادية الاستخدام، ومناظير احتياطية لضمان استمرار العمليات أثناء الإصلاح.",
-            "توضيح التوثيق والواجهات: تصدير الصور والفيديو إلى نظام أرشفة الصور (PACS) أو نظام معلومات المستشفى، والتكامل مع نظام التحكم بغرفة العمليات، وتدريب العاملين وفق لوائح الأجهزة الطبية المعمول بها."
+            "التخطيط لإعادة المعالجة: تتطلب المناظير المرنة إجراء تنظيف وتطهير مُتحقَّقًا من صحته (في جهاز غسل وتطهير المناظير) وفق المادة 8 من لائحة MPBetreibV الألمانية وتوصية KRINKO/BfArM، وخزائن تجفيف واختبارات تسرّب؛ وتُعدّ إصلاحات المناظير عامل تكلفة رئيسيًا.",
+            "مراعاة المستهلكات والاحتياطي: ثاني أكسيد الكربون لجهاز النفخ، وسوائل الري، والأدوات أحادية الاستخدام، ومناظير احتياطية لضمان استمرار العمليات أثناء الإصلاح.",
+            "توضيح التوثيق والواجهات: تصدير الصور والفيديو إلى نظام أرشفة الصور (PACS) أو نظام معلومات المستشفى، والتكامل مع نظام التحكم بغرفة العمليات، وتدريب العاملين وفق لائحة تشغيل الأجهزة الطبية الألمانية (MPBetreibV)."
           ],
           "glossary": [
             {
@@ -3207,7 +3229,7 @@
         },
         "en": {
           "name": "Surgical Light",
-          "subtitle": "Shadow-free, color-accurate light for the surgical field",
+          "subtitle": "Low-shadow, color-accurate light for the surgical field",
           "short": "Surgical lights illuminate the surgical field brightly, with minimal shadows and accurate colors, without heating the tissue; they are mounted on the ceiling, wall or a stand and can be positioned freely.",
           "how": [
             "A surgical light focuses the light of many individual light sources – today almost exclusively LEDs – from different angles onto the surgical field. As a result, a shadow cast by the surgeon's head or hands is compensated by the remaining light sources (shadow management). Reflectors and lenses form a homogeneous light field of high illuminance whose diameter and depth can be adjusted.",
@@ -3281,7 +3303,7 @@
           "use": [
             "غرف العمليات المركزية",
             "غرف الإجراءات والفحص في العيادات",
-            "قسم الطوارئ وغرفة الإنعاش",
+            "قسم الطوارئ وغرفة الإنعاش (غرفة الصدمات)",
             "غرفة الولادة وقسم التوليد",
             "مراكز الجراحة النهارية"
           ],
@@ -3292,7 +3314,7 @@
             },
             {
               "label": "أماكن الاستخدام النموذجية",
-              "value": "غرف العمليات، غرف الإجراءات، غرف الإنعاش"
+              "value": "غرف العمليات، غرف الإجراءات، غرف الإنعاش والصدمات"
             },
             {
               "label": "المساحة المطلوبة",
@@ -3306,7 +3328,7 @@
           "procurement": [
             "التحقق من المتطلبات الإنشائية: يجب أن تكون قدرة تحمّل السقف ولوحة التثبيت وارتفاع السقف مصممة للأذرع الحاملة والتركيبات المتعددة (المصباح الرئيسي والمصباح التابع)؛ ويلزم التنسيق مع أسقف التهوية والتدفق الصفحي.",
             "مقارنة قيم الإضاءة استنادًا إلى معيار مصابيح العمليات (IEC 60601-2-41): شدة الإضاءة المركزية، ومؤشر تجسيد الألوان، ودرجة حرارة اللون، وقطر حقل الضوء، وعمق الإضاءة، وإدارة الظلال.",
-            "اختبار سهولة الاستخدام مع الفريق: سلاسة حركة الأذرع، وثبات الوضعية، والتشغيل عبر المقابض المعقّمة أو لوحة الجدار، وسهولة تنظيف الأسطح الملساء.",
+            "اختبار الإرغونوميا (سهولة الاستخدام) مع الفريق: سلاسة حركة الأذرع، وثبات الوضعية، والتشغيل عبر المقابض المعقّمة أو لوحة الجدار، وسهولة تنظيف الأسطح الملساء.",
             "الموازنة بين الوحدات الإضافية وجاهزية المستقبل: ينبغي أخذ حوامل الكاميرا والشاشة، والربط بنظام تكامل غرفة العمليات، وإمكانية الترقية لاحقًا في الحسبان منذ مرحلة طرح المناقصة.",
             "تأمين الخدمة وقطع الغيار: إدراج عمر وحدات LED، وتوافر المقابض والمفاصل الاحتياطية، والفحص الدوري للتعليق والتوصيلات الكهربائية ضمن عقد الصيانة."
           ],
@@ -3346,7 +3368,7 @@
           "subtitle": "Maschinelle Unterstützung oder Übernahme der Atmung",
           "short": "Ein Beatmungsgerät übernimmt oder unterstützt die Atmung von Patientinnen und Patienten, die nicht ausreichend selbst atmen können. Es fördert ein Gemisch aus Luft und Sauerstoff mit kontrolliertem Druck und Volumen in die Lunge.",
           "how": [
-            "Das Gerät erzeugt über Ventile und eine Turbine oder eine Druckgasversorgung einen Gasfluss aus Luft und Sauerstoff. Über ein Schlauchsystem und einen Beatmungstubus, eine Trachealkanüle oder eine Maske gelangt das Gasgemisch in die Lunge. Die Ausatmung erfolgt passiv durch die elastischen Rückstellkräfte des Brustkorbs über ein Exspirationsventil.",
+            "Das Gerät erzeugt über Ventile und eine Turbine oder eine Druckgasversorgung einen Gasfluss aus Luft und Sauerstoff. Über ein Schlauchsystem und einen Beatmungstubus, eine Trachealkanüle oder eine Maske gelangt das Gasgemisch in die Lunge. Die Ausatmung erfolgt passiv durch die elastischen Rückstellkräfte von Lunge und Brustkorb über ein Exspirationsventil.",
             "Sensoren messen fortlaufend Druck, Fluss und Volumen und regeln die Beatmung anhand der eingestellten Parameter. Typische Einstellungen sind Atemfrequenz, Tidalvolumen, Sauerstoffkonzentration (FiO2) und der positive endexspiratorische Druck (PEEP). Beatmungsmodi reichen von vollständig kontrollierter Beatmung bis hin zu Modi, die nur die Spontanatmung unterstützen.",
             "Ein Alarmsystem überwacht Grenzwerte wie Atemwegsdruck, Minutenvolumen oder eine Diskonnektion des Schlauchsystems. Befeuchter und Filter konditionieren das Atemgas, da trockene oder kalte Luft die Atemwege schädigen kann. Moderne Geräte zeigen Kurven und Messwerte auf einem Bildschirm an, um die Lungenfunktion beurteilen zu können."
           ],
@@ -3410,7 +3432,7 @@
           "subtitle": "Mechanical support or replacement of breathing",
           "short": "A ventilator takes over or supports breathing for patients who cannot breathe sufficiently on their own. It delivers a mixture of air and oxygen into the lungs with controlled pressure and volume.",
           "how": [
-            "The device generates a flow of air and oxygen using valves and either a turbine or a pressurised gas supply. The gas mixture reaches the lungs through a tubing system and an endotracheal tube, a tracheostomy cannula or a mask. Exhalation occurs passively through the elastic recoil of the chest via an expiratory valve.",
+            "The device generates a flow of air and oxygen using valves and either a turbine or a pressurised gas supply. The gas mixture reaches the lungs through a tubing system and an endotracheal tube, a tracheostomy tube or a mask. Exhalation occurs passively through the elastic recoil of the lungs and chest wall via an expiratory valve.",
             "Sensors continuously measure pressure, flow and volume and regulate ventilation according to the set parameters. Typical settings include respiratory rate, tidal volume, oxygen concentration (FiO2) and positive end-expiratory pressure (PEEP). Ventilation modes range from fully controlled ventilation to modes that only assist the patient's spontaneous breathing.",
             "An alarm system monitors limits such as airway pressure, minute volume or disconnection of the tubing system. Humidifiers and filters condition the breathing gas, because dry or cold air can damage the airways. Modern devices display waveforms and measurements on a screen to help assess lung function."
           ],
@@ -3474,9 +3496,9 @@
           "subtitle": "دعم التنفس أو استبداله آلياً",
           "short": "يتولى جهاز التنفس الاصطناعي عملية التنفس أو يدعمها لدى المرضى غير القادرين على التنفس بشكل كافٍ بأنفسهم. وهو يدفع خليطاً من الهواء والأكسجين إلى الرئتين بضغط وحجم محكومين.",
           "how": [
-            "يولّد الجهاز تدفقاً من الهواء والأكسجين عبر صمامات وتوربين أو عبر إمداد بالغازات المضغوطة. ويصل خليط الغاز إلى الرئتين عبر نظام أنابيب وأنبوب رغامي أو قنية فغر رغامي أو قناع. ويتم الزفير بشكل سلبي بفضل الارتداد المرن للقفص الصدري عبر صمام الزفير.",
-            "تقيس المستشعرات الضغط والتدفق والحجم باستمرار وتنظم التهوية وفقاً للمعايير المضبوطة. ومن الإعدادات النموذجية معدل التنفس والحجم المدي وتركيز الأكسجين (FiO2) والضغط الإيجابي في نهاية الزفير (PEEP). وتتراوح أنماط التهوية من التهوية المتحكم بها بالكامل إلى أنماط تدعم التنفس التلقائي للمريض فقط.",
-            "يراقب نظام الإنذار حدوداً مثل ضغط مجرى الهواء والحجم الدقيق أو انفصال نظام الأنابيب. وتعمل المرطبات والمرشحات على تكييف غاز التنفس، لأن الهواء الجاف أو البارد قد يضر بالمجاري الهوائية. وتعرض الأجهزة الحديثة المنحنيات والقياسات على شاشة للمساعدة في تقييم وظيفة الرئة."
+            "يولّد الجهاز تدفقاً من الهواء والأكسجين عبر صمامات وتوربين أو عبر إمداد بالغازات المضغوطة. ويصل خليط الغاز إلى الرئتين عبر نظام أنابيب وأنبوب رغامي أو قنية فغر رغامي أو قناع. ويتم الزفير بشكل سلبي بفضل الارتداد المرن للرئتين والقفص الصدري عبر صمام الزفير.",
+            "تقيس المستشعرات الضغط والتدفق والحجم باستمرار وتنظم التهوية وفقاً للإعدادات المضبوطة. ومن الإعدادات النموذجية معدل التنفس والحجم المدي وتركيز الأكسجين (FiO2) والضغط الإيجابي في نهاية الزفير (PEEP). وتتراوح أنماط التهوية من التهوية المتحكم بها بالكامل إلى أنماط تدعم التنفس التلقائي للمريض فقط.",
+            "يراقب نظام الإنذار حدوداً مثل ضغط مجرى الهواء وحجم التهوية في الدقيقة أو انفصال نظام الأنابيب. وتعمل المرطبات والمرشحات على تكييف غاز التنفس، لأن الهواء الجاف أو البارد قد يضر بالمجاري الهوائية. وتعرض الأجهزة الحديثة المنحنيات والقياسات على شاشة للمساعدة في تقييم وظيفة الرئة."
           ],
           "use": [
             "وحدة العناية المركزة (التهوية طويلة الأمد)",
@@ -3505,7 +3527,7 @@
           ],
           "procurement": [
             "حددوا مجال الاستخدام: فالعناية المركزة والنقل والتهوية المنزلية تفرض متطلبات مختلفة على أنماط التهوية وعمر البطارية والوزن.",
-            "تحققوا من إمداد الغازات: الأجهزة ذات التوربين تحتاج إلى الأكسجين فقط، بينما تحتاج الأجهزة ذات التشغيل بالغاز المضغوط إلى هواء طبي مضغوط إضافي؛ ويجب أن تكون مخارج الجدار متوافقة.",
+            "تحققوا من إمداد الغازات: الأجهزة ذات التوربين تحتاج إلى الأكسجين فقط، بينما تحتاج الأجهزة التي تعمل بالغاز المضغوط إلى الهواء الطبي المضغوط إضافةً إلى الأكسجين؛ ويجب أن تكون مخارج الجدار متوافقة.",
             "ضعوا في الاعتبار المستهلكات (أنظمة الأنابيب والمرشحات وحجرات الترطيب) وما إذا كانت الأنظمة أحادية الاستخدام أو القابلة لإعادة المعالجة أكثر اقتصادية.",
             "انتبهوا إلى الواجهات مع نظام إدارة بيانات المرضى (PDMS) ونظام تحويل الإنذارات المركزي.",
             "خططوا لتدريب المستخدمين وفق لوائح تشغيل الأجهزة الطبية (في ألمانيا لائحة MPBetreibV)، والفحوصات الفنية الدورية للسلامة (STK)، وعقد صيانة بأوقات استجابة مضمونة؛ ويُنصح بتوفير أجهزة بديلة لفترات التوقف."
@@ -3580,7 +3602,7 @@
             "Prüfen Sie die Kompatibilität der Verbrauchsmaterialien: Viele Pumpen erfordern herstellerspezifische Infusionssets, was die laufenden Kosten über Jahre bestimmt.",
             "Achten Sie auf eine zentral pflegbare Medikamentenbibliothek und eine einheitliche Bedienoberfläche im ganzen Haus, um Bedienfehler zu vermeiden.",
             "Klären Sie Schnittstellen (z. B. zum PDMS oder zur Alarmweiterleitung) und ob Docking-Stationen mit gemeinsamer Stromversorgung sinnvoll sind.",
-            "Planen Sie die Einweisung aller Anwender, regelmäßige sicherheitstechnische Kontrollen und den Akkutausch im Servicevertrag ein."
+            "Planen Sie die Einweisung aller Anwender nach Medizinprodukte-Betreiberverordnung (MPBetreibV), regelmäßige sicherheitstechnische Kontrollen (STK) und den Akkutausch im Servicevertrag ein."
           ],
           "glossary": [
             {
@@ -3644,7 +3666,7 @@
             "Check consumable compatibility: many pumps require proprietary infusion sets, which determines the running costs for years.",
             "Look for a centrally maintained drug library and a uniform user interface throughout the facility to avoid operating errors.",
             "Clarify interfaces (for example with the PDMS or alarm forwarding) and whether docking stations with a shared power supply make sense.",
-            "Plan for the training of all users, regular safety inspections and battery replacement as part of the service contract."
+            "Plan for the instruction of all users as required by the operator regulations for medical devices (in Germany the MPBetreibV), periodic safety inspections (STK) and battery replacement as part of the service contract."
           ],
           "glossary": [
             {
@@ -3671,7 +3693,7 @@
         },
         "ar": {
           "name": "مضخة التسريب / مضخة المحقنة",
-          "subtitle": "جرعات دقيقة من الأدوية والسوائل",
+          "subtitle": "إعطاء دقيق للأدوية والسوائل",
           "short": "تضخ مضخات التسريب السوائل والأدوية إلى الجسم بمعدل محكوم وقابل للضبط، عادةً عبر وصول وريدي. أما مضخات المحقنة فهي مصممة للأحجام الصغيرة والأدوية عالية الفعالية.",
           "how": [
             "تنقل مضخات التسريب الحجمية السائل من كيس أو زجاجة عبر طقم تسريب خاص يُركّب في المضخة. وتضغط آلية تمعجية على الأنبوب جزءاً بعد جزء فتدفع السائل إلى الأمام بمعدل محدد. أما مضخات المحقنة فتدفع مكبس المحقنة المثبتة بمحرك كهربائي بدقة عالية.",
@@ -3708,7 +3730,7 @@
             "تحققوا من توافق المستهلكات: تتطلب العديد من المضخات أطقم تسريب خاصة بالمصنّع، وهو ما يحدد التكاليف الجارية لسنوات.",
             "احرصوا على وجود مكتبة أدوية تُدار مركزياً وواجهة استخدام موحدة في المنشأة كلها لتجنب أخطاء التشغيل.",
             "وضّحوا الواجهات (مثل الربط بنظام PDMS أو تحويل الإنذارات) وما إذا كانت محطات الإرساء ذات الإمداد الكهربائي المشترك مفيدة.",
-            "خططوا لتدريب جميع المستخدمين، والفحوصات الدورية للسلامة، واستبدال البطاريات ضمن عقد الصيانة."
+            "خططوا لتدريب جميع المستخدمين وفق لوائح تشغيل الأجهزة الطبية (في ألمانيا لائحة MPBetreibV)، والفحوصات الفنية الدورية للسلامة (STK)، واستبدال البطاريات ضمن عقد الصيانة."
           ],
           "glossary": [
             {
@@ -3780,7 +3802,7 @@
             "Prüfen Sie den Funktionsumfang (Kardioversion, Pacing, Feedback zur Herzdruckmassage, Monitoring) und ob Elektroden und Zubehör mit bereits vorhandenen Geräten kompatibel sind.",
             "Kalkulieren Sie Verbrauchsmaterial mit Verfallsdatum ein: Klebeelektroden und Akkus müssen regelmäßig ersetzt werden; ein System zur Überwachung der Verfallsdaten ist sinnvoll.",
             "Achten Sie auf Selbsttestfunktionen und Statusanzeigen, damit die Einsatzbereitschaft ohne manuelle Prüfung erkennbar ist.",
-            "Planen Sie regelmäßige Reanimationsschulungen und die Einweisung nach Medizinprodukte-Betreiberverordnung ein; der Standort sollte gut sichtbar und schnell erreichbar sein."
+            "Planen Sie regelmäßige Reanimationsschulungen, die Einweisung nach Medizinprodukte-Betreiberverordnung (MPBetreibV) und sicherheitstechnische Kontrollen (STK) ein; der Standort sollte gut sichtbar und schnell erreichbar sein."
           ],
           "glossary": [
             {
@@ -3807,7 +3829,7 @@
         },
         "en": {
           "name": "Defibrillator",
-          "subtitle": "Electric shock therapy for life-threatening arrhythmias",
+          "subtitle": "Controlled shock against life-threatening arrhythmias",
           "short": "A defibrillator delivers a controlled electric shock to the heart to terminate life-threatening arrhythmias such as ventricular fibrillation. Depending on the design, the range extends from automated external defibrillators (AED) for lay rescuers to manual devices with a monitor for professionals.",
           "how": [
             "Two adhesive electrode pads or paddles on the chest deliver a current pulse through the heart within a fraction of a second. This pulse depolarises a large proportion of the heart muscle cells simultaneously and thereby interrupts the chaotic electrical activity. The heart's natural pacemaker, the sinus node, can then take over the rhythm again.",
@@ -3844,7 +3866,7 @@
             "Check the range of functions (cardioversion, pacing, compression feedback, monitoring) and whether electrodes and accessories are compatible with devices already in use.",
             "Budget for consumables with expiry dates: electrode pads and batteries must be replaced regularly; a system for tracking expiry dates is advisable.",
             "Look for self-test functions and status indicators so that readiness for use is visible without manual checks.",
-            "Plan for regular resuscitation training and user instruction as required by the operator regulations for medical devices; the location should be clearly visible and quickly accessible."
+            "Plan for regular resuscitation training, user instruction as required by the operator regulations for medical devices (in Germany the MPBetreibV) and periodic safety inspections (STK); the location should be clearly visible and quickly accessible."
           ],
           "glossary": [
             {
@@ -3871,10 +3893,10 @@
         },
         "ar": {
           "name": "جهاز إزالة الرجفان",
-          "subtitle": "صدمة كهربائية لاضطرابات نظم القلب المهددة للحياة",
+          "subtitle": "صدمة كهربائية لعلاج اضطرابات نظم القلب المهددة للحياة",
           "short": "يوجّه جهاز إزالة الرجفان صدمة كهربائية محكومة إلى القلب لإنهاء اضطرابات النظم المهددة للحياة مثل الرجفان البطيني. وحسب التصميم، يمتد النطاق من جهاز إزالة الرجفان الخارجي الآلي (AED) لغير المختصين إلى الأجهزة اليدوية المزودة بشاشة للكوادر الطبية.",
           "how": [
-            "يُمرَّر عبر قطبين لاصقين أو مجدافين على الصدر نبض تيار كهربائي عبر القلب في جزء من الثانية. ويزيل هذا النبض استقطاب نسبة كبيرة من خلايا عضلة القلب في الوقت نفسه فيقطع النشاط الكهربائي الفوضوي. وبعدها يستطيع الناظم الطبيعي للقلب، وهو العقدة الجيبية، استعادة النظم من جديد.",
+            "يُمرَّر نبض تيار كهربائي عبر القلب في جزء من الثانية بواسطة قطبين لاصقين أو مجدافين يوضعان على الصدر. ويزيل هذا النبض استقطاب نسبة كبيرة من خلايا عضلة القلب في الوقت نفسه فيقطع النشاط الكهربائي الفوضوي. وبعدها يستطيع الناظم الطبيعي للقلب، وهو العقدة الجيبية، استعادة النظم من جديد.",
             "يحلل الجهاز تخطيط القلب (ECG) عبر الأقطاب. ويتعرف جهاز AED تلقائياً على النظم القابلة للصدمة ويرشد المستخدم بتعليمات صوتية؛ أما في الأجهزة اليدوية فتقرر الكوادر المدربة الطاقة والتوقيت. وتستخدم الأجهزة الحديثة نبضات ثنائية الطور تكون فعالة بطاقة أقل من التقنية أحادية الطور القديمة.",
             "تجمع العديد من الأجهزة السريرية وظائف إضافية: تقويم النظم المتزامن لاضطرابات أخرى، وتنظيم ضربات القلب الخارجي، والتغذية الراجعة حول جودة الضغط على الصدر. كما تراقب تخطيط القلب وتشبع الأكسجين وضغط الدم، فتعمل بذلك أيضاً كشاشة مراقبة أثناء النقل."
           ],
@@ -3908,7 +3930,7 @@
             "تحققوا من نطاق الوظائف (تقويم النظم، تنظيم الضربات، التغذية الراجعة للضغط الصدري، المراقبة) ومن توافق الأقطاب والملحقات مع الأجهزة الموجودة أصلاً.",
             "احسبوا تكلفة المستهلكات ذات تاريخ الصلاحية: يجب استبدال الأقطاب اللاصقة والبطاريات بانتظام؛ ويُنصح بنظام لمتابعة تواريخ الصلاحية.",
             "احرصوا على وجود وظائف الاختبار الذاتي ومؤشرات الحالة بحيث تكون الجاهزية للاستخدام واضحة دون فحص يدوي.",
-            "خططوا لتدريب دوري على الإنعاش ولتعليم المستخدمين وفق لوائح تشغيل الأجهزة الطبية؛ ويجب أن يكون موقع الجهاز ظاهراً وسهل الوصول إليه بسرعة."
+            "خططوا لتدريب دوري على الإنعاش، ولتعليم المستخدمين وفق لوائح تشغيل الأجهزة الطبية (في ألمانيا لائحة MPBetreibV)، وللفحوصات الفنية الدورية للسلامة (STK)؛ ويجب أن يكون موقع الجهاز ظاهراً وسهل الوصول إليه بسرعة."
           ],
           "glossary": [
             {
@@ -3980,7 +4002,7 @@
             "Klären Sie die benötigten Verfahren (Hämodialyse, Online-Hämodiafiltration, kontinuierliche Verfahren für die Intensivstation) und die Eignung für die Heimdialyse.",
             "Berücksichtigen Sie die laufenden Kosten für Dialysatoren, Schlauchsysteme, Konzentrate und Desinfektionsmittel; sie übersteigen über die Nutzungsdauer oft den Gerätepreis.",
             "Achten Sie auf Schnittstellen zur Dialyse-Dokumentationssoftware und auf standardisierte Bedienkonzepte, wenn mehrere Geräte betrieben werden.",
-            "Vereinbaren Sie einen Servicevertrag, regelmäßige technische Kontrollen und die mikrobiologische Überwachung der Wasserqualität; schulen Sie das Pflegepersonal strukturiert ein."
+            "Vereinbaren Sie einen Servicevertrag, sicherheitstechnische Kontrollen (STK) nach Medizinprodukte-Betreiberverordnung und die mikrobiologische Überwachung der Wasserqualität; schulen Sie das Pflegepersonal strukturiert ein."
           ],
           "glossary": [
             {
@@ -4044,7 +4066,7 @@
             "Clarify the required procedures (haemodialysis, online haemodiafiltration, continuous procedures for intensive care) and suitability for home dialysis.",
             "Consider the running costs of dialysers, tubing sets, concentrates and disinfectants; over the service life they often exceed the purchase price of the machine.",
             "Pay attention to interfaces with dialysis documentation software and to standardised operating concepts when several machines are run.",
-            "Agree on a service contract, regular technical inspections and microbiological monitoring of water quality, and provide structured training for nursing staff."
+            "Agree on a service contract, periodic safety inspections (STK) as required by the operator regulations for medical devices and microbiological monitoring of water quality, and provide structured training for nursing staff."
           ],
           "glossary": [
             {
@@ -4074,9 +4096,9 @@
           "subtitle": "تنقية الدم كعلاج بديل للكلى",
           "short": "يتولى جهاز غسيل الكلى عند الفشل الكلوي إزالة السموم والماء الزائد من الدم. ويُمرَّر الدم خارج الجسم عبر مرشح تُزال فيه الفضلات والسوائل الفائضة.",
           "how": [
-            "تسحب مضخة الدم الدم عبر وصول وعائي، غالباً ما يكون وصلة شريانية وريدية (شنت) في الذراع أو قسطرة، إلى دارة خارج الجسم. وفي الديالة، وهي مرشح يحتوي على آلاف الألياف المجوفة الدقيقة، يتدفق الدم على طول غشاء شبه نفوذ. وعلى الجانب الآخر من الغشاء يتدفق سائل الديلزة في الاتجاه المعاكس.",
+            "تقوم مضخة الدم بسحب الدم عبر وصول وعائي، غالباً ما يكون وصلة شريانية وريدية (شنت) في الذراع أو قسطرة، إلى دارة خارج الجسم. وفي الديالة، وهي مرشح يحتوي على آلاف الألياف المجوفة الدقيقة، يتدفق الدم على طول غشاء شبه نفوذ. وعلى الجانب الآخر من الغشاء يتدفق سائل الديلزة في الاتجاه المعاكس.",
             "تنتقل الفضلات مثل اليوريا والكرياتينين والشوارد الزائدة إلى سائل الديلزة بالانتشار. ويُزال الماء الزائد عبر فرق ضغط محكوم (الترشيح الفائق)، ويضبط الجهاز الكمية بدقة. ويحضّر الجهاز سائل الديلزة من ماء منقّى ومركّزات بالتركيب ودرجة الحرارة الصحيحين.",
-            "تراقب مستشعرات عديدة الضغوط في دارة الدم وفقاعات الهواء وتسرب الدم وناقلية سائل الديلزة. وتستغرق الجلسة عادةً عدة ساعات وتُجرى نموذجياً ثلاث مرات في الأسبوع. وفي الديلزة الدموية الترشيحية يُستبدل إضافياً جزء من ماء البلازما بمحلول تعويضي لإزالة الجزيئات الأكبر أيضاً."
+            "تراقب مستشعرات عديدة الضغوط في دارة الدم وفقاعات الهواء وتسرب الدم وناقلية سائل الديلزة. وتستغرق الجلسة عادةً عدة ساعات وتُجرى نموذجياً ثلاث مرات في الأسبوع. وفي الديلزة الدموية الترشيحية يُستعاض بالإضافة إلى ذلك عن جزء من ماء البلازما بمحلول تعويضي لإزالة الجزيئات الأكبر أيضاً."
           ],
           "use": [
             "مراكز غسيل الكلى وعيادات أمراض الكلى",
@@ -4105,10 +4127,10 @@
           ],
           "procurement": [
             "خططوا لمعالجة المياه ضمن المشروع: تحتاج أجهزة غسيل الكلى إلى ماء منقّى وفق المعايير المعمول بها (التناضح العكسي، شبكة أنابيب حلقية) ومصارف عند كل موضع علاج.",
-            "وضّحوا الإجراءات المطلوبة (الديلزة الدموية، الديلزة الدموية الترشيحية المباشرة، الإجراءات المستمرة للعناية المركزة) ومدى الملاءمة لغسيل الكلى المنزلي.",
-            "ضعوا في الاعتبار التكاليف الجارية للمرشحات وأطقم الأنابيب والمركّزات والمطهرات؛ فهي غالباً ما تتجاوز سعر الجهاز على مدى عمره التشغيلي.",
+            "وضّحوا الإجراءات المطلوبة (الديلزة الدموية، الديلزة الدموية الترشيحية المباشرة (Online-HDF)، الإجراءات المستمرة للعناية المركزة) ومدى الملاءمة لغسيل الكلى المنزلي.",
+            "ضعوا في الاعتبار التكاليف الجارية للديالات (المرشحات) وأطقم الأنابيب والمركّزات والمطهرات؛ فهي غالباً ما تتجاوز سعر الجهاز على مدى عمره التشغيلي.",
             "انتبهوا إلى الواجهات مع برامج توثيق غسيل الكلى وإلى مفاهيم التشغيل الموحدة عند تشغيل عدة أجهزة.",
-            "اتفقوا على عقد صيانة وفحوصات فنية دورية ومراقبة ميكروبيولوجية لجودة الماء، ودرّبوا طاقم التمريض تدريباً منظماً."
+            "اتفقوا على عقد صيانة، وفحوصات فنية دورية للسلامة (STK) وفق لوائح تشغيل الأجهزة الطبية، ومراقبة ميكروبيولوجية لجودة الماء، ودرّبوا طاقم التمريض تدريباً منظماً."
           ],
           "glossary": [
             {
@@ -4121,7 +4143,7 @@
             },
             {
               "term": "الترشيح الفائق",
-              "text": "إزالة الماء من الدم عبر فرق ضغط عبر الغشاء."
+              "text": "إزالة الماء من الدم بواسطة فرق ضغط عبر الغشاء."
             }
           ],
           "keywords": [
@@ -4179,7 +4201,7 @@
             "Klären Sie vor dem Kauf die Installationsvoraussetzungen: Anschlüsse für Wasser, Druckluft, Vakuum/Absaugung, Abwasser und Strom müssen im Boden oder in der Wand exakt an der richtigen Position liegen.",
             "Wählen Sie die Instrumentenausstattung nach Ihrem Behandlungsspektrum: Anzahl der Mikromotoren und Turbinen, Ultraschall-Scaler, Polymerisationslampe und gegebenenfalls Endomotor-Funktion.",
             "Achten Sie auf Hygienefunktionen wie automatische Spülprogramme, Wasserentkeimung und abnehmbare, thermodesinfizierbare Teile – sie erleichtern die Einhaltung der Hygienevorgaben erheblich.",
-            "Ein Amalgamabscheider ist in vielen Ländern gesetzlich vorgeschrieben; prüfen Sie Zulassung, Wartungsintervall und Entsorgungswege.",
+            "Ein Amalgamabscheider ist in der EU – und damit auch in Deutschland – sowie in vielen weiteren Ländern gesetzlich vorgeschrieben; prüfen Sie Zulassung, Wartungsintervall und Entsorgungswege.",
             "Vergleichen Sie Servicevertrag, Reaktionszeit des technischen Dienstes und Ersatzteilverfügbarkeit – ein Ausfall der Einheit bedeutet den Stillstand des gesamten Behandlungszimmers."
           ],
           "glossary": [
@@ -4243,7 +4265,7 @@
             "Clarify the installation requirements before purchase: connections for water, compressed air, vacuum/suction, waste water and electricity must be located in the floor or wall at exactly the right position.",
             "Choose the instrument configuration according to your range of treatments: number of micromotors and turbines, ultrasonic scaler, curing light and, if required, an endodontic motor function.",
             "Look for hygiene features such as automatic flushing programs, water line disinfection and removable, thermally disinfectable parts – they make compliance with hygiene requirements considerably easier.",
-            "An amalgam separator is a legal requirement in many countries; check its approval, maintenance interval and disposal routes.",
+            "An amalgam separator is a legal requirement in the EU – including Germany – and in many other countries; check its approval, maintenance interval and disposal routes.",
             "Compare service contracts, technical response times and spare-parts availability – if the unit fails, the entire treatment room is out of action."
           ],
           "glossary": [
@@ -4281,9 +4303,9 @@
           "use": [
             "طب الأسنان العام والوقاية",
             "علاجات الحشوات والتيجان",
-            "علاج الجذور (لب الأسنان)",
+            "علاج لب الأسنان (علاج قناة الجذر)",
             "تقويم الأسنان وطب أسنان الأطفال",
-            "جراحة الفم في العيادة"
+            "إجراءات جراحة الفم في العيادة"
           ],
           "facts": [
             {
@@ -4295,7 +4317,7 @@
               "value": "عيادات الأسنان، مستشفيات الأسنان، تقويم الأسنان، جراحة الفم والوجه والفكين"
             },
             {
-              "label": "متطلبات المساحة",
+              "label": "المساحة المطلوبة",
               "value": "غرفة علاج مع توصيلات للماء والهواء المضغوط والصرف والكهرباء؛ يجب مراعاة مخطط التركيب مسبقاً"
             },
             {
@@ -4307,7 +4329,7 @@
             "وضّح متطلبات التركيب قبل الشراء: يجب أن تكون توصيلات الماء والهواء المضغوط والتفريغ/الشفط والصرف والكهرباء في الأرضية أو الجدار في الموضع الصحيح تماماً.",
             "اختر تجهيزات الأدوات وفق نطاق العلاجات لديك: عدد المحركات الدقيقة والتوربينات، وجهاز التقليح بالموجات فوق الصوتية، ومصباح التصليب الضوئي، وعند الحاجة وظيفة محرك علاج الجذور.",
             "احرص على وجود وظائف النظافة مثل برامج الشطف التلقائي وتطهير خطوط المياه والأجزاء القابلة للفك والتطهير الحراري – فهي تسهّل كثيراً الالتزام بمتطلبات النظافة.",
-            "فاصل الملغم مطلوب قانونياً في كثير من الدول؛ تحقق من اعتماده وفترة صيانته وطرق التخلص من مخلفاته.",
+            "فاصل الملغم مطلوب قانونياً في الاتحاد الأوروبي – بما في ذلك ألمانيا – وفي كثير من الدول الأخرى؛ تحقق من اعتماده وفترة صيانته وطرق التخلص من مخلفاته.",
             "قارن بين عقود الخدمة وزمن استجابة الدعم الفني وتوافر قطع الغيار – فتعطل الوحدة يعني توقف غرفة العلاج بأكملها."
           ],
           "glossary": [
@@ -4377,9 +4399,9 @@
           ],
           "procurement": [
             "Entscheiden Sie frühzeitig, ob Sie eine reine 2D-Panoramafunktion benötigen oder ein aufrüstbares Gerät mit Fernröntgen (Ceph) oder 3D-Funktion (DVT) – Nachrüstungen sind oft teurer als eine Kombilösung von Beginn an.",
-            "Planen Sie den Strahlenschutz: Der Aufstellraum benötigt in der Regel eine bauliche Abschirmung, eine Sachverständigenprüfung sowie eine Anzeige oder Genehmigung bei der zuständigen Behörde.",
+            "Planen Sie den Strahlenschutz: Der Aufstellraum benötigt in der Regel eine bauliche Abschirmung, eine Sachverständigenprüfung sowie eine Anzeige oder Genehmigung bei der zuständigen Behörde (in Deutschland nach Strahlenschutzgesetz und Strahlenschutzverordnung).",
             "Prüfen Sie die Schnittstellen zur Praxissoftware und zum Bildarchiv (DICOM, PACS-Anbindung), damit Bilder ohne Medienbrüche gespeichert und weitergegeben werden können.",
-            "Berücksichtigen Sie laufende Pflichten wie Konstanzprüfungen, wiederkehrende Sachverständigenprüfungen, die Fachkunde im Strahlenschutz für das Personal und die Dokumentation der Aufnahmen.",
+            "Berücksichtigen Sie laufende Pflichten wie Konstanzprüfungen, wiederkehrende Sachverständigenprüfungen, die Fachkunde im Strahlenschutz für die Behandler, die Kenntnisse im Strahlenschutz für das Assistenzpersonal und die Dokumentation der Aufnahmen.",
             "Achten Sie auf Positionierhilfen, Kinderprogramme und Aufnahmeprogramme mit reduzierter Dosis – sie verbessern Bildqualität und Strahlenschutz im Alltag."
           ],
           "glossary": [
@@ -4410,7 +4432,7 @@
           "subtitle": "Overview image of both jaws in a single exposure",
           "short": "The panoramic X-ray unit produces an overview image of the upper and lower jaw, all teeth, the temporomandibular joints and the maxillary sinuses in a single image. It is the most important overview examination in dentistry.",
           "how": [
-            "In panoramic radiography (orthopantomography, OPG for short), the X-ray tube and the image detector rotate together around the patient's head during the exposure. The narrow, fan-shaped X-ray beam scans the dental arch along a predefined path. Only structures within this focal layer are sharply depicted, while areas in front of and behind it are blurred.",
+            "In panoramic radiography (orthopantomography, OPG for short), the X-ray tube and the image detector rotate together around the patient's head during the exposure. The narrow, fan-shaped X-ray beam scans the dental arch along a predefined path. Only structures within this image layer (focal trough) are sharply depicted, while areas in front of and behind it are blurred.",
             "The patient stands or sits in the unit, bites on a bite block and is positioned precisely using light lines and forehead and temple supports. The exposure takes only a few seconds; the digital detector converts the radiation directly into an image that appears on screen immediately. The radiation dose is considerably lower than for a series of single-tooth radiographs of the full dentition.",
             "Many units can be extended with a cephalometric arm (ceph) for orthodontic skull radiographs or with a 3D function (CBCT). Cone beam computed tomography produces three-dimensional data sets, for example for implant planning."
           ],
@@ -4441,9 +4463,9 @@
           ],
           "procurement": [
             "Decide early whether you need a pure 2D panoramic function or an upgradable unit with cephalometric (ceph) or 3D (CBCT) capability – retrofitting is often more expensive than a combined solution from the outset.",
-            "Plan radiation protection: the installation room usually requires structural shielding, an expert inspection and notification to or approval from the competent authority.",
+            "Plan radiation protection: the installation room usually requires structural shielding, an expert inspection and notification to or approval from the competent authority (in Germany under the Radiation Protection Act and Ordinance).",
             "Check the interfaces to your practice management software and image archive (DICOM, PACS connection) so that images can be stored and shared without media breaks.",
-            "Account for ongoing obligations such as constancy tests, recurring expert inspections, staff qualification in radiation protection and documentation of exposures.",
+            "Account for ongoing obligations such as constancy tests, recurring expert inspections, the required radiation protection qualifications for practitioners and assisting staff, and documentation of exposures.",
             "Look for positioning aids, paediatric programs and low-dose exposure programs – they improve image quality and radiation protection in daily use."
           ],
           "glossary": [
@@ -4474,9 +4496,9 @@
           "subtitle": "صورة شاملة للفكين في لقطة واحدة",
           "short": "ينتج جهاز الأشعة البانورامية صورة شاملة للفكين العلوي والسفلي وجميع الأسنان والمفاصل الصدغية الفكية والجيوب الفكية في صورة واحدة، وهو أهم فحص تشخيصي شامل في طب الأسنان.",
           "how": [
-            "في التصوير البانورامي (الأورثوبانتوموغرام، اختصاراً OPG) يدور أنبوب الأشعة السينية وكاشف الصورة معاً حول رأس المريض أثناء التصوير. ويمسح شعاع الأشعة الضيق المروحي الشكل القوس السني على طول مسار محدد مسبقاً. ولا تظهر بوضوح سوى البنى الواقعة في هذا المستوى الطبقي، بينما تبدو المناطق الأمامية والخلفية ضبابية.",
+            "في التصوير البانورامي (الأورثوبانتوموغرام، اختصاراً OPG) يدور أنبوب الأشعة السينية وكاشف الصورة معاً حول رأس المريض أثناء التصوير. ويمسح شعاع الأشعة الضيق المروحي الشكل القوس السني على طول مسار محدد مسبقاً. ولا تظهر بوضوح سوى البنى الواقعة ضمن هذه الطبقة البؤرية (طبقة التصوير)، بينما تبدو المناطق الأمامية والخلفية ضبابية.",
             "يقف المريض أو يجلس داخل الجهاز، ويعض على قضيب عض، ويتم تثبيت وضعيته بدقة بواسطة خطوط ضوئية ومساند للجبهة والصدغين. ولا يستغرق التصوير سوى ثوانٍ قليلة؛ إذ يحوّل الكاشف الرقمي الأشعة مباشرة إلى صورة تظهر فوراً على الشاشة. وتكون جرعة الإشعاع أقل بكثير من سلسلة صور فردية لكامل الأسنان.",
-            "يمكن توسيع كثير من الأجهزة بذراع للتصوير الرأسي الجانبي (Ceph) لصور الجمجمة في تقويم الأسنان، أو بوظيفة ثلاثية الأبعاد (CBCT). وينتج التصوير المقطعي المحوسب بالحزمة المخروطية بيانات ثلاثية الأبعاد تُستخدم مثلاً في تخطيط الزراعة."
+            "يمكن توسيع كثير من الأجهزة بذراع للتصوير السيفالومتري (Ceph) لصور الجمجمة في تقويم الأسنان، أو بوظيفة ثلاثية الأبعاد (CBCT). وينتج التصوير المقطعي المحوسب بالحزمة المخروطية بيانات ثلاثية الأبعاد تُستخدم مثلاً في تخطيط الزراعة."
           ],
           "use": [
             "التشخيص الشامل لكامل الأسنان",
@@ -4495,8 +4517,8 @@
               "value": "عيادات الأسنان، تقويم الأسنان، جراحة الفم والوجه والفكين، مستشفيات الأسنان"
             },
             {
-              "label": "متطلبات المساحة",
-              "value": "غرفة أشعة مستقلة أو ركن محمي؛ متطلبات الوقاية من الإشعاع وفق التشريعات الوطنية"
+              "label": "المساحة المطلوبة",
+              "value": "غرفة أشعة مستقلة أو ركن مزوّد بتدريع واقٍ؛ متطلبات الوقاية من الإشعاع وفق التشريعات الوطنية"
             },
             {
               "label": "مدة الاستخدام النموذجية",
@@ -4504,10 +4526,10 @@
             }
           ],
           "procurement": [
-            "قرر مبكراً ما إذا كنت تحتاج إلى وظيفة بانورامية ثنائية الأبعاد فقط أم إلى جهاز قابل للترقية بذراع التصوير الرأسي (Ceph) أو وظيفة ثلاثية الأبعاد (CBCT) – فالترقية اللاحقة غالباً أغلى من الحل المدمج منذ البداية.",
-            "خطط للوقاية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها.",
+            "قرر مبكراً ما إذا كنت تحتاج إلى وظيفة بانورامية ثنائية الأبعاد فقط أم إلى جهاز قابل للترقية بذراع التصوير السيفالومتري (Ceph) أو وظيفة ثلاثية الأبعاد (CBCT) – فالترقية اللاحقة غالباً أغلى من الحل المدمج منذ البداية.",
+            "خطط للوقاية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها (في ألمانيا وفق قانون ولائحة الوقاية من الإشعاع).",
             "تحقق من الواجهات مع برنامج إدارة العيادة وأرشيف الصور (DICOM، الربط بنظام PACS) حتى يمكن تخزين الصور ومشاركتها دون انقطاع في تدفق البيانات.",
-            "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية وتأهيل الكادر في الوقاية من الإشعاع وتوثيق الصور.",
+            "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية والمؤهلات المطلوبة في الوقاية من الإشعاع للأطباء والكادر المساعد، وتوثيق الصور.",
             "احرص على وجود أدوات المساعدة في تحديد الوضعية وبرامج الأطفال وبرامج التصوير بجرعة منخفضة – فهي تحسّن جودة الصورة والوقاية من الإشعاع في الاستخدام اليومي."
           ],
           "glossary": [
@@ -4520,8 +4542,8 @@
               "text": "التصوير المقطعي المحوسب بالحزمة المخروطية – تقنية أشعة ثلاثية الأبعاد للفكين وعظام الوجه بشعاع مخروطي الشكل."
             },
             {
-              "term": "التصوير الرأسي الجانبي (Ceph)",
-              "text": "صورة جانبية للجمجمة لقياس الجمجمة ووضعية الفكين في تقويم الأسنان."
+              "term": "الصورة السيفالومترية (Ceph)",
+              "text": "صورة جانبية للجمجمة تُستخدم في تقويم الأسنان لقياس الجمجمة وعلاقة الفكين."
             }
           ],
           "keywords": [
@@ -4546,7 +4568,7 @@
           "subtitle": "Digitale Abformung statt Abdrucklöffel",
           "short": "Der Intraoralscanner erfasst Zähne und Zahnfleisch optisch und erzeugt daraus ein dreidimensionales digitales Modell. Er ersetzt die klassische Abformung mit Abdruckmasse.",
           "how": [
-            "Der handgeführte Scanner projiziert strukturiertes Licht oder Lichtmuster auf die Zahnoberflächen und nimmt die Reflexionen mit einer oder mehreren Kameras auf. Aus Tausenden von Einzelbildern pro Sekunde berechnet die Software in Echtzeit eine dreidimensionale Punktwolke und setzt sie zu einem geschlossenen Oberflächenmodell zusammen. Der Behandler sieht den Fortschritt live am Bildschirm und kann fehlende Bereiche gezielt nachscannen.",
+            "Der handgeführte Scanner projiziert Lichtmuster (strukturiertes Licht) auf die Zahnoberflächen und nimmt die Reflexionen mit einer oder mehreren Kameras auf. Aus einer Vielzahl von Einzelbildern pro Sekunde berechnet die Software in Echtzeit eine dreidimensionale Punktwolke und setzt sie zu einem geschlossenen Oberflächenmodell zusammen. Der Behandler sieht den Fortschritt live am Bildschirm und kann fehlende Bereiche gezielt nachscannen.",
             "Das fertige Modell wird in einem offenen Format wie STL oder in einem herstellerspezifischen Format gespeichert. Es dient als Grundlage für die computergestützte Konstruktion (CAD) und Fertigung (CAM) von Kronen, Brücken, Schienen oder kieferorthopädischen Apparaturen – entweder direkt in der Praxis oder im Dentallabor.",
             "Viele Scanner bieten Zusatzfunktionen wie die farbige Darstellung, die Kariesdetektion mittels Nahinfrarotlicht oder den Vergleich von Scans über die Zeit zur Verlaufskontrolle. Da keine Abformmasse nötig ist, ist das Verfahren für Patienten angenehmer, insbesondere bei starkem Würgereiz."
           ],
@@ -4610,7 +4632,7 @@
           "subtitle": "Digital impressions instead of impression trays",
           "short": "The intraoral scanner captures teeth and gums optically and generates a three-dimensional digital model from the data. It replaces the conventional impression with impression material.",
           "how": [
-            "The handheld scanner projects structured light or light patterns onto the tooth surfaces and captures the reflections with one or more cameras. From thousands of individual frames per second, the software calculates a three-dimensional point cloud in real time and assembles it into a closed surface model. The practitioner follows the progress live on screen and can rescan any missing areas.",
+            "The handheld scanner projects light patterns (structured light) onto the tooth surfaces and captures the reflections with one or more cameras. From a large number of individual frames per second, the software calculates a three-dimensional point cloud in real time and assembles it into a closed surface model. The practitioner follows the progress live on screen and can rescan any missing areas.",
             "The finished model is saved in an open format such as STL or in a manufacturer-specific format. It serves as the basis for computer-aided design (CAD) and manufacturing (CAM) of crowns, bridges, splints or orthodontic appliances – either directly in the practice or in the dental laboratory.",
             "Many scanners offer additional functions such as colour rendering, caries detection using near-infrared light or comparison of scans over time for monitoring. Because no impression material is needed, the procedure is more comfortable for patients, especially those with a strong gag reflex."
           ],
@@ -4674,15 +4696,15 @@
           "subtitle": "طبعة رقمية بدلاً من ملاعق الطبعات",
           "short": "يلتقط الماسح الضوئي داخل الفم الأسنان واللثة بصرياً وينتج منها نموذجاً رقمياً ثلاثي الأبعاد، ليحل محل الطبعة التقليدية بمواد الطبع.",
           "how": [
-            "يُسقط الماسح المحمول باليد ضوءاً مهيكلاً أو أنماطاً ضوئية على أسطح الأسنان ويلتقط الانعكاسات بكاميرا واحدة أو أكثر. ومن آلاف اللقطات الفردية في الثانية يحسب البرنامج في الوقت الفعلي سحابة نقاط ثلاثية الأبعاد ويجمّعها في نموذج سطحي مغلق. ويتابع الطبيب التقدم مباشرة على الشاشة ويمكنه إعادة مسح المناطق الناقصة بدقة.",
-            "يُحفظ النموذج النهائي بصيغة مفتوحة مثل STL أو بصيغة خاصة بالشركة المصنعة. ويُستخدم أساساً للتصميم (CAD) والتصنيع (CAM) بمساعدة الحاسوب للتيجان والجسور والواقيات أو أجهزة تقويم الأسنان – إما مباشرة في العيادة أو في مختبر الأسنان.",
-            "توفر كثير من الماسحات وظائف إضافية مثل العرض الملون، واكتشاف التسوس بضوء الأشعة تحت الحمراء القريبة، أو مقارنة عمليات المسح عبر الزمن للمتابعة. ولأن الإجراء لا يحتاج إلى مواد طبع فهو أكثر راحة للمرضى، خاصة من يعانون من منعكس تهوع قوي."
+            "يُسقط الماسح المحمول باليد أنماطاً ضوئية (ضوءاً مهيكلاً) على أسطح الأسنان ويلتقط الانعكاسات بكاميرا واحدة أو أكثر. ومن عدد كبير من اللقطات الفردية في الثانية يحسب البرنامج في الوقت الفعلي سحابة نقاط ثلاثية الأبعاد ويجمّعها في نموذج سطحي مغلق. ويتابع الطبيب التقدم مباشرة على الشاشة ويمكنه إعادة مسح المناطق الناقصة بدقة.",
+            "يُحفظ النموذج النهائي بصيغة مفتوحة مثل STL أو بصيغة خاصة بالشركة المصنعة. ويُستخدم أساساً للتصميم (CAD) والتصنيع (CAM) بمساعدة الحاسوب للتيجان والجسور والجبائر أو أجهزة تقويم الأسنان – إما مباشرة في العيادة أو في مختبر الأسنان.",
+            "يوفر كثير من الماسحات وظائف إضافية مثل العرض الملون، واكتشاف التسوس بضوء الأشعة تحت الحمراء القريبة، أو مقارنة عمليات المسح عبر الزمن للمتابعة. ولأن الإجراء لا يحتاج إلى مواد طبع فهو أكثر راحة للمرضى، خاصة من يعانون من منعكس تهوع قوي."
           ],
           "use": [
-            "الطبعة الرقمية للتيجان والجسور والحشوات التعويضية",
+            "الطبعة الرقمية للتيجان والجسور والحشوات الداخلية (Inlays)",
             "التخطيط ومتابعة التقدم في تقويم الأسنان",
             "التعويضات فوق الزرعات باستخدام أجسام المسح",
-            "صناعة واقيات الإطباق والتعويضات المؤقتة",
+            "صناعة الجبائر الإطباقية والتعويضات المؤقتة",
             "توعية المرضى بعرض ثلاثي الأبعاد"
           ],
           "facts": [
@@ -4695,8 +4717,8 @@
               "value": "عيادات الأسنان، تقويم الأسنان، زراعة الأسنان، مختبرات الأسنان"
             },
             {
-              "label": "متطلبات المساحة",
-              "value": "عربة متنقلة أو نسخة محمولة بجانب كرسي العلاج؛ لا حاجة إلى غرفة مستقلة"
+              "label": "المساحة المطلوبة",
+              "value": "عربة متنقلة أو نسخة تعمل بحاسوب محمول بجانب كرسي العلاج؛ لا حاجة إلى غرفة مستقلة"
             },
             {
               "label": "مدة الاستخدام النموذجية",
@@ -4717,7 +4739,7 @@
             },
             {
               "term": "STL",
-              "text": "صيغة ملفات مفتوحة للنماذج السطحية ثلاثية الأبعاد تقرؤها معظم برامج التصميم."
+              "text": "صيغة ملفات مفتوحة للنماذج السطحية ثلاثية الأبعاد تقرؤها معظم برامج التصميم بمساعدة الحاسوب (CAD)."
             },
             {
               "term": "جسم المسح (Scan body)",
@@ -4778,7 +4800,7 @@
             "Dimensionieren Sie das Kammervolumen nach Instrumentenaufkommen und Zyklusdauer: Mehrere kurze Zyklen pro Tag erfordern ein Gerät mit schneller Aufheizung und ausreichender Tray-Kapazität.",
             "Prüfen Sie die Wasserversorgung: Autoklaven benötigen demineralisiertes Wasser – entweder aus einem externen Vorratstank oder aus einer integrierten Aufbereitungsanlage mit Festwasseranschluss.",
             "Achten Sie auf eine lückenlose Chargendokumentation (USB, Netzwerk, Druckeranschluss) und die Anbindung an eine Dokumentationssoftware, da die Freigabe des Sterilguts nachweisbar sein muss.",
-            "Planen Sie Validierung, jährliche Wartung und regelmäßige Prüfungen (Vakuumtest, Helix-/Bowie-Dick-Test, Chargenkontrolle) als laufende Kosten ein und klären Sie, wer sie durchführt.",
+            "Planen Sie die Validierung (in Deutschland fordert die MPBetreibV die Aufbereitung mit validierten Verfahren), jährliche Wartung und regelmäßige Prüfungen (Vakuumtest, Helix-/Bowie-Dick-Test, Chargenkontrolle) als laufende Kosten ein und klären Sie, wer sie durchführt.",
             "Berücksichtigen Sie den gesamten Aufbereitungsprozess: Reinigung, Desinfektion, Pflege, Verpackung (Siegelgerät) und Lagerung müssen zum Autoklav passen – idealerweise als abgestimmte Linie."
           ],
           "glossary": [
@@ -4826,7 +4848,7 @@
             },
             {
               "label": "Typical settings",
-              "value": "Dental practices, orthodontics, oral surgery practices, dental laboratories"
+              "value": "Dental practices, orthodontics, oral and maxillofacial surgery practices, dental laboratories"
             },
             {
               "label": "Space requirement",
@@ -4841,7 +4863,7 @@
             "Size the chamber volume according to instrument throughput and cycle time: several short cycles per day call for a unit with fast heat-up and sufficient tray capacity.",
             "Check the water supply: autoclaves require demineralised water – either from an external reservoir or from an integrated treatment system with a mains water connection.",
             "Insist on complete batch documentation (USB, network, printer port) and integration with documentation software, since the release of sterile goods must be verifiable.",
-            "Budget for validation, annual maintenance and routine tests (vacuum test, helix/Bowie-Dick test, batch monitoring) as running costs and clarify who will carry them out.",
+            "Budget for validation (in Germany, the Medical Devices Operator Ordinance (MPBetreibV) requires reprocessing with validated procedures), annual maintenance and routine tests (vacuum test, helix/Bowie-Dick test, batch monitoring) as running costs and clarify who will carry them out.",
             "Consider the entire reprocessing workflow: cleaning, disinfection, care, packaging (heat sealer) and storage must match the autoclave – ideally as a coordinated line."
           ],
           "glossary": [
@@ -4872,15 +4894,15 @@
           "subtitle": "تعقيم بالبخار للأدوات والقبضات",
           "short": "يعقّم أوتوكلاف الأسنان الأدوات والقبضات المستقيمة والزاوية بالبخار المائي المشبع تحت الضغط. وتستطيع أجهزة الفئة B تعقيم المواد المغلفة والمجوفة والمسامية بشكل موثوق.",
           "how": [
-            "يُولَّد داخل الأوتوكلاف بخار ماء مشبع تحت الضغط؛ وتقضي درجة الحرارة العالية – عادةً 134 أو 121 درجة مئوية – على الكائنات الدقيقة بما فيها الأبواغ. وقبل مرحلة التعقيم الفعلية تزيل مضخة تفريغ الهواء من الحجرة على عدة دورات (التفريغ المسبق المجزأ) ليتمكن البخار من النفاذ إلى التجاويف الضيقة في القبضات المستقيمة والزاوية.",
-            "بعد زمن التثبيت تأتي مرحلة التجفيف بالتفريغ ليخرج المعقَّم المغلف جافاً من الحجرة – إذ تُعدّ الأغلفة الرطبة غير معقمة. ويراقب حاسوب العملية الضغط ودرجة الحرارة والزمن ويوثق كل دورة عبر طابعة أو ذاكرة USB أو الشبكة.",
+            "يُولَّد داخل الأوتوكلاف بخار ماء مشبع تحت الضغط؛ وتقضي درجة الحرارة العالية – عادةً 134 أو 121 درجة مئوية – على الكائنات الدقيقة بما فيها الأبواغ. وقبل مرحلة التعقيم الفعلية تقوم مضخة التفريغ بإزالة الهواء من الحجرة على عدة مراحل (التفريغ المسبق المجزأ) ليتمكن البخار من النفاذ إلى التجاويف الضيقة في القبضات المستقيمة والزاوية.",
+            "بعد انقضاء زمن الإبقاء (زمن التعقيم الفعلي) تأتي مرحلة التجفيف بالتفريغ لتخرج المواد المعقَّمة المغلفة جافة من الحجرة – إذ تُعدّ الأغلفة الرطبة غير معقمة. ويراقب متحكم العملية الضغط ودرجة الحرارة والزمن ويوثق كل دورة عبر طابعة أو ذاكرة USB أو الشبكة.",
             "يتبع التصنيف إلى الفئات B وS وN المعيار الأوروبي لمعقمات البخار الصغيرة. والفئة B وحدها تغطي جميع أنواع الحمولة – الصلبة والمجوفة والمسامية والمغلفة وغير المغلفة – ولذلك فهي المعيار في عيادات الأسنان. وتثبت الاختبارات المنتظمة بالمؤشرات وأجسام الاختبار (مثل اختبار هيليكس) أن الجهاز يعمل بشكل صحيح."
           ],
           "use": [
             "تعقيم الأدوات الجراحية المغلفة",
             "إعادة معالجة القبضات المستقيمة والزاوية والتوربينات",
             "تعقيم المنسوجات والمواد المسامية",
-            "عيادات الأسنان ومختبرات الأسنان والمنشآت الصغيرة للرعاية الخارجية"
+            "عيادات الأسنان ومختبرات الأسنان ومنشآت العيادات الخارجية الصغيرة"
           ],
           "facts": [
             {
@@ -4892,7 +4914,7 @@
               "value": "عيادات الأسنان، تقويم الأسنان، عيادات جراحة الفم والوجه والفكين، مختبرات الأسنان"
             },
             {
-              "label": "متطلبات المساحة",
+              "label": "المساحة المطلوبة",
               "value": "جهاز منضدي في غرفة إعادة المعالجة؛ مراعاة مساحة الوضع والتهوية وتوصيل الماء عند الحاجة"
             },
             {
@@ -4904,7 +4926,7 @@
             "حدد حجم الحجرة وفق كمية الأدوات ومدة الدورة: تتطلب عدة دورات قصيرة في اليوم جهازاً سريع التسخين وبسعة صوانٍ كافية.",
             "تحقق من إمداد المياه: تحتاج الأوتوكلافات إلى ماء منزوع المعادن – إما من خزان خارجي أو من وحدة معالجة مدمجة موصولة بشبكة المياه.",
             "احرص على توثيق كامل للدفعات (USB، الشبكة، منفذ الطابعة) والربط ببرنامج توثيق، لأن الإفراج عن المواد المعقمة يجب أن يكون قابلاً للإثبات.",
-            "خصص ميزانية للتحقق من الصلاحية والصيانة السنوية والاختبارات الدورية (اختبار التفريغ، اختبار هيليكس/بوي-ديك، مراقبة الدفعات) كتكاليف جارية، ووضّح من سيقوم بتنفيذها.",
+            "خصص ميزانية للتحقق من صحة العملية (Validation) – ففي ألمانيا تشترط لائحة مشغلي الأجهزة الطبية (MPBetreibV) إعادة المعالجة بإجراءات مُتحقَّق من صحتها – وللصيانة السنوية والاختبارات الدورية (اختبار التفريغ، اختبار هيليكس/بوي-ديك، مراقبة الدفعات) كتكاليف جارية، ووضّح من سيقوم بتنفيذها.",
             "راعِ سلسلة إعادة المعالجة بأكملها: يجب أن تتوافق خطوات التنظيف والتطهير والعناية والتغليف (جهاز اللحام الحراري) والتخزين مع الأوتوكلاف – ويُفضَّل أن تكون خطاً متكاملاً."
           ],
           "glossary": [
@@ -4928,6 +4950,797 @@
             "التعقيم بالبخار",
             "التفريغ المسبق",
             "إعادة معالجة الأدوات"
+          ]
+        }
+      }
+    },
+    {
+      "id": "steam-sterilizer",
+      "category": "sterilization",
+      "image": "assets/img/devices/steam-sterilizer.svg",
+      "order": 1,
+      "i18n": {
+        "de": {
+          "name": "Dampfsterilisator (Autoklav)",
+          "subtitle": "Sterilisation mit gesättigtem Wasserdampf unter Druck",
+          "short": "Dampfsterilisatoren (Autoklaven) töten mit gesättigtem, gespanntem Wasserdampf alle Mikroorganismen einschließlich Sporen auf verpackten Instrumenten ab und sind das Standardverfahren der Sterilisation in Klinik und Praxis.",
+          "how": [
+            "In der Sterilisationskammer wird die Luft zunächst entfernt, bei Geräten der Klasse B durch ein fraktioniertes Vorvakuum mit mehreren Evakuierungs- und Dampfstößen. Nur so kann der Dampf auch in Hohlkörper wie Schläuche und Handstücke sowie in poröse Textilien eindringen. Anschließend wird reiner Wasserdampf eingeleitet, bis Druck und Temperatur den Sollwert erreichen.",
+            "Die eigentliche Sterilisation erfolgt bei 134 °C und etwa 2 bar Überdruck über mindestens drei Minuten oder bei 121 °C über mindestens 15 Minuten. Der heiße, feuchte Dampf kondensiert auf dem Sterilgut, überträgt dabei seine Energie und denaturiert die Eiweiße der Mikroorganismen. Die Kombination aus Temperatur, Feuchtigkeit, Druck und Zeit ist entscheidend, daher überwacht das Gerät alle Parameter fortlaufend.",
+            "Nach der Haltezeit wird der Dampf abgelassen und das Sterilgut im Nachvakuum getrocknet, damit die Verpackung trocken und damit keimdicht bleibt. Jede Charge wird mit Druck-, Temperatur- und Zeitverlauf protokolliert, zusätzlich belegen Chargenkontrollen, Helix-Test und Bowie-Dick-Test die Dampfdurchdringung. Diese Freigabedokumentation ist Pflicht und muss aufbewahrt werden."
+          ],
+          "use": [
+            "Zentrale Sterilgutversorgungsabteilung (ZSVA/AEMP) im Krankenhaus",
+            "Aufbereitungsraum in Arztpraxen und Praxiskliniken",
+            "Zahnarztpraxen (Tischautoklaven)",
+            "Labore und Pflegeeinrichtungen",
+            "Sterilisation von Textilien, Hohlkörpern und verpackten Instrumentensets"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "ZSVA/AEMP, Aufbereitungsräume in Praxen, Zahnarztpraxen"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Tischgerät ab ca. 50 × 60 cm Stellfläche; Großsterilisatoren als Durchreiche-Einbau zwischen reiner und steriler Seite"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "ca. 10 bis 15 Jahre"
+            }
+          ],
+          "procurement": [
+            "Geräteklasse und Kammervolumen am Sterilgutaufkommen ausrichten: Klasse B nach DIN EN 13060 für verpackte Hohlkörper und Textilien in Praxen, Großsterilisatoren nach DIN EN 285 für die ZSVA; die Kammergröße sollte das tägliche Volumen mit Reserve abdecken.",
+            "Wasser- und Stromversorgung prüfen: Autoklaven benötigen vollentsalztes oder destilliertes Wasser (Aufbereitungsanlage oder Kanister), einen Abwasseranschluss sowie je nach Größe Drehstrom und ausreichende Raumlüftung wegen der Wärmeabgabe.",
+            "Dokumentation und Schnittstellen: Chargendokumentation über USB, Netzwerk oder Drucker, idealerweise mit Anbindung an eine Instrumentenverfolgungs- oder Praxissoftware, erleichtert die Freigabe und die Nachweispflicht.",
+            "Validierung einplanen: Nach der Installation ist eine Leistungsqualifikation durch einen qualifizierten Dienstleister erforderlich, danach eine regelmäßige, in der Regel jährliche Requalifizierung; die Kosten gehören in die Gesamtkalkulation.",
+            "Servicevertrag und Verbrauchsmaterial kalkulieren: Türdichtungen, Filter, Wasseraufbereitungskartuschen, Indikatoren und Prüfkörper sind laufende Kosten; Wartungsintervalle und Reaktionszeiten vertraglich festlegen und das Personal nachweislich einweisen."
+          ],
+          "glossary": [
+            {
+              "term": "Fraktioniertes Vorvakuum",
+              "text": "Mehrfaches Abpumpen der Luft im Wechsel mit Dampfeinlass vor der Sterilisation; Voraussetzung dafür, dass Dampf auch enge Hohlräume vollständig erreicht."
+            },
+            {
+              "term": "Bowie-Dick-Test",
+              "text": "Täglicher Prüftest mit einem Indikatorpaket, der die Luftentfernung und Dampfdurchdringung in der Kammer nachweist."
+            },
+            {
+              "term": "Charge",
+              "text": "Alle Sterilgüter eines Sterilisationslaufs; sie werden gemeinsam dokumentiert, geprüft und freigegeben."
+            }
+          ],
+          "keywords": [
+            "Autoklav",
+            "Sterilisator",
+            "Klasse B",
+            "Dampfsterilisation",
+            "ZSVA",
+            "Sterilgut"
+          ]
+        },
+        "en": {
+          "name": "Steam Sterilizer (Autoclave)",
+          "subtitle": "Sterilization with saturated steam under pressure",
+          "short": "Steam sterilizers (autoclaves) use saturated, pressurized steam to destroy all microorganisms including spores on packaged instruments and are the standard sterilization method in hospitals and practices.",
+          "how": [
+            "Air is first removed from the sterilization chamber, in class B devices by a fractionated pre-vacuum with several evacuation and steam pulses. Only then can steam penetrate hollow items such as tubing and handpieces as well as porous textiles. Pure steam is then admitted until pressure and temperature reach the set point.",
+            "The actual sterilization takes place at 134 °C and about 2 bar gauge pressure for at least three minutes, or at 121 °C for at least 15 minutes. The hot, moist steam condenses on the load, transfers its energy and denatures the proteins of the microorganisms. The combination of temperature, moisture, pressure and time is decisive, so the device monitors all parameters continuously.",
+            "After the holding time the steam is released and the load is dried in a post-vacuum so that the packaging stays dry and therefore microbially tight. Every cycle is recorded with its pressure, temperature and time profile, and batch monitoring, helix test and Bowie-Dick test additionally prove steam penetration. This release documentation is mandatory and must be retained."
+          ],
+          "use": [
+            "Central sterile services department (CSSD) in hospitals",
+            "Reprocessing room in medical practices and outpatient clinics",
+            "Dental practices (tabletop autoclaves)",
+            "Laboratories and nursing facilities",
+            "Sterilization of textiles, hollow items and packaged instrument sets"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "CSSD, reprocessing rooms in practices, dental practices"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Tabletop unit from approx. 50 × 60 cm footprint; large sterilizers as pass-through installation between the clean and sterile sides"
+            },
+            {
+              "label": "Typical service life",
+              "value": "approx. 10 to 15 years"
+            }
+          ],
+          "procurement": [
+            "Match device class and chamber volume to the load volume: class B according to EN 13060 for packaged hollow items and textiles in practices, large sterilizers according to EN 285 for the CSSD; the chamber size should cover the daily volume with reserve.",
+            "Check water and power supply: autoclaves need demineralized or distilled water (treatment unit or canisters), a drain connection and, depending on size, three-phase power and adequate room ventilation because of the heat output.",
+            "Documentation and interfaces: batch documentation via USB, network or printer, ideally connected to instrument tracking or practice software, simplifies release and meeting the record-keeping obligation.",
+            "Plan for validation: after installation, a performance qualification by a qualified service provider is required, followed by regular, usually annual, requalification; these costs belong in the total calculation.",
+            "Calculate service contract and consumables: door seals, filters, water treatment cartridges, indicators and test devices are running costs; set maintenance intervals and response times in the contract and document the training of staff."
+          ],
+          "glossary": [
+            {
+              "term": "Fractionated pre-vacuum",
+              "text": "Repeated evacuation of air alternating with steam admission before sterilization; a prerequisite for steam to fully reach narrow cavities."
+            },
+            {
+              "term": "Bowie-Dick test",
+              "text": "Daily test with an indicator pack that proves air removal and steam penetration in the chamber."
+            },
+            {
+              "term": "Batch (load)",
+              "text": "All items of one sterilization cycle; they are documented, checked and released together."
+            }
+          ],
+          "keywords": [
+            "Autoclave",
+            "Sterilizer",
+            "Class B",
+            "Steam sterilization",
+            "CSSD",
+            "Sterile goods"
+          ]
+        },
+        "ar": {
+          "name": "جهاز التعقيم بالبخار (الأوتوكلاف)",
+          "subtitle": "التعقيم بالبخار المشبع تحت الضغط",
+          "short": "تستخدم أجهزة التعقيم بالبخار (الأوتوكلاف) البخار المشبع المضغوط للقضاء على جميع الكائنات الدقيقة بما فيها الأبواغ على الأدوات المغلّفة، وهي الطريقة القياسية للتعقيم في المستشفيات والعيادات.",
+          "how": [
+            "يُزال الهواء أولًا من حجرة التعقيم، وفي أجهزة الفئة B يتم ذلك عبر تفريغ مسبق مجزّأ بعدة نبضات من التفريغ والبخار. وبذلك فقط يستطيع البخار اختراق الأجسام المجوّفة مثل الأنابيب والقبضات وكذلك المنسوجات المسامية. ثم يُدخَل بخار نقي حتى يبلغ الضغط ودرجة الحرارة القيمة المحددة.",
+            "يتم التعقيم الفعلي عند 134 درجة مئوية وضغط يزيد على الضغط الجوي بنحو 2 بار لمدة ثلاث دقائق على الأقل، أو عند 121 درجة مئوية لمدة 15 دقيقة على الأقل. يتكثف البخار الساخن الرطب على الحمولة فينقل طاقته ويُفسد بروتينات الكائنات الدقيقة. والجمع بين درجة الحرارة والرطوبة والضغط والزمن هو الحاسم، لذلك يراقب الجهاز جميع المعايير باستمرار.",
+            "بعد زمن التعريض يُطلَق البخار وتُجفَّف الحمولة في تفريغ لاحق لتبقى العبوة جافة وبالتالي محكمة ضد الميكروبات. وتُسجَّل كل دورة بمنحنى الضغط ودرجة الحرارة والزمن، كما تثبت مراقبة الدفعات واختبار الحلزون (Helix) واختبار بوي-ديك (Bowie-Dick) اختراق البخار. وتوثيق الإفراج هذا إلزامي ويجب الاحتفاظ به."
+          ],
+          "use": [
+            "قسم التعقيم المركزي (CSSD) في المستشفيات",
+            "غرفة إعادة المعالجة في العيادات الطبية والمراكز الخارجية",
+            "عيادات الأسنان (أجهزة أوتوكلاف منضدية)",
+            "المختبرات ومرافق الرعاية التمريضية",
+            "تعقيم المنسوجات والأجسام المجوّفة وأطقم الأدوات المغلّفة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "قسم التعقيم المركزي، غرف إعادة المعالجة في العيادات، عيادات الأسنان"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز منضدي بمساحة تبدأ من نحو 50 × 60 سم؛ أجهزة التعقيم الكبيرة تُركَّب كوحدات عبور بين الجانب النظيف والجانب المعقّم"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 10 إلى 15 سنة"
+            }
+          ],
+          "procurement": [
+            "اختيار فئة الجهاز وحجم الحجرة وفق كمية المواد المعقّمة: الفئة B وفق المعيار EN 13060 للأجسام المجوّفة المغلّفة والمنسوجات في العيادات، وأجهزة التعقيم الكبيرة وفق المعيار EN 285 لقسم التعقيم المركزي؛ وينبغي أن يغطي حجم الحجرة الكمية اليومية مع احتياطي.",
+            "التحقق من إمداد الماء والكهرباء: تحتاج أجهزة الأوتوكلاف إلى ماء منزوع المعادن أو مقطّر (وحدة معالجة أو عبوات)، ووصلة صرف، وبحسب الحجم تيارًا ثلاثي الأطوار وتهوية كافية للغرفة بسبب الحرارة المنبعثة.",
+            "التوثيق والواجهات: توثيق الدفعات عبر USB أو الشبكة أو الطابعة، ويُفضَّل ربطه ببرنامج تتبّع الأدوات أو برنامج إدارة العيادة، مما يسهّل الإفراج والوفاء بواجب التوثيق.",
+            "التخطيط للتحقق من الصلاحية: بعد التركيب يلزم إجراء تأهيل أداء من قبل مزوّد خدمة مؤهل، ثم إعادة تأهيل منتظمة، سنوية في العادة؛ وتُدرج هذه التكاليف في الحساب الإجمالي.",
+            "حساب عقد الصيانة والمواد الاستهلاكية: حشوات الأبواب والمرشحات وخراطيش معالجة الماء والمؤشرات وأجسام الاختبار تكاليف جارية؛ ويجب تحديد فترات الصيانة وأزمنة الاستجابة في العقد وتوثيق تدريب العاملين."
+          ],
+          "glossary": [
+            {
+              "term": "التفريغ المسبق المجزّأ",
+              "text": "سحب الهواء عدة مرات بالتناوب مع إدخال البخار قبل التعقيم؛ وهو شرط ليصل البخار بالكامل إلى التجاويف الضيقة."
+            },
+            {
+              "term": "اختبار بوي-ديك (Bowie-Dick)",
+              "text": "اختبار يومي بحزمة مؤشرات يثبت إزالة الهواء واختراق البخار في الحجرة."
+            },
+            {
+              "term": "الدفعة (الحمولة)",
+              "text": "جميع المواد في دورة تعقيم واحدة؛ تُوثَّق وتُفحص ويُفرج عنها معًا."
+            }
+          ],
+          "keywords": [
+            "أوتوكلاف",
+            "جهاز تعقيم",
+            "الفئة B",
+            "التعقيم بالبخار",
+            "قسم التعقيم المركزي",
+            "المواد المعقّمة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "washer-disinfector",
+      "category": "sterilization",
+      "image": "assets/img/devices/washer-disinfector.svg",
+      "order": 2,
+      "i18n": {
+        "de": {
+          "name": "Reinigungs- und Desinfektionsgerät (RDG)",
+          "subtitle": "Maschinelle Reinigung und thermische Desinfektion",
+          "short": "Reinigungs- und Desinfektionsgeräte (RDG) reinigen und desinfizieren Instrumente maschinell in einem validierten Programm und ersetzen damit die fehleranfällige manuelle Aufbereitung.",
+          "how": [
+            "Die Instrumente werden in Siebkörben oder auf speziellen Beladungswagen in die Kammer gestellt, Hohlinstrumente werden an Spüladapter angeschlossen, damit sie innen durchströmt werden. Das Programm beginnt mit einer Vorspülung mit kaltem Wasser, die Blut und Gewebereste löst, bevor sie durch Wärme gerinnen könnten.",
+            "In der Reinigungsphase zirkuliert warmes Wasser mit einem meist alkalischen oder enzymatischen Reiniger über Sprüharme durch die Kammer. Es folgen Zwischenspülungen und bei Bedarf eine Neutralisation mit saurem Mittel. Für die thermische Desinfektion wird das vollentsalzte Spülwasser auf 90 bis 93 °C erhitzt und einige Minuten gehalten, was einem definierten A0-Wert von in der Regel 3000 entspricht.",
+            "Abschließend trocknet ein Heißluftgebläse das Spülgut, damit es sofort geprüft und verpackt werden kann. Alle Programmparameter wie Temperatur, Zeit und Dosiermenge werden aufgezeichnet und als Chargenprotokoll gespeichert. Die Validierung nach DIN EN ISO 15883 weist nach, dass das Gerät mit den verwendeten Beladungen und Chemikalien reproduzierbar das geforderte Ergebnis erreicht."
+          ],
+          "use": [
+            "ZSVA/AEMP im Krankenhaus mit mehreren Großgeräten",
+            "Aufbereitungsraum chirurgischer und zahnärztlicher Praxen",
+            "Endoskopieabteilungen mit speziellen RDG-E für flexible Endoskope",
+            "Aufbereitung von Anästhesie- und Beatmungszubehör",
+            "Reinigung von Sterilgutcontainern und OP-Schuhen in großen Kammergeräten"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "ZSVA/AEMP, Aufbereitungsräume in Praxen, Endoskopieeinheiten"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Untertisch- oder Standgerät ab ca. 60 cm Breite; Durchreichegeräte als Trennung zwischen unreiner und reiner Seite"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "ca. 10 bis 12 Jahre"
+            }
+          ],
+          "procurement": [
+            "Kapazität und Beladungssysteme festlegen: Anzahl der Siebkörbe pro Charge sowie Einsätze für Hohlinstrumente, Dental-Handstücke, Anästhesiezubehör oder MIC-Instrumente bestimmen, ob das Gerät zum tatsächlichen Instrumentarium passt.",
+            "Raum und Anschlüsse planen: Kalt-, Warm- und VE-Wasser, temperaturbeständiger Abwasseranschluss, Drehstrom sowie bei Durchreichegeräten eine bauliche Trennung in unreine und reine Seite; Abluft und Wärmelast im Raum berücksichtigen.",
+            "Prozesschemie und Dosierung: Reiniger, Neutralisator und Klarspüler müssen auf das Gerät und die Instrumentenwerkstoffe abgestimmt sein; automatische Dosierpumpen mit Füllstandsüberwachung verhindern Fehlchargen.",
+            "Validierung nach DIN EN ISO 15883 und regelmäßige Leistungsqualifikation einplanen, dazu Prüfkörper für Reinigungsleistung und Proteinnachweis; ohne gültige Validierung ist die Freigabe der Charge nicht zulässig.",
+            "Dokumentation, Service und Schulung: Chargenprotokolle digital archivieren, Anbindung an die Instrumentenverfolgung prüfen, Servicevertrag mit Wartung und Ersatzteilen vereinbaren und das Personal nach MPBetreibV einweisen."
+          ],
+          "glossary": [
+            {
+              "term": "A0-Wert",
+              "text": "Maß für die Abtötung von Mikroorganismen durch feuchte Hitze; A0 3000 entspricht beispielsweise 90 °C über fünf Minuten und ist der übliche Wert für die thermische Desinfektion von Instrumenten."
+            },
+            {
+              "term": "Thermische Desinfektion",
+              "text": "Desinfektion ausschließlich durch heißes Wasser ohne chemische Desinfektionsmittel; sie ist zuverlässig, gut validierbar und rückstandsfrei."
+            },
+            {
+              "term": "Spüladapter",
+              "text": "Anschlussstück, das Hohlinstrumente wie Kanülen oder Schläuche mit dem Wasserkreislauf verbindet, sodass auch Innenflächen gereinigt werden."
+            }
+          ],
+          "keywords": [
+            "RDG",
+            "Thermodesinfektor",
+            "Instrumentenaufbereitung",
+            "Maschinelle Reinigung",
+            "Thermische Desinfektion",
+            "A0-Wert"
+          ]
+        },
+        "en": {
+          "name": "Washer-Disinfector",
+          "subtitle": "Automated cleaning and thermal disinfection",
+          "short": "Washer-disinfectors clean and disinfect instruments automatically in a validated program and thus replace error-prone manual reprocessing.",
+          "how": [
+            "The instruments are placed in the chamber in mesh baskets or on special loading carts, and hollow instruments are connected to flushing adapters so that their lumens are rinsed from the inside. The program starts with a cold-water pre-rinse that loosens blood and tissue residues before heat could coagulate them.",
+            "In the cleaning phase, warm water with a usually alkaline or enzymatic detergent circulates through the chamber via spray arms. Intermediate rinses follow and, if necessary, neutralization with an acidic agent. For thermal disinfection, the demineralized rinse water is heated to 90 to 93 °C and held for a few minutes, which corresponds to a defined A0 value, usually 3000.",
+            "Finally, a hot-air blower dries the load so that it can be inspected and packaged immediately. All program parameters such as temperature, time and dosing quantity are recorded and stored as a batch record. Validation according to EN ISO 15883 proves that the device reproducibly achieves the required result with the loads and chemicals used."
+          ],
+          "use": [
+            "CSSD in hospitals with several large units",
+            "Reprocessing room of surgical and dental practices",
+            "Endoscopy departments with special endoscope washer-disinfectors for flexible endoscopes",
+            "Reprocessing of anesthesia and ventilation accessories",
+            "Cleaning of sterilization containers and OR shoes in large chamber units"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "CSSD, reprocessing rooms in practices, endoscopy units"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Undercounter or freestanding unit from approx. 60 cm width; pass-through units as a barrier between the dirty and clean sides"
+            },
+            {
+              "label": "Typical service life",
+              "value": "approx. 10 to 12 years"
+            }
+          ],
+          "procurement": [
+            "Define capacity and loading systems: the number of mesh baskets per cycle and inserts for hollow instruments, dental handpieces, anesthesia accessories or minimally invasive instruments determine whether the device fits the actual instrument inventory.",
+            "Plan room and connections: cold, hot and demineralized water, a temperature-resistant drain, three-phase power and, for pass-through units, a structural separation into dirty and clean sides; take exhaust air and heat load in the room into account.",
+            "Process chemicals and dosing: detergent, neutralizer and rinse aid must be matched to the device and the instrument materials; automatic dosing pumps with level monitoring prevent faulty cycles.",
+            "Plan for validation according to EN ISO 15883 and regular performance qualification, including test soils for cleaning performance and protein detection; without valid validation, release of the batch is not permitted.",
+            "Documentation, service and training: archive batch records digitally, check connection to instrument tracking, agree on a service contract with maintenance and spare parts, and train staff as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
+          ],
+          "glossary": [
+            {
+              "term": "A0 value",
+              "text": "Measure of the killing of microorganisms by moist heat; A0 3000 corresponds, for example, to 90 °C for five minutes and is the usual value for thermal disinfection of instruments."
+            },
+            {
+              "term": "Thermal disinfection",
+              "text": "Disinfection solely by hot water without chemical disinfectants; it is reliable, easy to validate and leaves no residues."
+            },
+            {
+              "term": "Flushing adapter",
+              "text": "Connector that links hollow instruments such as cannulas or tubing to the water circuit so that internal surfaces are cleaned as well."
+            }
+          ],
+          "keywords": [
+            "WD",
+            "Thermal disinfector",
+            "Instrument reprocessing",
+            "Automated cleaning",
+            "Thermal disinfection",
+            "A0 value"
+          ]
+        },
+        "ar": {
+          "name": "جهاز الغسل والتطهير",
+          "subtitle": "تنظيف آلي وتطهير حراري",
+          "short": "تنظّف أجهزة الغسل والتطهير الأدوات وتطهّرها آليًا ضمن برنامج مُتحقَّق من صحته، وبذلك تحل محل إعادة المعالجة اليدوية المعرّضة للأخطاء.",
+          "how": [
+            "تُوضع الأدوات في الحجرة في سلال شبكية أو على عربات تحميل خاصة، وتُوصَل الأدوات المجوّفة بمحوّلات شطف لتُشطف تجاويفها من الداخل. يبدأ البرنامج بشطف أولي بالماء البارد يُذيب بقايا الدم والأنسجة قبل أن تتخثر بفعل الحرارة.",
+            "في مرحلة التنظيف يدور ماء دافئ مع منظّف قلوي أو إنزيمي في الغالب عبر أذرع الرش في الحجرة. ثم تلي ذلك عمليات شطف وسيطة، وعند الحاجة معادلة بمادة حمضية. وللتطهير الحراري يُسخَّن ماء الشطف منزوع المعادن إلى 90 حتى 93 درجة مئوية ويُحفَظ عندها لبضع دقائق، وهو ما يقابل قيمة A0 محددة، عادةً 3000.",
+            "وأخيرًا يجفف منفاخ الهواء الساخن الحمولة لتُفحص وتُغلَّف فورًا. وتُسجَّل جميع معايير البرنامج مثل درجة الحرارة والزمن وكمية الجرعة وتُحفظ كسجل للدفعة. ويثبت التحقق من الصلاحية وفق المعيار EN ISO 15883 أن الجهاز يحقق النتيجة المطلوبة بصورة قابلة للتكرار مع الحمولات والمواد الكيميائية المستخدمة."
+          ],
+          "use": [
+            "قسم التعقيم المركزي في المستشفيات مع عدة أجهزة كبيرة",
+            "غرفة إعادة المعالجة في العيادات الجراحية وعيادات الأسنان",
+            "أقسام التنظير مع أجهزة غسل وتطهير خاصة بالمناظير المرنة",
+            "إعادة معالجة ملحقات التخدير والتهوية",
+            "تنظيف حاويات التعقيم وأحذية غرف العمليات في الأجهزة ذات الحجرات الكبيرة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "قسم التعقيم المركزي، غرف إعادة المعالجة في العيادات، وحدات التنظير"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز تحت الطاولة أو قائم بعرض يبدأ من نحو 60 سم؛ أجهزة العبور كحاجز بين الجانب الملوّث والجانب النظيف"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 10 إلى 12 سنة"
+            }
+          ],
+          "procurement": [
+            "تحديد السعة وأنظمة التحميل: عدد السلال الشبكية في كل دورة، والحوامل للأدوات المجوّفة وقبضات الأسنان وملحقات التخدير أو أدوات الجراحة طفيفة التوغل تحدد ما إذا كان الجهاز يناسب مخزون الأدوات الفعلي.",
+            "تخطيط الغرفة والوصلات: ماء بارد وساخن ومنزوع المعادن، وصرف مقاوم للحرارة، وتيار ثلاثي الأطوار، وفي أجهزة العبور فصل إنشائي بين الجانب الملوّث والجانب النظيف؛ مع مراعاة هواء العادم والحمل الحراري في الغرفة.",
+            "المواد الكيميائية للعملية والجرعات: يجب أن يتوافق المنظّف ومادة المعادلة ومادة الشطف مع الجهاز ومواد صنع الأدوات؛ ومضخات الجرعات الآلية مع مراقبة المستوى تمنع الدورات الخاطئة.",
+            "التخطيط للتحقق من الصلاحية وفق المعيار EN ISO 15883 ولتأهيل الأداء الدوري، بما في ذلك أجسام اختبار لأداء التنظيف وكشف البروتين؛ فمن دون تحقق ساري المفعول لا يُسمح بالإفراج عن الدفعة.",
+            "التوثيق والخدمة والتدريب: أرشفة سجلات الدفعات رقميًا، والتحقق من الربط بنظام تتبّع الأدوات، والاتفاق على عقد خدمة يشمل الصيانة وقطع الغيار، وتدريب العاملين وفق اللائحة الألمانية لتشغيل الأجهزة الطبية (MPBetreibV)."
+          ],
+          "glossary": [
+            {
+              "term": "قيمة A0",
+              "text": "مقياس للقضاء على الكائنات الدقيقة بالحرارة الرطبة؛ فقيمة A0 3000 تقابل مثلًا 90 درجة مئوية لمدة خمس دقائق، وهي القيمة المعتادة للتطهير الحراري للأدوات."
+            },
+            {
+              "term": "التطهير الحراري",
+              "text": "تطهير بالماء الساخن فقط دون مطهّرات كيميائية؛ وهو موثوق وسهل التحقق منه ولا يترك بقايا."
+            },
+            {
+              "term": "محوّل الشطف",
+              "text": "قطعة توصيل تربط الأدوات المجوّفة مثل القنيات أو الأنابيب بدورة الماء بحيث تُنظَّف الأسطح الداخلية أيضًا."
+            }
+          ],
+          "keywords": [
+            "جهاز غسل وتطهير",
+            "مطهّر حراري",
+            "إعادة معالجة الأدوات",
+            "التنظيف الآلي",
+            "التطهير الحراري",
+            "قيمة A0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ultrasonic-cleaner",
+      "category": "sterilization",
+      "image": "assets/img/devices/ultrasonic-cleaner.svg",
+      "order": 3,
+      "i18n": {
+        "de": {
+          "name": "Ultraschallreinigungsgerät",
+          "subtitle": "Vorreinigung durch Kavitation im Flüssigkeitsbad",
+          "short": "Ultraschallreinigungsgeräte lösen mit hochfrequenten Schallwellen in einem Reinigungsbad auch festsitzende Verschmutzungen aus Gelenken, Rillen und Hohlräumen von Instrumenten und ergänzen die maschinelle Aufbereitung.",
+          "how": [
+            "Am Boden oder an den Wänden der Edelstahlwanne sitzen Schwinger, die elektrische Energie in Schallwellen mit Frequenzen von meist 35 bis 45 Kilohertz umwandeln. Diese Wellen erzeugen in der Reinigungsflüssigkeit winzige Vakuumbläschen, die in Sekundenbruchteilen implodieren. Diesen Vorgang nennt man Kavitation.",
+            "Die Implosionen wirken wie Millionen kleiner Bürsten und lösen Blut, Gewebereste und Zementrückstände auch an Stellen, die mechanisch nicht erreichbar sind, etwa in Gelenken, Zahnungen und Lumen. Ein auf das Instrumentenmaterial abgestimmter Reiniger im Bad unterstützt den Prozess chemisch, eine Erwärmung auf etwa 40 °C verbessert die Wirkung, ohne Eiweiß zu fixieren.",
+            "Die Instrumente liegen geöffnet in einem Siebkorb, der sie vom Wannenboden fernhält, und werden nach wenigen Minuten gründlich abgespült. Das Ultraschallbad ist eine Vorreinigung: Die anschließende Desinfektion und Sterilisation erfolgen im RDG und im Sterilisator. Nach jedem Neubefüllen muss die Flüssigkeit entgast werden, und das Bad ist regelmäßig – in der Regel arbeitstäglich – zu wechseln; die Wirksamkeit lässt sich mit Folien- oder Indikatortests prüfen."
+          ],
+          "use": [
+            "Vorreinigung chirurgischer Instrumente mit Gelenken und feinen Strukturen",
+            "Zahnarztpraxen: Bohrer, Fräser, Wurzelkanalinstrumente",
+            "Augen- und HNO-Chirurgie mit mikrochirurgischem Instrumentarium",
+            "Labore und Werkstätten für Prothetik und Dentaltechnik"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Unreine Seite des Aufbereitungsraums in Praxen und ZSVA"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Tischgerät; Wannenvolumen meist 3 bis 30 Liter, Stellfläche ab ca. 30 × 30 cm"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "ca. 8 bis 10 Jahre"
+            }
+          ],
+          "procurement": [
+            "Wannenvolumen und Korbmaße an den längsten Instrumenten und am Chargenvolumen ausrichten; Instrumente müssen vollständig untergetaucht liegen, ohne sich zu berühren oder den Korb zu überladen.",
+            "Ausstattung prüfen: einstellbare Zeit, Heizung mit Temperaturbegrenzung, Entgasungsfunktion, Deckel gegen Aerosole und ein Ablaufhahn erleichtern den Betrieb und schützen das Personal.",
+            "Reinigungschemie passend wählen: Nur Reiniger mit Freigabe für Ultraschall und für die Instrumentenwerkstoffe (Edelstahl, Aluminium, Kunststoffe) einsetzen sowie Dosierung und Standzeit des Bades dokumentieren.",
+            "Den Ultraschallschritt in die validierte Aufbereitungskette einbinden: Herstellerangaben der Instrumente beachten, eine Arbeitsanweisung erstellen und die Wirksamkeit regelmäßig mit Prüfkörpern nachweisen.",
+            "Mit niedrigen Anschaffungskosten rechnen, aber Verschleißteile wie Wanne, Schwinger und Deckel sowie den laufenden Bedarf an Reiniger und VE-Wasser einkalkulieren; Lärmschutz bei Dauerbetrieb beachten."
+          ],
+          "glossary": [
+            {
+              "term": "Kavitation",
+              "text": "Entstehen und Implodieren mikroskopisch kleiner Dampfbläschen in einer Flüssigkeit durch Ultraschall; die dabei freigesetzte Energie löst Schmutz von Oberflächen."
+            },
+            {
+              "term": "Entgasen",
+              "text": "Kurzer Leerlauf des Bades nach dem Befüllen, damit gelöste Luft entweicht; gelöste Gase dämpfen die Kavitation und verringern die Reinigungsleistung."
+            },
+            {
+              "term": "Schwinger (Transducer)",
+              "text": "Piezoelektrisches Bauteil, das die elektrische Wechselspannung des Generators in mechanische Schwingungen der Wanne umsetzt."
+            }
+          ],
+          "keywords": [
+            "Ultraschallbad",
+            "Ultraschallreiniger",
+            "Kavitation",
+            "Vorreinigung",
+            "Instrumentenreinigung"
+          ]
+        },
+        "en": {
+          "name": "Ultrasonic Cleaner",
+          "subtitle": "Pre-cleaning by cavitation in a liquid bath",
+          "short": "Ultrasonic cleaners use high-frequency sound waves in a cleaning bath to loosen even stubborn soil from joints, grooves and cavities of instruments and complement automated reprocessing.",
+          "how": [
+            "Transducers on the bottom or walls of the stainless-steel tank convert electrical energy into sound waves, usually at frequencies of 35 to 45 kilohertz. These waves generate tiny vacuum bubbles in the cleaning liquid that implode within fractions of a second. This process is called cavitation.",
+            "The implosions act like millions of tiny brushes and loosen blood, tissue residues and cement deposits even in places that cannot be reached mechanically, such as joints, serrations and lumens. A detergent in the bath matched to the instrument material supports the process chemically, and heating to about 40 °C improves the effect without fixing proteins.",
+            "The instruments lie open in a mesh basket that keeps them off the tank bottom and are rinsed thoroughly after a few minutes. The ultrasonic bath is a pre-cleaning step: the subsequent disinfection and sterilization take place in the washer-disinfector and the sterilizer. The liquid must be degassed after each fresh fill, and the bath must be changed regularly – usually every working day; effectiveness can be checked with foil or indicator tests."
+          ],
+          "use": [
+            "Pre-cleaning of surgical instruments with joints and fine structures",
+            "Dental practices: burs, milling tools, root canal instruments",
+            "Ophthalmic and ENT surgery with microsurgical instruments",
+            "Laboratories and workshops for prosthetics and dental technology"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dirty side of the reprocessing room in practices and CSSD"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Tabletop unit; tank volume usually 3 to 30 liters, footprint from approx. 30 × 30 cm"
+            },
+            {
+              "label": "Typical service life",
+              "value": "approx. 8 to 10 years"
+            }
+          ],
+          "procurement": [
+            "Match tank volume and basket dimensions to the longest instruments and to the batch volume; instruments must be fully submerged without touching each other or overloading the basket.",
+            "Check the features: adjustable time, heating with temperature limit, degassing function, a lid against aerosols and a drain tap make operation easier and protect staff.",
+            "Choose suitable cleaning chemicals: use only detergents approved for ultrasonic use and for the instrument materials (stainless steel, aluminum, plastics) and document the dosing and the service time of the bath.",
+            "Integrate the ultrasonic step into the validated reprocessing chain: follow the instrument manufacturers' instructions, write a work instruction and prove effectiveness regularly with test devices.",
+            "Expect low purchase costs, but budget for wear parts such as the tank, transducers and lid as well as the ongoing need for detergent and demineralized water; consider noise protection in continuous operation."
+          ],
+          "glossary": [
+            {
+              "term": "Cavitation",
+              "text": "Formation and implosion of microscopic vapor bubbles in a liquid caused by ultrasound; the energy released loosens soil from surfaces."
+            },
+            {
+              "term": "Degassing",
+              "text": "Short idle run of the bath after filling so that dissolved air escapes; dissolved gases dampen cavitation and reduce cleaning performance."
+            },
+            {
+              "term": "Transducer",
+              "text": "Piezoelectric component that converts the alternating voltage of the generator into mechanical vibrations of the tank."
+            }
+          ],
+          "keywords": [
+            "Ultrasonic bath",
+            "Ultrasonic cleaning",
+            "Cavitation",
+            "Pre-cleaning",
+            "Instrument cleaning"
+          ]
+        },
+        "ar": {
+          "name": "جهاز التنظيف بالموجات فوق الصوتية",
+          "subtitle": "تنظيف أولي بالتكهّف في حمام سائل",
+          "short": "تستخدم أجهزة التنظيف بالموجات فوق الصوتية موجات صوتية عالية التردد في حمام تنظيف لإزالة حتى الأوساخ العنيدة من مفاصل الأدوات وأخاديدها وتجاويفها، وتكمّل إعادة المعالجة الآلية.",
+          "how": [
+            "تُثبَّت في قاع الحوض المصنوع من الفولاذ المقاوم للصدأ أو على جدرانه محوّلات طاقة تحوّل الطاقة الكهربائية إلى موجات صوتية بترددات تتراوح عادةً بين 35 و45 كيلوهرتز. تولّد هذه الموجات في سائل التنظيف فقاعات فراغية دقيقة تنهار في أجزاء من الثانية. وتُسمى هذه العملية التكهّف.",
+            "تعمل هذه الانهيارات كملايين الفُرَش الصغيرة فتزيل الدم وبقايا الأنسجة ورواسب الإسمنت حتى في الأماكن التي لا يمكن الوصول إليها ميكانيكيًا، مثل المفاصل والتسنينات والتجاويف. ويدعم منظّف في الحمام متوافق مع مادة الأدوات العملية كيميائيًا، كما يحسّن التسخين إلى نحو 40 درجة مئوية الفعالية دون تثبيت البروتينات.",
+            "تُوضع الأدوات مفتوحة في سلة شبكية تُبعدها عن قاع الحوض، وتُشطف جيدًا بعد بضع دقائق. وحمام الموجات فوق الصوتية خطوة تنظيف أولي: فالتطهير والتعقيم اللاحقان يتمان في جهاز الغسل والتطهير وجهاز التعقيم. ويجب إزالة الغازات من السائل بعد كل تعبئة جديدة، وتغيير الحمام بانتظام – يوميًا في العادة؛ ويمكن التحقق من الفعالية باختبارات الرقائق أو المؤشرات."
+          ],
+          "use": [
+            "التنظيف الأولي للأدوات الجراحية ذات المفاصل والتفاصيل الدقيقة",
+            "عيادات الأسنان: السنابل وأدوات التفريز وأدوات قنوات الجذور",
+            "جراحة العيون والأنف والأذن والحنجرة بأدوات الجراحة المجهرية",
+            "المختبرات وورش التعويضات السنية وتقنيات الأسنان"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "الجانب الملوّث من غرفة إعادة المعالجة في العيادات وقسم التعقيم المركزي"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز منضدي؛ حجم الحوض عادةً من 3 إلى 30 لترًا، ومساحة تبدأ من نحو 30 × 30 سم"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 8 إلى 10 سنوات"
+            }
+          ],
+          "procurement": [
+            "اختيار حجم الحوض وأبعاد السلة وفق أطول الأدوات وحجم الدفعة؛ ويجب أن تكون الأدوات مغمورة بالكامل دون أن تتلامس أو تُحمَّل السلة فوق طاقتها.",
+            "التحقق من التجهيزات: زمن قابل للضبط، وتسخين مع حد لدرجة الحرارة، ووظيفة إزالة الغازات، وغطاء ضد الرذاذ، وصنبور تصريف، كلها تسهّل التشغيل وتحمي العاملين.",
+            "اختيار المواد الكيميائية المناسبة للتنظيف: لا تُستخدم إلا المنظّفات المعتمدة للموجات فوق الصوتية ولمواد صنع الأدوات (الفولاذ المقاوم للصدأ والألمنيوم واللدائن)، مع توثيق الجرعة ومدة صلاحية الحمام.",
+            "دمج خطوة الموجات فوق الصوتية في سلسلة إعادة المعالجة المتحقَّق منها: اتباع تعليمات مصنّعي الأدوات، وإعداد تعليمات عمل، وإثبات الفعالية بانتظام بأجسام الاختبار.",
+            "توقّع تكاليف شراء منخفضة، مع احتساب قطع التآكل مثل الحوض ومحوّلات الطاقة والغطاء والحاجة المستمرة إلى المنظّف والماء منزوع المعادن؛ ومراعاة الحماية من الضجيج عند التشغيل المتواصل."
+          ],
+          "glossary": [
+            {
+              "term": "التكهّف",
+              "text": "تكوّن فقاعات بخارية مجهرية في سائل وانهيارها بفعل الموجات فوق الصوتية؛ والطاقة المنطلقة عند ذلك تزيل الأوساخ عن الأسطح."
+            },
+            {
+              "term": "إزالة الغازات",
+              "text": "تشغيل الحمام فارغًا لفترة قصيرة بعد ملئه ليتسرب الهواء الذائب؛ فالغازات الذائبة تُضعف التكهّف وتقلل أداء التنظيف."
+            },
+            {
+              "term": "محوّل الطاقة (Transducer)",
+              "text": "عنصر كهرضغطي يحوّل الجهد المتناوب للمولّد إلى اهتزازات ميكانيكية في الحوض."
+            }
+          ],
+          "keywords": [
+            "حمام الموجات فوق الصوتية",
+            "منظّف بالموجات فوق الصوتية",
+            "التكهّف",
+            "التنظيف الأولي",
+            "تنظيف الأدوات"
+          ]
+        }
+      }
+    },
+    {
+      "id": "heat-sealer",
+      "category": "sterilization",
+      "image": "assets/img/devices/heat-sealer.svg",
+      "order": 4,
+      "i18n": {
+        "de": {
+          "name": "Siegelgerät für Sterilgutverpackung",
+          "subtitle": "Keimdichtes Verschließen von Sterilisierverpackungen",
+          "short": "Siegelgeräte verschweißen Klarsichtbeutel und Schläuche aus Papier und Folie zu einer keimdichten Sterilbarriere, damit Instrumente nach der Sterilisation bis zum Einsatz steril bleiben.",
+          "how": [
+            "Die Instrumente werden in einen Beutel oder einen auf Länge geschnittenen Schlauch aus Sterilisationspapier und transparenter Folie gelegt. Das Siegelgerät presst die offene Seite zwischen einer beheizten Siegelschiene und einem Gegenlager zusammen. Dabei schmilzt die Beschichtung der Folie und verbindet sich dauerhaft mit dem Papier.",
+            "Entscheidend sind drei Parameter: Temperatur, Anpressdruck und Siegelzeit. Nur wenn sie zum Verpackungsmaterial passen, entsteht eine gleichmäßige, mindestens sechs Millimeter breite Siegelnaht ohne Falten, Kanäle oder verbrannte Stellen. Durchlaufsiegelgeräte ziehen die Verpackung mit konstanter Geschwindigkeit durch die Heizzone und eignen sich für größere Mengen, Balkensiegelgeräte verschließen jede Packung einzeln.",
+            "Moderne Geräte überwachen Temperatur und Druck elektronisch, melden Abweichungen und drucken auf Wunsch Sterilisationsdatum, Verfallsdatum und Chargennummer direkt auf die Verpackung. Die Siegelnaht lässt sich mit dem Tintentest oder dem Peel-Test prüfen. Nach DIN EN ISO 11607 muss der Siegelprozess validiert und regelmäßig kontrolliert werden."
+          ],
+          "use": [
+            "Verpacken von Instrumenten vor der Dampfsterilisation in Praxis und ZSVA",
+            "Zahnarztpraxen für Handstücke, Bohrer und Einzelinstrumente",
+            "Verschließen von Beuteln für die Gas- und Plasmasterilisation",
+            "Kennzeichnung von Sterilgut mit Datum und Charge"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Packzone des Aufbereitungsraums, reine Seite der ZSVA/AEMP"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Tischgerät mit ca. 40 bis 60 cm Breite, bei Rollenhaltern zusätzlicher Platz"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "ca. 8 bis 10 Jahre"
+            }
+          ],
+          "procurement": [
+            "Bauart nach Durchsatz wählen: Balkensiegelgeräte für kleine Praxen mit wenigen Packungen täglich, Durchlaufsiegelgeräte mit Rollenhalter und Schneidevorrichtung für größere Aufbereitungseinheiten.",
+            "Auf validierbare Prozessparameter achten: Geräte mit überwachter Temperatur, Anpressdruck und Siegelgeschwindigkeit, Warnmeldung bei Abweichung und Protokollausgabe erfüllen die Anforderungen der DIN EN ISO 11607 deutlich leichter.",
+            "Verpackungsmaterial und Gerät aufeinander abstimmen: Die Siegeltemperatur unterscheidet sich zwischen Papier-Folien-Verpackungen und Spezialmaterialien für Niedertemperaturverfahren; Materialfreigaben des Herstellers und die Verfügbarkeit der Verbrauchsmaterialien prüfen.",
+            "Integrierten Drucker oder Etikettendrucker einplanen, damit Sterilisationsdatum, Verfallsdatum, Charge und Packende direkt auf jeder Packung dokumentiert werden; dies ist Voraussetzung für die Rückverfolgbarkeit.",
+            "Jährliche Wartung und Kalibrierung, Prüfmittel für die Siegelnahtprüfung (Tintentest, Peel-Test-Streifen) und die Einweisung des Personals in korrektes Packen und Siegeln vertraglich und organisatorisch festlegen."
+          ],
+          "glossary": [
+            {
+              "term": "Siegelnaht",
+              "text": "Die durch Hitze und Druck erzeugte Verbindung zwischen Papier und Folie; sie muss durchgehend, gleichmäßig und peelbar sein, damit die Packung steril bleibt und sich im OP keimfrei öffnen lässt."
+            },
+            {
+              "term": "Sterilbarrieresystem",
+              "text": "Die kleinste Verpackungseinheit, die das Eindringen von Mikroorganismen verhindert und die aseptische Entnahme des Produkts ermöglicht."
+            },
+            {
+              "term": "Peel-Test",
+              "text": "Prüfung, bei der die Siegelnaht von Hand oder im Prüfgerät aufgezogen wird; sie muss sich gleichmäßig ohne Faserausriss oder Lücken öffnen."
+            }
+          ],
+          "keywords": [
+            "Folienschweißgerät",
+            "Siegelgerät",
+            "Durchlaufsiegelgerät",
+            "Sterilgutverpackung",
+            "Siegelnaht",
+            "Klarsichtbeutel"
+          ]
+        },
+        "en": {
+          "name": "Heat Sealer for Sterile Packaging",
+          "subtitle": "Microbially tight sealing of sterilization pouches",
+          "short": "Heat sealers weld paper-film pouches and reels into a microbially tight sterile barrier so that instruments remain sterile from sterilization until use.",
+          "how": [
+            "The instruments are placed in a pouch or a reel section cut to length, made of sterilization paper and transparent film. The sealer presses the open side between a heated sealing bar and a counter support. The coating of the film melts and bonds permanently with the paper.",
+            "Three parameters are decisive: temperature, contact pressure and sealing time. Only if they match the packaging material does a uniform seal at least six millimeters wide form, without creases, channels or burnt spots. Rotary sealers pull the packaging through the heating zone at constant speed and suit larger volumes, while bar sealers close each pack individually.",
+            "Modern devices monitor temperature and pressure electronically, report deviations and, if required, print the sterilization date, expiry date and batch number directly on the packaging. The seal can be checked with the ink test or the peel test. According to EN ISO 11607, the sealing process must be validated and checked regularly."
+          ],
+          "use": [
+            "Packaging instruments before steam sterilization in practices and the CSSD",
+            "Dental practices for handpieces, burs and single instruments",
+            "Sealing pouches for gas and plasma sterilization",
+            "Labeling sterile goods with date and batch"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Packing area of the reprocessing room, clean side of the CSSD"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Tabletop unit approx. 40 to 60 cm wide, additional space for reel holders"
+            },
+            {
+              "label": "Typical service life",
+              "value": "approx. 8 to 10 years"
+            }
+          ],
+          "procurement": [
+            "Choose the design according to throughput: bar sealers for small practices with few packs per day, rotary sealers with reel holder and cutter for larger reprocessing units.",
+            "Look for validatable process parameters: devices with monitored temperature, contact pressure and sealing speed, a warning on deviation and record output meet the requirements of EN ISO 11607 much more easily.",
+            "Match packaging material and device: the sealing temperature differs between paper-film packaging and special materials for low-temperature processes; check the manufacturer's material approvals and the availability of consumables.",
+            "Plan for an integrated printer or label printer so that sterilization date, expiry date, batch and packer are documented directly on each pack; this is a prerequisite for traceability.",
+            "Define annual maintenance and calibration, test equipment for seal inspection (ink test, peel test strips) and staff training in correct packing and sealing in the contract and in the organization."
+          ],
+          "glossary": [
+            {
+              "term": "Seal (seam)",
+              "text": "The bond between paper and film created by heat and pressure; it must be continuous, uniform and peelable so that the pack stays sterile and can be opened aseptically in the OR."
+            },
+            {
+              "term": "Sterile barrier system",
+              "text": "The smallest packaging unit that prevents the entry of microorganisms and allows aseptic removal of the product."
+            },
+            {
+              "term": "Peel test",
+              "text": "Test in which the seal is pulled open by hand or in a test device; it must open evenly without fiber tear or gaps."
+            }
+          ],
+          "keywords": [
+            "Pouch sealer",
+            "Heat sealer",
+            "Rotary sealer",
+            "Sterile packaging",
+            "Seal",
+            "Sterilization pouch"
+          ]
+        },
+        "ar": {
+          "name": "جهاز ختم عبوات التعقيم",
+          "subtitle": "إغلاق محكم ضد الميكروبات لأكياس التعقيم",
+          "short": "تلحم أجهزة الختم أكياس ولفائف الورق والفيلم لتكوين حاجز معقّم محكم ضد الميكروبات، بحيث تبقى الأدوات معقّمة من التعقيم حتى الاستخدام.",
+          "how": [
+            "تُوضع الأدوات في كيس أو قطعة من لفافة مقصوصة بالطول المناسب، مصنوعة من ورق التعقيم وفيلم شفاف. يضغط جهاز الختم الجانب المفتوح بين قضيب ختم مسخَّن ودعامة مقابلة. فيذوب طلاء الفيلم ويلتحم بالورق بشكل دائم.",
+            "ثلاثة معايير حاسمة: درجة الحرارة وضغط التلامس وزمن الختم. ولا يتكوّن خط ختم منتظم بعرض ستة ملليمترات على الأقل دون تجاعيد أو قنوات أو مواضع محترقة إلا إذا كانت هذه المعايير متوافقة مع مادة التغليف. وتسحب أجهزة الختم الدوّارة العبوة عبر منطقة التسخين بسرعة ثابتة وتناسب الكميات الكبيرة، في حين تغلق أجهزة الختم ذات القضيب كل عبوة على حدة.",
+            "تراقب الأجهزة الحديثة درجة الحرارة والضغط إلكترونيًا وتبلّغ عن الانحرافات، وتطبع عند الطلب تاريخ التعقيم وتاريخ انتهاء الصلاحية ورقم الدفعة مباشرة على العبوة. ويمكن فحص خط الختم باختبار الحبر أو اختبار التقشير. ووفق المعيار EN ISO 11607 يجب التحقق من صحة عملية الختم ومراقبتها بانتظام."
+          ],
+          "use": [
+            "تغليف الأدوات قبل التعقيم بالبخار في العيادات وقسم التعقيم المركزي",
+            "عيادات الأسنان للقبضات والسنابل والأدوات المفردة",
+            "إغلاق أكياس التعقيم بالغاز والبلازما",
+            "وسم المواد المعقّمة بالتاريخ ورقم الدفعة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "منطقة التغليف في غرفة إعادة المعالجة، الجانب النظيف من قسم التعقيم المركزي"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز منضدي بعرض نحو 40 إلى 60 سم، مع مساحة إضافية لحوامل اللفائف"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 8 إلى 10 سنوات"
+            }
+          ],
+          "procurement": [
+            "اختيار نوع الجهاز وفق الإنتاجية: أجهزة الختم ذات القضيب للعيادات الصغيرة ذات العبوات القليلة يوميًا، وأجهزة الختم الدوّارة مع حامل لفائف وقاطع لوحدات إعادة المعالجة الأكبر.",
+            "الحرص على معايير عملية قابلة للتحقق: الأجهزة ذات درجة الحرارة وضغط التلامس وسرعة الختم المراقبة، مع تنبيه عند الانحراف وإخراج السجلات، تلبّي متطلبات المعيار EN ISO 11607 بسهولة أكبر بكثير.",
+            "مواءمة مادة التغليف مع الجهاز: تختلف درجة حرارة الختم بين عبوات الورق والفيلم والمواد الخاصة بعمليات التعقيم منخفضة الحرارة؛ ويجب التحقق من اعتمادات المصنّع للمواد ومن توافر المواد الاستهلاكية.",
+            "التخطيط لطابعة مدمجة أو طابعة ملصقات لتوثيق تاريخ التعقيم وتاريخ انتهاء الصلاحية والدفعة واسم المغلِّف مباشرة على كل عبوة؛ فهذا شرط لإمكانية التتبع.",
+            "تحديد الصيانة والمعايرة السنوية، ووسائل فحص خط الختم (اختبار الحبر وشرائط اختبار التقشير)، وتدريب العاملين على التغليف والختم الصحيحين، في العقد وفي التنظيم الداخلي."
+          ],
+          "glossary": [
+            {
+              "term": "خط الختم",
+              "text": "الرابطة بين الورق والفيلم الناتجة عن الحرارة والضغط؛ ويجب أن يكون متصلًا ومنتظمًا وقابلًا للتقشير لتبقى العبوة معقّمة ويمكن فتحها بطريقة معقّمة في غرفة العمليات."
+            },
+            {
+              "term": "نظام الحاجز المعقّم",
+              "text": "أصغر وحدة تغليف تمنع دخول الكائنات الدقيقة وتتيح إخراج المنتج بطريقة معقّمة."
+            },
+            {
+              "term": "اختبار التقشير",
+              "text": "اختبار يُفتح فيه خط الختم باليد أو في جهاز فحص؛ ويجب أن ينفتح بانتظام دون تمزق الألياف أو وجود فجوات."
+            }
+          ],
+          "keywords": [
+            "جهاز لحام الأكياس",
+            "جهاز ختم",
+            "جهاز ختم دوّار",
+            "عبوات التعقيم",
+            "خط الختم",
+            "أكياس التعقيم"
           ]
         }
       }
