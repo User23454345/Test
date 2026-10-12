@@ -215,6 +215,7 @@
     var progressFill = document.getElementById("progress-fill");
     var progressBar = document.getElementById("progress-bar");
     var progressReset = document.getElementById("progress-reset");
+    var statusNode = document.getElementById("device-results-status");
 
     var state = { q: "", cat: "" };
     try {
@@ -312,11 +313,13 @@
       var filtered = data.devices.filter(function (d) {
         return (!state.cat || d.category === state.cat) && matches(d, data, state.q);
       });
+      // Nur die Trefferzahl wird für Screenreader angesagt (nicht die komplette Liste)
+      if (statusNode) statusNode.textContent = filtered.length ? countLabel(filtered.length) : I18N.t("devices.noResults");
 
       if (!filtered.length) {
         results.appendChild(
           el("div", { class: "empty-state" }, [
-            el("h3", null, [I18N.t("devices.noResults")]),
+            el("h2", null, [I18N.t("devices.noResults")]),
             el("p", null, [I18N.t("devices.noResultsHint")]),
             el(
               "button",
@@ -417,6 +420,8 @@
 
     I18N.ready.then(loadData).then(
       function (data) {
+        // Unbekannte Kategorie aus der URL (?cat=) ignorieren, sonst ist kein Chip aktiv
+        if (state.cat && !findCategory(data, state.cat)) state.cat = "";
         renderChips(data);
         update(data);
         document.addEventListener("i18n:change", function () {

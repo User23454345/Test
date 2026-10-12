@@ -22,6 +22,7 @@
   var dict = null;
   var fallback = null;
   var ready = null;
+  var requestId = 0;
 
   function detectLanguage() {
     try {
@@ -160,7 +161,10 @@
   function setLanguage(lang, options) {
     options = options || {};
     if (SUPPORTED.indexOf(lang) === -1) lang = DEFAULT_LANG;
+    var reqId = ++requestId;
     return Promise.all([load(lang), load(DEFAULT_LANG)]).then(function (res) {
+      // Ein neuerer Aufruf hat diesen überholt: Ergebnis verwerfen, sonst gewinnt die langsamere Antwort.
+      if (reqId !== requestId) return current;
       dict = res[0];
       fallback = res[1];
       current = lang;

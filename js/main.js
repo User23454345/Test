@@ -120,6 +120,13 @@
       if (nav.contains(e.target) || toggle.contains(e.target)) return;
       close();
     });
+    // Tastatur: verlässt der Fokus das geöffnete Menü, schließen (sonst liegt es über dem fokussierten Inhalt)
+    nav.addEventListener("focusout", function (e) {
+      if (!nav.classList.contains("is-open")) return;
+      var next = e.relatedTarget;
+      if (!next || nav.contains(next) || toggle.contains(next)) return;
+      close();
+    });
     var mq = window.matchMedia("(min-width: 1024px)");
     var onChange = function () {
       if (mq.matches) close();
@@ -135,6 +142,8 @@
         var lang = e.currentTarget.getAttribute("data-lang");
         I18N.setLanguage(lang).then(function () {
           localizeLinks();
+        }).catch(function (err) {
+          if (window.console) console.error("[i18n] Sprachwechsel fehlgeschlagen:", err);
         });
       });
     }

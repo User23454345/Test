@@ -66,7 +66,7 @@
             <p data-i18n="contact.form.demoNote">Hinweis: Dieses Formular ist eine reine Frontend-Vorschau und noch mit keinem Server verbunden. Beim Absenden wird Ihr E-Mail-Programm mit der vorbereiteten Nachricht geöffnet.</p>
           </div>
 
-          <form id="contact-form" class="form" novalidate>
+          <form id="contact-form" class="form" action="mailto:kontakt@medny.example" method="post" enctype="text/plain">
             <div class="form-row form-row--2">
               <div class="field">
                 <label for="cf-name"><span data-i18n="contact.form.name">Name</span> *</label>

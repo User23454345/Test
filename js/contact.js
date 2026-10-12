@@ -100,6 +100,7 @@
     var again = document.getElementById("form-again");
     var summary = document.getElementById("form-summary");
     if (!form) return;
+    form.setAttribute("novalidate", "novalidate"); // eigene Validierung; ohne JS greift die native Prüfung
     if (summary) summary.style.display = "none";
 
     // Fehler beim Tippen zurücksetzen
