@@ -11,14 +11,15 @@
   --color-primary-dark: #083a66;
   --color-primary-soft: #e3eef7;
   --color-accent: #12a5b0;
-  --color-accent-dark: #0d8791;
+  --color-accent-dark: #0b6f78;   /* 5.9:1 auf Weiß, 5.2:1 auf --color-accent-soft (AA) */
+  --color-accent-deep: #085a61;
   --color-accent-soft: #e0f4f6;
   --color-bg: #ffffff;
   --color-bg-alt: #f4f8fb;
   --color-text: #0f172a;
   --color-text-muted: #475569;
   --color-border: #e2e8f0;
-  --color-success: #1f9d6a;
+  --color-success: #15744e;       /* 5.2:1 auf --color-success-soft (AA) */
   --color-success-soft: #e6f6ee;
   --color-error: #d14343;
   --color-error-soft: #fdecec;
@@ -121,7 +122,7 @@ h4 {
   color: var(--color-text);
   letter-spacing: -0.01em;
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
 }
 
 h1 {
@@ -369,12 +370,12 @@ html[lang="ar"] .eyebrow {
 }
 
 .btn--accent {
-  background: var(--color-accent);
+  background: var(--color-accent-dark);
   color: #fff;
 }
 
 .btn--accent:hover {
-  background: var(--color-accent-dark);
+  background: var(--color-accent-deep);
   color: #fff;
 }
 
@@ -415,7 +416,10 @@ html[lang="ar"] .eyebrow {
   font-size: 0.925rem;
 }
 
-.btn .icon {
+.btn .icon,
+.btn > svg,
+.badge > svg,
+.link-button > svg {
   width: 1.1em;
   height: 1.1em;
   flex: none;
@@ -446,6 +450,18 @@ html[lang="ar"] .eyebrow {
 /* Richtungsabhängige Icons (Pfeile) in RTL spiegeln */
 [dir="rtl"] .icon--flip {
   transform: scaleX(-1);
+}
+
+/* Telefonnummern bleiben auch in RTL-Layouts in Leserichtung von links nach rechts */
+a[href^="tel:"],
+[data-site="owner.phoneDisplay"] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* RTL: „12345 Musterstadt“ nicht zu „Musterstadt 12345“ umsortieren (LRM vor der PLZ) */
+[dir="rtl"] [data-site="company.zip"]::before {
+  content: "\200E";
 }
 
 /* --------------------------------------------------------------------------
@@ -1580,6 +1596,8 @@ html[lang="ar"] .class-card__risk {
   content: "›";
   margin-inline-end: 0.35rem;
   color: #94a3b8;
+  direction: ltr;
+  unicode-bidi: isolate;
 }
 
 [dir="rtl"] .breadcrumb li + li::before {
@@ -1813,6 +1831,20 @@ html[lang="ar"] .aside-box h3 {
 .aside-box a:hover {
   background: var(--color-bg-alt);
   color: var(--color-primary);
+}
+
+.aside-box a.btn {
+  display: inline-flex;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.925rem;
+  color: #fff;
+}
+
+.aside-box a.btn:hover,
+.aside-box a.btn:focus-visible {
+  background: var(--color-primary-dark);
+  color: #fff;
 }
 
 .aside-box a[aria-current="page"] {
