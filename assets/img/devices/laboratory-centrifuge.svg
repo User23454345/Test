@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Laborzentrifuge</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M92 116L110 38Q112 30 120 30H200Q208 30 210 38L228 116Z" fill="#E6F3F8"/>
+<path d="M112 100L124 48Q125 44 129 44H191Q195 44 196 48L208 100Q209 104 205 104H115Q111 104 112 100Z" fill="#FFFFFF" stroke-width="2"/>
+<rect x="56" y="118" width="208" height="82" rx="12" fill="#F4F9FC"/>
+<ellipse cx="160" cy="128" rx="84" ry="20" fill="#E6F3F8"/>
+<ellipse cx="160" cy="128" rx="66" ry="15" fill="#CBD5E1" stroke-width="2"/>
+<ellipse cx="160" cy="128" rx="48" ry="11" fill="#FFFFFF" stroke-width="2"/>
+<g fill="#7DD3DC" stroke-width="2">
+<circle cx="198" cy="128" r="4.5"/><circle cx="179" cy="135.8" r="4.5"/><circle cx="141" cy="135.8" r="4.5"/><circle cx="122" cy="128" r="4.5"/><circle cx="141" cy="120.2" r="4.5"/><circle cx="179" cy="120.2" r="4.5"/>
+</g>
+<circle cx="160" cy="128" r="4" fill="#0B4F8A" stroke="none"/>
+<rect x="70" y="160" width="60" height="24" rx="5" fill="#FFFFFF" stroke-width="2"/>
+<path d="M78 168h26M78 176h18" fill="none" stroke="#12A5B0" stroke-width="2"/>
+<circle cx="160" cy="172" r="10" fill="#E6F3F8" stroke-width="2"/>
+<path d="M160 165V172" stroke-width="2"/>
+<circle cx="196" cy="172" r="6" fill="#3BB273" stroke-width="2"/>
+<circle cx="218" cy="172" r="6" fill="#E05A5A" stroke-width="2"/>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">OP-Leuchte</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<path d="M112 132L72 206H248L208 132Z" fill="#E6F3F8" stroke="#7DD3DC" stroke-width="2" stroke-linejoin="round"/>
+<path d="M136 132L116 206H204L184 132Z" fill="#F4F9FC"/>
+<ellipse cx="160" cy="206" rx="88" ry="9" fill="#FFFFFF" stroke="#7DD3DC" stroke-width="2"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="84" y="8" width="52" height="10" rx="5" fill="#CBD5E1"/>
+<rect x="105" y="18" width="10" height="32" rx="5" fill="#E6F3F8"/>
+<rect x="105" y="64" width="60" height="10" rx="5" fill="#E6F3F8" transform="rotate(34.2 135 69)"/>
+<circle cx="110" cy="50" r="6" fill="#FFFFFF" stroke-width="2"/>
+<path d="M88 118v-10a72 22 0 0 1 144 0v10" fill="#E6F3F8"/>
+<circle cx="160" cy="88" r="6" fill="#FFFFFF" stroke-width="2"/>
+<ellipse cx="160" cy="118" rx="72" ry="22" fill="#E6F3F8"/>
+<ellipse cx="160" cy="119" rx="56" ry="14" fill="#F4F9FC" stroke="#7DD3DC" stroke-width="2"/>
+<circle cx="160" cy="119" r="7" fill="#FFFFFF" stroke-width="2"/>
+</g>
+<ellipse cx="160" cy="119" rx="44" ry="10" fill="none" stroke="#12A5B0" stroke-width="3" stroke-dasharray="6 7" stroke-linecap="round"/>
+<circle cx="160" cy="119" r="3" fill="#CBD5E1"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Endoskopie-System</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="92" y="94" width="116" height="104" rx="8" fill="#F4F9FC"/>
+<circle cx="110" cy="206" r="7" fill="#CBD5E1"/>
+<circle cx="190" cy="206" r="7" fill="#CBD5E1"/>
+<rect x="84" y="28" width="132" height="66" rx="8" fill="#E6F3F8"/>
+<rect x="92" y="36" width="116" height="50" rx="5" fill="#FFFFFF" stroke-width="2"/>
+<rect x="100" y="102" width="100" height="26" rx="5" fill="#E6F3F8"/>
+<circle cx="116" cy="115" r="7" fill="#FFFFFF" stroke-width="2"/>
+<rect x="100" y="136" width="100" height="26" rx="5" fill="#E6F3F8"/>
+<rect x="156" y="142" width="34" height="14" rx="3" fill="#FFFFFF" stroke-width="2"/>
+<rect x="100" y="170" width="100" height="20" rx="5" fill="#E6F3F8"/>
+<path d="M138 180h24M208 100h22" stroke-width="2"/>
+<rect x="226" y="100" width="22" height="42" rx="9" fill="#E6F3F8"/>
+<circle cx="250" cy="112" r="7" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="250" cy="127" r="4" fill="#7DD3DC" stroke-width="2"/>
+</g>
+<circle cx="250" cy="112" r="3" fill="#12A5B0"/>
+<circle cx="116" cy="115" r="2.5" fill="#12A5B0"/>
+<circle cx="178" cy="115" r="4" fill="#7DD3DC"/>
+<circle cx="190" cy="115" r="4" fill="#12A5B0"/>
+<path d="M161 149h18" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round"/>
+<circle cx="146" cy="61" r="18" fill="#E6F3F8" stroke="#12A5B0" stroke-width="2"/>
+<path d="M136 66c4-8 16-8 20 0" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
+<path d="M176 48h22M176 58h14M176 68h18" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
+<path d="M226 108c-14 0-20 5-26 7" fill="none" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round"/>
+<path d="M237 142c0 30 30 26 30 52s-30 22-36 10" fill="none" stroke="#0B4F8A" stroke-width="3" stroke-linecap="round"/>
+<circle cx="231" cy="204" r="3.5" fill="#12A5B0"/>
+</svg>

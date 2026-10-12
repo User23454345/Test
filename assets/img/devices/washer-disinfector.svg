@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Reinigungs- und Desinfektionsgerät</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="78" cy="200" r="6" fill="#CBD5E1"/>
+<circle cx="242" cy="200" r="6" fill="#CBD5E1"/>
+<rect x="56" y="48" width="208" height="146" rx="12" fill="#E6F3F8"/>
+<rect x="66" y="56" width="188" height="26" rx="6" fill="#FFFFFF" stroke-width="2"/>
+<rect x="72" y="61" width="44" height="16" rx="3" fill="#FFFFFF" stroke-width="2"/>
+<rect x="66" y="90" width="188" height="96" rx="10" fill="#F4F9FC"/>
+<rect x="80" y="100" width="140" height="76" rx="8" fill="#FFFFFF" stroke-width="2"/>
+<rect x="230" y="120" width="10" height="36" rx="5" fill="#12A5B0" stroke-width="2"/>
+<rect x="94" y="112" width="112" height="28" rx="4" fill="#FFFFFF" stroke-width="2"/>
+</g>
+<path d="M76 73h8l5-7 5 7h14" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="134" cy="69" r="4" fill="#CBD5E1"/>
+<circle cx="150" cy="69" r="4" fill="#CBD5E1"/>
+<circle cx="166" cy="69" r="4" fill="#CBD5E1"/>
+<circle cx="236" cy="69" r="4" fill="#3BB273"/>
+<path d="M108 112v28M122 112v28M136 112v28M150 112v28M164 112v28M178 112v28M192 112v28M94 126h112" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+<g fill="#7DD3DC" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="112" y="118" width="6" height="16" rx="3"/>
+<rect x="142" y="118" width="6" height="16" rx="3"/>
+<rect x="170" y="118" width="6" height="16" rx="3"/>
+<rect x="116" y="156" width="68" height="6" rx="3"/>
+<circle cx="150" cy="159" r="5" fill="#12A5B0"/>
+</g>
+<path d="M126 152l-3-6M138 152l-1-6M162 152l1-6M174 152l3-6" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
+</svg>

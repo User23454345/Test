@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medny – Unabhängige Beratung & Beschaffung für Medizintechnik</title>
+  <meta name="description" content="Medny berät Krankenhäuser, Arztpraxen und Gesundheitseinrichtungen herstellerneutral bei Auswahl und Beschaffung medizinischer Geräte – von der Bedarfsanalyse bis zum Support.">
+  <meta name="theme-color" content="#0b4f8a">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/icons.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/portal.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="nav.skipToContent">Zum Inhalt springen</a>
+  <noscript><div class="noscript-banner">Bitte aktivieren Sie JavaScript, um Sprachumschaltung und Geräte-Wissen zu nutzen. / Please enable JavaScript.</div></noscript>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Medny – zur Startseite" data-i18n-attr="aria-label:nav.logoLabel">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="brand__name">Medny</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü öffnen">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:nav.mainNavLabel">
+        <ul class="site-nav__list">
+          <li><a href="index.html" aria-current="page" data-i18n="nav.home">Startseite</a></li>
+          <li><a href="ueber-uns.html" data-i18n="nav.about">Über uns</a></li>
+          <li><a href="medizintechnik.html" data-i18n="nav.medtech">Was ist Medizintechnik?</a></li>
+          <li><a href="geraete.html" data-i18n="nav.devices">Geräte-Wissen</a></li>
+          <li><a href="kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+        <div class="site-nav__actions">
+          <div class="lang-switch" role="group" aria-label="Sprache" data-i18n-attr="aria-label:nav.language">
+            <button type="button" data-lang="de" lang="de" aria-pressed="true">Deutsch</button>
+            <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
+            <button type="button" data-lang="ar" lang="ar" aria-pressed="false">العربية</button>
+          </div>
+          <a class="btn btn--primary btn--sm" href="kontakt.html" data-i18n="nav.cta">Beratung anfragen</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner hero__inner--split">
+        <div>
+          <span class="eyebrow" data-i18n="home.hero.eyebrow">Beratung · Beschaffung · Begleitung</span>
+          <h1 class="hero__title" data-i18n="home.hero.title">Die richtige Medizintechnik. Unabhängig ausgewählt, sicher beschafft.</h1>
+          <p class="hero__text" data-i18n="home.hero.subtitle">Medny unterstützt Krankenhäuser, Arztpraxen und Gesundheitseinrichtungen bei der Auswahl und Beschaffung medizinischer Geräte – herstellerneutral, transparent und mit technischem Sachverstand.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="kontakt.html" data-i18n="home.hero.ctaPrimary">Kostenloses Erstgespräch</a>
+            <a class="btn btn--secondary" href="geraete.html" data-i18n="home.hero.ctaSecondary">Geräte-Wissen entdecken</a>
+          </div>
+          <p class="hero__note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 16v-4M12 8h.01"/></svg>
+            <span data-i18n="home.hero.note">Wir sind kein Hersteller. Unsere Empfehlungen richten sich ausschließlich nach Ihrem Bedarf.</span>
+          </p>
+        </div>
+        <div class="hero__media">
+          <img src="assets/img/hero.svg" width="520" height="420" alt="Illustration: Beratung zu medizinischen Geräten" data-i18n-attr="alt:home.hero.imageAlt">
+        </div>
+      </div>
+    </section>
+
+    <!-- Vertrauensmerkmale -->
+    <section class="section section--tight" aria-labelledby="trust-title">
+      <div class="container">
+        <h2 id="trust-title" class="visually-hidden" data-i18n="about.values.title">Wofür wir stehen</h2>
+        <div class="grid grid--4">
+          <div class="card">
+            <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3 data-i18n="home.trust.items.0.title">Herstellerneutral</h3>
+            <p data-i18n="home.trust.items.0.text">Keine eigene Produktlinie, keine Vorgaben – nur die Lösung, die zu Ihnen passt.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+            <h3 data-i18n="home.trust.items.1.title">Technischer Sachverstand</h3>
+            <p data-i18n="home.trust.items.1.text">Beratung durch einen M.Sc. Biomedizintechnik mit Blick auf Klinik, Technik und Betrieb.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg></span>
+            <h3 data-i18n="home.trust.items.2.title">Transparente Angebote</h3>
+            <p data-i18n="home.trust.items.2.text">Vergleichbare Angebote, klare Konditionen und nachvollziehbare Empfehlungen.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span>
+            <h3 data-i18n="home.trust.items.3.title">Begleitung bis zum Betrieb</h3>
+            <p data-i18n="home.trust.items.3.text">Von der ersten Analyse bis zur Inbetriebnahme und darüber hinaus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leistungen -->
+    <section class="section section--alt" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="services-title" data-i18n="home.services.title">Unsere Leistungen</h2>
+          <p class="lead" data-i18n="home.services.intro">Wir übernehmen den gesamten Weg von der ersten Frage bis zum laufenden Betrieb – oder genau den Teil, bei dem Sie Unterstützung brauchen.</p>
+        </div>
+        <div class="grid grid--4">
+          <article class="card card--hover">
+            <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg></span>
+            <h3 data-i18n="home.services.items.0.title">Bedarfsanalyse</h3>
+            <p data-i18n="home.services.items.0.text">Wir erfassen Ihre klinischen, räumlichen und wirtschaftlichen Anforderungen und fassen sie in einem klaren Anforderungsprofil zusammen.</p>
+          </article>
+          <article class="card card--hover">
+            <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
+            <h3 data-i18n="home.services.items.1.title">Unabhängige Beratung</h3>
+            <p data-i18n="home.services.items.1.text">Wir vergleichen Geräte, Hersteller und Ausstattungsvarianten objektiv und erklären Ihnen die Unterschiede verständlich.</p>
+          </article>
+          <article class="card card--hover">
+            <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6M9 21h.01M18 21h.01"/></svg></span>
+            <h3 data-i18n="home.services.items.2.title">Beschaffung &amp; Vermittlung</h3>
+            <p data-i18n="home.services.items.2.text">Wir holen Angebote ein, prüfen Konditionen, unterstützen bei Verhandlungen und koordinieren Lieferung und Installation.</p>
+          </article>
+          <article class="card card--hover">
+            <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg></span>
+            <h3 data-i18n="home.services.items.3.title">Support &amp; Nachbetreuung</h3>
+            <p data-i18n="home.services.items.3.text">Wir begleiten Einweisung, Dokumentation und Wartungsplanung und bleiben Ihr Ansprechpartner, wenn Fragen auftauchen.</p>
+          </article>
+        </div>
+        <p style="margin-top:1.75rem"><a class="btn btn--secondary" href="ueber-uns.html#leistungen" data-i18n="common.learnMore">Mehr erfahren</a></p>
+      </div>
+    </section>
+
+    <!-- Vorgehensweise -->
+    <section class="section" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h2 id="process-title" data-i18n="home.process.title">So arbeiten wir</h2>
+          <p class="lead" data-i18n="home.process.intro">Ein klarer, vierstufiger Prozess – damit Sie jederzeit wissen, wo Ihr Projekt steht.</p>
+        </div>
+        <ol class="steps steps--row">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">1</span>
+            <div>
+              <h3 data-i18n="home.process.steps.0.title">Bedarfsanalyse</h3>
+              <p data-i18n="home.process.steps.0.text">Gemeinsam klären wir, was Ihre Einrichtung wirklich braucht – fachlich, räumlich und finanziell.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">2</span>
+            <div>
+              <h3 data-i18n="home.process.steps.1.title">Beratung</h3>
+              <p data-i18n="home.process.steps.1.text">Wir stellen passende Lösungen gegenüber und sprechen eine begründete, herstellerneutrale Empfehlung aus.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">3</span>
+            <div>
+              <h3 data-i18n="home.process.steps.2.title">Beschaffung</h3>
+              <p data-i18n="home.process.steps.2.text">Wir organisieren Angebote, Vergleich, Bestellung und Lieferung – inklusive Installation und Abnahme.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">4</span>
+            <div>
+              <h3 data-i18n="home.process.steps.3.title">Support</h3>
+              <p data-i18n="home.process.steps.3.text">Einweisung, Dokumentation und Wartungsplanung: Wir sorgen dafür, dass Ihr Gerät sicher im Einsatz bleibt.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Lernportal-Teaser -->
+    <section class="section section--alt" aria-labelledby="portal-title">
+      <div class="container split">
+        <div>
+          <span class="eyebrow" data-i18n="home.portal.eyebrow">Lernportal</span>
+          <h2 id="portal-title" data-i18n="home.portal.title">Geräte-Wissen: Medizintechnik verständlich erklärt</h2>
+          <p class="lead" data-i18n="home.portal.text">In unserem Lernportal stellen wir medizinische Geräte strukturiert vor – mit Kurzbeschreibung, Funktionsweise, Einsatzbereich und Hinweisen für die Beschaffung. Ideal zum Einarbeiten, Nachschlagen und für fundierte Entscheidungen.</p>
+          <p style="margin-top:1.5rem"><a class="btn btn--primary" href="geraete.html" data-i18n="home.portal.cta">Zum Lernportal</a></p>
+        </div>
+        <div>
+          <div class="stats">
+            <div class="stat"><span class="stat__value" data-stat="categories">7</span><span class="stat__label" data-i18n="home.portal.statCategories">Kategorien</span></div>
+            <div class="stat"><span class="stat__value" data-stat="devices">28</span><span class="stat__label" data-i18n="home.portal.statDevices">Geräte</span></div>
+            <div class="stat"><span class="stat__value">3</span><span class="stat__label" data-i18n="home.portal.statLanguages">Sprachen</span></div>
+          </div>
+          <div id="home-categories" class="grid grid--2" style="margin-top:1rem" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Zielgruppen -->
+    <section class="section" aria-labelledby="audience-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="audience-title" data-i18n="home.audience.title">Für wen wir arbeiten</h2>
+        </div>
+        <div class="grid grid--4">
+          <div class="card">
+            <h3 data-i18n="home.audience.items.0.title">Krankenhäuser &amp; Kliniken</h3>
+            <p data-i18n="home.audience.items.0.text">Investitionsplanung, Ersatzbeschaffung und Ausstattung neuer Abteilungen.</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="home.audience.items.1.title">Arztpraxen &amp; MVZ</h3>
+            <p data-i18n="home.audience.items.1.text">Passende Gerätetechnik für Praxisgründung, Erweiterung oder Modernisierung.</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="home.audience.items.2.title">Pflege- &amp; Reha-Einrichtungen</h3>
+            <p data-i18n="home.audience.items.2.text">Robuste, einfach bedienbare Technik für Alltag und Therapie.</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="home.audience.items.3.title">Labore &amp; Dentalpraxen</h3>
+            <p data-i18n="home.audience.items.3.text">Analyse-, Behandlungs- und Hygienetechnik, abgestimmt auf Ihre Abläufe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unabhängigkeit -->
+    <section class="section section--tight" aria-labelledby="independence-title">
+      <div class="container">
+        <div class="notice">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          <div>
+            <h2 id="independence-title" style="font-size:1.25rem;margin-bottom:0.35rem" data-i18n="home.independence.title">Unabhängig. Transparent. An Ihrer Seite.</h2>
+            <p data-i18n="home.independence.text">Medny ist kein Hersteller und kein Händler mit eigenem Sortiment. Wir beraten herstellerneutral und vermitteln die Lösung, die zu Ihrem Bedarf, Ihrem Budget und Ihrem Team passt – nicht die, die sich am leichtesten verkaufen lässt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title" data-i18n="home.cta.title">Lassen Sie uns über Ihr Projekt sprechen</h2>
+        <p data-i18n="home.cta.text">Ob Neuanschaffung, Ersatzbeschaffung oder eine zweite Meinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.</p>
+        <a class="btn btn--light" href="kontakt.html" data-i18n="home.cta.button">Kontakt aufnehmen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="Medny – zur Startseite" data-i18n-attr="aria-label:nav.logoLabel">
+            <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <span class="brand__name">Medny</span>
+          </a>
+          <p data-i18n="footer.tagline">Unabhängige Beratung und Beschaffung für Medizintechnik – für Krankenhäuser, Praxen und Gesundheitseinrichtungen.</p>
+          <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten.</p>
+        </div>
+        <div>
+          <h3 data-i18n="footer.navTitle">Navigation</h3>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
+            <li><a href="ueber-uns.html" data-i18n="nav.about">Über uns</a></li>
+            <li><a href="medizintechnik.html" data-i18n="nav.medtech">Was ist Medizintechnik?</a></li>
+            <li><a href="geraete.html" data-i18n="nav.devices">Geräte-Wissen</a></li>
+            <li><a href="kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="footer.legalTitle">Rechtliches</h3>
+          <ul>
+            <li><a href="impressum.html" data-i18n="nav.imprint">Impressum</a></li>
+            <li><a href="datenschutz.html" data-i18n="nav.privacy">Datenschutz</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="footer.contactTitle">Kontakt</h3>
+          <ul>
+            <li><span data-site="owner.name">Vorname Nachname</span></li>
+            <li><a href="mailto:kontakt@medny.example" data-site-href="mailto:owner.email" data-site="owner.email">kontakt@medny.example</a></li>
+            <li><a href="tel:+490000000000" data-site-href="tel:owner.phone" data-site="owner.phoneDisplay">+49 (0) 000 000 00 00</a></li>
+            <li><span data-site="company.street">Musterstraße 1</span>, <span data-site="company.zip">12345</span> <span data-site="company.city">Musterstadt</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span data-i18n="footer.copyright">© 2026 Medny. Alle Rechte vorbehalten.</span>
+        <span data-i18n="meta.tagline">Unabhängige Beratung &amp; Beschaffung für Medizintechnik</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

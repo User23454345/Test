@@ -1,0 +1,22 @@
+{
+  "_comment": "Sprachunabhängige Stammdaten (Platzhalter). Hier Name, Foto, E-Mail, Telefon und Anschrift zentral anpassen.",
+  "company": {
+    "name": "Medny",
+    "legalName": "Medny – Beratung & Beschaffung für Medizintechnik",
+    "street": "Musterstraße 1",
+    "zip": "12345",
+    "city": "Musterstadt",
+    "countryCode": "DE"
+  },
+  "owner": {
+    "name": "Vorname Nachname",
+    "degree": "M.Sc. Biomedizintechnik",
+    "email": "kontakt@medny.example",
+    "phone": "+49 000 0000000",
+    "phoneDisplay": "+49 (0) 000 000 00 00",
+    "photo": "assets/img/placeholder-portrait.svg"
+  },
+  "social": {
+    "linkedin": ""
+  }
+}

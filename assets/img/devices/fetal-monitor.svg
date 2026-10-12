@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">CTG-Gerät</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g fill="none" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round">
+<path d="M216 116c20 0 30 20 34 60"/>
+<path d="M216 132c30 0 52 10 64 32"/>
+</g>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="46" y="60" width="170" height="110" rx="10" fill="#E6F3F8"/>
+<rect x="58" y="72" width="108" height="56" rx="6" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="190" cy="86" r="10" fill="#FFFFFF"/>
+<path d="M190 80v4" stroke-width="2"/>
+<path d="M62 146h100l12 50H50z" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="252" cy="192" r="14" fill="#E6F3F8"/>
+<circle cx="286" cy="178" r="12" fill="#E6F3F8"/>
+</g>
+<circle cx="204" cy="70" r="3" fill="#3BB273"/>
+<path d="M178 108h24M178 120h24" fill="none" stroke="#7DD3DC" stroke-width="5" stroke-dasharray="7 5"/>
+<path d="M64 102h96" fill="none" stroke="#E6F3F8" stroke-width="2"/>
+<g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 88q7-8 14 0t14 0 14 0 14 0 14 0 14 0 12 0" stroke="#12A5B0"/>
+<path d="M64 120h22c10-18 18-18 28 0h10c10-18 18-18 28 0h8" stroke="#7DD3DC"/>
+<path d="M62 164q6-7 12 0t12 0 12 0 12 0 12 0 12 0 12 0" stroke="#12A5B0"/>
+<path d="M60 184h20c8-14 14-14 22 0h14c8-14 14-14 22 0h10" stroke="#7DD3DC"/>
+</g>
+<circle cx="252" cy="192" r="5" fill="#FFFFFF" stroke="#12A5B0" stroke-width="2"/>
+<circle cx="252" cy="192" r="1.5" fill="#12A5B0"/>
+<circle cx="286" cy="178" r="4" fill="#7DD3DC"/>
+</svg>

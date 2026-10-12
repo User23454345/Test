@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Klinisch-chemischer Analysator</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="196" y="56" width="74" height="56" rx="6" fill="#E6F3F8"/>
+<rect x="202" y="62" width="62" height="44" rx="4" fill="#FFFFFF" stroke-width="2"/>
+<path d="M208 96C216 96 218 74 226 74S236 94 242 90S250 76 258 82" fill="none" stroke="#12A5B0" stroke-width="2"/>
+<path d="M233 112V126"/>
+<path d="M58 112v30a50 16 0 0 0 100 0v-30" fill="#E6F3F8"/>
+<rect x="44" y="126" width="200" height="74" rx="10" fill="#F4F9FC"/>
+<ellipse cx="108" cy="112" rx="50" ry="16" fill="#E6F3F8"/>
+<ellipse cx="108" cy="112" rx="28" ry="9" fill="#F4F9FC" stroke-width="2"/>
+<g fill="#12A5B0" stroke="none">
+<circle cx="147" cy="112" r="3.5"/><circle cx="135.6" cy="120.8" r="3.5"/><circle cx="108" cy="124.5" r="3.5"/><circle cx="80.4" cy="120.8" r="3.5"/><circle cx="69" cy="112" r="3.5"/><circle cx="80.4" cy="103.2" r="3.5"/><circle cx="108" cy="99.5" r="3.5"/><circle cx="135.6" cy="103.2" r="3.5"/>
+</g>
+<rect x="164" y="70" width="12" height="56" rx="4" fill="#E6F3F8"/>
+<path d="M164 82H108"/>
+<path d="M108 82V100" stroke-width="2"/>
+<rect x="54" y="140" width="84" height="22" rx="4" fill="#E6F3F8" stroke-width="2"/>
+<rect x="54" y="168" width="84" height="22" rx="4" fill="#E6F3F8" stroke-width="2"/>
+<rect x="148" y="140" width="64" height="50" rx="5" fill="#E6F3F8" stroke-width="2"/>
+<path d="M200 158V172" stroke-width="2"/>
+<circle cx="228" cy="150" r="4" fill="#3BB273" stroke="none"/>
+<circle cx="228" cy="164" r="4" fill="#7DD3DC" stroke="none"/>
+</g>
+</svg>

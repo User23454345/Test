@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Defibrillator</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<rect x="58" y="200" width="152" height="6" rx="3" fill="#CBD5E1"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M245 124c0-34-12-46-25-52M277 112c0-44-30-50-57-50" fill="none" stroke-width="2"/>
+<path d="M104 50v-8c0-8 6-12 14-12h32c8 0 14 4 14 12v8" fill="#E6F3F8"/>
+<rect x="48" y="48" width="172" height="152" rx="12" fill="#E6F3F8"/>
+<rect x="60" y="62" width="110" height="68" rx="6" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="196" cy="92" r="14" fill="#E05A5A"/>
+<circle cx="184" cy="124" r="5" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="208" cy="124" r="5" fill="#3BB273" stroke-width="2"/>
+<rect x="68" y="170" width="30" height="16" rx="5" fill="#FFFFFF" stroke-width="2"/>
+<rect x="270" y="112" width="14" height="52" rx="6" fill="#E6F3F8"/>
+<rect x="258" y="158" width="38" height="30" rx="8" fill="#FFFFFF"/>
+<rect x="238" y="124" width="14" height="52" rx="6" fill="#E6F3F8"/>
+<rect x="226" y="170" width="38" height="30" rx="8" fill="#FFFFFF"/>
+</g>
+<path d="M198 82l-8 12h7l-3 10 9-13h-7z" fill="#FFFFFF"/>
+<path d="M68 98h16l5-12 7 28 8-38 6 22h14l5-12 7 28 8-38 6 22h14" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 118h28" fill="none" stroke="#7DD3DC" stroke-width="3" stroke-linecap="round"/>
+<circle cx="72" cy="152" r="4" fill="#CBD5E1"/>
+<circle cx="86" cy="152" r="4" fill="#CBD5E1"/>
+<circle cx="100" cy="152" r="4" fill="#CBD5E1"/>
+<path d="M150 148h50M150 156h50M150 164h50" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="83" cy="178" r="3" fill="#12A5B0"/>
+<rect x="274" y="120" width="6" height="8" rx="2" fill="#12A5B0"/>
+<rect x="242" y="132" width="6" height="8" rx="2" fill="#12A5B0"/>
+</svg>

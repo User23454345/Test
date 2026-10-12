@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Beatmungsgerät</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="92" y="186" width="136" height="12" rx="6" fill="#E6F3F8"/>
+<circle cx="108" cy="204" r="6" fill="#CBD5E1"/>
+<circle cx="212" cy="204" r="6" fill="#CBD5E1"/>
+<rect x="152" y="120" width="16" height="66" rx="5" fill="#E6F3F8"/>
+<path d="M152 150h-14" fill="none"/>
+<rect x="106" y="136" width="32" height="36" rx="6" fill="#FFFFFF"/>
+<rect x="110" y="156" width="24" height="12" rx="3" fill="#7DD3DC" stroke="none"/>
+<rect x="66" y="28" width="160" height="96" rx="10" fill="#E6F3F8"/>
+<rect x="76" y="38" width="140" height="60" rx="6" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="196" cy="112" r="7" fill="#FFFFFF" stroke-width="2"/>
+<rect x="226" y="52" width="12" height="10" rx="3" fill="#12A5B0" stroke-width="2"/>
+<rect x="226" y="72" width="12" height="10" rx="3" fill="#12A5B0" stroke-width="2"/>
+<path d="M238 57c30 0 40 20 40 48v50" fill="none"/>
+<path d="M238 77c20 0 28 14 28 36v42" fill="none"/>
+<rect x="262" y="154" width="22" height="14" rx="5" fill="#E6F3F8"/>
+<path d="M273 168v16" fill="none"/>
+<rect x="266" y="184" width="14" height="10" rx="3" fill="#12A5B0" stroke-width="2"/>
+</g>
+<path d="M238 57c30 0 40 20 40 48v50" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M238 77c20 0 28 14 28 36v42" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M84 60h8l3-14h12l3 14h10l3-14h12l3 14h10l3-14h12l3 14h10l3-14h12l3 14h6" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 82c5-14 10-14 15 0s10 14 15 0 10-14 15 0 10 14 15 0 10-14 15 0 10 14 15 0 10-14 15 0" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
+<circle cx="88" cy="112" r="3.5" fill="#CBD5E1"/>
+<circle cx="102" cy="112" r="3.5" fill="#CBD5E1"/>
+<circle cx="116" cy="112" r="3.5" fill="#CBD5E1"/>
+<circle cx="214" cy="112" r="3.5" fill="#3BB273"/>
+</svg>

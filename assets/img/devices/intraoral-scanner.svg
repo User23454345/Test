@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Intraoralscanner</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="72" y="66" width="126" height="98" rx="8" fill="#E6F3F8"/>
+<rect x="80" y="74" width="110" height="80" rx="4" fill="#FFFFFF" stroke-width="2"/>
+<rect x="60" y="164" width="150" height="18" rx="6" fill="#E6F3F8"/>
+<path d="M258 170V194" fill="none"/>
+<ellipse cx="258" cy="196" rx="16" ry="4" fill="#CBD5E1"/>
+<path d="M244 170C242 190 224 190 210 176" fill="none" stroke-width="2"/>
+</g>
+<path d="M105 92C105 138 165 138 165 92" fill="none" stroke="#7DD3DC" stroke-width="9" stroke-dasharray="9 3"/>
+<path d="M105 92C105 138 165 138 165 92" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round"/>
+<path d="M78 173H192" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 3"/>
+<g transform="rotate(-14 248 124)" stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="236" y="84" width="24" height="80" rx="12" fill="#E6F3F8"/>
+<rect x="242" y="56" width="12" height="32" rx="5" fill="#F4F9FC"/>
+<circle cx="248" cy="108" r="3.5" fill="#CBD5E1" stroke-width="2"/>
+<circle cx="248" cy="120" r="3.5" fill="#CBD5E1" stroke-width="2"/>
+<circle cx="248" cy="62" r="3" fill="#12A5B0" stroke="none"/>
+<circle cx="248" cy="136" r="2.5" fill="#3BB273" stroke="none"/>
+<path d="M248 52V40M240 54l-7-9M256 54l7-9" fill="none" stroke="#7DD3DC" stroke-width="2"/>
+</g>
+<rect x="240" y="158" width="36" height="12" rx="6" fill="#CBD5E1" stroke="#0B4F8A" stroke-width="3"/>
+</svg>

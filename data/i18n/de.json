@@ -1,0 +1,503 @@
+{
+  "_comment": "Zentrale Übersetzungsdatei (Deutsch = Standard). Schlüssel werden in den HTML-Seiten über data-i18n=\"pfad.zum.schluessel\" referenziert. Platzhalter in geschweiften Klammern wie {count} werden per JavaScript ersetzt.",
+  "meta": {
+    "siteName": "Medny",
+    "tagline": "Unabhängige Beratung & Beschaffung für Medizintechnik",
+    "pages": {
+      "home": {
+        "title": "Medny – Unabhängige Beratung & Beschaffung für Medizintechnik",
+        "description": "Medny berät Krankenhäuser, Arztpraxen und Gesundheitseinrichtungen herstellerneutral bei Auswahl und Beschaffung medizinischer Geräte – von der Bedarfsanalyse bis zum Support."
+      },
+      "about": {
+        "title": "Über uns – Medny",
+        "description": "Lernen Sie Medny kennen: unabhängiges Beratungs- und Beschaffungsunternehmen für Medizintechnik, geführt von einem M.Sc. Biomedizintechnik."
+      },
+      "medtech": {
+        "title": "Was ist Medizintechnik? – Medny",
+        "description": "Definition, Bedeutung, Klassifizierung und Teilbereiche der Medizintechnik – verständlich erklärt von Medny."
+      },
+      "devices": {
+        "title": "Geräte-Wissen – Medizintechnik verständlich erklärt | Medny",
+        "description": "Lernportal: Medizinische Geräte nach Kategorien – Bildgebung, Labordiagnostik, Patientenüberwachung, OP-Technik, Therapie, Dentaltechnik, Sterilisation."
+      },
+      "device": {
+        "title": "{name} – Geräte-Wissen | Medny",
+        "description": "{short}"
+      },
+      "contact": {
+        "title": "Kontakt – Medny",
+        "description": "Nehmen Sie Kontakt mit Medny auf: Beratung und Beschaffung medizinischer Geräte für Ihre Einrichtung."
+      },
+      "imprint": {
+        "title": "Impressum – Medny",
+        "description": "Impressum von Medny."
+      },
+      "privacy": {
+        "title": "Datenschutzerklärung – Medny",
+        "description": "Datenschutzerklärung von Medny."
+      }
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "medtech": "Was ist Medizintechnik?",
+    "devices": "Geräte-Wissen",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "cta": "Beratung anfragen",
+    "skipToContent": "Zum Inhalt springen",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "mainNavLabel": "Hauptnavigation",
+    "language": "Sprache",
+    "logoLabel": "Medny – zur Startseite"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "back": "Zurück",
+    "close": "Schließen",
+    "note": "Hinweis",
+    "placeholder": "Platzhalter",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "hours": "Erreichbarkeit",
+    "hoursValue": "Mo.–Fr., 9–17 Uhr",
+    "country": "Deutschland",
+    "loading": "Inhalte werden geladen …",
+    "notAManufacturer": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment, sondern ein unabhängiges Beratungs- und Vermittlungsunternehmen.",
+    "ownerRole": "Inhaber · M.Sc. Biomedizintechnik",
+    "photoAlt": "Porträtfoto des Ansprechpartners (Platzhalter)"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Beratung · Beschaffung · Begleitung",
+      "title": "Die richtige Medizintechnik. Unabhängig ausgewählt, sicher beschafft.",
+      "subtitle": "Medny unterstützt Krankenhäuser, Arztpraxen und Gesundheitseinrichtungen bei der Auswahl und Beschaffung medizinischer Geräte – herstellerneutral, transparent und mit technischem Sachverstand.",
+      "ctaPrimary": "Kostenloses Erstgespräch",
+      "ctaSecondary": "Geräte-Wissen entdecken",
+      "note": "Wir sind kein Hersteller. Unsere Empfehlungen richten sich ausschließlich nach Ihrem Bedarf.",
+      "imageAlt": "Illustration: Beratung zu medizinischen Geräten"
+    },
+    "trust": {
+      "items": [
+        { "title": "Herstellerneutral", "text": "Keine eigene Produktlinie, keine Vorgaben – nur die Lösung, die zu Ihnen passt." },
+        { "title": "Technischer Sachverstand", "text": "Beratung durch einen M.Sc. Biomedizintechnik mit Blick auf Klinik, Technik und Betrieb." },
+        { "title": "Transparente Angebote", "text": "Vergleichbare Angebote, klare Konditionen und nachvollziehbare Empfehlungen." },
+        { "title": "Begleitung bis zum Betrieb", "text": "Von der ersten Analyse bis zur Inbetriebnahme und darüber hinaus." }
+      ]
+    },
+    "services": {
+      "title": "Unsere Leistungen",
+      "intro": "Wir übernehmen den gesamten Weg von der ersten Frage bis zum laufenden Betrieb – oder genau den Teil, bei dem Sie Unterstützung brauchen.",
+      "items": [
+        {
+          "title": "Bedarfsanalyse",
+          "text": "Wir erfassen Ihre klinischen, räumlichen und wirtschaftlichen Anforderungen und fassen sie in einem klaren Anforderungsprofil zusammen."
+        },
+        {
+          "title": "Unabhängige Beratung",
+          "text": "Wir vergleichen Geräte, Hersteller und Ausstattungsvarianten objektiv und erklären Ihnen die Unterschiede verständlich."
+        },
+        {
+          "title": "Beschaffung & Vermittlung",
+          "text": "Wir holen Angebote ein, prüfen Konditionen, unterstützen bei Verhandlungen und koordinieren Lieferung und Installation."
+        },
+        {
+          "title": "Support & Nachbetreuung",
+          "text": "Wir begleiten Einweisung, Dokumentation und Wartungsplanung und bleiben Ihr Ansprechpartner, wenn Fragen auftauchen."
+        }
+      ]
+    },
+    "process": {
+      "title": "So arbeiten wir",
+      "intro": "Ein klarer, vierstufiger Prozess – damit Sie jederzeit wissen, wo Ihr Projekt steht.",
+      "steps": [
+        { "title": "Bedarfsanalyse", "text": "Gemeinsam klären wir, was Ihre Einrichtung wirklich braucht – fachlich, räumlich und finanziell." },
+        { "title": "Beratung", "text": "Wir stellen passende Lösungen gegenüber und sprechen eine begründete, herstellerneutrale Empfehlung aus." },
+        { "title": "Beschaffung", "text": "Wir organisieren Angebote, Vergleich, Bestellung und Lieferung – inklusive Installation und Abnahme." },
+        { "title": "Support", "text": "Einweisung, Dokumentation und Wartungsplanung: Wir sorgen dafür, dass Ihr Gerät sicher im Einsatz bleibt." }
+      ]
+    },
+    "audience": {
+      "title": "Für wen wir arbeiten",
+      "items": [
+        { "title": "Krankenhäuser & Kliniken", "text": "Investitionsplanung, Ersatzbeschaffung und Ausstattung neuer Abteilungen." },
+        { "title": "Arztpraxen & MVZ", "text": "Passende Gerätetechnik für Praxisgründung, Erweiterung oder Modernisierung." },
+        { "title": "Pflege- & Reha-Einrichtungen", "text": "Robuste, einfach bedienbare Technik für Alltag und Therapie." },
+        { "title": "Labore & Dentalpraxen", "text": "Analyse-, Behandlungs- und Hygienetechnik, abgestimmt auf Ihre Abläufe." }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Lernportal",
+      "title": "Geräte-Wissen: Medizintechnik verständlich erklärt",
+      "text": "In unserem Lernportal stellen wir medizinische Geräte strukturiert vor – mit Kurzbeschreibung, Funktionsweise, Einsatzbereich und Hinweisen für die Beschaffung. Ideal zum Einarbeiten, Nachschlagen und für fundierte Entscheidungen.",
+      "cta": "Zum Lernportal",
+      "statCategories": "Kategorien",
+      "statDevices": "Geräte",
+      "statLanguages": "Sprachen"
+    },
+    "independence": {
+      "title": "Unabhängig. Transparent. An Ihrer Seite.",
+      "text": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment. Wir beraten herstellerneutral und vermitteln die Lösung, die zu Ihrem Bedarf, Ihrem Budget und Ihrem Team passt – nicht die, die sich am leichtesten verkaufen lässt."
+    },
+    "cta": {
+      "title": "Lassen Sie uns über Ihr Projekt sprechen",
+      "text": "Ob Neuanschaffung, Ersatzbeschaffung oder eine zweite Meinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Über uns",
+      "title": "Medizintechnik-Beratung mit Haltung",
+      "subtitle": "Medny ist ein unabhängiges Beratungs- und Beschaffungsunternehmen für Medizintechnik. Wir helfen Gesundheitseinrichtungen, die passenden Geräte zu finden, wirtschaftlich zu beschaffen und sicher zu betreiben."
+    },
+    "intro": {
+      "title": "Wer wir sind",
+      "p1": "Medny wurde mit einem klaren Ziel gegründet: Medizintechnik-Entscheidungen sollen auf Fakten beruhen – nicht auf Verkaufsargumenten. Als unabhängiger Berater und Vermittler stehen wir ausschließlich auf der Seite unserer Kundinnen und Kunden.",
+      "p2": "Geführt wird Medny von einem Inhaber mit Masterabschluss in Biomedizintechnik. Dieses Fundament aus Technik, Medizin und Regulatorik ermöglicht es uns, Geräte nicht nur zu vergleichen, sondern wirklich zu verstehen – und Ihnen die Unterschiede verständlich zu erklären.",
+      "p3": "Wir sind kein Hersteller und vertreiben keine eigene Produktlinie. Genau das macht unsere Empfehlungen glaubwürdig."
+    },
+    "values": {
+      "title": "Wofür wir stehen",
+      "items": [
+        { "title": "Unabhängigkeit", "text": "Wir sind an keinen Hersteller gebunden und empfehlen ausschließlich, was fachlich und wirtschaftlich für Sie sinnvoll ist." },
+        { "title": "Fachkompetenz", "text": "Biomedizintechnisches Know-how trifft auf Erfahrung in Beschaffungsprozessen des Gesundheitswesens." },
+        { "title": "Transparenz", "text": "Nachvollziehbare Vergleiche, offene Kommunikation und klare Konditionen – ohne Kleingedrucktes." },
+        { "title": "Verlässlichkeit", "text": "Wir halten Zusagen ein und bleiben Ihr Ansprechpartner auch nach der Lieferung." }
+      ]
+    },
+    "services": {
+      "title": "Unsere Leistungen im Detail",
+      "items": [
+        {
+          "title": "Bedarfsanalyse",
+          "text": "Am Anfang steht die Frage, was Ihre Einrichtung tatsächlich braucht. Wir nehmen Ihre Abläufe, Räume, Schnittstellen und Budgets auf und leiten daraus ein belastbares Anforderungsprofil ab.",
+          "points": [
+            "Aufnahme klinischer und organisatorischer Anforderungen",
+            "Prüfung von Räumen, Infrastruktur und IT-Schnittstellen",
+            "Erstellung eines Anforderungsprofils als Grundlage für Angebote"
+          ]
+        },
+        {
+          "title": "Unabhängige Beratung",
+          "text": "Wir vergleichen in Frage kommende Geräte und Ausstattungsvarianten herstellerneutral und bewerten sie nach Nutzen, Lebenszykluskosten, Bedienbarkeit und Service.",
+          "points": [
+            "Marktüberblick und objektiver Gerätevergleich",
+            "Bewertung von Folgekosten: Wartung, Verbrauchsmaterial, Schulung",
+            "Zweitmeinung zu bereits vorliegenden Angeboten"
+          ]
+        },
+        {
+          "title": "Beschaffung & Vermittlung",
+          "text": "Wir holen vergleichbare Angebote ein, unterstützen bei Verhandlungen und koordinieren Bestellung, Lieferung, Installation und Abnahme.",
+          "points": [
+            "Einholung und Vergleich strukturierter Angebote",
+            "Unterstützung bei Verhandlung und Vertragsprüfung",
+            "Koordination von Lieferung, Installation und Abnahme"
+          ]
+        },
+        {
+          "title": "Support & Nachbetreuung",
+          "text": "Nach der Lieferung geht es weiter: Wir begleiten Einweisung und Dokumentation, helfen bei der Wartungsplanung und bleiben Ihr Ansprechpartner.",
+          "points": [
+            "Organisation von Einweisungen und Schulungen",
+            "Unterstützung bei Medizinproduktebuch und Betreiberpflichten",
+            "Planung von Wartung sowie sicherheits- und messtechnischen Kontrollen"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "title": "Unsere Vorgehensweise",
+      "intro": "Vier Schritte, ein Ansprechpartner. So behalten Sie den Überblick – vom ersten Gespräch bis zum laufenden Betrieb.",
+      "deliverableLabel": "Ergebnis",
+      "steps": [
+        {
+          "title": "Bedarfsanalyse",
+          "text": "Wir klären gemeinsam den Bedarf: Welche Untersuchungen oder Behandlungen sollen möglich sein? Welche Räume, Anschlüsse und Budgets stehen zur Verfügung?",
+          "deliverable": "Anforderungsprofil mit priorisierten Kriterien"
+        },
+        {
+          "title": "Beratung",
+          "text": "Wir stellen passende Geräte und Varianten gegenüber, erläutern Vor- und Nachteile und sprechen eine begründete Empfehlung aus.",
+          "deliverable": "Vergleichsübersicht und Empfehlung"
+        },
+        {
+          "title": "Beschaffung",
+          "text": "Wir holen Angebote ein, prüfen Konditionen, unterstützen bei der Verhandlung und koordinieren Lieferung, Installation und Abnahme.",
+          "deliverable": "Angebotsvergleich, Bestellung und Abnahmeprotokoll"
+        },
+        {
+          "title": "Support",
+          "text": "Wir organisieren die Einweisung, unterstützen bei der Dokumentation und planen Wartung und Kontrollen – damit Ihr Gerät sicher und wirtschaftlich läuft.",
+          "deliverable": "Einweisungsnachweis, Wartungsplan, fester Ansprechpartner"
+        }
+      ]
+    },
+    "person": {
+      "title": "Ihr Ansprechpartner",
+      "bio": "Als Biomedizintechniker (M.Sc.) verbindet der Inhaber von Medny technisches Verständnis mit dem Blick für klinische Abläufe. Sein Anspruch: Entscheidungen so vorzubereiten, dass sie fachlich fundiert, wirtschaftlich sinnvoll und langfristig tragfähig sind.",
+      "placeholderNote": "Platzhalter: Name, Foto, E-Mail und Telefon können zentral in der Datei data/site.json angepasst werden.",
+      "contactButton": "Kontakt aufnehmen"
+    },
+    "disclaimer": {
+      "title": "Wichtig zu wissen",
+      "text": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment. Wir beraten herstellerneutral und vermitteln die Lösung, die zu Ihrem Bedarf passt. Geräte, Serviceverträge und Garantien werden direkt zwischen Ihnen und dem jeweiligen Anbieter geschlossen – wir begleiten Sie dabei."
+    }
+  },
+  "medtech": {
+    "hero": {
+      "eyebrow": "Grundlagen",
+      "title": "Was ist Medizintechnik?",
+      "subtitle": "Medizintechnik umfasst alle Geräte, Instrumente, Software und Verfahren, die zur Diagnose, Überwachung, Behandlung oder Linderung von Krankheiten eingesetzt werden. Hier erklären wir die Grundlagen – verständlich und strukturiert."
+    },
+    "definition": {
+      "title": "Definition",
+      "p1": "Unter Medizintechnik versteht man die Anwendung ingenieurwissenschaftlicher Prinzipien und Technologien in der Medizin. Sie reicht vom einfachen Fieberthermometer über Ultraschall- und Röntgengeräte bis hin zu Beatmungsgeräten, Dialysesystemen und bildgebenden Großgeräten.",
+      "p2": "Rechtlich werden diese Produkte als Medizinprodukte bezeichnet. In der Europäischen Union regelt die Medizinprodukteverordnung (MDR, Verordnung (EU) 2017/745), welche Anforderungen ein Produkt erfüllen muss, bevor es die CE-Kennzeichnung tragen und in Verkehr gebracht werden darf.",
+      "p3": "Ein Medizinprodukt erzielt seine Hauptwirkung – anders als ein Arzneimittel – nicht pharmakologisch, sondern physikalisch: zum Beispiel durch Messung, Bildgebung, mechanische Unterstützung oder Energieabgabe."
+    },
+    "importance": {
+      "title": "Warum Medizintechnik so wichtig ist",
+      "intro": "Ohne Medizintechnik wäre moderne Medizin nicht denkbar. Sie trägt in allen Phasen der Versorgung dazu bei, Patientinnen und Patienten sicher, schnell und präzise zu behandeln.",
+      "items": [
+        { "title": "Frühe und genaue Diagnose", "text": "Bildgebende und labordiagnostische Verfahren machen Krankheiten sichtbar, oft lange bevor Symptome auftreten." },
+        { "title": "Wirksame Therapie", "text": "Von Infusionspumpen bis zur Dialyse: Therapiegeräte unterstützen oder ersetzen lebenswichtige Körperfunktionen." },
+        { "title": "Sicherheit und Überwachung", "text": "Monitoring-Systeme erfassen Vitalparameter kontinuierlich und schlagen Alarm, bevor ein Zustand kritisch wird." },
+        { "title": "Hygiene und Patientenschutz", "text": "Sterilisation und Aufbereitung verhindern Infektionen und schützen Patientinnen, Patienten und Personal." },
+        { "title": "Effizienz im Versorgungsalltag", "text": "Gute Gerätetechnik beschleunigt Abläufe, entlastet Personal und senkt langfristig Kosten." }
+      ]
+    },
+    "classification": {
+      "title": "Risikoklassen von Medizinprodukten",
+      "intro": "Die MDR teilt Medizinprodukte nach ihrem Risikopotenzial in vier Klassen ein. Je höher die Klasse, desto strenger sind die Anforderungen an Nachweise, Prüfung und Überwachung.",
+      "classes": [
+        { "name": "Klasse I", "risk": "Geringes Risiko", "text": "Nicht-invasive oder einfache Produkte mit geringem Gefährdungspotenzial.", "examples": "Beispiele: Rollstühle, Verbandmaterial, einfache Untersuchungsliegen" },
+        { "name": "Klasse IIa", "risk": "Mittleres Risiko", "text": "Produkte mit mäßigem Risiko, häufig aktive Geräte zur Diagnose oder kurzzeitigen Anwendung.", "examples": "Beispiele: Ultraschallgeräte, Hörgeräte, viele Dentalinstrumente" },
+        { "name": "Klasse IIb", "risk": "Erhöhtes Risiko", "text": "Produkte mit erhöhtem Risiko, etwa aktive Geräte, die Energie abgeben oder lebenswichtige Funktionen unterstützen.", "examples": "Beispiele: Röntgengeräte, Beatmungsgeräte, Infusionspumpen, Defibrillatoren" },
+        { "name": "Klasse III", "risk": "Hohes Risiko", "text": "Produkte mit dem höchsten Risiko, insbesondere Implantate und Produkte mit Kontakt zu Herz, zentralem Kreislauf oder zentralem Nervensystem.", "examples": "Beispiele: Herzschrittmacher, Herzklappen, Gelenkimplantate" }
+      ]
+    },
+    "areas": {
+      "title": "Teilbereiche der Medizintechnik",
+      "intro": "Die Medizintechnik lässt sich in verschiedene Teilbereiche gliedern. In unserem Geräte-Wissen stellen wir typische Geräte jeder Kategorie vor.",
+      "linkLabel": "Geräte ansehen",
+      "items": [
+        { "id": "imaging", "title": "Bildgebung", "text": "Verfahren, die das Innere des Körpers sichtbar machen: Ultraschall, Röntgen, Computertomografie und Magnetresonanztomografie." },
+        { "id": "lab", "title": "Labordiagnostik", "text": "Analysegeräte, die Blut, Urin und andere Proben untersuchen – von der Zentrifuge bis zum vollautomatischen Analysator." },
+        { "id": "monitoring", "title": "Patientenüberwachung", "text": "Systeme, die Vitalparameter wie Herzrhythmus, Sauerstoffsättigung und Blutdruck kontinuierlich erfassen." },
+        { "id": "surgery", "title": "OP-Technik", "text": "Ausstattung des Operationssaals: Narkosegeräte, HF-Chirurgie, Endoskopie, OP-Leuchten und -Tische." },
+        { "id": "therapy", "title": "Therapie", "text": "Geräte, die Körperfunktionen unterstützen oder Behandlungen durchführen: Beatmung, Infusion, Dialyse, Defibrillation." },
+        { "id": "dental", "title": "Dentaltechnik", "text": "Technik für die zahnärztliche Praxis: Behandlungseinheiten, Dentalröntgen und digitale Abformung." },
+        { "id": "sterilization", "title": "Sterilisation & Hygiene", "text": "Aufbereitung von Instrumenten und Geräten: Reinigung, Desinfektion, Verpackung und Sterilisation." }
+      ]
+    },
+    "lifecycle": {
+      "title": "Der Lebenszyklus eines Medizingeräts",
+      "intro": "Ein Gerät zu kaufen ist nur der Anfang. Wer die gesamte Nutzungsdauer im Blick hat, trifft bessere Entscheidungen.",
+      "steps": [
+        { "title": "Bedarf & Planung", "text": "Klärung des klinischen Bedarfs, der Räume, Schnittstellen und des Budgets." },
+        { "title": "Beschaffung", "text": "Anforderungsprofil, Angebotsvergleich, Verhandlung, Bestellung und Abnahme." },
+        { "title": "Inbetriebnahme & Einweisung", "text": "Installation, Funktionsprüfung und dokumentierte Einweisung des Personals." },
+        { "title": "Betrieb & Instandhaltung", "text": "Wartung, sicherheitstechnische und messtechnische Kontrollen, Dokumentation im Medizinproduktebuch." },
+        { "title": "Außerbetriebnahme", "text": "Fachgerechte Stilllegung, Datenlöschung und Entsorgung oder Weiterverkauf." }
+      ]
+    },
+    "glossary": {
+      "title": "Wichtige Begriffe",
+      "items": [
+        { "term": "MDR", "text": "Medical Device Regulation – die EU-Verordnung 2017/745 über Medizinprodukte. Sie legt fest, welche Anforderungen Produkte vor dem Inverkehrbringen erfüllen müssen." },
+        { "term": "CE-Kennzeichnung", "text": "Bestätigt, dass ein Medizinprodukt die geltenden EU-Anforderungen erfüllt. Bei höheren Risikoklassen wird eine Benannte Stelle einbezogen." },
+        { "term": "MPDG & MPBetreibV", "text": "Das deutsche Medizinprodukterecht-Durchführungsgesetz und die Medizinprodukte-Betreiberverordnung regeln u. a. Pflichten beim Betreiben und Anwenden von Medizinprodukten." },
+        { "term": "STK / MTK", "text": "Sicherheitstechnische bzw. messtechnische Kontrollen – regelmäßige Prüfungen, die für bestimmte Geräte vorgeschrieben sind." },
+        { "term": "Medizinproduktebuch", "text": "Dokumentation für bestimmte aktive Medizinprodukte: Einweisungen, Funktionsprüfungen, Wartungen und Störungen." },
+        { "term": "UDI", "text": "Unique Device Identification – eine eindeutige Produktkennung zur Rückverfolgbarkeit von Medizinprodukten." }
+      ]
+    },
+    "cta": {
+      "title": "Sie möchten tiefer einsteigen?",
+      "text": "Im Geräte-Wissen stellen wir die wichtigsten Geräte jeder Kategorie vor – mit Funktionsweise, Einsatzbereich und Beschaffungshinweisen.",
+      "button": "Zum Geräte-Wissen"
+    }
+  },
+  "devices": {
+    "hero": {
+      "eyebrow": "Lernportal",
+      "title": "Geräte-Wissen",
+      "subtitle": "Medizintechnik verständlich erklärt – nach Kategorien geordnet, durchsuchbar und auf das Wesentliche reduziert. Wählen Sie eine Kategorie oder suchen Sie direkt nach einem Gerät."
+    },
+    "searchLabel": "Gerät oder Begriff suchen",
+    "searchPlaceholder": "z. B. Ultraschall, EKG, Autoklav …",
+    "filterLabel": "Nach Kategorie filtern",
+    "allCategories": "Alle Kategorien",
+    "resultsCount": "{count} Geräte",
+    "resultsOne": "1 Gerät",
+    "noResults": "Keine Geräte gefunden.",
+    "noResultsHint": "Versuchen Sie einen anderen Begriff oder setzen Sie den Filter zurück.",
+    "resetFilters": "Filter zurücksetzen",
+    "openDevice": "Gerät ansehen",
+    "deviceCountOne": "1 Gerät",
+    "deviceCount": "{count} Geräte",
+    "categoriesTitle": "Kategorien",
+    "progress": {
+      "title": "Ihr Lernfortschritt",
+      "text": "{done} von {total} Geräten als gelernt markiert",
+      "hint": "Der Fortschritt wird nur lokal in Ihrem Browser gespeichert.",
+      "reset": "Fortschritt zurücksetzen"
+    },
+    "detail": {
+      "overview": "Kurzbeschreibung",
+      "how": "Funktionsweise",
+      "use": "Einsatzbereiche",
+      "facts": "Auf einen Blick",
+      "procurement": "Worauf bei der Beschaffung achten?",
+      "glossary": "Wichtige Begriffe",
+      "related": "Weitere Geräte in dieser Kategorie",
+      "prev": "Vorheriges Gerät",
+      "next": "Nächstes Gerät",
+      "backToOverview": "Zur Übersicht",
+      "categoryLabel": "Kategorie",
+      "onThisPage": "Auf dieser Seite",
+      "markLearned": "Als gelernt markieren",
+      "markedLearned": "Als gelernt markiert",
+      "unmark": "Markierung entfernen",
+      "imageNote": "Illustration – kann durch ein echtes Produktfoto ersetzt werden.",
+      "notFoundTitle": "Gerät nicht gefunden",
+      "notFoundText": "Das gewünschte Gerät existiert nicht oder wurde entfernt.",
+      "procurementCtaTitle": "Sie planen die Anschaffung eines solchen Geräts?",
+      "procurementCtaText": "Wir beraten Sie herstellerneutral, vergleichen Angebote und begleiten die Beschaffung.",
+      "procurementCtaButton": "Beratung anfragen"
+    },
+    "loadError": "Die Gerätedaten konnten nicht geladen werden. Bitte öffnen Sie die Seite über einen lokalen Webserver (siehe README)."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Kontakt",
+      "title": "Sprechen wir über Ihr Vorhaben",
+      "subtitle": "Ob konkrete Beschaffung, erste Orientierung oder eine Zweitmeinung zu einem Angebot – wir melden uns in der Regel innerhalb von zwei Werktagen."
+    },
+    "form": {
+      "title": "Nachricht senden",
+      "name": "Name",
+      "organization": "Einrichtung / Unternehmen",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon (optional)",
+      "topic": "Ihr Anliegen",
+      "topics": {
+        "consulting": "Beratung",
+        "procurement": "Beschaffung",
+        "secondOpinion": "Zweitmeinung zu einem Angebot",
+        "training": "Schulung / Wissen",
+        "other": "Sonstiges"
+      },
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Beschreiben Sie kurz Ihr Vorhaben: Gerätetyp, Einrichtung, Zeitrahmen …",
+      "consent": "Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage einverstanden.",
+      "consentLink": "Datenschutzerklärung",
+      "submit": "Nachricht senden",
+      "requiredHint": "* Pflichtfelder",
+      "demoNote": "Hinweis: Dieses Formular ist eine reine Frontend-Vorschau und noch mit keinem Server verbunden. Beim Absenden wird Ihr E-Mail-Programm mit der vorbereiteten Nachricht geöffnet.",
+      "errors": {
+        "required": "Bitte füllen Sie dieses Feld aus.",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "consent": "Bitte stimmen Sie der Verarbeitung Ihrer Angaben zu.",
+        "summary": "Bitte prüfen Sie die markierten Felder."
+      },
+      "success": {
+        "title": "Vielen Dank für Ihre Nachricht!",
+        "text": "Ihr E-Mail-Programm sollte sich mit der vorbereiteten Nachricht geöffnet haben. Falls nicht, schreiben Sie uns gern direkt an die unten stehende Adresse.",
+        "again": "Weitere Nachricht senden"
+      },
+      "mailSubject": "Anfrage über die Medny-Webseite"
+    },
+    "person": {
+      "title": "Ihr Ansprechpartner"
+    },
+    "details": {
+      "title": "Kontaktdaten",
+      "directTitle": "Direkt erreichen",
+      "addressTitle": "Anschrift",
+      "placeholderNote": "Platzhalter – die Kontaktdaten werden zentral in data/site.json gepflegt."
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "placeholderNote": "Platzhalterseite – bitte vor Veröffentlichung vollständig ausfüllen und rechtlich prüfen lassen.",
+    "sections": [
+      {
+        "title": "Angaben gemäß § 5 DDG",
+        "text": "[Firmenname Medny]\n[Inhaber: Vorname Nachname, M.Sc. Biomedizintechnik]\n[Straße und Hausnummer]\n[PLZ Ort]\nDeutschland"
+      },
+      {
+        "title": "Kontakt",
+        "text": "Telefon: [Telefonnummer]\nE-Mail: [E-Mail-Adresse]"
+      },
+      {
+        "title": "Umsatzsteuer-ID",
+        "text": "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: [USt-IdNr.]"
+      },
+      {
+        "title": "Verantwortlich für den Inhalt",
+        "text": "Verantwortlich im Sinne von § 18 Abs. 2 MStV: [Vorname Nachname], [Anschrift wie oben]"
+      },
+      {
+        "title": "Haftung für Inhalte",
+        "text": "Die Inhalte dieser Webseite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Die Informationen im Bereich Geräte-Wissen dienen der allgemeinen Orientierung und ersetzen keine individuelle Beratung oder die Herstellerdokumentation."
+      },
+      {
+        "title": "Haftung für Links",
+        "text": "Unser Angebot enthält gegebenenfalls Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte ist stets der jeweilige Anbieter oder Betreiber verantwortlich."
+      },
+      {
+        "title": "Hinweis zur Unabhängigkeit",
+        "text": "Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten. Genannte Gerätekategorien dienen der Information; Kaufverträge kommen ausschließlich zwischen Kunde und jeweiligem Anbieter zustande."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "placeholderNote": "Platzhalterseite – bitte vor Veröffentlichung an den tatsächlichen Betrieb (Hosting, Formular-Dienst) anpassen und rechtlich prüfen lassen.",
+    "sections": [
+      {
+        "title": "1. Verantwortlicher",
+        "text": "Verantwortlich für die Datenverarbeitung auf dieser Webseite ist:\n[Firmenname Medny]\n[Vorname Nachname]\n[Anschrift]\nE-Mail: [E-Mail-Adresse]"
+      },
+      {
+        "title": "2. Hosting und Server-Logfiles",
+        "text": "Beim Aufruf dieser Webseite verarbeitet der Hosting-Anbieter automatisch technische Daten (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp). Diese Daten dienen der sicheren Bereitstellung der Webseite und werden nach kurzer Zeit gelöscht. [Hosting-Anbieter eintragen]"
+      },
+      {
+        "title": "3. Kontaktformular und E-Mail-Kontakt",
+        "text": "Wenn Sie uns über das Kontaktformular oder per E-Mail kontaktieren, verarbeiten wir die von Ihnen angegebenen Daten (Name, Einrichtung, E-Mail-Adresse, ggf. Telefonnummer, Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO). Das Formular dieser Webseite übermittelt keine Daten an einen Server, sondern öffnet Ihr E-Mail-Programm."
+      },
+      {
+        "title": "4. Lokale Speicherung im Browser (Local Storage)",
+        "text": "Diese Webseite speichert Ihre Sprachauswahl und Ihren Lernfortschritt im Geräte-Wissen ausschließlich lokal in Ihrem Browser (Local Storage). Diese Daten werden nicht an uns oder Dritte übertragen und können jederzeit über die Browsereinstellungen gelöscht werden. Es werden keine Tracking-Cookies und keine Analyse-Dienste eingesetzt."
+      },
+      {
+        "title": "5. Externe Dienste",
+        "text": "Diese Webseite lädt keine Schriftarten, Skripte oder Inhalte von externen Servern nach. [Falls später Karten-, Video- oder Formular-Dienste eingebunden werden, hier ergänzen.]"
+      },
+      {
+        "title": "6. Ihre Rechte",
+        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO) sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde. Wenden Sie sich dazu an die oben genannte Kontaktadresse."
+      },
+      {
+        "title": "7. Aktualität",
+        "text": "Diese Datenschutzerklärung hat den Stand [Datum]. Durch die Weiterentwicklung der Webseite kann es notwendig werden, sie anzupassen."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Unabhängige Beratung und Beschaffung für Medizintechnik – für Krankenhäuser, Praxen und Gesundheitseinrichtungen.",
+    "navTitle": "Navigation",
+    "legalTitle": "Rechtliches",
+    "contactTitle": "Kontakt",
+    "disclaimer": "Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten.",
+    "copyright": "© {year} Medny. Alle Rechte vorbehalten."
+  }
+}

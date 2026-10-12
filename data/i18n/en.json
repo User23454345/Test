@@ -1,0 +1,503 @@
+{
+  "_comment": "Central translation file (German = default language; this is the English version). Keys are referenced in the HTML pages via data-i18n=\"path.to.key\". Placeholders in curly braces such as {count} are replaced by JavaScript.",
+  "meta": {
+    "siteName": "Medny",
+    "tagline": "Independent consulting & procurement for medical technology",
+    "pages": {
+      "home": {
+        "title": "Medny – Independent consulting & procurement for medical technology",
+        "description": "Medny provides manufacturer-neutral advice to hospitals, medical practices and healthcare facilities on selecting and procuring medical devices – from needs analysis through to support."
+      },
+      "about": {
+        "title": "About us – Medny",
+        "description": "Get to know Medny: an independent consulting and procurement company for medical technology, led by a biomedical engineer (M.Sc.)."
+      },
+      "medtech": {
+        "title": "What is medical technology? – Medny",
+        "description": "Definition, importance, classification and sub-fields of medical technology – clearly explained by Medny."
+      },
+      "devices": {
+        "title": "Device Knowledge – Medical technology clearly explained | Medny",
+        "description": "Learning portal: medical devices by category – imaging, laboratory diagnostics, patient monitoring, surgical technology, therapy, dental technology, sterilisation."
+      },
+      "device": {
+        "title": "{name} – Device Knowledge | Medny",
+        "description": "{short}"
+      },
+      "contact": {
+        "title": "Contact – Medny",
+        "description": "Get in touch with Medny: consulting and procurement of medical devices for your facility."
+      },
+      "imprint": {
+        "title": "Legal notice – Medny",
+        "description": "Legal notice (Impressum) of Medny."
+      },
+      "privacy": {
+        "title": "Privacy policy – Medny",
+        "description": "Privacy policy of Medny."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "medtech": "Medical technology",
+    "devices": "Device Knowledge",
+    "contact": "Contact",
+    "imprint": "Legal notice",
+    "privacy": "Privacy",
+    "cta": "Request a consultation",
+    "skipToContent": "Skip to content",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mainNavLabel": "Main navigation",
+    "language": "Language",
+    "logoLabel": "Medny – go to homepage"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "back": "Back",
+    "close": "Close",
+    "note": "Note",
+    "placeholder": "Placeholder",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Office hours",
+    "hoursValue": "Mon–Fri, 9 am – 5 pm",
+    "country": "Germany",
+    "loading": "Loading content …",
+    "notAManufacturer": "Medny is neither a manufacturer nor a dealer with its own product range, but an independent consulting and intermediary company.",
+    "ownerRole": "Owner · M.Sc. Biomedical Engineering",
+    "photoAlt": "Portrait photo of the contact person (placeholder)"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Consulting · Procurement · Support",
+      "title": "The right medical technology. Independently selected, reliably procured.",
+      "subtitle": "Medny supports hospitals, medical practices and healthcare facilities in selecting and procuring medical devices – manufacturer-neutral, transparent and with sound technical expertise.",
+      "ctaPrimary": "Free initial consultation",
+      "ctaSecondary": "Explore Device Knowledge",
+      "note": "We are not a manufacturer. Our recommendations are based solely on your needs.",
+      "imageAlt": "Illustration: consulting on medical devices"
+    },
+    "trust": {
+      "items": [
+        { "title": "Manufacturer-neutral", "text": "No product line of our own, no predefined choices – only the solution that suits you." },
+        { "title": "Technical expertise", "text": "Advice from a biomedical engineer (M.Sc.) with an eye for clinical practice, technology and operations." },
+        { "title": "Transparent offers", "text": "Comparable quotations, clear terms and clearly reasoned recommendations." },
+        { "title": "Support through to operation", "text": "From the first analysis to commissioning and beyond." }
+      ]
+    },
+    "services": {
+      "title": "Our services",
+      "intro": "We cover the entire journey from the first question to ongoing operation – or exactly the part where you need support.",
+      "items": [
+        {
+          "title": "Needs analysis",
+          "text": "We capture your clinical, spatial and economic requirements and consolidate them into a clear requirements profile."
+        },
+        {
+          "title": "Independent consulting",
+          "text": "We compare devices, manufacturers and configuration options objectively and explain the differences to you in plain terms."
+        },
+        {
+          "title": "Procurement & brokerage",
+          "text": "We obtain quotations, review terms, support negotiations and coordinate delivery and installation."
+        },
+        {
+          "title": "Support & aftercare",
+          "text": "We support you with training, documentation and maintenance planning and remain your point of contact whenever questions arise."
+        }
+      ]
+    },
+    "process": {
+      "title": "How we work",
+      "intro": "A clear four-step process – so you always know where your project stands.",
+      "steps": [
+        { "title": "Needs analysis", "text": "Together we clarify what your facility really needs – clinically, spatially and financially." },
+        { "title": "Consulting", "text": "We compare suitable solutions side by side and give a well-founded, manufacturer-neutral recommendation." },
+        { "title": "Procurement", "text": "We organise quotations, comparison, ordering and delivery – including installation and acceptance." },
+        { "title": "Support", "text": "Training, documentation and maintenance planning: we make sure your device stays safely in use." }
+      ]
+    },
+    "audience": {
+      "title": "Who we work for",
+      "items": [
+        { "title": "Hospitals & clinics", "text": "Investment planning, replacement procurement and equipping new departments." },
+        { "title": "Medical practices & medical care centres (MVZ)", "text": "The right equipment for setting up, expanding or modernising a practice." },
+        { "title": "Nursing & rehabilitation facilities", "text": "Robust, easy-to-use technology for everyday care and therapy." },
+        { "title": "Laboratories & dental practices", "text": "Analysis, treatment and hygiene technology tailored to your workflows." }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Learning portal",
+      "title": "Device Knowledge: medical technology clearly explained",
+      "text": "In our learning portal we present medical devices in a structured way – with a short description, how they work, where they are used and procurement guidance. Ideal for onboarding, quick reference and well-informed decisions.",
+      "cta": "Go to the learning portal",
+      "statCategories": "Categories",
+      "statDevices": "Devices",
+      "statLanguages": "Languages"
+    },
+    "independence": {
+      "title": "Independent. Transparent. On your side.",
+      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We provide manufacturer-neutral advice and broker the solution that fits your needs, your budget and your team – not the one that is easiest to sell."
+    },
+    "cta": {
+      "title": "Let's talk about your project",
+      "text": "Whether it's a new acquisition, a replacement or a second opinion on an existing quotation – we look forward to hearing from you.",
+      "button": "Get in touch"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Principled medical technology consulting",
+      "subtitle": "Medny is an independent consulting and procurement company for medical technology. We help healthcare facilities find the right devices, procure them cost-effectively and operate them safely."
+    },
+    "intro": {
+      "title": "Who we are",
+      "p1": "Medny was founded with a clear goal: decisions about medical technology should be based on facts – not on sales pitches. As an independent consultant and intermediary, we stand exclusively on the side of our clients.",
+      "p2": "Medny is run by an owner holding a Master's degree in Biomedical Engineering. This foundation in technology, medicine and regulatory affairs allows us not just to compare devices, but to truly understand them – and to explain the differences to you in plain language.",
+      "p3": "We are not a manufacturer and do not sell a product line of our own. That is precisely what makes our recommendations credible."
+    },
+    "values": {
+      "title": "What we stand for",
+      "items": [
+        { "title": "Independence", "text": "We are not tied to any manufacturer and recommend only what is right for you, both professionally and economically." },
+        { "title": "Expertise", "text": "Biomedical engineering know-how meets experience in healthcare procurement processes." },
+        { "title": "Transparency", "text": "Comparisons you can follow, open communication and clear terms – with no small print." },
+        { "title": "Reliability", "text": "We keep our promises and remain your point of contact even after delivery." }
+      ]
+    },
+    "services": {
+      "title": "Our services in detail",
+      "items": [
+        {
+          "title": "Needs analysis",
+          "text": "It all starts with the question of what your facility actually needs. We record your workflows, rooms, interfaces and budgets and derive a robust requirements profile from them.",
+          "points": [
+            "Recording clinical and organisational requirements",
+            "Assessment of rooms, infrastructure and IT interfaces",
+            "Preparation of a requirements profile as the basis for quotations"
+          ]
+        },
+        {
+          "title": "Independent consulting",
+          "text": "We compare candidate devices and configuration options on a manufacturer-neutral basis and evaluate them by benefit, life-cycle costs, usability and service.",
+          "points": [
+            "Market overview and objective device comparison",
+            "Assessment of ongoing costs: maintenance, consumables, training",
+            "Second opinion on quotations you have already received"
+          ]
+        },
+        {
+          "title": "Procurement & brokerage",
+          "text": "We obtain comparable quotations, support negotiations and coordinate ordering, delivery, installation and acceptance.",
+          "points": [
+            "Obtaining and comparing structured quotations",
+            "Support with negotiation and contract review",
+            "Coordination of delivery, installation and acceptance"
+          ]
+        },
+        {
+          "title": "Support & aftercare",
+          "text": "It doesn't end with delivery: we support you with training and documentation, help with maintenance planning and remain your point of contact.",
+          "points": [
+            "Organisation of user training and instruction",
+            "Support with the medical device logbook and operator obligations",
+            "Planning of maintenance as well as safety and metrological inspections"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "title": "Our approach",
+      "intro": "Four steps, one point of contact. So you always have a clear overview – from the first conversation to ongoing operation.",
+      "deliverableLabel": "Outcome",
+      "steps": [
+        {
+          "title": "Needs analysis",
+          "text": "Together we clarify your needs: which examinations or treatments should be possible? Which rooms, utility connections and budgets are available?",
+          "deliverable": "Requirements profile with prioritised criteria"
+        },
+        {
+          "title": "Consulting",
+          "text": "We compare suitable devices and variants, explain advantages and disadvantages and give a well-founded recommendation.",
+          "deliverable": "Comparison overview and recommendation"
+        },
+        {
+          "title": "Procurement",
+          "text": "We obtain quotations, review terms, support the negotiation and coordinate delivery, installation and acceptance.",
+          "deliverable": "Quotation comparison, order and acceptance report"
+        },
+        {
+          "title": "Support",
+          "text": "We organise user training, support you with documentation and plan maintenance and inspections – so that your device runs safely and economically.",
+          "deliverable": "Training record, maintenance schedule, dedicated point of contact"
+        }
+      ]
+    },
+    "person": {
+      "title": "Your point of contact",
+      "bio": "As a biomedical engineer (M.Sc.), the owner of Medny combines technical understanding with an eye for clinical workflows. His aim: to prepare decisions so that they are technically sound, economically sensible and sustainable in the long term.",
+      "placeholderNote": "Placeholder: name, photo, email and phone can be adjusted centrally in the file data/site.json.",
+      "contactButton": "Get in touch"
+    },
+    "disclaimer": {
+      "title": "Important to know",
+      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We provide manufacturer-neutral advice and broker the solution that fits your needs. Devices, service contracts and warranties are concluded directly between you and the respective supplier – we support you along the way."
+    }
+  },
+  "medtech": {
+    "hero": {
+      "eyebrow": "Fundamentals",
+      "title": "What is medical technology?",
+      "subtitle": "Medical technology encompasses all devices, instruments, software and procedures used to diagnose, monitor, treat or alleviate diseases. Here we explain the fundamentals – clearly and in a structured way."
+    },
+    "definition": {
+      "title": "Definition",
+      "p1": "Medical technology is the application of engineering principles and technologies in medicine. It ranges from the simple clinical thermometer to ultrasound and X-ray equipment, ventilators, dialysis systems and large-scale imaging systems.",
+      "p2": "Legally, these products are referred to as medical devices. In the European Union, the Medical Device Regulation (MDR, Regulation (EU) 2017/745) defines the requirements a product must meet before it may bear the CE marking and be placed on the market.",
+      "p3": "Unlike a medicinal product, a medical device achieves its principal intended action not by pharmacological means but by physical means: for example through measurement, imaging, mechanical support or the delivery of energy."
+    },
+    "importance": {
+      "title": "Why medical technology is so important",
+      "intro": "Modern medicine would be unthinkable without medical technology. At every stage of care, it helps to treat patients safely, quickly and precisely.",
+      "items": [
+        { "title": "Early and accurate diagnosis", "text": "Imaging and laboratory diagnostic procedures make diseases visible, often long before symptoms appear." },
+        { "title": "Effective therapy", "text": "From infusion pumps to dialysis: therapy devices support or replace vital bodily functions." },
+        { "title": "Safety and monitoring", "text": "Monitoring systems record vital signs continuously and raise an alarm before a condition becomes critical." },
+        { "title": "Hygiene and patient protection", "text": "Sterilisation and reprocessing prevent infections and protect patients and staff." },
+        { "title": "Efficiency in everyday care", "text": "Good equipment speeds up workflows, relieves staff and lowers costs in the long run." }
+      ]
+    },
+    "classification": {
+      "title": "Risk classes of medical devices",
+      "intro": "The MDR divides medical devices into four classes according to their risk potential. The higher the class, the stricter the requirements for evidence, testing and surveillance.",
+      "classes": [
+        { "name": "Class I", "risk": "Low risk", "text": "Non-invasive or simple products with low hazard potential.", "examples": "Examples: wheelchairs, dressings, simple examination couches" },
+        { "name": "Class IIa", "risk": "Medium risk", "text": "Products with moderate risk, often active devices for diagnosis or short-term use.", "examples": "Examples: ultrasound scanners, hearing aids, many dental instruments" },
+        { "name": "Class IIb", "risk": "Elevated risk", "text": "Products with elevated risk, such as active devices that deliver energy or support vital functions.", "examples": "Examples: X-ray equipment, ventilators, infusion pumps, defibrillators" },
+        { "name": "Class III", "risk": "High risk", "text": "Products with the highest risk, in particular implants and products in contact with the heart, the central circulatory system or the central nervous system.", "examples": "Examples: pacemakers, heart valves, joint implants" }
+      ]
+    },
+    "areas": {
+      "title": "Sub-fields of medical technology",
+      "intro": "Medical technology can be divided into several sub-fields. In our Device Knowledge portal we present typical devices from each category.",
+      "linkLabel": "View devices",
+      "items": [
+        { "id": "imaging", "title": "Imaging", "text": "Procedures that make the inside of the body visible: ultrasound, X-ray, computed tomography and magnetic resonance imaging." },
+        { "id": "lab", "title": "Laboratory diagnostics", "text": "Analysers that examine blood, urine and other samples – from the centrifuge to the fully automated analyser." },
+        { "id": "monitoring", "title": "Patient monitoring", "text": "Systems that continuously record vital signs such as heart rhythm, oxygen saturation and blood pressure." },
+        { "id": "surgery", "title": "Surgical technology", "text": "Operating theatre equipment: anaesthesia machines, electrosurgery, endoscopy, surgical lights and tables." },
+        { "id": "therapy", "title": "Therapy", "text": "Devices that support bodily functions or deliver treatments: ventilation, infusion, dialysis, defibrillation." },
+        { "id": "dental", "title": "Dental technology", "text": "Technology for the dental practice: treatment units, dental X-ray and digital impressions." },
+        { "id": "sterilization", "title": "Sterilisation & hygiene", "text": "Reprocessing of instruments and devices: cleaning, disinfection, packaging and sterilisation." }
+      ]
+    },
+    "lifecycle": {
+      "title": "The life cycle of a medical device",
+      "intro": "Buying a device is only the beginning. Those who keep the entire service life in mind make better decisions.",
+      "steps": [
+        { "title": "Needs & planning", "text": "Clarification of clinical needs, rooms, interfaces and budget." },
+        { "title": "Procurement", "text": "Requirements profile, quotation comparison, negotiation, ordering and acceptance." },
+        { "title": "Commissioning & training", "text": "Installation, functional testing and documented training of staff." },
+        { "title": "Operation & maintenance", "text": "Maintenance, safety and metrological inspections, documentation in the medical device logbook." },
+        { "title": "Decommissioning", "text": "Proper shutdown, data erasure and disposal or resale." }
+      ]
+    },
+    "glossary": {
+      "title": "Key terms",
+      "items": [
+        { "term": "MDR", "text": "Medical Device Regulation – EU Regulation 2017/745 on medical devices. It defines the requirements products must meet before being placed on the market." },
+        { "term": "CE marking", "text": "Confirms that a medical device meets the applicable EU requirements. For higher risk classes, a Notified Body is involved." },
+        { "term": "MPDG & MPBetreibV", "text": "The German Medical Devices Law Implementation Act (MPDG) and the German Medical Devices Operator Ordinance (MPBetreibV) regulate, among other things, the obligations when operating and using medical devices." },
+        { "term": "STK / MTK", "text": "Safety-related and metrological inspections (German: sicherheitstechnische bzw. messtechnische Kontrollen) – regular checks that are mandatory for certain devices." },
+        { "term": "Medical device logbook (Medizinproduktebuch)", "text": "Documentation for certain active medical devices: training, functional tests, maintenance and malfunctions." },
+        { "term": "UDI", "text": "Unique Device Identification – a unique product identifier for the traceability of medical devices." }
+      ]
+    },
+    "cta": {
+      "title": "Would you like to go deeper?",
+      "text": "In Device Knowledge we present the most important devices in each category – with how they work, where they are used and procurement guidance.",
+      "button": "Go to Device Knowledge"
+    }
+  },
+  "devices": {
+    "hero": {
+      "eyebrow": "Learning portal",
+      "title": "Device Knowledge",
+      "subtitle": "Medical technology clearly explained – organised by category, searchable and reduced to the essentials. Choose a category or search directly for a device."
+    },
+    "searchLabel": "Search for a device or term",
+    "searchPlaceholder": "e.g. ultrasound, ECG, autoclave …",
+    "filterLabel": "Filter by category",
+    "allCategories": "All categories",
+    "resultsCount": "{count} devices",
+    "resultsOne": "1 device",
+    "noResults": "No devices found.",
+    "noResultsHint": "Try a different term or reset the filter.",
+    "resetFilters": "Reset filters",
+    "openDevice": "View device",
+    "deviceCountOne": "1 device",
+    "deviceCount": "{count} devices",
+    "categoriesTitle": "Categories",
+    "progress": {
+      "title": "Your learning progress",
+      "text": "{done} of {total} devices marked as learned",
+      "hint": "Your progress is stored locally in your browser only.",
+      "reset": "Reset progress"
+    },
+    "detail": {
+      "overview": "Overview",
+      "how": "How it works",
+      "use": "Areas of use",
+      "facts": "At a glance",
+      "procurement": "What to look for when procuring",
+      "glossary": "Key terms",
+      "related": "More devices in this category",
+      "prev": "Previous device",
+      "next": "Next device",
+      "backToOverview": "Back to overview",
+      "categoryLabel": "Category",
+      "onThisPage": "On this page",
+      "markLearned": "Mark as learned",
+      "markedLearned": "Marked as learned",
+      "unmark": "Remove mark",
+      "imageNote": "Illustration – can be replaced with a real product photo.",
+      "notFoundTitle": "Device not found",
+      "notFoundText": "The requested device does not exist or has been removed.",
+      "procurementCtaTitle": "Planning to acquire a device like this?",
+      "procurementCtaText": "We provide manufacturer-neutral advice, compare quotations and support you through the procurement.",
+      "procurementCtaButton": "Request a consultation"
+    },
+    "loadError": "The device data could not be loaded. Please open the page via a local web server (see README)."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "subtitle": "Whether it's a specific procurement, initial guidance or a second opinion on a quotation – we usually respond within two working days."
+    },
+    "form": {
+      "title": "Send a message",
+      "name": "Name",
+      "organization": "Facility / company",
+      "email": "Email address",
+      "phone": "Phone (optional)",
+      "topic": "Your enquiry",
+      "topics": {
+        "consulting": "Consulting",
+        "procurement": "Procurement",
+        "secondOpinion": "Second opinion on a quotation",
+        "training": "Training / knowledge",
+        "other": "Other"
+      },
+      "message": "Your message",
+      "messagePlaceholder": "Briefly describe your project: device type, facility, time frame …",
+      "consent": "I have read the privacy policy and agree to the processing of my details for the purpose of handling my enquiry.",
+      "consentLink": "privacy policy",
+      "submit": "Send message",
+      "requiredHint": "* Required fields",
+      "demoNote": "Note: This form is a front-end preview only and is not yet connected to a server. On submission, your email client will open with the prepared message.",
+      "errors": {
+        "required": "Please fill in this field.",
+        "email": "Please enter a valid email address.",
+        "consent": "Please agree to the processing of your details.",
+        "summary": "Please check the highlighted fields."
+      },
+      "success": {
+        "title": "Thank you for your message!",
+        "text": "Your email client should have opened with the prepared message. If not, feel free to write to us directly at the address below.",
+        "again": "Send another message"
+      },
+      "mailSubject": "Enquiry via the Medny website"
+    },
+    "person": {
+      "title": "Your point of contact"
+    },
+    "details": {
+      "title": "Contact details",
+      "directTitle": "Reach us directly",
+      "addressTitle": "Address",
+      "placeholderNote": "Placeholder – contact details are maintained centrally in data/site.json."
+    }
+  },
+  "imprint": {
+    "title": "Legal notice (Impressum)",
+    "placeholderNote": "Placeholder page – please complete in full and have it legally reviewed before publication.",
+    "sections": [
+      {
+        "title": "Information pursuant to § 5 DDG (German Digital Services Act)",
+        "text": "[Company name Medny]\n[Owner: First name Last name, M.Sc. Biomedical Engineering]\n[Street and house number]\n[Postcode City]\nGermany"
+      },
+      {
+        "title": "Contact",
+        "text": "Phone: [Phone number]\nEmail: [Email address]"
+      },
+      {
+        "title": "VAT ID",
+        "text": "VAT identification number pursuant to § 27a of the German VAT Act (Umsatzsteuergesetz): [VAT ID no.]"
+      },
+      {
+        "title": "Responsible for content",
+        "text": "Responsible within the meaning of § 18 (2) MStV (German Interstate Media Treaty): [First name Last name], [Address as above]"
+      },
+      {
+        "title": "Liability for content",
+        "text": "The contents of this website have been created with the greatest care. However, we cannot guarantee the accuracy, completeness or timeliness of the content. The information in the Device Knowledge section is intended for general orientation and does not replace individual advice or the manufacturer's documentation."
+      },
+      {
+        "title": "Liability for links",
+        "text": "Our website may contain links to external third-party websites over whose content we have no control. The respective provider or operator is always responsible for such external content."
+      },
+      {
+        "title": "Note on independence",
+        "text": "Medny is an independent consulting and intermediary company and not a manufacturer of medical devices. Device categories mentioned are for information purposes only; purchase contracts are concluded exclusively between the customer and the respective supplier."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "placeholderNote": "Placeholder page – please adapt to the actual setup (hosting, form service) and have it legally reviewed before publication.",
+    "sections": [
+      {
+        "title": "1. Controller",
+        "text": "The controller responsible for data processing on this website is:\n[Company name Medny]\n[First name Last name]\n[Address]\nEmail: [Email address]"
+      },
+      {
+        "title": "2. Hosting and server log files",
+        "text": "When you visit this website, the hosting provider automatically processes technical data (e.g. IP address, date and time, page accessed, browser type). This data is used to provide the website securely and is deleted after a short period. [Enter hosting provider]"
+      },
+      {
+        "title": "3. Contact form and email contact",
+        "text": "If you contact us via the contact form or by email, we process the data you provide (name, facility, email address, phone number if given, message) solely for the purpose of handling your enquiry pursuant to Art. 6(1)(b) GDPR (DSGVO). The form on this website does not transmit any data to a server; it opens your email client instead."
+      },
+      {
+        "title": "4. Local storage in the browser (Local Storage)",
+        "text": "This website stores your language selection and your learning progress in Device Knowledge exclusively locally in your browser (Local Storage). This data is not transmitted to us or to third parties and can be deleted at any time via your browser settings. No tracking cookies and no analytics services are used."
+      },
+      {
+        "title": "5. External services",
+        "text": "This website does not load any fonts, scripts or content from external servers. [If map, video or form services are integrated later, add them here.]"
+      },
+      {
+        "title": "6. Your rights",
+        "text": "You have the right to access, rectification, erasure, restriction of processing, data portability and objection under Art. 15–21 GDPR (DSGVO), as well as the right to lodge a complaint with a supervisory authority. To exercise these rights, please use the contact address given above."
+      },
+      {
+        "title": "7. Updates to this policy",
+        "text": "This privacy policy is dated [Date]. Further development of the website may make it necessary to update it."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Independent consulting and procurement for medical technology – for hospitals, practices and healthcare facilities.",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "contactTitle": "Contact",
+    "disclaimer": "Medny is an independent consulting and intermediary company and not a manufacturer of medical devices.",
+    "copyright": "© {year} Medny. All rights reserved."
+  }
+}

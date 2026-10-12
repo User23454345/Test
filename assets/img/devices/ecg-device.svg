@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">EKG-Gerät</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="84" y="56" width="120" height="62" rx="8" fill="#E6F3F8"/>
+<rect x="94" y="66" width="100" height="42" rx="5" fill="#FFFFFF" stroke-width="2"/>
+<rect x="64" y="112" width="200" height="68" rx="10" fill="#E6F3F8"/>
+<rect x="212" y="124" width="42" height="44" rx="6" fill="#FFFFFF" stroke-width="2"/>
+<path d="M96 156h96l14 48H82z" fill="#FFFFFF" stroke-width="2"/>
+</g>
+<circle cx="190" cy="61" r="3" fill="#3BB273"/>
+<path d="M104 72h10M120 72h10M136 72h10" fill="none" stroke="#7DD3DC" stroke-width="3" stroke-linecap="round"/>
+<path d="M220 134h26M220 146h26M220 158h26" fill="none" stroke="#7DD3DC" stroke-width="5" stroke-dasharray="4 9" stroke-linecap="round"/>
+<g fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M102 90h14l5-12 6 22 6-18 4 8h16l5-12 6 22 6-18 4 8h12"/>
+<path d="M92 186h16l5-11 6 20 6-15 4 6h18l5-11 6 20 6-15 4 6h16"/>
+</g>
+<g fill="none" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round">
+<path d="M64 150c-14 0-22 8-24 26"/>
+<path d="M40 176c-2 10-6 16-14 20"/>
+<path d="M40 176c0 10 2 18 4 24"/>
+<path d="M40 176c6 8 12 14 20 18"/>
+</g>
+<g stroke="#0B4F8A" stroke-width="2">
+<circle cx="26" cy="198" r="5" fill="#E05A5A"/>
+<circle cx="44" cy="202" r="5" fill="#3BB273"/>
+<circle cx="60" cy="196" r="5" fill="#CBD5E1"/>
+</g>
+</svg>

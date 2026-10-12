@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="t"><title id="t">Panoramaröntgengerät</title>
+<ellipse cx="160" cy="215" rx="110" ry="12" fill="#E6F3F8"/>
+<g stroke="#0B4F8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="128" y="188" width="100" height="12" rx="6" fill="#CBD5E1"/>
+<rect x="196" y="36" width="22" height="154" rx="8" fill="#E6F3F8"/>
+<rect x="92" y="36" width="126" height="18" rx="9" fill="#E6F3F8"/>
+<rect x="100" y="54" width="90" height="12" rx="6" fill="#F4F9FC"/>
+<rect x="100" y="64" width="26" height="46" rx="8" fill="#E6F3F8"/>
+<rect x="170" y="64" width="18" height="58" rx="6" fill="#E6F3F8"/>
+<path d="M196 148H164" fill="none"/>
+<rect x="136" y="144" width="28" height="8" rx="4" fill="#CBD5E1"/>
+<path d="M150 134V144M150 152V158M120 158H180" fill="none"/>
+<rect x="117" y="158" width="6" height="24" rx="3" fill="#CBD5E1" stroke-width="2"/>
+<rect x="177" y="158" width="6" height="24" rx="3" fill="#CBD5E1" stroke-width="2"/>
+<rect x="201" y="96" width="12" height="26" rx="3" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="113" cy="90" r="6" fill="#FFFFFF" stroke="#7DD3DC" stroke-width="2"/>
+</g>
+<circle cx="145" cy="54" r="5" fill="#12A5B0"/>
+<path d="M179 76V110" fill="none" stroke="#12A5B0" stroke-width="2" stroke-linecap="round"/>
+<circle cx="207" cy="103" r="2.5" fill="#3BB273"/>
+<path d="M126 90H170" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+</svg>
