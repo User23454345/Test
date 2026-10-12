@@ -11,7 +11,7 @@
 <rect x="100" y="136" width="100" height="26" rx="5" fill="#E6F3F8"/>
 <rect x="156" y="142" width="34" height="14" rx="3" fill="#FFFFFF" stroke-width="2"/>
 <rect x="100" y="170" width="100" height="20" rx="5" fill="#E6F3F8"/>
-<path d="M138 180h24M208 100h22" stroke-width="2"/>
+<path d="M138 180h24" stroke-width="2"/>
 <rect x="226" y="100" width="22" height="42" rx="9" fill="#E6F3F8"/>
 <circle cx="250" cy="112" r="7" fill="#FFFFFF" stroke-width="2"/>
 <circle cx="250" cy="127" r="4" fill="#7DD3DC" stroke-width="2"/>
@@ -24,7 +24,7 @@
 <circle cx="146" cy="61" r="18" fill="#E6F3F8" stroke="#12A5B0" stroke-width="2"/>
 <path d="M136 66c4-8 16-8 20 0" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
 <path d="M176 48h22M176 58h14M176 68h18" fill="none" stroke="#7DD3DC" stroke-width="2" stroke-linecap="round"/>
-<path d="M226 108c-14 0-20 5-26 7" fill="none" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round"/>
+<path d="M226 110c-8 0-12 2-18 4" fill="none" stroke="#0B4F8A" stroke-width="2" stroke-linecap="round"/>
 <path d="M237 142c0 30 30 26 30 52s-30 22-36 10" fill="none" stroke="#0B4F8A" stroke-width="3" stroke-linecap="round"/>
 <circle cx="231" cy="204" r="3.5" fill="#12A5B0"/>
 </svg>
