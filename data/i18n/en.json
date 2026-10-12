@@ -6,7 +6,7 @@
     "pages": {
       "home": {
         "title": "Medny – Independent consulting & procurement for medical technology",
-        "description": "Medny provides manufacturer-neutral advice to hospitals, medical practices and healthcare facilities on selecting and procuring medical devices – from needs analysis through to support."
+        "description": "Medny gives hospitals, medical practices and healthcare facilities independent, vendor-neutral advice on selecting and procuring medical devices – from needs analysis through to support."
       },
       "about": {
         "title": "About us – Medny",
@@ -75,7 +75,7 @@
     "hero": {
       "eyebrow": "Consulting · Procurement · Support",
       "title": "The right medical technology. Independently selected, reliably procured.",
-      "subtitle": "Medny supports hospitals, medical practices and healthcare facilities in selecting and procuring medical devices – manufacturer-neutral, transparent and with sound technical expertise.",
+      "subtitle": "Medny supports hospitals, medical practices and healthcare facilities in selecting and procuring medical devices – vendor-neutral, transparent and with sound technical expertise.",
       "ctaPrimary": "Free initial consultation",
       "ctaSecondary": "Explore Device Knowledge",
       "note": "We are not a manufacturer. Our recommendations are based solely on your needs.",
@@ -84,7 +84,7 @@
     "trust": {
       "items": [
         {
-          "title": "Manufacturer-neutral",
+          "title": "Vendor-neutral",
           "text": "No product line of our own, no predefined choices – only the solution that suits you."
         },
         {
@@ -133,7 +133,7 @@
         },
         {
           "title": "Consulting",
-          "text": "We compare suitable solutions side by side and give a well-founded, manufacturer-neutral recommendation."
+          "text": "We compare suitable solutions side by side and give a well-founded, impartial recommendation."
         },
         {
           "title": "Procurement",
@@ -177,7 +177,7 @@
     },
     "independence": {
       "title": "Independent. Transparent. On your side.",
-      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We provide manufacturer-neutral advice and broker the solution that fits your needs, your budget and your team – not the one that is easiest to sell."
+      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We give impartial advice and broker the solution that fits your needs, your budget and your team – not the one that is easiest to sell."
     },
     "cta": {
       "title": "Let's talk about your project",
@@ -232,7 +232,7 @@
         },
         {
           "title": "Independent consulting",
-          "text": "We compare candidate devices and configuration options on a manufacturer-neutral basis and evaluate them by benefit, life-cycle costs, usability and service.",
+          "text": "We compare candidate devices and configuration options independently of any manufacturer and evaluate them by benefit, life-cycle costs, usability and service.",
           "points": [
             "Market overview and objective device comparison",
             "Assessment of ongoing costs: maintenance, consumables, training",
@@ -294,7 +294,7 @@
     },
     "disclaimer": {
       "title": "Important to know",
-      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We provide manufacturer-neutral advice and broker the solution that fits your needs. Devices, service contracts and warranties are concluded directly between you and the respective supplier – we support you along the way."
+      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We give impartial advice and broker the solution that fits your needs. Devices, service contracts and warranties are concluded directly between you and the respective supplier – we support you along the way."
     }
   },
   "medtech": {
@@ -402,7 +402,7 @@
         },
         {
           "id": "sterilization",
-          "title": "Sterilization & hygiene",
+          "title": "Sterilisation & hygiene",
           "text": "Reprocessing of instruments and devices: cleaning, disinfection, packaging and sterilisation."
         }
       ]
@@ -513,7 +513,7 @@
       "notFoundTitle": "Device not found",
       "notFoundText": "The requested device does not exist or has been removed.",
       "procurementCtaTitle": "Planning to acquire a device like this?",
-      "procurementCtaText": "We provide manufacturer-neutral advice, compare quotations and support you through the procurement.",
+      "procurementCtaText": "We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.",
       "procurementCtaButton": "Request a consultation"
     },
     "loadError": "The device data could not be loaded. Please open the page via a local web server (see README)."

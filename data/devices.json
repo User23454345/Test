@@ -35,8 +35,8 @@
         },
         "en": {
           "name": "Laboratory diagnostics",
-          "short": "Analyzers that examine blood, urine and other samples and deliver measurements for diagnosis and therapy.",
-          "description": "Laboratory diagnostics covers devices that automatically analyze body samples such as blood, serum or urine. The results support physicians in diagnosis, therapy monitoring and prevention. Typical systems range from compact practice-based instruments to fully automated high-throughput analyzers."
+          "short": "Analysers that examine blood, urine and other samples and deliver measurements for diagnosis and therapy.",
+          "description": "Laboratory diagnostics covers devices that automatically analyse body samples such as blood, serum or urine. The results support physicians in diagnosis, therapy monitoring and prevention. Typical systems range from compact practice-based instruments to fully automated high-throughput analysers."
         },
         "ar": {
           "name": "التشخيص المخبري",
@@ -58,7 +58,7 @@
         "en": {
           "name": "Patient monitoring",
           "short": "Devices that continuously record vital signs and raise an early alarm when values deviate.",
-          "description": "Patient monitoring covers devices that continuously measure and display heart rate, blood pressure, oxygen saturation, respiration and other vital signs. They make critical changes visible before they become emergencies and provide the basis for decisions in intensive care, the operating room, the emergency department and increasingly in practices and nursing care. The range extends from multi-parameter monitoring to a simple finger sensor."
+          "description": "Patient monitoring covers devices that continuously measure and display heart rate, blood pressure, oxygen saturation, respiration and other vital signs. They make critical changes visible before they become emergencies and provide the basis for decisions in intensive care, the operating theatre, the emergency department and increasingly in practices and nursing care. The range extends from multi-parameter monitoring to a simple finger sensor."
         },
         "ar": {
           "name": "مراقبة المرضى",
@@ -79,8 +79,8 @@
         },
         "en": {
           "name": "Surgical technology",
-          "short": "Devices that make surgery possible – from anesthesia and ventilation to electrosurgery, endoscopy and lighting.",
-          "description": "In the operating room, many devices work closely together: the anesthesia machine keeps the patient safely anesthetized, the electrosurgical unit cuts and stops bleeding, the endoscopy system enables minimally invasive procedures, and the surgical light provides optimal visibility. In procurement, room planning, gas supply, reprocessing and training are as decisive as the device technology itself. This section explains the key device types and shows what to look for in selection and procurement."
+          "short": "Devices that make surgery possible – from anaesthesia and ventilation to electrosurgery, endoscopy and lighting.",
+          "description": "In the operating theatre, many devices work closely together: the anaesthesia machine keeps the patient safely anaesthetised, the electrosurgical unit cuts and stops bleeding, the endoscopy system enables minimally invasive procedures, and the surgical light provides optimal visibility. In procurement, room planning, gas supply, reprocessing and training are as decisive as the device technology itself. This section explains the key device types and shows what to look for in selection and procurement."
         },
         "ar": {
           "name": "تقنيات غرف العمليات",
@@ -128,7 +128,7 @@
         },
         "ar": {
           "name": "تقنيات طب الأسنان",
-          "short": "أجهزة التشخيص والعلاج والنظافة في طب الأسنان – من وحدة العلاج إلى جهاز التعقيم.",
+          "short": "أجهزة التشخيص والعلاج والنظافة في طب الأسنان – من وحدة العلاج إلى الأوتوكلاف.",
           "description": "تشمل تقنيات طب الأسنان جميع الأجهزة المستخدمة في عيادات الأسنان وتقويم الأسنان وجراحة الفم والوجه والفكين ومختبرات الأسنان. ويشمل ذلك وحدات العلاج والتصوير السني والطبعات الرقمية وإعادة معالجة الأدوات. ويرتبط كثير من هذه الأجهزة بعضها ببعض ارتباطاً وثيقاً، ولذلك تكتسب الواجهات ومتطلبات النظافة أهمية خاصة عند الشراء."
         }
       }
@@ -144,7 +144,7 @@
           "description": "Die Aufbereitung von Medizinprodukten folgt einer festen Kette: Nach der Vorreinigung – bei Bedarf mit Vorbehandlung im Ultraschallbad – werden Instrumente im Reinigungs- und Desinfektionsgerät maschinell gereinigt und desinfiziert, anschließend geprüft, verpackt, versiegelt und im Dampfsterilisator sterilisiert. Jeder Schritt muss validiert und dokumentiert werden, denn Lücken in der Aufbereitung gefährden Patienten und verstoßen gegen gesetzliche Vorgaben. Dieser Bereich erklärt die zentralen Geräte der Aufbereitung und zeigt, worauf Sie bei Auswahl und Beschaffung achten sollten."
         },
         "en": {
-          "name": "Sterilization & hygiene",
+          "name": "Sterilisation & hygiene",
           "short": "Devices for the safe reprocessing of instruments – cleaning, packaging and sterilization.",
           "description": "The reprocessing of medical devices follows a fixed sequence: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are cleaned and disinfected automatically in a washer-disinfector, then inspected, packaged, sealed and sterilized in a steam sterilizer. Every step must be validated and documented, because gaps in reprocessing endanger patients and breach legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
         },
@@ -168,7 +168,7 @@
           "subtitle": "Bildgebung mit Schallwellen – ohne Strahlung",
           "short": "Ultraschallgeräte erzeugen Echtzeitbilder von Organen, Gefäßen und Weichteilen mithilfe hochfrequenter Schallwellen – strahlungsfrei und direkt am Patientenbett.",
           "how": [
-            "Der Schallkopf (Transducer) enthält piezoelektrische Kristalle, die elektrische Impulse in hochfrequente Schallwellen (typisch 2–15 MHz) umwandeln. Die Wellen dringen in das Gewebe ein und werden an Grenzflächen zwischen Geweben unterschiedlicher Dichte teilweise reflektiert. Der Schallkopf empfängt diese Echos und wandelt sie wieder in elektrische Signale um.",
+            "Der Schallkopf (Transducer) enthält piezoelektrische Kristalle, die elektrische Impulse in hochfrequente Schallwellen (typisch 2–15 MHz) umwandeln. Die Wellen dringen in das Gewebe ein und werden an Grenzflächen zwischen Geweben unterschiedlicher akustischer Impedanz (Produkt aus Dichte und Schallgeschwindigkeit) teilweise reflektiert. Der Schallkopf empfängt diese Echos und wandelt sie wieder in elektrische Signale um.",
             "Aus Laufzeit und Stärke der Echos berechnet das Gerät Tiefe und Beschaffenheit der Strukturen und setzt sie zu einem zweidimensionalen Graustufenbild (B-Mode) zusammen. Da pro Sekunde viele Bilder entstehen, lassen sich Bewegungen wie der Herzschlag in Echtzeit beobachten. Ein Gel zwischen Schallkopf und Haut verhindert Lufteinschlüsse, die den Schall sonst reflektieren würden.",
             "Das Doppler-Verfahren nutzt die Frequenzverschiebung der Echos an fließendem Blut, um Flussrichtung und -geschwindigkeit farbig darzustellen. Moderne Systeme bieten zudem 3D/4D-Darstellungen und Elastografie zur Beurteilung der Gewebesteifigkeit. Verschiedene Schallköpfe (Linear, Konvex, Sektor) sind auf Eindringtiefe und Körperregion abgestimmt."
           ],
@@ -228,11 +228,11 @@
           ]
         },
         "en": {
-          "name": "Ultrasound System (Sonography)",
+          "name": "Ultrasound system (sonography)",
           "subtitle": "Imaging with sound waves – no radiation",
           "short": "Ultrasound systems produce real-time images of organs, vessels and soft tissue using high-frequency sound waves – radiation-free and directly at the bedside.",
           "how": [
-            "The probe (transducer) contains piezoelectric crystals that convert electrical pulses into high-frequency sound waves (typically 2–15 MHz). The waves travel into the tissue and are partially reflected at boundaries between tissues of different density. The probe receives these echoes and converts them back into electrical signals.",
+            "The probe (transducer) contains piezoelectric crystals that convert electrical pulses into high-frequency sound waves (typically 2–15 MHz). The waves travel into the tissue and are partially reflected at boundaries between tissues of different acoustic impedance (the product of density and speed of sound). The probe receives these echoes and converts them back into electrical signals.",
             "From the travel time and strength of the echoes, the system calculates the depth and nature of the structures and assembles them into a two-dimensional greyscale image (B-mode). Because many frames are generated per second, movements such as the heartbeat can be observed in real time. A gel between probe and skin excludes air, which would otherwise reflect the sound.",
             "Doppler mode uses the frequency shift of echoes from moving blood to display flow direction and velocity in colour. Modern systems also offer 3D/4D imaging and elastography to assess tissue stiffness. Different probes (linear, convex, sector) are matched to penetration depth and body region."
           ],
@@ -241,7 +241,7 @@
             "Obstetrics and gynaecology (antenatal care)",
             "Cardiology (echocardiography)",
             "Vascular diagnostics (Doppler/duplex)",
-            "Point-of-care in emergency and intensive care"
+            "Point-of-care use in the emergency department and intensive care unit"
           ],
           "facts": [
             {
@@ -296,7 +296,7 @@
           "subtitle": "تصوير بالموجات الصوتية – من دون إشعاع",
           "short": "تُنتج أجهزة الموجات فوق الصوتية صورًا آنية للأعضاء والأوعية والأنسجة الرخوة باستخدام موجات صوتية عالية التردد – من دون إشعاع ومباشرةً بجانب سرير المريض.",
           "how": [
-            "يحتوي المسبار (الترانسديوسر) على بلورات كهرضغطية تحوّل النبضات الكهربائية إلى موجات صوتية عالية التردد (عادةً بين 2 و15 ميغاهرتز). تخترق هذه الموجات الأنسجة وتنعكس جزئيًا عند الحدود بين الأنسجة ذات الكثافات المختلفة. يستقبل المسبار الأصداء العائدة ويحوّلها مجددًا إلى إشارات كهربائية.",
+            "يحتوي المسبار (الترانسديوسر) على بلورات كهرضغطية تحوّل النبضات الكهربائية إلى موجات صوتية عالية التردد (عادةً بين 2 و15 ميغاهرتز). تخترق هذه الموجات الأنسجة وتنعكس جزئيًا عند الحدود بين الأنسجة ذات الممانعة الصوتية المختلفة (حاصل ضرب الكثافة في سرعة الصوت). يستقبل المسبار الأصداء العائدة ويحوّلها مجددًا إلى إشارات كهربائية.",
             "يحسب الجهاز من زمن عودة الأصداء وشدتها عمق البنى وطبيعتها، ويركّبها في صورة ثنائية الأبعاد بتدرج رمادي (النمط B). ولأن الجهاز يُنتج صورًا كثيرة في الثانية، يمكن متابعة الحركات مثل نبض القلب في الزمن الحقيقي. ويمنع الجل الموضوع بين المسبار والجلد وجود الهواء الذي كان سيعكس الصوت.",
             "تستخدم تقنية الدوبلر انزياح تردد الأصداء المنعكسة من الدم المتحرك لعرض اتجاه الجريان وسرعته بالألوان. وتوفر الأنظمة الحديثة أيضًا تصويرًا ثلاثي ورباعي الأبعاد والتصوير المرن (الإيلاستوغرافي) لتقييم صلابة الأنسجة. وتُصمَّم المسابير المختلفة (الخطية والمحدبة والقطاعية) لتناسب عمق الاختراق ومنطقة الجسم المطلوبة."
           ],
@@ -330,7 +330,7 @@
             "التحقق من الواجهات: تصدير DICOM إلى نظام أرشفة الصور (PACS)، والربط بقائمة العمل (DICOM MWL)، والتوافق مع HL7 لنظام معلومات العيادة أو المستشفى.",
             "احتساب تكاليف التشغيل: جل الموجات فوق الصوتية، وتطهير المسابير (تطهير عالي المستوى للمسابير داخل التجاويف)، وورق الطابعة أو الأرشفة الرقمية.",
             "إبرام عقد صيانة يحدد زمن الاستجابة وجهازًا بديلًا؛ فالمسابير حساسة وهي من أكثر أسباب الإصلاح شيوعًا – لذا تُراجَع شروط ضمان المسابير على حدة.",
-            "توثيق تدريب الموظفين وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)، وإدراج الجهاز في سجل الأجهزة الطبية."
+            "توثيق تدريب العاملين على الاستخدام وفق لائحة مشغّلي الأجهزة الطبية (في ألمانيا: MPBetreibV)، وإدراج الجهاز في سجل جرد الأجهزة الطبية."
           ],
           "glossary": [
             {
@@ -370,7 +370,7 @@
           "how": [
             "Eine Röntgenröhre erzeugt Strahlung, indem Elektronen im Vakuum stark beschleunigt werden und auf eine Anode treffen. Die Strahlung durchdringt den Körper und wird je nach Gewebedichte unterschiedlich stark abgeschwächt: Knochen absorbieren viel, Luft in der Lunge sehr wenig.",
             "Hinter dem Patienten misst ein digitaler Flachdetektor (DR) die verbleibende Intensität; bei Speicherfolien (CR) wird stattdessen eine Kassette anschließend ausgelesen. Die Messwerte werden in ein Graustufenbild umgerechnet, das in wenigen Sekunden am Monitor erscheint und digital nachbearbeitet, archiviert (PACS) und versendet werden kann.",
-            "Ein Generator steuert Röhrenspannung (kV) und Strom-Zeit-Produkt (mAs) und damit Bildqualität und Dosis. Belichtungsautomatik und Einblendung (Kollimation) begrenzen die Dosis auf das notwendige Maß; ein Streustrahlenraster vor dem Detektor absorbiert Streustrahlung und verbessert so den Bildkontrast. Das Dosisflächenprodukt wird zur Dokumentation automatisch erfasst."
+            "Ein Generator steuert Röhrenspannung (kV) und Strom-Zeit-Produkt (mAs) und damit Bildqualität und Dosis. Belichtungsautomatik und Einblendung (Kollimation) begrenzen die Dosis auf das notwendige Maß; ein Streustrahlenraster verbessert den Bildkontrast, erhöht aber die erforderliche Dosis und wird daher nur bei dickeren Körperregionen eingesetzt. Das Dosisflächenprodukt wird zur Dokumentation automatisch erfasst."
           ],
           "use": [
             "Thoraxaufnahmen (Lunge, Herz)",
@@ -428,13 +428,13 @@
           ]
         },
         "en": {
-          "name": "Digital X-ray System",
+          "name": "Digital X-ray system",
           "subtitle": "Projection radiography with a digital detector",
-          "short": "Digital X-ray systems use X-radiation to produce projection images of bones, lungs and other structures; a flat-panel detector delivers the image on screen within seconds.",
+          "short": "Digital X-ray systems use X-rays to produce projection images of bones, lungs and other structures; a flat-panel detector delivers the image on screen within seconds.",
           "how": [
             "An X-ray tube generates radiation by accelerating electrons in a vacuum and letting them strike an anode. The radiation passes through the body and is attenuated to different degrees depending on tissue density: bone absorbs a lot, air in the lungs very little.",
             "Behind the patient, a digital flat-panel detector (DR) measures the remaining intensity; with storage phosphor plates (CR), a cassette is read out afterwards instead. The measurements are converted into a greyscale image that appears on the monitor within seconds and can be digitally post-processed, archived (PACS) and transmitted.",
-            "A generator controls tube voltage (kV) and the current-time product (mAs), and thus image quality and dose. Automatic exposure control and collimation limit the dose to what is necessary; an anti-scatter grid in front of the detector absorbs scattered radiation and thereby improves image contrast. The dose-area product is recorded automatically for documentation."
+            "A generator controls tube voltage (kV) and the current-time product (mAs), and thus image quality and dose. Automatic exposure control and collimation limit the dose to what is necessary; an anti-scatter grid improves image contrast but increases the required dose and is therefore only used for thicker body regions. The dose-area product is recorded automatically for documentation."
           ],
           "use": [
             "Chest radiographs (lungs, heart)",
@@ -498,7 +498,7 @@
           "how": [
             "يولّد أنبوب الأشعة السينية الإشعاع عبر تسريع الإلكترونات في الفراغ وجعلها تصطدم بالمصعد (الأنود). يخترق الإشعاع الجسم ويضعف بدرجات متفاوتة حسب كثافة الأنسجة: فالعظم يمتص الكثير منه، بينما لا يمتص الهواء في الرئتين إلا القليل.",
             "خلف المريض يقيس كاشف لوحي مسطح رقمي (DR) الشدة المتبقية؛ أما في حالة ألواح الفوسفور التخزينية (CR) فتُقرأ الكاسيت لاحقًا بدلًا من ذلك. تُحوَّل القياسات إلى صورة بتدرج رمادي تظهر على الشاشة خلال ثوانٍ ويمكن معالجتها رقميًا وأرشفتها (PACS) وإرسالها.",
-            "يتحكم المولّد في جهد الأنبوب (kV) وحاصل ضرب التيار في الزمن (mAs)، وبالتالي في جودة الصورة والجرعة. ويحدّ التحكم الآلي في التعريض وتحديد حقل الإشعاع (الكوليماتور) من الجرعة إلى الحد الضروري؛ بينما تمتص شبكة منع التشتت الموضوعة أمام الكاشف الإشعاع المتشتت فتحسّن بذلك تباين الصورة. ويُسجَّل حاصل ضرب الجرعة في المساحة تلقائيًا للتوثيق."
+            "يتحكم المولّد في جهد الأنبوب (kV) وحاصل ضرب التيار في الزمن (mAs)، وبالتالي في جودة الصورة والجرعة. ويحدّ التحكم الآلي في التعريض وتضييق الحزمة (الكوليماتور) من الجرعة إلى الحد الضروري؛ أما شبكة منع التشتت فتحسّن تباين الصورة لكنها تزيد الجرعة المطلوبة، ولذلك لا تُستخدم إلا في مناطق الجسم الأكثر سماكة. ويُسجَّل حاصل ضرب الجرعة في المساحة تلقائيًا للتوثيق."
           ],
           "use": [
             "صور الصدر (الرئتان والقلب)",
@@ -615,7 +615,7 @@
             },
             {
               "term": "Spiral-CT",
-              "text": "Kontinuierlicher Tischvorschub während der Röhrenrotation, sodass ein Volumen lückenlos erfasst wird; Grundlage aller modernen CT-Untersuchungen."
+              "text": "Kontinuierlicher Tischvorschub während der Röhrenrotation, sodass ein Volumen lückenlos erfasst wird; Grundlage der meisten modernen CT-Untersuchungen – daneben wird der sequenzielle Modus (Schritt für Schritt) z. B. für EKG-getriggerte Herzaufnahmen genutzt."
             }
           ],
           "keywords": [
@@ -628,7 +628,7 @@
           ]
         },
         "en": {
-          "name": "Computed Tomography Scanner (CT)",
+          "name": "Computed tomography scanner (CT)",
           "subtitle": "Cross-sectional images from rotating X-rays",
           "short": "A CT scanner uses many X-ray projections to create overlap-free cross-sectional images and 3D reconstructions of the body – fast and detailed, for example in stroke, trauma or cancer diagnostics.",
           "how": [
@@ -641,7 +641,7 @@
             "Polytrauma and emergency diagnostics",
             "Oncology (staging, follow-up)",
             "Lung and vascular diagnostics (CT angiography)",
-            "CT-guided interventions (biopsies, drainages)"
+            "CT-guided interventions (biopsies, drain placement)"
           ],
           "facts": [
             {
@@ -679,7 +679,7 @@
             },
             {
               "term": "Spiral CT",
-              "text": "Continuous table movement during tube rotation, so that a volume is acquired without gaps; the basis of all modern CT examinations."
+              "text": "Continuous table movement during tube rotation, so that a volume is acquired without gaps; the basis of most modern CT examinations – sequential (step-and-shoot) mode is still used, e.g. for ECG-triggered cardiac scans."
             }
           ],
           "keywords": [
@@ -730,7 +730,7 @@
             "التجهيز الإنشائي: توضيح حسابات التدريع الإشعاعي وحمل الأرضية والتبريد/التكييف والتغذية الكهربائية ذات القدرة العالية ومسار نقل الجانتري مبكرًا مع المخططين المتخصصين.",
             "الملحقات والمستهلكات: حاقن مادة التباين، ووسائل توضيع المريض، والأجسام الاختبارية (الفانتوم) لضمان الجودة؛ وتُحتسب مادة التباين والمستهلكات ضمن تكاليف التشغيل الجارية.",
             "الصيانة: استبدال الأنبوب هو أكبر بند تكلفة منفرد – تُقارَن عقود الصيانة الشاملة التي تتضمن الأنبوب، ونسبة الجاهزية المضمونة، والصيانة عن بُعد.",
-            "الجانب التنظيمي: التخطيط للإخطار أو الترخيص وفق قانون الحماية من الإشعاع، واختبار القبول من الخبير، واختبارات الثبات، وبرمجيات إدارة الجرعة (DICOM RDSR)، وتدريب الموظفين."
+            "الجانب التنظيمي: التخطيط للإخطار أو الترخيص وفق قانون الحماية من الإشعاع، واختبار القبول من الخبير، واختبارات الثبات، وبرمجيات إدارة الجرعة (DICOM RDSR)، وتدريب العاملين."
           ],
           "glossary": [
             {
@@ -743,7 +743,7 @@
             },
             {
               "term": "التصوير المقطعي الحلزوني",
-              "text": "تحرك الطاولة باستمرار أثناء دوران الأنبوب بحيث يُلتقط حجم كامل من دون فجوات؛ وهو أساس جميع فحوصات التصوير المقطعي الحديثة."
+              "text": "تحرك الطاولة باستمرار أثناء دوران الأنبوب بحيث يُلتقط حجم كامل من دون فجوات؛ وهو أساس معظم فحوصات التصوير المقطعي الحديثة – ولا يزال النمط التتابعي (خطوة فخطوة) يُستخدم مثلًا في فحوصات القلب المتزامنة مع تخطيط القلب."
             }
           ],
           "keywords": [
@@ -828,8 +828,8 @@
           ]
         },
         "en": {
-          "name": "Magnetic Resonance Imaging Scanner (MRI)",
-          "subtitle": "Cross-sectional imaging with magnets and radio waves",
+          "name": "Magnetic resonance imaging scanner (MRI)",
+          "subtitle": "Cross-sectional imaging with a magnetic field and radio waves",
           "short": "The MRI scanner images soft tissue, brain, joints and organs without X-rays – using a strong magnetic field, radio waves and excellent soft-tissue contrast.",
           "how": [
             "A superconducting magnet generates a very strong, constant magnetic field (clinically mostly 1.5 or 3 tesla). The hydrogen nuclei (protons) in the body align within it. Short radiofrequency pulses tip the protons out of alignment; as they relax back they emit a weak signal that receiver coils pick up.",
@@ -1028,25 +1028,25 @@
           ]
         },
         "en": {
-          "name": "Hematology Analyzer",
+          "name": "Haematology analyser",
           "subtitle": "Automated counting and differentiation of blood cells",
-          "short": "A hematology analyzer counts and classifies the cells in blood and produces a complete blood count (CBC) with or without differential within minutes. It is part of the basic equipment of almost every medical laboratory.",
+          "short": "A haematology analyser counts and classifies the cells in the blood and produces a full blood count, with or without differential, within minutes. It is part of the basic equipment of almost every medical laboratory.",
           "how": [
             "The instrument aspirates a small volume of EDTA-anticoagulated whole blood and dilutes the sample automatically. The cells are then passed one by one through a narrow aperture or flow cell. Each cell generates a signal that is counted and evaluated.",
             "Two measurement principles are common: in impedance counting, every cell changes the electrical resistance across the aperture, from which the number and size of the cells are derived. In optical flow cytometry, the cells are illuminated by a laser beam; scattered light and fluorescence provide information about cell size, internal structure and cell type.",
-            "Hemoglobin is measured photometrically after the red blood cells have been lysed. From the raw data the software calculates parameters such as hematocrit, mean cell volume (MCV) and the distribution of white blood cells (differential count). Abnormal results are flagged so that staff can review them under the microscope."
+            "Haemoglobin is measured photometrically after the red blood cells have been lysed. From the raw data the software calculates parameters such as haematocrit, mean cell volume (MCV) and the distribution of white blood cells (differential count). Abnormal results are flagged so that staff can review them under the microscope."
           ],
           "use": [
             "Routine laboratories in hospitals and joint practice laboratories",
             "General practitioner and specialist practices with in-house laboratories",
             "Emergency departments and intensive care units (point of care)",
-            "Oncology and hematology for therapy monitoring",
+            "Oncology and haematology for therapy monitoring",
             "Blood donation services and preventive check-ups"
           ],
           "facts": [
             {
               "label": "Risk class (MDR/IVDR)",
-              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyser itself is usually class A, reagents and tests depend on design"
             },
             {
               "label": "Typical settings",
@@ -1085,7 +1085,7 @@
           "keywords": [
             "Complete blood count",
             "CBC",
-            "Hematology",
+            "Haematology",
             "Cell counter",
             "Differential count",
             "5-part diff"
@@ -1130,7 +1130,7 @@
             "تحققوا من إمكانية الربط بنظام معلومات المختبر (LIS) عبر بروتوكول HL7 أو ASTM، ومن دعم الاتصال ثنائي الاتجاه لاستدعاء الطلبات.",
             "احسبوا التكاليف الجارية للكواشف ومواد ضبط الجودة ومواد المعايرة، فهي كثيراً ما تتجاوز سعر الشراء على مدى عمر الجهاز.",
             "أبرموا عقد صيانة بأوقات استجابة مضمونة، واستفسروا عن توفير جهاز بديل في حال الأعطال الطويلة.",
-            "راعوا المتطلبات الوطنية لضمان الجودة الخاصة بضبط الجودة الداخلي واختبارات الكفاءة الخارجية (في ألمانيا: Rili-BÄK)، وخططوا لتدريب الطاقم وفق التزامات مشغّل الجهاز (في ألمانيا: MPBetreibV)."
+            "راعوا المتطلبات الوطنية لضمان الجودة الخاصة بضبط الجودة الداخلي واختبارات الكفاءة الخارجية (في ألمانيا: Rili-BÄK)، وخططوا وفق التزامات مشغّل الجهاز (في ألمانيا: لائحة MPBetreibV) لتدريب العاملين على الاستخدام."
           ],
           "glossary": [
             {
@@ -1228,11 +1228,11 @@
           ]
         },
         "en": {
-          "name": "Clinical Chemistry Analyzer",
+          "name": "Clinical chemistry analyser",
           "subtitle": "Metabolic values from serum, plasma and urine",
-          "short": "A clinical chemistry analyzer measures the concentration of substances such as glucose, electrolytes, enzymes and cholesterol in serum, plasma or urine. It provides the basis for assessing organ function and metabolism.",
+          "short": "A clinical chemistry analyser measures the concentration of substances such as glucose, electrolytes, enzymes and cholesterol in serum, plasma or urine. It provides the basis for assessing organ function and metabolism.",
           "how": [
-            "The sample is centrifuged to obtain serum or plasma and placed on the instrument in sample tubes. A pipetting arm automatically withdraws a few microliters and mixes them with the appropriate reagent in a cuvette. The chemical reaction changes the color or turbidity of the solution.",
+            "The sample is centrifuged to obtain serum or plasma and placed on the instrument in sample tubes. A pipetting arm automatically withdraws a few microlitres and mixes them with the appropriate reagent in a cuvette. The chemical reaction changes the colour or turbidity of the solution.",
             "A photometer shines light of specific wavelengths through the cuvette and measures how much light is absorbed. The degree of absorption is proportional to the concentration of the analyte. Using a previously stored calibration curve, the instrument converts the readings into concentrations.",
             "Electrolytes such as sodium, potassium and chloride are usually determined with ion-selective electrodes (ISE), which generate a voltage corresponding to the ion concentration. Modern systems process several hundred tests per hour, run quality controls automatically and transmit the results to the laboratory information system."
           ],
@@ -1246,7 +1246,7 @@
           "facts": [
             {
               "label": "Risk class (MDR/IVDR)",
-              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyser itself is usually class A, reagents and tests depend on design"
             },
             {
               "label": "Typical settings",
@@ -1428,29 +1428,29 @@
           ]
         },
         "en": {
-          "name": "Blood Gas Analyzer",
+          "name": "Blood gas analyser",
           "subtitle": "pH, oxygen and carbon dioxide within minutes",
-          "short": "A blood gas analyzer measures pH, oxygen and carbon dioxide partial pressures as well as electrolytes and metabolites in blood within a few minutes. It is indispensable for monitoring critically ill and ventilated patients.",
+          "short": "A blood gas analyser measures pH, oxygen and carbon dioxide partial pressures as well as electrolytes and metabolites in blood within a few minutes. It is indispensable for monitoring critically ill and ventilated patients.",
           "how": [
-            "Arterial blood is usually collected in a heparinized syringe or capillary and introduced directly into the instrument. The sample flows through a measuring chamber containing several sensors. The analysis typically takes only one to two minutes.",
-            "pH and the partial pressure of carbon dioxide (pCO2) are determined with potentiometric electrodes, while the partial pressure of oxygen (pO2) is measured with an amperometric electrode that electrochemically reduces oxygen. Many instruments additionally measure electrolytes, glucose, lactate and, via a CO-oximeter, the hemoglobin fractions.",
+            "Arterial blood is usually collected in a heparinised syringe or capillary and introduced directly into the instrument. The sample flows through a measuring chamber containing several sensors. The analysis typically takes only one to two minutes.",
+            "pH and the partial pressure of carbon dioxide (pCO2) are determined with potentiometric electrodes, while the partial pressure of oxygen (pO2) is measured with an amperometric electrode that electrochemically reduces oxygen. Many instruments additionally measure electrolytes, glucose, lactate and, via a CO-oximeter, the haemoglobin fractions.",
             "From the measured values the instrument calculates derived parameters such as bicarbonate and base excess; oxygen saturation is either estimated from pO2 or – on instruments with a CO-oximeter – measured directly. The sensors are calibrated automatically; in cartridge-based systems, reagents, calibration solutions and sensors are bundled in a replaceable pack."
           ],
           "use": [
             "Intensive care units and mechanical ventilation",
             "Emergency departments and resuscitation rooms",
-            "Operating rooms and recovery rooms",
+            "Operating theatres and recovery rooms",
             "Neonatology (capillary blood from the heel)",
             "Central laboratories and dialysis units"
           ],
           "facts": [
             {
               "label": "Risk class (MDR/IVDR)",
-              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyser itself is usually class A, reagents and tests depend on design"
             },
             {
               "label": "Typical settings",
-              "value": "Intensive care unit, emergency department, operating room, laboratory"
+              "value": "Intensive care unit, emergency department, operating theatre, laboratory"
             },
             {
               "label": "Space requirement",
@@ -1462,7 +1462,7 @@
             }
           ],
           "procurement": [
-            "Define the parameter range: blood gases and pH only, or additionally electrolytes, metabolites (glucose, lactate) and CO-oximetry (e.g. carboxyhemoglobin)?",
+            "Define the parameter range: blood gases and pH only, or additionally electrolytes, metabolites (glucose, lactate) and CO-oximetry (e.g. carboxyhaemoglobin)?",
             "Compare cartridge-based systems with conventional reagent bottles in terms of maintenance effort, shelf life and cost per sample for your sample volume.",
             "For use close to the patient, operator management, automatic quality control and a connection to the hospital or laboratory information system (POCT data management) are important.",
             "Clarify responsibilities: point-of-care testing is subject to national quality-assurance requirements (in Germany: Rili-BÄK); a POCT committee and documented training should be planned.",
@@ -1628,7 +1628,7 @@
           ]
         },
         "en": {
-          "name": "Laboratory Centrifuge",
+          "name": "Laboratory centrifuge",
           "subtitle": "Separating samples by centrifugal force",
           "short": "A laboratory centrifuge separates blood and other liquids into their components, such as cells and plasma, by rapid rotation. It is an indispensable preparation device for almost every laboratory analysis.",
           "how": [
@@ -1828,9 +1828,9 @@
           ]
         },
         "en": {
-          "name": "Patient Monitor",
+          "name": "Patient monitor",
           "subtitle": "Multi-parameter monitoring of vital functions",
-          "short": "A patient monitor records several vital signs at once, displays them as waveforms and numeric values and raises an alarm when limits are exceeded. It is the central monitoring device in intensive care units, operating rooms and emergency departments.",
+          "short": "A patient monitor records several vital signs at once, displays them as waveforms and numeric values and raises an alarm when limits are exceeded. It is the central monitoring device in intensive care units, operating theatres and emergency departments.",
           "how": [
             "Through electrodes, sensors and cuffs, the monitor picks up measurement signals directly from the patient. Typical parameters are ECG with heart rate, oxygen saturation (SpO2), non-invasive blood pressure (NIBP), respiratory rate and body temperature. Depending on the configuration, invasive blood pressure, capnography (etCO2) or cardiac output can be added.",
             "The signals are processed digitally, displayed as waveforms and numeric values and checked against adjustable alarm limits. If a limit is exceeded or undershot, the monitor issues visual and audible alarms with graded priority. Trend views show the course over hours and make assessment easier.",
@@ -1838,8 +1838,8 @@
           ],
           "use": [
             "Intensive care and intermediate care units",
-            "Operating room and recovery room",
-            "Emergency department and trauma bay",
+            "Operating theatre and recovery room",
+            "Emergency department and resuscitation room",
             "Patient transport inside and outside the hospital",
             "Monitoring of at-risk patients on general wards"
           ],
@@ -1850,7 +1850,7 @@
             },
             {
               "label": "Typical settings",
-              "value": "Intensive care unit, operating room, emergency department, transport"
+              "value": "Intensive care unit, operating theatre, emergency department, transport"
             },
             {
               "label": "Space requirement",
@@ -1864,7 +1864,7 @@
           "procurement": [
             "Define the required parameter set per unit (basic: ECG, SpO2, NIBP, temperature; intensive care: additionally invasive pressure and capnography) and make sure it can be upgraded with modules later.",
             "Check the interfaces to the central station and the hospital information system (e.g. HL7) as well as compatibility with existing monitors and the infrastructure (network, Wi-Fi).",
-            "Calculate the running costs for consumables such as electrodes, SpO2 sensors, blood pressure cuffs and temperature probes; proprietary sensors can significantly affect follow-up costs.",
+            "Calculate the running costs for consumables such as electrodes, SpO2 sensors, blood pressure cuffs and temperature probes; proprietary sensors can have a considerable impact on ongoing costs.",
             "Consider alarm management and ergonomics: a consistent alarm philosophy across the facility, good readability, simple operation and surfaces that are easy to clean.",
             "Agree on a service contract, staff training and backup devices for downtime. Observe the inspection duties under the Medical Devices Operator Ordinance (in Germany: MPBetreibV): periodic safety inspections (STK) for monitors with invasive pressure measurement and metrological checks (MTK) for the non-invasive blood pressure function."
           ],
@@ -1926,7 +1926,7 @@
             }
           ],
           "procurement": [
-            "حدّدوا مجموعة المعايير المطلوبة لكل وحدة (الأساسية: تخطيط القلب وSpO2 وNIBP ودرجة الحرارة؛ العناية المركزة: إضافة الضغط الباضع وقياس ثاني أكسيد الكربون) واحرصوا على إمكانية الترقية لاحقاً بوحدات إضافية.",
+            "حدّدوا مجموعة المعايير المطلوبة لكل وحدة (الأساسية: تخطيط القلب وSpO2 وNIBP ودرجة الحرارة؛ العناية المركزة: إضافة الضغط الباضع وتخطيط ثاني أكسيد الكربون) واحرصوا على إمكانية الترقية لاحقاً بوحدات إضافية.",
             "تحققوا من واجهات الربط مع محطة المراقبة المركزية ونظام معلومات المستشفى (مثل HL7)، ومن التوافق مع الأجهزة الموجودة والبنية التحتية (الشبكة، الشبكة اللاسلكية).",
             "احسبوا التكاليف الجارية للمستهلكات مثل الأقطاب ومستشعرات SpO2 وأكمام ضغط الدم ومجسات الحرارة؛ فالمستشعرات الخاصة بالمصنّع قد تؤثر بشكل كبير في التكاليف اللاحقة.",
             "راعوا إدارة الإنذارات وسهولة الاستخدام: فلسفة إنذار موحدة في المنشأة، ووضوح القراءة، وبساطة التشغيل، وأسطح سهلة التنظيف.",
@@ -1942,7 +1942,7 @@
               "text": "قياس ضغط الدم غير الباضع بواسطة كمّ يُلفّ حول أعلى الذراع وينفخه الجهاز تلقائياً على فترات قابلة للضبط."
             },
             {
-              "term": "قياس ثاني أكسيد الكربون (Capnography)",
+              "term": "تخطيط ثاني أكسيد الكربون (Capnography)",
               "text": "قياس مستمر لمحتوى ثاني أكسيد الكربون في هواء الزفير (etCO2) لمراقبة التهوية والدورة الدموية."
             }
           ],
@@ -2002,7 +2002,7 @@
             "Prüfen Sie die Qualität der Interpretationssoftware und die Möglichkeit, frühere EKGs zum Vergleich aufzurufen.",
             "Klären Sie das Elektrodensystem: Klebeelektroden verursachen laufende Kosten, Saugelektroden oder Elektrodengurte sparen Zeit bei hohem Patientenaufkommen.",
             "Achten Sie auf Akkubetrieb und Gewicht, wenn das Gerät zwischen Räumen oder auf Station bewegt wird, sowie auf die Eignung für Belastungs-EKG, falls dies geplant ist.",
-            "Planen Sie die Einweisung des Personals, die Instandhaltung nach Herstellerangaben und einen Servicevertrag ein; Thermopapier und Patientenkabel sind typische Verschleißteile. Ruhe-EKG-Geräte unterliegen nach Medizinprodukte-Betreiberverordnung (MPBetreibV) in der Regel weder der sicherheitstechnischen (STK) noch der messtechnischen Kontrolle (MTK); ein für Belastungs-EKGs angeschlossenes Ergometer ist jedoch MTK-pflichtig."
+            "Planen Sie die Einweisung des Personals, Wartung und Prüfungen nach Herstellerangaben sowie einen Servicevertrag ein; eine messtechnische Kontrolle nach MPBetreibV ist für EKG-Geräte nicht vorgeschrieben, wohl aber alle zwei Jahre für ein angeschlossenes Tretkurbelergometer. Thermopapier und Patientenkabel sind typische Verschleißteile."
           ],
           "glossary": [
             {
@@ -2028,7 +2028,7 @@
           ]
         },
         "en": {
-          "name": "ECG Machine (12-Lead)",
+          "name": "ECG machine (12-lead)",
           "subtitle": "Recording the electrical activity of the heart",
           "short": "A 12-lead ECG machine records the electrical activity of the heart through ten electrodes and presents it as twelve leads. It is the standard procedure for diagnosing cardiac arrhythmias and impaired blood supply to the heart muscle.",
           "how": [
@@ -2037,7 +2037,7 @@
             "Modern devices provide automatic measurements and an interpretation aid that supports, but does not replace, the physician's assessment. The recording is printed or stored digitally and can be transferred to the patient record or an ECG management system."
           ],
           "use": [
-            "Cardiological diagnostics in practices and hospitals",
+            "Cardiac diagnostics in practices and hospitals",
             "Emergency department for chest pain and suspected myocardial infarction",
             "Preoperative assessment and health check-ups",
             "Follow-up of heart disease and monitoring under medication",
@@ -2066,7 +2066,7 @@
             "Check the quality of the interpretation software and the option to retrieve earlier ECGs for comparison.",
             "Clarify the electrode system: adhesive electrodes cause ongoing costs, while suction electrodes or electrode belts save time with high patient volumes.",
             "Pay attention to battery operation and weight if the device is moved between rooms or on the ward, and to suitability for exercise ECG if this is planned.",
-            "Plan staff training, maintenance according to the manufacturer's instructions and a service contract; thermal paper and patient cables are typical wear parts. Under the Medical Devices Operator Ordinance (in Germany: MPBetreibV), resting ECG machines are generally subject neither to periodic safety inspections (STK) nor to metrological checks (MTK); an ergometer connected for exercise ECGs, however, does require metrological checks."
+            "Plan staff training, maintenance and checks as specified by the manufacturer, and a service contract; in Germany a metrological check (MTK) under the MPBetreibV is not mandatory for ECG machines, but it is required every two years for a connected bicycle ergometer. Thermal paper and patient cables are typical wear parts."
           ],
           "glossary": [
             {
@@ -2130,7 +2130,7 @@
             "تحققوا من جودة برنامج التفسير ومن إمكانية استدعاء تخطيطات سابقة للمقارنة.",
             "وضّحوا نظام الأقطاب: الأقطاب اللاصقة تسبب تكاليف جارية، بينما توفر أقطاب الشفط أو أحزمة الأقطاب الوقت عند ارتفاع عدد المرضى.",
             "انتبهوا إلى التشغيل بالبطارية والوزن إذا كان الجهاز يُنقل بين الغرف أو في القسم، وإلى ملاءمته لتخطيط القلب بالجهد إن كان ذلك مخططاً.",
-            "خططوا لتدريب الطاقم، والصيانة وفق تعليمات الجهة المصنّعة، وعقد صيانة؛ فالورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية. ووفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV) لا تخضع أجهزة تخطيط القلب في الراحة عادةً لفحوصات السلامة التقنية (STK) ولا للفحوصات المترولوجية (MTK)، في حين يخضع جهاز قياس الجهد (Ergometer) الموصول لتخطيط القلب بالجهد للفحوصات المترولوجية."
+            "خططوا لتدريب الطاقم، والصيانة والفحوصات وفق تعليمات المصنّع، وعقد صيانة؛ ففي ألمانيا لا يُعدّ الفحص المترولوجي (MTK) وفق لائحة MPBetreibV إلزامياً لأجهزة تخطيط القلب، لكنه مطلوب كل سنتين لجهاز قياس الجهد (الإرغومتر) المتصل بها. والورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية."
           ],
           "glossary": [
             {
@@ -2202,7 +2202,7 @@
             "Achten Sie auf Sensoren in passenden Größen (Erwachsene, Kinder, Neugeborene) und klären Sie, ob Einmal- oder Mehrwegsensoren wirtschaftlicher sind.",
             "Prüfen Sie die Messleistung bei Bewegung und schwacher Durchblutung, insbesondere für Kinder, Notfälle und unruhige Patienten.",
             "Für die kontinuierliche Überwachung sind Alarmlautstärke, Akkulaufzeit, Datenspeicher und eine Schnittstelle zum Patientenmonitor oder zur Dokumentation wichtig.",
-            "Berücksichtigen Sie die regelmäßige Funktionsprüfung und Wartung nach Herstellerangaben, Reinigung und Desinfektion der Sensoren sowie die Einweisung in typische Fehlerquellen; eine messtechnische Kontrolle nach Medizinprodukte-Betreiberverordnung (MPBetreibV) ist für Pulsoximeter nicht vorgeschrieben."
+            "Berücksichtigen Sie Funktionsprüfungen nach Herstellerangaben (eine messtechnische Kontrolle nach MPBetreibV ist für Pulsoximeter nicht vorgeschrieben), Reinigung und Desinfektion der Sensoren sowie die Einweisung in typische Fehlerquellen."
           ],
           "glossary": [
             {
@@ -2228,9 +2228,9 @@
           ]
         },
         "en": {
-          "name": "Pulse Oximeter",
+          "name": "Pulse oximeter",
           "subtitle": "Oxygen saturation and pulse without drawing blood",
-          "short": "A pulse oximeter measures blood oxygen saturation (SpO2) and pulse rate non-invasively via a sensor on the finger, ear or foot. It is one of the most widely used monitoring devices in hospitals, practices and emergency medical services.",
+          "short": "A pulse oximeter measures blood oxygen saturation (SpO2) and pulse rate non-invasively via a sensor on the finger, ear or foot. It is one of the most widely used monitoring devices in hospitals, practices and ambulance services.",
           "how": [
             "The sensor shines red and infrared light through the tissue. Oxygen-rich and oxygen-poor haemoglobin absorb these two wavelengths to different degrees. From the ratio of absorption, the device calculates the proportion of haemoglobin loaded with oxygen.",
             "Because only the pulsating part of the light signal is evaluated, arterial saturation can be separated from the surrounding tissue and from venous blood. The same signal yields the pulse rate, which can be displayed as a waveform (plethysmogram). Alarm limits for saturation and pulse can be set individually.",
@@ -2266,7 +2266,7 @@
             "Make sure sensors are available in suitable sizes (adults, children, newborns) and clarify whether single-use or reusable sensors are more economical.",
             "Check measurement performance during movement and low perfusion, especially for children, emergencies and restless patients.",
             "For continuous monitoring, alarm volume, battery life, data storage and an interface to the patient monitor or documentation system are important.",
-            "Take into account regular function checks and maintenance according to the manufacturer's instructions, cleaning and disinfection of the sensors and training on typical sources of error; metrological checks under the Medical Devices Operator Ordinance (in Germany: MPBetreibV) are not required for pulse oximeters."
+            "Take into account functional checks as specified by the manufacturer (in Germany a metrological check under the MPBetreibV is not mandatory for pulse oximeters), cleaning and disinfection of the sensors and training on typical sources of error."
           ],
           "glossary": [
             {
@@ -2330,7 +2330,7 @@
             "احرصوا على توفر مستشعرات بمقاسات مناسبة (البالغون، الأطفال، حديثو الولادة) ووضّحوا أيّهما أكثر اقتصادية: المستشعرات أحادية الاستخدام أم القابلة لإعادة الاستخدام.",
             "تحققوا من أداء القياس أثناء الحركة وعند ضعف التروية، خاصةً لدى الأطفال وفي الحالات الطارئة والمرضى كثيري الحركة.",
             "للمراقبة المستمرة تُعدّ شدة صوت الإنذار وعمر البطارية وتخزين البيانات وواجهة الربط بجهاز مراقبة المريض أو نظام التوثيق أموراً مهمة.",
-            "راعوا الفحص الوظيفي المنتظم والصيانة وفق تعليمات الجهة المصنّعة، وتنظيف المستشعرات وتطهيرها، والتدريب على مصادر الخطأ الشائعة؛ ولا تُشترط لمقاييس التأكسج النبضي فحوصات مترولوجية وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)."
+            "راعوا الفحوصات الوظيفية وفق تعليمات المصنّع (في ألمانيا لا يُعدّ الفحص المترولوجي وفق لائحة MPBetreibV إلزامياً لمقاييس التأكسج النبضي)، وتنظيف المستشعرات وتطهيرها، والتدريب على مصادر الخطأ الشائعة."
           ],
           "glossary": [
             {
@@ -2382,7 +2382,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "IIa oder IIb – je nach Zweckbestimmung (Überwachung unter der Geburt in der Regel IIb)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -2402,7 +2402,7 @@
             "Für den Kreißsaal ist eine zentrale Überwachung mit Anbindung mehrerer Geräte und digitaler Archivierung der Aufzeichnungen (Dokumentationspflicht) ein wichtiges Kriterium.",
             "Prüfen Sie Verbrauchsmaterial und Zubehör: Registrierpapier, Ultraschallgel, Gurte sowie wiederaufladbare kabellose oder wasserfeste Sensoren für die Gebärwanne.",
             "Achten Sie auf die Signalqualität bei adipösen Patientinnen und bei Bewegung sowie auf eine einfache Sensorpositionierung durch das Personal.",
-            "Vereinbaren Sie Schulungen zur CTG-Interpretation, einen Servicevertrag und die regelmäßige Instandhaltung nach Herstellerangaben; eine integrierte mütterliche Blutdruckmessung unterliegt zusätzlich der messtechnischen Kontrolle (MTK) nach Medizinprodukte-Betreiberverordnung (MPBetreibV)."
+            "Vereinbaren Sie Schulungen zur CTG-Interpretation, einen Servicevertrag und Prüfungen nach Herstellerangaben; sicherheits- und messtechnische Kontrollen nach MPBetreibV sind für CTG-Geräte nicht vorgeschrieben, eine integrierte nichtinvasive Blutdruckmessung unterliegt jedoch der messtechnischen Kontrolle alle zwei Jahre."
           ],
           "glossary": [
             {
@@ -2428,7 +2428,7 @@
           ]
         },
         "en": {
-          "name": "Fetal Monitor (CTG)",
+          "name": "Fetal monitor (CTG)",
           "subtitle": "Monitoring fetal heartbeat and contractions",
           "short": "A fetal monitor (cardiotocograph, CTG) simultaneously records the heart rate of the unborn child and the mother's uterine contractions. It is used in antenatal care and during labour to monitor the well-being of the baby.",
           "how": [
@@ -2446,7 +2446,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "IIa or IIb – depending on intended purpose (intrapartum monitoring usually IIb)"
             },
             {
               "label": "Typical settings",
@@ -2466,7 +2466,7 @@
             "For the delivery room, central monitoring with connection of several devices and digital archiving of the recordings (documentation requirements) is an important criterion.",
             "Check consumables and accessories: recording paper, ultrasound gel, belts, and rechargeable wireless or waterproof sensors for the birthing pool.",
             "Pay attention to signal quality in obese patients and during movement, and to easy sensor positioning by staff.",
-            "Arrange training in CTG interpretation, a service contract and regular maintenance according to the manufacturer's instructions; an integrated maternal blood pressure function is additionally subject to metrological checks (MTK) under the Medical Devices Operator Ordinance (in Germany: MPBetreibV)."
+            "Arrange training in CTG interpretation, a service contract and checks as specified by the manufacturer; in Germany, safety inspections (STK) and metrological checks (MTK) under the MPBetreibV are not mandatory for CTG devices, but an integrated non-invasive blood pressure module is subject to a metrological check every two years."
           ],
           "glossary": [
             {
@@ -2510,7 +2510,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "IIa أو IIb – بحسب الغرض المقصود (المراقبة أثناء المخاض عادةً IIb)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -2528,9 +2528,9 @@
           "procurement": [
             "حدّدوا ما إذا كان المطلوب جهازاً لحمل مفرد أم لحمل متعدد، وما إذا كان ينبغي تسجيل معايير الأم (النبض، SpO2، ضغط الدم) أيضاً.",
             "بالنسبة لغرفة الولادة تُعدّ المراقبة المركزية مع ربط عدة أجهزة والأرشفة الرقمية للتسجيلات (متطلبات التوثيق) معياراً مهماً.",
-            "تحققوا من المستهلكات والملحقات: ورق التسجيل، وهلام الموجات فوق الصوتية، والأحزمة، والمستشعرات اللاسلكية القابلة للشحن أو المقاومة للماء لحوض الولادة.",
+            "تحققوا من المستهلكات والملحقات: ورق التسجيل، وجل الموجات فوق الصوتية، والأحزمة، والمستشعرات اللاسلكية القابلة للشحن أو المقاومة للماء لحوض الولادة.",
             "انتبهوا إلى جودة الإشارة لدى المريضات ذوات السمنة وأثناء الحركة، وإلى سهولة وضع المستشعرات من قبل الطاقم.",
-            "رتّبوا تدريباً على تفسير تخطيط CTG، وعقد صيانة، والصيانة المنتظمة وفق تعليمات الجهة المصنّعة؛ وتخضع وظيفة قياس ضغط دم الأم المدمجة في الجهاز إضافةً إلى ذلك للفحوصات المترولوجية (MTK) وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)."
+            "رتّبوا تدريباً على تفسير تخطيط CTG، وعقد صيانة، وفحوصات وفق تعليمات المصنّع؛ ففي ألمانيا لا تُعدّ فحوصات السلامة (STK) والفحوصات المترولوجية (MTK) وفق لائحة MPBetreibV إلزامية لأجهزة CTG، لكن وحدة قياس ضغط الدم غير الباضع المدمجة تخضع للفحص المترولوجي كل سنتين."
           ],
           "glossary": [
             {
@@ -2568,7 +2568,7 @@
           "subtitle": "Gasdosierung, Beatmung und Überwachung in Narkose",
           "short": "Narkosegeräte (Anästhesie-Arbeitsplätze) dosieren Sauerstoff, Luft und Narkosegase, beatmen den Patienten während der Operation und überwachen die Atemgase kontinuierlich.",
           "how": [
-            "Ein Narkosegerät mischt aus der zentralen Gasversorgung oder aus Gasflaschen Sauerstoff, medizinische Luft und bei Bedarf Lachgas zu einem definierten Frischgasfluss. Ein Verdampfer (Vapor) reichert dieses Gas mit einem flüchtigen Narkosemittel wie Sevofluran oder Desfluran in genau einstellbarer Konzentration an. Das Gasgemisch gelangt über das Atemsystem und den Beatmungstubus oder die Larynxmaske zum Patienten.",
+            "Ein Narkosegerät mischt aus der zentralen Gasversorgung oder aus Gasflaschen Sauerstoff, medizinische Luft und bei Bedarf Lachgas zu einem definierten Frischgasfluss. Ein Narkosemittelverdampfer (Vaporisator) reichert dieses Gas mit einem flüchtigen Narkosemittel wie Sevofluran oder Desfluran in genau einstellbarer Konzentration an. Das Gasgemisch gelangt über das Atemsystem und den Beatmungstubus oder die Larynxmaske zum Patienten.",
             "Da narkotisierte Patienten meist nicht ausreichend selbst atmen, übernimmt der integrierte Ventilator die Beatmung mit einstellbarem Volumen, Druck und Frequenz. Im Kreissystem wird die Ausatemluft zurückgeführt: Ein Atemkalk-Absorber entfernt das Kohlendioxid, sodass Narkosemittel und Sauerstoff wiederverwendet werden können. Der Betrieb mit niedrigem Frischgasfluss (Niedrigflussnarkose) spart Narkosemittel und schont die Umwelt.",
             "Ein Gasmonitor misst fortlaufend die ein- und ausgeatmeten Konzentrationen von Sauerstoff, Kohlendioxid (Kapnografie) und Narkosemittel. Zusammen mit dem Patientenmonitor (EKG, Blutdruck, Sauerstoffsättigung) ergibt sich ein vollständiges Bild von Narkosetiefe und Vitalfunktionen. Alarme warnen bei Diskonnektion, Atemstillstand oder Sauerstoffmangel."
           ],
@@ -2606,7 +2606,7 @@
           ],
           "glossary": [
             {
-              "term": "Verdampfer (Vapor)",
+              "term": "Verdampfer (Vaporisator)",
               "text": "Baugruppe, die ein flüssiges Narkosemittel kontrolliert in den Frischgasstrom verdampft; jedes Narkosemittel benötigt einen eigenen, kalibrierten Verdampfer."
             },
             {
@@ -2628,20 +2628,20 @@
           ]
         },
         "en": {
-          "name": "Anesthesia Machine",
-          "subtitle": "Gas dosing, ventilation and monitoring in anesthesia",
-          "short": "Anesthesia machines (anesthesia workstations) dose oxygen, air and anesthetic gases, ventilate the patient during surgery and continuously monitor the respiratory gases.",
+          "name": "Anaesthesia machine",
+          "subtitle": "Gas dosing, ventilation and monitoring under anaesthesia",
+          "short": "Anaesthesia machines (anaesthesia workstations) dose oxygen, air and anaesthetic gases, ventilate the patient during surgery and continuously monitor the respiratory gases.",
           "how": [
-            "An anesthesia machine blends oxygen, medical air and, when required, nitrous oxide from the central gas supply or gas cylinders into a defined fresh gas flow. A vaporizer enriches this gas with a volatile anesthetic such as sevoflurane or desflurane at a precisely adjustable concentration. The gas mixture reaches the patient through the breathing system and an endotracheal tube or laryngeal mask.",
-            "Because anesthetized patients usually do not breathe adequately on their own, the integrated ventilator takes over ventilation with adjustable volume, pressure and rate. In the circle system, exhaled gas is recirculated: a soda-lime absorber removes the carbon dioxide so that anesthetic agent and oxygen can be reused. Operating with a low fresh gas flow (low-flow anesthesia) saves anesthetic agent and protects the environment.",
-            "A gas monitor continuously measures the inspired and expired concentrations of oxygen, carbon dioxide (capnography) and anesthetic agent. Together with the patient monitor (ECG, blood pressure, oxygen saturation), this gives a complete picture of the depth of anesthesia and the vital functions. Alarms warn of disconnection, respiratory arrest or lack of oxygen."
+            "An anaesthesia machine blends oxygen, medical air and, when required, nitrous oxide from the central gas supply or gas cylinders into a defined fresh gas flow. A vaporiser enriches this gas with a volatile anaesthetic such as sevoflurane or desflurane at a precisely adjustable concentration. The gas mixture reaches the patient through the breathing system and an endotracheal tube or laryngeal mask.",
+            "Because anaesthetised patients usually do not breathe adequately on their own, the integrated ventilator takes over ventilation with adjustable volume, pressure and rate. In the circle system, exhaled gas is recirculated: a soda-lime absorber removes the carbon dioxide so that anaesthetic agent and oxygen can be reused. Operating with a low fresh gas flow (low-flow anaesthesia) saves anaesthetic agent and protects the environment.",
+            "A gas monitor continuously measures the inspired and expired concentrations of oxygen, carbon dioxide (capnography) and anaesthetic agent. Together with the patient monitor (ECG, blood pressure, oxygen saturation), this gives a complete picture of the depth of anaesthesia and the vital functions. Alarms warn of disconnection, respiratory arrest or lack of oxygen."
           ],
           "use": [
-            "General anesthesia in the operating room",
-            "Outpatient procedures in day clinics and surgical centers",
+            "General anaesthesia in the operating theatre",
+            "Outpatient procedures in day clinics and surgical centres",
             "Induction and recovery rooms",
-            "Diagnostic procedures under anesthesia (e.g. MRI, endoscopy)",
-            "Pediatric anesthesia with special breathing systems"
+            "Diagnostic procedures under anaesthesia (e.g. MRI, endoscopy)",
+            "Paediatric anaesthesia with special breathing systems"
           ],
           "facts": [
             {
@@ -2650,7 +2650,7 @@
             },
             {
               "label": "Typical settings",
-              "value": "Operating rooms, procedure rooms, day clinics"
+              "value": "Operating theatres, procedure rooms, day clinics"
             },
             {
               "label": "Space requirement",
@@ -2662,20 +2662,20 @@
             }
           ],
           "procurement": [
-            "Clarify the gas supply: connections to the central gas supply (oxygen, medical air, nitrous oxide if used) and an anesthetic gas scavenging system must be available in the room and compatible with the connectors of the device.",
-            "Match ventilation modes to the patient population: children and newborns require pressure-controlled modes and small tidal volumes; low-flow capability permanently reduces anesthetic agent costs.",
-            "Plan for consumables: soda lime, breathing circuits, filters, masks, one vaporizer per anesthetic agent as well as sensors and water traps for the gas monitor generate ongoing costs.",
-            "Check interfaces: data transfer to the electronic anesthesia record or patient data management system (PDMS) and coupling with the patient monitor.",
-            "Agree on periodic safety inspections (STK) under the German Medical Devices Operator Ordinance (MPBetreibV), maintenance intervals and a service contract with a defined response time; anesthesia machines fall under Annex 1 of the MPBetreibV, so a medical device logbook must be kept and the training of all users documented in it."
+            "Clarify the gas supply: connections to the central gas supply (oxygen, medical air, nitrous oxide if used) and an anaesthetic gas scavenging system must be available in the room and compatible with the connectors of the device.",
+            "Match ventilation modes to the patient population: children and newborns require pressure-controlled modes and small tidal volumes; low-flow capability permanently reduces anaesthetic agent costs.",
+            "Plan for consumables: soda lime, breathing circuits, filters, masks, one vaporiser per anaesthetic agent as well as sensors and water traps for the gas monitor generate ongoing costs.",
+            "Check interfaces: data transfer to the electronic anaesthesia record or patient data management system (PDMS) and coupling with the patient monitor.",
+            "Agree on periodic safety inspections (STK) under the German Medical Devices Operator Ordinance (MPBetreibV), maintenance intervals and a service contract with a defined response time; anaesthesia machines fall under Annex 1 of the MPBetreibV, so a medical device logbook must be kept and the training of all users documented in it."
           ],
           "glossary": [
             {
-              "term": "Vaporizer",
-              "text": "Assembly that evaporates a liquid anesthetic into the fresh gas flow in a controlled manner; each anesthetic agent requires its own calibrated vaporizer."
+              "term": "Vaporiser",
+              "text": "Assembly that evaporates a liquid anaesthetic into the fresh gas flow in a controlled manner; each anaesthetic agent requires its own calibrated vaporiser."
             },
             {
               "term": "Circle system",
-              "text": "Breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime – saving anesthetic gas and preserving the moisture and heat of the breathing gas."
+              "text": "Breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime – saving anaesthetic gas and preserving the moisture and heat of the breathing gas."
             },
             {
               "term": "Capnography",
@@ -2683,9 +2683,9 @@
             }
           ],
           "keywords": [
-            "Anesthesia workstation",
+            "Anaesthesia workstation",
             "Anaesthesia machine",
-            "Anesthesia",
+            "Anaesthesia",
             "Ventilation",
             "Vaporizer",
             "Circle system"
@@ -2828,7 +2828,7 @@
           ]
         },
         "en": {
-          "name": "Electrosurgical Unit (ESU)",
+          "name": "Electrosurgical unit (ESU)",
           "subtitle": "Cutting and coagulating with high-frequency current",
           "short": "Electrosurgical units generate high-frequency alternating current that cuts tissue almost without bleeding and seals blood vessels by coagulation.",
           "how": [
@@ -2838,7 +2838,7 @@
           ],
           "use": [
             "General and visceral surgery",
-            "Gynecology, urology and ENT",
+            "Gynaecology, urology and ENT",
             "Laparoscopic and endoscopic procedures",
             "Dermatology and outpatient minor surgery",
             "Vessel sealing in major resections"
@@ -2850,7 +2850,7 @@
             },
             {
               "label": "Typical settings",
-              "value": "Operating rooms, procedure rooms, outpatient surgery practices"
+              "value": "Operating theatres, procedure rooms, outpatient surgery practices"
             },
             {
               "label": "Space requirement",
@@ -2863,9 +2863,9 @@
           ],
           "procurement": [
             "Define the range of procedures: is a basic monopolar/bipolar unit sufficient, or are additional functions such as vessel sealing, argon plasma coagulation or special modes for endoscopy required?",
-            "Check compatibility of the instruments: connector systems for handpieces, bipolar forceps and return electrodes are not consistently standardized across manufacturers; budget for adapters or new instruments.",
+            "Check compatibility of the instruments: connector systems for handpieces, bipolar forceps and return electrodes are not consistently standardised across manufacturers; budget for adapters or new instruments.",
             "Calculate consumable costs: single-use return electrodes, electrode tips and single-use instruments for vessel sealing make up a large share of the running costs.",
-            "Require safety functions: return electrode monitoring (contact quality), automatic power regulation and a surgical smoke evacuation system to protect the operating room staff.",
+            "Require safety functions: return electrode monitoring (contact quality), automatic power regulation and a surgical smoke evacuation system to protect the operating theatre staff.",
             "Observe training and inspection duties: electrosurgical units are listed in Annex 1 of the German Medical Devices Operator Ordinance (MPBetreibV) and are subject to periodic safety inspections (STK), a mandatory medical device logbook and documented user training; users must be trained in risks such as burns caused by incorrect electrode placement."
           ],
           "glossary": [
@@ -3015,7 +3015,7 @@
             },
             {
               "term": "Kaltlichtquelle",
-              "text": "Leistungsstarke Lichtquelle (heute meist LED), deren Licht über ein Glasfaserkabel in das Endoskop geleitet wird, ohne das Gewebe zu erwärmen."
+              "text": "Leistungsstarke Lichtquelle (heute meist LED), deren Licht über ein Glasfaserkabel in das Endoskop geleitet wird; der Infrarotanteil wird weitgehend zurückgehalten, sodass das Gewebe kaum erwärmt wird – das Ende des Lichtkabels und die Endoskopspitze können dennoch heiß werden."
             }
           ],
           "keywords": [
@@ -3028,19 +3028,19 @@
           ]
         },
         "en": {
-          "name": "Endoscopy System (Video Endoscopy Tower)",
+          "name": "Endoscopy system (video endoscopy tower)",
           "subtitle": "Camera, light and monitor for minimally invasive surgery",
           "short": "An endoscopy system consists of an endoscope, camera, light source, monitor and auxiliary devices; it enables diagnosis and surgery through natural body openings or small incisions.",
           "how": [
-            "An endoscope is a rigid or flexible instrument that is introduced into the body through a natural opening or a small incision. A cold light source guides light through glass fibers into the endoscope and illuminates the operating field. The image is captured either through a lens system (rigid telescope) or directly by an image sensor at the tip (video endoscope).",
+            "An endoscope is a rigid or flexible instrument that is introduced into the body through a natural opening or a small incision. A cold light source guides light through glass fibres into the endoscope and illuminates the operating field. The image is captured either through a lens system (rigid telescope) or directly by an image sensor at the tip (video endoscope).",
             "The camera control unit processes the signal and displays it in high resolution on one or more monitors so that the whole surgical team can follow. For laparoscopy, an insufflator fills the abdominal cavity with carbon dioxide to create space for the instruments. Further components of the tower are a documentation system, an irrigation and suction pump and often an electrosurgical unit.",
-            "All components are mounted on a mobile equipment cart (tower) or on ceiling-mounted pendants in an integrated operating room. Special functions such as fluorescence imaging or 3D display make it easier to identify structures. Flexible endoscopes for the gastrointestinal tract or airways also have working channels for biopsy forceps and irrigation."
+            "All components are mounted on a mobile equipment cart (tower) or on ceiling-mounted pendants in an integrated operating theatre. Special functions such as fluorescence imaging or 3D display make it easier to identify structures. Flexible endoscopes for the gastrointestinal tract or airways also have working channels for biopsy forceps and irrigation."
           ],
           "use": [
             "Laparoscopic surgery (abdominal cavity)",
             "Arthroscopy (joints)",
             "Gastroenterology (gastroscopy, colonoscopy)",
-            "Urology, gynecology and ENT",
+            "Urology, gynaecology and ENT",
             "Bronchoscopy of the airways"
           ],
           "facts": [
@@ -3050,11 +3050,11 @@
             },
             {
               "label": "Typical settings",
-              "value": "Operating rooms, endoscopy units, specialist practices"
+              "value": "Operating theatres, endoscopy units, specialist practices"
             },
             {
               "label": "Space requirement",
-              "value": "Equipment cart approx. 0.5 m² or ceiling integration in the OR"
+              "value": "Equipment cart approx. 0.5 m² or ceiling integration in the operating theatre"
             },
             {
               "label": "Typical service life",
@@ -3079,7 +3079,7 @@
             },
             {
               "term": "Cold light source",
-              "text": "Powerful light source (today usually LED) whose light is guided into the endoscope through a fiber-optic cable without heating the tissue."
+              "text": "Powerful light source (today usually LED) whose light is guided into the endoscope through a fibre-optic cable without heating the tissue."
             }
           ],
           "keywords": [
@@ -3143,7 +3143,7 @@
             },
             {
               "term": "مصدر الضوء البارد",
-              "text": "مصدر ضوء قوي (عادةً LED اليوم) يُنقل ضوؤه إلى المنظار عبر كابل من الألياف الضوئية من دون تسخين الأنسجة."
+              "text": "مصدر ضوء قوي (عادةً LED اليوم) يُنقل ضوؤه إلى المنظار عبر كابل من الألياف الضوئية؛ ويُحتجز معظم الأشعة تحت الحمراء بحيث لا تكاد الأنسجة تسخن – ومع ذلك قد يسخن طرف كابل الضوء ورأس المنظار بشدة."
             }
           ],
           "keywords": [
@@ -3182,7 +3182,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "I (aktives Gerät ohne therapeutische oder diagnostische Funktion)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -3228,29 +3228,29 @@
           ]
         },
         "en": {
-          "name": "Surgical Light",
-          "subtitle": "Low-shadow, color-accurate light for the surgical field",
-          "short": "Surgical lights illuminate the surgical field brightly, with minimal shadows and accurate colors, without heating the tissue; they are mounted on the ceiling, wall or a stand and can be positioned freely.",
+          "name": "Surgical light",
+          "subtitle": "Low-shadow, colour-accurate light for the surgical field",
+          "short": "Surgical lights illuminate the surgical field brightly, with minimal shadows and accurate colours, without heating the tissue; they are mounted on the ceiling, wall or a stand and can be positioned freely.",
           "how": [
             "A surgical light focuses the light of many individual light sources – today almost exclusively LEDs – from different angles onto the surgical field. As a result, a shadow cast by the surgeon's head or hands is compensated by the remaining light sources (shadow management). Reflectors and lenses form a homogeneous light field of high illuminance whose diameter and depth can be adjusted.",
-            "Color temperature and color rendering are chosen so that tissue, vessels and blood appear natural and fine color differences remain visible. Because LEDs emit hardly any infrared, they heat neither the surgical field nor the surgeon's head. The brightness can be dimmed, and many lights offer an endo mode with reduced light for endoscopic procedures.",
-            "The light heads hang on multi-jointed support arms that allow positioning in all directions while holding securely. Sterilizable handles allow the surgical team to adjust the light without breaking sterility. Optionally, camera and monitor modules can be integrated to record the surgical field for teaching and documentation."
+            "Colour temperature and colour rendering are chosen so that tissue, vessels and blood appear natural and fine colour differences remain visible. Because LEDs emit hardly any infrared, they heat neither the surgical field nor the surgeon's head. The brightness can be dimmed, and many lights offer an endo mode with reduced light for endoscopic procedures.",
+            "The light heads hang on multi-jointed support arms that allow positioning in all directions while holding securely. Sterilisable handles allow the surgical team to adjust the light without breaking sterility. Optionally, camera and monitor modules can be integrated to record the surgical field for teaching and documentation."
           ],
           "use": [
-            "Central operating rooms",
+            "Central operating theatres",
             "Procedure and examination rooms in practices",
-            "Emergency department and trauma room",
+            "Emergency department and resuscitation room",
             "Delivery room and obstetrics",
-            "Outpatient surgery centers"
+            "Outpatient surgery centres"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "I (active device without therapeutic or diagnostic function)"
             },
             {
               "label": "Typical settings",
-              "value": "Operating rooms, procedure rooms, trauma rooms"
+              "value": "Operating theatres, procedure rooms, resuscitation rooms"
             },
             {
               "label": "Space requirement",
@@ -3263,9 +3263,9 @@
           ],
           "procurement": [
             "Check the structural requirements: ceiling load capacity, mounting plate and ceiling height must be designed for support arms and multiple combinations (main and satellite light); coordination with ventilation and laminar-flow ceilings is necessary.",
-            "Compare light values on the basis of the device standard for surgical lights (IEC 60601-2-41): central illuminance, color rendering index, color temperature, light field diameter, depth of illumination and shadow management.",
+            "Compare light values on the basis of the device standard for surgical lights (IEC 60601-2-41): central illuminance, colour rendering index, colour temperature, light field diameter, depth of illumination and shadow management.",
             "Test ergonomics with the team: smooth movement of the arms, stability of the position, operation via sterile handles or wall panel and ease of cleaning of the smooth surfaces.",
-            "Weigh up additional modules and future-proofing: camera and monitor holders, connection to the operating room integration system and retrofit options should be considered already in the tender.",
+            "Weigh up additional modules and future-proofing: camera and monitor holders, connection to the operating theatre integration system and retrofit options should be considered already in the tender.",
             "Secure service and spare parts: include the service life of the LED modules, the availability of spare handles and joints and the regular inspection of suspension and electrics in the maintenance contract."
           ],
           "glossary": [
@@ -3274,8 +3274,8 @@
               "text": "Ability of a light to compensate for shadows cast by heads, hands or instruments by using many light sources from different angles."
             },
             {
-              "term": "Color rendering index (Ra/CRI)",
-              "text": "Measure of how natural colors appear under a light source; high values are important for assessing tissue."
+              "term": "Colour rendering index (Ra/CRI)",
+              "text": "Measure of how natural colours appear under a light source; high values are important for assessing tissue."
             },
             {
               "term": "Satellite light",
@@ -3310,7 +3310,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "I (جهاز نشط من دون وظيفة علاجية أو تشخيصية)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -3466,7 +3466,7 @@
             "Check the gas supply: turbine-driven devices only need oxygen, while pneumatically driven devices also require medical compressed air; the wall outlets must be compatible.",
             "Consider the consumables (tubing systems, filters, humidifier chambers) and whether single-use or reprocessable systems are more economical.",
             "Pay attention to interfaces with the patient data management system (PDMS) and central alarm forwarding.",
-            "Plan for user instruction as required by the operator regulations for medical devices (in Germany the MPBetreibV), periodic safety inspections (STK) and a service contract with guaranteed response times; loan devices for downtime are advisable."
+            "Plan for user training under the German Medical Devices Operator Ordinance (MPBetreibV), periodic safety inspections (STK) and a service contract with guaranteed response times; loan devices for downtime are advisable."
           ],
           "glossary": [
             {
@@ -3493,7 +3493,7 @@
         },
         "ar": {
           "name": "جهاز التنفس الاصطناعي",
-          "subtitle": "دعم التنفس أو استبداله آلياً",
+          "subtitle": "دعم التنفس أو تولّيه آلياً بالكامل",
           "short": "يتولى جهاز التنفس الاصطناعي عملية التنفس أو يدعمها لدى المرضى غير القادرين على التنفس بشكل كافٍ بأنفسهم. وهو يدفع خليطاً من الهواء والأكسجين إلى الرئتين بضغط وحجم محكومين.",
           "how": [
             "يولّد الجهاز تدفقاً من الهواء والأكسجين عبر صمامات وتوربين أو عبر إمداد بالغازات المضغوطة. ويصل خليط الغاز إلى الرئتين عبر نظام أنابيب وأنبوب رغامي أو قنية فغر رغامي أو قناع. ويتم الزفير بشكل سلبي بفضل الارتداد المرن للرئتين والقفص الصدري عبر صمام الزفير.",
@@ -3504,7 +3504,7 @@
             "وحدة العناية المركزة (التهوية طويلة الأمد)",
             "التخدير وغرفة الإفاقة",
             "قسم الطوارئ وخدمات الإسعاف (تهوية النقل)",
-            "التهوية الميكانيكية المنزلية",
+            "التهوية خارج المستشفى (التهوية المنزلية)",
             "طب حديثي الولادة وطب الأطفال"
           ],
           "facts": [
@@ -3530,7 +3530,7 @@
             "تحققوا من إمداد الغازات: الأجهزة ذات التوربين تحتاج إلى الأكسجين فقط، بينما تحتاج الأجهزة التي تعمل بالغاز المضغوط إلى الهواء الطبي المضغوط إضافةً إلى الأكسجين؛ ويجب أن تكون مخارج الجدار متوافقة.",
             "ضعوا في الاعتبار المستهلكات (أنظمة الأنابيب والمرشحات وحجرات الترطيب) وما إذا كانت الأنظمة أحادية الاستخدام أو القابلة لإعادة المعالجة أكثر اقتصادية.",
             "انتبهوا إلى الواجهات مع نظام إدارة بيانات المرضى (PDMS) ونظام تحويل الإنذارات المركزي.",
-            "خططوا لتدريب المستخدمين وفق لوائح تشغيل الأجهزة الطبية (في ألمانيا لائحة MPBetreibV)، والفحوصات الفنية الدورية للسلامة (STK)، وعقد صيانة بأوقات استجابة مضمونة؛ ويُنصح بتوفير أجهزة بديلة لفترات التوقف."
+            "خططوا للتدريب على الاستخدام وفق لائحة مشغّلي الأجهزة الطبية (في ألمانيا: MPBetreibV)، وفحوصات السلامة التقنية (STK)، وعقد صيانة بأوقات استجابة مضمونة؛ ويُنصح بتوفير أجهزة بديلة لفترات التوقف."
           ],
           "glossary": [
             {
@@ -3628,7 +3628,7 @@
           ]
         },
         "en": {
-          "name": "Infusion Pump / Syringe Pump",
+          "name": "Infusion pump / syringe pump",
           "subtitle": "Precise delivery of drugs and fluids",
           "short": "Infusion pumps deliver fluids and medication into the body at a controlled, adjustable rate, usually via a venous access. Syringe pumps are designed for small volumes and highly potent drugs.",
           "how": [
@@ -3782,7 +3782,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "IIb"
+              "value": "IIb (manuelle Defibrillatoren); III für automatisierte externe Defibrillatoren (AED) nach MDR-Regel 22"
             },
             {
               "label": "Typische Einsatzorte",
@@ -3846,7 +3846,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIb"
+              "value": "IIb (manual defibrillators); III for automated external defibrillators (AED) under MDR Rule 22"
             },
             {
               "label": "Typical settings",
@@ -3910,7 +3910,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIb"
+              "value": "IIb (أجهزة إزالة الرجفان اليدوية)؛ III لأجهزة إزالة الرجفان الخارجية الآلية (AED) وفق القاعدة 22 من لائحة MDR"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -4028,7 +4028,7 @@
           ]
         },
         "en": {
-          "name": "Dialysis Machine",
+          "name": "Dialysis machine",
           "subtitle": "Blood purification as renal replacement therapy",
           "short": "In kidney failure, a dialysis machine takes over the removal of toxins and excess water from the blood. The blood is routed outside the body through a filter in which waste products and surplus fluid are removed.",
           "how": [
@@ -4182,7 +4182,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "in der Regel IIa (Einheit mit angetriebenen Instrumenten); reiner Patientenstuhl: I"
             },
             {
               "label": "Typische Einsatzorte",
@@ -4228,7 +4228,7 @@
           ]
         },
         "en": {
-          "name": "Dental Treatment Unit",
+          "name": "Dental treatment unit",
           "subtitle": "The central workstation of the dental practice",
           "short": "The treatment unit combines the patient chair, instruments, water and air supply, suction and lighting in a single workstation. It is the heart of every dental treatment room.",
           "how": [
@@ -4246,7 +4246,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "usually IIa (unit with powered instruments); patient chair alone: I"
             },
             {
               "label": "Typical settings",
@@ -4264,7 +4264,7 @@
           "procurement": [
             "Clarify the installation requirements before purchase: connections for water, compressed air, vacuum/suction, waste water and electricity must be located in the floor or wall at exactly the right position.",
             "Choose the instrument configuration according to your range of treatments: number of micromotors and turbines, ultrasonic scaler, curing light and, if required, an endodontic motor function.",
-            "Look for hygiene features such as automatic flushing programs, water line disinfection and removable, thermally disinfectable parts – they make compliance with hygiene requirements considerably easier.",
+            "Look for hygiene features such as automatic flushing programmes, water line disinfection and removable, thermally disinfectable parts – they make compliance with hygiene requirements considerably easier.",
             "An amalgam separator is a legal requirement in the EU – including Germany – and in many other countries; check its approval, maintenance interval and disposal routes.",
             "Compare service contracts, technical response times and spare-parts availability – if the unit fails, the entire treatment room is out of action."
           ],
@@ -4310,7 +4310,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "عادةً IIa (الوحدة مع الأدوات المُشغَّلة)؛ كرسي المريض وحده: I"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -4326,11 +4326,11 @@
             }
           ],
           "procurement": [
-            "وضّح متطلبات التركيب قبل الشراء: يجب أن تكون توصيلات الماء والهواء المضغوط والتفريغ/الشفط والصرف والكهرباء في الأرضية أو الجدار في الموضع الصحيح تماماً.",
-            "اختر تجهيزات الأدوات وفق نطاق العلاجات لديك: عدد المحركات الدقيقة والتوربينات، وجهاز التقليح بالموجات فوق الصوتية، ومصباح التصليب الضوئي، وعند الحاجة وظيفة محرك علاج الجذور.",
-            "احرص على وجود وظائف النظافة مثل برامج الشطف التلقائي وتطهير خطوط المياه والأجزاء القابلة للفك والتطهير الحراري – فهي تسهّل كثيراً الالتزام بمتطلبات النظافة.",
+            "وضّحوا متطلبات التركيب قبل الشراء: يجب أن تكون توصيلات الماء والهواء المضغوط والتفريغ/الشفط والصرف والكهرباء في الأرضية أو الجدار في الموضع الصحيح تماماً.",
+            "اختاروا تجهيزات الأدوات وفق نطاق العلاجات لديكم: عدد المحركات الدقيقة والتوربينات، وجهاز التقليح بالموجات فوق الصوتية، ومصباح التصليب الضوئي، وعند الحاجة وظيفة محرك علاج الجذور.",
+            "احرصوا على وجود وظائف النظافة مثل برامج الشطف التلقائي وتطهير خطوط المياه والأجزاء القابلة للفك والتطهير الحراري – فهي تسهّل كثيراً الالتزام بمتطلبات النظافة.",
             "فاصل الملغم مطلوب قانونياً في الاتحاد الأوروبي – بما في ذلك ألمانيا – وفي كثير من الدول الأخرى؛ تحقق من اعتماده وفترة صيانته وطرق التخلص من مخلفاته.",
-            "قارن بين عقود الخدمة وزمن استجابة الدعم الفني وتوافر قطع الغيار – فتعطل الوحدة يعني توقف غرفة العلاج بأكملها."
+            "قارنوا عقود الصيانة وزمن استجابة الدعم الفني وتوافر قطع الغيار – فتعطل الوحدة يعني توقف غرفة العلاج بأكملها."
           ],
           "glossary": [
             {
@@ -4428,7 +4428,7 @@
           ]
         },
         "en": {
-          "name": "Panoramic X-ray Unit (OPG)",
+          "name": "Panoramic X-ray unit (OPG)",
           "subtitle": "Overview image of both jaws in a single exposure",
           "short": "The panoramic X-ray unit produces an overview image of the upper and lower jaw, all teeth, the temporomandibular joints and the maxillary sinuses in a single image. It is the most important overview examination in dentistry.",
           "how": [
@@ -4464,9 +4464,9 @@
           "procurement": [
             "Decide early whether you need a pure 2D panoramic function or an upgradable unit with cephalometric (ceph) or 3D (CBCT) capability – retrofitting is often more expensive than a combined solution from the outset.",
             "Plan radiation protection: the installation room usually requires structural shielding, an expert inspection and notification to or approval from the competent authority (in Germany under the Radiation Protection Act and Ordinance).",
-            "Check the interfaces to your practice management software and image archive (DICOM, PACS connection) so that images can be stored and shared without media breaks.",
+            "Check the interfaces to your practice management software and image archive (DICOM, PACS connection) so that images can be stored and shared seamlessly between systems.",
             "Account for ongoing obligations such as constancy tests, recurring expert inspections, the required radiation protection qualifications for practitioners and assisting staff, and documentation of exposures.",
-            "Look for positioning aids, paediatric programs and low-dose exposure programs – they improve image quality and radiation protection in daily use."
+            "Look for positioning aids, paediatric programmes and low-dose exposure programmes – they improve image quality and radiation protection in daily use."
           ],
           "glossary": [
             {
@@ -4528,9 +4528,9 @@
           "procurement": [
             "قرر مبكراً ما إذا كنت تحتاج إلى وظيفة بانورامية ثنائية الأبعاد فقط أم إلى جهاز قابل للترقية بذراع التصوير السيفالومتري (Ceph) أو وظيفة ثلاثية الأبعاد (CBCT) – فالترقية اللاحقة غالباً أغلى من الحل المدمج منذ البداية.",
             "خطط للوقاية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها (في ألمانيا وفق قانون ولائحة الوقاية من الإشعاع).",
-            "تحقق من الواجهات مع برنامج إدارة العيادة وأرشيف الصور (DICOM، الربط بنظام PACS) حتى يمكن تخزين الصور ومشاركتها دون انقطاع في تدفق البيانات.",
+            "تحققوا من الواجهات مع برنامج إدارة العيادة وأرشيف الصور (DICOM، الربط بنظام PACS) حتى يمكن تخزين الصور ومشاركتها دون انقطاع في تدفق البيانات.",
             "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية والمؤهلات المطلوبة في الوقاية من الإشعاع للأطباء والكادر المساعد، وتوثيق الصور.",
-            "احرص على وجود أدوات المساعدة في تحديد الوضعية وبرامج الأطفال وبرامج التصوير بجرعة منخفضة – فهي تحسّن جودة الصورة والوقاية من الإشعاع في الاستخدام اليومي."
+            "احرصوا على وجود أدوات المساعدة في تحديد الوضعية وبرامج الأطفال وبرامج التصوير بجرعة منخفضة – فهي تحسّن جودة الصورة والحماية من الإشعاع في الاستخدام اليومي."
           ],
           "glossary": [
             {
@@ -4582,7 +4582,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "I oder IIa je nach Ausführung (IIa z. B. bei Kariesdetektion mit Nahinfrarotlicht)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -4628,7 +4628,7 @@
           ]
         },
         "en": {
-          "name": "Intraoral Scanner",
+          "name": "Intraoral scanner",
           "subtitle": "Digital impressions instead of impression trays",
           "short": "The intraoral scanner captures teeth and gums optically and generates a three-dimensional digital model from the data. It replaces the conventional impression with impression material.",
           "how": [
@@ -4640,13 +4640,13 @@
             "Digital impressions for crowns, bridges and inlays",
             "Planning and progress monitoring in orthodontics",
             "Implant prosthetics using scan bodies",
-            "Fabrication of occlusal splints and temporaries",
+            "Fabrication of occlusal splints and temporary restorations",
             "Patient education with 3D visualisation"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "I or IIa depending on design (IIa e.g. with near-infrared caries detection)"
             },
             {
               "label": "Typical settings",
@@ -4710,7 +4710,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "I أو IIa حسب التصميم (IIa مثلاً مع اكتشاف التسوس بالأشعة تحت الحمراء القريبة)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -4726,11 +4726,11 @@
             }
           ],
           "procurement": [
-            "تحقق مما إذا كان الماسح يصدّر صيغ ملفات مفتوحة (مثل STL وPLY وOBJ) دون رسوم إضافية، حتى تتمكن من الاختيار بحرية بين المختبرات وأنظمة التصنيع.",
-            "وضّح نموذج الترخيص: تفرض بعض الأنظمة رسوماً سنوية للبرامج أو الخدمات السحابية، بينما يمكن استخدام أنظمة أخرى دون قيود بعد الشراء – فاحسب التكلفة الإجمالية على مدى عدة سنوات.",
-            "اختبر الماسح في العمل اليومي: سرعة المسح وحجم القبضة ووزنها والتقاط المناطق الصعبة مثل حدود التحضير العميقة تحدد مدى تقبّل الفريق له.",
-            "انتبه إلى النظافة: يجب أن يكون رأس الماسح قابلاً للتعقيم في الأوتوكلاف أو متاحاً كقطعة للاستخدام الواحد؛ واحسب تكاليف المستهلكات.",
-            "خطط لتدريب الأطباء والمساعدين، وتأكد من الربط ببرنامج العيادة والمختبر، وعند الحاجة بآلة التفريز أو الطابعة ثلاثية الأبعاد."
+            "تحققوا مما إذا كان الماسح يصدّر صيغ ملفات مفتوحة (مثل STL وPLY وOBJ) دون رسوم إضافية، حتى تتمكنوا من الاختيار بحرية بين المختبرات وأنظمة التصنيع.",
+            "وضّحوا نموذج الترخيص: تفرض بعض الأنظمة رسوماً سنوية للبرامج أو الخدمات السحابية، بينما يمكن استخدام أنظمة أخرى دون قيود بعد الشراء – فاحسبوا التكلفة الإجمالية على مدى عدة سنوات.",
+            "اختبروا الماسح في العمل اليومي: سرعة المسح وحجم القبضة ووزنها والتقاط المناطق الصعبة مثل حدود التحضير العميقة تحدد مدى تقبّل الفريق له.",
+            "انتبهوا إلى النظافة: يجب أن يكون رأس الماسح قابلاً للتعقيم في الأوتوكلاف أو متاحاً كقطعة للاستخدام الواحد؛ واحسبوا تكاليف المستهلكات.",
+            "خططوا لتدريب الأطباء والمساعدين، وتأكدوا من الربط ببرنامج العيادة والمختبر، وعند الحاجة بآلة التفريز أو الطابعة ثلاثية الأبعاد."
           ],
           "glossary": [
             {
@@ -4781,7 +4781,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "je nach Ausführung"
+              "value": "IIa (Gerät zur Sterilisation von Medizinprodukten, MDR-Regel 15)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -4827,24 +4827,24 @@
           ]
         },
         "en": {
-          "name": "Dental Autoclave (Class B)",
-          "subtitle": "Steam sterilization for instruments and handpieces",
-          "short": "The dental autoclave sterilizes instruments, handpieces and contra-angles with saturated steam under pressure. Class B units can also reliably sterilize wrapped, hollow and porous loads.",
+          "name": "Dental autoclave (class B)",
+          "subtitle": "Steam sterilisation for instruments and handpieces",
+          "short": "The dental autoclave sterilises instruments, handpieces and contra-angles with saturated steam under pressure. Class B units can also reliably sterilise wrapped, hollow and porous loads.",
           "how": [
-            "Inside the autoclave, saturated steam is generated under pressure; the high temperature – usually 134 °C or 121 °C – kills microorganisms including spores. Before the actual sterilization phase, a vacuum pump removes the air from the chamber in several cycles (fractionated pre-vacuum) so that the steam can also penetrate the narrow cavities of handpieces and contra-angles.",
+            "Inside the autoclave, saturated steam is generated under pressure; the high temperature – usually 134 °C or 121 °C – kills microorganisms including spores. Before the actual sterilisation phase, a vacuum pump removes the air from the chamber in several cycles (fractionated pre-vacuum) so that the steam can also penetrate the narrow cavities of handpieces and contra-angles.",
             "After the holding time, vacuum drying follows so that the wrapped items leave the chamber dry – damp packaging is considered non-sterile. A process controller monitors pressure, temperature and time and documents every cycle via printer, USB stick or network.",
-            "The classification into classes B, S and N follows the European standard for small steam sterilizers. Only class B covers all load types – solid, hollow, porous, wrapped and unwrapped – and is therefore the standard for dental practices. Regular tests with indicators and test bodies (e.g. the helix test) demonstrate that the unit is working correctly."
+            "The classification into classes B, S and N follows the European standard for small steam sterilisers. Only class B covers all load types – solid, hollow, porous, wrapped and unwrapped – and is therefore the standard for dental practices. Regular tests with indicators and process challenge devices (e.g. the helix test) demonstrate that the unit is working correctly."
           ],
           "use": [
-            "Sterilization of wrapped surgical instruments",
+            "Sterilisation of wrapped surgical instruments",
             "Reprocessing of handpieces, contra-angles and turbines",
-            "Sterilization of textiles and porous materials",
+            "Sterilisation of textiles and porous materials",
             "Dental practices, dental laboratories and small outpatient facilities"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "depends on design"
+              "value": "IIa (device for sterilising medical devices, MDR Rule 15)"
             },
             {
               "label": "Typical settings",
@@ -4869,15 +4869,15 @@
           "glossary": [
             {
               "term": "Fractionated pre-vacuum",
-              "text": "Repeated evacuation and steam flushing of the chamber before sterilization to remove air completely."
+              "text": "Repeated evacuation and steam flushing of the chamber before sterilisation to remove air completely."
             },
             {
               "term": "Helix test",
-              "text": "Test body with a long, thin tube that simulates steam penetration into hollow items such as contra-angle handpieces."
+              "text": "Process challenge device with a long, thin tube that simulates steam penetration into hollow items such as contra-angle handpieces."
             },
             {
               "term": "Batch documentation",
-              "text": "Record of the process parameters of every sterilization cycle, forming the basis for releasing the sterile goods."
+              "text": "Record of the process parameters of every sterilisation cycle, forming the basis for releasing the sterile goods."
             }
           ],
           "keywords": [
@@ -4907,7 +4907,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "حسب التصميم"
+              "value": "IIa (جهاز لتعقيم الأجهزة الطبية، القاعدة 15 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -4923,11 +4923,11 @@
             }
           ],
           "procurement": [
-            "حدد حجم الحجرة وفق كمية الأدوات ومدة الدورة: تتطلب عدة دورات قصيرة في اليوم جهازاً سريع التسخين وبسعة صوانٍ كافية.",
-            "تحقق من إمداد المياه: تحتاج الأوتوكلافات إلى ماء منزوع المعادن – إما من خزان خارجي أو من وحدة معالجة مدمجة موصولة بشبكة المياه.",
-            "احرص على توثيق كامل للدفعات (USB، الشبكة، منفذ الطابعة) والربط ببرنامج توثيق، لأن الإفراج عن المواد المعقمة يجب أن يكون قابلاً للإثبات.",
+            "حدّدوا حجم الحجرة وفق كمية الأدوات ومدة الدورة: تتطلب عدة دورات قصيرة في اليوم جهازاً سريع التسخين وبسعة صوانٍ كافية.",
+            "تحققوا من إمداد المياه: تحتاج الأوتوكلافات إلى ماء منزوع المعادن – إما من خزان خارجي أو من وحدة معالجة مدمجة موصولة بشبكة المياه.",
+            "احرصوا على توثيق كامل للدفعات (USB، الشبكة، منفذ الطابعة) والربط ببرنامج توثيق، لأن الإفراج عن المواد المعقمة يجب أن يكون قابلاً للإثبات.",
             "خصص ميزانية للتحقق من صحة العملية (Validation) – ففي ألمانيا تشترط لائحة مشغلي الأجهزة الطبية (MPBetreibV) إعادة المعالجة بإجراءات مُتحقَّق من صحتها – وللصيانة السنوية والاختبارات الدورية (اختبار التفريغ، اختبار هيليكس/بوي-ديك، مراقبة الدفعات) كتكاليف جارية، ووضّح من سيقوم بتنفيذها.",
-            "راعِ سلسلة إعادة المعالجة بأكملها: يجب أن تتوافق خطوات التنظيف والتطهير والعناية والتغليف (جهاز اللحام الحراري) والتخزين مع الأوتوكلاف – ويُفضَّل أن تكون خطاً متكاملاً."
+            "راعوا سلسلة إعادة المعالجة بأكملها: يجب أن تتوافق خطوات التنظيف والتطهير والعناية والتغليف (جهاز اللحام الحراري) والتخزين مع الأوتوكلاف – ويُفضَّل أن تكون خطاً متكاملاً."
           ],
           "glossary": [
             {
