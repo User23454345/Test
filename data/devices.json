@@ -12,7 +12,7 @@
           "description": "Bildgebende Geräte liefern die Grundlage für Diagnose, Therapieplanung und Verlaufskontrolle, ohne den Körper zu öffnen. Die Verfahren unterscheiden sich stark in Funktionsprinzip, Strahlenexposition, Platz- und Baubedarf sowie Betriebskosten. Dieser Bereich erklärt die wichtigsten Gerätetypen verständlich und zeigt, worauf es bei Auswahl und Beschaffung ankommt."
         },
         "en": {
-          "name": "Medical Imaging",
+          "name": "Medical imaging",
           "short": "Techniques that make the inside of the body visible – from ultrasound and X-ray to CT and MRI.",
           "description": "Imaging devices form the basis for diagnosis, treatment planning and follow-up without opening the body. The methods differ greatly in operating principle, radiation exposure, space and construction requirements and running costs. This section explains the most important device types in plain language and shows what matters in selection and procurement."
         },
@@ -34,14 +34,14 @@
           "description": "Die Labordiagnostik umfasst Geräte, die Körperproben wie Blut, Serum oder Urin automatisiert analysieren. Die Ergebnisse unterstützen Ärztinnen und Ärzte bei Diagnose, Therapiekontrolle und Vorsorge. Typische Systeme reichen vom kompakten Praxisgerät bis zum vollautomatisierten Großlabor-Analysator."
         },
         "en": {
-          "name": "Laboratory Diagnostics",
+          "name": "Laboratory diagnostics",
           "short": "Analyzers that examine blood, urine and other samples and deliver measurements for diagnosis and therapy.",
           "description": "Laboratory diagnostics covers devices that automatically analyze body samples such as blood, serum or urine. The results support physicians in diagnosis, therapy monitoring and prevention. Typical systems range from compact practice-based instruments to fully automated high-throughput analyzers."
         },
         "ar": {
           "name": "التشخيص المخبري",
-          "short": "أجهزة تحليل تفحص الدم والبول وعينات أخرى وتقدم قيماً قياسية للتشخيص والعلاج.",
-          "description": "يشمل التشخيص المخبري الأجهزة التي تحلل عينات الجسم مثل الدم أو المصل أو البول بشكل آلي. وتدعم النتائج الأطباء في التشخيص ومتابعة العلاج والوقاية. وتتراوح الأنظمة النموذجية من الأجهزة المدمجة في العيادات إلى المحللات الآلية الكبيرة عالية الإنتاجية."
+          "short": "أجهزة تحليل تفحص الدم والبول وعينات أخرى وتوفر نتائج قياس للتشخيص والعلاج.",
+          "description": "يشمل التشخيص المخبري الأجهزة التي تحلل عينات الجسم مثل الدم أو المصل أو البول بشكل آلي. وتدعم النتائج الأطباء في التشخيص ومتابعة العلاج والوقاية. وتتراوح الأنظمة النموذجية من الأجهزة المدمجة الخاصة بالعيادات إلى المحللات الآلية بالكامل في المختبرات الكبيرة."
         }
       }
     },
@@ -56,7 +56,7 @@
           "description": "Die Patientenüberwachung umfasst Geräte, die Herzfrequenz, Blutdruck, Sauerstoffsättigung, Atmung und weitere Vitalparameter fortlaufend messen und anzeigen. Sie macht kritische Veränderungen sichtbar, bevor sie zum Notfall werden, und bildet die Grundlage für Entscheidungen auf der Intensivstation, im OP, in der Notaufnahme und zunehmend auch in Praxis und Pflege. Das Spektrum reicht von der Mehrparameter-Überwachung bis zum einfachen Fingersensor."
         },
         "en": {
-          "name": "Patient Monitoring",
+          "name": "Patient monitoring",
           "short": "Devices that continuously record vital signs and raise an early alarm when values deviate.",
           "description": "Patient monitoring covers devices that continuously measure and display heart rate, blood pressure, oxygen saturation, respiration and other vital signs. They make critical changes visible before they become emergencies and provide the basis for decisions in intensive care, the operating room, the emergency department and increasingly in practices and nursing care. The range extends from multi-parameter monitoring to a simple finger sensor."
         },
@@ -78,7 +78,7 @@
           "description": "Im Operationssaal arbeiten viele Geräte eng zusammen: Das Narkosegerät hält den Patienten sicher in Narkose, das HF-Chirurgiegerät schneidet und stillt Blutungen, das Endoskopie-System ermöglicht minimalinvasive Eingriffe, und die OP-Leuchte sorgt für optimale Sicht. Bei der Beschaffung sind neben der Gerätetechnik auch Raumplanung, Gasversorgung, Aufbereitung und Schulung entscheidend. Dieser Bereich erklärt die zentralen Gerätetypen und zeigt, worauf Sie bei Auswahl und Beschaffung achten sollten."
         },
         "en": {
-          "name": "Surgical Technology",
+          "name": "Surgical technology",
           "short": "Devices that make surgery possible – from anesthesia and ventilation to electrosurgery, endoscopy and lighting.",
           "description": "In the operating room, many devices work closely together: the anesthesia machine keeps the patient safely anesthetized, the electrosurgical unit cuts and stops bleeding, the endoscopy system enables minimally invasive procedures, and the surgical light provides optimal visibility. In procurement, room planning, gas supply, reprocessing and training are as decisive as the device technology itself. This section explains the key device types and shows what to look for in selection and procurement."
         },
@@ -86,6 +86,50 @@
           "name": "تقنيات غرف العمليات",
           "short": "أجهزة تجعل الجراحة ممكنة – من التخدير والتهوية إلى الجراحة الكهربائية والتنظير والإضاءة.",
           "description": "تعمل في غرفة العمليات أجهزة كثيرة معًا بشكل وثيق: فجهاز التخدير يُبقي المريض مخدَّرًا بأمان، وجهاز الجراحة الكهربائية يقطع الأنسجة ويوقف النزيف، ونظام التنظير يتيح إجراء العمليات طفيفة التوغل، ومصباح العمليات يوفّر رؤية مثالية. وعند الشراء يكون تخطيط الغرفة وإمداد الغازات وإعادة المعالجة والتدريب حاسمة بقدر تقنية الجهاز نفسها. يشرح هذا القسم أنواع الأجهزة الأساسية ويبيّن ما ينبغي مراعاته عند الاختيار والشراء."
+        }
+      }
+    },
+    {
+      "id": "therapy",
+      "icon": "assets/img/categories/therapy.svg",
+      "order": 5,
+      "i18n": {
+        "de": {
+          "name": "Therapie",
+          "short": "Geräte, die Körperfunktionen unterstützen oder ersetzen und lebensbedrohliche Zustände behandeln.",
+          "description": "Therapiegeräte greifen aktiv in Körperfunktionen ein: Sie beatmen, dosieren Medikamente, reinigen das Blut oder beenden gefährliche Herzrhythmusstörungen. Weil Fehler hier unmittelbar Patientinnen und Patienten gefährden können, gelten hohe Anforderungen an Alarmierung, Zuverlässigkeit und Einweisung. In dieser Kategorie lernen Sie die wichtigsten Gerätegruppen der Intensiv- und Notfallmedizin sowie der Nierenersatztherapie kennen."
+        },
+        "en": {
+          "name": "Therapy",
+          "short": "Devices that support or replace body functions and treat life-threatening conditions.",
+          "description": "Therapy devices intervene directly in body functions: they ventilate, deliver medication, purify the blood or terminate dangerous cardiac arrhythmias. Because errors here can immediately endanger patients, the requirements for alarms, reliability and user training are high. In this category you will learn about the most important device groups in intensive care, emergency medicine and renal replacement therapy."
+        },
+        "ar": {
+          "name": "العلاج",
+          "short": "أجهزة تدعم وظائف الجسم أو تحل محلها وتعالج الحالات المهددة للحياة.",
+          "description": "تتدخل الأجهزة العلاجية مباشرة في وظائف الجسم: فهي توفر التنفس الاصطناعي، وتعطي الأدوية بجرعات محددة، وتنقي الدم، أو توقف اضطرابات نظم القلب الخطيرة. ولأن الأخطاء هنا قد تعرض المرضى للخطر فوراً، تُفرض متطلبات عالية على أنظمة الإنذار والموثوقية وتدريب المستخدمين. في هذه الفئة ستتعرفون على أهم مجموعات الأجهزة في العناية المركزة وطب الطوارئ والعلاج البديل للكلى."
+        }
+      }
+    },
+    {
+      "id": "dental",
+      "icon": "assets/img/categories/dental.svg",
+      "order": 6,
+      "i18n": {
+        "de": {
+          "name": "Dentaltechnik",
+          "short": "Geräte für Diagnostik, Behandlung und Hygiene in der Zahnmedizin – von der Behandlungseinheit bis zum Autoklav.",
+          "description": "Die Dentaltechnik umfasst alle Geräte, die in Zahnarztpraxen, Kieferorthopädie, MKG-Chirurgie und Dentallaboren eingesetzt werden. Dazu gehören Behandlungseinheiten, dentale Bildgebung, digitale Abformung und die Aufbereitung von Instrumenten. Viele dieser Geräte sind eng miteinander vernetzt, weshalb Schnittstellen und Hygieneanforderungen bei der Beschaffung besonders wichtig sind."
+        },
+        "en": {
+          "name": "Dental technology",
+          "short": "Equipment for diagnostics, treatment and hygiene in dentistry – from the treatment unit to the autoclave.",
+          "description": "Dental technology covers all equipment used in dental practices, orthodontics, oral and maxillofacial surgery and dental laboratories. This includes treatment units, dental imaging, digital impressions and instrument reprocessing. Many of these devices are closely interconnected, which is why interfaces and hygiene requirements are particularly important in procurement."
+        },
+        "ar": {
+          "name": "تقنيات طب الأسنان",
+          "short": "أجهزة التشخيص والعلاج والنظافة في طب الأسنان – من وحدة العلاج إلى جهاز التعقيم.",
+          "description": "تشمل تقنيات طب الأسنان جميع الأجهزة المستخدمة في عيادات الأسنان وتقويم الأسنان وجراحة الفم والوجه والفكين ومختبرات الأسنان. ويشمل ذلك وحدات العلاج والتصوير السني والطبعات الرقمية وإعادة معالجة الأدوات. وترتبط كثير من هذه الأجهزة ببعضها ارتباطاً وثيقاً، ولذلك تكتسب الواجهات ومتطلبات النظافة أهمية خاصة عند الشراء."
         }
       }
     }
@@ -243,7 +287,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIa"
             },
             {
@@ -443,7 +487,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIb"
             },
             {
@@ -643,7 +687,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIb"
             },
             {
@@ -843,7 +887,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIa"
             },
             {
@@ -904,7 +948,7 @@
           "how": [
             "Das Gerät saugt eine kleine Menge EDTA-antikoaguliertes Vollblut an und verdünnt die Probe automatisch. Anschließend werden die Zellen einzeln durch eine feine Messöffnung oder Durchflusszelle geleitet. Jede Zelle erzeugt dabei ein Signal, das gezählt und ausgewertet wird.",
             "Zwei Messprinzipien sind verbreitet: Bei der Impedanzmessung verändert jede Zelle den elektrischen Widerstand in der Messöffnung, woraus sich Anzahl und Größe ableiten lassen. Bei der optischen Durchflusszytometrie werden die Zellen mit einem Laserstrahl beleuchtet; Streulicht und Fluoreszenz geben Aufschluss über Größe, innere Struktur und Zelltyp.",
-            "Hämoglobin wird photometrisch bestimmt, nachdem die roten Blutkörperchen aufgelöst wurden. Aus den Rohdaten berechnet die Software Parameter wie Hämatokrit, mittleres Zellvolumen (MCV) und die Verteilung der weißen Blutkörperchen (Differenzialblutbild). Auffällige Ergebnisse werden markiert, damit das Personal sie mikroskopisch überprüfen kann."
+            "Hämoglobin wird photometrisch bestimmt, nachdem die roten Blutkörperchen aufgelöst (lysiert) wurden. Aus den Rohdaten berechnet die Software Parameter wie Hämatokrit, mittleres Zellvolumen (MCV) und die Verteilung der weißen Blutkörperchen (Differenzialblutbild). Auffällige Ergebnisse werden markiert, damit das Personal sie mikroskopisch überprüfen kann."
           ],
           "use": [
             "Routinelabor in Kliniken und Laborgemeinschaften",
@@ -915,8 +959,8 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse",
-              "value": "In-vitro-Diagnostikum (IVDR), je nach Ausführung"
+              "label": "Risikoklasse (MDR)",
+              "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
               "label": "Typische Einsatzorte",
@@ -964,14 +1008,14 @@
         "en": {
           "name": "Hematology Analyzer",
           "subtitle": "Automated counting and differentiation of blood cells",
-          "short": "A hematology analyzer counts and classifies the cells in blood and produces a complete blood count within minutes. It is part of the basic equipment of almost every medical laboratory.",
+          "short": "A hematology analyzer counts and classifies the cells in blood and produces a complete blood count (CBC) with or without differential within minutes. It is part of the basic equipment of almost every medical laboratory.",
           "how": [
             "The instrument aspirates a small volume of EDTA-anticoagulated whole blood and dilutes the sample automatically. The cells are then passed one by one through a narrow aperture or flow cell. Each cell generates a signal that is counted and evaluated.",
             "Two measurement principles are common: in impedance counting, every cell changes the electrical resistance across the aperture, from which the number and size of the cells are derived. In optical flow cytometry, the cells are illuminated by a laser beam; scattered light and fluorescence provide information about cell size, internal structure and cell type.",
             "Hemoglobin is measured photometrically after the red blood cells have been lysed. From the raw data the software calculates parameters such as hematocrit, mean cell volume (MCV) and the distribution of white blood cells (differential count). Abnormal results are flagged so that staff can review them under the microscope."
           ],
           "use": [
-            "Routine laboratories in hospitals and laboratory networks",
+            "Routine laboratories in hospitals and joint practice laboratories",
             "General practitioner and specialist practices with in-house laboratories",
             "Emergency departments and intensive care units (point of care)",
             "Oncology and hematology for therapy monitoring",
@@ -979,15 +1023,15 @@
           ],
           "facts": [
             {
-              "label": "Risk class",
-              "value": "In-vitro diagnostic device (IVDR), depends on design"
+              "label": "Risk class (MDR)",
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
-              "label": "Typical locations",
+              "label": "Typical settings",
               "value": "Central laboratory, practice laboratory, emergency department"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Benchtop unit; large systems as floor-standing units connected to a laboratory automation line"
             },
             {
@@ -1028,14 +1072,14 @@
         "ar": {
           "name": "محلل أمراض الدم",
           "subtitle": "عدّ خلايا الدم وتصنيفها آلياً",
-          "short": "يقوم محلل أمراض الدم بعدّ خلايا الدم وتصنيفها، ويُنتج صورة دم كاملة خلال دقائق معدودة. وهو جزء من التجهيزات الأساسية لكل مختبر طبي تقريباً.",
+          "short": "يقوم محلل أمراض الدم بعدّ خلايا الدم وتصنيفها، ويُنتج صورة دم كاملة (CBC) مع عدّ تفريقي أو من دونه خلال دقائق معدودة. وهو جزء من التجهيزات الأساسية لكل مختبر طبي تقريباً.",
           "how": [
             "يسحب الجهاز كمية صغيرة من الدم الكامل المعالج بمضاد التخثر (EDTA) ويخفف العينة آلياً. ثم تُمرَّر الخلايا واحدة تلو الأخرى عبر فتحة قياس دقيقة أو خلية تدفق. وتولّد كل خلية إشارة يتم عدّها وتحليلها.",
             "يشيع مبدآن للقياس: في قياس المعاوقة تغيّر كل خلية المقاومة الكهربائية في فتحة القياس، ومن ذلك يُستنتج عدد الخلايا وحجمها. أما في التدفق الخلوي الضوئي فتُضاء الخلايا بشعاع ليزر، ويكشف الضوء المتشتت والتألق عن حجم الخلية وبنيتها الداخلية ونوعها.",
-            "يُقاس الهيموغلوبين ضوئياً بعد تحليل كريات الدم الحمراء. ومن البيانات الخام يحسب البرنامج مؤشرات مثل الهيماتوكريت ومتوسط حجم الكرية (MCV) وتوزيع كريات الدم البيضاء (العد التفريقي). وتُعلَّم النتائج غير الطبيعية حتى يراجعها الطاقم مجهرياً."
+            "يُقاس الهيموغلوبين ضوئياً بعد إحداث انحلال كريات الدم الحمراء (تكسيرها). ومن البيانات الخام يحسب البرنامج مؤشرات مثل الهيماتوكريت ومتوسط حجم الكرية (MCV) وتوزيع كريات الدم البيضاء (العدّ التفريقي). ويُشار إلى النتائج غير الطبيعية بعلامة تنبيه ليراجعها الطاقم مجهرياً."
           ],
           "use": [
-            "المختبرات الروتينية في المستشفيات وشبكات المختبرات",
+            "المختبرات الروتينية في المستشفيات والمختبرات المشتركة بين العيادات",
             "عيادات الأطباء العامين والأخصائيين التي تضم مختبراً خاصاً",
             "أقسام الطوارئ والعناية المركزة (الفحص عند نقطة الرعاية)",
             "أقسام الأورام وأمراض الدم لمتابعة العلاج",
@@ -1043,8 +1087,8 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر",
-              "value": "جهاز تشخيص مخبري (IVDR)، حسب التصميم"
+              "label": "فئة المخاطر (MDR)",
+              "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -1062,7 +1106,7 @@
           "procurement": [
             "حدّدوا حجم العينات اليومي: تكفي الأجهزة المدمجة ذات العد التفريقي الثلاثي (3-Part) للعيادات، بينما تحتاج المستشفيات غالباً إلى أنظمة خماسية (5-Part) ذات إنتاجية أعلى وقياس للخلايا الشبكية.",
             "تحققوا من إمكانية الربط بنظام معلومات المختبر (LIS) عبر بروتوكول HL7 أو ASTM، ومن دعم الاتصال ثنائي الاتجاه لاستدعاء الطلبات.",
-            "احسبوا التكاليف الجارية للكواشف ومواد ضبط الجودة والمعايرة، فهي كثيراً ما تتجاوز سعر الشراء على مدى عمر الجهاز.",
+            "احسبوا التكاليف الجارية للكواشف ومواد ضبط الجودة ومواد المعايرة، فهي كثيراً ما تتجاوز سعر الشراء على مدى عمر الجهاز.",
             "أبرموا عقد صيانة بأوقات استجابة مضمونة، واستفسروا عن توفير جهاز بديل في حال الأعطال الطويلة.",
             "راعوا المتطلبات الوطنية لضمان الجودة الخاصة بضبط الجودة الداخلي واختبارات الكفاءة الخارجية (في ألمانيا: Rili-BÄK)، وخططوا لتدريب الطاقم وفق التزامات مشغّل الجهاز (في ألمانيا: MPBetreibV)."
           ],
@@ -1115,8 +1159,8 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse",
-              "value": "In-vitro-Diagnostikum (IVDR), je nach Ausführung"
+              "label": "Risikoklasse (MDR)",
+              "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
               "label": "Typische Einsatzorte",
@@ -1172,22 +1216,22 @@
           ],
           "use": [
             "Hospital central laboratories with high throughput",
-            "Practice laboratories and laboratory networks",
+            "Practice laboratories and joint practice laboratories",
             "Emergency diagnostics (e.g. cardiac enzymes, kidney values)",
             "Monitoring of chronic diseases such as diabetes",
             "Preventive and check-up examinations"
           ],
           "facts": [
             {
-              "label": "Risk class",
-              "value": "In-vitro diagnostic device (IVDR), depends on design"
+              "label": "Risk class (MDR)",
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
-              "label": "Typical locations",
+              "label": "Typical settings",
               "value": "Central laboratory, practice laboratory, emergency laboratory"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Compact benchtop units; high-throughput systems as floor-standing units with water and drain connections"
             },
             {
@@ -1230,21 +1274,21 @@
           "subtitle": "قيم الأيض من المصل والبلازما والبول",
           "short": "يقيس محلل الكيمياء السريرية تراكيز مواد مثل الغلوكوز والشوارد (الإلكتروليتات) والإنزيمات والكوليسترول في المصل أو البلازما أو البول. ويوفر الأساس لتقييم وظائف الأعضاء والأيض.",
           "how": [
-            "تُطرد العينة مركزياً للحصول على المصل أو البلازما، ثم توضع في أنابيب العينات على الجهاز. يسحب ذراع الماصّة آلياً بضعة ميكرولترات ويمزجها مع الكاشف المناسب في خلية قياس (كوفيت). ويغيّر التفاعل الكيميائي لون المحلول أو عكارته.",
+            "تُعرَّض العينة للطرد المركزي للحصول على المصل أو البلازما، ثم توضع في أنابيب العينات على الجهاز. يسحب ذراع الماصّة آلياً بضعة ميكرولترات ويمزجها مع الكاشف المناسب في خلية قياس (كوفيت). ويغيّر التفاعل الكيميائي لون المحلول أو عكارته.",
             "يُمرِّر مقياس الضوء (الفوتومتر) ضوءاً بأطوال موجية محددة عبر خلية القياس ويقيس مقدار الضوء الممتص. وتتناسب شدة الامتصاص مع تركيز المادة المطلوبة. وباستخدام منحنى معايرة مخزَّن مسبقاً يحوّل الجهاز القراءات إلى تراكيز.",
             "تُحدَّد الشوارد مثل الصوديوم والبوتاسيوم والكلوريد عادةً بأقطاب انتقائية للأيونات (ISE) تولّد جهداً كهربائياً يتناسب مع تركيز الأيون. وتعالج الأنظمة الحديثة عدة مئات من الاختبارات في الساعة، وتجري ضبط الجودة آلياً، وترسل النتائج إلى نظام معلومات المختبر."
           ],
           "use": [
             "المختبرات المركزية في المستشفيات ذات الإنتاجية العالية",
-            "مختبرات العيادات وشبكات المختبرات",
+            "مختبرات العيادات والمختبرات المشتركة بين العيادات",
             "تشخيص الطوارئ (مثل إنزيمات القلب ووظائف الكلى)",
             "متابعة الأمراض المزمنة مثل السكري",
             "الفحوصات الوقائية والدورية"
           ],
           "facts": [
             {
-              "label": "فئة المخاطر",
-              "value": "جهاز تشخيص مخبري (IVDR)، حسب التصميم"
+              "label": "فئة المخاطر (MDR)",
+              "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -1262,9 +1306,9 @@
           "procurement": [
             "حدّدوا قائمة الاختبارات والإنتاجية المطلوبة: ما المؤشرات اللازمة يومياً، وكم عدد العينات في أوقات الذروة؟",
             "انتبهوا للفرق بين أنظمة الكواشف المفتوحة والمغلقة؛ فالأنظمة المغلقة تربطكم بمورّد واحد، بينما تتيح الأنظمة المفتوحة مرونة أكبر لكنها تتطلب تحققاً من جانبكم.",
-            "تحققوا من البنية التحتية: توصيل الماء النقي والصرف، واحتياطي الطاقة، وتكييف الغرفة، ومساحة أرضية كافية تشمل منفذاً للصيانة.",
+            "تحققوا من البنية التحتية: توصيل الماء النقي والصرف، وتأمين التغذية الكهربائية، وتكييف الغرفة، ومساحة أرضية كافية تشمل حيّزاً للوصول لأغراض الصيانة.",
             "افحصوا الواجهات مع نظام معلومات المختبر (HL7/ASTM)، وتعريف العينات بالباركود، وإمكانية ربط الجهاز بأتمتة المختبر.",
-            "خططوا للوجستيات الكواشف وتخزينها (سلسلة التبريد ومدة الصلاحية)، ومواد ضبط الجودة، وعقد الصيانة، والمشاركة في اختبارات الكفاءة وفق المتطلبات الوطنية (في ألمانيا: Rili-BÄK)."
+            "خططوا لإمداد الكواشف وتخزينها (سلسلة التبريد ومدة الصلاحية)، ومواد ضبط الجودة، وعقد الصيانة، والمشاركة في اختبارات الكفاءة الخارجية وفق المتطلبات الوطنية (في ألمانيا: Rili-BÄK)."
           ],
           "glossary": [
             {
@@ -1304,7 +1348,7 @@
           "how": [
             "Für die Messung wird meist arterielles Blut in einer heparinisierten Spritze oder Kapillare entnommen und direkt in das Gerät eingeführt. Die Probe fließt durch eine Messkammer mit mehreren Sensoren. Die Analyse dauert in der Regel nur ein bis zwei Minuten.",
             "Der pH-Wert und der Kohlendioxidpartialdruck (pCO2) werden mit potentiometrischen Elektroden bestimmt, der Sauerstoffpartialdruck (pO2) mit einer amperometrischen Elektrode, die Sauerstoff elektrochemisch reduziert. Viele Geräte messen zusätzlich Elektrolyte, Glukose, Laktat und über ein CO-Oximeter die Hämoglobinfraktionen.",
-            "Aus den Messwerten berechnet das Gerät abgeleitete Parameter wie Bicarbonat, Basenabweichung und Sauerstoffsättigung. Die Sensoren werden automatisch kalibriert; in Kassettensystemen sind Reagenzien, Kalibrierlösungen und Sensoren in einem austauschbaren Pack gebündelt."
+            "Aus den Messwerten berechnet das Gerät abgeleitete Parameter wie Bicarbonat und Basenabweichung; die Sauerstoffsättigung wird entweder aus dem pO2 geschätzt oder – bei Geräten mit CO-Oximeter – direkt gemessen. Die Sensoren werden automatisch kalibriert; in Kassettensystemen sind Reagenzien, Kalibrierlösungen und Sensoren in einem austauschbaren Pack gebündelt."
           ],
           "use": [
             "Intensivstation und Beatmungsmedizin",
@@ -1315,8 +1359,8 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse",
-              "value": "In-vitro-Diagnostikum (IVDR), je nach Ausführung"
+              "label": "Risikoklasse (MDR)",
+              "value": "In-vitro-Diagnostikum nach IVDR (nicht MDR); das Analysegerät selbst in der Regel Klasse A, Reagenzien und Tests je nach Ausführung"
             },
             {
               "label": "Typische Einsatzorte",
@@ -1368,26 +1412,26 @@
           "how": [
             "Arterial blood is usually collected in a heparinized syringe or capillary and introduced directly into the instrument. The sample flows through a measuring chamber containing several sensors. The analysis typically takes only one to two minutes.",
             "pH and the partial pressure of carbon dioxide (pCO2) are determined with potentiometric electrodes, while the partial pressure of oxygen (pO2) is measured with an amperometric electrode that electrochemically reduces oxygen. Many instruments additionally measure electrolytes, glucose, lactate and, via a CO-oximeter, the hemoglobin fractions.",
-            "From the measured values the instrument calculates derived parameters such as bicarbonate, base excess and oxygen saturation. The sensors are calibrated automatically; in cartridge-based systems, reagents, calibration solutions and sensors are bundled in a replaceable pack."
+            "From the measured values the instrument calculates derived parameters such as bicarbonate and base excess; oxygen saturation is either estimated from pO2 or – on instruments with a CO-oximeter – measured directly. The sensors are calibrated automatically; in cartridge-based systems, reagents, calibration solutions and sensors are bundled in a replaceable pack."
           ],
           "use": [
-            "Intensive care units and ventilation medicine",
-            "Emergency departments and trauma rooms",
+            "Intensive care units and mechanical ventilation",
+            "Emergency departments and resuscitation rooms",
             "Operating rooms and recovery rooms",
             "Neonatology (capillary blood from the heel)",
             "Central laboratories and dialysis units"
           ],
           "facts": [
             {
-              "label": "Risk class",
-              "value": "In-vitro diagnostic device (IVDR), depends on design"
+              "label": "Risk class (MDR)",
+              "value": "In-vitro diagnostic device under the IVDR (not the MDR); the analyzer itself is usually class A, reagents and tests depend on design"
             },
             {
-              "label": "Typical locations",
+              "label": "Typical settings",
               "value": "Intensive care unit, emergency department, operating room, laboratory"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Compact benchtop unit, often placed close to the patient (point of care)"
             },
             {
@@ -1428,14 +1472,14 @@
         "ar": {
           "name": "محلل غازات الدم",
           "subtitle": "قياس pH والأكسجين وثاني أكسيد الكربون في دقائق",
-          "short": "يقيس محلل غازات الدم خلال دقائق معدودة الأس الهيدروجيني (pH) والضغط الجزئي للأكسجين وثاني أكسيد الكربون، إضافة إلى الشوارد والمستقلبات في الدم. وهو جهاز لا غنى عنه لمراقبة المرضى في الحالات الحرجة والمرضى الموصولين بأجهزة التنفس.",
+          "short": "يقيس محلل غازات الدم خلال دقائق معدودة الأس الهيدروجيني (pH) والضغط الجزئي للأكسجين وثاني أكسيد الكربون، إضافة إلى الشوارد والمستقلبات في الدم. وهو جهاز لا غنى عنه لمراقبة المرضى في الحالات الحرجة والمرضى الخاضعين للتنفس الاصطناعي.",
           "how": [
             "يُسحب الدم الشرياني عادةً في محقنة أو أنبوب شعري معالج بالهيبارين ويُدخل مباشرة في الجهاز. وتتدفق العينة عبر حجرة قياس تحتوي على عدة مستشعرات. ويستغرق التحليل في العادة دقيقة إلى دقيقتين فقط.",
-            "يُحدَّد الأس الهيدروجيني والضغط الجزئي لثاني أكسيد الكربون (pCO2) بأقطاب قياس الجهد، بينما يُقاس الضغط الجزئي للأكسجين (pO2) بقطب أمبيرومتري يختزل الأكسجين كهروكيميائياً. وتقيس أجهزة كثيرة إضافة إلى ذلك الشوارد والغلوكوز واللاكتات، وعبر مقياس الأكسجة المشترك (CO-oximeter) أجزاء الهيموغلوبين.",
-            "يحسب الجهاز من القيم المقاسة مؤشرات مشتقة مثل البيكربونات وفائض القواعد (Base Excess) وتشبع الأكسجين. وتُعاير المستشعرات آلياً؛ وفي الأنظمة القائمة على الخراطيش تُجمع الكواشف ومحاليل المعايرة والمستشعرات في عبوة قابلة للاستبدال."
+            "يُحدَّد الأس الهيدروجيني والضغط الجزئي لثاني أكسيد الكربون (pCO2) بأقطاب قياس الجهد (بوتنشيومترية)، بينما يُقاس الضغط الجزئي للأكسجين (pO2) بقطب أمبيرومتري (قياس التيار) يختزل الأكسجين كهروكيميائياً. وتقيس أجهزة كثيرة إضافة إلى ذلك الشوارد والغلوكوز واللاكتات، وتقيس عبر مقياس التأكسج (CO-oximeter) كسور الهيموغلوبين المختلفة.",
+            "يحسب الجهاز من القيم المقاسة مؤشرات مشتقة مثل البيكربونات وفائض القواعد (Base Excess)؛ أما تشبع الأكسجين فإما يُقدَّر من pO2 أو يُقاس مباشرة في الأجهزة المزوّدة بمقياس التأكسج (CO-oximeter). وتُعاير المستشعرات آلياً؛ وفي الأنظمة القائمة على الخراطيش تُجمع الكواشف ومحاليل المعايرة والمستشعرات في عبوة قابلة للاستبدال."
           ],
           "use": [
-            "وحدات العناية المركزة وطب التنفس الاصطناعي",
+            "وحدات العناية المركزة والتنفس الاصطناعي",
             "أقسام الطوارئ وغرف الإنعاش",
             "غرف العمليات وغرف الإفاقة",
             "طب حديثي الولادة (دم شعري من الكعب)",
@@ -1443,8 +1487,8 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر",
-              "value": "جهاز تشخيص مخبري (IVDR)، حسب التصميم"
+              "label": "فئة المخاطر (MDR)",
+              "value": "جهاز تشخيص مخبري يخضع للائحة IVDR (لا للائحة MDR)؛ جهاز التحليل نفسه عادةً من الفئة A، أما الكواشف والاختبارات فبحسب التصميم"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -1460,7 +1504,7 @@
             }
           ],
           "procurement": [
-            "حدّدوا نطاق المؤشرات: غازات الدم والأس الهيدروجيني فقط، أم إضافة الشوارد والمستقلبات (الغلوكوز واللاكتات) وقياس الأكسجة المشترك (مثل كربوكسي هيموغلوبين)؟",
+            "حدّدوا نطاق المؤشرات: غازات الدم والأس الهيدروجيني فقط، أم إضافة الشوارد والمستقلبات (الغلوكوز واللاكتات) وقياس التأكسج (CO-oximetry، مثل كربوكسي هيموغلوبين)؟",
             "قارنوا الأنظمة القائمة على الخراطيش بزجاجات الكواشف التقليدية من حيث جهد الصيانة ومدة الصلاحية وتكلفة العينة الواحدة وفق حجم عيناتكم.",
             "للاستخدام بالقرب من المريض، تُعد إدارة المشغّلين وضبط الجودة الآلي والربط بنظام معلومات المستشفى أو المختبر (إدارة بيانات POCT) أموراً مهمة.",
             "وضّحوا المسؤوليات: يخضع الفحص عند نقطة الرعاية لمتطلبات ضمان الجودة الوطنية (في ألمانيا: Rili-BÄK)؛ وينبغي التخطيط للجنة POCT وتدريب موثّق.",
@@ -1515,8 +1559,8 @@
           ],
           "facts": [
             {
-              "label": "Risikoklasse",
-              "value": "Laborgerät; als IVD-Zubehör je nach Ausführung"
+              "label": "Risikoklasse (MDR)",
+              "value": "Allgemeines Laborgerät; wenn vom Hersteller für die In-vitro-Diagnostik bestimmt, in der Regel Klasse A nach IVDR"
             },
             {
               "label": "Typische Einsatzorte",
@@ -1536,7 +1580,7 @@
             "Für infektiöses oder empfindliches Material sind aerosoldichte Becher bzw. Rotordeckel und eine Kühlfunktion sinnvoll.",
             "Achten Sie auf die Sicherheitsausstattung nach IEC 61010-2-020: Deckelverriegelung, Unwuchtabschaltung und eine stabile Aufstellfläche mit Abstand zu anderen Geräten.",
             "Berücksichtigen Sie Lärmpegel und Vibrationen, vor allem in kleinen Praxislaboren, sowie den Energieverbrauch von Kühlzentrifugen.",
-            "Planen Sie regelmäßige sicherheitstechnische Kontrollen, Rotorinspektionen (Materialermüdung) und die Dokumentation der Drehzahlprüfung ein."
+            "Planen Sie die regelmäßigen Sicherheitsprüfungen ein (in Deutschland: jährliche Prüfung durch eine sachkundige Person nach den Unfallverhütungsvorschriften der DGUV), dazu Rotorinspektionen (Materialermüdung) und die Dokumentation der Drehzahlprüfung."
           ],
           "glossary": [
             {
@@ -1579,15 +1623,15 @@
           ],
           "facts": [
             {
-              "label": "Risk class",
-              "value": "Laboratory equipment; as an IVD accessory depends on design"
+              "label": "Risk class (MDR)",
+              "value": "General laboratory equipment; if intended by the manufacturer for in-vitro diagnostics, usually class A under the IVDR"
             },
             {
-              "label": "Typical locations",
+              "label": "Typical settings",
               "value": "Laboratory, medical practice, blood bank"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Benchtop unit; high-performance and refrigerated centrifuges as floor-standing units"
             },
             {
@@ -1600,7 +1644,7 @@
             "For infectious or sensitive material, aerosol-tight buckets or rotor lids and a refrigeration function are advisable.",
             "Look for safety features according to IEC 61010-2-020: lid lock, imbalance cut-off and a stable installation surface with clearance from other equipment.",
             "Consider noise levels and vibration, especially in small practice laboratories, as well as the energy consumption of refrigerated centrifuges.",
-            "Plan regular safety inspections, rotor inspections (material fatigue) and documentation of speed verification."
+            "Plan the regular safety inspections (in Germany: an annual inspection by a competent person in accordance with the DGUV accident-prevention rules), as well as rotor inspections (material fatigue) and documentation of speed verification."
           ],
           "glossary": [
             {
@@ -1632,7 +1676,7 @@
           "how": [
             "توضع أنابيب العينات في دوّار يُسرّعه محرك كهربائي إلى عدة آلاف من الدورات في الدقيقة. وتدفع قوة الطرد المركزي الناتجة، التي تبلغ غالباً أضعاف قوة الجاذبية الأرضية، المكونات الأثقل إلى الخارج أو إلى الأسفل. وتبقى المكونات الأخف في الأعلى.",
             "في الدم تترسب الخلايا في القاع، ويتشكل فوقها مصل أو بلازما صافية تُسحب بالماصّة للتحليل. والعامل الحاسم ليس سرعة الدوران وحدها، بل قوة الطرد المركزي النسبية (RCF أو قيمة g) التي تعتمد على السرعة ونصف قطر الدوّار.",
-            "توجد دوّارات متأرجحة تتأرجح فيها الأنابيب إلى الوضع الأفقي أثناء التشغيل، ودوّارات ذات زاوية ثابتة بمواضع مائلة بشكل دائم. وتشمل ميزات السلامة قفل الغطاء وكشف عدم الاتزان، وللمواد المعدية أغطية دوّار محكمة ضد الهباء الجوي. وتحافظ أجهزة الطرد المركزي المبرّدة على درجة حرارة ثابتة للعينة في التحاليل الحساسة."
+            "توجد دوّارات متأرجحة تتأرجح فيها الأنابيب إلى الوضع الأفقي أثناء التشغيل، ودوّارات ذات زاوية ثابتة بمواضع مائلة بشكل دائم. وتشمل ميزات السلامة قفل الغطاء وكشف عدم الاتزان، وللمواد المعدية أغطية دوّار محكمة الإغلاق تمنع تسرب الهباء الجوي. وتحافظ أجهزة الطرد المركزي المبرّدة على درجة حرارة ثابتة للعينة في التحاليل الحساسة."
           ],
           "use": [
             "تحضير العينات للكيمياء السريرية والأمصال",
@@ -1643,8 +1687,8 @@
           ],
           "facts": [
             {
-              "label": "فئة المخاطر",
-              "value": "جهاز مخبري؛ وكملحق لأجهزة التشخيص المخبري حسب التصميم"
+              "label": "فئة المخاطر (MDR)",
+              "value": "جهاز مخبري عام؛ وإذا خصّصه المصنّع للتشخيص المخبري فهو عادةً من الفئة A وفق لائحة IVDR"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -1661,10 +1705,10 @@
           ],
           "procurement": [
             "اختاروا الدوّار والسعة بما يناسب أنابيبكم (الحجم والعدد وعدد العينات في كل دورة) وقيمة g التي تتطلبها تحاليلكم.",
-            "للمواد المعدية أو الحساسة يُنصح بأوعية أو أغطية دوّار محكمة ضد الهباء الجوي ووظيفة تبريد.",
+            "للمواد المعدية أو الحساسة يُنصح بأوعية أو أغطية دوّار محكمة الإغلاق تمنع تسرب الهباء الجوي، إضافة إلى وظيفة التبريد.",
             "احرصوا على ميزات السلامة وفق المعيار IEC 61010-2-020: قفل الغطاء، والإيقاف عند عدم الاتزان، وسطح تركيب ثابت مع مسافة كافية عن الأجهزة الأخرى.",
             "راعوا مستوى الضجيج والاهتزاز، لا سيما في مختبرات العيادات الصغيرة، وكذلك استهلاك الطاقة في الأجهزة المبرّدة.",
-            "خططوا للفحوصات الفنية الدورية للسلامة، وفحص الدوّار (إجهاد المواد)، وتوثيق التحقق من سرعة الدوران."
+            "خططوا لفحوصات السلامة الدورية (في ألمانيا: فحص سنوي يجريه شخص مختص وفق قواعد الوقاية من الحوادث الصادرة عن DGUV)، إضافة إلى فحص الدوّار (إجهاد المواد) وتوثيق التحقق من سرعة الدوران."
           ],
           "glossary": [
             {
@@ -1787,7 +1831,7 @@
               "value": "Intensive care unit, operating room, emergency department, transport"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Bedside on a wall rail or rolling stand; transport units are compact"
             },
             {
@@ -1987,7 +2031,7 @@
               "value": "General practice, cardiology practice, emergency department, ward"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Compact tabletop or cart device; an examination couch for the patient is required"
             },
             {
@@ -2187,7 +2231,7 @@
               "value": "Ward, practice, ambulance service, recovery room, home care"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Fingertip device palm-sized; tabletop device compact"
             },
             {
@@ -2387,7 +2431,7 @@
               "value": "Gynaecology practice, delivery room, obstetric ward"
             },
             {
-              "label": "Space requirements",
+              "label": "Space requirement",
               "value": "Tabletop or cart device next to the examination couch or delivery bed"
             },
             {
@@ -2643,7 +2687,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIb"
             },
             {
@@ -2843,7 +2887,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIb"
             },
             {
@@ -3043,7 +3087,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "IIa (منظار الفيديو)؛ والملحقات حسب التصميم"
             },
             {
@@ -3243,7 +3287,7 @@
           ],
           "facts": [
             {
-              "label": "فئة الخطورة (MDR)",
+              "label": "فئة المخاطر (MDR)",
               "value": "حسب التصميم"
             },
             {
@@ -3287,6 +3331,1603 @@
             "مصباح LED للعمليات",
             "مصباح سقفي",
             "مصباح الفحص"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ventilator",
+      "category": "therapy",
+      "image": "assets/img/devices/ventilator.svg",
+      "order": 1,
+      "i18n": {
+        "de": {
+          "name": "Beatmungsgerät",
+          "subtitle": "Maschinelle Unterstützung oder Übernahme der Atmung",
+          "short": "Ein Beatmungsgerät übernimmt oder unterstützt die Atmung von Patientinnen und Patienten, die nicht ausreichend selbst atmen können. Es fördert ein Gemisch aus Luft und Sauerstoff mit kontrolliertem Druck und Volumen in die Lunge.",
+          "how": [
+            "Das Gerät erzeugt über Ventile und eine Turbine oder eine Druckgasversorgung einen Gasfluss aus Luft und Sauerstoff. Über ein Schlauchsystem und einen Beatmungstubus, eine Trachealkanüle oder eine Maske gelangt das Gasgemisch in die Lunge. Die Ausatmung erfolgt passiv durch die elastischen Rückstellkräfte des Brustkorbs über ein Exspirationsventil.",
+            "Sensoren messen fortlaufend Druck, Fluss und Volumen und regeln die Beatmung anhand der eingestellten Parameter. Typische Einstellungen sind Atemfrequenz, Tidalvolumen, Sauerstoffkonzentration (FiO2) und der positive endexspiratorische Druck (PEEP). Beatmungsmodi reichen von vollständig kontrollierter Beatmung bis hin zu Modi, die nur die Spontanatmung unterstützen.",
+            "Ein Alarmsystem überwacht Grenzwerte wie Atemwegsdruck, Minutenvolumen oder eine Diskonnektion des Schlauchsystems. Befeuchter und Filter konditionieren das Atemgas, da trockene oder kalte Luft die Atemwege schädigen kann. Moderne Geräte zeigen Kurven und Messwerte auf einem Bildschirm an, um die Lungenfunktion beurteilen zu können."
+          ],
+          "use": [
+            "Intensivstation (Langzeitbeatmung)",
+            "Anästhesie und Aufwachraum",
+            "Notaufnahme und Rettungsdienst (Transportbeatmung)",
+            "Außerklinische Beatmung (Heimbeatmung)",
+            "Neonatologie und Pädiatrie"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Intensivstation, OP, Notaufnahme, Rettungsdienst"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Fahrbares Gerät am Bettplatz; Anschluss an Sauerstoff- und Druckluftversorgung"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "In der Regel 8 bis 10 Jahre, abhängig von Wartung und Einsatzintensität"
+            }
+          ],
+          "procurement": [
+            "Klären Sie den Einsatzbereich: Intensivbeatmung, Transport und außerklinische Beatmung stellen unterschiedliche Anforderungen an Beatmungsmodi, Akkulaufzeit und Gewicht.",
+            "Prüfen Sie die Gasversorgung: Geräte mit Turbine benötigen nur Sauerstoff, Geräte mit Druckgasantrieb zusätzlich medizinische Druckluft; die Wandanschlüsse müssen kompatibel sein.",
+            "Berücksichtigen Sie das Verbrauchsmaterial (Schlauchsysteme, Filter, Befeuchterkammern) und ob Einmal- oder wiederaufbereitbare Systeme wirtschaftlicher sind.",
+            "Achten Sie auf Schnittstellen zum Patientendatenmanagementsystem (PDMS) und zur zentralen Alarmweiterleitung.",
+            "Planen Sie die Einweisung nach Medizinprodukte-Betreiberverordnung (MPBetreibV), sicherheitstechnische Kontrollen (STK) und einen Servicevertrag mit garantierten Reaktionszeiten ein; Leihgeräte für Ausfallzeiten sind sinnvoll."
+          ],
+          "glossary": [
+            {
+              "term": "PEEP",
+              "text": "Positiver endexspiratorischer Druck: ein Restdruck am Ende der Ausatmung, der die Lungenbläschen offen hält."
+            },
+            {
+              "term": "Tidalvolumen",
+              "text": "Das Gasvolumen, das pro Atemzug in die Lunge gelangt."
+            },
+            {
+              "term": "FiO2",
+              "text": "Anteil des Sauerstoffs im eingeatmeten Gasgemisch (Raumluft: 21 %)."
+            }
+          ],
+          "keywords": [
+            "Beatmung",
+            "Respirator",
+            "Ventilator",
+            "Intensivbeatmung",
+            "Heimbeatmung",
+            "NIV"
+          ]
+        },
+        "en": {
+          "name": "Ventilator",
+          "subtitle": "Mechanical support or replacement of breathing",
+          "short": "A ventilator takes over or supports breathing for patients who cannot breathe sufficiently on their own. It delivers a mixture of air and oxygen into the lungs with controlled pressure and volume.",
+          "how": [
+            "The device generates a flow of air and oxygen using valves and either a turbine or a pressurised gas supply. The gas mixture reaches the lungs through a tubing system and an endotracheal tube, a tracheostomy cannula or a mask. Exhalation occurs passively through the elastic recoil of the chest via an expiratory valve.",
+            "Sensors continuously measure pressure, flow and volume and regulate ventilation according to the set parameters. Typical settings include respiratory rate, tidal volume, oxygen concentration (FiO2) and positive end-expiratory pressure (PEEP). Ventilation modes range from fully controlled ventilation to modes that only assist the patient's spontaneous breathing.",
+            "An alarm system monitors limits such as airway pressure, minute volume or disconnection of the tubing system. Humidifiers and filters condition the breathing gas, because dry or cold air can damage the airways. Modern devices display waveforms and measurements on a screen to help assess lung function."
+          ],
+          "use": [
+            "Intensive care unit (long-term ventilation)",
+            "Anaesthesia and recovery room",
+            "Emergency department and ambulance service (transport ventilation)",
+            "Home mechanical ventilation",
+            "Neonatology and paediatrics"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Intensive care unit, operating theatre, emergency department, ambulance service"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Mobile unit at the bedside; connection to oxygen and medical compressed air supply"
+            },
+            {
+              "label": "Typical service life",
+              "value": "Usually 8 to 10 years, depending on maintenance and intensity of use"
+            }
+          ],
+          "procurement": [
+            "Clarify the area of use: intensive care, transport and home ventilation place different demands on ventilation modes, battery life and weight.",
+            "Check the gas supply: turbine-driven devices only need oxygen, while pneumatically driven devices also require medical compressed air; the wall outlets must be compatible.",
+            "Consider the consumables (tubing systems, filters, humidifier chambers) and whether single-use or reprocessable systems are more economical.",
+            "Pay attention to interfaces with the patient data management system (PDMS) and central alarm forwarding.",
+            "Plan for user instruction as required by the operator regulations for medical devices (in Germany the MPBetreibV), periodic safety inspections (STK) and a service contract with guaranteed response times; loan devices for downtime are advisable."
+          ],
+          "glossary": [
+            {
+              "term": "PEEP",
+              "text": "Positive end-expiratory pressure: a residual pressure at the end of exhalation that keeps the alveoli open."
+            },
+            {
+              "term": "Tidal volume",
+              "text": "The volume of gas delivered to the lungs with each breath."
+            },
+            {
+              "term": "FiO2",
+              "text": "Fraction of oxygen in the inhaled gas mixture (room air: 21 %)."
+            }
+          ],
+          "keywords": [
+            "Ventilator",
+            "Respirator",
+            "Mechanical ventilation",
+            "Intensive care ventilation",
+            "Home ventilation",
+            "NIV"
+          ]
+        },
+        "ar": {
+          "name": "جهاز التنفس الاصطناعي",
+          "subtitle": "دعم التنفس أو استبداله آلياً",
+          "short": "يتولى جهاز التنفس الاصطناعي عملية التنفس أو يدعمها لدى المرضى غير القادرين على التنفس بشكل كافٍ بأنفسهم. وهو يدفع خليطاً من الهواء والأكسجين إلى الرئتين بضغط وحجم محكومين.",
+          "how": [
+            "يولّد الجهاز تدفقاً من الهواء والأكسجين عبر صمامات وتوربين أو عبر إمداد بالغازات المضغوطة. ويصل خليط الغاز إلى الرئتين عبر نظام أنابيب وأنبوب رغامي أو قنية فغر رغامي أو قناع. ويتم الزفير بشكل سلبي بفضل الارتداد المرن للقفص الصدري عبر صمام الزفير.",
+            "تقيس المستشعرات الضغط والتدفق والحجم باستمرار وتنظم التهوية وفقاً للمعايير المضبوطة. ومن الإعدادات النموذجية معدل التنفس والحجم المدي وتركيز الأكسجين (FiO2) والضغط الإيجابي في نهاية الزفير (PEEP). وتتراوح أنماط التهوية من التهوية المتحكم بها بالكامل إلى أنماط تدعم التنفس التلقائي للمريض فقط.",
+            "يراقب نظام الإنذار حدوداً مثل ضغط مجرى الهواء والحجم الدقيق أو انفصال نظام الأنابيب. وتعمل المرطبات والمرشحات على تكييف غاز التنفس، لأن الهواء الجاف أو البارد قد يضر بالمجاري الهوائية. وتعرض الأجهزة الحديثة المنحنيات والقياسات على شاشة للمساعدة في تقييم وظيفة الرئة."
+          ],
+          "use": [
+            "وحدة العناية المركزة (التهوية طويلة الأمد)",
+            "التخدير وغرفة الإفاقة",
+            "قسم الطوارئ وخدمات الإسعاف (تهوية النقل)",
+            "التهوية الميكانيكية المنزلية",
+            "طب حديثي الولادة وطب الأطفال"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "وحدة العناية المركزة، غرفة العمليات، قسم الطوارئ، خدمات الإسعاف"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز متنقل بجانب السرير؛ توصيل بإمداد الأكسجين والهواء الطبي المضغوط"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "عادةً من 8 إلى 10 سنوات، حسب الصيانة وكثافة الاستخدام"
+            }
+          ],
+          "procurement": [
+            "حددوا مجال الاستخدام: فالعناية المركزة والنقل والتهوية المنزلية تفرض متطلبات مختلفة على أنماط التهوية وعمر البطارية والوزن.",
+            "تحققوا من إمداد الغازات: الأجهزة ذات التوربين تحتاج إلى الأكسجين فقط، بينما تحتاج الأجهزة ذات التشغيل بالغاز المضغوط إلى هواء طبي مضغوط إضافي؛ ويجب أن تكون مخارج الجدار متوافقة.",
+            "ضعوا في الاعتبار المستهلكات (أنظمة الأنابيب والمرشحات وحجرات الترطيب) وما إذا كانت الأنظمة أحادية الاستخدام أو القابلة لإعادة المعالجة أكثر اقتصادية.",
+            "انتبهوا إلى الواجهات مع نظام إدارة بيانات المرضى (PDMS) ونظام تحويل الإنذارات المركزي.",
+            "خططوا لتدريب المستخدمين وفق لوائح تشغيل الأجهزة الطبية (في ألمانيا لائحة MPBetreibV)، والفحوصات الفنية الدورية للسلامة (STK)، وعقد صيانة بأوقات استجابة مضمونة؛ ويُنصح بتوفير أجهزة بديلة لفترات التوقف."
+          ],
+          "glossary": [
+            {
+              "term": "PEEP",
+              "text": "الضغط الإيجابي في نهاية الزفير: ضغط متبقٍ في نهاية الزفير يبقي الحويصلات الهوائية مفتوحة."
+            },
+            {
+              "term": "الحجم المدي",
+              "text": "حجم الغاز الذي يصل إلى الرئتين في كل نفس."
+            },
+            {
+              "term": "FiO2",
+              "text": "نسبة الأكسجين في خليط الغاز المستنشق (هواء الغرفة: 21 %)."
+            }
+          ],
+          "keywords": [
+            "جهاز التنفس الاصطناعي",
+            "التهوية الميكانيكية",
+            "منفسة",
+            "تهوية العناية المركزة",
+            "التهوية المنزلية",
+            "NIV"
+          ]
+        }
+      }
+    },
+    {
+      "id": "infusion-pump",
+      "category": "therapy",
+      "image": "assets/img/devices/infusion-pump.svg",
+      "order": 2,
+      "i18n": {
+        "de": {
+          "name": "Infusionspumpe / Spritzenpumpe",
+          "subtitle": "Präzise Dosierung von Medikamenten und Flüssigkeiten",
+          "short": "Infusionspumpen fördern Flüssigkeiten und Medikamente kontrolliert und mit einstellbarer Rate in den Körper, meist über einen venösen Zugang. Spritzenpumpen sind für kleine Volumen und hochwirksame Medikamente ausgelegt.",
+          "how": [
+            "Volumetrische Infusionspumpen fördern die Flüssigkeit aus einem Beutel oder einer Flasche über ein spezielles Infusionsset, das in die Pumpe eingelegt wird. Ein peristaltischer Mechanismus drückt den Schlauch abschnittsweise zusammen und schiebt die Flüssigkeit so mit definierter Rate vorwärts. Spritzenpumpen schieben dagegen den Kolben einer eingespannten Spritze mit einem Motorantrieb präzise vor.",
+            "Die Förderrate wird in Millilitern pro Stunde eingestellt; viele Geräte rechnen Dosierungen direkt nach Körpergewicht oder Wirkstoffkonzentration um. Medikamentenbibliotheken mit hinterlegten Grenzwerten (Dose Error Reduction Systems) warnen vor unplausiblen Eingaben.",
+            "Sensoren erkennen Luft im Schlauch, Verschlüsse (Okklusion) sowie leere Behälter und lösen Alarme aus. Die Pumpen verfügen über Akkus für den Transport, und mehrere Geräte lassen sich in Haltesystemen am Infusionsständer oder in Docking-Stationen kombinieren."
+          ],
+          "use": [
+            "Intensiv- und Intermediate-Care-Stationen",
+            "Anästhesie (totale intravenöse Anästhesie)",
+            "Onkologie (Chemotherapie)",
+            "Normalstationen",
+            "Schmerztherapie (PCA) und Neonatologie"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Intensivstation, OP, Normalstation, Onkologie"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Kompakt; Befestigung am Infusionsständer oder in einer Docking-Station"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "Etwa 8 bis 10 Jahre"
+            }
+          ],
+          "procurement": [
+            "Entscheiden Sie je nach Anwendung zwischen volumetrischer Pumpe und Spritzenpumpe; auf Intensivstationen werden meist beide Typen benötigt.",
+            "Prüfen Sie die Kompatibilität der Verbrauchsmaterialien: Viele Pumpen erfordern herstellerspezifische Infusionssets, was die laufenden Kosten über Jahre bestimmt.",
+            "Achten Sie auf eine zentral pflegbare Medikamentenbibliothek und eine einheitliche Bedienoberfläche im ganzen Haus, um Bedienfehler zu vermeiden.",
+            "Klären Sie Schnittstellen (z. B. zum PDMS oder zur Alarmweiterleitung) und ob Docking-Stationen mit gemeinsamer Stromversorgung sinnvoll sind.",
+            "Planen Sie die Einweisung aller Anwender, regelmäßige sicherheitstechnische Kontrollen und den Akkutausch im Servicevertrag ein."
+          ],
+          "glossary": [
+            {
+              "term": "Okklusion",
+              "text": "Verschluss des Infusionswegs, etwa durch einen abgeknickten Schlauch; die Pumpe erkennt den Druckanstieg und alarmiert."
+            },
+            {
+              "term": "Bolus",
+              "text": "Eine größere Dosis, die in kurzer Zeit verabreicht wird."
+            },
+            {
+              "term": "PCA",
+              "text": "Patientenkontrollierte Analgesie: Patientinnen und Patienten lösen innerhalb festgelegter Grenzen selbst Schmerzmitteldosen aus."
+            }
+          ],
+          "keywords": [
+            "Infusionspumpe",
+            "Spritzenpumpe",
+            "Volumetrische Pumpe",
+            "Infusion",
+            "PCA-Pumpe",
+            "Dosierung"
+          ]
+        },
+        "en": {
+          "name": "Infusion Pump / Syringe Pump",
+          "subtitle": "Precise delivery of drugs and fluids",
+          "short": "Infusion pumps deliver fluids and medication into the body at a controlled, adjustable rate, usually via a venous access. Syringe pumps are designed for small volumes and highly potent drugs.",
+          "how": [
+            "Volumetric infusion pumps deliver fluid from a bag or bottle through a dedicated infusion set that is loaded into the pump. A peristaltic mechanism compresses the tubing section by section, pushing the fluid forward at a defined rate. Syringe pumps, by contrast, use a motor drive to advance the plunger of a mounted syringe with high precision.",
+            "The flow rate is set in millilitres per hour; many devices convert doses directly based on body weight or drug concentration. Drug libraries with stored limits (dose error reduction systems) warn users about implausible entries.",
+            "Sensors detect air in the line, blockages (occlusion) and empty containers and trigger alarms. The pumps have batteries for transport, and several devices can be combined in mounting systems on an IV pole or in docking stations."
+          ],
+          "use": [
+            "Intensive care and intermediate care units",
+            "Anaesthesia (total intravenous anaesthesia)",
+            "Oncology (chemotherapy)",
+            "General wards",
+            "Pain therapy (PCA) and neonatology"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Intensive care unit, operating theatre, general ward, oncology"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Compact; mounted on an IV pole or in a docking station"
+            },
+            {
+              "label": "Typical service life",
+              "value": "Around 8 to 10 years"
+            }
+          ],
+          "procurement": [
+            "Decide between volumetric pumps and syringe pumps depending on the application; intensive care units usually need both types.",
+            "Check consumable compatibility: many pumps require proprietary infusion sets, which determines the running costs for years.",
+            "Look for a centrally maintained drug library and a uniform user interface throughout the facility to avoid operating errors.",
+            "Clarify interfaces (for example with the PDMS or alarm forwarding) and whether docking stations with a shared power supply make sense.",
+            "Plan for the training of all users, regular safety inspections and battery replacement as part of the service contract."
+          ],
+          "glossary": [
+            {
+              "term": "Occlusion",
+              "text": "A blockage of the infusion line, for example due to a kinked tube; the pump detects the rise in pressure and raises an alarm."
+            },
+            {
+              "term": "Bolus",
+              "text": "A larger dose administered within a short time."
+            },
+            {
+              "term": "PCA",
+              "text": "Patient-controlled analgesia: patients trigger doses of pain medication themselves within predefined limits."
+            }
+          ],
+          "keywords": [
+            "Infusion pump",
+            "Syringe pump",
+            "Volumetric pump",
+            "IV pump",
+            "PCA pump",
+            "Drug delivery"
+          ]
+        },
+        "ar": {
+          "name": "مضخة التسريب / مضخة المحقنة",
+          "subtitle": "جرعات دقيقة من الأدوية والسوائل",
+          "short": "تضخ مضخات التسريب السوائل والأدوية إلى الجسم بمعدل محكوم وقابل للضبط، عادةً عبر وصول وريدي. أما مضخات المحقنة فهي مصممة للأحجام الصغيرة والأدوية عالية الفعالية.",
+          "how": [
+            "تنقل مضخات التسريب الحجمية السائل من كيس أو زجاجة عبر طقم تسريب خاص يُركّب في المضخة. وتضغط آلية تمعجية على الأنبوب جزءاً بعد جزء فتدفع السائل إلى الأمام بمعدل محدد. أما مضخات المحقنة فتدفع مكبس المحقنة المثبتة بمحرك كهربائي بدقة عالية.",
+            "يُضبط معدل التدفق بالمليلتر في الساعة؛ وتحسب العديد من الأجهزة الجرعات مباشرة وفق وزن الجسم أو تركيز الدواء. وتحذر مكتبات الأدوية ذات الحدود المخزنة (أنظمة الحد من أخطاء الجرعات) المستخدمين من الإدخالات غير المنطقية.",
+            "تكشف المستشعرات وجود الهواء في الأنبوب والانسدادات والحاويات الفارغة وتطلق الإنذارات. وتحتوي المضخات على بطاريات للنقل، ويمكن دمج عدة أجهزة في أنظمة تثبيت على حامل التسريب أو في محطات إرساء."
+          ],
+          "use": [
+            "وحدات العناية المركزة والعناية المتوسطة",
+            "التخدير (التخدير الوريدي الكامل)",
+            "الأورام (العلاج الكيميائي)",
+            "الأجنحة العامة",
+            "علاج الألم (PCA) وطب حديثي الولادة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "وحدة العناية المركزة، غرفة العمليات، الجناح العام، الأورام"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز صغير الحجم؛ يُثبت على حامل التسريب أو في محطة إرساء"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 8 إلى 10 سنوات"
+            }
+          ],
+          "procurement": [
+            "اختاروا بين المضخة الحجمية ومضخة المحقنة حسب التطبيق؛ وتحتاج وحدات العناية المركزة عادةً إلى النوعين معاً.",
+            "تحققوا من توافق المستهلكات: تتطلب العديد من المضخات أطقم تسريب خاصة بالمصنّع، وهو ما يحدد التكاليف الجارية لسنوات.",
+            "احرصوا على وجود مكتبة أدوية تُدار مركزياً وواجهة استخدام موحدة في المنشأة كلها لتجنب أخطاء التشغيل.",
+            "وضّحوا الواجهات (مثل الربط بنظام PDMS أو تحويل الإنذارات) وما إذا كانت محطات الإرساء ذات الإمداد الكهربائي المشترك مفيدة.",
+            "خططوا لتدريب جميع المستخدمين، والفحوصات الدورية للسلامة، واستبدال البطاريات ضمن عقد الصيانة."
+          ],
+          "glossary": [
+            {
+              "term": "الانسداد",
+              "text": "انسداد مسار التسريب، مثلاً بسبب انثناء الأنبوب؛ تكشف المضخة ارتفاع الضغط وتطلق إنذاراً."
+            },
+            {
+              "term": "الجرعة الدفعية (Bolus)",
+              "text": "جرعة أكبر تُعطى خلال وقت قصير."
+            },
+            {
+              "term": "PCA",
+              "text": "التسكين الذي يتحكم به المريض: يطلق المرضى بأنفسهم جرعات مسكنات الألم ضمن حدود محددة مسبقاً."
+            }
+          ],
+          "keywords": [
+            "مضخة التسريب",
+            "مضخة المحقنة",
+            "مضخة حجمية",
+            "مضخة وريدية",
+            "مضخة PCA",
+            "إعطاء الأدوية"
+          ]
+        }
+      }
+    },
+    {
+      "id": "defibrillator",
+      "category": "therapy",
+      "image": "assets/img/devices/defibrillator.svg",
+      "order": 3,
+      "i18n": {
+        "de": {
+          "name": "Defibrillator",
+          "subtitle": "Stromstoß gegen lebensbedrohliche Herzrhythmusstörungen",
+          "short": "Ein Defibrillator gibt einen kontrollierten Stromstoß an das Herz ab, um lebensbedrohliche Rhythmusstörungen wie Kammerflimmern zu beenden. Je nach Ausführung reicht das Spektrum vom automatisierten externen Defibrillator (AED) für Laien bis zum manuellen Gerät mit Monitor für Fachpersonal.",
+          "how": [
+            "Über zwei Klebeelektroden oder Paddles auf dem Brustkorb wird in Sekundenbruchteilen ein Stromimpuls durch das Herz geleitet. Dieser Impuls depolarisiert gleichzeitig einen großen Teil der Herzmuskelzellen und unterbricht so die chaotische elektrische Aktivität. Anschließend kann der natürliche Taktgeber des Herzens, der Sinusknoten, den Rhythmus wieder übernehmen.",
+            "Das Gerät analysiert das EKG über die Elektroden. Ein AED erkennt schockbare Rhythmen automatisch und führt Anwender per Sprachanweisung; bei manuellen Geräten entscheidet das Fachpersonal über Energie und Zeitpunkt. Moderne Geräte verwenden biphasische Impulse, die mit weniger Energie wirksam sind als ältere monophasische Technik.",
+            "Viele klinische Geräte vereinen weitere Funktionen: die synchronisierte Kardioversion bei anderen Rhythmusstörungen, eine externe Schrittmacherfunktion (Pacing) und eine Rückmeldung zur Qualität der Herzdruckmassage. Zusätzlich überwachen sie EKG, Sauerstoffsättigung und Blutdruck und dienen so zugleich als Transportmonitor."
+          ],
+          "use": [
+            "Notaufnahme und Intensivstation",
+            "Rettungsdienst",
+            "Notfallwagen auf Krankenhausstationen",
+            "Öffentliche Gebäude und Arztpraxen (AED)",
+            "Herzkatheterlabor und Kardiologie"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Notaufnahme, Intensivstation, Rettungsdienst, öffentliche Bereiche (AED)"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Tragbares Gerät; Wandhalterung oder Notfallwagen"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "Etwa 8 bis 10 Jahre; Akkus und Klebeelektroden deutlich kürzer"
+            }
+          ],
+          "procurement": [
+            "Definieren Sie den Gerätetyp nach den Anwendern: AED für Laien und Praxen, manuelle Geräte mit Monitor für Notaufnahme, Intensivstation und Rettungsdienst.",
+            "Prüfen Sie den Funktionsumfang (Kardioversion, Pacing, Feedback zur Herzdruckmassage, Monitoring) und ob Elektroden und Zubehör mit bereits vorhandenen Geräten kompatibel sind.",
+            "Kalkulieren Sie Verbrauchsmaterial mit Verfallsdatum ein: Klebeelektroden und Akkus müssen regelmäßig ersetzt werden; ein System zur Überwachung der Verfallsdaten ist sinnvoll.",
+            "Achten Sie auf Selbsttestfunktionen und Statusanzeigen, damit die Einsatzbereitschaft ohne manuelle Prüfung erkennbar ist.",
+            "Planen Sie regelmäßige Reanimationsschulungen und die Einweisung nach Medizinprodukte-Betreiberverordnung ein; der Standort sollte gut sichtbar und schnell erreichbar sein."
+          ],
+          "glossary": [
+            {
+              "term": "Kammerflimmern",
+              "text": "Unkoordinierte elektrische Aktivität der Herzkammern, bei der das Herz kein Blut mehr pumpt; eine Form des Kreislaufstillstands."
+            },
+            {
+              "term": "AED",
+              "text": "Automatisierter externer Defibrillator: analysiert den Herzrhythmus selbstständig und leitet Laien durch die Anwendung."
+            },
+            {
+              "term": "Kardioversion",
+              "text": "Synchronisierter, auf die Herzaktion abgestimmter Stromstoß zur Behandlung bestimmter Rhythmusstörungen wie Vorhofflimmern."
+            }
+          ],
+          "keywords": [
+            "AED",
+            "Defi",
+            "Defibrillation",
+            "Kardioversion",
+            "Reanimation",
+            "Schockgeber"
+          ]
+        },
+        "en": {
+          "name": "Defibrillator",
+          "subtitle": "Electric shock therapy for life-threatening arrhythmias",
+          "short": "A defibrillator delivers a controlled electric shock to the heart to terminate life-threatening arrhythmias such as ventricular fibrillation. Depending on the design, the range extends from automated external defibrillators (AED) for lay rescuers to manual devices with a monitor for professionals.",
+          "how": [
+            "Two adhesive electrode pads or paddles on the chest deliver a current pulse through the heart within a fraction of a second. This pulse depolarises a large proportion of the heart muscle cells simultaneously and thereby interrupts the chaotic electrical activity. The heart's natural pacemaker, the sinus node, can then take over the rhythm again.",
+            "The device analyses the ECG via the electrodes. An AED automatically recognises shockable rhythms and guides the user with voice prompts; with manual devices, trained staff decide on energy and timing. Modern devices use biphasic pulses, which are effective at lower energy than older monophasic technology.",
+            "Many clinical devices combine further functions: synchronised cardioversion for other arrhythmias, external pacing and feedback on the quality of chest compressions. In addition, they monitor ECG, oxygen saturation and blood pressure and thus also serve as a transport monitor."
+          ],
+          "use": [
+            "Emergency department and intensive care unit",
+            "Ambulance service",
+            "Emergency carts on hospital wards",
+            "Public buildings and medical practices (AED)",
+            "Cardiac catheterisation laboratory and cardiology"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Emergency department, intensive care unit, ambulance service, public areas (AED)"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Portable device; wall bracket or emergency cart"
+            },
+            {
+              "label": "Typical service life",
+              "value": "Around 8 to 10 years; batteries and electrode pads considerably shorter"
+            }
+          ],
+          "procurement": [
+            "Define the device type according to the users: AEDs for lay rescuers and practices, manual devices with a monitor for the emergency department, intensive care unit and ambulance service.",
+            "Check the range of functions (cardioversion, pacing, compression feedback, monitoring) and whether electrodes and accessories are compatible with devices already in use.",
+            "Budget for consumables with expiry dates: electrode pads and batteries must be replaced regularly; a system for tracking expiry dates is advisable.",
+            "Look for self-test functions and status indicators so that readiness for use is visible without manual checks.",
+            "Plan for regular resuscitation training and user instruction as required by the operator regulations for medical devices; the location should be clearly visible and quickly accessible."
+          ],
+          "glossary": [
+            {
+              "term": "Ventricular fibrillation",
+              "text": "Uncoordinated electrical activity of the heart's ventricles in which the heart no longer pumps blood; a form of cardiac arrest."
+            },
+            {
+              "term": "AED",
+              "text": "Automated external defibrillator: analyses the heart rhythm independently and guides lay rescuers through the procedure."
+            },
+            {
+              "term": "Cardioversion",
+              "text": "A synchronised shock timed to the heart's own activity, used to treat certain arrhythmias such as atrial fibrillation."
+            }
+          ],
+          "keywords": [
+            "AED",
+            "Defib",
+            "Defibrillation",
+            "Cardioversion",
+            "Resuscitation",
+            "CPR"
+          ]
+        },
+        "ar": {
+          "name": "جهاز إزالة الرجفان",
+          "subtitle": "صدمة كهربائية لاضطرابات نظم القلب المهددة للحياة",
+          "short": "يوجّه جهاز إزالة الرجفان صدمة كهربائية محكومة إلى القلب لإنهاء اضطرابات النظم المهددة للحياة مثل الرجفان البطيني. وحسب التصميم، يمتد النطاق من جهاز إزالة الرجفان الخارجي الآلي (AED) لغير المختصين إلى الأجهزة اليدوية المزودة بشاشة للكوادر الطبية.",
+          "how": [
+            "يُمرَّر عبر قطبين لاصقين أو مجدافين على الصدر نبض تيار كهربائي عبر القلب في جزء من الثانية. ويزيل هذا النبض استقطاب نسبة كبيرة من خلايا عضلة القلب في الوقت نفسه فيقطع النشاط الكهربائي الفوضوي. وبعدها يستطيع الناظم الطبيعي للقلب، وهو العقدة الجيبية، استعادة النظم من جديد.",
+            "يحلل الجهاز تخطيط القلب (ECG) عبر الأقطاب. ويتعرف جهاز AED تلقائياً على النظم القابلة للصدمة ويرشد المستخدم بتعليمات صوتية؛ أما في الأجهزة اليدوية فتقرر الكوادر المدربة الطاقة والتوقيت. وتستخدم الأجهزة الحديثة نبضات ثنائية الطور تكون فعالة بطاقة أقل من التقنية أحادية الطور القديمة.",
+            "تجمع العديد من الأجهزة السريرية وظائف إضافية: تقويم النظم المتزامن لاضطرابات أخرى، وتنظيم ضربات القلب الخارجي، والتغذية الراجعة حول جودة الضغط على الصدر. كما تراقب تخطيط القلب وتشبع الأكسجين وضغط الدم، فتعمل بذلك أيضاً كشاشة مراقبة أثناء النقل."
+          ],
+          "use": [
+            "قسم الطوارئ ووحدة العناية المركزة",
+            "خدمات الإسعاف",
+            "عربات الطوارئ في أجنحة المستشفى",
+            "المباني العامة والعيادات الطبية (AED)",
+            "مختبر القسطرة القلبية وقسم أمراض القلب"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "قسم الطوارئ، وحدة العناية المركزة، خدمات الإسعاف، الأماكن العامة (AED)"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز محمول؛ حامل جداري أو عربة طوارئ"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 8 إلى 10 سنوات؛ والبطاريات والأقطاب اللاصقة أقصر بكثير"
+            }
+          ],
+          "procurement": [
+            "حددوا نوع الجهاز وفق المستخدمين: أجهزة AED لغير المختصين والعيادات، وأجهزة يدوية مزودة بشاشة لقسم الطوارئ والعناية المركزة وخدمات الإسعاف.",
+            "تحققوا من نطاق الوظائف (تقويم النظم، تنظيم الضربات، التغذية الراجعة للضغط الصدري، المراقبة) ومن توافق الأقطاب والملحقات مع الأجهزة الموجودة أصلاً.",
+            "احسبوا تكلفة المستهلكات ذات تاريخ الصلاحية: يجب استبدال الأقطاب اللاصقة والبطاريات بانتظام؛ ويُنصح بنظام لمتابعة تواريخ الصلاحية.",
+            "احرصوا على وجود وظائف الاختبار الذاتي ومؤشرات الحالة بحيث تكون الجاهزية للاستخدام واضحة دون فحص يدوي.",
+            "خططوا لتدريب دوري على الإنعاش ولتعليم المستخدمين وفق لوائح تشغيل الأجهزة الطبية؛ ويجب أن يكون موقع الجهاز ظاهراً وسهل الوصول إليه بسرعة."
+          ],
+          "glossary": [
+            {
+              "term": "الرجفان البطيني",
+              "text": "نشاط كهربائي غير منسق في بطينَي القلب لا يضخ فيه القلب الدم؛ وهو شكل من أشكال توقف القلب."
+            },
+            {
+              "term": "AED",
+              "text": "جهاز إزالة الرجفان الخارجي الآلي: يحلل نظم القلب بنفسه ويرشد غير المختصين خلال الاستخدام."
+            },
+            {
+              "term": "تقويم النظم",
+              "text": "صدمة متزامنة مع نشاط القلب الذاتي لعلاج اضطرابات نظم معينة مثل الرجفان الأذيني."
+            }
+          ],
+          "keywords": [
+            "AED",
+            "مزيل الرجفان",
+            "إزالة الرجفان",
+            "تقويم النظم",
+            "الإنعاش",
+            "CPR"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dialysis-machine",
+      "category": "therapy",
+      "image": "assets/img/devices/dialysis-machine.svg",
+      "order": 4,
+      "i18n": {
+        "de": {
+          "name": "Dialysegerät",
+          "subtitle": "Blutreinigung als Nierenersatztherapie",
+          "short": "Ein Dialysegerät übernimmt bei Nierenversagen die Entgiftung und Entwässerung des Blutes. Das Blut wird außerhalb des Körpers durch einen Filter geleitet, in dem Abfallstoffe und überschüssiges Wasser entfernt werden.",
+          "how": [
+            "Eine Blutpumpe fördert das Blut über einen Gefäßzugang, meist einen Shunt am Arm oder einen Katheter, in einen extrakorporalen Kreislauf. Im Dialysator, einem Filter mit tausenden feinen Hohlfasern, strömt das Blut an einer halbdurchlässigen Membran entlang. Auf der anderen Seite der Membran fließt die Dialysierflüssigkeit in entgegengesetzter Richtung.",
+            "Harnpflichtige Substanzen wie Harnstoff und Kreatinin sowie überschüssige Elektrolyte wandern durch Diffusion in die Dialysierflüssigkeit. Überschüssiges Wasser wird durch einen gezielten Druckunterschied (Ultrafiltration) entzogen; die Menge wird exakt über das Gerät gesteuert. Das Gerät bereitet die Dialysierflüssigkeit aus aufbereitetem Wasser und Konzentraten in korrekter Zusammensetzung und Temperatur auf.",
+            "Zahlreiche Sensoren überwachen die Drücke im Blutkreislauf, Luftblasen, Blutleckagen und die Leitfähigkeit der Dialysierflüssigkeit. Eine Behandlung dauert in der Regel mehrere Stunden und wird typischerweise dreimal pro Woche durchgeführt. Bei der Hämodiafiltration wird zusätzlich ein Teil des Plasmawassers durch eine Substitutionslösung ersetzt, um auch größere Moleküle zu entfernen."
+          ],
+          "use": [
+            "Dialysezentren und nephrologische Praxen",
+            "Dialysestationen im Krankenhaus",
+            "Intensivstation (akutes Nierenversagen, kontinuierliche Verfahren)",
+            "Heimdialyse",
+            "Bestimmte Vergiftungsfälle"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Dialysezentrum, Nephrologie, Intensivstation"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Fahrbares Gerät am Behandlungsplatz; Anschluss an Reinstwasser und Abfluss erforderlich"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "Etwa 7 bis 10 Jahre bzw. nach Betriebsstunden"
+            }
+          ],
+          "procurement": [
+            "Planen Sie die Wasseraufbereitung mit ein: Dialysegeräte benötigen Reinstwasser nach den geltenden Normen (Umkehrosmose, Ringleitung) sowie Abflüsse an jedem Behandlungsplatz.",
+            "Klären Sie die benötigten Verfahren (Hämodialyse, Online-Hämodiafiltration, kontinuierliche Verfahren für die Intensivstation) und die Eignung für die Heimdialyse.",
+            "Berücksichtigen Sie die laufenden Kosten für Dialysatoren, Schlauchsysteme, Konzentrate und Desinfektionsmittel; sie übersteigen über die Nutzungsdauer oft den Gerätepreis.",
+            "Achten Sie auf Schnittstellen zur Dialyse-Dokumentationssoftware und auf standardisierte Bedienkonzepte, wenn mehrere Geräte betrieben werden.",
+            "Vereinbaren Sie einen Servicevertrag, regelmäßige technische Kontrollen und die mikrobiologische Überwachung der Wasserqualität; schulen Sie das Pflegepersonal strukturiert ein."
+          ],
+          "glossary": [
+            {
+              "term": "Dialysator",
+              "text": "Der eigentliche Filter mit halbdurchlässiger Membran, in dem der Stoffaustausch zwischen Blut und Dialysierflüssigkeit stattfindet."
+            },
+            {
+              "term": "Shunt",
+              "text": "Operativ angelegte Verbindung zwischen Arterie und Vene am Arm, die einen dauerhaften Gefäßzugang mit hohem Blutfluss ermöglicht."
+            },
+            {
+              "term": "Ultrafiltration",
+              "text": "Entzug von Wasser aus dem Blut durch einen Druckunterschied über die Membran."
+            }
+          ],
+          "keywords": [
+            "Dialyse",
+            "Hämodialyse",
+            "Nierenersatztherapie",
+            "Hämodiafiltration",
+            "HDF",
+            "Blutwäsche"
+          ]
+        },
+        "en": {
+          "name": "Dialysis Machine",
+          "subtitle": "Blood purification as renal replacement therapy",
+          "short": "In kidney failure, a dialysis machine takes over the removal of toxins and excess water from the blood. The blood is routed outside the body through a filter in which waste products and surplus fluid are removed.",
+          "how": [
+            "A blood pump draws blood via a vascular access, usually a shunt in the arm or a catheter, into an extracorporeal circuit. In the dialyser, a filter containing thousands of fine hollow fibres, the blood flows along a semi-permeable membrane. On the other side of the membrane, the dialysis fluid flows in the opposite direction.",
+            "Waste products such as urea and creatinine as well as excess electrolytes pass into the dialysis fluid by diffusion. Excess water is removed by a controlled pressure difference (ultrafiltration), with the amount precisely regulated by the machine. The machine prepares the dialysis fluid from purified water and concentrates at the correct composition and temperature.",
+            "Numerous sensors monitor the pressures in the blood circuit, air bubbles, blood leaks and the conductivity of the dialysis fluid. A treatment usually lasts several hours and is typically performed three times a week. In haemodiafiltration, part of the plasma water is additionally replaced with a substitution solution in order to remove larger molecules as well."
+          ],
+          "use": [
+            "Dialysis centres and nephrology practices",
+            "Hospital dialysis units",
+            "Intensive care unit (acute kidney failure, continuous procedures)",
+            "Home dialysis",
+            "Certain cases of poisoning"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dialysis centre, nephrology, intensive care unit"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Mobile unit at the treatment station; purified water supply and drain required"
+            },
+            {
+              "label": "Typical service life",
+              "value": "Around 7 to 10 years or based on operating hours"
+            }
+          ],
+          "procurement": [
+            "Plan the water treatment as part of the project: dialysis machines require purified water according to the applicable standards (reverse osmosis, ring main) and drains at every treatment station.",
+            "Clarify the required procedures (haemodialysis, online haemodiafiltration, continuous procedures for intensive care) and suitability for home dialysis.",
+            "Consider the running costs of dialysers, tubing sets, concentrates and disinfectants; over the service life they often exceed the purchase price of the machine.",
+            "Pay attention to interfaces with dialysis documentation software and to standardised operating concepts when several machines are run.",
+            "Agree on a service contract, regular technical inspections and microbiological monitoring of water quality, and provide structured training for nursing staff."
+          ],
+          "glossary": [
+            {
+              "term": "Dialyser",
+              "text": "The actual filter with a semi-permeable membrane in which substances are exchanged between blood and dialysis fluid."
+            },
+            {
+              "term": "Shunt",
+              "text": "A surgically created connection between an artery and a vein in the arm that provides a permanent vascular access with high blood flow."
+            },
+            {
+              "term": "Ultrafiltration",
+              "text": "Removal of water from the blood by a pressure difference across the membrane."
+            }
+          ],
+          "keywords": [
+            "Dialysis",
+            "Haemodialysis",
+            "Renal replacement therapy",
+            "Haemodiafiltration",
+            "HDF",
+            "Kidney machine"
+          ]
+        },
+        "ar": {
+          "name": "جهاز غسيل الكلى",
+          "subtitle": "تنقية الدم كعلاج بديل للكلى",
+          "short": "يتولى جهاز غسيل الكلى عند الفشل الكلوي إزالة السموم والماء الزائد من الدم. ويُمرَّر الدم خارج الجسم عبر مرشح تُزال فيه الفضلات والسوائل الفائضة.",
+          "how": [
+            "تسحب مضخة الدم الدم عبر وصول وعائي، غالباً ما يكون وصلة شريانية وريدية (شنت) في الذراع أو قسطرة، إلى دارة خارج الجسم. وفي الديالة، وهي مرشح يحتوي على آلاف الألياف المجوفة الدقيقة، يتدفق الدم على طول غشاء شبه نفوذ. وعلى الجانب الآخر من الغشاء يتدفق سائل الديلزة في الاتجاه المعاكس.",
+            "تنتقل الفضلات مثل اليوريا والكرياتينين والشوارد الزائدة إلى سائل الديلزة بالانتشار. ويُزال الماء الزائد عبر فرق ضغط محكوم (الترشيح الفائق)، ويضبط الجهاز الكمية بدقة. ويحضّر الجهاز سائل الديلزة من ماء منقّى ومركّزات بالتركيب ودرجة الحرارة الصحيحين.",
+            "تراقب مستشعرات عديدة الضغوط في دارة الدم وفقاعات الهواء وتسرب الدم وناقلية سائل الديلزة. وتستغرق الجلسة عادةً عدة ساعات وتُجرى نموذجياً ثلاث مرات في الأسبوع. وفي الديلزة الدموية الترشيحية يُستبدل إضافياً جزء من ماء البلازما بمحلول تعويضي لإزالة الجزيئات الأكبر أيضاً."
+          ],
+          "use": [
+            "مراكز غسيل الكلى وعيادات أمراض الكلى",
+            "وحدات غسيل الكلى في المستشفيات",
+            "وحدة العناية المركزة (الفشل الكلوي الحاد، الإجراءات المستمرة)",
+            "غسيل الكلى المنزلي",
+            "حالات تسمم معينة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "مركز غسيل الكلى، قسم أمراض الكلى، وحدة العناية المركزة"
+            },
+            {
+              "label": "المساحة المطلوبة",
+              "value": "جهاز متنقل عند موضع العلاج؛ يلزم إمداد بالماء المنقّى ومصرف"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 7 إلى 10 سنوات أو حسب ساعات التشغيل"
+            }
+          ],
+          "procurement": [
+            "خططوا لمعالجة المياه ضمن المشروع: تحتاج أجهزة غسيل الكلى إلى ماء منقّى وفق المعايير المعمول بها (التناضح العكسي، شبكة أنابيب حلقية) ومصارف عند كل موضع علاج.",
+            "وضّحوا الإجراءات المطلوبة (الديلزة الدموية، الديلزة الدموية الترشيحية المباشرة، الإجراءات المستمرة للعناية المركزة) ومدى الملاءمة لغسيل الكلى المنزلي.",
+            "ضعوا في الاعتبار التكاليف الجارية للمرشحات وأطقم الأنابيب والمركّزات والمطهرات؛ فهي غالباً ما تتجاوز سعر الجهاز على مدى عمره التشغيلي.",
+            "انتبهوا إلى الواجهات مع برامج توثيق غسيل الكلى وإلى مفاهيم التشغيل الموحدة عند تشغيل عدة أجهزة.",
+            "اتفقوا على عقد صيانة وفحوصات فنية دورية ومراقبة ميكروبيولوجية لجودة الماء، ودرّبوا طاقم التمريض تدريباً منظماً."
+          ],
+          "glossary": [
+            {
+              "term": "الديالة (المرشح)",
+              "text": "المرشح الفعلي ذو الغشاء شبه النفوذ الذي يتم فيه تبادل المواد بين الدم وسائل الديلزة."
+            },
+            {
+              "term": "الشنت (الوصلة الشريانية الوريدية)",
+              "text": "وصلة تُنشأ جراحياً بين شريان ووريد في الذراع لتوفير وصول وعائي دائم بتدفق دم مرتفع."
+            },
+            {
+              "term": "الترشيح الفائق",
+              "text": "إزالة الماء من الدم عبر فرق ضغط عبر الغشاء."
+            }
+          ],
+          "keywords": [
+            "غسيل الكلى",
+            "الديلزة الدموية",
+            "العلاج البديل للكلى",
+            "الديلزة الدموية الترشيحية",
+            "HDF",
+            "الكلية الاصطناعية"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dental-treatment-unit",
+      "category": "dental",
+      "image": "assets/img/devices/dental-treatment-unit.svg",
+      "order": 1,
+      "i18n": {
+        "de": {
+          "name": "Dentale Behandlungseinheit",
+          "subtitle": "Zentraler Arbeitsplatz der Zahnarztpraxis",
+          "short": "Die Behandlungseinheit vereint Patientenstuhl, Instrumente, Wasser- und Luftversorgung, Absaugung und Beleuchtung an einem Arbeitsplatz. Sie ist das Herzstück jedes zahnärztlichen Behandlungszimmers.",
+          "how": [
+            "Eine Behandlungseinheit besteht aus einem elektrisch verstellbaren Patientenstuhl, einem Arztelement mit Instrumentenablage, einem Assistenzelement mit Absaugung sowie einer Wassereinheit mit Speibecken und Mundspülbecher. Über ein Fußpedal steuert die Behandlerin oder der Behandler Drehzahl und Funktionen der Instrumente, ohne die Hände einsetzen zu müssen.",
+            "Die Instrumente – Turbine, Mikromotor mit Winkelstück, Mehrfunktionsspritze und Ultraschall-Scaler – werden über Schläuche mit Druckluft, Wasser und Strom versorgt. Die druckluftbetriebene Turbine erreicht sehr hohe Drehzahlen, der elektrische Mikromotor arbeitet mit höherem Drehmoment bei niedrigerer Drehzahl. Ein Sprühnebel aus Wasser und Luft kühlt den Zahn beim Bohren.",
+            "Das Absaugsystem entfernt Speichel, Wasser und Aerosole aus dem Mund des Patienten und leitet sie über einen Amalgamabscheider in den Abfluss. Integrierte Entkeimungsanlagen halten die wasserführenden Leitungen hygienisch, da stehendes Wasser sonst Biofilm bilden würde. Moderne Einheiten besitzen zudem eine LED-Behandlungsleuchte und Touch-Bedienfelder mit gespeicherten Stuhlpositionen."
+          ],
+          "use": [
+            "Allgemeine Zahnheilkunde und Prophylaxe",
+            "Füllungs- und Kronenbehandlungen",
+            "Endodontie (Wurzelkanalbehandlung)",
+            "Kieferorthopädie und Kinderzahnheilkunde",
+            "Oralchirurgische Eingriffe in der Praxis"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Zahnarztpraxen, Zahnkliniken, Kieferorthopädie, MKG-Chirurgie"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Behandlungszimmer mit Anschlüssen für Wasser, Druckluft, Abwasser und Strom; Installationsplan vorab beachten"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "etwa 10–15 Jahre bei regelmäßiger Wartung"
+            }
+          ],
+          "procurement": [
+            "Klären Sie vor dem Kauf die Installationsvoraussetzungen: Anschlüsse für Wasser, Druckluft, Vakuum/Absaugung, Abwasser und Strom müssen im Boden oder in der Wand exakt an der richtigen Position liegen.",
+            "Wählen Sie die Instrumentenausstattung nach Ihrem Behandlungsspektrum: Anzahl der Mikromotoren und Turbinen, Ultraschall-Scaler, Polymerisationslampe und gegebenenfalls Endomotor-Funktion.",
+            "Achten Sie auf Hygienefunktionen wie automatische Spülprogramme, Wasserentkeimung und abnehmbare, thermodesinfizierbare Teile – sie erleichtern die Einhaltung der Hygienevorgaben erheblich.",
+            "Ein Amalgamabscheider ist in vielen Ländern gesetzlich vorgeschrieben; prüfen Sie Zulassung, Wartungsintervall und Entsorgungswege.",
+            "Vergleichen Sie Servicevertrag, Reaktionszeit des technischen Dienstes und Ersatzteilverfügbarkeit – ein Ausfall der Einheit bedeutet den Stillstand des gesamten Behandlungszimmers."
+          ],
+          "glossary": [
+            {
+              "term": "Turbine",
+              "text": "Druckluftbetriebenes Handstück mit sehr hoher Drehzahl zum Präparieren von Zahnhartsubstanz."
+            },
+            {
+              "term": "Amalgamabscheider",
+              "text": "Filtereinheit im Abwasserweg, die quecksilberhaltige Amalgamreste zurückhält, damit sie nicht in die Kanalisation gelangen."
+            },
+            {
+              "term": "Winkelstück",
+              "text": "Aufsatz für den Mikromotor, der die Rotation auf das Bohrinstrument überträgt; es gibt Varianten mit Übersetzung oder Untersetzung."
+            }
+          ],
+          "keywords": [
+            "Behandlungsstuhl",
+            "Dentaleinheit",
+            "Zahnarztstuhl",
+            "Turbine",
+            "Absaugung",
+            "Dental Unit"
+          ]
+        },
+        "en": {
+          "name": "Dental Treatment Unit",
+          "subtitle": "The central workstation of the dental practice",
+          "short": "The treatment unit combines the patient chair, instruments, water and air supply, suction and lighting in a single workstation. It is the heart of every dental treatment room.",
+          "how": [
+            "A treatment unit consists of an electrically adjustable patient chair, a dentist's element with instrument holders, an assistant's element with suction, and a water unit with cuspidor and rinsing cup. A foot pedal lets the practitioner control instrument speed and functions without using their hands.",
+            "The instruments – turbine, micromotor with contra-angle handpiece, multifunction syringe and ultrasonic scaler – are supplied with compressed air, water and electricity through hoses. The air-driven turbine reaches very high rotational speeds, while the electric micromotor delivers higher torque at lower speed. A spray of water and air cools the tooth during drilling.",
+            "The suction system removes saliva, water and aerosols from the patient's mouth and passes them through an amalgam separator into the drain. Integrated water disinfection systems keep the water lines hygienic, as standing water would otherwise form biofilm. Modern units also feature an LED operating light and touch panels with stored chair positions."
+          ],
+          "use": [
+            "General dentistry and prophylaxis",
+            "Filling and crown treatments",
+            "Endodontics (root canal treatment)",
+            "Orthodontics and paediatric dentistry",
+            "Oral surgery procedures in the practice"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dental practices, dental clinics, orthodontics, oral and maxillofacial surgery"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Treatment room with connections for water, compressed air, waste water and electricity; check the installation plan in advance"
+            },
+            {
+              "label": "Typical service life",
+              "value": "around 10–15 years with regular maintenance"
+            }
+          ],
+          "procurement": [
+            "Clarify the installation requirements before purchase: connections for water, compressed air, vacuum/suction, waste water and electricity must be located in the floor or wall at exactly the right position.",
+            "Choose the instrument configuration according to your range of treatments: number of micromotors and turbines, ultrasonic scaler, curing light and, if required, an endodontic motor function.",
+            "Look for hygiene features such as automatic flushing programs, water line disinfection and removable, thermally disinfectable parts – they make compliance with hygiene requirements considerably easier.",
+            "An amalgam separator is a legal requirement in many countries; check its approval, maintenance interval and disposal routes.",
+            "Compare service contracts, technical response times and spare-parts availability – if the unit fails, the entire treatment room is out of action."
+          ],
+          "glossary": [
+            {
+              "term": "Turbine",
+              "text": "Air-driven handpiece with a very high rotational speed used to prepare hard tooth tissue."
+            },
+            {
+              "term": "Amalgam separator",
+              "text": "Filter unit in the waste-water line that retains mercury-containing amalgam residues so they do not enter the sewer system."
+            },
+            {
+              "term": "Contra-angle handpiece",
+              "text": "Attachment for the micromotor that transfers rotation to the bur; available with speed-increasing or speed-reducing gearing."
+            }
+          ],
+          "keywords": [
+            "dental chair",
+            "dental unit",
+            "treatment centre",
+            "turbine",
+            "suction",
+            "handpiece"
+          ]
+        },
+        "ar": {
+          "name": "وحدة علاج الأسنان",
+          "subtitle": "محطة العمل المركزية في عيادة الأسنان",
+          "short": "تجمع وحدة علاج الأسنان بين كرسي المريض والأدوات وإمداد الماء والهواء والشفط والإضاءة في محطة عمل واحدة، وهي قلب كل غرفة علاج في عيادة الأسنان.",
+          "how": [
+            "تتكون وحدة العلاج من كرسي مريض قابل للتعديل كهربائياً، ووحدة الطبيب مع حامل الأدوات، ووحدة المساعد مع نظام الشفط، إضافة إلى وحدة الماء مع حوض البصق وكوب المضمضة. ويتحكم الطبيب عبر دواسة قدم في سرعة دوران الأدوات ووظائفها دون الحاجة إلى استخدام يديه.",
+            "تُزوَّد الأدوات – التوربين، والمحرك الدقيق مع القبضة الزاوية، والمحقنة متعددة الوظائف، وجهاز التقليح بالموجات فوق الصوتية – بالهواء المضغوط والماء والكهرباء عبر خراطيم. يصل التوربين الذي يعمل بالهواء المضغوط إلى سرعات دوران عالية جداً، بينما يعمل المحرك الدقيق الكهربائي بعزم دوران أعلى وسرعة أقل. ويعمل رذاذ من الماء والهواء على تبريد السن أثناء الحفر.",
+            "يزيل نظام الشفط اللعاب والماء والرذاذ (الإيروسول) من فم المريض ويصرفها عبر فاصل الملغم إلى المجاري. وتحافظ أنظمة التطهير المدمجة على نظافة خطوط المياه، لأن الماء الراكد قد يكوّن طبقة حيوية (بيوفيلم). كما تحتوي الوحدات الحديثة على مصباح علاج بتقنية LED ولوحات تحكم لمسية مع أوضاع محفوظة للكرسي."
+          ],
+          "use": [
+            "طب الأسنان العام والوقاية",
+            "علاجات الحشوات والتيجان",
+            "علاج الجذور (لب الأسنان)",
+            "تقويم الأسنان وطب أسنان الأطفال",
+            "جراحة الفم في العيادة"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "عيادات الأسنان، مستشفيات الأسنان، تقويم الأسنان، جراحة الفم والوجه والفكين"
+            },
+            {
+              "label": "متطلبات المساحة",
+              "value": "غرفة علاج مع توصيلات للماء والهواء المضغوط والصرف والكهرباء؛ يجب مراعاة مخطط التركيب مسبقاً"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 10 إلى 15 عاماً مع الصيانة المنتظمة"
+            }
+          ],
+          "procurement": [
+            "وضّح متطلبات التركيب قبل الشراء: يجب أن تكون توصيلات الماء والهواء المضغوط والتفريغ/الشفط والصرف والكهرباء في الأرضية أو الجدار في الموضع الصحيح تماماً.",
+            "اختر تجهيزات الأدوات وفق نطاق العلاجات لديك: عدد المحركات الدقيقة والتوربينات، وجهاز التقليح بالموجات فوق الصوتية، ومصباح التصليب الضوئي، وعند الحاجة وظيفة محرك علاج الجذور.",
+            "احرص على وجود وظائف النظافة مثل برامج الشطف التلقائي وتطهير خطوط المياه والأجزاء القابلة للفك والتطهير الحراري – فهي تسهّل كثيراً الالتزام بمتطلبات النظافة.",
+            "فاصل الملغم مطلوب قانونياً في كثير من الدول؛ تحقق من اعتماده وفترة صيانته وطرق التخلص من مخلفاته.",
+            "قارن بين عقود الخدمة وزمن استجابة الدعم الفني وتوافر قطع الغيار – فتعطل الوحدة يعني توقف غرفة العلاج بأكملها."
+          ],
+          "glossary": [
+            {
+              "term": "التوربين",
+              "text": "قبضة تعمل بالهواء المضغوط بسرعة دوران عالية جداً لتحضير الأنسجة الصلبة للسن."
+            },
+            {
+              "term": "فاصل الملغم",
+              "text": "وحدة ترشيح في مسار الصرف تحتجز بقايا الملغم المحتوية على الزئبق حتى لا تصل إلى شبكة الصرف الصحي."
+            },
+            {
+              "term": "القبضة الزاوية",
+              "text": "ملحق للمحرك الدقيق ينقل الدوران إلى أداة الحفر؛ وتوجد منها أنواع بنسب تسريع أو تخفيض."
+            }
+          ],
+          "keywords": [
+            "كرسي الأسنان",
+            "وحدة الأسنان",
+            "كرسي طبيب الأسنان",
+            "توربين",
+            "شفط",
+            "dental unit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "panoramic-xray",
+      "category": "dental",
+      "image": "assets/img/devices/panoramic-xray.svg",
+      "order": 2,
+      "i18n": {
+        "de": {
+          "name": "Panoramaröntgengerät (OPG)",
+          "subtitle": "Übersichtsaufnahme beider Kiefer in einem Bild",
+          "short": "Das Panoramaröntgengerät erstellt eine Übersichtsaufnahme von Ober- und Unterkiefer, allen Zähnen, Kiefergelenken und Kieferhöhlen in einem einzigen Bild. Es ist die wichtigste Übersichtsdiagnostik in der Zahnmedizin.",
+          "how": [
+            "Beim Panoramaröntgen (Orthopantomogramm, kurz OPG) rotieren Röntgenröhre und Bilddetektor während der Aufnahme gemeinsam um den Kopf des Patienten. Der schmale, fächerförmige Röntgenstrahl tastet dabei den Zahnbogen entlang einer vordefinierten Bahn ab. Nur die Strukturen in dieser Schichtebene werden scharf abgebildet, davor und dahinter liegende Bereiche verwischen.",
+            "Der Patient steht oder sitzt im Gerät, beißt auf einen Aufbissstab und wird über Lichtlinien sowie Stirn- und Schläfenstützen exakt positioniert. Die Aufnahme dauert nur wenige Sekunden; der digitale Detektor wandelt die Strahlung direkt in ein Bild um, das sofort am Bildschirm erscheint. Die Strahlendosis ist deutlich geringer als bei einer Serie von Einzelzahnaufnahmen des gesamten Gebisses.",
+            "Viele Geräte lassen sich um einen Fernröntgenarm (Ceph) für kieferorthopädische Schädelaufnahmen oder um eine 3D-Funktion (DVT) erweitern. Die digitale Volumentomographie erzeugt dreidimensionale Datensätze, etwa für die Implantatplanung."
+          ],
+          "use": [
+            "Übersichtsdiagnostik des gesamten Gebisses",
+            "Beurteilung von Weisheitszähnen und verlagerten Zähnen",
+            "Implantat- und Prothetikplanung",
+            "Kieferorthopädische Befundung",
+            "Erkennung von Zysten, Tumoren und Knochenveränderungen im Kiefer"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Zahnarztpraxen, Kieferorthopädie, MKG-Chirurgie, Zahnkliniken"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Eigener Röntgenraum oder abgeschirmte Nische; Strahlenschutzanforderungen nach nationalem Recht"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "etwa 10–15 Jahre"
+            }
+          ],
+          "procurement": [
+            "Entscheiden Sie frühzeitig, ob Sie eine reine 2D-Panoramafunktion benötigen oder ein aufrüstbares Gerät mit Fernröntgen (Ceph) oder 3D-Funktion (DVT) – Nachrüstungen sind oft teurer als eine Kombilösung von Beginn an.",
+            "Planen Sie den Strahlenschutz: Der Aufstellraum benötigt in der Regel eine bauliche Abschirmung, eine Sachverständigenprüfung sowie eine Anzeige oder Genehmigung bei der zuständigen Behörde.",
+            "Prüfen Sie die Schnittstellen zur Praxissoftware und zum Bildarchiv (DICOM, PACS-Anbindung), damit Bilder ohne Medienbrüche gespeichert und weitergegeben werden können.",
+            "Berücksichtigen Sie laufende Pflichten wie Konstanzprüfungen, wiederkehrende Sachverständigenprüfungen, die Fachkunde im Strahlenschutz für das Personal und die Dokumentation der Aufnahmen.",
+            "Achten Sie auf Positionierhilfen, Kinderprogramme und Aufnahmeprogramme mit reduzierter Dosis – sie verbessern Bildqualität und Strahlenschutz im Alltag."
+          ],
+          "glossary": [
+            {
+              "term": "OPG / Orthopantomogramm",
+              "text": "Panoramaschichtaufnahme des gesamten Kiefers, bei der Röhre und Detektor um den Kopf rotieren."
+            },
+            {
+              "term": "DVT",
+              "text": "Digitale Volumentomographie – dreidimensionales Röntgenverfahren für Kiefer und Gesichtsschädel mit kegelförmigem Strahl."
+            },
+            {
+              "term": "Fernröntgen (Ceph)",
+              "text": "Seitliche Schädelaufnahme zur kieferorthopädischen Vermessung des Schädels und der Kieferlage."
+            }
+          ],
+          "keywords": [
+            "OPG",
+            "Orthopantomogramm",
+            "Panoramaschichtaufnahme",
+            "Dentalröntgen",
+            "DVT",
+            "Ceph"
+          ]
+        },
+        "en": {
+          "name": "Panoramic X-ray Unit (OPG)",
+          "subtitle": "Overview image of both jaws in a single exposure",
+          "short": "The panoramic X-ray unit produces an overview image of the upper and lower jaw, all teeth, the temporomandibular joints and the maxillary sinuses in a single image. It is the most important overview examination in dentistry.",
+          "how": [
+            "In panoramic radiography (orthopantomography, OPG for short), the X-ray tube and the image detector rotate together around the patient's head during the exposure. The narrow, fan-shaped X-ray beam scans the dental arch along a predefined path. Only structures within this focal layer are sharply depicted, while areas in front of and behind it are blurred.",
+            "The patient stands or sits in the unit, bites on a bite block and is positioned precisely using light lines and forehead and temple supports. The exposure takes only a few seconds; the digital detector converts the radiation directly into an image that appears on screen immediately. The radiation dose is considerably lower than for a series of single-tooth radiographs of the full dentition.",
+            "Many units can be extended with a cephalometric arm (ceph) for orthodontic skull radiographs or with a 3D function (CBCT). Cone beam computed tomography produces three-dimensional data sets, for example for implant planning."
+          ],
+          "use": [
+            "Overview diagnostics of the entire dentition",
+            "Assessment of wisdom teeth and impacted teeth",
+            "Implant and prosthetic planning",
+            "Orthodontic assessment",
+            "Detection of cysts, tumours and bone changes in the jaws"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dental practices, orthodontics, oral and maxillofacial surgery, dental clinics"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Dedicated X-ray room or shielded alcove; radiation protection requirements under national law"
+            },
+            {
+              "label": "Typical service life",
+              "value": "around 10–15 years"
+            }
+          ],
+          "procurement": [
+            "Decide early whether you need a pure 2D panoramic function or an upgradable unit with cephalometric (ceph) or 3D (CBCT) capability – retrofitting is often more expensive than a combined solution from the outset.",
+            "Plan radiation protection: the installation room usually requires structural shielding, an expert inspection and notification to or approval from the competent authority.",
+            "Check the interfaces to your practice management software and image archive (DICOM, PACS connection) so that images can be stored and shared without media breaks.",
+            "Account for ongoing obligations such as constancy tests, recurring expert inspections, staff qualification in radiation protection and documentation of exposures.",
+            "Look for positioning aids, paediatric programs and low-dose exposure programs – they improve image quality and radiation protection in daily use."
+          ],
+          "glossary": [
+            {
+              "term": "OPG / Orthopantomogram",
+              "text": "Panoramic tomographic image of the entire jaw in which the tube and detector rotate around the head."
+            },
+            {
+              "term": "CBCT",
+              "text": "Cone beam computed tomography – a three-dimensional X-ray technique for the jaws and facial skeleton using a cone-shaped beam."
+            },
+            {
+              "term": "Cephalometric radiograph (ceph)",
+              "text": "Lateral skull radiograph used for orthodontic measurement of the skull and jaw relationship."
+            }
+          ],
+          "keywords": [
+            "OPG",
+            "orthopantomogram",
+            "panoramic radiograph",
+            "dental X-ray",
+            "CBCT",
+            "ceph"
+          ]
+        },
+        "ar": {
+          "name": "جهاز الأشعة البانورامية (OPG)",
+          "subtitle": "صورة شاملة للفكين في لقطة واحدة",
+          "short": "ينتج جهاز الأشعة البانورامية صورة شاملة للفكين العلوي والسفلي وجميع الأسنان والمفاصل الصدغية الفكية والجيوب الفكية في صورة واحدة، وهو أهم فحص تشخيصي شامل في طب الأسنان.",
+          "how": [
+            "في التصوير البانورامي (الأورثوبانتوموغرام، اختصاراً OPG) يدور أنبوب الأشعة السينية وكاشف الصورة معاً حول رأس المريض أثناء التصوير. ويمسح شعاع الأشعة الضيق المروحي الشكل القوس السني على طول مسار محدد مسبقاً. ولا تظهر بوضوح سوى البنى الواقعة في هذا المستوى الطبقي، بينما تبدو المناطق الأمامية والخلفية ضبابية.",
+            "يقف المريض أو يجلس داخل الجهاز، ويعض على قضيب عض، ويتم تثبيت وضعيته بدقة بواسطة خطوط ضوئية ومساند للجبهة والصدغين. ولا يستغرق التصوير سوى ثوانٍ قليلة؛ إذ يحوّل الكاشف الرقمي الأشعة مباشرة إلى صورة تظهر فوراً على الشاشة. وتكون جرعة الإشعاع أقل بكثير من سلسلة صور فردية لكامل الأسنان.",
+            "يمكن توسيع كثير من الأجهزة بذراع للتصوير الرأسي الجانبي (Ceph) لصور الجمجمة في تقويم الأسنان، أو بوظيفة ثلاثية الأبعاد (CBCT). وينتج التصوير المقطعي المحوسب بالحزمة المخروطية بيانات ثلاثية الأبعاد تُستخدم مثلاً في تخطيط الزراعة."
+          ],
+          "use": [
+            "التشخيص الشامل لكامل الأسنان",
+            "تقييم أضراس العقل والأسنان المنطمرة",
+            "تخطيط الزراعة والتعويضات السنية",
+            "التشخيص في تقويم الأسنان",
+            "اكتشاف الأكياس والأورام وتغيرات العظم في الفكين"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "IIb"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "عيادات الأسنان، تقويم الأسنان، جراحة الفم والوجه والفكين، مستشفيات الأسنان"
+            },
+            {
+              "label": "متطلبات المساحة",
+              "value": "غرفة أشعة مستقلة أو ركن محمي؛ متطلبات الوقاية من الإشعاع وفق التشريعات الوطنية"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 10 إلى 15 عاماً"
+            }
+          ],
+          "procurement": [
+            "قرر مبكراً ما إذا كنت تحتاج إلى وظيفة بانورامية ثنائية الأبعاد فقط أم إلى جهاز قابل للترقية بذراع التصوير الرأسي (Ceph) أو وظيفة ثلاثية الأبعاد (CBCT) – فالترقية اللاحقة غالباً أغلى من الحل المدمج منذ البداية.",
+            "خطط للوقاية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها.",
+            "تحقق من الواجهات مع برنامج إدارة العيادة وأرشيف الصور (DICOM، الربط بنظام PACS) حتى يمكن تخزين الصور ومشاركتها دون انقطاع في تدفق البيانات.",
+            "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية وتأهيل الكادر في الوقاية من الإشعاع وتوثيق الصور.",
+            "احرص على وجود أدوات المساعدة في تحديد الوضعية وبرامج الأطفال وبرامج التصوير بجرعة منخفضة – فهي تحسّن جودة الصورة والوقاية من الإشعاع في الاستخدام اليومي."
+          ],
+          "glossary": [
+            {
+              "term": "OPG / الأورثوبانتوموغرام",
+              "text": "صورة طبقية بانورامية لكامل الفك يدور فيها الأنبوب والكاشف حول الرأس."
+            },
+            {
+              "term": "CBCT",
+              "text": "التصوير المقطعي المحوسب بالحزمة المخروطية – تقنية أشعة ثلاثية الأبعاد للفكين وعظام الوجه بشعاع مخروطي الشكل."
+            },
+            {
+              "term": "التصوير الرأسي الجانبي (Ceph)",
+              "text": "صورة جانبية للجمجمة لقياس الجمجمة ووضعية الفكين في تقويم الأسنان."
+            }
+          ],
+          "keywords": [
+            "OPG",
+            "أورثوبانتوموغرام",
+            "أشعة بانورامية",
+            "أشعة الأسنان",
+            "CBCT",
+            "Ceph"
+          ]
+        }
+      }
+    },
+    {
+      "id": "intraoral-scanner",
+      "category": "dental",
+      "image": "assets/img/devices/intraoral-scanner.svg",
+      "order": 3,
+      "i18n": {
+        "de": {
+          "name": "Intraoralscanner",
+          "subtitle": "Digitale Abformung statt Abdrucklöffel",
+          "short": "Der Intraoralscanner erfasst Zähne und Zahnfleisch optisch und erzeugt daraus ein dreidimensionales digitales Modell. Er ersetzt die klassische Abformung mit Abdruckmasse.",
+          "how": [
+            "Der handgeführte Scanner projiziert strukturiertes Licht oder Lichtmuster auf die Zahnoberflächen und nimmt die Reflexionen mit einer oder mehreren Kameras auf. Aus Tausenden von Einzelbildern pro Sekunde berechnet die Software in Echtzeit eine dreidimensionale Punktwolke und setzt sie zu einem geschlossenen Oberflächenmodell zusammen. Der Behandler sieht den Fortschritt live am Bildschirm und kann fehlende Bereiche gezielt nachscannen.",
+            "Das fertige Modell wird in einem offenen Format wie STL oder in einem herstellerspezifischen Format gespeichert. Es dient als Grundlage für die computergestützte Konstruktion (CAD) und Fertigung (CAM) von Kronen, Brücken, Schienen oder kieferorthopädischen Apparaturen – entweder direkt in der Praxis oder im Dentallabor.",
+            "Viele Scanner bieten Zusatzfunktionen wie die farbige Darstellung, die Kariesdetektion mittels Nahinfrarotlicht oder den Vergleich von Scans über die Zeit zur Verlaufskontrolle. Da keine Abformmasse nötig ist, ist das Verfahren für Patienten angenehmer, insbesondere bei starkem Würgereiz."
+          ],
+          "use": [
+            "Digitale Abformung für Kronen, Brücken und Inlays",
+            "Planung und Verlaufskontrolle in der Kieferorthopädie",
+            "Implantatprothetik mit Scanbodies",
+            "Herstellung von Aufbissschienen und Provisorien",
+            "Patientenaufklärung mit 3D-Darstellung"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Zahnarztpraxen, Kieferorthopädie, Implantologie, Dentallabore"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Fahrbarer Wagen oder Laptop-Variante am Behandlungsplatz; kein eigener Raum nötig"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "etwa 5–8 Jahre; Software-Updates verlängern die Nutzbarkeit"
+            }
+          ],
+          "procurement": [
+            "Prüfen Sie, ob der Scanner offene Dateiformate (z. B. STL, PLY, OBJ) ohne Zusatzgebühren exportiert, damit Sie frei zwischen Laboren und Fertigungssystemen wählen können.",
+            "Klären Sie das Lizenzmodell: Manche Systeme verlangen jährliche Software- oder Cloud-Gebühren, andere sind nach dem Kauf uneingeschränkt nutzbar – rechnen Sie die Gesamtkosten über mehrere Jahre.",
+            "Testen Sie den Scanner im Praxisalltag: Scangeschwindigkeit, Größe und Gewicht des Handstücks sowie die Erfassung schwieriger Bereiche wie tiefer Präparationsgrenzen entscheiden über die Akzeptanz im Team.",
+            "Achten Sie auf die Hygiene: Die Scannerspitze muss autoklavierbar sein oder als Einwegartikel vorliegen; kalkulieren Sie die Verbrauchskosten.",
+            "Planen Sie Schulungen für Behandler und Assistenz ein und stellen Sie die Anbindung an Praxissoftware, Labor und gegebenenfalls Fräsmaschine oder 3D-Drucker sicher."
+          ],
+          "glossary": [
+            {
+              "term": "CAD/CAM",
+              "text": "Computergestützte Konstruktion und Fertigung von Zahnersatz auf Basis digitaler Daten."
+            },
+            {
+              "term": "STL",
+              "text": "Offenes Dateiformat für dreidimensionale Oberflächenmodelle, das von den meisten CAD-Programmen gelesen wird."
+            },
+            {
+              "term": "Scanbody",
+              "text": "Aufschraubbarer Hilfskörper auf einem Implantat, der dessen Position im Scan sichtbar macht."
+            }
+          ],
+          "keywords": [
+            "Digitale Abformung",
+            "IOS",
+            "Mundscanner",
+            "3D-Scan",
+            "CAD/CAM",
+            "Abdruck"
+          ]
+        },
+        "en": {
+          "name": "Intraoral Scanner",
+          "subtitle": "Digital impressions instead of impression trays",
+          "short": "The intraoral scanner captures teeth and gums optically and generates a three-dimensional digital model from the data. It replaces the conventional impression with impression material.",
+          "how": [
+            "The handheld scanner projects structured light or light patterns onto the tooth surfaces and captures the reflections with one or more cameras. From thousands of individual frames per second, the software calculates a three-dimensional point cloud in real time and assembles it into a closed surface model. The practitioner follows the progress live on screen and can rescan any missing areas.",
+            "The finished model is saved in an open format such as STL or in a manufacturer-specific format. It serves as the basis for computer-aided design (CAD) and manufacturing (CAM) of crowns, bridges, splints or orthodontic appliances – either directly in the practice or in the dental laboratory.",
+            "Many scanners offer additional functions such as colour rendering, caries detection using near-infrared light or comparison of scans over time for monitoring. Because no impression material is needed, the procedure is more comfortable for patients, especially those with a strong gag reflex."
+          ],
+          "use": [
+            "Digital impressions for crowns, bridges and inlays",
+            "Planning and progress monitoring in orthodontics",
+            "Implant prosthetics using scan bodies",
+            "Fabrication of occlusal splints and temporaries",
+            "Patient education with 3D visualisation"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dental practices, orthodontics, implantology, dental laboratories"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Mobile cart or laptop version at the treatment chair; no separate room required"
+            },
+            {
+              "label": "Typical service life",
+              "value": "around 5–8 years; software updates extend usability"
+            }
+          ],
+          "procurement": [
+            "Check whether the scanner exports open file formats (e.g. STL, PLY, OBJ) without additional fees so you can choose freely between laboratories and manufacturing systems.",
+            "Clarify the licensing model: some systems charge annual software or cloud fees, others can be used without restriction after purchase – calculate the total cost over several years.",
+            "Test the scanner in everyday practice: scanning speed, size and weight of the handpiece and the capture of difficult areas such as deep preparation margins determine acceptance within the team.",
+            "Pay attention to hygiene: the scanner tip must be autoclavable or available as a single-use item; calculate the consumable costs.",
+            "Plan training for practitioners and assistants and ensure integration with practice software, the laboratory and, where applicable, a milling machine or 3D printer."
+          ],
+          "glossary": [
+            {
+              "term": "CAD/CAM",
+              "text": "Computer-aided design and manufacturing of dental restorations based on digital data."
+            },
+            {
+              "term": "STL",
+              "text": "Open file format for three-dimensional surface models that can be read by most CAD programs."
+            },
+            {
+              "term": "Scan body",
+              "text": "Screw-on auxiliary component placed on an implant to make its position visible in the scan."
+            }
+          ],
+          "keywords": [
+            "digital impression",
+            "IOS",
+            "mouth scanner",
+            "3D scan",
+            "CAD/CAM",
+            "impression"
+          ]
+        },
+        "ar": {
+          "name": "الماسح الضوئي داخل الفم",
+          "subtitle": "طبعة رقمية بدلاً من ملاعق الطبعات",
+          "short": "يلتقط الماسح الضوئي داخل الفم الأسنان واللثة بصرياً وينتج منها نموذجاً رقمياً ثلاثي الأبعاد، ليحل محل الطبعة التقليدية بمواد الطبع.",
+          "how": [
+            "يُسقط الماسح المحمول باليد ضوءاً مهيكلاً أو أنماطاً ضوئية على أسطح الأسنان ويلتقط الانعكاسات بكاميرا واحدة أو أكثر. ومن آلاف اللقطات الفردية في الثانية يحسب البرنامج في الوقت الفعلي سحابة نقاط ثلاثية الأبعاد ويجمّعها في نموذج سطحي مغلق. ويتابع الطبيب التقدم مباشرة على الشاشة ويمكنه إعادة مسح المناطق الناقصة بدقة.",
+            "يُحفظ النموذج النهائي بصيغة مفتوحة مثل STL أو بصيغة خاصة بالشركة المصنعة. ويُستخدم أساساً للتصميم (CAD) والتصنيع (CAM) بمساعدة الحاسوب للتيجان والجسور والواقيات أو أجهزة تقويم الأسنان – إما مباشرة في العيادة أو في مختبر الأسنان.",
+            "توفر كثير من الماسحات وظائف إضافية مثل العرض الملون، واكتشاف التسوس بضوء الأشعة تحت الحمراء القريبة، أو مقارنة عمليات المسح عبر الزمن للمتابعة. ولأن الإجراء لا يحتاج إلى مواد طبع فهو أكثر راحة للمرضى، خاصة من يعانون من منعكس تهوع قوي."
+          ],
+          "use": [
+            "الطبعة الرقمية للتيجان والجسور والحشوات التعويضية",
+            "التخطيط ومتابعة التقدم في تقويم الأسنان",
+            "التعويضات فوق الزرعات باستخدام أجسام المسح",
+            "صناعة واقيات الإطباق والتعويضات المؤقتة",
+            "توعية المرضى بعرض ثلاثي الأبعاد"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "عيادات الأسنان، تقويم الأسنان، زراعة الأسنان، مختبرات الأسنان"
+            },
+            {
+              "label": "متطلبات المساحة",
+              "value": "عربة متنقلة أو نسخة محمولة بجانب كرسي العلاج؛ لا حاجة إلى غرفة مستقلة"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 5 إلى 8 سنوات؛ وتطيل تحديثات البرامج فترة الاستخدام"
+            }
+          ],
+          "procurement": [
+            "تحقق مما إذا كان الماسح يصدّر صيغ ملفات مفتوحة (مثل STL وPLY وOBJ) دون رسوم إضافية، حتى تتمكن من الاختيار بحرية بين المختبرات وأنظمة التصنيع.",
+            "وضّح نموذج الترخيص: تفرض بعض الأنظمة رسوماً سنوية للبرامج أو الخدمات السحابية، بينما يمكن استخدام أنظمة أخرى دون قيود بعد الشراء – فاحسب التكلفة الإجمالية على مدى عدة سنوات.",
+            "اختبر الماسح في العمل اليومي: سرعة المسح وحجم القبضة ووزنها والتقاط المناطق الصعبة مثل حدود التحضير العميقة تحدد مدى تقبّل الفريق له.",
+            "انتبه إلى النظافة: يجب أن يكون رأس الماسح قابلاً للتعقيم في الأوتوكلاف أو متاحاً كقطعة للاستخدام الواحد؛ واحسب تكاليف المستهلكات.",
+            "خطط لتدريب الأطباء والمساعدين، وتأكد من الربط ببرنامج العيادة والمختبر، وعند الحاجة بآلة التفريز أو الطابعة ثلاثية الأبعاد."
+          ],
+          "glossary": [
+            {
+              "term": "CAD/CAM",
+              "text": "التصميم والتصنيع بمساعدة الحاسوب للتعويضات السنية اعتماداً على بيانات رقمية."
+            },
+            {
+              "term": "STL",
+              "text": "صيغة ملفات مفتوحة للنماذج السطحية ثلاثية الأبعاد تقرؤها معظم برامج التصميم."
+            },
+            {
+              "term": "جسم المسح (Scan body)",
+              "text": "قطعة مساعدة تُثبَّت بالبرغي على الزرعة لتُظهر موقعها في المسح الضوئي."
+            }
+          ],
+          "keywords": [
+            "الطبعة الرقمية",
+            "IOS",
+            "ماسح الفم",
+            "مسح ثلاثي الأبعاد",
+            "CAD/CAM",
+            "طبعة الأسنان"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dental-autoclave",
+      "category": "dental",
+      "image": "assets/img/devices/dental-autoclave.svg",
+      "order": 4,
+      "i18n": {
+        "de": {
+          "name": "Dental-Autoklav (Klasse B)",
+          "subtitle": "Dampfsterilisation für Instrumente und Handstücke",
+          "short": "Der Dental-Autoklav sterilisiert Instrumente, Hand- und Winkelstücke mit gesättigtem Wasserdampf unter Druck. Geräte der Klasse B können auch verpacktes, hohles und poröses Sterilgut zuverlässig sterilisieren.",
+          "how": [
+            "Im Autoklav wird gesättigter Wasserdampf unter Druck erzeugt; die hohe Temperatur – üblicherweise 134 °C oder 121 °C – tötet Mikroorganismen einschließlich Sporen ab. Vor der eigentlichen Sterilisationsphase entfernt eine Vakuumpumpe die Luft in mehreren Zyklen aus der Kammer (fraktioniertes Vorvakuum), damit der Dampf auch in enge Hohlräume von Hand- und Winkelstücken eindringen kann.",
+            "Nach der Haltezeit folgt eine Vakuumtrocknung, damit das verpackte Sterilgut trocken aus der Kammer kommt – feuchte Verpackungen gelten als unsteril. Ein Prozessrechner überwacht Druck, Temperatur und Zeit und dokumentiert jeden Zyklus über Drucker, USB-Stick oder Netzwerk.",
+            "Die Einteilung in die Klassen B, S und N folgt der europäischen Norm für Klein-Dampfsterilisatoren. Nur Klasse B deckt alle Beladungsarten ab – massiv, hohl, porös, verpackt und unverpackt – und ist daher der Standard für zahnärztliche Praxen. Regelmäßige Prüfungen mit Indikatoren und Prüfkörpern (z. B. Helix-Test) belegen, dass das Gerät korrekt arbeitet."
+          ],
+          "use": [
+            "Sterilisation von verpackten chirurgischen Instrumenten",
+            "Aufbereitung von Hand- und Winkelstücken sowie Turbinen",
+            "Sterilisation von Textilien und porösem Material",
+            "Zahnarztpraxen, Dentallabore und kleine ambulante Einrichtungen"
+          ],
+          "facts": [
+            {
+              "label": "Risikoklasse (MDR)",
+              "value": "je nach Ausführung"
+            },
+            {
+              "label": "Typische Einsatzorte",
+              "value": "Zahnarztpraxen, Kieferorthopädie, MKG-Praxen, Dentallabore"
+            },
+            {
+              "label": "Platzbedarf",
+              "value": "Tischgerät im Aufbereitungsraum; Stellfläche, Belüftung und gegebenenfalls Wasseranschluss beachten"
+            },
+            {
+              "label": "Typische Nutzungsdauer",
+              "value": "etwa 8–12 Jahre, abhängig von Zyklenzahl und Wartung"
+            }
+          ],
+          "procurement": [
+            "Dimensionieren Sie das Kammervolumen nach Instrumentenaufkommen und Zyklusdauer: Mehrere kurze Zyklen pro Tag erfordern ein Gerät mit schneller Aufheizung und ausreichender Tray-Kapazität.",
+            "Prüfen Sie die Wasserversorgung: Autoklaven benötigen demineralisiertes Wasser – entweder aus einem externen Vorratstank oder aus einer integrierten Aufbereitungsanlage mit Festwasseranschluss.",
+            "Achten Sie auf eine lückenlose Chargendokumentation (USB, Netzwerk, Druckeranschluss) und die Anbindung an eine Dokumentationssoftware, da die Freigabe des Sterilguts nachweisbar sein muss.",
+            "Planen Sie Validierung, jährliche Wartung und regelmäßige Prüfungen (Vakuumtest, Helix-/Bowie-Dick-Test, Chargenkontrolle) als laufende Kosten ein und klären Sie, wer sie durchführt.",
+            "Berücksichtigen Sie den gesamten Aufbereitungsprozess: Reinigung, Desinfektion, Pflege, Verpackung (Siegelgerät) und Lagerung müssen zum Autoklav passen – idealerweise als abgestimmte Linie."
+          ],
+          "glossary": [
+            {
+              "term": "Fraktioniertes Vorvakuum",
+              "text": "Mehrfaches Evakuieren und Bedampfen der Kammer vor der Sterilisation, um Luft vollständig zu entfernen."
+            },
+            {
+              "term": "Helix-Test",
+              "text": "Prüfkörper mit langem, dünnem Schlauch, der die Dampfdurchdringung in Hohlkörpern wie Winkelstücken simuliert."
+            },
+            {
+              "term": "Chargendokumentation",
+              "text": "Nachweis der Prozessparameter jedes Sterilisationszyklus als Grundlage für die Freigabe des Sterilguts."
+            }
+          ],
+          "keywords": [
+            "Autoklav",
+            "Sterilisator",
+            "Klasse B",
+            "Dampfsterilisation",
+            "Vorvakuum",
+            "Instrumentenaufbereitung"
+          ]
+        },
+        "en": {
+          "name": "Dental Autoclave (Class B)",
+          "subtitle": "Steam sterilization for instruments and handpieces",
+          "short": "The dental autoclave sterilizes instruments, handpieces and contra-angles with saturated steam under pressure. Class B units can also reliably sterilize wrapped, hollow and porous loads.",
+          "how": [
+            "Inside the autoclave, saturated steam is generated under pressure; the high temperature – usually 134 °C or 121 °C – kills microorganisms including spores. Before the actual sterilization phase, a vacuum pump removes the air from the chamber in several cycles (fractionated pre-vacuum) so that the steam can also penetrate the narrow cavities of handpieces and contra-angles.",
+            "After the holding time, vacuum drying follows so that the wrapped items leave the chamber dry – damp packaging is considered non-sterile. A process controller monitors pressure, temperature and time and documents every cycle via printer, USB stick or network.",
+            "The classification into classes B, S and N follows the European standard for small steam sterilizers. Only class B covers all load types – solid, hollow, porous, wrapped and unwrapped – and is therefore the standard for dental practices. Regular tests with indicators and test bodies (e.g. the helix test) demonstrate that the unit is working correctly."
+          ],
+          "use": [
+            "Sterilization of wrapped surgical instruments",
+            "Reprocessing of handpieces, contra-angles and turbines",
+            "Sterilization of textiles and porous materials",
+            "Dental practices, dental laboratories and small outpatient facilities"
+          ],
+          "facts": [
+            {
+              "label": "Risk class (MDR)",
+              "value": "depends on design"
+            },
+            {
+              "label": "Typical settings",
+              "value": "Dental practices, orthodontics, oral surgery practices, dental laboratories"
+            },
+            {
+              "label": "Space requirement",
+              "value": "Benchtop unit in the reprocessing room; allow for footprint, ventilation and, if required, a water connection"
+            },
+            {
+              "label": "Typical service life",
+              "value": "around 8–12 years, depending on cycle count and maintenance"
+            }
+          ],
+          "procurement": [
+            "Size the chamber volume according to instrument throughput and cycle time: several short cycles per day call for a unit with fast heat-up and sufficient tray capacity.",
+            "Check the water supply: autoclaves require demineralised water – either from an external reservoir or from an integrated treatment system with a mains water connection.",
+            "Insist on complete batch documentation (USB, network, printer port) and integration with documentation software, since the release of sterile goods must be verifiable.",
+            "Budget for validation, annual maintenance and routine tests (vacuum test, helix/Bowie-Dick test, batch monitoring) as running costs and clarify who will carry them out.",
+            "Consider the entire reprocessing workflow: cleaning, disinfection, care, packaging (heat sealer) and storage must match the autoclave – ideally as a coordinated line."
+          ],
+          "glossary": [
+            {
+              "term": "Fractionated pre-vacuum",
+              "text": "Repeated evacuation and steam flushing of the chamber before sterilization to remove air completely."
+            },
+            {
+              "term": "Helix test",
+              "text": "Test body with a long, thin tube that simulates steam penetration into hollow items such as contra-angle handpieces."
+            },
+            {
+              "term": "Batch documentation",
+              "text": "Record of the process parameters of every sterilization cycle, forming the basis for releasing the sterile goods."
+            }
+          ],
+          "keywords": [
+            "autoclave",
+            "sterilizer",
+            "class B",
+            "steam sterilization",
+            "pre-vacuum",
+            "instrument reprocessing"
+          ]
+        },
+        "ar": {
+          "name": "أوتوكلاف الأسنان (الفئة B)",
+          "subtitle": "تعقيم بالبخار للأدوات والقبضات",
+          "short": "يعقّم أوتوكلاف الأسنان الأدوات والقبضات المستقيمة والزاوية بالبخار المائي المشبع تحت الضغط. وتستطيع أجهزة الفئة B تعقيم المواد المغلفة والمجوفة والمسامية بشكل موثوق.",
+          "how": [
+            "يُولَّد داخل الأوتوكلاف بخار ماء مشبع تحت الضغط؛ وتقضي درجة الحرارة العالية – عادةً 134 أو 121 درجة مئوية – على الكائنات الدقيقة بما فيها الأبواغ. وقبل مرحلة التعقيم الفعلية تزيل مضخة تفريغ الهواء من الحجرة على عدة دورات (التفريغ المسبق المجزأ) ليتمكن البخار من النفاذ إلى التجاويف الضيقة في القبضات المستقيمة والزاوية.",
+            "بعد زمن التثبيت تأتي مرحلة التجفيف بالتفريغ ليخرج المعقَّم المغلف جافاً من الحجرة – إذ تُعدّ الأغلفة الرطبة غير معقمة. ويراقب حاسوب العملية الضغط ودرجة الحرارة والزمن ويوثق كل دورة عبر طابعة أو ذاكرة USB أو الشبكة.",
+            "يتبع التصنيف إلى الفئات B وS وN المعيار الأوروبي لمعقمات البخار الصغيرة. والفئة B وحدها تغطي جميع أنواع الحمولة – الصلبة والمجوفة والمسامية والمغلفة وغير المغلفة – ولذلك فهي المعيار في عيادات الأسنان. وتثبت الاختبارات المنتظمة بالمؤشرات وأجسام الاختبار (مثل اختبار هيليكس) أن الجهاز يعمل بشكل صحيح."
+          ],
+          "use": [
+            "تعقيم الأدوات الجراحية المغلفة",
+            "إعادة معالجة القبضات المستقيمة والزاوية والتوربينات",
+            "تعقيم المنسوجات والمواد المسامية",
+            "عيادات الأسنان ومختبرات الأسنان والمنشآت الصغيرة للرعاية الخارجية"
+          ],
+          "facts": [
+            {
+              "label": "فئة المخاطر (MDR)",
+              "value": "حسب التصميم"
+            },
+            {
+              "label": "أماكن الاستخدام النموذجية",
+              "value": "عيادات الأسنان، تقويم الأسنان، عيادات جراحة الفم والوجه والفكين، مختبرات الأسنان"
+            },
+            {
+              "label": "متطلبات المساحة",
+              "value": "جهاز منضدي في غرفة إعادة المعالجة؛ مراعاة مساحة الوضع والتهوية وتوصيل الماء عند الحاجة"
+            },
+            {
+              "label": "مدة الاستخدام النموذجية",
+              "value": "نحو 8 إلى 12 عاماً حسب عدد الدورات والصيانة"
+            }
+          ],
+          "procurement": [
+            "حدد حجم الحجرة وفق كمية الأدوات ومدة الدورة: تتطلب عدة دورات قصيرة في اليوم جهازاً سريع التسخين وبسعة صوانٍ كافية.",
+            "تحقق من إمداد المياه: تحتاج الأوتوكلافات إلى ماء منزوع المعادن – إما من خزان خارجي أو من وحدة معالجة مدمجة موصولة بشبكة المياه.",
+            "احرص على توثيق كامل للدفعات (USB، الشبكة، منفذ الطابعة) والربط ببرنامج توثيق، لأن الإفراج عن المواد المعقمة يجب أن يكون قابلاً للإثبات.",
+            "خصص ميزانية للتحقق من الصلاحية والصيانة السنوية والاختبارات الدورية (اختبار التفريغ، اختبار هيليكس/بوي-ديك، مراقبة الدفعات) كتكاليف جارية، ووضّح من سيقوم بتنفيذها.",
+            "راعِ سلسلة إعادة المعالجة بأكملها: يجب أن تتوافق خطوات التنظيف والتطهير والعناية والتغليف (جهاز اللحام الحراري) والتخزين مع الأوتوكلاف – ويُفضَّل أن تكون خطاً متكاملاً."
+          ],
+          "glossary": [
+            {
+              "term": "التفريغ المسبق المجزأ",
+              "text": "تفريغ الحجرة وملؤها بالبخار عدة مرات قبل التعقيم لإزالة الهواء بالكامل."
+            },
+            {
+              "term": "اختبار هيليكس",
+              "text": "جسم اختبار بأنبوب طويل ورفيع يحاكي نفاذ البخار في الأجسام المجوفة مثل القبضات الزاوية."
+            },
+            {
+              "term": "توثيق الدفعات",
+              "text": "إثبات معايير العملية لكل دورة تعقيم كأساس للإفراج عن المواد المعقمة."
+            }
+          ],
+          "keywords": [
+            "أوتوكلاف",
+            "معقم",
+            "الفئة B",
+            "التعقيم بالبخار",
+            "التفريغ المسبق",
+            "إعادة معالجة الأدوات"
           ]
         }
       }

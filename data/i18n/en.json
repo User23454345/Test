@@ -83,10 +83,22 @@
     },
     "trust": {
       "items": [
-        { "title": "Manufacturer-neutral", "text": "No product line of our own, no predefined choices – only the solution that suits you." },
-        { "title": "Technical expertise", "text": "Advice from a biomedical engineer (M.Sc.) with an eye for clinical practice, technology and operations." },
-        { "title": "Transparent offers", "text": "Comparable quotations, clear terms and clearly reasoned recommendations." },
-        { "title": "Support through to operation", "text": "From the first analysis to commissioning and beyond." }
+        {
+          "title": "Manufacturer-neutral",
+          "text": "No product line of our own, no predefined choices – only the solution that suits you."
+        },
+        {
+          "title": "Technical expertise",
+          "text": "Advice from a biomedical engineer (M.Sc.) with an eye for clinical practice, technology and operations."
+        },
+        {
+          "title": "Transparent offers",
+          "text": "Comparable quotations, clear terms and clearly reasoned recommendations."
+        },
+        {
+          "title": "Support through to operation",
+          "text": "From the first analysis to commissioning and beyond."
+        }
       ]
     },
     "services": {
@@ -115,19 +127,43 @@
       "title": "How we work",
       "intro": "A clear four-step process – so you always know where your project stands.",
       "steps": [
-        { "title": "Needs analysis", "text": "Together we clarify what your facility really needs – clinically, spatially and financially." },
-        { "title": "Consulting", "text": "We compare suitable solutions side by side and give a well-founded, manufacturer-neutral recommendation." },
-        { "title": "Procurement", "text": "We organise quotations, comparison, ordering and delivery – including installation and acceptance." },
-        { "title": "Support", "text": "Training, documentation and maintenance planning: we make sure your device stays safely in use." }
+        {
+          "title": "Needs analysis",
+          "text": "Together we clarify what your facility really needs – clinically, spatially and financially."
+        },
+        {
+          "title": "Consulting",
+          "text": "We compare suitable solutions side by side and give a well-founded, manufacturer-neutral recommendation."
+        },
+        {
+          "title": "Procurement",
+          "text": "We organise quotations, comparison, ordering and delivery – including installation and acceptance."
+        },
+        {
+          "title": "Support",
+          "text": "Training, documentation and maintenance planning: we make sure your device stays safely in use."
+        }
       ]
     },
     "audience": {
       "title": "Who we work for",
       "items": [
-        { "title": "Hospitals & clinics", "text": "Investment planning, replacement procurement and equipping new departments." },
-        { "title": "Medical practices & medical care centres (MVZ)", "text": "The right equipment for setting up, expanding or modernising a practice." },
-        { "title": "Nursing & rehabilitation facilities", "text": "Robust, easy-to-use technology for everyday care and therapy." },
-        { "title": "Laboratories & dental practices", "text": "Analysis, treatment and hygiene technology tailored to your workflows." }
+        {
+          "title": "Hospitals & clinics",
+          "text": "Investment planning, replacement procurement and equipping new departments."
+        },
+        {
+          "title": "Medical practices & medical care centres (MVZ)",
+          "text": "The right equipment for setting up, expanding or modernising a practice."
+        },
+        {
+          "title": "Nursing & rehabilitation facilities",
+          "text": "Robust, easy-to-use technology for everyday care and therapy."
+        },
+        {
+          "title": "Laboratories & dental practices",
+          "text": "Analysis, treatment and hygiene technology tailored to your workflows."
+        }
       ]
     },
     "portal": {
@@ -164,10 +200,22 @@
     "values": {
       "title": "What we stand for",
       "items": [
-        { "title": "Independence", "text": "We are not tied to any manufacturer and recommend only what is right for you, both professionally and economically." },
-        { "title": "Expertise", "text": "Biomedical engineering know-how meets experience in healthcare procurement processes." },
-        { "title": "Transparency", "text": "Comparisons you can follow, open communication and clear terms – with no small print." },
-        { "title": "Reliability", "text": "We keep our promises and remain your point of contact even after delivery." }
+        {
+          "title": "Independence",
+          "text": "We are not tied to any manufacturer and recommend only what is right for you, both professionally and economically."
+        },
+        {
+          "title": "Expertise",
+          "text": "Biomedical engineering know-how meets experience in healthcare procurement processes."
+        },
+        {
+          "title": "Transparency",
+          "text": "Comparisons you can follow, open communication and clear terms – with no small print."
+        },
+        {
+          "title": "Reliability",
+          "text": "We keep our promises and remain your point of contact even after delivery."
+        }
       ]
     },
     "services": {
@@ -265,21 +313,56 @@
       "title": "Why medical technology is so important",
       "intro": "Modern medicine would be unthinkable without medical technology. At every stage of care, it helps to treat patients safely, quickly and precisely.",
       "items": [
-        { "title": "Early and accurate diagnosis", "text": "Imaging and laboratory diagnostic procedures make diseases visible, often long before symptoms appear." },
-        { "title": "Effective therapy", "text": "From infusion pumps to dialysis: therapy devices support or replace vital bodily functions." },
-        { "title": "Safety and monitoring", "text": "Monitoring systems record vital signs continuously and raise an alarm before a condition becomes critical." },
-        { "title": "Hygiene and patient protection", "text": "Sterilisation and reprocessing prevent infections and protect patients and staff." },
-        { "title": "Efficiency in everyday care", "text": "Good equipment speeds up workflows, relieves staff and lowers costs in the long run." }
+        {
+          "title": "Early and accurate diagnosis",
+          "text": "Imaging and laboratory diagnostic procedures make diseases visible, often long before symptoms appear."
+        },
+        {
+          "title": "Effective therapy",
+          "text": "From infusion pumps to dialysis: therapy devices support or replace vital bodily functions."
+        },
+        {
+          "title": "Safety and monitoring",
+          "text": "Monitoring systems record vital signs continuously and raise an alarm before a condition becomes critical."
+        },
+        {
+          "title": "Hygiene and patient protection",
+          "text": "Sterilisation and reprocessing prevent infections and protect patients and staff."
+        },
+        {
+          "title": "Efficiency in everyday care",
+          "text": "Good equipment speeds up workflows, relieves staff and lowers costs in the long run."
+        }
       ]
     },
     "classification": {
       "title": "Risk classes of medical devices",
       "intro": "The MDR divides medical devices into four classes according to their risk potential. The higher the class, the stricter the requirements for evidence, testing and surveillance.",
       "classes": [
-        { "name": "Class I", "risk": "Low risk", "text": "Non-invasive or simple products with low hazard potential.", "examples": "Examples: wheelchairs, dressings, simple examination couches" },
-        { "name": "Class IIa", "risk": "Medium risk", "text": "Products with moderate risk, often active devices for diagnosis or short-term use.", "examples": "Examples: ultrasound scanners, hearing aids, many dental instruments" },
-        { "name": "Class IIb", "risk": "Elevated risk", "text": "Products with elevated risk, such as active devices that deliver energy or support vital functions.", "examples": "Examples: X-ray equipment, ventilators, infusion pumps, defibrillators" },
-        { "name": "Class III", "risk": "High risk", "text": "Products with the highest risk, in particular implants and products in contact with the heart, the central circulatory system or the central nervous system.", "examples": "Examples: pacemakers, heart valves, joint implants" }
+        {
+          "name": "Class I",
+          "risk": "Low risk",
+          "text": "Non-invasive or simple products with low hazard potential.",
+          "examples": "Examples: wheelchairs, dressings, simple examination couches"
+        },
+        {
+          "name": "Class IIa",
+          "risk": "Medium risk",
+          "text": "Products with moderate risk, often active devices for diagnosis or short-term use.",
+          "examples": "Examples: ultrasound scanners, hearing aids, many dental instruments"
+        },
+        {
+          "name": "Class IIb",
+          "risk": "Elevated risk",
+          "text": "Products with elevated risk, such as active devices that deliver energy or support vital functions.",
+          "examples": "Examples: X-ray equipment, ventilators, infusion pumps, defibrillators"
+        },
+        {
+          "name": "Class III",
+          "risk": "High risk",
+          "text": "Products with the highest risk, in particular implants and products in contact with the heart, the central circulatory system or the central nervous system.",
+          "examples": "Examples: pacemakers, heart valves, joint implants"
+        }
       ]
     },
     "areas": {
@@ -287,35 +370,96 @@
       "intro": "Medical technology can be divided into several sub-fields. In our Device Knowledge portal we present typical devices from each category.",
       "linkLabel": "View devices",
       "items": [
-        { "id": "imaging", "title": "Imaging", "text": "Procedures that make the inside of the body visible: ultrasound, X-ray, computed tomography and magnetic resonance imaging." },
-        { "id": "lab", "title": "Laboratory diagnostics", "text": "Analysers that examine blood, urine and other samples – from the centrifuge to the fully automated analyser." },
-        { "id": "monitoring", "title": "Patient monitoring", "text": "Systems that continuously record vital signs such as heart rhythm, oxygen saturation and blood pressure." },
-        { "id": "surgery", "title": "Surgical technology", "text": "Operating theatre equipment: anaesthesia machines, electrosurgery, endoscopy, surgical lights and tables." },
-        { "id": "therapy", "title": "Therapy", "text": "Devices that support bodily functions or deliver treatments: ventilation, infusion, dialysis, defibrillation." },
-        { "id": "dental", "title": "Dental technology", "text": "Technology for the dental practice: treatment units, dental X-ray and digital impressions." },
-        { "id": "sterilization", "title": "Sterilisation & hygiene", "text": "Reprocessing of instruments and devices: cleaning, disinfection, packaging and sterilisation." }
+        {
+          "id": "imaging",
+          "title": "Medical imaging",
+          "text": "Procedures that make the inside of the body visible: ultrasound, X-ray, computed tomography and magnetic resonance imaging."
+        },
+        {
+          "id": "lab",
+          "title": "Laboratory diagnostics",
+          "text": "Analysers that examine blood, urine and other samples – from the centrifuge to the fully automated analyser."
+        },
+        {
+          "id": "monitoring",
+          "title": "Patient monitoring",
+          "text": "Systems that continuously record vital signs such as heart rhythm, oxygen saturation and blood pressure."
+        },
+        {
+          "id": "surgery",
+          "title": "Surgical technology",
+          "text": "Operating theatre equipment: anaesthesia machines, electrosurgery, endoscopy, surgical lights and tables."
+        },
+        {
+          "id": "therapy",
+          "title": "Therapy",
+          "text": "Devices that support bodily functions or deliver treatments: ventilation, infusion, dialysis, defibrillation."
+        },
+        {
+          "id": "dental",
+          "title": "Dental technology",
+          "text": "Technology for the dental practice: treatment units, dental X-ray and digital impressions."
+        },
+        {
+          "id": "sterilization",
+          "title": "Sterilization & hygiene",
+          "text": "Reprocessing of instruments and devices: cleaning, disinfection, packaging and sterilisation."
+        }
       ]
     },
     "lifecycle": {
       "title": "The life cycle of a medical device",
       "intro": "Buying a device is only the beginning. Those who keep the entire service life in mind make better decisions.",
       "steps": [
-        { "title": "Needs & planning", "text": "Clarification of clinical needs, rooms, interfaces and budget." },
-        { "title": "Procurement", "text": "Requirements profile, quotation comparison, negotiation, ordering and acceptance." },
-        { "title": "Commissioning & training", "text": "Installation, functional testing and documented training of staff." },
-        { "title": "Operation & maintenance", "text": "Maintenance, safety and metrological inspections, documentation in the medical device logbook." },
-        { "title": "Decommissioning", "text": "Proper shutdown, data erasure and disposal or resale." }
+        {
+          "title": "Needs & planning",
+          "text": "Clarification of clinical needs, rooms, interfaces and budget."
+        },
+        {
+          "title": "Procurement",
+          "text": "Requirements profile, quotation comparison, negotiation, ordering and acceptance."
+        },
+        {
+          "title": "Commissioning & training",
+          "text": "Installation, functional testing and documented training of staff."
+        },
+        {
+          "title": "Operation & maintenance",
+          "text": "Maintenance, safety and metrological inspections, documentation in the medical device logbook."
+        },
+        {
+          "title": "Decommissioning",
+          "text": "Proper shutdown, data erasure and disposal or resale."
+        }
       ]
     },
     "glossary": {
       "title": "Key terms",
       "items": [
-        { "term": "MDR", "text": "Medical Device Regulation – EU Regulation 2017/745 on medical devices. It defines the requirements products must meet before being placed on the market." },
-        { "term": "CE marking", "text": "Confirms that a medical device meets the applicable EU requirements. For higher risk classes, a Notified Body is involved." },
-        { "term": "MPDG & MPBetreibV", "text": "The German Medical Devices Law Implementation Act (MPDG) and the German Medical Devices Operator Ordinance (MPBetreibV) regulate, among other things, the obligations when operating and using medical devices." },
-        { "term": "STK / MTK", "text": "Safety-related and metrological inspections (German: sicherheitstechnische bzw. messtechnische Kontrollen) – regular checks that are mandatory for certain devices." },
-        { "term": "Medical device logbook (Medizinproduktebuch)", "text": "Documentation for certain active medical devices: training, functional tests, maintenance and malfunctions." },
-        { "term": "UDI", "text": "Unique Device Identification – a unique product identifier for the traceability of medical devices." }
+        {
+          "term": "MDR",
+          "text": "Medical Device Regulation – EU Regulation 2017/745 on medical devices. It defines the requirements products must meet before being placed on the market."
+        },
+        {
+          "term": "CE marking",
+          "text": "Confirms that a medical device meets the applicable EU requirements. For higher risk classes, a Notified Body is involved."
+        },
+        {
+          "term": "MPDG & MPBetreibV",
+          "text": "The German Medical Devices Law Implementation Act (MPDG) and the German Medical Devices Operator Ordinance (MPBetreibV) regulate, among other things, the obligations when operating and using medical devices."
+        },
+        {
+          "term": "STK / MTK",
+          "text": "Safety-related and metrological inspections (German: sicherheitstechnische bzw. messtechnische Kontrollen) – regular checks that are mandatory for certain devices."
+        },
+        {
+          "term": "Medical device logbook (Medizinproduktebuch)",
+          "text": "Documentation for certain active medical devices: training, functional tests, maintenance and malfunctions."
+        },
+        {
+          "term": "UDI",
+          "text": "Unique Device Identification – a unique product identifier for the traceability of medical devices."
+        }
       ]
     },
     "cta": {
