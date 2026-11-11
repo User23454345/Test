@@ -2673,3 +2673,13 @@ main:focus {
 .notfound__block h2 {
   font-size: 1.35rem;
 }
+
+/* Kategorie-Icon behält seine Größe neben langen Texten */
+.category-block__head .card__icon {
+  flex: none;
+}
+
+/* Brotkrumen im Seitenkopf (Glossar) */
+.hero .breadcrumb {
+  margin-bottom: 1rem;
+}

@@ -1,8 +1,9 @@
 {
-  "_comment": "Sprachunabhängige Stammdaten (Platzhalter). Hier Name, Foto, E-Mail, Telefon und Anschrift zentral anpassen.",
+  "_comment": "Sprachunabhängige Stammdaten. Beispielwerte durch echte Angaben ersetzen und danach \"node tools/build.js\" ausführen. company.url = Adresse der veröffentlichten Webseite (z. B. https://www.beispiel.de); leer lassen, solange sie nicht feststeht.",
   "company": {
     "name": "Medny",
     "legalName": "Medny – Beratung & Beschaffung für Medizintechnik",
+    "url": "",
     "street": "Musterstraße 1",
     "zip": "12345",
     "city": "Musterstadt",
@@ -15,8 +16,5 @@
     "phone": "+49 000 0000000",
     "phoneDisplay": "+49 (0) 000 000 00 00",
     "photo": "assets/img/placeholder-portrait.svg"
-  },
-  "social": {
-    "linkedin": ""
   }
 }

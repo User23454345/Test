@@ -308,7 +308,7 @@ function build() {
   /* 6. Bericht */
   const htmlCount = files.filter((f) => /\.html$/.test(f)).length;
   const unused = leafKeys(dicts[defaultLang], '', []).filter((key) => {
-    if (usedKeys.has(key)) return false;
+    if (usedKeys.has(key) || (config.conditionalKeys || []).indexOf(key) !== -1) return false;
     for (const prefix of usedPrefixes) if (key.indexOf(prefix + '.') === 0) return false;
     return true;
   });

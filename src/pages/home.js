@@ -155,10 +155,33 @@ module.exports = {
 
 ${ctaBand(ctx, { title: t('home.cta.title'), text: t('home.cta.text'), button: t('home.cta.button') })}`;
 
+    // Strukturierte Daten für Suchmaschinen – nur mit eingetragener Adresse der Webseite und echten Kontaktdaten
+    const jsonLd = [];
+    if (ctx.baseUrl && !ctx.placeholders.contact) {
+      const c = ctx.site.company;
+      const o = ctx.site.owner;
+      jsonLd.push({
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: c.name,
+        legalName: c.legalName,
+        description: ctx.text('meta.pages.home.description'),
+        url: ctx.absUrl(ctx.file),
+        logo: ctx.baseUrl + '/assets/img/logo.svg',
+        image: ctx.baseUrl + '/assets/img/og-image.jpg',
+        email: o.email,
+        telephone: o.phone,
+        address: { '@type': 'PostalAddress', streetAddress: c.street, postalCode: c.zip, addressLocality: c.city, addressCountry: c.countryCode },
+        founder: { '@type': 'Person', name: o.name, jobTitle: o.degree },
+        knowsLanguage: ctx.config.langs.map((l) => l.code)
+      });
+    }
+
     return {
       title: ctx.text('meta.pages.home.title'),
       description: ctx.text('meta.pages.home.description'),
-      main
+      main,
+      jsonLd
     };
   }
 };

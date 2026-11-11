@@ -37,6 +37,19 @@ module.exports = {
   // Seiten ohne Suchmaschinen-Indexierung
   noindex: ['imprint', 'privacy'],
 
+  // Texte, die nur unter bestimmten Bedingungen erscheinen (z. B. solange Platzhalter eingetragen sind).
+  // Sie gelten für den Bericht "ungenutzte Textschlüssel" als verwendet.
+  conditionalKeys: [
+    'common.photoAlt',
+    'common.photoAltReal',
+    'devices.deviceCountOne',
+    'devices.resultsOne',
+    'about.person.placeholderNote',
+    'contact.details.placeholderNote',
+    'imprint.placeholderNote',
+    'privacy.placeholderNote'
+  ],
+
   // Statische Ordner, die unverändert ausgeliefert werden
   staticDirs: ['assets', 'css', 'js']
 };
