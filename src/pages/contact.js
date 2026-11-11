@@ -21,6 +21,7 @@ module.exports = {
           ${notice(`<p>${t('contact.form.demoNote')}</p>`, { cls: 'notice--spaced' })}
 
           <form id="contact-form" class="form" action="mailto:${esc(o.email)}" method="post" enctype="text/plain" data-email="${esc(o.email)}">
+            <p class="form__hint">${t('contact.form.requiredHint')}</p>
             <div class="form-row form-row--2">
               <div class="field">
                 <label for="cf-name">${t('contact.form.name')}${req}</label>
@@ -51,25 +52,25 @@ module.exports = {
             </div>
             <div class="field">
               <label for="cf-message">${t('contact.form.message')}${req}</label>
-              <textarea id="cf-message" name="message" required placeholder="${t('contact.form.messagePlaceholder')}"></textarea>
+              <p class="field__hint" id="cf-message-hint">${t('contact.form.messagePlaceholder')}</p>
+              <textarea id="cf-message" name="message" required aria-describedby="cf-message-hint"></textarea>
               <span class="field__error" id="cf-message-error">${t('contact.form.errors.required')}</span>
             </div>
             <div class="field field--checkbox">
               <input id="cf-consent" name="consent" type="checkbox" required>
-              <label for="cf-consent">${t('contact.form.consent')} (<a href="${href('privacy')}">${t('contact.form.consentLink')}</a>)${req}</label>
+              <label for="cf-consent">${t('contact.form.consent', { link: `<a href="${href('privacy')}">${t('contact.form.consentLink')}</a>` }, true)}${req}</label>
               <span class="field__error" id="cf-consent-error">${t('contact.form.errors.consent')}</span>
             </div>
             <p id="form-summary" class="form__summary" role="alert" hidden>${t('contact.form.errors.summary')}</p>
             <div class="form__footer">
-              <span class="form__hint">${t('contact.form.requiredHint')}</span>
               <button type="submit" class="btn btn--primary">${t('contact.form.submit')}</button>
             </div>
           </form>
 
-          <div id="form-success" class="notice notice--success" tabindex="-1" hidden>
+          <div id="form-success" class="notice notice--success" role="status" aria-labelledby="form-success-title" tabindex="-1" hidden>
             ${icon('check-circle')}
             <div>
-              <h3 class="notice__title">${t('contact.form.success.title')}</h3>
+              <h3 class="notice__title" id="form-success-title">${t('contact.form.success.title')}</h3>
               <p>${t('contact.form.success.text')}</p>
               <p class="section-more"><button type="button" class="btn btn--secondary btn--sm" id="form-again">${t('contact.form.success.again')}</button></p>
             </div>

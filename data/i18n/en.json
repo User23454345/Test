@@ -1,5 +1,5 @@
 {
-  "_comment": "Central translation file (German = default language; this is the English version). Keys are referenced in the HTML pages via data-i18n=\"path.to.key\". Placeholders in curly braces such as {count} are replaced by JavaScript.",
+  "_comment": "Central text file (English). Pages are generated from it with \"node tools/build.js\". Placeholders in curly braces such as {count} or {site.owner.name} are replaced automatically and must be kept in every language.",
   "meta": {
     "siteName": "Medny",
     "tagline": "Independent consulting & procurement for medical technology",
@@ -21,8 +21,7 @@
         "description": "Learning portal: medical devices by category – imaging, laboratory diagnostics, patient monitoring, surgical technology, therapy, dental technology, sterilisation."
       },
       "device": {
-        "title": "{name} – Device Knowledge | Medny",
-        "description": "{short}"
+        "title": "{name} – Device Knowledge | Medny"
       },
       "contact": {
         "title": "Contact – Medny",
@@ -65,19 +64,11 @@
     "glossary": "Glossary"
   },
   "common": {
-    "learnMore": "Learn more",
-    "back": "Back",
-    "close": "Close",
-    "note": "Note",
-    "placeholder": "Placeholder",
     "email": "Email",
     "phone": "Phone",
-    "address": "Address",
     "hours": "Office hours",
     "hoursValue": "Mon–Fri, 9 am – 5 pm",
     "country": "Germany",
-    "loading": "Loading content …",
-    "notAManufacturer": "Medny is neither a manufacturer nor a dealer with its own product range, but an independent consulting and intermediary company.",
     "ownerRole": "Owner · M.Sc. Biomedical Engineering",
     "photoAlt": "Portrait photo of the contact person (placeholder)",
     "photoAltReal": "Portrait of {name}"
@@ -87,7 +78,7 @@
       "eyebrow": "Consulting · Procurement · Support",
       "title": "The right medical technology. Independently selected, reliably procured.",
       "subtitle": "Medny supports hospitals, medical practices and healthcare facilities in selecting and procuring medical devices – vendor-neutral, transparent and with sound technical expertise.",
-      "ctaPrimary": "Free initial consultation",
+      "ctaPrimary": "Book a first consultation",
       "ctaSecondary": "Explore Device Knowledge",
       "note": "We are not a manufacturer. Our recommendations are based solely on your needs.",
       "imageAlt": "Illustration: consulting on medical devices"
@@ -96,14 +87,14 @@
       "items": [
         {
           "title": "Vendor-neutral",
-          "text": "No product line of our own, no predefined choices – only the solution that suits you."
+          "text": "No product line of our own, no sales targets – only the solution that suits you."
         },
         {
           "title": "Technical expertise",
           "text": "Advice from a biomedical engineer (M.Sc.) with an eye for clinical practice, technology and operations."
         },
         {
-          "title": "Transparent offers",
+          "title": "Transparent quotations",
           "text": "Comparable quotations, clear terms and clearly reasoned recommendations."
         },
         {
@@ -114,7 +105,7 @@
     },
     "services": {
       "title": "Our services",
-      "intro": "We cover the entire journey from the first question to ongoing operation – or exactly the part where you need support.",
+      "intro": "We support you all the way from the first question to ongoing operation – or just where you need help.",
       "items": [
         {
           "title": "Needs analysis",
@@ -137,7 +128,7 @@
     },
     "process": {
       "title": "How we work",
-      "intro": "A clear four-step process – so you always know where your project stands.",
+      "intro": "A clear four-step process – so you know where your project stands.",
       "steps": [
         {
           "title": "Needs analysis",
@@ -153,7 +144,7 @@
         },
         {
           "title": "Support",
-          "text": "Training, documentation and maintenance planning: we make sure your device stays safely in use."
+          "text": "Training, documentation and maintenance planning: we help you keep your device safely in use."
         }
       ]
     },
@@ -205,7 +196,7 @@
     },
     "intro": {
       "title": "Who we are",
-      "p1": "Medny was founded with a clear goal: decisions about medical technology should be based on facts – not on sales pitches. As an independent consultant and intermediary, we stand exclusively on the side of our clients.",
+      "p1": "Medny has a clear goal: decisions about medical technology should be based on facts – not on sales pitches. As an independent consultant and intermediary, we stand exclusively on the side of our clients.",
       "p2": "Medny is run by an owner holding a Master's degree in Biomedical Engineering. This foundation in technology, medicine and regulatory affairs allows us not just to compare devices, but to truly understand them – and to explain the differences to you in plain language.",
       "p3": "We are not a manufacturer and do not sell a product line of our own. That is precisely what makes our recommendations credible."
     },
@@ -214,15 +205,15 @@
       "items": [
         {
           "title": "Independence",
-          "text": "We are not tied to any manufacturer and recommend only what is right for you, both professionally and economically."
+          "text": "We are not tied to any manufacturer and recommend only what makes technical and economic sense for you."
         },
         {
           "title": "Expertise",
-          "text": "Biomedical engineering know-how meets experience in healthcare procurement processes."
+          "text": "Biomedical engineering expertise, explained clearly – as a sound basis for your procurement decision."
         },
         {
           "title": "Transparency",
-          "text": "Comparisons you can follow, open communication and clear terms – with no small print."
+          "text": "Comparisons you can follow, open communication and clear terms."
         },
         {
           "title": "Reliability",
@@ -256,7 +247,7 @@
           "text": "We obtain comparable quotations, support negotiations and coordinate ordering, delivery, installation and acceptance.",
           "points": [
             "Obtaining and comparing structured quotations",
-            "Support with negotiation and contract review",
+            "Support with negotiations and review of terms",
             "Coordination of delivery, installation and acceptance"
           ]
         },
@@ -306,7 +297,7 @@
     },
     "disclaimer": {
       "title": "Important to know",
-      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We give impartial advice and broker the solution that fits your needs. Devices, service contracts and warranties are concluded directly between you and the respective supplier – we support you along the way."
+      "text": "Medny is neither a manufacturer nor a dealer with its own product range. We give impartial advice and broker the solution that fits your needs. Purchase and service contracts as well as warranty agreements are concluded directly between you and the respective supplier – we support you along the way."
     }
   },
   "medtech": {
@@ -343,13 +334,13 @@
         },
         {
           "title": "Efficiency in everyday care",
-          "text": "Good equipment speeds up workflows, relieves staff and lowers costs in the long run."
+          "text": "Good equipment speeds up workflows, eases the burden on staff and lowers costs in the long run."
         }
       ]
     },
     "classification": {
       "title": "Risk classes of medical devices",
-      "intro": "The MDR divides medical devices into four classes according to their risk potential. The higher the class, the stricter the requirements for evidence, testing and surveillance.",
+      "intro": "The MDR divides medical devices into four classes according to their risk potential. The higher the class, the stricter the requirements for evidence, testing and surveillance. In-vitro diagnostic devices such as laboratory analysers are covered by a separate regulation, the IVDR (Regulation (EU) 2017/746), with classes A to D.",
       "classes": [
         {
           "name": "Class I",
@@ -367,7 +358,7 @@
           "name": "Class IIb",
           "risk": "Elevated risk",
           "text": "Products with elevated risk, such as active devices that deliver energy or support vital functions.",
-          "examples": "Examples: X-ray equipment, ventilators, infusion pumps, defibrillators"
+          "examples": "Examples: X-ray equipment, ventilators, infusion pumps, dialysis machines"
         },
         {
           "name": "Class III",
@@ -380,44 +371,7 @@
     "areas": {
       "title": "Sub-fields of medical technology",
       "intro": "Medical technology can be divided into several sub-fields. In our Device Knowledge portal we present typical devices from each category.",
-      "linkLabel": "View devices",
-      "items": [
-        {
-          "id": "imaging",
-          "title": "Medical imaging",
-          "text": "Procedures that make the inside of the body visible: ultrasound, X-ray, computed tomography and magnetic resonance imaging."
-        },
-        {
-          "id": "lab",
-          "title": "Laboratory diagnostics",
-          "text": "Analysers that examine blood, urine and other samples – from the centrifuge to the fully automated analyser."
-        },
-        {
-          "id": "monitoring",
-          "title": "Patient monitoring",
-          "text": "Systems that continuously record vital signs such as heart rhythm, oxygen saturation and blood pressure."
-        },
-        {
-          "id": "surgery",
-          "title": "Surgical technology",
-          "text": "Operating theatre equipment: anaesthesia machines, electrosurgery, endoscopy, surgical lights and tables."
-        },
-        {
-          "id": "therapy",
-          "title": "Therapy",
-          "text": "Devices that support bodily functions or deliver treatments: ventilation, infusion, dialysis, defibrillation."
-        },
-        {
-          "id": "dental",
-          "title": "Dental technology",
-          "text": "Technology for the dental practice: treatment units, dental X-ray and digital impressions."
-        },
-        {
-          "id": "sterilization",
-          "title": "Sterilisation & hygiene",
-          "text": "Reprocessing of instruments and devices: cleaning, disinfection, packaging and sterilisation."
-        }
-      ]
+      "linkLabel": "View devices"
     },
     "lifecycle": {
       "title": "The life cycle of a medical device",
@@ -487,7 +441,7 @@
       "subtitle": "Medical technology clearly explained – organised by category, searchable and reduced to the essentials. Choose a category or search directly for a device."
     },
     "searchLabel": "Search for a device or term",
-    "searchPlaceholder": "e.g. ultrasound, ECG, autoclave …",
+    "searchPlaceholder": "e.g. ultrasound, ECG …",
     "filterLabel": "Filter by category",
     "allCategories": "All categories",
     "resultsCount": "{count} devices",
@@ -498,7 +452,6 @@
     "openDevice": "View device",
     "deviceCountOne": "1 device",
     "deviceCount": "{count} devices",
-    "categoriesTitle": "Categories",
     "progress": {
       "title": "Your learning progress",
       "text": "{done} of {total} devices marked as learned",
@@ -508,7 +461,6 @@
       "done": "All devices marked as learned"
     },
     "detail": {
-      "overview": "Overview",
       "how": "How it works",
       "use": "Areas of use",
       "facts": "At a glance",
@@ -518,14 +470,10 @@
       "prev": "Previous device",
       "next": "Next device",
       "backToOverview": "Back to overview",
-      "categoryLabel": "Category",
       "onThisPage": "On this page",
       "markLearned": "Mark as learned",
       "markedLearned": "Marked as learned",
-      "unmark": "Remove mark",
-      "imageNote": "Illustration – can be replaced with a real product photo.",
-      "notFoundTitle": "Device not found",
-      "notFoundText": "The requested device does not exist or has been removed.",
+      "imageNote": "Schematic illustration – not a specific product",
       "procurementCtaTitle": "Planning to acquire a device like this?",
       "procurementCtaText": "We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.",
       "procurementCtaButton": "Request a consultation",
@@ -534,7 +482,6 @@
       "asideLabel": "Page navigation",
       "pagerLabel": "Previous and next device"
     },
-    "loadError": "The device data could not be loaded. Please open the page via a local web server (see README).",
     "clearSearch": "Clear search",
     "noscript": "Search, filters and learning progress require JavaScript. All content can be read without it."
   },
@@ -542,12 +489,12 @@
     "hero": {
       "eyebrow": "Contact",
       "title": "Let's talk about your project",
-      "subtitle": "Whether it's a specific procurement, initial guidance or a second opinion on a quotation – we usually respond within two working days."
+      "subtitle": "Whether it's a specific procurement, initial guidance or a second opinion on a quotation – tell us what you need and we will get back to you."
     },
     "form": {
       "title": "Send a message",
       "name": "Name",
-      "organization": "Facility / company",
+      "organization": "Facility / company (optional)",
       "email": "Email address",
       "phone": "Phone (optional)",
       "topic": "Your enquiry",
@@ -560,20 +507,20 @@
       },
       "message": "Your message",
       "messagePlaceholder": "Briefly describe your project: device type, facility, time frame …",
-      "consent": "I have read the privacy policy and agree to the processing of my details for the purpose of handling my enquiry.",
+      "consent": "I have read the {link}.",
       "consentLink": "privacy policy",
       "submit": "Send message",
       "requiredHint": "* Required fields",
-      "demoNote": "Note: This form is a front-end preview only and is not yet connected to a server. On submission, your email client will open with the prepared message.",
+      "demoNote": "Note: When you submit the form, your email client opens with the prepared message, which you then send as usual. The form itself does not transmit any data to a server.",
       "errors": {
         "required": "Please fill in this field.",
         "email": "Please enter a valid email address.",
-        "consent": "Please agree to the processing of your details.",
+        "consent": "Please confirm that you have read the privacy policy.",
         "summary": "Please check the highlighted fields."
       },
       "success": {
-        "title": "Thank you for your message!",
-        "text": "Your email client should have opened with the prepared message. If not, feel free to write to us directly at the address below.",
+        "title": "Your message is ready to send",
+        "text": "Your email client should have opened with the prepared message – please send it from there. If it did not open, feel free to write to us directly at the email address given on this page.",
         "again": "Send another message"
       },
       "mailSubject": "Enquiry via the Medny website"
@@ -583,7 +530,6 @@
     },
     "details": {
       "title": "Contact details",
-      "directTitle": "Reach us directly",
       "addressTitle": "Address",
       "placeholderNote": "Placeholder – contact details are maintained centrally in data/site.json."
     }
@@ -594,11 +540,11 @@
     "sections": [
       {
         "title": "Information pursuant to § 5 DDG (German Digital Services Act)",
-        "text": "[Company name Medny]\n[Owner: First name Last name, M.Sc. Biomedical Engineering]\n[Street and house number]\n[Postcode City]\nGermany"
+        "text": "{site.company.legalName}\nOwner: {site.owner.name}, M.Sc. Biomedical Engineering\n{site.company.street}\n{site.company.zipCity}\nGermany"
       },
       {
         "title": "Contact",
-        "text": "Phone: [Phone number]\nEmail: [Email address]"
+        "text": "Phone: {site.owner.phoneDisplay}\nEmail: {site.owner.email}"
       },
       {
         "title": "VAT ID",
@@ -606,7 +552,7 @@
       },
       {
         "title": "Responsible for content",
-        "text": "Responsible within the meaning of § 18 (2) MStV (German Interstate Media Treaty): [First name Last name], [Address as above]"
+        "text": "Responsible within the meaning of § 18 (2) MStV (German Interstate Media Treaty): {site.owner.name}, address as above"
       },
       {
         "title": "Liability for content",
@@ -628,11 +574,11 @@
     "sections": [
       {
         "title": "1. Controller",
-        "text": "The controller responsible for data processing on this website is:\n[Company name Medny]\n[First name Last name]\n[Address]\nEmail: [Email address]"
+        "text": "The controller responsible for data processing on this website is:\n{site.company.legalName}\n{site.owner.name}\n{site.company.addressLine}\nEmail: {site.owner.email}"
       },
       {
         "title": "2. Hosting and server log files",
-        "text": "When you visit this website, the hosting provider automatically processes technical data (e.g. IP address, date and time, page accessed, browser type). This data is used to provide the website securely and is deleted after a short period. [Enter hosting provider]"
+        "text": "When you visit this website, the hosting provider automatically processes technical data (e.g. IP address, date and time, page accessed, browser type). This data is used to provide the website securely. [Enter hosting provider and log retention period]"
       },
       {
         "title": "3. Contact form and email contact",
@@ -676,7 +622,7 @@
       "subtitle": "{count} technical terms from Device Knowledge, briefly explained and linked to the devices where they appear."
     },
     "searchLabel": "Search for a term",
-    "searchPlaceholder": "e.g. DICOM, Doppler, capnography …",
+    "searchPlaceholder": "e.g. Doppler, gantry …",
     "appearsIn": "Appears in:",
     "noResults": "No terms found.",
     "linkLabel": "Glossary: all technical terms",

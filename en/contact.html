@@ -72,7 +72,7 @@
       <div class="container">
         <span class="eyebrow">Contact</span>
         <h1 class="hero__title">Let's talk about your project</h1>
-        <p class="hero__text">Whether it's a specific procurement, initial guidance or a second opinion on a quotation – we usually respond within two working days.</p>
+        <p class="hero__text">Whether it's a specific procurement, initial guidance or a second opinion on a quotation – tell us what you need and we will get back to you.</p>
       </div>
     </section>
 
@@ -82,10 +82,11 @@
           <h2>Send a message</h2>
           <div class="notice notice--spaced">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 16v-4M12 8h.01"/></svg>
-          <p>Note: This form is a front-end preview only and is not yet connected to a server. On submission, your email client will open with the prepared message.</p>
+          <p>Note: When you submit the form, your email client opens with the prepared message, which you then send as usual. The form itself does not transmit any data to a server.</p>
         </div>
 
           <form id="contact-form" class="form" action="mailto:kontakt@medny.example" method="post" enctype="text/plain" data-email="kontakt@medny.example">
+            <p class="form__hint">* Required fields</p>
             <div class="form-row form-row--2">
               <div class="field">
                 <label for="cf-name">Name<span class="required-mark" aria-hidden="true">&nbsp;*</span></label>
@@ -93,7 +94,7 @@
                 <span class="field__error" id="cf-name-error">Please fill in this field.</span>
               </div>
               <div class="field">
-                <label for="cf-org">Facility / company</label>
+                <label for="cf-org">Facility / company (optional)</label>
                 <input id="cf-org" name="organization" type="text" autocomplete="organization">
               </div>
             </div>
@@ -120,26 +121,26 @@
             </div>
             <div class="field">
               <label for="cf-message">Your message<span class="required-mark" aria-hidden="true">&nbsp;*</span></label>
-              <textarea id="cf-message" name="message" required placeholder="Briefly describe your project: device type, facility, time frame …"></textarea>
+              <p class="field__hint" id="cf-message-hint">Briefly describe your project: device type, facility, time frame …</p>
+              <textarea id="cf-message" name="message" required aria-describedby="cf-message-hint"></textarea>
               <span class="field__error" id="cf-message-error">Please fill in this field.</span>
             </div>
             <div class="field field--checkbox">
               <input id="cf-consent" name="consent" type="checkbox" required>
-              <label for="cf-consent">I have read the privacy policy and agree to the processing of my details for the purpose of handling my enquiry. (<a href="privacy.html">privacy policy</a>)<span class="required-mark" aria-hidden="true">&nbsp;*</span></label>
-              <span class="field__error" id="cf-consent-error">Please agree to the processing of your details.</span>
+              <label for="cf-consent">I have read the <a href="privacy.html">privacy policy</a>.<span class="required-mark" aria-hidden="true">&nbsp;*</span></label>
+              <span class="field__error" id="cf-consent-error">Please confirm that you have read the privacy policy.</span>
             </div>
             <p id="form-summary" class="form__summary" role="alert" hidden>Please check the highlighted fields.</p>
             <div class="form__footer">
-              <span class="form__hint">* Required fields</span>
               <button type="submit" class="btn btn--primary">Send message</button>
             </div>
           </form>
 
-          <div id="form-success" class="notice notice--success" tabindex="-1" hidden>
+          <div id="form-success" class="notice notice--success" role="status" aria-labelledby="form-success-title" tabindex="-1" hidden>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0zM8 12l3 3 5-6"/></svg>
             <div>
-              <h3 class="notice__title">Thank you for your message!</h3>
-              <p>Your email client should have opened with the prepared message. If not, feel free to write to us directly at the address below.</p>
+              <h3 class="notice__title" id="form-success-title">Your message is ready to send</h3>
+              <p>Your email client should have opened with the prepared message – please send it from there. If it did not open, feel free to write to us directly at the email address given on this page.</p>
               <p class="section-more"><button type="button" class="btn btn--secondary btn--sm" id="form-again">Send another message</button></p>
             </div>
           </div>
@@ -231,6 +232,6 @@
       </div>
     </div>
   </footer>
-  <script type="application/json" id="site-strings">{"menuOpen":"Open menu","menuClose":"Close menu","errRequired":"Please fill in this field.","errEmail":"Please enter a valid email address.","errConsent":"Please agree to the processing of your details.","mailSubject":"Enquiry via the Medny website","labelName":"Name","labelOrganization":"Facility / company","labelEmail":"Email address","labelPhone":"Phone","labelTopic":"Your enquiry"}</script>
+  <script type="application/json" id="site-strings">{"menuOpen":"Open menu","menuClose":"Close menu","errRequired":"Please fill in this field.","errEmail":"Please enter a valid email address.","errConsent":"Please confirm that you have read the privacy policy.","mailSubject":"Enquiry via the Medny website","labelName":"Name","labelOrganization":"Facility / company (optional)","labelEmail":"Email address","labelPhone":"Phone","labelTopic":"Your enquiry"}</script>
 </body>
 </html>

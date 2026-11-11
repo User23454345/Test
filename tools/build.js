@@ -116,6 +116,28 @@ function build() {
   });
   const data = { categories, devices };
 
+  // Abgeleitete Angaben für Texte: {site.company.zipCity}, {site.company.addressLine}
+  site.company.zipCity = `${site.company.zip} ${site.company.city}`;
+  site.company.addressLine = `${site.company.street}, ${site.company.zipCity}`;
+
+  // Arabisch (RTL): Vorzeichen vor Zahlen ("−1000", "+1000") würden sonst hinter die Zahl rutschen.
+  // Eine unsichtbare Links-nach-rechts-Marke davor hält sie an ihrem Platz.
+  const LRM = String.fromCharCode(0x200e);
+  const LRI = String.fromCharCode(0x2066);
+  const PDI = String.fromCharCode(0x2069);
+  const fixSigns = (value) => {
+    if (typeof value === 'string') return value.replace(/(^|[^0-9A-Za-z])([−+])(?=[0-9])/g, `$1${LRM}$2`);
+    if (Array.isArray(value)) return value.map(fixSigns);
+    if (value && typeof value === 'object') {
+      Object.keys(value).forEach((k) => (value[k] = fixSigns(value[k])));
+    }
+    return value;
+  };
+  config.langs.filter((l) => l.dir === 'rtl').forEach((l) => {
+    fixSigns(dicts[l.code]);
+    rawDevices.categories.concat(rawDevices.devices).forEach((item) => item.i18n && item.i18n[l.code] && fixSigns(item.i18n[l.code]));
+  });
+
   const baseUrl = String((site.company && site.company.url) || '').replace(/\/+$/, '');
   const basePath = baseUrl ? new URL(baseUrl + '/').pathname : '/';
   const year = new Date().getFullYear();
@@ -155,7 +177,11 @@ function build() {
       String(template).replace(/\{([\w.]+)\}/g, (match, name) => {
         let value;
         if (vars && Object.prototype.hasOwnProperty.call(vars, name)) value = vars[name];
-        else if (name.indexOf('site.') === 0) value = resolveKey(site, name.slice(5));
+        else if (name.indexOf('site.') === 0) {
+          value = resolveKey(site, name.slice(5));
+          // Lateinische Stammdaten in RTL-Texten als eigene Links-nach-rechts-Einheit einsetzen
+          if (value !== undefined && value !== null && langInfo.dir === 'rtl') value = LRI + value + PDI;
+        }
         else if (name === 'year') value = year;
         if (value === undefined || value === null) return match;
         return escapeValues ? ui.esc(value) : String(value);

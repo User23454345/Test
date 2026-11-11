@@ -1,5 +1,5 @@
 {
-  "_comment": "Zentrale Übersetzungsdatei (Deutsch = Standard). Schlüssel werden in den HTML-Seiten über data-i18n=\"pfad.zum.schluessel\" referenziert. Platzhalter in geschweiften Klammern wie {count} werden per JavaScript ersetzt.",
+  "_comment": "Zentrale Textdatei (Deutsch = Standard). Die Seiten werden daraus mit \"node tools/build.js\" erzeugt. Platzhalter in geschweiften Klammern wie {count} oder {site.owner.name} werden automatisch ersetzt und müssen in allen Sprachen erhalten bleiben.",
   "meta": {
     "siteName": "Medny",
     "tagline": "Unabhängige Beratung & Beschaffung für Medizintechnik",
@@ -21,8 +21,7 @@
         "description": "Lernportal: Medizinische Geräte nach Kategorien – Bildgebung, Labordiagnostik, Patientenüberwachung, OP-Technik, Therapie, Dentaltechnik, Sterilisation."
       },
       "device": {
-        "title": "{name} – Geräte-Wissen | Medny",
-        "description": "{short}"
+        "title": "{name} – Geräte-Wissen | Medny"
       },
       "contact": {
         "title": "Kontakt – Medny",
@@ -65,19 +64,11 @@
     "glossary": "Glossar"
   },
   "common": {
-    "learnMore": "Mehr erfahren",
-    "back": "Zurück",
-    "close": "Schließen",
-    "note": "Hinweis",
-    "placeholder": "Platzhalter",
     "email": "E-Mail",
     "phone": "Telefon",
-    "address": "Adresse",
     "hours": "Erreichbarkeit",
     "hoursValue": "Mo.–Fr., 9–17 Uhr",
     "country": "Deutschland",
-    "loading": "Inhalte werden geladen …",
-    "notAManufacturer": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment, sondern ein unabhängiges Beratungs- und Vermittlungsunternehmen.",
     "ownerRole": "Inhaber · M.Sc. Biomedizintechnik",
     "photoAlt": "Porträtfoto des Ansprechpartners (Platzhalter)",
     "photoAltReal": "Porträt von {name}"
@@ -87,7 +78,7 @@
       "eyebrow": "Beratung · Beschaffung · Begleitung",
       "title": "Die richtige Medizintechnik. Unabhängig ausgewählt, sicher beschafft.",
       "subtitle": "Medny unterstützt Krankenhäuser, Arztpraxen und Gesundheitseinrichtungen bei der Auswahl und Beschaffung medizinischer Geräte – herstellerneutral, transparent und mit technischem Sachverstand.",
-      "ctaPrimary": "Kostenloses Erstgespräch",
+      "ctaPrimary": "Erstgespräch vereinbaren",
       "ctaSecondary": "Geräte-Wissen entdecken",
       "note": "Wir sind kein Hersteller. Unsere Empfehlungen richten sich ausschließlich nach Ihrem Bedarf.",
       "imageAlt": "Illustration: Beratung zu medizinischen Geräten"
@@ -96,7 +87,7 @@
       "items": [
         {
           "title": "Herstellerneutral",
-          "text": "Keine eigene Produktlinie, keine Vorgaben – nur die Lösung, die zu Ihnen passt."
+          "text": "Keine eigene Produktlinie, keine Verkaufsvorgaben – nur die Lösung, die zu Ihnen passt."
         },
         {
           "title": "Technischer Sachverstand",
@@ -114,7 +105,7 @@
     },
     "services": {
       "title": "Unsere Leistungen",
-      "intro": "Wir übernehmen den gesamten Weg von der ersten Frage bis zum laufenden Betrieb – oder genau den Teil, bei dem Sie Unterstützung brauchen.",
+      "intro": "Wir begleiten Sie auf dem gesamten Weg von der ersten Frage bis zum laufenden Betrieb – oder genau dort, wo Sie Unterstützung brauchen.",
       "items": [
         {
           "title": "Bedarfsanalyse",
@@ -137,7 +128,7 @@
     },
     "process": {
       "title": "So arbeiten wir",
-      "intro": "Ein klarer, vierstufiger Prozess – damit Sie jederzeit wissen, wo Ihr Projekt steht.",
+      "intro": "Ein klarer, vierstufiger Prozess – damit Sie wissen, wo Ihr Projekt steht.",
       "steps": [
         {
           "title": "Bedarfsanalyse",
@@ -153,7 +144,7 @@
         },
         {
           "title": "Support",
-          "text": "Einweisung, Dokumentation und Wartungsplanung: Wir sorgen dafür, dass Ihr Gerät sicher im Einsatz bleibt."
+          "text": "Einweisung, Dokumentation und Wartungsplanung: Wir unterstützen Sie dabei, Ihr Gerät sicher im Einsatz zu halten."
         }
       ]
     },
@@ -193,7 +184,7 @@
     },
     "cta": {
       "title": "Lassen Sie uns über Ihr Projekt sprechen",
-      "text": "Ob Neuanschaffung, Ersatzbeschaffung oder eine zweite Meinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.",
+      "text": "Ob Neuanschaffung, Ersatzbeschaffung oder eine Zweitmeinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.",
       "button": "Kontakt aufnehmen"
     }
   },
@@ -205,7 +196,7 @@
     },
     "intro": {
       "title": "Wer wir sind",
-      "p1": "Medny wurde mit einem klaren Ziel gegründet: Medizintechnik-Entscheidungen sollen auf Fakten beruhen – nicht auf Verkaufsargumenten. Als unabhängiger Berater und Vermittler stehen wir ausschließlich auf der Seite unserer Kundinnen und Kunden.",
+      "p1": "Medny verfolgt ein klares Ziel: Medizintechnik-Entscheidungen sollen auf Fakten beruhen – nicht auf Verkaufsargumenten. Als unabhängiger Berater und Vermittler stehen wir ausschließlich auf der Seite unserer Kundinnen und Kunden.",
       "p2": "Geführt wird Medny von einem Inhaber mit Masterabschluss in Biomedizintechnik. Dieses Fundament aus Technik, Medizin und Regulatorik ermöglicht es uns, Geräte nicht nur zu vergleichen, sondern wirklich zu verstehen – und Ihnen die Unterschiede verständlich zu erklären.",
       "p3": "Wir sind kein Hersteller und vertreiben keine eigene Produktlinie. Genau das macht unsere Empfehlungen glaubwürdig."
     },
@@ -218,11 +209,11 @@
         },
         {
           "title": "Fachkompetenz",
-          "text": "Biomedizintechnisches Know-how trifft auf Erfahrung in Beschaffungsprozessen des Gesundheitswesens."
+          "text": "Biomedizintechnisches Fachwissen, verständlich aufbereitet – als Grundlage für Ihre Beschaffungsentscheidung."
         },
         {
           "title": "Transparenz",
-          "text": "Nachvollziehbare Vergleiche, offene Kommunikation und klare Konditionen – ohne Kleingedrucktes."
+          "text": "Nachvollziehbare Vergleiche, offene Kommunikation und klare Konditionen."
         },
         {
           "title": "Verlässlichkeit",
@@ -256,7 +247,7 @@
           "text": "Wir holen vergleichbare Angebote ein, unterstützen bei Verhandlungen und koordinieren Bestellung, Lieferung, Installation und Abnahme.",
           "points": [
             "Einholung und Vergleich strukturierter Angebote",
-            "Unterstützung bei Verhandlung und Vertragsprüfung",
+            "Unterstützung bei Verhandlungen und Prüfung der Konditionen",
             "Koordination von Lieferung, Installation und Abnahme"
           ]
         },
@@ -306,7 +297,7 @@
     },
     "disclaimer": {
       "title": "Wichtig zu wissen",
-      "text": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment. Wir beraten herstellerneutral und vermitteln die Lösung, die zu Ihrem Bedarf passt. Geräte, Serviceverträge und Garantien werden direkt zwischen Ihnen und dem jeweiligen Anbieter geschlossen – wir begleiten Sie dabei."
+      "text": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment. Wir beraten herstellerneutral und vermitteln die Lösung, die zu Ihrem Bedarf passt. Kauf- und Serviceverträge sowie Garantievereinbarungen schließen Sie direkt mit dem jeweiligen Anbieter – wir begleiten Sie dabei."
     }
   },
   "medtech": {
@@ -349,7 +340,7 @@
     },
     "classification": {
       "title": "Risikoklassen von Medizinprodukten",
-      "intro": "Die MDR teilt Medizinprodukte nach ihrem Risikopotenzial in vier Klassen ein. Je höher die Klasse, desto strenger sind die Anforderungen an Nachweise, Prüfung und Überwachung.",
+      "intro": "Die MDR teilt Medizinprodukte nach ihrem Risikopotenzial in vier Klassen ein. Je höher die Klasse, desto strenger sind die Anforderungen an Nachweise, Prüfung und Überwachung. Für In-vitro-Diagnostika wie Laboranalysegeräte gilt mit der IVDR (Verordnung (EU) 2017/746) eine eigene Verordnung mit den Klassen A bis D.",
       "classes": [
         {
           "name": "Klasse I",
@@ -367,7 +358,7 @@
           "name": "Klasse IIb",
           "risk": "Erhöhtes Risiko",
           "text": "Produkte mit erhöhtem Risiko, etwa aktive Geräte, die Energie abgeben oder lebenswichtige Funktionen unterstützen.",
-          "examples": "Beispiele: Röntgengeräte, Beatmungsgeräte, Infusionspumpen, Defibrillatoren"
+          "examples": "Beispiele: Röntgengeräte, Beatmungsgeräte, Infusionspumpen, Dialysegeräte"
         },
         {
           "name": "Klasse III",
@@ -380,44 +371,7 @@
     "areas": {
       "title": "Teilbereiche der Medizintechnik",
       "intro": "Die Medizintechnik lässt sich in verschiedene Teilbereiche gliedern. In unserem Geräte-Wissen stellen wir typische Geräte jeder Kategorie vor.",
-      "linkLabel": "Geräte ansehen",
-      "items": [
-        {
-          "id": "imaging",
-          "title": "Bildgebung",
-          "text": "Verfahren, die das Innere des Körpers sichtbar machen: Ultraschall, Röntgen, Computertomografie und Magnetresonanztomografie."
-        },
-        {
-          "id": "lab",
-          "title": "Labordiagnostik",
-          "text": "Analysegeräte, die Blut, Urin und andere Proben untersuchen – von der Zentrifuge bis zum vollautomatischen Analysator."
-        },
-        {
-          "id": "monitoring",
-          "title": "Patientenüberwachung",
-          "text": "Systeme, die Vitalparameter wie Herzrhythmus, Sauerstoffsättigung und Blutdruck kontinuierlich erfassen."
-        },
-        {
-          "id": "surgery",
-          "title": "OP-Technik",
-          "text": "Ausstattung des Operationssaals: Narkosegeräte, HF-Chirurgie, Endoskopie, OP-Leuchten und -Tische."
-        },
-        {
-          "id": "therapy",
-          "title": "Therapie",
-          "text": "Geräte, die Körperfunktionen unterstützen oder Behandlungen durchführen: Beatmung, Infusion, Dialyse, Defibrillation."
-        },
-        {
-          "id": "dental",
-          "title": "Dentaltechnik",
-          "text": "Technik für die zahnärztliche Praxis: Behandlungseinheiten, Dentalröntgen und digitale Abformung."
-        },
-        {
-          "id": "sterilization",
-          "title": "Sterilisation & Hygiene",
-          "text": "Aufbereitung von Instrumenten und Geräten: Reinigung, Desinfektion, Verpackung und Sterilisation."
-        }
-      ]
+      "linkLabel": "Geräte ansehen"
     },
     "lifecycle": {
       "title": "Der Lebenszyklus eines Medizingeräts",
@@ -487,7 +441,7 @@
       "subtitle": "Medizintechnik verständlich erklärt – nach Kategorien geordnet, durchsuchbar und auf das Wesentliche reduziert. Wählen Sie eine Kategorie oder suchen Sie direkt nach einem Gerät."
     },
     "searchLabel": "Gerät oder Begriff suchen",
-    "searchPlaceholder": "z. B. Ultraschall, EKG, Autoklav …",
+    "searchPlaceholder": "z. B. Ultraschall, EKG …",
     "filterLabel": "Nach Kategorie filtern",
     "allCategories": "Alle Kategorien",
     "resultsCount": "{count} Geräte",
@@ -498,7 +452,6 @@
     "openDevice": "Gerät ansehen",
     "deviceCountOne": "1 Gerät",
     "deviceCount": "{count} Geräte",
-    "categoriesTitle": "Kategorien",
     "progress": {
       "title": "Ihr Lernfortschritt",
       "text": "{done} von {total} Geräten als gelernt markiert",
@@ -508,7 +461,6 @@
       "done": "Alle Geräte als gelernt markiert"
     },
     "detail": {
-      "overview": "Kurzbeschreibung",
       "how": "Funktionsweise",
       "use": "Einsatzbereiche",
       "facts": "Auf einen Blick",
@@ -518,14 +470,10 @@
       "prev": "Vorheriges Gerät",
       "next": "Nächstes Gerät",
       "backToOverview": "Zur Übersicht",
-      "categoryLabel": "Kategorie",
       "onThisPage": "Auf dieser Seite",
       "markLearned": "Als gelernt markieren",
       "markedLearned": "Als gelernt markiert",
-      "unmark": "Markierung entfernen",
-      "imageNote": "Illustration – kann durch ein echtes Produktfoto ersetzt werden.",
-      "notFoundTitle": "Gerät nicht gefunden",
-      "notFoundText": "Das gewünschte Gerät existiert nicht oder wurde entfernt.",
+      "imageNote": "Schematische Darstellung – kein bestimmtes Produkt",
       "procurementCtaTitle": "Sie planen die Anschaffung eines solchen Geräts?",
       "procurementCtaText": "Wir beraten Sie herstellerneutral, vergleichen Angebote und begleiten die Beschaffung.",
       "procurementCtaButton": "Beratung anfragen",
@@ -534,7 +482,6 @@
       "asideLabel": "Seitennavigation",
       "pagerLabel": "Vorheriges und nächstes Gerät"
     },
-    "loadError": "Die Gerätedaten konnten nicht geladen werden. Bitte öffnen Sie die Seite über einen lokalen Webserver (siehe README).",
     "clearSearch": "Suche leeren",
     "noscript": "Suche, Filter und Lernfortschritt benötigen JavaScript. Alle Inhalte sind auch ohne JavaScript lesbar."
   },
@@ -542,12 +489,12 @@
     "hero": {
       "eyebrow": "Kontakt",
       "title": "Sprechen wir über Ihr Vorhaben",
-      "subtitle": "Ob konkrete Beschaffung, erste Orientierung oder eine Zweitmeinung zu einem Angebot – wir melden uns in der Regel innerhalb von zwei Werktagen."
+      "subtitle": "Ob konkrete Beschaffung, erste Orientierung oder eine Zweitmeinung zu einem Angebot – schildern Sie uns Ihr Anliegen, wir melden uns bei Ihnen."
     },
     "form": {
       "title": "Nachricht senden",
       "name": "Name",
-      "organization": "Einrichtung / Unternehmen",
+      "organization": "Einrichtung / Unternehmen (optional)",
       "email": "E-Mail-Adresse",
       "phone": "Telefon (optional)",
       "topic": "Ihr Anliegen",
@@ -560,20 +507,20 @@
       },
       "message": "Ihre Nachricht",
       "messagePlaceholder": "Beschreiben Sie kurz Ihr Vorhaben: Gerätetyp, Einrichtung, Zeitrahmen …",
-      "consent": "Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage einverstanden.",
+      "consent": "Ich habe die {link} zur Kenntnis genommen.",
       "consentLink": "Datenschutzerklärung",
       "submit": "Nachricht senden",
       "requiredHint": "* Pflichtfelder",
-      "demoNote": "Hinweis: Dieses Formular ist eine reine Frontend-Vorschau und noch mit keinem Server verbunden. Beim Absenden wird Ihr E-Mail-Programm mit der vorbereiteten Nachricht geöffnet.",
+      "demoNote": "Hinweis: Beim Absenden öffnet sich Ihr E-Mail-Programm mit der vorbereiteten Nachricht, die Sie dort wie gewohnt versenden. Das Formular selbst überträgt keine Daten an einen Server.",
       "errors": {
         "required": "Bitte füllen Sie dieses Feld aus.",
         "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-        "consent": "Bitte stimmen Sie der Verarbeitung Ihrer Angaben zu.",
+        "consent": "Bitte bestätigen Sie, dass Sie die Datenschutzerklärung zur Kenntnis genommen haben.",
         "summary": "Bitte prüfen Sie die markierten Felder."
       },
       "success": {
-        "title": "Vielen Dank für Ihre Nachricht!",
-        "text": "Ihr E-Mail-Programm sollte sich mit der vorbereiteten Nachricht geöffnet haben. Falls nicht, schreiben Sie uns gern direkt an die unten stehende Adresse.",
+        "title": "Ihre Nachricht ist vorbereitet",
+        "text": "Ihr E-Mail-Programm sollte sich mit der vorbereiteten Nachricht geöffnet haben – bitte senden Sie sie dort ab. Falls es sich nicht geöffnet hat, schreiben Sie uns gern direkt an die auf dieser Seite angegebene E-Mail-Adresse.",
         "again": "Weitere Nachricht senden"
       },
       "mailSubject": "Anfrage über die Medny-Webseite"
@@ -583,7 +530,6 @@
     },
     "details": {
       "title": "Kontaktdaten",
-      "directTitle": "Direkt erreichen",
       "addressTitle": "Anschrift",
       "placeholderNote": "Platzhalter – die Kontaktdaten werden zentral in data/site.json gepflegt."
     }
@@ -594,11 +540,11 @@
     "sections": [
       {
         "title": "Angaben gemäß § 5 DDG",
-        "text": "[Firmenname Medny]\n[Inhaber: Vorname Nachname, M.Sc. Biomedizintechnik]\n[Straße und Hausnummer]\n[PLZ Ort]\nDeutschland"
+        "text": "{site.company.legalName}\nInhaber: {site.owner.name}, M.Sc. Biomedizintechnik\n{site.company.street}\n{site.company.zipCity}\nDeutschland"
       },
       {
         "title": "Kontakt",
-        "text": "Telefon: [Telefonnummer]\nE-Mail: [E-Mail-Adresse]"
+        "text": "Telefon: {site.owner.phoneDisplay}\nE-Mail: {site.owner.email}"
       },
       {
         "title": "Umsatzsteuer-ID",
@@ -606,7 +552,7 @@
       },
       {
         "title": "Verantwortlich für den Inhalt",
-        "text": "Verantwortlich im Sinne von § 18 Abs. 2 MStV: [Vorname Nachname], [Anschrift wie oben]"
+        "text": "Verantwortlich im Sinne von § 18 Abs. 2 MStV: {site.owner.name}, Anschrift wie oben"
       },
       {
         "title": "Haftung für Inhalte",
@@ -628,11 +574,11 @@
     "sections": [
       {
         "title": "1. Verantwortlicher",
-        "text": "Verantwortlich für die Datenverarbeitung auf dieser Webseite ist:\n[Firmenname Medny]\n[Vorname Nachname]\n[Anschrift]\nE-Mail: [E-Mail-Adresse]"
+        "text": "Verantwortlich für die Datenverarbeitung auf dieser Webseite ist:\n{site.company.legalName}\n{site.owner.name}\n{site.company.addressLine}\nE-Mail: {site.owner.email}"
       },
       {
         "title": "2. Hosting und Server-Logfiles",
-        "text": "Beim Aufruf dieser Webseite verarbeitet der Hosting-Anbieter automatisch technische Daten (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp). Diese Daten dienen der sicheren Bereitstellung der Webseite und werden nach kurzer Zeit gelöscht. [Hosting-Anbieter eintragen]"
+        "text": "Beim Aufruf dieser Webseite verarbeitet der Hosting-Anbieter automatisch technische Daten (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp). Diese Daten dienen der sicheren Bereitstellung der Webseite. [Hosting-Anbieter und Speicherdauer der Logfiles eintragen]"
       },
       {
         "title": "3. Kontaktformular und E-Mail-Kontakt",
@@ -676,7 +622,7 @@
       "subtitle": "{count} Fachbegriffe aus dem Geräte-Wissen, kurz erklärt und mit Verweis auf die Geräte, bei denen sie vorkommen."
     },
     "searchLabel": "Begriff suchen",
-    "searchPlaceholder": "z. B. DICOM, Doppler, Kapnografie …",
+    "searchPlaceholder": "z. B. Doppler, Gantry …",
     "appearsIn": "Kommt vor bei:",
     "noResults": "Keine Begriffe gefunden.",
     "linkLabel": "Glossar: alle Fachbegriffe",
