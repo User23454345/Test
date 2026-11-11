@@ -587,7 +587,7 @@
       },
       {
         "title": "4. Local storage in the browser (Local Storage)",
-        "text": "This website stores your language selection and your learning progress in Device Knowledge exclusively locally in your browser (Local Storage). This data is not transmitted to us or to third parties and can be deleted at any time via your browser settings. No tracking cookies and no analytics services are used."
+        "text": "This website stores your learning progress in Device Knowledge exclusively locally in your browser (Local Storage). This data is not transmitted to us or to third parties and can be deleted at any time via your browser settings. No tracking cookies and no analytics services are used."
       },
       {
         "title": "5. External services",
@@ -614,7 +614,7 @@
   "notFound": {
     "title": "Page not found",
     "text": "The page you requested does not exist or has been moved.",
-    "button": "Go to the home page"
+    "button": "Go to the homepage"
   },
   "glossary": {
     "hero": {

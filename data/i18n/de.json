@@ -587,7 +587,7 @@
       },
       {
         "title": "4. Lokale Speicherung im Browser (Local Storage)",
-        "text": "Diese Webseite speichert Ihre Sprachauswahl und Ihren Lernfortschritt im Geräte-Wissen ausschließlich lokal in Ihrem Browser (Local Storage). Diese Daten werden nicht an uns oder Dritte übertragen und können jederzeit über die Browsereinstellungen gelöscht werden. Es werden keine Tracking-Cookies und keine Analyse-Dienste eingesetzt."
+        "text": "Diese Webseite speichert Ihren Lernfortschritt im Geräte-Wissen ausschließlich lokal in Ihrem Browser (Local Storage). Diese Daten werden nicht an uns oder Dritte übertragen und können jederzeit über die Browsereinstellungen gelöscht werden. Es werden keine Tracking-Cookies und keine Analyse-Dienste eingesetzt."
       },
       {
         "title": "5. Externe Dienste",
