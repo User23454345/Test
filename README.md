@@ -206,14 +206,20 @@ Impressum und Datenschutzerklärung sind von Suchmaschinen ausgenommen (`noindex
 
 ```bash
 node tools/check.js     # Übersetzungen, Geräte-Daten, Aktualität der Seiten, interne Links und Sprungmarken
-npm install             # einmalig, nur für den Browser-Test (Playwright, http-server)
+npm install             # einmalig, nur für die Browser-Tests (Playwright, axe-core, http-server)
 npm start               # Webserver auf Port 8080 (eigenes Terminal)
 npm test                # Browser-Test: alle Seiten in allen Sprachen und die wichtigsten Funktionen
+npm run test:a11y       # Barrierefreiheit: automatische Prüfung mit axe-core (WCAG 2.2 AA)
 ```
 
 Der Browser-Test prüft Konsolenfehler, Verstöße gegen die Inhaltsrichtlinie, Sprache und Leserichtung,
 horizontales Scrollen (Desktop, Smartphone und sehr schmale Bildschirme mit 320 px), Menü, Sprachwechsel, Suche,
 Filter, Lernfortschritt, Glossar, Kontaktformular und die Lesbarkeit ohne JavaScript.
+
+Die Barrierefreiheitsprüfung läuft über alle Seitentypen in allen drei Sprachen, jeweils in Desktop- und
+Smartphone-Breite, und zusätzlich über Zustände wie geöffnetes Menü, Suchtreffer und Formularfehler. Sie findet
+technische Fehler wie zu geringen Kontrast oder fehlende Beschriftungen. Eine Prüfung mit Tastatur und
+Screenreader ersetzt sie nicht.
 
 ---
 

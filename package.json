@@ -8,9 +8,11 @@
     "watch": "node tools/build.js --watch",
     "check": "node tools/check.js",
     "start": "http-server -p 8080 -c-1 .",
-    "test": "node tools/smoke-test.js http://127.0.0.1:8080"
+    "test": "node tools/smoke-test.js http://127.0.0.1:8080",
+    "test:a11y": "node tools/a11y-test.js http://127.0.0.1:8080"
   },
   "devDependencies": {
+    "axe-core": "^4.10.0",
     "http-server": "^14.1.1",
     "playwright": "^1.56.1"
   },
