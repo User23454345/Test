@@ -1,11 +1,13 @@
 {
   "name": "medny-website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Statische, mehrsprachige Webseite für Medny – Beratung & Beschaffung für Medizintechnik, inkl. Lernportal Geräte-Wissen",
   "private": true,
   "scripts": {
+    "build": "node tools/build.js",
+    "watch": "node tools/build.js --watch",
+    "check": "node tools/check.js",
     "start": "http-server -p 8080 -c-1 .",
-    "check": "node tools/check-i18n.js",
     "test": "node tools/smoke-test.js http://127.0.0.1:8080"
   },
   "devDependencies": {

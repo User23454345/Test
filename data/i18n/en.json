@@ -35,6 +35,14 @@
       "privacy": {
         "title": "Privacy policy – Medny",
         "description": "Privacy policy of Medny."
+      },
+      "glossary": {
+        "title": "Medical technology glossary – Medny",
+        "description": "Medical technology terms explained briefly and clearly – every term from Medny’s Device Knowledge, in alphabetical order and searchable."
+      },
+      "notFound": {
+        "title": "Page not found – Medny",
+        "description": "The requested page could not be found."
       }
     }
   },
@@ -53,7 +61,8 @@
     "mainNavLabel": "Main navigation",
     "language": "Language",
     "logoLabel": "Medny – go to homepage",
-    "breadcrumb": "Breadcrumb"
+    "breadcrumb": "Breadcrumb",
+    "glossary": "Glossary"
   },
   "common": {
     "learnMore": "Learn more",
@@ -70,7 +79,8 @@
     "loading": "Loading content …",
     "notAManufacturer": "Medny is neither a manufacturer nor a dealer with its own product range, but an independent consulting and intermediary company.",
     "ownerRole": "Owner · M.Sc. Biomedical Engineering",
-    "photoAlt": "Portrait photo of the contact person (placeholder)"
+    "photoAlt": "Portrait photo of the contact person (placeholder)",
+    "photoAltReal": "Portrait of {name}"
   },
   "home": {
     "hero": {
@@ -122,7 +132,8 @@
           "title": "Support & aftercare",
           "text": "We support you with training, documentation and maintenance planning and remain your point of contact whenever questions arise."
         }
-      ]
+      ],
+      "more": "Our services in detail"
     },
     "process": {
       "title": "How we work",
@@ -492,7 +503,9 @@
       "title": "Your learning progress",
       "text": "{done} of {total} devices marked as learned",
       "hint": "Your progress is stored locally in your browser only.",
-      "reset": "Reset progress"
+      "reset": "Reset progress",
+      "continue": "Continue with: {name}",
+      "done": "All devices marked as learned"
     },
     "detail": {
       "overview": "Overview",
@@ -515,9 +528,15 @@
       "notFoundText": "The requested device does not exist or has been removed.",
       "procurementCtaTitle": "Planning to acquire a device like this?",
       "procurementCtaText": "We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.",
-      "procurementCtaButton": "Request a consultation"
+      "procurementCtaButton": "Request a consultation",
+      "position": "Device {current} of {total}",
+      "imageAlt": "Schematic illustration: {name}",
+      "asideLabel": "Page navigation",
+      "pagerLabel": "Previous and next device"
     },
-    "loadError": "The device data could not be loaded. Please open the page via a local web server (see README)."
+    "loadError": "The device data could not be loaded. Please open the page via a local web server (see README).",
+    "clearSearch": "Clear search",
+    "noscript": "Search, filters and learning progress require JavaScript. All content can be read without it."
   },
   "contact": {
     "hero": {
@@ -644,5 +663,24 @@
     "contactTitle": "Contact",
     "disclaimer": "Medny is an independent consulting and intermediary company and not a manufacturer of medical devices.",
     "copyright": "© {year} Medny. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you requested does not exist or has been moved.",
+    "button": "Go to the home page"
+  },
+  "glossary": {
+    "hero": {
+      "eyebrow": "Learning portal",
+      "title": "Glossary",
+      "subtitle": "{count} technical terms from Device Knowledge, briefly explained and linked to the devices where they appear."
+    },
+    "searchLabel": "Search for a term",
+    "searchPlaceholder": "e.g. DICOM, Doppler, capnography …",
+    "appearsIn": "Appears in:",
+    "noResults": "No terms found.",
+    "linkLabel": "Glossary: all technical terms",
+    "count": "{count} terms",
+    "countOne": "1 term"
   }
 }

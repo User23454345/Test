@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medical technology glossary – Medny</title>
+  <meta name="description" content="Medical technology terms explained briefly and clearly – every term from Medny’s Device Knowledge, in alphabetical order and searchable.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
+  <meta name="theme-color" content="#0b4f8a">
+  <meta property="og:site_name" content="Medny">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Medical technology glossary – Medny">
+  <meta property="og:description" content="Medical technology terms explained briefly and clearly – every term from Medny’s Device Knowledge, in alphabetical order and searchable.">
+  <meta property="og:locale" content="en_GB">
+  <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/site.js" defer></script>
+</head>
+<body data-page="glossary">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Medny – go to homepage">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="brand__name" lang="en">Medny</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="medical-technology.html">Medical technology</a></li>
+          <li><a href="devices.html" aria-current="true">Device Knowledge</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="site-nav__actions">
+          <div class="lang-switch" role="group" aria-label="Language">
+            <a href="../glossar.html" lang="de" hreflang="de">Deutsch</a>
+            <a href="glossary.html" lang="en" hreflang="en" aria-current="true">English</a>
+            <a href="../ar/glossary.html" lang="ar" hreflang="ar">العربية</a>
+          </div>
+          <a class="btn btn--primary btn--sm" href="contact.html">Request a consultation</a>
+        </div>
+      </nav>
+    </div>
+    <noscript>
+      <div class="container nojs-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="medical-technology.html">Medical technology</a>
+        <a href="devices.html">Device Knowledge</a>
+        <a href="contact.html">Contact</a>
+        <a href="../glossar.html" lang="de" hreflang="de">Deutsch</a>
+        <a href="../ar/glossary.html" lang="ar" hreflang="ar">العربية</a>
+      </div>
+    </noscript>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero hero--compact">
+      <div class="container">
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="devices.html">Device Knowledge</a></li>
+            <li aria-current="page">Glossary</li>
+          </ol>
+        </nav>
+        <span class="eyebrow">Learning portal</span>
+        <h1 class="hero__title">Glossary</h1>
+        <p class="hero__text">88 technical terms from Device Knowledge, briefly explained and linked to the devices where they appear.</p>
+        <form class="search" role="search" id="glossary-search-form" action="glossary.html" method="get">
+          <label for="glossary-search" class="visually-hidden">Search for a term</label>
+          <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
+          <input id="glossary-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="e.g. DICOM, Doppler, capnography …">
+          <button type="button" class="search__clear" id="glossary-search-clear" aria-label="Clear search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        </form>
+        <noscript><p class="noscript-note">Search, filters and learning progress require JavaScript. All content can be read without it.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-label="Glossary">
+      <div class="container">
+        <p id="glossary-status" class="visually-hidden" role="status"></p>
+        <dl class="glossary glossary--page" id="glossary-list">
+          <div class="glossary-entry" data-search="a0 value measure of the inactivation of microorganisms by moist heat an a0 value of 3000 corresponds for example to 90 c for five minutes and is the usual value for the thermal disinfection of instruments">
+            <dt>A0 value</dt>
+            <dd>Measure of the inactivation of microorganisms by moist heat; an A0 value of 3000 corresponds, for example, to 90 °C for five minutes and is the usual value for the thermal disinfection of instruments.<p class="glossary-entry__sources">Appears in: <a href="devices/washer-disinfector.html">Washer-Disinfector (WD)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="aed automated external defibrillator analyses the heart rhythm independently and guides lay rescuers through the procedure">
+            <dt>AED</dt>
+            <dd>Automated external defibrillator: analyses the heart rhythm independently and guides lay rescuers through the procedure.<p class="glossary-entry__sources">Appears in: <a href="devices/defibrillator.html">Defibrillator</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="amalgam separator filter unit in the waste water line that retains mercury containing amalgam residues so they do not enter the sewer system">
+            <dt>Amalgam separator</dt>
+            <dd>Filter unit in the waste-water line that retains mercury-containing amalgam residues so they do not enter the sewer system.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-treatment-unit.html">Dental treatment unit</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="anti scatter grid a lead lamella grid in front of the detector that absorbs scattered radiation and thereby improves image contrast">
+            <dt>Anti-scatter grid</dt>
+            <dd>A lead lamella grid in front of the detector that absorbs scattered radiation and thereby improves image contrast.<p class="glossary-entry__sources">Appears in: <a href="devices/digital-xray.html">Digital X-ray system</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="b mode brightness mode the standard two dimensional greyscale image in which echo strength is shown as brightness">
+            <dt>B-mode</dt>
+            <dd>Brightness mode – the standard two-dimensional greyscale image in which echo strength is shown as brightness.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasound.html">Ultrasound system (sonography)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="base excess calculated value indicating whether a disturbance of the acid base balance is of metabolic origin">
+            <dt>Base excess</dt>
+            <dd>Calculated value indicating whether a disturbance of the acid-base balance is of metabolic origin.<p class="glossary-entry__sources">Appears in: <a href="devices/blood-gas-analyzer.html">Blood gas analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="batch load all items of one sterilization cycle they are documented checked and released together">
+            <dt>Batch (load)</dt>
+            <dd>All items of one sterilization cycle; they are documented, checked and released together.<p class="glossary-entry__sources">Appears in: <a href="devices/steam-sterilizer.html">Steam Sterilizer (Autoclave)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="batch documentation record of the process parameters of every sterilisation cycle forming the basis for releasing the sterile goods">
+            <dt>Batch documentation</dt>
+            <dd>Record of the process parameters of every sterilisation cycle, forming the basis for releasing the sterile goods.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-autoclave.html">Dental autoclave (class B)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="bolus a larger dose administered within a short time">
+            <dt>Bolus</dt>
+            <dd>A larger dose administered within a short time.<p class="glossary-entry__sources">Appears in: <a href="devices/infusion-pump.html">Infusion pump / syringe pump</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="bowie dick test daily test with an indicator pack that proves air removal and steam penetration in the chamber">
+            <dt>Bowie-Dick test</dt>
+            <dd>Daily test with an indicator pack that proves air removal and steam penetration in the chamber.<p class="glossary-entry__sources">Appears in: <a href="devices/steam-sterilizer.html">Steam Sterilizer (Autoclave)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cad cam computer aided design and manufacturing of dental restorations based on digital data">
+            <dt>CAD/CAM</dt>
+            <dd>Computer-aided design and manufacturing of dental restorations based on digital data.<p class="glossary-entry__sources">Appears in: <a href="devices/intraoral-scanner.html">Intraoral scanner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="calibration adjustment of the instrument using solutions of known concentration so that measured signals are correctly converted into concentrations">
+            <dt>Calibration</dt>
+            <dd>Adjustment of the instrument using solutions of known concentration so that measured signals are correctly converted into concentrations.<p class="glossary-entry__sources">Appears in: <a href="devices/clinical-chemistry-analyzer.html">Clinical chemistry analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="capnography continuous measurement of the carbon dioxide content in exhaled air etco2 to monitor ventilation and circulation">
+            <dt>Capnography</dt>
+            <dd>Continuous measurement of the carbon dioxide content in exhaled air (etCO2) to monitor ventilation and circulation.<p class="glossary-entry__sources">Appears in: <a href="devices/patient-monitor.html">Patient monitor</a>, <a href="devices/anesthesia-machine.html">Anaesthesia machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cardiotocography ctg simultaneous recording of the fetal heart rate cardio and uterine contractions toco">
+            <dt>Cardiotocography (CTG)</dt>
+            <dd>Simultaneous recording of the fetal heart rate (cardio) and uterine contractions (toco).<p class="glossary-entry__sources">Appears in: <a href="devices/fetal-monitor.html">Fetal monitor (CTG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cardioversion a synchronised shock timed to the heart s own activity used to treat certain arrhythmias such as atrial fibrillation">
+            <dt>Cardioversion</dt>
+            <dd>A synchronised shock timed to the heart's own activity, used to treat certain arrhythmias such as atrial fibrillation.<p class="glossary-entry__sources">Appears in: <a href="devices/defibrillator.html">Defibrillator</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cavitation formation and implosion of microscopic vapour bubbles in a liquid caused by ultrasound the energy released loosens soil from surfaces">
+            <dt>Cavitation</dt>
+            <dd>Formation and implosion of microscopic vapour bubbles in a liquid caused by ultrasound; the energy released loosens soil from surfaces.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasonic-cleaner.html">Ultrasonic Cleaner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cbct cone beam computed tomography a three dimensional x ray technique for the jaws and facial skeleton using a cone shaped beam">
+            <dt>CBCT</dt>
+            <dd>Cone beam computed tomography – a three-dimensional X-ray technique for the jaws and facial skeleton using a cone-shaped beam.<p class="glossary-entry__sources">Appears in: <a href="devices/panoramic-xray.html">Panoramic X-ray unit (OPG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="ce marking confirms that a medical device meets the applicable eu requirements for higher risk classes a notified body is involved">
+            <dt>CE marking</dt>
+            <dd>Confirms that a medical device meets the applicable EU requirements. For higher risk classes, a Notified Body is involved.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cephalometric radiograph ceph lateral skull radiograph used for orthodontic measurement of the skull and jaw relationship">
+            <dt>Cephalometric radiograph (ceph)</dt>
+            <dd>Lateral skull radiograph used for orthodontic measurement of the skull and jaw relationship.<p class="glossary-entry__sources">Appears in: <a href="devices/panoramic-xray.html">Panoramic X-ray unit (OPG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="circle system breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime saving anaesthetic gas and preserving the moisture and heat of the breathing gas">
+            <dt>Circle system</dt>
+            <dd>Breathing system in which exhaled gas is returned to the patient after the carbon dioxide has been removed by soda lime – saving anaesthetic gas and preserving the moisture and heat of the breathing gas.<p class="glossary-entry__sources">Appears in: <a href="devices/anesthesia-machine.html">Anaesthesia machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="coagulation clotting of tissue protein by heat it seals blood vessels and stops bleeding">
+            <dt>Coagulation</dt>
+            <dd>Clotting of tissue protein by heat; it seals blood vessels and stops bleeding.<p class="glossary-entry__sources">Appears in: <a href="devices/electrosurgical-unit.html">Electrosurgical unit (ESU)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="cold light source powerful light source today usually led whose light is guided into the endoscope through a fibre optic cable without heating the tissue">
+            <dt>Cold light source</dt>
+            <dd>Powerful light source (today usually LED) whose light is guided into the endoscope through a fibre-optic cable without heating the tissue.<p class="glossary-entry__sources">Appears in: <a href="devices/endoscopy-system.html">Endoscopy system (video endoscopy tower)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="colour rendering index ra cri measure of how natural colours appear under a light source high values are important for assessing tissue">
+            <dt>Colour rendering index (Ra/CRI)</dt>
+            <dd>Measure of how natural colours appear under a light source; high values are important for assessing tissue.<p class="glossary-entry__sources">Appears in: <a href="devices/surgical-light.html">Surgical light</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="contra angle handpiece attachment for the micromotor that transfers rotation to the bur available with speed increasing or speed reducing gearing">
+            <dt>Contra-angle handpiece</dt>
+            <dd>Attachment for the micromotor that transfers rotation to the bur; available with speed-increasing or speed-reducing gearing.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-treatment-unit.html">Dental treatment unit</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="degassing short idle run of the bath after filling so that dissolved air escapes dissolved gases dampen cavitation and reduce cleaning performance">
+            <dt>Degassing</dt>
+            <dd>Short idle run of the bath after filling so that dissolved air escapes; dissolved gases dampen cavitation and reduce cleaning performance.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasonic-cleaner.html">Ultrasonic Cleaner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="dialyser the actual filter with a semi permeable membrane in which substances are exchanged between blood and dialysis fluid">
+            <dt>Dialyser</dt>
+            <dd>The actual filter with a semi-permeable membrane in which substances are exchanged between blood and dialysis fluid.<p class="glossary-entry__sources">Appears in: <a href="devices/dialysis-machine.html">Dialysis machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="differential count breakdown of white blood cells into their subgroups e g neutrophils lymphocytes monocytes a 3 part diff distinguishes three a 5 part diff five cell populations">
+            <dt>Differential count</dt>
+            <dd>Breakdown of white blood cells into their subgroups (e.g. neutrophils, lymphocytes, monocytes). A 3-part diff distinguishes three, a 5-part diff five cell populations.<p class="glossary-entry__sources">Appears in: <a href="devices/hematology-analyzer.html">Haematology analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="doppler a mode that measures the frequency shift of echoes from moving blood to display flow direction and speed usually colour coded">
+            <dt>Doppler</dt>
+            <dd>A mode that measures the frequency shift of echoes from moving blood to display flow direction and speed, usually colour-coded.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasound.html">Ultrasound system (sonography)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="dose area product dap a measure of the radiation delivered to the patient calculated from dose and irradiated area it must be documented for every exposure">
+            <dt>Dose-area product (DAP)</dt>
+            <dd>A measure of the radiation delivered to the patient, calculated from dose and irradiated area; it must be documented for every exposure.<p class="glossary-entry__sources">Appears in: <a href="devices/digital-xray.html">Digital X-ray system</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="edta blood whole blood mixed with the anticoagulant edta so that the cells remain individually suspended for analysis">
+            <dt>EDTA blood</dt>
+            <dd>Whole blood mixed with the anticoagulant EDTA so that the cells remain individually suspended for analysis.<p class="glossary-entry__sources">Appears in: <a href="devices/hematology-analyzer.html">Haematology analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="fio2 fraction of oxygen in the inhaled gas mixture room air 21">
+            <dt>FiO2</dt>
+            <dd>Fraction of oxygen in the inhaled gas mixture (room air: 21 %).<p class="glossary-entry__sources">Appears in: <a href="devices/ventilator.html">Ventilator</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="fixed angle rotor rotor with permanently inclined tube positions allows higher speeds and shorter run times">
+            <dt>Fixed-angle rotor</dt>
+            <dd>Rotor with permanently inclined tube positions; allows higher speeds and shorter run times.<p class="glossary-entry__sources">Appears in: <a href="devices/laboratory-centrifuge.html">Laboratory centrifuge</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="flat panel detector dr an electronic sensor that converts x rays directly into a digital image replacing film and cassettes">
+            <dt>Flat-panel detector (DR)</dt>
+            <dd>An electronic sensor that converts X-rays directly into a digital image, replacing film and cassettes.<p class="glossary-entry__sources">Appears in: <a href="devices/digital-xray.html">Digital X-ray system</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="flushing adapter connector that links hollow instruments such as cannulas or tubing to the water circuit so that internal surfaces are cleaned as well">
+            <dt>Flushing adapter</dt>
+            <dd>Connector that links hollow instruments such as cannulas or tubing to the water circuit so that internal surfaces are cleaned as well.<p class="glossary-entry__sources">Appears in: <a href="devices/washer-disinfector.html">Washer-Disinfector (WD)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="fractionated pre vacuum repeated evacuation and steam flushing of the chamber before sterilisation to remove air completely">
+            <dt>Fractionated pre-vacuum</dt>
+            <dd>Repeated evacuation and steam flushing of the chamber before sterilisation to remove air completely.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-autoclave.html">Dental autoclave (class B)</a>, <a href="devices/steam-sterilizer.html">Steam Sterilizer (Autoclave)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="gantry the ring shaped housing containing the rotating x ray tube and detectors the patient table moves through its opening">
+            <dt>Gantry</dt>
+            <dd>The ring-shaped housing containing the rotating X-ray tube and detectors; the patient table moves through its opening.<p class="glossary-entry__sources">Appears in: <a href="devices/ct-scanner.html">Computed tomography scanner (CT)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="haemoglobin the red pigment in red blood cells that binds and transports oxygen">
+            <dt>Haemoglobin</dt>
+            <dd>The red pigment in red blood cells that binds and transports oxygen.<p class="glossary-entry__sources">Appears in: <a href="devices/pulse-oximeter.html">Pulse oximeter</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="helix test process challenge device with a long thin tube that simulates steam penetration into hollow items such as contra angle handpieces">
+            <dt>Helix test</dt>
+            <dd>Process challenge device with a long, thin tube that simulates steam penetration into hollow items such as contra-angle handpieces.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-autoclave.html">Dental autoclave (class B)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="hounsfield unit hu the scale for attenuation values in ct images water is 0 hu air about 1000 hu dense bone around 1000 hu and above">
+            <dt>Hounsfield unit (HU)</dt>
+            <dd>The scale for attenuation values in CT images: water is 0 HU, air about −1000 HU, dense bone around +1000 HU and above.<p class="glossary-entry__sources">Appears in: <a href="devices/ct-scanner.html">Computed tomography scanner (CT)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="impedance counting counting principle in which each cell briefly increases the electrical resistance as it passes through an aperture the height of the pulse corresponds to the cell size">
+            <dt>Impedance counting</dt>
+            <dd>Counting principle in which each cell briefly increases the electrical resistance as it passes through an aperture; the height of the pulse corresponds to the cell size.<p class="glossary-entry__sources">Appears in: <a href="devices/hematology-analyzer.html">Haematology analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="insufflator device that delivers carbon dioxide into the abdominal cavity in a controlled manner to create space and visibility for the procedure">
+            <dt>Insufflator</dt>
+            <dd>Device that delivers carbon dioxide into the abdominal cavity in a controlled manner to create space and visibility for the procedure.<p class="glossary-entry__sources">Appears in: <a href="devices/endoscopy-system.html">Endoscopy system (video endoscopy tower)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="ion selective electrode ise sensor whose electrical voltage depends on the concentration of a specific ion e g potassium the standard method for electrolytes">
+            <dt>Ion-selective electrode (ISE)</dt>
+            <dd>Sensor whose electrical voltage depends on the concentration of a specific ion (e.g. potassium); the standard method for electrolytes.<p class="glossary-entry__sources">Appears in: <a href="devices/clinical-chemistry-analyzer.html">Clinical chemistry analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="laparoscopy minimally invasive surgery in the abdominal cavity through small incisions through which the telescope and instruments are introduced keyhole surgery">
+            <dt>Laparoscopy</dt>
+            <dd>Minimally invasive surgery in the abdominal cavity through small incisions, through which the telescope and instruments are introduced (keyhole surgery).<p class="glossary-entry__sources">Appears in: <a href="devices/endoscopy-system.html">Endoscopy system (video endoscopy tower)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="lead a view of the heart s electrical activity formed from the voltage difference between specific electrodes">
+            <dt>Lead</dt>
+            <dd>A view of the heart's electrical activity formed from the voltage difference between specific electrodes.<p class="glossary-entry__sources">Appears in: <a href="devices/ecg-device.html">ECG machine (12-lead)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="mdr medical device regulation eu regulation 2017 745 on medical devices it defines the requirements products must meet before being placed on the market">
+            <dt>MDR</dt>
+            <dd>Medical Device Regulation – EU Regulation 2017/745 on medical devices. It defines the requirements products must meet before being placed on the market.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="medical device logbook medizinproduktebuch documentation for certain active medical devices training functional tests maintenance and malfunctions">
+            <dt>Medical device logbook (Medizinproduktebuch)</dt>
+            <dd>Documentation for certain active medical devices: training, functional tests, maintenance and malfunctions.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="monopolar bipolar in monopolar mode the current flows through the body to the return electrode in bipolar mode only between the two tips of the instrument gentler but with less cutting power">
+            <dt>Monopolar / bipolar</dt>
+            <dd>In monopolar mode the current flows through the body to the return electrode; in bipolar mode only between the two tips of the instrument – gentler, but with less cutting power.<p class="glossary-entry__sources">Appears in: <a href="devices/electrosurgical-unit.html">Electrosurgical unit (ESU)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="mpdg mpbetreibv the german medical devices law implementation act mpdg and the german medical devices operator ordinance mpbetreibv regulate among other things the obligations when operating and using medical devices">
+            <dt>MPDG &amp; MPBetreibV</dt>
+            <dd>The German Medical Devices Law Implementation Act (MPDG) and the German Medical Devices Operator Ordinance (MPBetreibV) regulate, among other things, the obligations when operating and using medical devices.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="nibp non invasive blood pressure measurement with an upper arm cuff that the monitor inflates automatically at adjustable intervals">
+            <dt>NIBP</dt>
+            <dd>Non-invasive blood pressure measurement with an upper-arm cuff that the monitor inflates automatically at adjustable intervals.<p class="glossary-entry__sources">Appears in: <a href="devices/patient-monitor.html">Patient monitor</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="occlusion a blockage of the infusion line for example due to a kinked tube the pump detects the rise in pressure and raises an alarm">
+            <dt>Occlusion</dt>
+            <dd>A blockage of the infusion line, for example due to a kinked tube; the pump detects the rise in pressure and raises an alarm.<p class="glossary-entry__sources">Appears in: <a href="devices/infusion-pump.html">Infusion pump / syringe pump</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="opg orthopantomogram panoramic tomographic image of the entire jaw in which the tube and detector rotate around the head">
+            <dt>OPG / Orthopantomogram</dt>
+            <dd>Panoramic tomographic image of the entire jaw in which the tube and detector rotate around the head.<p class="glossary-entry__sources">Appears in: <a href="devices/panoramic-xray.html">Panoramic X-ray unit (OPG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="partial pressure po2 pco2 the share of the total pressure attributable to a dissolved gas a measure of how much oxygen or carbon dioxide is dissolved in the blood">
+            <dt>Partial pressure (pO2 / pCO2)</dt>
+            <dd>The share of the total pressure attributable to a dissolved gas; a measure of how much oxygen or carbon dioxide is dissolved in the blood.<p class="glossary-entry__sources">Appears in: <a href="devices/blood-gas-analyzer.html">Blood gas analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="pca patient controlled analgesia patients trigger doses of pain medication themselves within predefined limits">
+            <dt>PCA</dt>
+            <dd>Patient-controlled analgesia: patients trigger doses of pain medication themselves within predefined limits.<p class="glossary-entry__sources">Appears in: <a href="devices/infusion-pump.html">Infusion pump / syringe pump</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="peel test test in which the seal is pulled open by hand or in a test device it must open evenly without fibre tear or gaps">
+            <dt>Peel test</dt>
+            <dd>Test in which the seal is pulled open by hand or in a test device; it must open evenly without fibre tear or gaps.<p class="glossary-entry__sources">Appears in: <a href="devices/heat-sealer.html">Heat Sealer for Sterile Packaging</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="peep positive end expiratory pressure a residual pressure at the end of exhalation that keeps the alveoli open">
+            <dt>PEEP</dt>
+            <dd>Positive end-expiratory pressure: a residual pressure at the end of exhalation that keeps the alveoli open.<p class="glossary-entry__sources">Appears in: <a href="devices/ventilator.html">Ventilator</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="photometry measurement of the light absorption of a solution at a specific wavelength it is the basic principle of most clinical chemistry tests">
+            <dt>Photometry</dt>
+            <dd>Measurement of the light absorption of a solution at a specific wavelength; it is the basic principle of most clinical chemistry tests.<p class="glossary-entry__sources">Appears in: <a href="devices/clinical-chemistry-analyzer.html">Clinical chemistry analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="plethysmogram waveform display of the pulsating light signal that makes signal quality and pulse visible">
+            <dt>Plethysmogram</dt>
+            <dd>Waveform display of the pulsating light signal that makes signal quality and pulse visible.<p class="glossary-entry__sources">Appears in: <a href="devices/pulse-oximeter.html">Pulse oximeter</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="poct point of care testing laboratory diagnostics performed directly at the patient e g in the intensive care unit without transporting the sample to the central laboratory">
+            <dt>POCT</dt>
+            <dd>Point-of-care testing: laboratory diagnostics performed directly at the patient, e.g. in the intensive care unit, without transporting the sample to the central laboratory.<p class="glossary-entry__sources">Appears in: <a href="devices/blood-gas-analyzer.html">Blood gas analyser</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="probe transducer the handheld part that emits and receives sound waves shape and frequency determine penetration depth and resolution">
+            <dt>Probe (transducer)</dt>
+            <dd>The handheld part that emits and receives sound waves. Shape and frequency determine penetration depth and resolution.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasound.html">Ultrasound system (sonography)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="qrs complex the characteristic spike in the ecg that represents the electrical excitation of the ventricles">
+            <dt>QRS complex</dt>
+            <dd>The characteristic spike in the ECG that represents the electrical excitation of the ventricles.<p class="glossary-entry__sources">Appears in: <a href="devices/ecg-device.html">ECG machine (12-lead)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="quench the sudden loss of superconductivity in which the liquid helium evaporates abruptly the gas must be vented outside through a quench pipe">
+            <dt>Quench</dt>
+            <dd>The sudden loss of superconductivity, in which the liquid helium evaporates abruptly; the gas must be vented outside through a quench pipe.<p class="glossary-entry__sources">Appears in: <a href="devices/mri-scanner.html">Magnetic resonance imaging scanner (MRI)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="relative centrifugal force rcf multiple of the acceleration due to gravity g acting on the sample derived from speed and rotor radius and the decisive quantity for separation">
+            <dt>Relative centrifugal force (RCF)</dt>
+            <dd>Multiple of the acceleration due to gravity (g) acting on the sample; derived from speed and rotor radius and the decisive quantity for separation.<p class="glossary-entry__sources">Appears in: <a href="devices/laboratory-centrifuge.html">Laboratory centrifuge</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="resting ecg a short standard recording taken lying down without physical exertion usually over ten seconds">
+            <dt>Resting ECG</dt>
+            <dd>A short standard recording taken lying down without physical exertion, usually over ten seconds.<p class="glossary-entry__sources">Appears in: <a href="devices/ecg-device.html">ECG machine (12-lead)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="return electrode neutral electrode large area electrode attached to the patient in the monopolar technique so that the current leaves the body there at low density and without burns">
+            <dt>Return electrode (neutral electrode)</dt>
+            <dd>Large-area electrode attached to the patient in the monopolar technique so that the current leaves the body there at low density and without burns.<p class="glossary-entry__sources">Appears in: <a href="devices/electrosurgical-unit.html">Electrosurgical unit (ESU)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="satellite light second usually smaller light head on the same ceiling system that supplements the main light and is positioned by the assistant">
+            <dt>Satellite light</dt>
+            <dd>Second, usually smaller light head on the same ceiling system that supplements the main light and is positioned by the assistant.<p class="glossary-entry__sources">Appears in: <a href="devices/surgical-light.html">Surgical light</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="scan body screw on auxiliary component placed on an implant to make its position visible in the scan">
+            <dt>Scan body</dt>
+            <dd>Screw-on auxiliary component placed on an implant to make its position visible in the scan.<p class="glossary-entry__sources">Appears in: <a href="devices/intraoral-scanner.html">Intraoral scanner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="seal seam the bond between paper and film created by heat and pressure it must be continuous uniform and peelable so that the pack stays sterile and can be opened aseptically in the operating theatre">
+            <dt>Seal (seam)</dt>
+            <dd>The bond between paper and film created by heat and pressure; it must be continuous, uniform and peelable so that the pack stays sterile and can be opened aseptically in the operating theatre.<p class="glossary-entry__sources">Appears in: <a href="devices/heat-sealer.html">Heat Sealer for Sterile Packaging</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="sequence t1 t2 a defined series of radiofrequency and gradient pulses t1 weighted images show anatomy well t2 weighted images highlight fluid and inflammation">
+            <dt>Sequence (T1/T2)</dt>
+            <dd>A defined series of radiofrequency and gradient pulses. T1-weighted images show anatomy well, T2-weighted images highlight fluid and inflammation.<p class="glossary-entry__sources">Appears in: <a href="devices/mri-scanner.html">Magnetic resonance imaging scanner (MRI)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="shadow management ability of a light to compensate for shadows cast by heads hands or instruments by using many light sources from different angles">
+            <dt>Shadow management</dt>
+            <dd>Ability of a light to compensate for shadows cast by heads, hands or instruments by using many light sources from different angles.<p class="glossary-entry__sources">Appears in: <a href="devices/surgical-light.html">Surgical light</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="shunt a surgically created connection between an artery and a vein in the arm that provides a permanent vascular access with high blood flow">
+            <dt>Shunt</dt>
+            <dd>A surgically created connection between an artery and a vein in the arm that provides a permanent vascular access with high blood flow.<p class="glossary-entry__sources">Appears in: <a href="devices/dialysis-machine.html">Dialysis machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="spiral ct continuous table movement during tube rotation so that a volume is acquired without gaps the basis of most modern ct examinations sequential step and shoot mode is still used e g for ecg triggered cardiac scans">
+            <dt>Spiral CT</dt>
+            <dd>Continuous table movement during tube rotation, so that a volume is acquired without gaps; the basis of most modern CT examinations – sequential (step-and-shoot) mode is still used, e.g. for ECG-triggered cardiac scans.<p class="glossary-entry__sources">Appears in: <a href="devices/ct-scanner.html">Computed tomography scanner (CT)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="spo2 oxygen saturation of haemoglobin in arterial blood measured by pulse oximetry given as a percentage">
+            <dt>SpO2</dt>
+            <dd>Oxygen saturation of haemoglobin in arterial blood measured by pulse oximetry, given as a percentage.<p class="glossary-entry__sources">Appears in: <a href="devices/patient-monitor.html">Patient monitor</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="spot check a single short measurement for a quick check instead of continuous monitoring">
+            <dt>Spot check</dt>
+            <dd>A single short measurement for a quick check instead of continuous monitoring.<p class="glossary-entry__sources">Appears in: <a href="devices/pulse-oximeter.html">Pulse oximeter</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="sterile barrier system the smallest packaging unit that prevents the entry of microorganisms and allows aseptic removal of the product">
+            <dt>Sterile barrier system</dt>
+            <dd>The smallest packaging unit that prevents the entry of microorganisms and allows aseptic removal of the product.<p class="glossary-entry__sources">Appears in: <a href="devices/heat-sealer.html">Heat Sealer for Sterile Packaging</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="stk mtk safety related and metrological inspections german sicherheitstechnische bzw messtechnische kontrollen regular checks that are mandatory for certain devices">
+            <dt>STK / MTK</dt>
+            <dd>Safety-related and metrological inspections (German: sicherheitstechnische bzw. messtechnische Kontrollen) – regular checks that are mandatory for certain devices.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="stl open file format for three dimensional surface models that can be read by most cad programs">
+            <dt>STL</dt>
+            <dd>Open file format for three-dimensional surface models that can be read by most CAD programs.<p class="glossary-entry__sources">Appears in: <a href="devices/intraoral-scanner.html">Intraoral scanner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="swing out rotor rotor whose sample buckets swing to a horizontal position during rotation produces a flat separation layer and is well suited to blood samples">
+            <dt>Swing-out rotor</dt>
+            <dd>Rotor whose sample buckets swing to a horizontal position during rotation; produces a flat separation layer and is well suited to blood samples.<p class="glossary-entry__sources">Appears in: <a href="devices/laboratory-centrifuge.html">Laboratory centrifuge</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="tesla t unit of magnetic flux density clinical mri systems typically operate at 1 5 or 3 t tens of thousands of times stronger than the earth s magnetic field">
+            <dt>Tesla (T)</dt>
+            <dd>Unit of magnetic flux density. Clinical MRI systems typically operate at 1.5 or 3 T – tens of thousands of times stronger than the Earth's magnetic field.<p class="glossary-entry__sources">Appears in: <a href="devices/mri-scanner.html">Magnetic resonance imaging scanner (MRI)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="thermal disinfection disinfection solely by hot water without chemical disinfectants it is reliable easy to validate and leaves no residues">
+            <dt>Thermal disinfection</dt>
+            <dd>Disinfection solely by hot water without chemical disinfectants; it is reliable, easy to validate and leaves no residues.<p class="glossary-entry__sources">Appears in: <a href="devices/washer-disinfector.html">Washer-Disinfector (WD)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="tidal volume the volume of gas delivered to the lungs with each breath">
+            <dt>Tidal volume</dt>
+            <dd>The volume of gas delivered to the lungs with each breath.<p class="glossary-entry__sources">Appears in: <a href="devices/ventilator.html">Ventilator</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="tocodynamometer pressure transducer on the abdominal wall that registers contractions without measuring their actual strength">
+            <dt>Tocodynamometer</dt>
+            <dd>Pressure transducer on the abdominal wall that registers contractions without measuring their actual strength.<p class="glossary-entry__sources">Appears in: <a href="devices/fetal-monitor.html">Fetal monitor (CTG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="transducer piezoelectric component that converts the alternating voltage of the generator into mechanical vibrations of the tank">
+            <dt>Transducer</dt>
+            <dd>Piezoelectric component that converts the alternating voltage of the generator into mechanical vibrations of the tank.<p class="glossary-entry__sources">Appears in: <a href="devices/ultrasonic-cleaner.html">Ultrasonic Cleaner</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="turbine air driven handpiece with a very high rotational speed used to prepare hard tooth tissue">
+            <dt>Turbine</dt>
+            <dd>Air-driven handpiece with a very high rotational speed used to prepare hard tooth tissue.<p class="glossary-entry__sources">Appears in: <a href="devices/dental-treatment-unit.html">Dental treatment unit</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="udi unique device identification a unique product identifier for the traceability of medical devices">
+            <dt>UDI</dt>
+            <dd>Unique Device Identification – a unique product identifier for the traceability of medical devices.<p class="glossary-entry__sources"><a href="medical-technology.html">Medical technology</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="ultrafiltration removal of water from the blood by a pressure difference across the membrane">
+            <dt>Ultrafiltration</dt>
+            <dd>Removal of water from the blood by a pressure difference across the membrane.<p class="glossary-entry__sources">Appears in: <a href="devices/dialysis-machine.html">Dialysis machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="vaporiser assembly that evaporates a liquid anaesthetic into the fresh gas flow in a controlled manner each anaesthetic agent requires its own calibrated vaporiser">
+            <dt>Vaporiser</dt>
+            <dd>Assembly that evaporates a liquid anaesthetic into the fresh gas flow in a controlled manner; each anaesthetic agent requires its own calibrated vaporiser.<p class="glossary-entry__sources">Appears in: <a href="devices/anesthesia-machine.html">Anaesthesia machine</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="variability natural beat to beat fluctuation of the fetal heart rate an important sign of the baby s well being">
+            <dt>Variability</dt>
+            <dd>Natural beat-to-beat fluctuation of the fetal heart rate; an important sign of the baby's well-being.<p class="glossary-entry__sources">Appears in: <a href="devices/fetal-monitor.html">Fetal monitor (CTG)</a></p></dd>
+          </div>
+          <div class="glossary-entry" data-search="ventricular fibrillation uncoordinated electrical activity of the heart s ventricles in which the heart no longer pumps blood a form of cardiac arrest">
+            <dt>Ventricular fibrillation</dt>
+            <dd>Uncoordinated electrical activity of the heart's ventricles in which the heart no longer pumps blood; a form of cardiac arrest.<p class="glossary-entry__sources">Appears in: <a href="devices/defibrillator.html">Defibrillator</a></p></dd>
+          </div>
+        </dl>
+        <div id="glossary-empty" class="empty-state" hidden>
+          <h2>No terms found.</h2>
+          <p>Try a different term or reset the filter.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title">Would you like to go deeper?</h2>
+        <p>In Device Knowledge we present the most important devices in each category – with how they work, where they are used and procurement guidance.</p>
+        <a class="btn btn--light" href="devices.html">Go to Device Knowledge</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="Medny – go to homepage">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="brand__name" lang="en">Medny</span>
+      </a>
+          <p>Independent consulting and procurement for medical technology – for hospitals, practices and healthcare facilities.</p>
+          <p class="site-footer__disclaimer">Medny is an independent consulting and intermediary company and not a manufacturer of medical devices.</p>
+        </div>
+        <div>
+          <h2>Navigation</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="medical-technology.html">Medical technology</a></li>
+            <li><a href="devices.html">Device Knowledge</a></li>
+            <li><a href="glossary.html">Glossary</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="legal-notice.html">Legal notice</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li>Vorname Nachname</li>
+            <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
+            <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>
+            <li><span class="ltr">Musterstraße 1, 12345 Musterstadt</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© <span data-year>2026</span> Medny. All rights reserved.</span>
+        <span>Independent consulting &amp; procurement for medical technology</span>
+      </div>
+    </div>
+  </footer>
+  <script type="application/json" id="site-strings">{"menuOpen":"Open menu","menuClose":"Close menu","glossaryCount":"{count} terms","glossaryCountOne":"1 term","glossaryNone":"No terms found."}</script>
+</body>
+</html>

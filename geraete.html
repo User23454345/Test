@@ -1,99 +1,585 @@
 <!DOCTYPE html>
+<!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
 <html lang="de" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Geräte-Wissen – Medizintechnik verständlich erklärt | Medny</title>
   <meta name="description" content="Lernportal: Medizinische Geräte nach Kategorien – Bildgebung, Labordiagnostik, Patientenüberwachung, OP-Technik, Therapie, Dentaltechnik, Sterilisation.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
   <meta name="theme-color" content="#0b4f8a">
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <meta property="og:site_name" content="Medny">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geräte-Wissen – Medizintechnik verständlich erklärt | Medny">
+  <meta property="og:description" content="Lernportal: Medizinische Geräte nach Kategorien – Bildgebung, Labordiagnostik, Patientenüberwachung, OP-Technik, Therapie, Dentaltechnik, Sterilisation.">
+  <meta property="og:locale" content="de_DE">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/i18n.js" defer></script>
-  <script src="js/icons.js" defer></script>
-  <script src="js/main.js" defer></script>
-  <script src="js/portal.js" defer></script>
+  <script src="js/site.js" defer></script>
 </head>
 <body data-page="devices">
-  <a class="skip-link" href="#main" data-i18n="nav.skipToContent">Zum Inhalt springen</a>
-  <noscript><div class="noscript-banner">Bitte aktivieren Sie JavaScript, um Sprachumschaltung und Geräte-Wissen zu nutzen. / Please enable JavaScript.</div></noscript>
-
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="brand" href="index.html" aria-label="Medny – zur Startseite" data-i18n-attr="aria-label:nav.logoLabel">
+      <a class="brand" href="index.html" aria-label="Medny – zur Startseite">
         <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
-        <span class="brand__name">Medny</span>
+        <span class="brand__name" lang="en">Medny</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü öffnen">
-        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg>
       </button>
-      <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:nav.mainNavLabel">
+      <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation">
         <ul class="site-nav__list">
-          <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
-          <li><a href="ueber-uns.html" data-i18n="nav.about">Über uns</a></li>
-          <li><a href="medizintechnik.html" data-i18n="nav.medtech">Was ist Medizintechnik?</a></li>
-          <li><a href="geraete.html" aria-current="page" data-i18n="nav.devices">Geräte-Wissen</a></li>
-          <li><a href="kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="medizintechnik.html">Was ist Medizintechnik?</a></li>
+          <li><a href="geraete.html" aria-current="page">Geräte-Wissen</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
         <div class="site-nav__actions">
-          <div class="lang-switch" role="group" aria-label="Sprache" data-i18n-attr="aria-label:nav.language">
-            <button type="button" data-lang="de" lang="de" aria-pressed="true">Deutsch</button>
-            <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
-            <button type="button" data-lang="ar" lang="ar" aria-pressed="false">العربية</button>
+          <div class="lang-switch" role="group" aria-label="Sprache">
+            <a href="geraete.html" lang="de" hreflang="de" aria-current="true">Deutsch</a>
+            <a href="en/devices.html" lang="en" hreflang="en">English</a>
+            <a href="ar/devices.html" lang="ar" hreflang="ar">العربية</a>
           </div>
-          <a class="btn btn--primary btn--sm" href="kontakt.html" data-i18n="nav.cta">Beratung anfragen</a>
+          <a class="btn btn--primary btn--sm" href="kontakt.html">Beratung anfragen</a>
         </div>
       </nav>
     </div>
+    <noscript>
+      <div class="container nojs-nav">
+        <a href="index.html">Startseite</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="medizintechnik.html">Was ist Medizintechnik?</a>
+        <a href="geraete.html">Geräte-Wissen</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="en/devices.html" lang="en" hreflang="en">English</a>
+        <a href="ar/devices.html" lang="ar" hreflang="ar">العربية</a>
+      </div>
+    </noscript>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="-1">
     <section class="hero hero--compact">
       <div class="container">
-        <span class="eyebrow" data-i18n="devices.hero.eyebrow">Lernportal</span>
-        <h1 class="hero__title" data-i18n="devices.hero.title">Geräte-Wissen</h1>
-        <p class="hero__text" data-i18n="devices.hero.subtitle">Medizintechnik verständlich erklärt – nach Kategorien geordnet, durchsuchbar und auf das Wesentliche reduziert. Wählen Sie eine Kategorie oder suchen Sie direkt nach einem Gerät.</p>
-        <form class="search" id="device-search-form" role="search">
-          <label for="device-search" class="visually-hidden" data-i18n="devices.searchLabel">Gerät oder Begriff suchen</label>
-          <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
-          <input id="device-search" type="search" autocomplete="off" placeholder="z. B. Ultraschall, EKG, Autoklav …" data-i18n-attr="placeholder:devices.searchPlaceholder">
-          <button type="button" class="search__clear" id="device-search-clear" aria-label="Schließen" data-i18n-attr="aria-label:common.close">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
-          </button>
+        <span class="eyebrow">Lernportal</span>
+        <h1 class="hero__title">Geräte-Wissen</h1>
+        <p class="hero__text">Medizintechnik verständlich erklärt – nach Kategorien geordnet, durchsuchbar und auf das Wesentliche reduziert. Wählen Sie eine Kategorie oder suchen Sie direkt nach einem Gerät.</p>
+        <form class="search" role="search" id="device-search-form" action="geraete.html" method="get">
+          <label for="device-search" class="visually-hidden">Gerät oder Begriff suchen</label>
+          <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
+          <input id="device-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="z. B. Ultraschall, EKG, Autoklav …">
+          <button type="button" class="search__clear" id="device-search-clear" aria-label="Suche leeren"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
         </form>
+        <p class="hero__links"><a href="glossar.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z"/></svg> Glossar: alle Fachbegriffe</a></p>
+        <noscript><p class="noscript-note">Suche, Filter und Lernfortschritt benötigen JavaScript. Alle Inhalte sind auch ohne JavaScript lesbar.</p></noscript>
       </div>
     </section>
 
     <div class="filter-bar">
       <div class="container">
-        <div id="category-chips" class="chips" role="group" aria-label="Nach Kategorie filtern" data-i18n-attr="aria-label:devices.filterLabel">
-          <button type="button" class="chip" data-cat="" aria-pressed="true"><span data-i18n="devices.allCategories">Alle Kategorien</span></button>
+        <div id="category-chips" class="chips" role="group" aria-label="Nach Kategorie filtern">
+          <button type="button" class="chip" data-cat="" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg><span>Alle Kategorien</span><span class="chip__count">28</span></button>
+          <button type="button" class="chip" data-cat="imaging" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" rx="2"/>
+<path d="M12 16v4M8 20h8"/>
+<path d="M9 12.5a4 4 0 0 1 6 0"/>
+<path d="M7 9.5a7 7 0 0 1 10 0"/>
+</svg></span><span>Bildgebung</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="lab" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span><span>Labordiagnostik</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="monitoring" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" rx="2"/>
+<path d="M5.5 11.5h3l1.5-3.5 3 8 1.5-4.5h4"/>
+</svg></span><span>Patientenüberwachung</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="surgery" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M11.5 9.5L21 3c0 4-2 8-6.5 9.5z"/>
+<path d="M11.5 9.5L3 18l3 3 8.5-8.5"/>
+<path d="M7.5 14.5l2 2"/>
+</svg></span><span>OP-Technik</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="therapy" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
+<path d="M12 9.5v5M9.5 12h5"/>
+</svg></span><span>Therapie</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="dental" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 5C10.5 3.5 7 3.5 6 6.5C5.2 9 6.3 11.5 7 14C7.6 16.5 8 20 9.5 20.5C10.8 20.8 11 17 12 16.5C13 17 13.2 20.8 14.5 20.5C16 20 16.4 16.5 17 14C17.7 11.5 18.8 9 18 6.5C17 3.5 13.5 3.5 12 5Z"/>
+<path d="M8.6 8.3c-.5.7-.8 1.5-.9 2.4"/>
+</svg></span><span>Dentaltechnik</span><span class="chip__count">4</span></button>
+          <button type="button" class="chip" data-cat="sterilization" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span><span>Sterilisation &amp; Hygiene</span><span class="chip__count">4</span></button>
         </div>
       </div>
     </div>
 
-    <section class="section section--tight">
+    <section class="section section--tight portal" aria-label="Geräte-Wissen">
       <div class="container">
-        <p id="device-results-status" class="visually-hidden" role="status" aria-live="polite"></p>
-        <div id="progress-card" class="progress-card" hidden>
+        <div id="progress-card" class="progress-card" data-total="28">
           <div class="progress-card__head">
-            <strong data-i18n="devices.progress.title">Ihr Lernfortschritt</strong>
-            <span id="progress-text" class="muted"></span>
+            <strong id="progress-title">Ihr Lernfortschritt</strong>
+            <span id="progress-text" class="muted">0 von 28 Geräten als gelernt markiert</span>
           </div>
-          <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar"><div class="progress-bar__fill" id="progress-fill"></div></div>
-          <small><span data-i18n="devices.progress.hint">Der Fortschritt wird nur lokal in Ihrem Browser gespeichert.</span> <button type="button" class="link-button" id="progress-reset" data-i18n="devices.progress.reset">Fortschritt zurücksetzen</button></small>
+          <div class="progress-bar" id="progress-bar" role="progressbar" aria-labelledby="progress-title" aria-valuemin="0" aria-valuemax="28" aria-valuenow="0"><div class="progress-bar__fill" id="progress-fill"></div></div>
+          <p class="progress-card__foot">
+            <span>Der Fortschritt wird nur lokal in Ihrem Browser gespeichert.</span>
+            <button type="button" class="link-button" id="progress-reset">Fortschritt zurücksetzen</button>
+            <a class="progress-card__continue" id="progress-continue" href="geraete/ultrasound.html">Weiter mit: Ultraschallgerät (Sonografie) <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </p>
         </div>
+
+        <p id="results-summary" class="results-summary" hidden>
+          <strong id="results-count"></strong>
+          <button type="button" class="link-button" data-filter-reset>Filter zurücksetzen</button>
+        </p>
+        <p id="device-results-status" class="visually-hidden" role="status"></p>
+
         <div id="device-results">
-          <p class="loading" data-i18n="common.loading">Inhalte werden geladen …</p>
+        <section class="category-block" id="cat-imaging" data-cat="imaging" aria-labelledby="cat-title-imaging">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" rx="2"/>
+<path d="M12 16v4M8 20h8"/>
+<path d="M9 12.5a4 4 0 0 1 6 0"/>
+<path d="M7 9.5a7 7 0 0 1 10 0"/>
+</svg></span>
+            <div>
+              <h2 id="cat-title-imaging">Bildgebung <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Bildgebende Geräte liefern die Grundlage für Diagnose, Therapieplanung und Verlaufskontrolle, ohne den Körper zu öffnen. Die Verfahren unterscheiden sich stark in Funktionsprinzip, Strahlenexposition, Platz- und Baubedarf sowie Betriebskosten. Dieser Bereich erklärt die wichtigsten Gerätetypen verständlich und zeigt, worauf es bei Auswahl und Beschaffung ankommt.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="ultrasound" data-cat="imaging" data-search="ultrasound ultraschallgerat sonografie bildgebung mit schallwellen ohne strahlung ultraschallgerate erzeugen echtzeitbilder von organen gefassen und weichteilen mithilfe hochfrequenter strahlungsfrei direkt am patientenbett sono schallkopf doppler echokardiografie transducer abdomen leber nieren gallenblase milz geburtshilfe gynakologie schwangerschaftsvorsorge kardiologie gefassdiagnostik duplex point of care in notaufnahme intensivstation b mode system sonography probe echocardiography جهاز الموجات فوق الصوتيه السونار سونار موجات صوتيه ايكو دوبلر مسبار">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/ultrasound.svg" alt="" width="320" height="240" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/ultrasound.html">Ultraschallgerät (Sonografie)</a></h3>
+                <p class="device-card__subtitle">Bildgebung mit Schallwellen – ohne Strahlung</p>
+                <p>Ultraschallgeräte erzeugen Echtzeitbilder von Organen, Gefäßen und Weichteilen mithilfe hochfrequenter Schallwellen – strahlungsfrei und direkt am Patientenbett.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="digital-xray" data-cat="imaging" data-search="digital xray digitales rontgensystem projektionsradiografie mit digitalem detektor digitale rontgensysteme erzeugen rontgenstrahlung projektionsbilder von knochen lunge und anderen strukturen ein flachdetektor liefert das bild innerhalb sekunden auf dem bildschirm rontgen radiografie dr bucky x ray thoraxaufnahmen herz skelett gelenke frakturen orthopadie abdomenubersicht notaufnahme unfallchirurgie mobile aufnahmen am bett der intensivstation einheiten dosisflachenprodukt dfp streustrahlenraster bildgebung system radiography flat panel detector نظام الاشعه السينيه الرقمي اشعه سينيه اكس تصوير شعاعي كاشف رقمي">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/digital-xray.svg" alt="" width="320" height="240" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/digital-xray.html">Digitales Röntgensystem</a></h3>
+                <p class="device-card__subtitle">Projektionsradiografie mit digitalem Detektor</p>
+                <p>Digitale Röntgensysteme erzeugen mit Röntgenstrahlung Projektionsbilder von Knochen, Lunge und anderen Strukturen; ein Flachdetektor liefert das Bild innerhalb von Sekunden auf dem Bildschirm.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="ct-scanner" data-cat="imaging" data-search="ct scanner computertomograph schichtbilder aus rotierenden rontgenaufnahmen ein erstellt vielen rontgenprojektionen uberlagerungsfreie schnittbilder und 3d rekonstruktionen des korpers schnell detailreich etwa bei schlaganfall trauma oder tumordiagnostik computertomografie schnittbild spiral angiografie tomografie schadeldiagnostik polytrauma notfalldiagnostik onkologie staging verlaufskontrolle lungen gefassdiagnostik gesteuerte eingriffe biopsien drainagen gantry hounsfield einheit hu bildgebung computed tomography cat scan angiography جهاز التصوير المقطعي المحوسب تصوير مقطعي اشعه مقطعيه سي تي الاوعيه طبقي محوري">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/ct-scanner.svg" alt="" width="320" height="240" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/ct-scanner.html">Computertomograph (CT)</a></h3>
+                <p class="device-card__subtitle">Schichtbilder aus rotierenden Röntgenaufnahmen</p>
+                <p>Ein Computertomograph erstellt aus vielen Röntgenprojektionen überlagerungsfreie Schnittbilder und 3D-Rekonstruktionen des Körpers – schnell und detailreich, etwa bei Schlaganfall, Trauma oder Tumordiagnostik.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="mri-scanner" data-cat="imaging" data-search="mri scanner magnetresonanztomograph mrt schnittbilder mit magnetfeld und radiowellen der bildet weichteile gehirn gelenke organe ohne rontgenstrahlung ab starkem hervorragendem weichteilkontrast kernspintomografie kernspin magnetresonanz tesla neurologie ruckenmark muskuloskelettale diagnostik bandscheiben onkologie prostata mamma leber kardio mr angiografie abdomen becken t sequenz t1 t2 quench bildgebung magnetic resonance imaging nmr جهاز التصوير بالرنين المغناطيسي رنين مغناطيسي تصوير تسلا">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/mri-scanner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/mri-scanner.html">Magnetresonanztomograph (MRT)</a></h3>
+                <p class="device-card__subtitle">Schnittbilder mit Magnetfeld und Radiowellen</p>
+                <p>Der Magnetresonanztomograph bildet Weichteile, Gehirn, Gelenke und Organe ohne Röntgenstrahlung ab – mit starkem Magnetfeld, Radiowellen und hervorragendem Weichteilkontrast.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-lab" data-cat="lab" aria-labelledby="cat-title-lab">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span>
+            <div>
+              <h2 id="cat-title-lab">Labordiagnostik <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Die Labordiagnostik umfasst Geräte, die Körperproben wie Blut, Serum oder Urin automatisiert analysieren. Die Ergebnisse unterstützen Ärztinnen und Ärzte bei Diagnose, Therapiekontrolle und Vorsorge. Typische Systeme reichen vom kompakten Praxisgerät bis zum vollautomatisierten Großlabor-Analysator.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="hematology-analyzer" data-cat="lab" data-search="hematology analyzer hamatologie analysator blutbild automatisch zahlen und differenzieren ein zahlt klassifiziert die zellen im blut erstellt in wenigen minuten kleines oder grosses er gehort zur grundausstattung fast jedes medizinischen labors zellzahler differenzialblutbild 5 part diff cbc routinelabor kliniken laborgemeinschaften hausarzt facharztpraxen mit eigenem labor notaufnahme intensivstation point of care onkologie therapiekontrolle blutspendedienste vorsorgeuntersuchungen impedanzmessung edta labordiagnostik haematology analyser complete blood count cell counter differential محلل امراض الدم صوره الكامله عداد الخلايا العد التفريقي الهيماتولوجيا">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/hematology-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/hematology-analyzer.html">Hämatologie-Analysator</a></h3>
+                <p class="device-card__subtitle">Blutbild automatisch zählen und differenzieren</p>
+                <p>Ein Hämatologie-Analysator zählt und klassifiziert die Zellen im Blut und erstellt in wenigen Minuten ein kleines oder großes Blutbild. Er gehört zur Grundausstattung fast jedes medizinischen Labors.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="clinical-chemistry-analyzer" data-cat="lab" data-search="clinical chemistry analyzer klinisch chemischer analysator stoffwechselwerte aus serum plasma und urin ein misst die konzentration von stoffen wie glukose elektrolyten enzymen cholesterin in oder er liefert grundlage fur beurteilung organfunktionen stoffwechsel klinische chemie blutchemie photometer serumanalyse elektrolyte laboranalysator zentrallabor im krankenhaus mit hohem durchsatz praxislabore laborgemeinschaften notfalldiagnostik z b herzenzyme nierenwerte verlaufskontrolle chronischer erkrankungen diabetes vorsorge check up untersuchungen photometrie ionenselektive elektrode ise kalibrierung labordiagnostik analyser blood analysis electrolytes محلل الكيمياء السريريه كيمياء الدم مقياس الضوء تحليل المصل الشوارد كيميايي">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/clinical-chemistry-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/clinical-chemistry-analyzer.html">Klinisch-chemischer Analysator</a></h3>
+                <p class="device-card__subtitle">Stoffwechselwerte aus Serum, Plasma und Urin</p>
+                <p>Ein klinisch-chemischer Analysator misst die Konzentration von Stoffen wie Glukose, Elektrolyten, Enzymen und Cholesterin in Serum, Plasma oder Urin. Er liefert die Grundlage für die Beurteilung von Organfunktionen und Stoffwechsel.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="blood-gas-analyzer" data-cat="lab" data-search="blood gas analyzer blutgasanalysator ph sauerstoff und kohlendioxid in minuten ein misst innerhalb weniger wert kohlendioxidpartialdruck sowie elektrolyte metabolite im blut er ist unverzichtbar fur die uberwachung schwer kranker beatmeter patienten bga blutgasanalyse saure basen haushalt poct po2 laktat intensivstation beatmungsmedizin notaufnahme schockraum operationssaal aufwachraum neonatologie kapillarblut aus der ferse zentrallabor dialyse partialdruck pco2 basenabweichung base excess labordiagnostik analyser abg analysis acid balance lactate محلل غازات الدم التوازن الحمضي القاعدي اللاكتات">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/blood-gas-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/blood-gas-analyzer.html">Blutgasanalysator</a></h3>
+                <p class="device-card__subtitle">pH, Sauerstoff und Kohlendioxid in Minuten</p>
+                <p>Ein Blutgasanalysator misst innerhalb weniger Minuten pH-Wert, Sauerstoff- und Kohlendioxidpartialdruck sowie Elektrolyte und Metabolite im Blut. Er ist unverzichtbar für die Überwachung schwer kranker und beatmeter Patienten.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="laboratory-centrifuge" data-cat="lab" data-search="laboratory centrifuge laborzentrifuge proben durch fliehkraft trennen eine trennt blut und andere flussigkeiten schnelle rotation in ihre bestandteile etwa zellen plasma sie ist ein unverzichtbares vorbereitungsgerat fur fast jede laboranalyse zentrifuge serumgewinnung rotor rzb g zahl probenvorbereitung klinische chemie serologie arztpraxen zur serum plasmagewinnung vor dem versand blutbank transfusionsmedizin mikrobiologie forschungslabore urinsediment diagnostik relative zentrifugalbeschleunigung ausschwingrotor festwinkelrotor labordiagnostik separation rcf force sample preparation جهاز الطرد المركزي المخبري فصل المصل الدوار قيمه تحضير العينات">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/laboratory-centrifuge.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/laboratory-centrifuge.html">Laborzentrifuge</a></h3>
+                <p class="device-card__subtitle">Proben durch Fliehkraft trennen</p>
+                <p>Eine Laborzentrifuge trennt Blut und andere Flüssigkeiten durch schnelle Rotation in ihre Bestandteile, etwa in Zellen und Plasma. Sie ist ein unverzichtbares Vorbereitungsgerät für fast jede Laboranalyse.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-monitoring" data-cat="monitoring" aria-labelledby="cat-title-monitoring">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" rx="2"/>
+<path d="M5.5 11.5h3l1.5-3.5 3 8 1.5-4.5h4"/>
+</svg></span>
+            <div>
+              <h2 id="cat-title-monitoring">Patientenüberwachung <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Die Patientenüberwachung umfasst Geräte, die Herzfrequenz, Blutdruck, Sauerstoffsättigung, Atmung und weitere Vitalparameter fortlaufend messen und anzeigen. Sie macht kritische Veränderungen sichtbar, bevor sie zum Notfall werden, und bildet die Grundlage für Entscheidungen auf der Intensivstation, im OP, in der Notaufnahme und zunehmend auch in Praxis und Pflege. Das Spektrum reicht von der Mehrparameter-Überwachung bis zum einfachen Fingersensor.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="patient-monitor" data-cat="monitoring" data-search="patient monitor patientenmonitor mehrparameter uberwachung der vitalfunktionen ein erfasst mehrere vitalparameter gleichzeitig stellt sie als kurven und zahlenwerte dar alarmiert bei grenzwertuberschreitungen er ist das zentrale uberwachungsgerat auf intensivstationen im op in notaufnahme uberwachungsmonitor multiparametermonitor monitoring bedside intensiv intermediate care stationen operationssaal aufwachraum schockraum patiententransport innerhalb ausserhalb klinik von risikopatienten normalstationen spo2 nibp kapnografie patientenuberwachung vital signs multi parameter جهاز مراقبه المريض مونيتور العلامات الحيويه متعدده المعايير شاشه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/patient-monitor.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/patient-monitor.html">Patientenmonitor</a></h3>
+                <p class="device-card__subtitle">Mehrparameter-Überwachung der Vitalfunktionen</p>
+                <p>Ein Patientenmonitor erfasst mehrere Vitalparameter gleichzeitig, stellt sie als Kurven und Zahlenwerte dar und alarmiert bei Grenzwertüberschreitungen. Er ist das zentrale Überwachungsgerät auf Intensivstationen, im OP und in der Notaufnahme.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="ecg-device" data-cat="monitoring" data-search="ecg device ekg gerat 12 kanal aufzeichnung der elektrischen herzaktivitat ein zeichnet die elektrische aktivitat des herzens uber zehn elektroden auf und stellt sie in zwolf ableitungen dar es ist das standardverfahren zur diagnose von herzrhythmusstorungen durchblutungsstorungen herzmuskels elektrokardiogramm elektrokardiografie ruhe kardiologische diagnostik praxis klinik notaufnahme bei brustschmerz verdacht herzinfarkt praoperative untersuchung vorsorgeuntersuchung verlaufskontrolle herzerkrankungen unter medikation belastungs kombination mit einem ergometer ableitung qrs komplex patientenuberwachung machine lead electrocardiogram electrocardiography resting جهاز تخطيط القلب قناه رسم كهرباييه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/ecg-device.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/ecg-device.html">EKG-Gerät (12-Kanal)</a></h3>
+                <p class="device-card__subtitle">Aufzeichnung der elektrischen Herzaktivität</p>
+                <p>Ein 12-Kanal-EKG-Gerät zeichnet die elektrische Aktivität des Herzens über zehn Elektroden auf und stellt sie in zwölf Ableitungen dar. Es ist das Standardverfahren zur Diagnose von Herzrhythmusstörungen und Durchblutungsstörungen des Herzmuskels.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="pulse-oximeter" data-cat="monitoring" data-search="pulse oximeter pulsoximeter sauerstoffsattigung und puls ohne blutentnahme ein misst die des blutes spo2 pulsfrequenz nicht invasiv uber einen sensor am finger ohr oder fuss es ist eines der haufigsten eingesetzten uberwachungsgerate in klinik praxis rettungsdienst pulsoxymeter fingerclip routineuberwachung auf station notfallmedizin sedierung narkose aufwachraum heimbeatmung chronische lungenerkrankungen screening von neugeborenen herzfehler plethysmogramm hamoglobin spot check patientenuberwachung oxygen saturation fingertip oximetry مقياس التاكسج النبضي الاكسجين تشبع جهاز قياس بالاصبع">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/pulse-oximeter.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/pulse-oximeter.html">Pulsoximeter</a></h3>
+                <p class="device-card__subtitle">Sauerstoffsättigung und Puls ohne Blutentnahme</p>
+                <p>Ein Pulsoximeter misst die Sauerstoffsättigung des Blutes (SpO2) und die Pulsfrequenz nicht-invasiv über einen Sensor am Finger, Ohr oder Fuß. Es ist eines der am häufigsten eingesetzten Überwachungsgeräte in Klinik, Praxis und Rettungsdienst.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="fetal-monitor" data-cat="monitoring" data-search="fetal monitor ctg gerat fetalmonitor uberwachung von kindlichem herzschlag und wehen ein kardiotokograf zeichnet gleichzeitig die herzfrequenz des ungeborenen kindes wehentatigkeit der mutter auf es wird in schwangerschaftsvorsorge wahrend geburt zur kindlichen wohlbefindens eingesetzt kardiotokografie wehenschreiber herztonwehenschreiber fetaluberwachung praxis klinik kreisssaal geburtseinleitung bei risikoschwangerschaften terminuberschreitung stationare vorzeitigen mehrlingsschwangerschaften tokometer variabilitat patientenuberwachung cardiotocography heart rate electronic monitoring efm جهاز مراقبه الجنين تخطيط قلب الانقباضات">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/fetal-monitor.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/fetal-monitor.html">CTG-Gerät (Fetalmonitor)</a></h3>
+                <p class="device-card__subtitle">Überwachung von kindlichem Herzschlag und Wehen</p>
+                <p>Ein CTG-Gerät (Kardiotokograf) zeichnet gleichzeitig die Herzfrequenz des ungeborenen Kindes und die Wehentätigkeit der Mutter auf. Es wird in der Schwangerschaftsvorsorge und während der Geburt zur Überwachung des kindlichen Wohlbefindens eingesetzt.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-surgery" data-cat="surgery" aria-labelledby="cat-title-surgery">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M11.5 9.5L21 3c0 4-2 8-6.5 9.5z"/>
+<path d="M11.5 9.5L3 18l3 3 8.5-8.5"/>
+<path d="M7.5 14.5l2 2"/>
+</svg></span>
+            <div>
+              <h2 id="cat-title-surgery">OP-Technik <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Im Operationssaal arbeiten viele Geräte eng zusammen: Das Narkosegerät hält den Patienten sicher in Narkose, das HF-Chirurgiegerät schneidet und stillt Blutungen, das Endoskopie-System ermöglicht minimalinvasive Eingriffe, und die OP-Leuchte sorgt für optimale Sicht. Bei der Beschaffung sind neben der Gerätetechnik auch Raumplanung, Gasversorgung, Aufbereitung und Schulung entscheidend. Dieser Bereich erklärt die zentralen Gerätetypen und zeigt, worauf Sie bei Auswahl und Beschaffung achten sollten.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="anesthesia-machine" data-cat="surgery" data-search="anesthesia machine narkosegerat gasdosierung beatmung und uberwachung in narkose narkosegerate anasthesie arbeitsplatze dosieren sauerstoff luft narkosegase beatmen den patienten wahrend der operation uberwachen die atemgase kontinuierlich anasthesiegerat arbeitsplatz verdampfer kreissystem allgemeinanasthesie im operationssaal ambulante eingriffe tageskliniken op zentren einleitungs aufwachraume diagnostische z b mrt endoskopie kinderanasthesie mit speziellen atemsystemen vaporisator kapnografie technik anaesthesia workstation ventilation vaporizer circle system جهاز التخدير محطه عمل البنج التهويه المبخر الداره الدايريه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/anesthesia-machine.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/anesthesia-machine.html">Narkosegerät</a></h3>
+                <p class="device-card__subtitle">Gasdosierung, Beatmung und Überwachung in Narkose</p>
+                <p>Narkosegeräte (Anästhesie-Arbeitsplätze) dosieren Sauerstoff, Luft und Narkosegase, beatmen den Patienten während der Operation und überwachen die Atemgase kontinuierlich.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="electrosurgical-unit" data-cat="surgery" data-search="electrosurgical unit hf chirurgiegerat elektrochirurgie schneiden und koagulieren mit hochfrequenzstrom chirurgiegerate erzeugen hochfrequenten wechselstrom dem gewebe nahezu blutungsfrei geschnitten blutgefasse durch koagulation verschlossen werden gerat kauter diathermie neutralelektrode allgemein viszeralchirurgie gynakologie urologie hno laparoskopische endoskopische eingriffe dermatologie ambulante kleinchirurgie gefassversiegelung bei grosseren resektionen monopolar bipolar op technik esu electrosurgery cautery diathermy coagulation return electrode جهاز الجراحه الكهرباييه عالي التردد الكي الجراحي الانفاذ الحراري التخثير قطب العوده">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/electrosurgical-unit.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/electrosurgical-unit.html">HF-Chirurgiegerät (Elektrochirurgie)</a></h3>
+                <p class="device-card__subtitle">Schneiden und Koagulieren mit Hochfrequenzstrom</p>
+                <p>HF-Chirurgiegeräte erzeugen hochfrequenten Wechselstrom, mit dem Gewebe nahezu blutungsfrei geschnitten und Blutgefäße durch Koagulation verschlossen werden.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="endoscopy-system" data-cat="surgery" data-search="endoscopy system endoskopie videoendoskopie turm kamera licht und monitor fur minimalinvasive eingriffe ein besteht aus endoskop lichtquelle zusatzgeraten es ermoglicht diagnostik operationen durch naturliche korperoffnungen oder kleine schnitte laparoskopie videoendoskop endoskopieturm arthroskopie schlusselloch chirurgie laparoskopische bauchhohle gelenke gastroenterologie gastroskopie koloskopie urologie gynakologie hno bronchoskopie der atemwege insufflator kaltlichtquelle op technik video tower laparoscopy endoscope arthroscopy keyhole surgery نظام التنظير برج بالفيديو تنظير البطن منظار الفيديو المفاصل جراحه ثقب المفتاح">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/endoscopy-system.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/endoscopy-system.html">Endoskopie-System (Videoendoskopie-Turm)</a></h3>
+                <p class="device-card__subtitle">Kamera, Licht und Monitor für minimalinvasive Eingriffe</p>
+                <p>Ein Endoskopie-System besteht aus Endoskop, Kamera, Lichtquelle, Monitor und Zusatzgeräten; es ermöglicht Diagnostik und Operationen durch natürliche Körperöffnungen oder kleine Schnitte.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="surgical-light" data-cat="surgery" data-search="surgical light op leuchte schattenarmes farbtreues licht fur das operationsfeld leuchten beleuchten hell schattenarm und farbtreu ohne gewebe zu erwarmen sie sind an decke wand oder stativ montiert frei positionierbar operationsleuchte lampe operationslampe led deckenleuchte untersuchungsleuchte zentrale operationssale eingriffs untersuchungsraume in praxen notaufnahme schockraum kreisssaal geburtshilfe ambulante operationszentren schattenmanagement farbwiedergabeindex ra cri satellitenleuchte technik operating or lamp ceiling examination مصباح العمليات غرفه اضاءه جراحي للعمليات سقفي الفحص">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/surgical-light.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/surgical-light.html">OP-Leuchte</a></h3>
+                <p class="device-card__subtitle">Schattenarmes, farbtreues Licht für das Operationsfeld</p>
+                <p>OP-Leuchten beleuchten das Operationsfeld hell, schattenarm und farbtreu, ohne das Gewebe zu erwärmen; sie sind an Decke, Wand oder Stativ montiert und frei positionierbar.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-therapy" data-cat="therapy" aria-labelledby="cat-title-therapy">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
+<path d="M12 9.5v5M9.5 12h5"/>
+</svg></span>
+            <div>
+              <h2 id="cat-title-therapy">Therapie <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Therapiegeräte greifen aktiv in Körperfunktionen ein: Sie beatmen, dosieren Medikamente, reinigen das Blut oder beenden gefährliche Herzrhythmusstörungen. Weil Fehler hier unmittelbar Patientinnen und Patienten gefährden können, gelten hohe Anforderungen an Alarmierung, Zuverlässigkeit und Einweisung. In dieser Kategorie lernen Sie die wichtigsten Gerätegruppen der Intensiv- und Notfallmedizin sowie der Nierenersatztherapie kennen.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="ventilator" data-cat="therapy" data-search="ventilator beatmungsgerat maschinelle unterstutzung oder ubernahme der atmung ein ubernimmt unterstutzt die von patientinnen und patienten nicht ausreichend selbst atmen konnen es fordert gemisch aus luft sauerstoff mit kontrolliertem druck volumen in lunge beatmung respirator intensivbeatmung heimbeatmung niv intensivstation langzeitbeatmung anasthesie aufwachraum notaufnahme rettungsdienst transportbeatmung ausserklinische neonatologie padiatrie peep tidalvolumen fio2 therapie mechanical ventilation intensive care home جهاز التنفس الاصطناعي التهويه الميكانيكيه منفسه تهويه العنايه المركزه المنزليه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/ventilator.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/ventilator.html">Beatmungsgerät</a></h3>
+                <p class="device-card__subtitle">Maschinelle Unterstützung oder Übernahme der Atmung</p>
+                <p>Ein Beatmungsgerät übernimmt oder unterstützt die Atmung von Patientinnen und Patienten, die nicht ausreichend selbst atmen können. Es fördert ein Gemisch aus Luft und Sauerstoff mit kontrolliertem Druck und Volumen in die Lunge.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="infusion-pump" data-cat="therapy" data-search="infusion pump infusionspumpe spritzenpumpe prazise dosierung von medikamenten und flussigkeiten infusionspumpen fordern medikamente kontrolliert mit einstellbarer rate in den korper meist uber einen venosen zugang spritzenpumpen sind fur kleine volumen hochwirksame ausgelegt volumetrische pumpe pca intensiv intermediate care stationen anasthesie totale intravenose onkologie chemotherapie normalstationen schmerztherapie neonatologie okklusion bolus therapie syringe volumetric iv drug delivery مضخه التسريب المحقنه حجميه وريديه اعطاء الادويه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/infusion-pump.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/infusion-pump.html">Infusionspumpe / Spritzenpumpe</a></h3>
+                <p class="device-card__subtitle">Präzise Dosierung von Medikamenten und Flüssigkeiten</p>
+                <p>Infusionspumpen fördern Flüssigkeiten und Medikamente kontrolliert und mit einstellbarer Rate in den Körper, meist über einen venösen Zugang. Spritzenpumpen sind für kleine Volumen und hochwirksame Medikamente ausgelegt.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="defibrillator" data-cat="therapy" data-search="defibrillator stromstoss gegen lebensbedrohliche herzrhythmusstorungen ein gibt einen kontrollierten an das herz ab um rhythmusstorungen wie kammerflimmern zu beenden je nach ausfuhrung reicht spektrum vom automatisierten externen aed fur laien bis zum manuellen gerat mit monitor fachpersonal defi defibrillation kardioversion reanimation schockgeber notaufnahme und intensivstation rettungsdienst notfallwagen auf krankenhausstationen offentliche gebaude arztpraxen herzkatheterlabor kardiologie therapie defib cardioversion resuscitation cpr جهاز ازاله الرجفان مزيل تقويم النظم الانعاش">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/defibrillator.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/defibrillator.html">Defibrillator</a></h3>
+                <p class="device-card__subtitle">Stromstoß gegen lebensbedrohliche Herzrhythmusstörungen</p>
+                <p>Ein Defibrillator gibt einen kontrollierten Stromstoß an das Herz ab, um lebensbedrohliche Rhythmusstörungen wie Kammerflimmern zu beenden. Je nach Ausführung reicht das Spektrum vom automatisierten externen Defibrillator (AED) für Laien bis zum manuellen Gerät mit Monitor für Fachpersonal.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="dialysis-machine" data-cat="therapy" data-search="dialysis machine dialysegerat blutreinigung als nierenersatztherapie ein ubernimmt bei nierenversagen die entgiftung und entwasserung des blutes das blut wird ausserhalb korpers durch einen filter geleitet in dem abfallstoffe uberschussiges wasser entfernt werden dialyse hamodialyse hamodiafiltration hdf blutwasche dialysezentren nephrologische praxen dialysestationen im krankenhaus intensivstation akutes kontinuierliche verfahren heimdialyse bestimmte vergiftungsfalle dialysator shunt ultrafiltration therapie haemodialysis renal replacement therapy haemodiafiltration kidney جهاز غسيل الكلي الديلزه الدمويه العلاج البديل للكلي الترشيحيه الكليه الاصطناعيه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/dialysis-machine.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/dialysis-machine.html">Dialysegerät</a></h3>
+                <p class="device-card__subtitle">Blutreinigung als Nierenersatztherapie</p>
+                <p>Ein Dialysegerät übernimmt bei Nierenversagen die Entgiftung und Entwässerung des Blutes. Das Blut wird außerhalb des Körpers durch einen Filter geleitet, in dem Abfallstoffe und überschüssiges Wasser entfernt werden.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-dental" data-cat="dental" aria-labelledby="cat-title-dental">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 5C10.5 3.5 7 3.5 6 6.5C5.2 9 6.3 11.5 7 14C7.6 16.5 8 20 9.5 20.5C10.8 20.8 11 17 12 16.5C13 17 13.2 20.8 14.5 20.5C16 20 16.4 16.5 17 14C17.7 11.5 18.8 9 18 6.5C17 3.5 13.5 3.5 12 5Z"/>
+<path d="M8.6 8.3c-.5.7-.8 1.5-.9 2.4"/>
+</svg></span>
+            <div>
+              <h2 id="cat-title-dental">Dentaltechnik <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Die Dentaltechnik umfasst alle Geräte, die in Zahnarztpraxen, Kieferorthopädie, MKG-Chirurgie und Dentallaboren eingesetzt werden. Dazu gehören Behandlungseinheiten, dentale Bildgebung, digitale Abformung und die Aufbereitung von Instrumenten. Viele dieser Geräte sind eng miteinander vernetzt, weshalb Schnittstellen und Hygieneanforderungen bei der Beschaffung besonders wichtig sind.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="dental-treatment-unit" data-cat="dental" data-search="dental treatment unit dentale behandlungseinheit zentraler arbeitsplatz der zahnarztpraxis die vereint patientenstuhl instrumente wasser und luftversorgung absaugung beleuchtung an einem sie ist das herzstuck jedes zahnarztlichen behandlungszimmers behandlungsstuhl dentaleinheit zahnarztstuhl turbine allgemeine zahnheilkunde prophylaxe fullungs kronenbehandlungen endodontie wurzelkanalbehandlung kieferorthopadie kinderzahnheilkunde oralchirurgische eingriffe in praxis amalgamabscheider winkelstuck dentaltechnik chair centre suction handpiece وحده علاج الاسنان كرسي طبيب توربين شفط">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/dental-treatment-unit.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/dental-treatment-unit.html">Dentale Behandlungseinheit</a></h3>
+                <p class="device-card__subtitle">Zentraler Arbeitsplatz der Zahnarztpraxis</p>
+                <p>Die Behandlungseinheit vereint Patientenstuhl, Instrumente, Wasser- und Luftversorgung, Absaugung und Beleuchtung an einem Arbeitsplatz. Sie ist das Herzstück jedes zahnärztlichen Behandlungszimmers.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="panoramic-xray" data-cat="dental" data-search="panoramic xray panoramarontgengerat opg ubersichtsaufnahme beider kiefer in einem bild das erstellt eine von ober und unterkiefer allen zahnen kiefergelenken kieferhohlen einzigen es ist die wichtigste ubersichtsdiagnostik der zahnmedizin orthopantomogramm panoramaschichtaufnahme dentalrontgen dvt ceph des gesamten gebisses beurteilung weisheitszahnen verlagerten implantat prothetikplanung kieferorthopadische befundung erkennung zysten tumoren knochenveranderungen im fernrontgen dentaltechnik x ray unit orthopantomogram radiograph dental cbct جهاز الاشعه البانوراميه اورثوبانتوموغرام اشعه بانوراميه الاسنان">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/panoramic-xray.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/panoramic-xray.html">Panoramaröntgengerät (OPG)</a></h3>
+                <p class="device-card__subtitle">Übersichtsaufnahme beider Kiefer in einem Bild</p>
+                <p>Das Panoramaröntgengerät erstellt eine Übersichtsaufnahme von Ober- und Unterkiefer, allen Zähnen, Kiefergelenken und Kieferhöhlen in einem einzigen Bild. Es ist die wichtigste Übersichtsdiagnostik in der Zahnmedizin.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="intraoral-scanner" data-cat="dental" data-search="intraoral scanner intraoralscanner digitale abformung statt abdruckloffel der erfasst zahne und zahnfleisch optisch erzeugt daraus ein dreidimensionales digitales modell er ersetzt die klassische mit abdruckmasse ios mundscanner 3d scan cad cam abdruck fur kronen brucken inlays planung verlaufskontrolle in kieferorthopadie implantatprothetik scanbodies herstellung von aufbissschienen provisorien patientenaufklarung darstellung stl scanbody dentaltechnik digital impression mouth الماسح الضويي داخل الفم الطبعه الرقميه ماسح مسح ثلاثي الابعاد طبعه الاسنان">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/intraoral-scanner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/intraoral-scanner.html">Intraoralscanner</a></h3>
+                <p class="device-card__subtitle">Digitale Abformung statt Abdrucklöffel</p>
+                <p>Der Intraoralscanner erfasst Zähne und Zahnfleisch optisch und erzeugt daraus ein dreidimensionales digitales Modell. Er ersetzt die klassische Abformung mit Abdruckmasse.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="dental-autoclave" data-cat="dental" data-search="dental autoclave autoklav klasse b dampfsterilisation fur instrumente und handstucke der sterilisiert hand winkelstucke mit gesattigtem wasserdampf unter druck gerate konnen auch verpacktes hohles poroses sterilgut zuverlassig sterilisieren sterilisator vorvakuum instrumentenaufbereitung sterilisation von verpackten chirurgischen instrumenten aufbereitung winkelstucken sowie turbinen textilien porosem material zahnarztpraxen dentallabore kleine ambulante einrichtungen fraktioniertes helix test chargendokumentation dentaltechnik class sterilizer steam sterilization pre vacuum instrument reprocessing اوتوكلاف الاسنان الفيه معقم التعقيم بالبخار التفريغ المسبق اعاده معالجه الادوات">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/dental-autoclave.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/dental-autoclave.html">Dental-Autoklav (Klasse B)</a></h3>
+                <p class="device-card__subtitle">Dampfsterilisation für Instrumente und Handstücke</p>
+                <p>Der Dental-Autoklav sterilisiert Instrumente, Hand- und Winkelstücke mit gesättigtem Wasserdampf unter Druck. Geräte der Klasse B können auch verpacktes, hohles und poröses Sterilgut zuverlässig sterilisieren.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="category-block" id="cat-sterilization" data-cat="sterilization" aria-labelledby="cat-title-sterilization">
+          <div class="category-block__head">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span>
+            <div>
+              <h2 id="cat-title-sterilization">Sterilisation &amp; Hygiene <span class="category-block__count" data-count>4 Geräte</span></h2>
+              <p>Die Aufbereitung von Medizinprodukten folgt einer festen Kette: Nach der Vorreinigung – bei Bedarf mit Vorbehandlung im Ultraschallbad – werden Instrumente im Reinigungs- und Desinfektionsgerät maschinell gereinigt und desinfiziert, anschließend geprüft, verpackt, versiegelt und im Dampfsterilisator sterilisiert. Jeder Schritt muss validiert und dokumentiert werden, denn Lücken in der Aufbereitung gefährden Patienten und verstoßen gegen gesetzliche Vorgaben. Dieser Bereich erklärt die zentralen Geräte der Aufbereitung und zeigt, worauf Sie bei Auswahl und Beschaffung achten sollten.</p>
+            </div>
+          </div>
+          <div class="device-grid">
+            <article class="device-card" data-id="steam-sterilizer" data-cat="sterilization" data-search="steam sterilizer dampfsterilisator autoklav sterilisation mit gesattigtem wasserdampf unter druck dampfsterilisatoren autoklaven toten gespanntem alle mikroorganismen einschliesslich sporen auf verpackten instrumenten ab und sind das standardverfahren der in klinik praxis sterilisator klasse b dampfsterilisation zsva sterilgut zentrale sterilgutversorgungsabteilung aemp im krankenhaus aufbereitungsraum arztpraxen praxiskliniken zahnarztpraxen tischautoklaven labore pflegeeinrichtungen von textilien hohlkorpern instrumentensets fraktioniertes vorvakuum bowie dick test charge hygiene autoclave class sterilization cssd sterile goods جهاز التعقيم بالبخار الاوتوكلاف اوتوكلاف تعقيم الفيه قسم المركزي المواد المعقمه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/steam-sterilizer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/steam-sterilizer.html">Dampfsterilisator (Autoklav)</a></h3>
+                <p class="device-card__subtitle">Sterilisation mit gesättigtem Wasserdampf unter Druck</p>
+                <p>Dampfsterilisatoren (Autoklaven) töten mit gesättigtem, gespanntem Wasserdampf alle Mikroorganismen einschließlich Sporen auf verpackten Instrumenten ab und sind das Standardverfahren der Sterilisation in Klinik und Praxis.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="washer-disinfector" data-cat="sterilization" data-search="washer disinfector reinigungs und desinfektionsgerat rdg maschinelle reinigung thermische desinfektion desinfektionsgerate reinigen desinfizieren instrumente maschinell in einem validierten programm ersetzen damit die fehleranfallige manuelle aufbereitung thermodesinfektor instrumentenaufbereitung a0 wert zsva aemp im krankenhaus mit mehreren grossgeraten aufbereitungsraum chirurgischer zahnarztlicher praxen endoskopieabteilungen speziellen e fur flexible endoskope chemothermische bei niedrigerer temperatur von anasthesie beatmungszubehor sterilgutcontainern op schuhen grossen kammergeraten spuladapter sterilisation hygiene wd thermal instrument reprocessing automated cleaning disinfection value جهاز الغسل والتطهير غسل وتطهير مطهر حراري اعاده معالجه الادوات التنظيف الالي التطهير الحراري قيمه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/washer-disinfector.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/washer-disinfector.html">Reinigungs- und Desinfektionsgerät (RDG)</a></h3>
+                <p class="device-card__subtitle">Maschinelle Reinigung und thermische Desinfektion</p>
+                <p>Reinigungs- und Desinfektionsgeräte (RDG) reinigen und desinfizieren Instrumente maschinell in einem validierten Programm und ersetzen damit die fehleranfällige manuelle Aufbereitung.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="ultrasonic-cleaner" data-cat="sterilization" data-search="ultrasonic cleaner ultraschallreinigungsgerat vorreinigung durch kavitation im flussigkeitsbad ultraschallreinigungsgerate losen mit hochfrequenten schallwellen in einem reinigungsbad auch festsitzende verschmutzungen aus gelenken rillen und hohlraumen von instrumenten erganzen die maschinelle aufbereitung ultraschallbad ultraschallreiniger instrumentenreinigung chirurgischer instrumente feinen strukturen zahnarztpraxen bohrer fraser wurzelkanalinstrumente augen hno chirurgie mikrochirurgischem instrumentarium labore werkstatten fur prothetik dentaltechnik entgasen schwinger transducer sterilisation hygiene bath cleaning cavitation pre instrument جهاز التنظيف بالموجات فوق الصوتيه حمام الموجات منظف التكهف الاولي تنظيف الادوات">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/ultrasonic-cleaner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/ultrasonic-cleaner.html">Ultraschallreinigungsgerät</a></h3>
+                <p class="device-card__subtitle">Vorreinigung durch Kavitation im Flüssigkeitsbad</p>
+                <p>Ultraschallreinigungsgeräte lösen mit hochfrequenten Schallwellen in einem Reinigungsbad auch festsitzende Verschmutzungen aus Gelenken, Rillen und Hohlräumen von Instrumenten und ergänzen die maschinelle Aufbereitung.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+            <article class="device-card" data-id="heat-sealer" data-cat="sterilization" data-search="heat sealer siegelgerat fur sterilgutverpackung keimdichtes verschliessen von sterilisierverpackungen siegelgerate verschweissen klarsichtbeutel und schlauche aus papier folie zu einer keimdichten sterilbarriere damit instrumente nach der sterilisation bis zum einsatz steril bleiben folienschweissgerat durchlaufsiegelgerat siegelnaht verpacken instrumenten vor dampfsterilisation in praxis zsva zahnarztpraxen handstucke bohrer einzelinstrumente beuteln die gas plasmasterilisation kennzeichnung sterilgut mit datum charge sterilbarrieresystem peel test hygiene for sterile packaging pouch rotary seal sterilization جهاز ختم عبوات التعقيم لحام الاكياس دوار خط الختم اكياس الشفافه">
+              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> Als gelernt markiert</span>
+              <div class="device-card__media">
+                <img src="assets/img/devices/heat-sealer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
+              </div>
+              <div class="device-card__body">
+                <h3><a href="geraete/heat-sealer.html">Siegelgerät für Sterilgutverpackung</a></h3>
+                <p class="device-card__subtitle">Keimdichtes Verschließen von Sterilisierverpackungen</p>
+                <p>Siegelgeräte verschweißen Klarsichtbeutel und Schläuche aus Papier und Folie zu einer keimdichten Sterilbarriere, damit Instrumente nach der Sterilisation bis zum Einsatz steril bleiben.</p>
+                <span class="device-card__link" aria-hidden="true">Gerät ansehen <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        </div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <h2>Keine Geräte gefunden.</h2>
+          <p>Versuchen Sie einen anderen Begriff oder setzen Sie den Filter zurück.</p>
+          <button type="button" class="btn btn--secondary" data-filter-reset><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></svg> Filter zurücksetzen</button>
         </div>
       </div>
     </section>
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title" data-i18n="devices.detail.procurementCtaTitle">Sie planen die Anschaffung eines solchen Geräts?</h2>
-        <p data-i18n="devices.detail.procurementCtaText">Wir beraten Sie herstellerneutral, vergleichen Angebote und begleiten die Beschaffung.</p>
-        <a class="btn btn--light" href="kontakt.html" data-i18n="devices.detail.procurementCtaButton">Beratung anfragen</a>
+        <h2 id="cta-title">Sie planen die Anschaffung eines solchen Geräts?</h2>
+        <p>Wir beraten Sie herstellerneutral, vergleichen Angebote und begleiten die Beschaffung.</p>
+        <a class="btn btn--light" href="kontakt.html">Beratung anfragen</a>
       </div>
     </section>
   </main>
@@ -102,45 +588,47 @@
     <div class="container">
       <div class="site-footer__grid">
         <div>
-          <a class="brand" href="index.html" aria-label="Medny – zur Startseite" data-i18n-attr="aria-label:nav.logoLabel">
-            <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
-            <span class="brand__name">Medny</span>
-          </a>
-          <p data-i18n="footer.tagline">Unabhängige Beratung und Beschaffung für Medizintechnik – für Krankenhäuser, Praxen und Gesundheitseinrichtungen.</p>
-          <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten.</p>
+          <a class="brand" href="index.html" aria-label="Medny – zur Startseite">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B4F8A"/><path d="M8 22h6l3-8 5 14 3-8h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="11" r="5.5" fill="#12A5B0"/><path d="M31 8.2v5.6M28.2 11h5.6" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="brand__name" lang="en">Medny</span>
+      </a>
+          <p>Unabhängige Beratung und Beschaffung für Medizintechnik – für Krankenhäuser, Praxen und Gesundheitseinrichtungen.</p>
+          <p class="site-footer__disclaimer">Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten.</p>
         </div>
         <div>
-          <h3 data-i18n="footer.navTitle">Navigation</h3>
+          <h2>Navigation</h2>
           <ul>
-            <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
-            <li><a href="ueber-uns.html" data-i18n="nav.about">Über uns</a></li>
-            <li><a href="medizintechnik.html" data-i18n="nav.medtech">Was ist Medizintechnik?</a></li>
-            <li><a href="geraete.html" data-i18n="nav.devices">Geräte-Wissen</a></li>
-            <li><a href="kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="medizintechnik.html">Was ist Medizintechnik?</a></li>
+            <li><a href="geraete.html">Geräte-Wissen</a></li>
+            <li><a href="glossar.html">Glossar</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
           </ul>
         </div>
         <div>
-          <h3 data-i18n="footer.legalTitle">Rechtliches</h3>
+          <h2>Rechtliches</h2>
           <ul>
-            <li><a href="impressum.html" data-i18n="nav.imprint">Impressum</a></li>
-            <li><a href="datenschutz.html" data-i18n="nav.privacy">Datenschutz</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
           </ul>
         </div>
         <div>
-          <h3 data-i18n="footer.contactTitle">Kontakt</h3>
+          <h2>Kontakt</h2>
           <ul>
-            <li><span data-site="owner.name">Vorname Nachname</span></li>
-            <li><a href="mailto:kontakt@medny.example" data-site-href="mailto:owner.email" data-site="owner.email">kontakt@medny.example</a></li>
-            <li><a href="tel:+490000000000" data-site-href="tel:owner.phone" data-site="owner.phoneDisplay">+49 (0) 000 000 00 00</a></li>
-            <li><span data-site="company.street">Musterstraße 1</span>, <span data-site="company.zip">12345</span> <span data-site="company.city">Musterstadt</span></li>
+            <li>Vorname Nachname</li>
+            <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
+            <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>
+            <li><span class="ltr">Musterstraße 1, 12345 Musterstadt</span></li>
           </ul>
         </div>
       </div>
       <div class="site-footer__bottom">
-        <span data-i18n="footer.copyright">© 2026 Medny. Alle Rechte vorbehalten.</span>
-        <span data-i18n="meta.tagline">Unabhängige Beratung &amp; Beschaffung für Medizintechnik</span>
+        <span>© <span data-year>2026</span> Medny. Alle Rechte vorbehalten.</span>
+        <span>Unabhängige Beratung &amp; Beschaffung für Medizintechnik</span>
       </div>
     </div>
   </footer>
+  <script type="application/json" id="site-strings">{"menuOpen":"Menü öffnen","menuClose":"Menü schließen","countOne":"1 Gerät","countMany":"{count} Geräte","noResults":"Keine Geräte gefunden.","progressText":"{done} von {total} Geräten als gelernt markiert","progressContinue":"Weiter mit: {name}","progressDone":"Alle Geräte als gelernt markiert"}</script>
 </body>
 </html>

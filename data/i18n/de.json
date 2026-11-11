@@ -35,6 +35,14 @@
       "privacy": {
         "title": "Datenschutzerklärung – Medny",
         "description": "Datenschutzerklärung von Medny."
+      },
+      "glossary": {
+        "title": "Glossar der Medizintechnik – Medny",
+        "description": "Fachbegriffe der Medizintechnik kurz und verständlich erklärt – alle Begriffe aus dem Geräte-Wissen von Medny, alphabetisch sortiert und durchsuchbar."
+      },
+      "notFound": {
+        "title": "Seite nicht gefunden – Medny",
+        "description": "Die angeforderte Seite wurde nicht gefunden."
       }
     }
   },
@@ -53,7 +61,8 @@
     "mainNavLabel": "Hauptnavigation",
     "language": "Sprache",
     "logoLabel": "Medny – zur Startseite",
-    "breadcrumb": "Brotkrumen-Navigation"
+    "breadcrumb": "Brotkrumen-Navigation",
+    "glossary": "Glossar"
   },
   "common": {
     "learnMore": "Mehr erfahren",
@@ -70,7 +79,8 @@
     "loading": "Inhalte werden geladen …",
     "notAManufacturer": "Medny ist kein Hersteller und kein Händler mit eigenem Sortiment, sondern ein unabhängiges Beratungs- und Vermittlungsunternehmen.",
     "ownerRole": "Inhaber · M.Sc. Biomedizintechnik",
-    "photoAlt": "Porträtfoto des Ansprechpartners (Platzhalter)"
+    "photoAlt": "Porträtfoto des Ansprechpartners (Platzhalter)",
+    "photoAltReal": "Porträt von {name}"
   },
   "home": {
     "hero": {
@@ -122,7 +132,8 @@
           "title": "Support & Nachbetreuung",
           "text": "Wir begleiten Einweisung, Dokumentation und Wartungsplanung und bleiben Ihr Ansprechpartner, wenn Fragen auftauchen."
         }
-      ]
+      ],
+      "more": "Leistungen im Detail"
     },
     "process": {
       "title": "So arbeiten wir",
@@ -492,7 +503,9 @@
       "title": "Ihr Lernfortschritt",
       "text": "{done} von {total} Geräten als gelernt markiert",
       "hint": "Der Fortschritt wird nur lokal in Ihrem Browser gespeichert.",
-      "reset": "Fortschritt zurücksetzen"
+      "reset": "Fortschritt zurücksetzen",
+      "continue": "Weiter mit: {name}",
+      "done": "Alle Geräte als gelernt markiert"
     },
     "detail": {
       "overview": "Kurzbeschreibung",
@@ -515,9 +528,15 @@
       "notFoundText": "Das gewünschte Gerät existiert nicht oder wurde entfernt.",
       "procurementCtaTitle": "Sie planen die Anschaffung eines solchen Geräts?",
       "procurementCtaText": "Wir beraten Sie herstellerneutral, vergleichen Angebote und begleiten die Beschaffung.",
-      "procurementCtaButton": "Beratung anfragen"
+      "procurementCtaButton": "Beratung anfragen",
+      "position": "Gerät {current} von {total}",
+      "imageAlt": "Schematische Darstellung: {name}",
+      "asideLabel": "Seitennavigation",
+      "pagerLabel": "Vorheriges und nächstes Gerät"
     },
-    "loadError": "Die Gerätedaten konnten nicht geladen werden. Bitte öffnen Sie die Seite über einen lokalen Webserver (siehe README)."
+    "loadError": "Die Gerätedaten konnten nicht geladen werden. Bitte öffnen Sie die Seite über einen lokalen Webserver (siehe README).",
+    "clearSearch": "Suche leeren",
+    "noscript": "Suche, Filter und Lernfortschritt benötigen JavaScript. Alle Inhalte sind auch ohne JavaScript lesbar."
   },
   "contact": {
     "hero": {
@@ -644,5 +663,24 @@
     "contactTitle": "Kontakt",
     "disclaimer": "Medny ist ein unabhängiges Beratungs- und Vermittlungsunternehmen und kein Hersteller von Medizinprodukten.",
     "copyright": "© {year} Medny. Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Die angeforderte Seite gibt es nicht oder sie wurde verschoben.",
+    "button": "Zur Startseite"
+  },
+  "glossary": {
+    "hero": {
+      "eyebrow": "Lernportal",
+      "title": "Glossar",
+      "subtitle": "{count} Fachbegriffe aus dem Geräte-Wissen, kurz erklärt und mit Verweis auf die Geräte, bei denen sie vorkommen."
+    },
+    "searchLabel": "Begriff suchen",
+    "searchPlaceholder": "z. B. DICOM, Doppler, Kapnografie …",
+    "appearsIn": "Kommt vor bei:",
+    "noResults": "Keine Begriffe gefunden.",
+    "linkLabel": "Glossar: alle Fachbegriffe",
+    "count": "{count} Begriffe",
+    "countOne": "1 Begriff"
   }
 }

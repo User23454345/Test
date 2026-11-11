@@ -1,41 +1,44 @@
 #!/usr/bin/env node
+'use strict';
 /*
- * Browser-Smoke-Test mit Playwright (Chromium).
- * Öffnet alle Seiten in allen Sprachen, prüft Konsolenfehler, fehlgeschlagene
- * Anfragen, fehlende Übersetzungsschlüssel, RTL-Umschaltung und die
- * wichtigsten Interaktionen (Suche, Filter, Detailseite, Formular, Menü).
+ * Medny – Browser-Test mit Playwright (Chromium)
  *
- * Voraussetzung: ein lokaler Webserver, z. B.  npx http-server -p 8080 .
- * Aufruf:        node tools/smoke-test.js [baseUrl] [screenshotDir]
+ * Öffnet alle erzeugten Seiten in allen Sprachen und prüft: Konsolenfehler (auch Verstöße gegen die
+ * Inhaltsrichtlinie), fehlgeschlagene Anfragen, Sprache und Leserichtung, horizontales Scrollen
+ * (Desktop und Mobil) sowie die Funktionen: Menü, Sprachwechsel, Suche, Filter, Lernfortschritt,
+ * Glossar und Kontaktformular.
+ *
+ * Voraussetzung: lokaler Webserver im Projektordner, z. B.  npx http-server -p 8080 -c-1 .
+ * Aufruf:        node tools/smoke-test.js [Basisadresse] [Ordner für Screenshots]
  */
-const path = require("path");
-const fs = require("fs");
+const fs = require('fs');
+const path = require('path');
 
 let playwright;
 try {
-  playwright = require("playwright");
+  playwright = require('playwright');
 } catch (e) {
   try {
-    playwright = require("/opt/node22/lib/node_modules/playwright");
+    playwright = require('/opt/node22/lib/node_modules/playwright');
   } catch (e2) {
-    console.error("Playwright nicht gefunden. Installieren mit: npm i -D playwright");
+    console.error('Playwright nicht gefunden. Installieren mit: npm install');
     process.exit(1);
   }
 }
 
-const BASE = process.argv[2] || "http://127.0.0.1:8080";
-const SHOTS = process.argv[3] || "";
-const LANGS = ["de", "en", "ar"];
-const PAGES = ["index.html", "ueber-uns.html", "medizintechnik.html", "geraete.html", "geraet.html?id=ultrasound", "kontakt.html", "impressum.html", "datenschutz.html"];
+const ROOT = path.resolve(__dirname, '..');
+const config = require('../src/config');
+const BASE = (process.argv[2] || 'http://127.0.0.1:8080').replace(/\/+$/, '');
+const SHOTS = process.argv[3] || '';
+const devices = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/devices.json'), 'utf8')).devices;
 
 let failures = 0;
-function fail(msg) {
+const fail = (msg) => {
   failures++;
-  console.error("✗ " + msg);
-}
-function ok(msg) {
-  console.log("✓ " + msg);
-}
+  console.error('✗ ' + msg);
+};
+const ok = (msg) => console.log('✓ ' + msg);
+const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
 
 (async () => {
   const browser = await playwright.chromium.launch();
@@ -43,172 +46,177 @@ function ok(msg) {
   const page = await context.newPage();
 
   const problems = [];
-  page.on("console", (msg) => {
-    if (msg.type() === "error" || msg.type() === "warning") problems.push(`${msg.type()}: ${msg.text()}`);
+  page.on('console', (msg) => {
+    if (msg.type() === 'error' || msg.type() === 'warning') problems.push(`${msg.type()}: ${msg.text()}`);
   });
-  page.on("pageerror", (err) => problems.push("pageerror: " + err.message));
-  page.on("requestfailed", (req) => problems.push("requestfailed: " + req.url()));
-  page.on("response", (res) => {
+  page.on('pageerror', (err) => problems.push('pageerror: ' + err.message));
+  page.on('requestfailed', (req) => {
+    if (!/^mailto:/.test(req.url())) problems.push('requestfailed: ' + req.url());
+  });
+  page.on('response', (res) => {
     if (res.status() >= 400) problems.push(`HTTP ${res.status()}: ${res.url()}`);
   });
 
-  async function checkPage(url, lang) {
+  const go = async (file) => {
     problems.length = 0;
-    await page.goto(`${BASE}/${url}${url.includes("?") ? "&" : "?"}lang=${lang}`, { waitUntil: "networkidle" });
-    await page.waitForTimeout(300);
-    const info = await page.evaluate(() => {
-      const html = document.documentElement;
-      const missing = [];
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.getAttribute("data-i18n");
-        if (el.textContent.trim() === key) missing.push(key);
-      });
-      const untranslatedAttrs = [];
-      document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
-        el.getAttribute("data-i18n-attr").split(";").forEach((pair) => {
-          const [attr, key] = pair.split(":").map((s) => s.trim());
-          if (attr && key && el.getAttribute(attr) === key) untranslatedAttrs.push(key);
-        });
-      });
-      const hasHScroll = document.documentElement.scrollWidth > document.documentElement.clientWidth + 1;
-      return {
-        lang: html.getAttribute("lang"),
-        dir: html.getAttribute("dir"),
-        title: document.title,
-        missing,
-        untranslatedAttrs,
-        hasHScroll,
-        h1: (document.querySelector("h1") || {}).textContent || "",
-        pressed: (document.querySelector("[data-lang][aria-pressed='true']") || {}).getAttribute ? document.querySelector("[data-lang][aria-pressed='true']").getAttribute("data-lang") : null
-      };
-    });
-    const label = `${url} [${lang}]`;
-    if (info.lang !== lang) fail(`${label}: html[lang] = ${info.lang}`);
-    if (info.dir !== (lang === "ar" ? "rtl" : "ltr")) fail(`${label}: html[dir] = ${info.dir}`);
-    if (info.pressed !== lang) fail(`${label}: Sprachumschalter zeigt ${info.pressed}`);
-    if (info.missing.length) fail(`${label}: unübersetzte Schlüssel: ${info.missing.join(", ")}`);
-    if (info.untranslatedAttrs.length) fail(`${label}: unübersetzte Attribute: ${info.untranslatedAttrs.join(", ")}`);
-    if (info.hasHScroll) fail(`${label}: horizontales Scrollen auf Desktop`);
-    if (!info.h1.trim()) fail(`${label}: keine H1`);
-    if (problems.length) fail(`${label}: ${problems.join(" | ")}`);
-    else ok(`${label}: "${info.title}"`);
-    if (SHOTS) {
-      fs.mkdirSync(SHOTS, { recursive: true });
-      await page.screenshot({ path: path.join(SHOTS, `${url.replace(/[?=.&]/g, "_")}-${lang}-desktop.png`), fullPage: true });
+    await page.goto(`${BASE}/${file}`, { waitUntil: 'networkidle' });
+  };
+  const hasHScroll = () => page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
+  const shot = async (name) => {
+    if (!SHOTS) return;
+    fs.mkdirSync(SHOTS, { recursive: true });
+    await page.screenshot({ path: path.join(SHOTS, name.replace(/[\/?=.&#]/g, '_') + '.png'), fullPage: true });
+  };
+
+  /* 1. Jede Seite in jeder Sprache (Desktop) */
+  for (const lang of config.langs) {
+    const files = Object.keys(config.pages)
+      .map((key) => config.pages[key][lang.code])
+      .concat(devices.map((d) => `${config.deviceDir[lang.code]}/${d.id}.html`));
+    let bad = 0;
+    for (const file of files) {
+      await go(file);
+      const info = await page.evaluate(() => ({
+        lang: document.documentElement.lang,
+        dir: document.documentElement.dir,
+        h1: (document.querySelector('h1') || {}).textContent || '',
+        current: (document.querySelector('.lang-switch a[aria-current]') || { lang: '' }).lang,
+        braces: /\{[\w.]+\}/.test(document.querySelector('main').textContent)
+      }));
+      const issues = [];
+      if (info.lang !== lang.code) issues.push(`lang=${info.lang}`);
+      if (info.dir !== lang.dir) issues.push(`dir=${info.dir}`);
+      if (info.current !== lang.code) issues.push(`Sprachumschalter markiert "${info.current}"`);
+      if (!info.h1.trim()) issues.push('keine H1');
+      if (info.braces) issues.push('nicht ersetzter {Platzhalter}');
+      if (await hasHScroll()) issues.push('horizontales Scrollen');
+      if (problems.length) issues.push(problems.join(' | '));
+      if (issues.length) {
+        bad++;
+        fail(`${file}: ${issues.join('; ')}`);
+      }
+      if (SHOTS && !/\/(devices|geraete)\//.test(file)) await shot(file + '-desktop');
     }
+    if (!bad) ok(`${lang.code}: ${files.length} Seiten ohne Fehler (Sprache, Richtung, Konsole, Anfragen, Layout)`);
   }
 
-  for (const lang of LANGS) {
-    for (const url of PAGES) await checkPage(url, lang);
-  }
-
-  // Mobile: Layout, Menü, kein horizontales Scrollen
+  /* 2. Mobil: kein horizontales Scrollen, Menü */
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lang of LANGS) {
-    for (const url of ["index.html", "geraete.html", "geraet.html?id=ultrasound", "kontakt.html"]) {
-      problems.length = 0;
-      await page.goto(`${BASE}/${url}${url.includes("?") ? "&" : "?"}lang=${lang}`, { waitUntil: "networkidle" });
-      await page.waitForTimeout(300);
-      const hScroll = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
-      if (hScroll) fail(`${url} [${lang}] mobil: horizontales Scrollen`);
-      else ok(`${url} [${lang}] mobil: kein horizontales Scrollen`);
-      if (SHOTS) await page.screenshot({ path: path.join(SHOTS, `${url.replace(/[?=.&]/g, "_")}-${lang}-mobile.png`), fullPage: true });
+  for (const lang of config.langs) {
+    const files = ['home', 'about', 'medtech', 'devices', 'glossary', 'contact', 'imprint'].map((k) => config.pages[k][lang.code]).concat([`${config.deviceDir[lang.code]}/${devices[0].id}.html`]);
+    let bad = 0;
+    for (const file of files) {
+      await go(file);
+      if (await hasHScroll()) {
+        bad++;
+        fail(`${file} mobil: horizontales Scrollen`);
+      }
+      await shot(file + '-mobile');
     }
+    if (!bad) ok(`${lang.code} mobil: ${files.length} Seiten ohne horizontales Scrollen`);
   }
-  // Mobiles Menü
-  await page.goto(`${BASE}/index.html`, { waitUntil: "networkidle" });
-  await page.click(".nav-toggle");
-  const navOpen = await page.evaluate(() => document.getElementById("site-nav").classList.contains("is-open") && document.querySelector(".nav-toggle").getAttribute("aria-expanded") === "true");
-  navOpen ? ok("Mobiles Menü öffnet sich") : fail("Mobiles Menü öffnet sich nicht");
-  await page.keyboard.press("Escape");
-  const navClosed = await page.evaluate(() => !document.getElementById("site-nav").classList.contains("is-open"));
-  navClosed ? ok("Mobiles Menü schließt mit Escape") : fail("Mobiles Menü schließt nicht mit Escape");
-
-  // Sprachwechsel per Klick (ohne Neuladen)
+  await go(config.pages.home.de);
+  await page.click('.nav-toggle');
+  expect(await page.evaluate(() => document.getElementById('site-nav').classList.contains('is-open') && document.querySelector('.nav-toggle').getAttribute('aria-expanded') === 'true'), 'Mobiles Menü öffnet sich');
+  await page.keyboard.press('Escape');
+  expect(await page.evaluate(() => !document.getElementById('site-nav').classList.contains('is-open') && document.activeElement.classList.contains('nav-toggle')), 'Mobiles Menü schließt mit Escape, Fokus zurück auf der Schaltfläche');
   await page.setViewportSize({ width: 1280, height: 900 });
-  await page.goto(`${BASE}/index.html`, { waitUntil: "networkidle" });
-  await page.click('[data-lang="ar"]');
-  await page.waitForTimeout(400);
-  const afterSwitch = await page.evaluate(() => ({
-    dir: document.documentElement.dir,
-    h1: document.querySelector("h1").textContent,
-    stored: localStorage.getItem("medny.lang"),
-    link: document.querySelector('.site-nav__list a[href*="ueber-uns"]').getAttribute("href")
-  }));
-  if (afterSwitch.dir === "rtl" && afterSwitch.stored === "ar" && /lang=ar/.test(afterSwitch.link) && /[؀-ۿ]/.test(afterSwitch.h1)) ok("Sprachwechsel auf Arabisch: RTL, gespeichert, Links lokalisiert");
-  else fail("Sprachwechsel auf Arabisch fehlerhaft: " + JSON.stringify(afterSwitch));
-  await page.click('[data-lang="de"]');
-  await page.waitForTimeout(300);
 
-  // Geräte-Übersicht: Suche & Filter
-  problems.length = 0;
-  await page.goto(`${BASE}/geraete.html`, { waitUntil: "networkidle" });
-  await page.waitForSelector(".device-card");
-  const totalCards = await page.locator(".device-card").count();
-  totalCards > 0 ? ok(`Geräte-Übersicht zeigt ${totalCards} Karten`) : fail("Geräte-Übersicht leer");
-  await page.fill("#device-search", "ultra");
-  await page.waitForTimeout(400);
-  const searchCards = await page.locator(".device-card").count();
-  searchCards > 0 && searchCards < totalCards ? ok(`Suche "ultra" filtert auf ${searchCards} Karten`) : fail(`Suche liefert ${searchCards} Karten`);
-  await page.fill("#device-search", "xyzxyz");
-  await page.waitForTimeout(400);
-  const empty = await page.locator(".empty-state").count();
-  empty ? ok("Leerer Suchzustand wird angezeigt") : fail("Kein leerer Suchzustand");
-  await page.click(".empty-state button");
-  await page.waitForTimeout(300);
-  const chips = await page.locator(".chip").count();
-  chips > 1 ? ok(`${chips - 1} Kategorie-Chips`) : fail("Keine Kategorie-Chips");
-  await page.locator(".chip").nth(1).click();
-  await page.waitForTimeout(300);
-  const catUrl = page.url();
-  /cat=/.test(catUrl) ? ok("Kategorie-Filter in URL: " + catUrl.split("?")[1]) : fail("Kategorie-Filter nicht in URL");
-  const catCards = await page.locator(".device-card").count();
-  catCards > 0 && catCards < totalCards ? ok(`Kategorie-Filter zeigt ${catCards} Karten`) : fail(`Kategorie-Filter zeigt ${catCards} Karten`);
-  if (problems.length) fail("Geräte-Übersicht: " + problems.join(" | "));
+  /* 3. Sprachwechsel führt auf dieselbe Seite in der anderen Sprache */
+  await go(`${config.deviceDir.de}/${devices[1].id}.html`);
+  await page.click('.lang-switch a[lang="ar"]');
+  await page.waitForLoadState('networkidle');
+  expect(page.url().endsWith(`${config.deviceDir.ar}/${devices[1].id}.html`) && (await page.evaluate(() => document.documentElement.dir)) === 'rtl', 'Sprachwechsel Deutsch → Arabisch bleibt auf demselben Gerät (RTL)', 'Sprachwechsel fehlerhaft: ' + page.url());
+  await page.click('.lang-switch a[lang="en"]');
+  await page.waitForLoadState('networkidle');
+  expect(page.url().endsWith(`${config.deviceDir.en}/${devices[1].id}.html`), 'Sprachwechsel Arabisch → Englisch', 'Sprachwechsel fehlerhaft: ' + page.url());
 
-  // Detailseite: Als gelernt markieren
-  problems.length = 0;
-  await page.locator(".device-card h3 a").first().click();
-  await page.waitForSelector("#device-content .device-section");
-  const sections = await page.locator("#device-content .device-section").count();
-  sections >= 4 ? ok(`Detailseite zeigt ${sections} Abschnitte`) : fail(`Detailseite zeigt nur ${sections} Abschnitte`);
-  await page.click("#device-hero button");
-  const learnedStored = await page.evaluate(() => localStorage.getItem("medny.learned"));
-  learnedStored && learnedStored !== "[]" ? ok("Gelernt-Markierung gespeichert: " + learnedStored) : fail("Gelernt-Markierung nicht gespeichert");
-  await page.goto(`${BASE}/geraete.html`, { waitUntil: "networkidle" });
-  const progress = await page.locator("#progress-text").textContent();
-  /1/.test(progress) ? ok("Lernfortschritt: " + progress.trim()) : fail("Lernfortschritt falsch: " + progress);
-  await page.goto(`${BASE}/geraet.html?id=gibt-es-nicht`, { waitUntil: "networkidle" });
-  const nf = await page.locator("#device-hero h1").textContent();
-  nf.trim() ? ok("Unbekannte Geräte-ID: " + nf.trim()) : fail("Unbekannte Geräte-ID ohne Hinweis");
-  if (problems.length) fail("Detailseite: " + problems.join(" | "));
+  /* 4. Geräte-Wissen: Suche, Filter, Lernfortschritt */
+  await page.evaluate(() => localStorage.clear());
+  await go(config.pages.devices.de);
+  const visible = () => page.locator('.device-card:not([hidden])').count();
+  const total = await visible();
+  expect(total === devices.length, `Übersicht zeigt alle ${total} Geräte`, `Übersicht zeigt ${total} statt ${devices.length} Geräte`);
+  await page.fill('#device-search', 'ultra');
+  await page.waitForTimeout(300);
+  let n = await visible();
+  expect(n > 0 && n < total, `Suche "ultra" → ${n} Geräte`, `Suche "ultra" liefert ${n}`);
+  expect(/q=ultra/.test(page.url()), 'Suchbegriff steht in der Adresse');
+  await page.fill('#device-search', 'MRI');
+  await page.waitForTimeout(300);
+  n = await visible();
+  expect(n >= 1, `Sprachübergreifende Suche "MRI" auf der deutschen Seite → ${n} Gerät(e)`, 'Sprachübergreifende Suche findet nichts');
+  await page.fill('#device-search', 'xyzxyz');
+  await page.waitForTimeout(300);
+  expect(await page.locator('#empty-state:not([hidden])').count(), 'Leerer Suchzustand wird angezeigt');
+  await page.click('#empty-state [data-filter-reset]');
+  expect((await visible()) === total, 'Filter zurücksetzen zeigt wieder alle Geräte');
+  await page.locator('#category-chips .chip').nth(2).click();
+  n = await visible();
+  expect(n > 0 && n < total && /cat=/.test(page.url()), `Kategorie-Filter → ${n} Geräte, Kategorie steht in der Adresse`, `Kategorie-Filter zeigt ${n}`);
+  expect((await page.locator('#category-chips .chip[aria-pressed="true"]').count()) === 1, 'Genau ein Filter-Chip ist als aktiv markiert');
+  const langHref = await page.getAttribute('.lang-switch a[lang="en"]', 'href');
+  expect(/cat=/.test(langHref), 'Sprachlink übernimmt den aktiven Filter');
+  await go(config.pages.devices.de + '?cat=therapy#cat-therapy');
+  n = await visible();
+  expect(n > 0 && n < total, `Direktlink mit ?cat=therapy filtert (${n} Geräte)`, 'Direktlink mit ?cat= filtert nicht');
+  if (problems.length) fail('Übersicht: ' + problems.join(' | '));
 
-  // Kontaktformular: Validierung
-  problems.length = 0;
-  await page.goto(`${BASE}/kontakt.html`, { waitUntil: "networkidle" });
+  await go(`${config.deviceDir.de}/${devices[0].id}.html`);
+  expect((await page.locator('.device-section').count()) >= 4, 'Detailseite zeigt die Abschnitte');
+  await page.click('#learn-toggle');
+  expect((await page.getAttribute('#learn-toggle', 'aria-pressed')) === 'true', 'Gerät als gelernt markiert');
+  await go(config.pages.devices.de);
+  const progress = (await page.textContent('#progress-text')).trim();
+  expect(/\b1\b/.test(progress), 'Lernfortschritt in der Übersicht: ' + progress, 'Lernfortschritt falsch: ' + progress);
+  expect((await page.locator('.device-card--learned').count()) === 1, 'Gelernte Karte ist markiert');
+  const cont = await page.getAttribute('#progress-continue', 'href');
+  expect(cont && cont.indexOf(devices[1].id) !== -1, '"Weiter mit" zeigt auf das nächste ungelernte Gerät');
+  await page.click('#progress-reset');
+  expect((await page.locator('.device-card--learned').count()) === 0, 'Fortschritt zurücksetzen');
+  if (problems.length) fail('Lernfortschritt: ' + problems.join(' | '));
+
+  /* 5. Glossar */
+  await go(config.pages.glossary.de);
+  const terms = await page.locator('.glossary-entry:not([hidden])').count();
+  await page.fill('#glossary-search', 'doppler');
+  await page.waitForTimeout(300);
+  n = await page.locator('.glossary-entry:not([hidden])').count();
+  expect(terms > 20 && n > 0 && n < terms, `Glossar: ${terms} Begriffe, Suche "doppler" → ${n}`, `Glossar-Suche fehlerhaft (${terms}/${n})`);
+
+  /* 6. Kontaktformular */
+  await go(config.pages.contact.de);
   await page.click('#contact-form button[type="submit"]');
-  const invalid = await page.locator(".field.is-invalid").count();
-  invalid >= 3 ? ok(`Formular-Validierung markiert ${invalid} Felder`) : fail(`Formular-Validierung markiert nur ${invalid} Felder`);
-  await page.fill("#cf-name", "Test Person");
-  await page.fill("#cf-email", "keine-mail");
-  await page.fill("#cf-message", "Hallo");
-  await page.check("#cf-consent");
+  n = await page.locator('.field.is-invalid').count();
+  expect(n >= 3, `Formular markiert ${n} fehlende Pflichtfelder`, `Formular markiert nur ${n} Felder`);
+  expect(await page.evaluate(() => document.activeElement.id === 'cf-name'), 'Fokus springt zum ersten fehlerhaften Feld');
+  await page.fill('#cf-name', 'Test Person');
+  await page.fill('#cf-email', 'keine-mail');
+  await page.fill('#cf-message', 'Hallo');
+  await page.check('#cf-consent');
   await page.click('#contact-form button[type="submit"]');
-  const emailInvalid = await page.locator("#cf-email[aria-invalid='true']").count();
-  emailInvalid ? ok("Ungültige E-Mail wird erkannt") : fail("Ungültige E-Mail nicht erkannt");
-  await page.fill("#cf-email", "test@example.com");
+  expect(await page.locator('#cf-email[aria-invalid="true"]').count(), 'Ungültige E-Mail-Adresse wird erkannt');
+  await page.fill('#cf-email', 'test@example.com');
   await page.click('#contact-form button[type="submit"]');
-  await page.waitForTimeout(400);
-  const successShown = await page.evaluate(() => !document.getElementById("form-success").hidden && document.getElementById("contact-form").hidden);
-  successShown ? ok("Erfolgsmeldung nach Absenden") : fail("Keine Erfolgsmeldung nach Absenden");
-  if (problems.filter((p) => !/mailto/.test(p)).length) fail("Kontakt: " + problems.join(" | "));
+  await page.waitForTimeout(300);
+  expect(await page.evaluate(() => !document.getElementById('form-success').hidden && document.getElementById('contact-form').hidden), 'Erfolgsmeldung nach dem Absenden');
+  const real = problems.filter((p) => !/mailto|scheme/i.test(p));
+  if (real.length) fail('Kontakt: ' + real.join(' | '));
+
+  /* 7. Ohne JavaScript: Inhalte und Navigation vorhanden */
+  const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const plain = await noJs.newPage();
+  await plain.goto(`${BASE}/${config.deviceDir.ar}/${devices[0].id}.html`);
+  const plainInfo = await plain.evaluate(() => ({ sections: document.querySelectorAll('.device-section').length, nav: !!document.querySelector('.nojs-nav a'), dir: document.documentElement.dir }));
+  expect(plainInfo.sections >= 4 && plainInfo.nav && plainInfo.dir === 'rtl', 'Ohne JavaScript: arabische Detailseite vollständig lesbar, Navigation vorhanden');
+  await noJs.close();
 
   await browser.close();
   if (failures) {
     console.error(`\n${failures} Problem(e) gefunden.`);
     process.exit(1);
   }
-  console.log("\nSmoke-Test bestanden.");
+  console.log('\nBrowser-Test bestanden.');
 })().catch((err) => {
   console.error(err);
   process.exit(1);
