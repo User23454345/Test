@@ -71,7 +71,8 @@
     "country": "ألمانيا",
     "ownerRole": "المالك · ماجستير في الهندسة الطبية الحيوية (MSc)",
     "photoAlt": "صورة شخصية لجهة الاتصال (عنصر نائب)",
-    "photoAltReal": "صورة {name}"
+    "photoAltReal": "صورة {name}",
+    "listSeparator": "، "
   },
   "home": {
     "hero": {

@@ -66,7 +66,10 @@ function buildGlossary(lang, dict, data) {
     (d.glossary || []).forEach((g) => add(g.term, g.text, device));
   });
   const collator = new Intl.Collator(lang, { sensitivity: 'base', numeric: true });
-  return Array.from(byKey.values()).sort((a, b) => collator.compare(a.term, b.term));
+  // Arabisch: Der Artikel „ال" zählt beim Einsortieren nicht mit, wie in arabischen Wörterbüchern und Registern üblich.
+  // Sonst stünden alle Begriffe mit Artikel gesammelt unter Alif.
+  const sortKey = lang === 'ar' ? (term) => term.replace(/^ال(?=\S\S)/, '') : (term) => term;
+  return Array.from(byKey.values()).sort((a, b) => collator.compare(sortKey(a.term), sortKey(b.term)) || collator.compare(a.term, b.term));
 }
 
 module.exports = { deviceCard, searchText, buildGlossary };

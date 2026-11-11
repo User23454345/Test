@@ -71,7 +71,8 @@
     "country": "Germany",
     "ownerRole": "Owner · M.Sc. Biomedical Engineering",
     "photoAlt": "Portrait photo of the contact person (placeholder)",
-    "photoAltReal": "Portrait of {name}"
+    "photoAltReal": "Portrait of {name}",
+    "listSeparator": ", "
   },
   "home": {
     "hero": {

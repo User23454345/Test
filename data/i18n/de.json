@@ -71,7 +71,8 @@
     "country": "Deutschland",
     "ownerRole": "Inhaber · M.Sc. Biomedizintechnik",
     "photoAlt": "Porträtfoto des Ansprechpartners (Platzhalter)",
-    "photoAltReal": "Porträt von {name}"
+    "photoAltReal": "Porträt von {name}",
+    "listSeparator": ", "
   },
   "home": {
     "hero": {

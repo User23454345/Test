@@ -12,7 +12,7 @@ module.exports = {
     const items = entries
       .map((e) => {
         const sources = e.devices.length
-          ? `<p class="glossary-entry__sources">${t('glossary.appearsIn')} ${e.devices.map((dev) => `<a href="${ctx.deviceHref(dev.id)}">${esc(L(dev).name)}</a>`).join(', ')}</p>`
+          ? `<p class="glossary-entry__sources">${t('glossary.appearsIn')} ${e.devices.map((dev) => `<a href="${ctx.deviceHref(dev.id)}">${esc(L(dev).name)}</a>`).join(t('common.listSeparator'))}</p>`
           : `<p class="glossary-entry__sources"><a href="${href('medtech')}">${t('nav.medtech')}</a></p>`;
         return `<div class="glossary-entry" data-search="${esc(normalize(e.term + ' ' + e.text))}">
             <dt>${esc(e.term)}</dt>
