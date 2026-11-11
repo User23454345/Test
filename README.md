@@ -37,7 +37,8 @@ data/i18n/ar.json     … Arabisch                geraete/<geraet>.html      (28
 data/devices.json     Geräte-Wissen (3 Sprachen) en/…  und  ar/…            (dieselben Seiten
 src/                  Aufbau der Seiten                                     auf Englisch/Arabisch)
 css/styles.css        Gestaltung                robots.txt, sitemap.xml (sobald die Adresse
-js/site.js            Menü, Suche, Formular       der Webseite eingetragen ist)
+css/nojs.css          nur ohne JavaScript         der Webseite eingetragen ist)
+js/site.js            Menü, Suche, Formular
 assets/               Bilder, Icons, Schrift
 ```
 
@@ -120,6 +121,7 @@ Alle Geräte stehen in `data/devices.json`. Ein Gerät (gekürzt):
 - **Neue Kategorie:** Eintrag in `categories` (mit `icon` und `order`). Sie erscheint automatisch in der Übersicht,
   im Filter, auf der Startseite und unter „Was ist Medizintechnik?".
 - **Reihenfolge:** `order` der Kategorie, darin `order` des Geräts. Das ist zugleich der Lernpfad.
+  Auf breiten Bildschirmen stehen vier Karten in einer Reihe; vier Geräte je Kategorie füllen sie genau.
 - **Suche:** `keywords` ergänzen die Suche um Synonyme und Abkürzungen. Namen und Stichwörter aller Sprachen werden
   durchsucht – „MRI" findet auch auf der deutschen Seite den MRT.
 - **Glossar:** entsteht aus den `glossary`-Einträgen aller Geräte und aus `medtech.glossary.items`; gleiche Begriffe
@@ -210,8 +212,8 @@ npm test                # Browser-Test: alle Seiten in allen Sprachen und die wi
 ```
 
 Der Browser-Test prüft Konsolenfehler, Verstöße gegen die Inhaltsrichtlinie, Sprache und Leserichtung,
-horizontales Scrollen (Desktop und Smartphone), Menü, Sprachwechsel, Suche, Filter, Lernfortschritt, Glossar,
-Kontaktformular und die Lesbarkeit ohne JavaScript.
+horizontales Scrollen (Desktop, Smartphone und sehr schmale Bildschirme mit 320 px), Menü, Sprachwechsel, Suche,
+Filter, Lernfortschritt, Glossar, Kontaktformular und die Lesbarkeit ohne JavaScript.
 
 ---
 

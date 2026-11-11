@@ -4,8 +4,7 @@
 .search,
 .filter-bar,
 .progress-card,
-.learn-toggle,
-.hero__links + .noscript-note ~ * {
+.learn-toggle {
   display: none !important;
 }
 

@@ -115,6 +115,25 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
     }
     if (!bad) ok(`${lang.code} mobil: ${files.length} Seiten ohne horizontales Scrollen`);
   }
+  // Sehr schmale Bildschirme: lange deutsche Gerätenamen dürfen nichts aus dem Bild schieben
+  await page.setViewportSize({ width: 320, height: 700 });
+  {
+    let bad = 0;
+    for (const d of devices) {
+      await go(`${config.deviceDir.de}/${d.id}.html`);
+      if (await hasHScroll()) {
+        bad++;
+        fail(`${config.deviceDir.de}/${d.id}.html bei 320 px: horizontales Scrollen`);
+      }
+    }
+    await go(config.pages.devices.de);
+    if (await hasHScroll()) {
+      bad++;
+      fail(`${config.pages.devices.de} bei 320 px: horizontales Scrollen`);
+    }
+    if (!bad) ok(`de bei 320 px: ${devices.length + 1} Seiten des Lernportals ohne horizontales Scrollen`);
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
   await go(config.pages.home.de);
   await page.click('.nav-toggle');
   expect(await page.evaluate(() => document.getElementById('site-nav').classList.contains('is-open') && document.querySelector('.nav-toggle').getAttribute('aria-expanded') === 'true'), 'Mobiles Menü öffnet sich');
