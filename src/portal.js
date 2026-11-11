@@ -30,12 +30,12 @@ function deviceCard(ctx, device, { eager } = {}) {
   const { t, asset } = ctx;
   const d = ctx.L(device);
   return `<article class="device-card" data-id="${esc(device.id)}" data-cat="${esc(device.category)}" data-search="${esc(searchText(ctx, device))}">
-              <span class="badge badge--success device-card__learned" hidden>${icon('check')} ${t('devices.detail.markedLearned')}</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden>${icon('check')}<span>${t('devices.detail.markedLearned')}</span></span>
               <div class="device-card__media">
                 <img src="${asset(device.image)}" alt="" width="320" height="240"${eager ? '' : ' loading="lazy"'} decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="${ctx.deviceHref(device.id)}">${esc(d.name)}</a></h3>
+                <h3><a href="${ctx.deviceHref(device.id)}">${esc(d.name)}<span class="visually-hidden" data-learned-text hidden> – ${t('devices.detail.markedLearned')}</span></a></h3>
                 <p class="device-card__subtitle">${esc(d.subtitle)}</p>
                 <p>${esc(d.short)}</p>
                 <span class="device-card__link" aria-hidden="true">${t('devices.openDevice')} ${icon('arrow-right', 'icon--flip')}</span>

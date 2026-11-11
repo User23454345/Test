@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-page="device">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,7 @@
   <link rel="preload" href="../../assets/fonts/ibm-plex-sans-arabic-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/ibm-plex-sans-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../../css/styles.css">
+  <noscript><link rel="stylesheet" href="../../css/nojs.css"></noscript>
   <script src="../../js/site.js" defer></script>
 </head>
 <body data-page="device">
@@ -58,15 +59,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="التنقل الرئيسي">
         <a href="../index.html">الصفحة الرئيسية</a>
         <a href="../about.html">من نحن</a>
         <a href="../medical-technology.html">ما هي التقنيات الطبية؟</a>
-        <a href="../devices.html">دليل الأجهزة</a>
+        <a href="../devices.html" aria-current="true">دليل الأجهزة</a>
         <a href="../contact.html">اتصل بنا</a>
-        <a href="../../geraete/patient-monitor.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../../en/devices/patient-monitor.html" lang="en" hreflang="en">English</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -87,7 +86,7 @@
             <p class="device-hero__subtitle">مراقبة متعددة المعايير للوظائف الحيوية</p>
             <p class="hero__text">يسجّل جهاز مراقبة المريض عدة علامات حيوية في آن واحد، ويعرضها على شكل منحنيات وقيم رقمية، ويطلق إنذاراً عند تجاوز الحدود المضبوطة. وهو جهاز المراقبة المركزي في وحدات العناية المركزة وغرف العمليات وأقسام الطوارئ.</p>
             <div class="device-hero__actions">
-              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="patient-monitor" aria-pressed="false">
+              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="patient-monitor" data-learned="false">
                 <span class="when-off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>تحديد كمُتعلَّم</span>
                 <span class="when-on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zM9 10l2 2 4-4"/></svg>محدَّد كمُتعلَّم</span>
               </button>
@@ -105,7 +104,28 @@
     <section class="section">
       <div class="container">
         <div class="device-layout">
-          <div>
+          <aside class="device-aside" aria-label="التنقل داخل الصفحة">
+            <nav class="aside-box aside-box--toc" aria-labelledby="toc-title">
+              <h2 id="toc-title">في هذه الصفحة</h2>
+              <ul role="list">
+                <li><a href="#how">مبدأ العمل</a></li>
+                <li><a href="#use">مجالات الاستخدام</a></li>
+                <li><a href="#facts">في لمحة</a></li>
+                <li><a href="#procurement">ما الذي يجب مراعاته عند الشراء؟</a></li>
+                <li><a href="#glossary">مصطلحات مهمة</a></li>
+              </ul>
+            </nav>
+            <nav class="aside-box aside-box--related" aria-labelledby="related-title">
+              <h2 id="related-title">أجهزة أخرى في هذه الفئة</h2>
+              <ul role="list">
+                <li><a href="patient-monitor.html" data-device-id="patient-monitor" aria-current="page">جهاز مراقبة المريض<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="ecg-device.html" data-device-id="ecg-device">جهاز تخطيط القلب (12 قناة)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="pulse-oximeter.html" data-device-id="pulse-oximeter">مقياس التأكسج النبضي<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="fetal-monitor.html" data-device-id="fetal-monitor">جهاز مراقبة الجنين (CTG)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+              </ul>
+            </nav>
+          </aside>
+          <div class="device-main">
           <section class="device-section" id="how" aria-labelledby="how-title">
             <h2 id="how-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>مبدأ العمل</h2>
             <p>يلتقط الجهاز إشارات القياس مباشرة من المريض عبر الأقطاب الكهربائية والمستشعرات وأكمام قياس الضغط. وتشمل المعايير النموذجية تخطيط القلب (ECG) مع معدل ضربات القلب، وتشبّع الأكسجين (SpO2)، وضغط الدم غير الباضع (NIBP)، ومعدل التنفس، ودرجة حرارة الجسم. ويمكن حسب التجهيز إضافة ضغط الدم الباضع أو تخطيط ثاني أكسيد الكربون (etCO2) أو النتاج القلبي.</p>
@@ -114,7 +134,7 @@
           </section>
           <section class="device-section" id="use" aria-labelledby="use-title">
             <h2 id="use-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>مجالات الاستخدام</h2>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>وحدات العناية المركزة والعناية المتوسطة</li>
               <li>غرفة العمليات وغرفة الإفاقة</li>
               <li>قسم الطوارئ وغرفة الإنعاش</li>
@@ -133,7 +153,7 @@
           </section>
           <section class="device-section" id="procurement" aria-labelledby="procurement-title">
             <h2 id="procurement-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6M9 21h.01M18 21h.01"/></svg>ما الذي يجب مراعاته عند الشراء؟</h2>
-            <ol class="tip-list">
+            <ol class="tip-list" role="list">
               <li>حدّدوا مجموعة المعايير المطلوبة لكل وحدة (الأساسية: تخطيط القلب وSpO2 وNIBP ودرجة الحرارة؛ العناية المركزة: إضافة الضغط الباضع وتخطيط ثاني أكسيد الكربون) واحرصوا على إمكانية الترقية لاحقاً بوحدات إضافية.</li>
               <li>تحققوا من واجهات الربط مع محطة المراقبة المركزية ونظام معلومات المستشفى (مثل HL7)، ومن التوافق مع الأجهزة الموجودة والبنية التحتية (الشبكة، الشبكة اللاسلكية).</li>
               <li>احسبوا التكاليف الجارية للمستهلكات مثل الأقطاب ومستشعرات SpO2 وأكمام ضغط الدم ومجسات الحرارة؛ فالمستشعرات الخاصة بالمصنّع قد تؤثر بشكل كبير في التكاليف اللاحقة.</li>
@@ -148,35 +168,9 @@
               <div><dt>NIBP</dt><dd>قياس ضغط الدم غير الباضع بواسطة كمّ يُلفّ حول أعلى الذراع وينفخه الجهاز تلقائياً على فترات قابلة للضبط.</dd></div>
               <div><dt>تخطيط ثاني أكسيد الكربون (Capnography)</dt><dd>قياس مستمر لمحتوى ثاني أكسيد الكربون في هواء الزفير (etCO2) لمراقبة التهوية والدورة الدموية.</dd></div>
             </dl>
-            <p class="section-more"><a href="../glossary.html">المسرد: جميع المصطلحات <svg class="icon--flip icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+            <p class="section-more"><a class="link-arrow" href="../glossary.html">المسرد: جميع المصطلحات<svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
           </section>
           </div>
-          <aside class="device-aside" aria-label="التنقل داخل الصفحة">
-            <nav class="aside-box" aria-labelledby="toc-title">
-              <h2 id="toc-title">في هذه الصفحة</h2>
-              <ul>
-                <li><a href="#how">مبدأ العمل</a></li>
-                <li><a href="#use">مجالات الاستخدام</a></li>
-                <li><a href="#facts">في لمحة</a></li>
-                <li><a href="#procurement">ما الذي يجب مراعاته عند الشراء؟</a></li>
-                <li><a href="#glossary">مصطلحات مهمة</a></li>
-              </ul>
-            </nav>
-            <nav class="aside-box" aria-labelledby="related-title">
-              <h2 id="related-title">أجهزة أخرى في هذه الفئة</h2>
-              <ul>
-                <li><a href="patient-monitor.html" data-device-id="patient-monitor" aria-current="page">جهاز مراقبة المريض<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="ecg-device.html" data-device-id="ecg-device">جهاز تخطيط القلب (12 قناة)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="pulse-oximeter.html" data-device-id="pulse-oximeter">مقياس التأكسج النبضي<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="fetal-monitor.html" data-device-id="fetal-monitor">جهاز مراقبة الجنين (CTG)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-              </ul>
-            </nav>
-            <div class="aside-box aside-box--cta">
-              <h2>هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
-              <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
-              <a class="btn btn--primary btn--sm" href="../contact.html">اطلب استشارة</a>
-            </div>
-          </aside>
         </div>
         <nav class="pager" aria-label="الجهاز السابق والتالي">
           <a class="pager__prev" href="laboratory-centrifuge.html" rel="prev">
@@ -194,8 +188,10 @@
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
-        <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
+          <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        </div>
         <a class="btn btn--light" href="../contact.html">اطلب استشارة</a>
       </div>
     </section>
@@ -214,7 +210,7 @@
         </div>
         <div>
           <h2>التنقل</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../index.html">الصفحة الرئيسية</a></li>
             <li><a href="../about.html">من نحن</a></li>
             <li><a href="../medical-technology.html">ما هي التقنيات الطبية؟</a></li>
@@ -225,14 +221,14 @@
         </div>
         <div>
           <h2>الجوانب القانونية</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../legal-notice.html">بيانات الناشر</a></li>
             <li><a href="../privacy.html">سياسة الخصوصية</a></li>
           </ul>
         </div>
         <div>
           <h2>اتصل بنا</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

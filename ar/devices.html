@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-page="devices">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,7 @@
   <link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/styles.css">
+  <noscript><link rel="stylesheet" href="../css/nojs.css"></noscript>
   <script src="../js/site.js" defer></script>
 </head>
 <body data-page="devices">
@@ -58,70 +59,32 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="التنقل الرئيسي">
         <a href="index.html">الصفحة الرئيسية</a>
         <a href="about.html">من نحن</a>
         <a href="medical-technology.html">ما هي التقنيات الطبية؟</a>
-        <a href="devices.html">دليل الأجهزة</a>
+        <a href="devices.html" aria-current="page">دليل الأجهزة</a>
         <a href="contact.html">اتصل بنا</a>
-        <a href="../geraete.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../en/devices.html" lang="en" hreflang="en">English</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
   <main id="main" tabindex="-1">
     <section class="hero hero--compact">
-      <div class="container">
-        <span class="eyebrow">بوابة التعلّم</span>
-        <h1 class="hero__title">دليل الأجهزة</h1>
-        <p class="hero__text">التقنيات الطبية بشرح مبسّط – مرتّبة حسب الفئات، وقابلة للبحث، ومقتصرة على الأساسيات. اختاروا فئة أو ابحثوا مباشرة عن جهاز.</p>
-        <form class="search" role="search" id="device-search-form" action="devices.html" method="get">
-          <label for="device-search" class="visually-hidden">البحث عن جهاز أو مصطلح</label>
-          <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
-          <input id="device-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="مثل: السونار، تخطيط القلب …">
-          <button type="button" class="search__clear" id="device-search-clear" aria-label="مسح البحث"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
-        </form>
-        <p class="hero__links"><a href="glossary.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z"/></svg> المسرد: جميع المصطلحات</a></p>
-        <noscript><p class="noscript-note">يتطلب البحث والتصفية وتتبّع التقدّم في التعلّم تفعيل JavaScript، لكن يمكن قراءة جميع المحتويات من دونه.</p></noscript>
-      </div>
-    </section>
-
-    <div class="filter-bar">
-      <div class="container">
-        <div id="category-chips" class="chips" role="group" aria-label="التصفية حسب الفئة">
-          <button type="button" class="chip" data-cat="" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg><span>جميع الفئات</span><span class="chip__count">28</span></button>
-          <button type="button" class="chip" data-cat="imaging" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<rect x="3" y="4" rx="2"/>
-<path d="M12 16v4M8 20h8"/>
-<path d="M9 12.5a4 4 0 0 1 6 0"/>
-<path d="M7 9.5a7 7 0 0 1 10 0"/>
-</svg></span><span>التصوير الطبي</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="lab" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span><span>التشخيص المخبري</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="monitoring" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<rect x="3" y="4" rx="2"/>
-<path d="M5.5 11.5h3l1.5-3.5 3 8 1.5-4.5h4"/>
-</svg></span><span>مراقبة المرضى</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="surgery" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<path d="M11.5 9.5L21 3c0 4-2 8-6.5 9.5z"/>
-<path d="M11.5 9.5L3 18l3 3 8.5-8.5"/>
-<path d="M7.5 14.5l2 2"/>
-</svg></span><span>تقنيات غرف العمليات</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="therapy" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
-<path d="M12 9.5v5M9.5 12h5"/>
-</svg></span><span>العلاج</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="dental" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<path d="M12 5C10.5 3.5 7 3.5 6 6.5C5.2 9 6.3 11.5 7 14C7.6 16.5 8 20 9.5 20.5C10.8 20.8 11 17 12 16.5C13 17 13.2 20.8 14.5 20.5C16 20 16.4 16.5 17 14C17.7 11.5 18.8 9 18 6.5C17 3.5 13.5 3.5 12 5Z"/>
-<path d="M8.6 8.3c-.5.7-.8 1.5-.9 2.4"/>
-</svg></span><span>تقنيات طب الأسنان</span><span class="chip__count">4</span></button>
-          <button type="button" class="chip" data-cat="sterilization" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span><span>التعقيم والنظافة الصحية</span><span class="chip__count">4</span></button>
+      <div class="container hero__inner hero__inner--portal">
+        <div>
+          <span class="eyebrow">بوابة التعلّم</span>
+          <h1 class="hero__title">دليل الأجهزة</h1>
+          <p class="hero__text">التقنيات الطبية بشرح مبسّط – مرتّبة حسب الفئات، وقابلة للبحث، ومقتصرة على الأساسيات. اختاروا فئة أو ابحثوا مباشرة عن جهاز.</p>
+          <form class="search" role="search" id="device-search-form" action="devices.html" method="get">
+            <label for="device-search" class="visually-hidden">البحث عن جهاز أو مصطلح</label>
+            <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg>
+            <input id="device-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="مثل: السونار، تخطيط القلب …">
+            <button type="button" class="search__clear" id="device-search-clear" aria-label="مسح البحث"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+          </form>
+          <p class="hero__links"><a class="link-arrow" href="glossary.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z"/></svg>المسرد: جميع المصطلحات</a></p>
+          <noscript><p class="noscript-note">يتطلب البحث والتصفية وتتبّع التقدّم في التعلّم تفعيل JavaScript، لكن يمكن قراءة جميع المحتويات من دونه.</p></noscript>
         </div>
-      </div>
-    </div>
-
-    <section class="section section--tight portal" aria-label="دليل الأجهزة">
-      <div class="container">
         <div id="progress-card" class="progress-card" data-total="28">
           <div class="progress-card__head">
             <strong id="progress-title">تقدّمكم في التعلّم</strong>
@@ -130,11 +93,48 @@
           <div class="progress-bar" id="progress-bar" role="progressbar" aria-labelledby="progress-title" aria-valuemin="0" aria-valuemax="28" aria-valuenow="0"><div class="progress-bar__fill" id="progress-fill"></div></div>
           <p class="progress-card__foot">
             <span>يُحفظ التقدّم محليًا في متصفحكم فقط.</span>
-            <button type="button" class="link-button" id="progress-reset">إعادة ضبط التقدّم</button>
-            <a class="progress-card__continue" id="progress-continue" href="devices/ultrasound.html">التالي: جهاز الموجات فوق الصوتية (السونار) <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <button type="button" class="link-button" id="progress-reset" hidden>إعادة ضبط التقدّم</button>
           </p>
+          <a class="link-arrow progress-card__continue" id="progress-continue" href="devices/ultrasound.html"><span>التالي: جهاز الموجات فوق الصوتية (السونار)</span><svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
+      </div>
+    </section>
 
+    <div class="filter-bar">
+      <div class="container">
+        <div id="category-chips" class="chips" role="group" aria-label="التصفية حسب الفئة">
+          <button type="button" class="chip" data-cat="" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg><span>جميع الفئات</span><span class="chip__count">28</span></button>
+          <button type="button" class="chip" data-cat="imaging" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" width="18" height="12" rx="2"/>
+<path d="M12 16v4M8 20h8"/>
+<path d="M9 12.5a4 4 0 0 1 6 0"/>
+<path d="M7 9.5a7 7 0 0 1 10 0"/>
+</svg></span><span>التصوير الطبي</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="lab" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span><span>التشخيص المخبري</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="monitoring" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" width="18" height="15" rx="2"/>
+<path d="M5.5 11.5h3l1.5-3.5 3 8 1.5-4.5h4"/>
+</svg></span><span>مراقبة المرضى</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="surgery" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M11.5 9.5L21 3c0 4-2 8-6.5 9.5z"/>
+<path d="M11.5 9.5L3 18l3 3 8.5-8.5"/>
+<path d="M7.5 14.5l2 2"/>
+</svg></span><span>تقنيات غرف العمليات</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="therapy" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
+<path d="M12 9.5v5M9.5 12h5"/>
+</svg></span><span>العلاج</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="dental" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 5C10.5 3.5 7 3.5 6 6.5C5.2 9 6.3 11.5 7 14C7.6 16.5 8 20 9.5 20.5C10.8 20.8 11 17 12 16.5C13 17 13.2 20.8 14.5 20.5C16 20 16.4 16.5 17 14C17.7 11.5 18.8 9 18 6.5C17 3.5 13.5 3.5 12 5Z"/>
+<path d="M8.6 8.3c-.5.7-.8 1.5-.9 2.4"/>
+</svg></span><span>تقنيات طب الأسنان</span><span class="visually-hidden"> (4)</span></button>
+          <button type="button" class="chip" data-cat="sterilization" aria-pressed="false"><span class="chip__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span><span>التعقيم والنظافة الصحية</span><span class="visually-hidden"> (4)</span></button>
+        </div>
+      </div>
+    </div>
+
+    <section class="section section--tight portal" aria-label="دليل الأجهزة">
+      <div class="container">
         <p id="results-summary" class="results-summary" hidden>
           <strong id="results-count"></strong>
           <button type="button" class="link-button" data-filter-reset>إعادة ضبط التصفية</button>
@@ -144,8 +144,8 @@
         <div id="device-results">
         <section class="category-block" id="cat-imaging" data-cat="imaging" aria-labelledby="cat-title-imaging">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<rect x="3" y="4" rx="2"/>
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" width="18" height="12" rx="2"/>
 <path d="M12 16v4M8 20h8"/>
 <path d="M9 12.5a4 4 0 0 1 6 0"/>
 <path d="M7 9.5a7 7 0 0 1 10 0"/>
@@ -157,48 +157,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="ultrasound" data-cat="imaging" data-search="ultrasound جهاز الموجات فوق الصوتيه السونار تصوير بالموجات من دون اشعاع تنتج اجهزه صورا انيه للاعضاء والاوعيه والانسجه الرخوه باستخدام موجات صوتيه عاليه التردد ومباشره بجانب سرير المريض سونار ايكو دوبلر مسبار البطن الكبد والكلي والمراره والطحال التوليد وامراض النساء متابعه الحمل امراض القلب تخطيط صدي تشخيص الاوعيه الدمويه الدوبلر الدوبلكس الفحص عند نقطه الرعايه في الطواري والعنايه المركزه المسبار الترانسديوسر النمط b التصوير الطبي ultraschallgerat sonografie sono schallkopf doppler echokardiografie transducer system sonography probe echocardiography">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/ultrasound.svg" alt="" width="320" height="240" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/ultrasound.html">جهاز الموجات فوق الصوتية (السونار)</a></h3>
+                <h3><a href="devices/ultrasound.html">جهاز الموجات فوق الصوتية (السونار)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تصوير بالموجات الصوتية – من دون إشعاع</p>
                 <p>تُنتج أجهزة الموجات فوق الصوتية صورًا آنية للأعضاء والأوعية والأنسجة الرخوة باستخدام موجات صوتية عالية التردد – من دون إشعاع ومباشرةً بجانب سرير المريض.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="digital-xray" data-cat="imaging" data-search="digital xray نظام الاشعه السينيه الرقمي تصوير شعاعي اسقاطي بكاشف رقمي تستخدم انظمه الرقميه الاشعاع السيني لانتاج صور اسقاطيه للعظام والريتين وغيرها من البني ويوفر الكاشف اللوحي المسطح الصوره علي الشاشه خلال ثوان اشعه سينيه اكس كاشف x ray dr الصدر الريتان والقلب الهيكل العظمي والمفاصل الكسور جراحه العظام صوره البطن العامه قسم الطواري وجراحه الاصابات التصوير المتنقل بجانب السرير في العنايه المركزه وحدات متنقله حاصل ضرب الجرعه المساحه dap شبكه منع التشتت الطبي digitales rontgensystem rontgen radiografie flachdetektor bucky system radiography flat panel detector">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/digital-xray.svg" alt="" width="320" height="240" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/digital-xray.html">نظام الأشعة السينية الرقمي</a></h3>
+                <h3><a href="devices/digital-xray.html">نظام الأشعة السينية الرقمي<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تصوير شعاعي إسقاطي بكاشف رقمي</p>
                 <p>تستخدم أنظمة الأشعة السينية الرقمية الإشعاع السيني لإنتاج صور إسقاطية للعظام والرئتين وغيرها من البنى؛ ويوفر الكاشف اللوحي المسطح الصورة على الشاشة خلال ثوانٍ.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="ct-scanner" data-cat="imaging" data-search="ct scanner جهاز التصوير المقطعي المحوسب صور مقطعيه من اشعه سينيه دواره ينشي اسقاطات كثيره للاشعه السينيه صورا خاليه التراكب ونماذج ثلاثيه الابعاد للجسم بسرعه وبتفاصيل دقيقه مثلا في السكته الدماغيه والاصابات وتشخيص الاورام تصوير مقطعي سي تي الاوعيه طبقي محوري تشخيص والراس الاصابات المتعدده الطواري تحديد المرحله والمتابعه الريه والاوعيه التدخلات الموجهه بالتصوير الخزعات والتصريف الجانتري وحده هاونسفيلد hu الحلزوني الطبي computertomograph computertomografie schnittbild spiral angiografie tomografie computed tomography cat scan angiography">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/ct-scanner.svg" alt="" width="320" height="240" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/ct-scanner.html">جهاز التصوير المقطعي المحوسب (CT)</a></h3>
+                <h3><a href="devices/ct-scanner.html">جهاز التصوير المقطعي المحوسب (CT)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">صور مقطعية من أشعة سينية دوّارة</p>
                 <p>يُنشئ جهاز التصوير المقطعي المحوسب من إسقاطات كثيرة للأشعة السينية صورًا مقطعية خالية من التراكب ونماذج ثلاثية الأبعاد للجسم – بسرعة وبتفاصيل دقيقة، مثلًا في السكتة الدماغية والإصابات وتشخيص الأورام.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="mri-scanner" data-cat="imaging" data-search="mri scanner جهاز التصوير بالرنين المغناطيسي صور مقطعيه بالمجال وموجات الراديو يصور الرنين الانسجه الرخوه والدماغ والمفاصل والاعضاء من دون اشعه سينيه باستخدام مجال مغناطيسي قوي راديويه وتباين ممتاز للانسجه رنين mrt تصوير تسلا طب الاعصاب الدماغ والحبل الشوكي تشخيص الجهاز العضلي الهيكلي المفاصل والاقراص الفقريه الاورام البروستاتا والثدي والكبد للقلب وتصوير الاوعيه البطن والحوض t التسلسل t1 t2 الكوينش فقدان التوصيل الفايق الطبي magnetresonanztomograph kernspintomografie kernspin magnetresonanz tesla magnetic resonance imaging mr nmr">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/mri-scanner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/mri-scanner.html">جهاز التصوير بالرنين المغناطيسي (MRI)</a></h3>
+                <h3><a href="devices/mri-scanner.html">جهاز التصوير بالرنين المغناطيسي (MRI)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">صور مقطعية بالمجال المغناطيسي وموجات الراديو</p>
                 <p>يصوّر جهاز الرنين المغناطيسي الأنسجة الرخوة والدماغ والمفاصل والأعضاء من دون أشعة سينية – باستخدام مجال مغناطيسي قوي وموجات راديوية وتباين ممتاز للأنسجة الرخوة.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -208,7 +208,7 @@
         </section>
         <section class="category-block" id="cat-lab" data-cat="lab" aria-labelledby="cat-title-lab">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span>
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.6 18.6A1.8 1.8 0 0 0 6.2 21h11.6a1.8 1.8 0 0 0 1.6-2.4L14 9.5V3"/><path d="M7.3 15.5h9.4"/></svg></span>
             <div>
               <h2 id="cat-title-lab">التشخيص المخبري <span class="category-block__count" data-count>4 من الأجهزة</span></h2>
               <p>يشمل التشخيص المخبري الأجهزة التي تحلل عينات الجسم مثل الدم أو المصل أو البول بشكل آلي. وتدعم النتائج الأطباء في التشخيص ومتابعة العلاج والوقاية. وتتراوح الأنظمة النموذجية من الأجهزة المدمجة الخاصة بالعيادات إلى المحللات الآلية بالكامل في المختبرات الكبيرة.</p>
@@ -216,48 +216,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="hematology-analyzer" data-cat="lab" data-search="hematology analyzer محلل امراض الدم عد خلايا وتصنيفها اليا يقوم بعد وينتج صوره دم كامله cbc مع تفريقي او من دونه خلال دقايق معدوده وهو جزء التجهيزات الاساسيه لكل مختبر طبي تقريبا الكامله عداد الخلايا العد التفريقي الهيماتولوجيا المختبرات الروتينيه في المستشفيات والمختبرات المشتركه بين العيادات عيادات الاطباء العامين والاخصاييين التي تضم مختبرا خاصا اقسام الطواري والعنايه المركزه الفحص عند نقطه الرعايه الاورام وامراض لمتابعه العلاج خدمات التبرع بالدم والفحوصات الوقاييه قياس المعاوقه edta التشخيص المخبري hamatologie analysator blutbild zellzahler differenzialblutbild 5 part diff haematology analyser complete blood count cell counter differential">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/hematology-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/hematology-analyzer.html">محلل أمراض الدم</a></h3>
+                <h3><a href="devices/hematology-analyzer.html">محلل أمراض الدم<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">عدّ خلايا الدم وتصنيفها آلياً</p>
                 <p>يقوم محلل أمراض الدم بعدّ خلايا الدم وتصنيفها، ويُنتج صورة دم كاملة (CBC) مع عدّ تفريقي أو من دونه خلال دقائق معدودة. وهو جزء من التجهيزات الأساسية لكل مختبر طبي تقريباً.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="clinical-chemistry-analyzer" data-cat="lab" data-search="clinical chemistry analyzer محلل الكيمياء السريريه قيم الايض من المصل والبلازما والبول يقيس تراكيز مواد مثل الغلوكوز والشوارد الالكتروليتات والانزيمات والكوليسترول في او البلازما البول ويوفر الاساس لتقييم وظايف الاعضاء والايض كيمياء الدم مقياس الضوء تحليل الشوارد كيميايي المختبرات المركزيه المستشفيات ذات الانتاجيه العاليه مختبرات العيادات والمختبرات المشتركه بين تشخيص الطواري انزيمات القلب ووظايف الكلي متابعه الامراض المزمنه السكري الفحوصات الوقاييه والدوريه القياس الضويي الفوتومتري القطب الانتقايي للايونات ise المعايره التشخيص المخبري klinisch chemischer analysator klinische chemie blutchemie photometer serumanalyse elektrolyte laboranalysator analyser blood serum analysis electrolytes">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/clinical-chemistry-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/clinical-chemistry-analyzer.html">محلل الكيمياء السريرية</a></h3>
+                <h3><a href="devices/clinical-chemistry-analyzer.html">محلل الكيمياء السريرية<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">قيم الأيض من المصل والبلازما والبول</p>
                 <p>يقيس محلل الكيمياء السريرية تراكيز مواد مثل الغلوكوز والشوارد (الإلكتروليتات) والإنزيمات والكوليسترول في المصل أو البلازما أو البول. ويوفر الأساس لتقييم وظائف الأعضاء والأيض.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="blood-gas-analyzer" data-cat="lab" data-search="blood gas analyzer محلل غازات الدم قياس ph والاكسجين وثاني اكسيد الكربون في دقايق يقيس خلال معدوده الاس الهيدروجيني والضغط الجزيي للاكسجين اضافه الي الشوارد والمستقلبات وهو جهاز لا غني عنه لمراقبه المرضي الحالات الحرجه والمرضي الخاضعين للتنفس الاصطناعي abg التوازن الحمضي القاعدي poct po2 اللاكتات وحدات العنايه المركزه والتنفس اقسام الطواري وغرف الانعاش غرف العمليات الافاقه طب حديثي الولاده دم شعري من الكعب المختبرات المركزيه ووحدات غسيل الكلي الضغط pco2 فايض القواعد base excess التشخيص المخبري blutgasanalysator bga blutgasanalyse saure basen haushalt laktat analyser analysis acid balance lactate">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/blood-gas-analyzer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/blood-gas-analyzer.html">محلل غازات الدم</a></h3>
+                <h3><a href="devices/blood-gas-analyzer.html">محلل غازات الدم<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">قياس pH والأكسجين وثاني أكسيد الكربون في دقائق</p>
                 <p>يقيس محلل غازات الدم خلال دقائق معدودة الأس الهيدروجيني (pH) والضغط الجزئي للأكسجين وثاني أكسيد الكربون، إضافة إلى الشوارد والمستقلبات في الدم. وهو جهاز لا غنى عنه لمراقبة المرضى في الحالات الحرجة والمرضى الخاضعين للتنفس الاصطناعي.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="laboratory-centrifuge" data-cat="lab" data-search="laboratory centrifuge جهاز الطرد المركزي المخبري فصل العينات بقوه يفصل الدم والسوايل الاخري الي مكوناتها مثل الخلايا والبلازما عن طريق الدوران السريع وهو تحضير لا غني عنه لكل تحليل مخبري تقريبا المصل الدوار rcf قيمه g للكيمياء السريريه والامصال العيادات الطبيه للحصول علي قبل الارسال بنوك وطب نقل مختبرات الاحياء الدقيقه والبحوث تشخيص رواسب البول قوه النسبيه المتارجح ذو الزاويه الثابته التشخيص laborzentrifuge zentrifuge serumgewinnung rotor rzb zahl probenvorbereitung serum separation force sample preparation">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/laboratory-centrifuge.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/laboratory-centrifuge.html">جهاز الطرد المركزي المخبري</a></h3>
+                <h3><a href="devices/laboratory-centrifuge.html">جهاز الطرد المركزي المخبري<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">فصل العينات بقوة الطرد المركزي</p>
                 <p>يفصل جهاز الطرد المركزي المخبري الدم والسوائل الأخرى إلى مكوناتها، مثل الخلايا والبلازما، عن طريق الدوران السريع. وهو جهاز تحضير لا غنى عنه لكل تحليل مخبري تقريباً.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -267,8 +267,8 @@
         </section>
         <section class="category-block" id="cat-monitoring" data-cat="monitoring" aria-labelledby="cat-title-monitoring">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-<rect x="3" y="4" rx="2"/>
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="4" width="18" height="15" rx="2"/>
 <path d="M5.5 11.5h3l1.5-3.5 3 8 1.5-4.5h4"/>
 </svg></span>
             <div>
@@ -278,48 +278,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="patient-monitor" data-cat="monitoring" data-search="patient monitor جهاز مراقبه المريض متعدده المعايير للوظايف الحيويه يسجل عده علامات حيويه في ان واحد ويعرضها علي شكل منحنيات وقيم رقميه ويطلق انذارا عند تجاوز الحدود المضبوطه وهو المراقبه المركزي وحدات العنايه المركزه وغرف العمليات واقسام الطواري مونيتور العلامات شاشه والعنايه المتوسطه غرفه وغرفه الافاقه قسم الانعاش نقل المرضي داخل المستشفي وخارجه المعرضين للخطر الاقسام العامه spo2 nibp تخطيط ثاني اكسيد الكربون capnography patientenmonitor uberwachungsmonitor vitalparameter multiparametermonitor monitoring bedside vital signs multi parameter">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/patient-monitor.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/patient-monitor.html">جهاز مراقبة المريض</a></h3>
+                <h3><a href="devices/patient-monitor.html">جهاز مراقبة المريض<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">مراقبة متعددة المعايير للوظائف الحيوية</p>
                 <p>يسجّل جهاز مراقبة المريض عدة علامات حيوية في آن واحد، ويعرضها على شكل منحنيات وقيم رقمية، ويطلق إنذاراً عند تجاوز الحدود المضبوطة. وهو جهاز المراقبة المركزي في وحدات العناية المركزة وغرف العمليات وأقسام الطوارئ.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="ecg-device" data-cat="monitoring" data-search="ecg device جهاز تخطيط القلب 12 قناه تسجيل النشاط الكهربايي للقلب يسجل ذو عبر عشره اقطاب كهرباييه ويعرضه في اثني عشر اتجاها lead وهو الاجراء القياسي لتشخيص اضطرابات نظم واضطرابات ترويه عضله رسم ekg التشخيص القلبي العيادات والمستشفيات قسم الطواري عند الم الصدر والاشتباه باحتشاء الفحص قبل العمليات الجراحيه والفحوصات الوقاييه متابعه امراض والمراقبه اثناء العلاج الدوايي بالجهد بالاشتراك مع قياس الجهد ergometer الاتجاه مركب qrs الراحه مراقبه المرضي gerat kanal elektrokardiogramm elektrokardiografie ruhe machine electrocardiogram electrocardiography resting">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/ecg-device.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/ecg-device.html">جهاز تخطيط القلب (12 قناة)</a></h3>
+                <h3><a href="devices/ecg-device.html">جهاز تخطيط القلب (12 قناة)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تسجيل النشاط الكهربائي للقلب</p>
                 <p>يسجّل جهاز تخطيط القلب ذو 12 قناة النشاط الكهربائي للقلب عبر عشرة أقطاب كهربائية ويعرضه في اثني عشر اتجاهاً (Lead). وهو الإجراء القياسي لتشخيص اضطرابات نظم القلب واضطرابات تروية عضلة القلب.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="pulse-oximeter" data-cat="monitoring" data-search="pulse oximeter مقياس التاكسج النبضي تشبع الاكسجين والنبض دون سحب دم يقيس الدم بالاكسجين spo2 ومعدل النبض بطريقه غير باضعه عبر مستشعر يوضع علي الاصبع او الاذن القدم وهو من اكثر اجهزه المراقبه استخداما في المستشفيات والعيادات وخدمات الاسعاف جهاز قياس بالاصبع الروتينيه الاقسام طب الطواري التهديه والتخدير وغرفه الافاقه التهويه الميكانيكيه المنزليه وامراض الريه المزمنه فحص حديثي الولاده للكشف عن عيوب القلب مخطط التحجم plethysmogram الهيموغلوبين الفحص السريع spot check مراقبه المرضي pulsoximeter pulsoxymeter sauerstoffsattigung fingerclip oxygen saturation fingertip oximetry">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/pulse-oximeter.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/pulse-oximeter.html">مقياس التأكسج النبضي</a></h3>
+                <h3><a href="devices/pulse-oximeter.html">مقياس التأكسج النبضي<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تشبّع الأكسجين والنبض دون سحب دم</p>
                 <p>يقيس مقياس التأكسج النبضي تشبّع الدم بالأكسجين (SpO2) ومعدل النبض بطريقة غير باضعة عبر مستشعر يوضع على الإصبع أو الأذن أو القدم. وهو من أكثر أجهزة المراقبة استخداماً في المستشفيات والعيادات وخدمات الإسعاف.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="fetal-monitor" data-cat="monitoring" data-search="fetal monitor جهاز مراقبه الجنين ctg نبض وانقباضات الرحم يسجل تخطيط قلب والانقباضات في الوقت نفسه معدل ضربات رحم الام ويستخدم رعايه الحمل واثناء المخاض لمراقبه سلامه الانقباضات العيادات والمستشفيات غرفه الولاده اثناء وتحريض عالي الخطوره والحمل المتجاوز لموعد المراقبه المستشفي عند المبكره المتعدد مقياس tocodynamometer التباين variability المرضي gerat fetalmonitor kardiotokografie wehenschreiber herztonwehenschreiber fetaluberwachung cardiotocography heart rate electronic monitoring efm">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/fetal-monitor.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/fetal-monitor.html">جهاز مراقبة الجنين (CTG)</a></h3>
+                <h3><a href="devices/fetal-monitor.html">جهاز مراقبة الجنين (CTG)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">مراقبة نبض الجنين وانقباضات الرحم</p>
                 <p>يسجّل جهاز مراقبة الجنين (تخطيط قلب الجنين والانقباضات، CTG) في الوقت نفسه معدل ضربات قلب الجنين وانقباضات رحم الأم. ويُستخدم في رعاية الحمل وأثناء المخاض لمراقبة سلامة الجنين.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -329,7 +329,7 @@
         </section>
         <section class="category-block" id="cat-surgery" data-cat="surgery" aria-labelledby="cat-title-surgery">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M11.5 9.5L21 3c0 4-2 8-6.5 9.5z"/>
 <path d="M11.5 9.5L3 18l3 3 8.5-8.5"/>
 <path d="M7.5 14.5l2 2"/>
@@ -341,48 +341,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="anesthesia-machine" data-cat="surgery" data-search="anesthesia machine جهاز التخدير ضبط الغازات والتهويه والمراقبه اثناء تقوم اجهزه محطات عمل بضبط جرعات الاكسجين والهواء وغازات وتهويه المريض الجراحه ومراقبه غازات التنفس باستمرار محطه البنج التهويه المبخر الداره الدايريه العام في غرفه العمليات النهاريه عيادات اليوم الواحد ومراكز غرف التحضير والافاقه الاجراءات التشخيصيه تحت مثل الرنين المغناطيسي والتنظير تخدير الاطفال بدارات تنفس خاصه vaporizer تخطيط ثاني اكسيد الكربون capnography تقنيات narkosegerat anasthesiegerat anasthesie arbeitsplatz narkose beatmung verdampfer kreissystem anaesthesia workstation ventilation circle system">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/anesthesia-machine.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/anesthesia-machine.html">جهاز التخدير</a></h3>
+                <h3><a href="devices/anesthesia-machine.html">جهاز التخدير<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">ضبط الغازات والتهوية والمراقبة أثناء التخدير</p>
                 <p>تقوم أجهزة التخدير (محطات عمل التخدير) بضبط جرعات الأكسجين والهواء وغازات التخدير، وتهوية المريض أثناء الجراحة، ومراقبة غازات التنفس باستمرار.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="electrosurgical-unit" data-cat="surgery" data-search="electrosurgical unit جهاز الجراحه الكهرباييه عالي التردد القطع والتخثير بالتيار تولد اجهزه تيارا متناوبا يقطع الانسجه من دون نزيف يذكر ويغلق الاوعيه الدمويه عن طريق التخثير الكي الجراحي الانفاذ الحراري قطب العوده العامه وجراحه الاحشاء امراض النساء والمسالك البوليه والانف والاذن والحنجره العمليات بالمنظار تنظير البطن والتنظير الداخلي الامراض الجلديه والجراحه الصغري في العيادات اغلاق عمليات الاستيصال الكبيره القطب المحايد احادي ثنايي تقنيات غرف hf chirurgiegerat elektrochirurgie gerat kauter diathermie koagulation neutralelektrode esu electrosurgery cautery diathermy coagulation return electrode">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/electrosurgical-unit.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/electrosurgical-unit.html">جهاز الجراحة الكهربائية (عالي التردد)</a></h3>
+                <h3><a href="devices/electrosurgical-unit.html">جهاز الجراحة الكهربائية (عالي التردد)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">القطع والتخثير بالتيار عالي التردد</p>
                 <p>تولّد أجهزة الجراحة الكهربائية تيارًا متناوبًا عالي التردد يقطع الأنسجة من دون نزيف يُذكر ويغلق الأوعية الدموية عن طريق التخثير.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="endoscopy-system" data-cat="surgery" data-search="endoscopy system نظام التنظير برج بالفيديو كاميرا واضاءه وشاشه للجراحه طفيفه التوغل يتكون من منظار وكاميرا ومصدر ضوء واجهزه مساعده ويتيح التشخيص واجراء العمليات عبر فتحات الجسم الطبيعيه او شقوق صغيره تنظير البطن الفيديو المفاصل جراحه ثقب المفتاح الجراحه بتنظير التجويف البطني امراض الجهاز الهضمي المعده والقولون المسالك البوليه وامراض النساء والانف والاذن والحنجره القصبات للمجاري التنفسيه جهاز النفخ insufflator مصدر الضوء البارد تقنيات غرف endoskopie videoendoskopie turm laparoskopie videoendoskop endoskopieturm arthroskopie schlusselloch chirurgie video tower laparoscopy endoscope arthroscopy keyhole surgery">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/endoscopy-system.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/endoscopy-system.html">نظام التنظير (برج التنظير بالفيديو)</a></h3>
+                <h3><a href="devices/endoscopy-system.html">نظام التنظير (برج التنظير بالفيديو)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">كاميرا وإضاءة وشاشة للجراحة طفيفة التوغل</p>
                 <p>يتكوّن نظام التنظير من منظار وكاميرا ومصدر ضوء وشاشة وأجهزة مساعدة؛ ويتيح التشخيص وإجراء العمليات عبر فتحات الجسم الطبيعية أو شقوق صغيرة.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="surgical-light" data-cat="surgery" data-search="surgical light مصباح العمليات اضاءه قليله الظلال ودقيقه الالوان لحقل الجراحه تضيء مصابيح حقل بسطوع عال وظلال والوان دقيقه من دون تسخين يذكر للانسجه وتثبت في السقف او الجدار علي حامل متنقل ويمكن توجيهها بحريه غرفه جراحي led للعمليات سقفي الفحص غرف المركزيه الاجراءات والفحص العيادات قسم الطواري وغرفه الانعاش الصدمات الولاده وقسم التوليد مراكز النهاريه اداره موشر تجسيد ra cri المصباح التابع تقنيات op leuchte operationsleuchte lampe operationslampe deckenleuchte untersuchungsleuchte operating or lamp ceiling examination">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/surgical-light.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/surgical-light.html">مصباح العمليات</a></h3>
+                <h3><a href="devices/surgical-light.html">مصباح العمليات<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">إضاءة قليلة الظلال ودقيقة الألوان لحقل الجراحة</p>
                 <p>تضيء مصابيح العمليات حقل الجراحة بسطوع عالٍ وظلال قليلة وألوان دقيقة من دون تسخين يُذكر للأنسجة؛ وتُثبَّت في السقف أو الجدار أو على حامل متنقل ويمكن توجيهها بحرية.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -392,7 +392,7 @@
         </section>
         <section class="category-block" id="cat-therapy" data-cat="therapy" aria-labelledby="cat-title-therapy">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
 <path d="M12 9.5v5M9.5 12h5"/>
 </svg></span>
@@ -403,48 +403,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="ventilator" data-cat="therapy" data-search="ventilator جهاز التنفس الاصطناعي دعم او توليه اليا بالكامل يتولي عمليه يدعمها لدي المرضي غير القادرين علي بشكل كاف بانفسهم وهو يدفع خليطا من الهواء والاكسجين الي الريتين بضغط وحجم محكومين التهويه الميكانيكيه منفسه تهويه العنايه المركزه المنزليه niv وحده طويله الامد التخدير وغرفه الافاقه قسم الطواري وخدمات الاسعاف النقل خارج المستشفي طب حديثي الولاده وطب الاطفال peep الحجم المدي fio2 العلاج beatmungsgerat beatmung respirator intensivbeatmung heimbeatmung mechanical ventilation intensive care home">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/ventilator.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/ventilator.html">جهاز التنفس الاصطناعي</a></h3>
+                <h3><a href="devices/ventilator.html">جهاز التنفس الاصطناعي<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">دعم التنفس أو تولّيه آلياً بالكامل</p>
                 <p>يتولى جهاز التنفس الاصطناعي عملية التنفس أو يدعمها لدى المرضى غير القادرين على التنفس بشكل كافٍ بأنفسهم. وهو يدفع خليطاً من الهواء والأكسجين إلى الرئتين بضغط وحجم محكومين.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="infusion-pump" data-cat="therapy" data-search="infusion pump مضخه التسريب المحقنه اعطاء دقيق للادويه والسوايل تضخ مضخات السوايل والادويه الي الجسم بمعدل محكوم وقابل للضبط عاده عبر وصول وريدي اما فهي مصممه للاحجام الصغيره عاليه الفعاليه حجميه وريديه pca الادويه وحدات العنايه المركزه والعنايه المتوسطه التخدير الوريدي الكامل الاورام العلاج الكيميايي الاجنحه العامه علاج الالم وطب حديثي الولاده الانسداد الجرعه الدفعيه bolus infusionspumpe spritzenpumpe volumetrische pumpe dosierung syringe volumetric iv drug delivery">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/infusion-pump.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/infusion-pump.html">مضخة التسريب / مضخة المحقنة</a></h3>
+                <h3><a href="devices/infusion-pump.html">مضخة التسريب / مضخة المحقنة<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">إعطاء دقيق للأدوية والسوائل</p>
                 <p>تضخ مضخات التسريب السوائل والأدوية إلى الجسم بمعدل محكوم وقابل للضبط، عادةً عبر وصول وريدي. أما مضخات المحقنة فهي مصممة للأحجام الصغيرة والأدوية عالية الفعالية.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="defibrillator" data-cat="therapy" data-search="defibrillator جهاز ازاله الرجفان صدمه كهرباييه لعلاج اضطرابات نظم القلب المهدده للحياه يوجه محكومه الي لانهاء النظم مثل البطيني وحسب التصميم يمتد النطاق من الخارجي الالي aed لغير المختصين الاجهزه اليدويه المزوده بشاشه للكوادر الطبيه مزيل تقويم الانعاش cpr قسم الطواري ووحده العنايه المركزه خدمات الاسعاف عربات في اجنحه المستشفي المباني العامه والعيادات مختبر القسطره القلبيه وقسم امراض العلاج defi defibrillation kardioversion reanimation schockgeber defib cardioversion resuscitation">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/defibrillator.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/defibrillator.html">جهاز إزالة الرجفان</a></h3>
+                <h3><a href="devices/defibrillator.html">جهاز إزالة الرجفان<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">صدمة كهربائية لعلاج اضطرابات نظم القلب المهددة للحياة</p>
                 <p>يوجّه جهاز إزالة الرجفان صدمة كهربائية محكومة إلى القلب لإنهاء اضطرابات النظم المهددة للحياة مثل الرجفان البطيني. وحسب التصميم، يمتد النطاق من جهاز إزالة الرجفان الخارجي الآلي (AED) لغير المختصين إلى الأجهزة اليدوية المزودة بشاشة للكوادر الطبية.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="dialysis-machine" data-cat="therapy" data-search="dialysis machine جهاز غسيل الكلي تنقيه الدم كعلاج بديل للكلي يتولي عند الفشل الكلوي ازاله السموم والماء الزايد من ويمرر خارج الجسم عبر مرشح تزال فيه الفضلات والسوايل الفايضه الديلزه الدمويه العلاج البديل الترشيحيه hdf الكليه الاصطناعيه مراكز وعيادات امراض وحدات في المستشفيات وحده العنايه المركزه الحاد الاجراءات المستمره المنزلي حالات تسمم معينه الدياله المرشح الشنت الوصله الشريانيه الوريديه الترشيح الفايق dialysegerat dialyse hamodialyse nierenersatztherapie hamodiafiltration blutwasche haemodialysis renal replacement therapy haemodiafiltration kidney">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/dialysis-machine.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/dialysis-machine.html">جهاز غسيل الكلى</a></h3>
+                <h3><a href="devices/dialysis-machine.html">جهاز غسيل الكلى<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تنقية الدم كعلاج بديل للكلى</p>
                 <p>يتولى جهاز غسيل الكلى عند الفشل الكلوي إزالة السموم والماء الزائد من الدم. ويُمرَّر الدم خارج الجسم عبر مرشح تُزال فيه الفضلات والسوائل الفائضة.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -454,7 +454,7 @@
         </section>
         <section class="category-block" id="cat-dental" data-cat="dental" aria-labelledby="cat-title-dental">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M12 5C10.5 3.5 7 3.5 6 6.5C5.2 9 6.3 11.5 7 14C7.6 16.5 8 20 9.5 20.5C10.8 20.8 11 17 12 16.5C13 17 13.2 20.8 14.5 20.5C16 20 16.4 16.5 17 14C17.7 11.5 18.8 9 18 6.5C17 3.5 13.5 3.5 12 5Z"/>
 <path d="M8.6 8.3c-.5.7-.8 1.5-.9 2.4"/>
 </svg></span>
@@ -465,48 +465,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="dental-treatment-unit" data-cat="dental" data-search="dental treatment unit وحده علاج الاسنان محطه العمل المركزيه في عياده تجمع بين كرسي المريض والادوات وامداد الماء والهواء والشفط والاضاءه عمل واحده وهي قلب كل غرفه طبيب توربين شفط طب العام والوقايه علاجات الحشوات والتيجان لب قناه الجذر تقويم وطب اسنان الاطفال اجراءات جراحه الفم العياده التوربين فاصل الملغم القبضه الزاويه تقنيات dentale behandlungseinheit behandlungsstuhl dentaleinheit zahnarztstuhl turbine absaugung chair centre suction handpiece">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/dental-treatment-unit.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/dental-treatment-unit.html">وحدة علاج الأسنان</a></h3>
+                <h3><a href="devices/dental-treatment-unit.html">وحدة علاج الأسنان<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">محطة العمل المركزية في عيادة الأسنان</p>
                 <p>تجمع وحدة علاج الأسنان بين كرسي المريض والأدوات وإمداد الماء والهواء والشفط والإضاءة في محطة عمل واحدة، وهي قلب كل غرفة علاج في عيادة الأسنان.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="panoramic-xray" data-cat="dental" data-search="panoramic xray جهاز الاشعه البانوراميه opg صوره شامله للفكين في لقطه واحده ينتج العلوي والسفلي وجميع الاسنان والمفاصل الصدغيه الفكيه والجيوب وهو اهم فحص تشخيصي شامل طب اورثوبانتوموغرام اشعه بانوراميه cbct ceph التشخيص الشامل لكامل تقييم اضراس العقل والاسنان المنطمره تخطيط الزراعه والتعويضات السنيه تقويم اكتشاف الاكياس والاورام وتغيرات العظم الفكين الاورثوبانتوموغرام الصوره السيفالومتريه تقنيات panoramarontgengerat orthopantomogramm panoramaschichtaufnahme dentalrontgen dvt x ray unit orthopantomogram radiograph dental">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/panoramic-xray.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/panoramic-xray.html">جهاز الأشعة البانورامية (OPG)</a></h3>
+                <h3><a href="devices/panoramic-xray.html">جهاز الأشعة البانورامية (OPG)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">صورة شاملة للفكين في لقطة واحدة</p>
                 <p>ينتج جهاز الأشعة البانورامية صورة شاملة للفكين العلوي والسفلي وجميع الأسنان والمفاصل الصدغية الفكية والجيوب الفكية في صورة واحدة، وهو أهم فحص تشخيصي شامل في طب الأسنان.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="intraoral-scanner" data-cat="dental" data-search="intraoral scanner الماسح الضويي داخل الفم طبعه رقميه بدلا من ملاعق الطبعات يلتقط الاسنان واللثه بصريا وينتج منها نموذجا رقميا ثلاثي الابعاد ليحل محل الطبعه التقليديه بمواد الطبع الرقميه ios ماسح مسح cad cam للتيجان والجسور والحشوات الداخليه inlays التخطيط ومتابعه التقدم في تقويم التعويضات فوق الزرعات باستخدام اجسام المسح صناعه الجباير الاطباقيه والتعويضات الموقته توعيه المرضي بعرض stl جسم scan body تقنيات طب intraoralscanner digitale abformung mundscanner 3d abdruck digital impression mouth">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/intraoral-scanner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/intraoral-scanner.html">الماسح الضوئي داخل الفم</a></h3>
+                <h3><a href="devices/intraoral-scanner.html">الماسح الضوئي داخل الفم<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">طبعة رقمية بدلاً من ملاعق الطبعات</p>
                 <p>يلتقط الماسح الضوئي داخل الفم الأسنان واللثة بصرياً وينتج منها نموذجاً رقمياً ثلاثي الأبعاد، ليحل محل الطبعة التقليدية بمواد الطبع.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="dental-autoclave" data-cat="dental" data-search="dental autoclave اوتوكلاف الاسنان الفيه b تعقيم بالبخار للادوات والقبضات يعقم الادوات المستقيمه والزاويه المايي المشبع تحت الضغط وتستطيع اجهزه المواد المغلفه والمجوفه والمساميه بشكل موثوق معقم التعقيم التفريغ المسبق اعاده معالجه الجراحيه القبضات والتوربينات المنسوجات والمواد المساميه عيادات ومختبرات ومنشات العيادات الخارجيه الصغيره المجزا اختبار هيليكس توثيق الدفعات تقنيات طب autoklav klasse sterilisator dampfsterilisation vorvakuum instrumentenaufbereitung class sterilizer steam sterilization pre vacuum instrument reprocessing">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/dental-autoclave.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/dental-autoclave.html">أوتوكلاف الأسنان (الفئة B)</a></h3>
+                <h3><a href="devices/dental-autoclave.html">أوتوكلاف الأسنان (الفئة B)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تعقيم بالبخار للأدوات والقبضات</p>
                 <p>يعقّم أوتوكلاف الأسنان الأدوات والقبضات المستقيمة والزاوية بالبخار المائي المشبع تحت الضغط. وتستطيع أجهزة الفئة B تعقيم المواد المغلفة والمجوفة والمسامية بشكل موثوق.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -516,7 +516,7 @@
         </section>
         <section class="category-block" id="cat-sterilization" data-cat="sterilization" aria-labelledby="cat-title-sterilization">
           <div class="category-block__head">
-            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span>
+            <span class="card__icon card__icon--primary"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 21a6 6 0 0 1-6-6c0-4 6-11 6-11s6 7 6 11a6 6 0 0 1-6 6z"/><path d="M18 3v5M15.5 5.5h5"/><path d="M20.5 11v2.5M19.25 12.25h2.5"/></svg></span>
             <div>
               <h2 id="cat-title-sterilization">التعقيم والنظافة الصحية <span class="category-block__count" data-count>4 من الأجهزة</span></h2>
               <p>تتبع إعادة معالجة الأجهزة الطبية سلسلة ثابتة: فبعد التنظيف الأولي – مع معالجة مسبقة في حمام الموجات فوق الصوتية عند الحاجة – تُنظَّف الأدوات وتُطهَّر آليًا في جهاز الغسل والتطهير، ثم تُفحص وتُغلَّف وتُختم وتُعقَّم في جهاز التعقيم بالبخار. ويجب التحقق من صحة كل خطوة وتوثيقها، لأن الثغرات في إعادة المعالجة تعرّض المرضى للخطر وتخالف المتطلبات القانونية. يشرح هذا القسم الأجهزة الأساسية لإعادة المعالجة ويبيّن ما ينبغي مراعاته عند الاختيار والشراء.</p>
@@ -524,48 +524,48 @@
           </div>
           <div class="device-grid">
             <article class="device-card" data-id="steam-sterilizer" data-cat="sterilization" data-search="steam sterilizer جهاز التعقيم بالبخار الاوتوكلاف المشبع تحت الضغط تستخدم اجهزه البخار المضغوط للقضاء علي جميع الكاينات الدقيقه بما فيها الابواغ الادوات المغلفه وهي الطريقه القياسيه للتعقيم في المستشفيات والعيادات اوتوكلاف تعقيم الفيه b قسم المركزي المواد المعقمه cssd غرفه اعاده المعالجه العيادات الطبيه ومراكز جراحه اليوم الواحد عيادات الاسنان منضديه المختبرات ومرافق الرعايه التمريضيه المنسوجات والاجسام المجوفه واطقم التفريغ المسبق المجزا اختبار بوي ديك bowie dick الدفعه الحموله والنظافه الصحيه dampfsterilisator autoklav sterilisator klasse dampfsterilisation zsva sterilgut autoclave class sterilization sterile goods">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/steam-sterilizer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/steam-sterilizer.html">جهاز التعقيم بالبخار (الأوتوكلاف)</a></h3>
+                <h3><a href="devices/steam-sterilizer.html">جهاز التعقيم بالبخار (الأوتوكلاف)<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">التعقيم بالبخار المشبع تحت الضغط</p>
                 <p>تستخدم أجهزة التعقيم بالبخار (الأوتوكلاف) البخار المشبع المضغوط للقضاء على جميع الكائنات الدقيقة بما فيها الأبواغ على الأدوات المغلّفة، وهي الطريقة القياسية للتعقيم في المستشفيات والعيادات.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="washer-disinfector" data-cat="sterilization" data-search="washer disinfector جهاز الغسل والتطهير تنظيف الي وتطهير حراري تنظف اجهزه الادوات وتطهرها اليا ضمن برنامج متحقق من صحته وبذلك تحل محل اعاده المعالجه اليدويه المعرضه للاخطاء غسل مطهر معالجه التنظيف الالي التطهير الحراري قيمه a0 قسم التعقيم المركزي في المستشفيات مع عده كبيره غرفه العيادات الجراحيه وعيادات الاسنان اقسام التنظير خاصه بالمناظير المرنه تطهير كيميايي عند درجه حراره اقل ملحقات التخدير والتهويه حاويات واحذيه غرف العمليات الاجهزه ذات الحجرات الكبيره محول الشطف والنظافه الصحيه reinigungs und desinfektionsgerat rdg thermodesinfektor instrumentenaufbereitung maschinelle reinigung thermische desinfektion wert wd thermal instrument reprocessing automated cleaning disinfection value">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/washer-disinfector.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/washer-disinfector.html">جهاز الغسل والتطهير</a></h3>
+                <h3><a href="devices/washer-disinfector.html">جهاز الغسل والتطهير<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تنظيف آلي وتطهير حراري</p>
                 <p>تنظّف أجهزة الغسل والتطهير الأدوات وتطهّرها آليًا ضمن برنامج مُتحقَّق من صحته، وبذلك تحل محل إعادة المعالجة اليدوية المعرّضة للأخطاء.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="ultrasonic-cleaner" data-cat="sterilization" data-search="ultrasonic cleaner جهاز التنظيف بالموجات فوق الصوتيه تنظيف اولي بالتكهف في حمام سايل تستخدم اجهزه موجات صوتيه عاليه التردد لازاله حتي الاوساخ العنيده من مفاصل الادوات واخاديدها وتجاويفها وتكمل اعاده المعالجه الاليه الموجات منظف التكهف الاولي للادوات الجراحيه ذات المفاصل والتفاصيل الدقيقه عيادات الاسنان السنابل وادوات التفريز قنوات الجذور جراحه العيون والانف والاذن والحنجره بادوات الجراحه المجهريه المختبرات وورش التعويضات السنيه وتقنيات ازاله الغازات محول الطاقه transducer التعقيم والنظافه الصحيه ultraschallreinigungsgerat ultraschallbad ultraschallreiniger kavitation vorreinigung instrumentenreinigung bath cleaning cavitation pre instrument">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/ultrasonic-cleaner.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/ultrasonic-cleaner.html">جهاز التنظيف بالموجات فوق الصوتية</a></h3>
+                <h3><a href="devices/ultrasonic-cleaner.html">جهاز التنظيف بالموجات فوق الصوتية<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">تنظيف أولي بالتكهّف في حمام سائل</p>
                 <p>تستخدم أجهزة التنظيف بالموجات فوق الصوتية موجات صوتية عالية التردد في حمام تنظيف لإزالة حتى الأوساخ العنيدة من مفاصل الأدوات وأخاديدها وتجاويفها، وتكمّل إعادة المعالجة الآلية.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
               </div>
             </article>
             <article class="device-card" data-id="heat-sealer" data-cat="sterilization" data-search="heat sealer جهاز ختم عبوات التعقيم اغلاق محكم ضد الميكروبات لاكياس تلحم اجهزه الختم اكياس ولفايف الورق والفيلم لتكوين حاجز معقم بحيث تبقي الادوات معقمه من حتي الاستخدام لحام الاكياس دوار خط الشفافه تغليف قبل بالبخار في العيادات وقسم المركزي عيادات الاسنان للقبضات والسنابل والادوات المفرده بالغاز والبلازما وسم المواد المعقمه بالتاريخ ورقم الدفعه نظام الحاجز المعقم اختبار التقشير والنظافه الصحيه siegelgerat fur sterilgutverpackung folienschweissgerat durchlaufsiegelgerat siegelnaht klarsichtbeutel for sterile packaging pouch rotary seal sterilization">
-              <span class="badge badge--success device-card__learned" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg> محدَّد كمُتعلَّم</span>
+              <span class="badge badge--success device-card__learned" aria-hidden="true" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span>محدَّد كمُتعلَّم</span></span>
               <div class="device-card__media">
                 <img src="../assets/img/devices/heat-sealer.svg" alt="" width="320" height="240" loading="lazy" decoding="async">
               </div>
               <div class="device-card__body">
-                <h3><a href="devices/heat-sealer.html">جهاز ختم عبوات التعقيم</a></h3>
+                <h3><a href="devices/heat-sealer.html">جهاز ختم عبوات التعقيم<span class="visually-hidden" data-learned-text hidden> – محدَّد كمُتعلَّم</span></a></h3>
                 <p class="device-card__subtitle">إغلاق محكم ضد الميكروبات لأكياس التعقيم</p>
                 <p>تلحم أجهزة الختم أكياس ولفائف الورق والفيلم لتكوين حاجز معقّم محكم ضد الميكروبات، بحيث تبقى الأدوات معقّمة من التعقيم حتى الاستخدام.</p>
                 <span class="device-card__link" aria-hidden="true">عرض الجهاز <svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -585,8 +585,10 @@
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
-        <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
+          <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        </div>
         <a class="btn btn--light" href="contact.html">اطلب استشارة</a>
       </div>
     </section>
@@ -605,7 +607,7 @@
         </div>
         <div>
           <h2>التنقل</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">الصفحة الرئيسية</a></li>
             <li><a href="about.html">من نحن</a></li>
             <li><a href="medical-technology.html">ما هي التقنيات الطبية؟</a></li>
@@ -616,14 +618,14 @@
         </div>
         <div>
           <h2>الجوانب القانونية</h2>
-          <ul>
+          <ul role="list">
             <li><a href="legal-notice.html">بيانات الناشر</a></li>
             <li><a href="privacy.html">سياسة الخصوصية</a></li>
           </ul>
         </div>
         <div>
           <h2>اتصل بنا</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

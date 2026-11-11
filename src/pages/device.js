@@ -29,7 +29,7 @@ module.exports = {
       });
 
     section('how', 'cog', 'devices.detail.how', (d.how || []).map((para) => `<p>${esc(para)}</p>`).join('\n            '));
-    section('use', 'target', 'devices.detail.use', `<ul class="check-list">
+    section('use', 'target', 'devices.detail.use', `<ul class="check-list" role="list">
               ${(d.use || []).map((u) => `<li>${esc(u)}</li>`).join('\n              ')}
             </ul>`);
     if (d.facts && d.facts.length) {
@@ -38,7 +38,7 @@ module.exports = {
             </dl>`);
     }
     if (d.procurement && d.procurement.length) {
-      section('procurement', 'cart', 'devices.detail.procurement', `<ol class="tip-list">
+      section('procurement', 'cart', 'devices.detail.procurement', `<ol class="tip-list" role="list">
               ${d.procurement.map((tip) => `<li>${esc(tip)}</li>`).join('\n              ')}
             </ol>`);
     }
@@ -46,7 +46,7 @@ module.exports = {
       section('glossary', 'book', 'devices.detail.glossary', `<dl class="glossary">
               ${d.glossary.map((g) => `<div><dt>${esc(g.term)}</dt><dd>${esc(g.text)}</dd></div>`).join('\n              ')}
             </dl>
-            <p class="section-more"><a href="${href('glossary')}">${t('glossary.linkLabel')} ${icon('arrow-right', 'icon--flip icon--inline')}</a></p>`);
+            <p class="section-more"><a class="link-arrow" href="${href('glossary')}">${t('glossary.linkLabel')}${icon('arrow-right', 'icon--flip')}</a></p>`);
     }
 
     const pagerLink = (dev, cls, labelKey) => {
@@ -74,7 +74,7 @@ module.exports = {
             <p class="device-hero__subtitle">${esc(d.subtitle)}</p>
             <p class="hero__text">${esc(d.short)}</p>
             <div class="device-hero__actions">
-              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="${esc(device.id)}" aria-pressed="false">
+              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="${esc(device.id)}" data-learned="false">
                 <span class="when-off">${icon('bookmark')}${t('devices.detail.markLearned')}</span>
                 <span class="when-on">${icon('bookmark-check')}${t('devices.detail.markedLearned')}</span>
               </button>
@@ -92,30 +92,25 @@ module.exports = {
     <section class="section">
       <div class="container">
         <div class="device-layout">
-          <div>
-          ${sections.map((s) => s.html).join('\n          ')}
-          </div>
           <aside class="device-aside" aria-label="${t('devices.detail.asideLabel')}">
-            <nav class="aside-box" aria-labelledby="toc-title">
+            <nav class="aside-box aside-box--toc" aria-labelledby="toc-title">
               <h2 id="toc-title">${t('devices.detail.onThisPage')}</h2>
-              <ul>
+              <ul role="list">
                 ${sections.map((s) => `<li><a href="#${s.id}">${s.title}</a></li>`).join('\n                ')}
               </ul>
             </nav>
-            <nav class="aside-box" aria-labelledby="related-title">
+            <nav class="aside-box aside-box--related" aria-labelledby="related-title">
               <h2 id="related-title">${t('devices.detail.related')}</h2>
-              <ul>
+              <ul role="list">
                 ${siblings
                   .map((s) => `<li><a href="${ctx.deviceHref(s.id)}" data-device-id="${esc(s.id)}"${s === device ? ' aria-current="page"' : ''}>${esc(L(s).name)}<span class="badge badge--success badge--icon" hidden>${icon('check')}<span class="visually-hidden">${t('devices.detail.markedLearned')}</span></span></a></li>`)
                   .join('\n                ')}
               </ul>
             </nav>
-            <div class="aside-box aside-box--cta">
-              <h2>${t('devices.detail.procurementCtaTitle')}</h2>
-              <p>${t('devices.detail.procurementCtaText')}</p>
-              <a class="btn btn--primary btn--sm" href="${href('contact')}">${t('devices.detail.procurementCtaButton')}</a>
-            </div>
           </aside>
+          <div class="device-main">
+          ${sections.map((s) => s.html).join('\n          ')}
+          </div>
         </div>
         <nav class="pager" aria-label="${t('devices.detail.pagerLabel')}">
           ${pagerLink(prev, 'pager__prev', 'devices.detail.prev')}

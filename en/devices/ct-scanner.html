@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-page="device">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
   <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="../../css/styles.css">
+  <noscript><link rel="stylesheet" href="../../css/nojs.css"></noscript>
   <script src="../../js/site.js" defer></script>
 </head>
 <body data-page="device">
@@ -55,15 +56,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="Main navigation">
         <a href="../index.html">Home</a>
         <a href="../about.html">About us</a>
         <a href="../medical-technology.html">Medical technology</a>
-        <a href="../devices.html">Device Knowledge</a>
+        <a href="../devices.html" aria-current="true">Device Knowledge</a>
         <a href="../contact.html">Contact</a>
-        <a href="../../geraete/ct-scanner.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../../ar/devices/ct-scanner.html" lang="ar" hreflang="ar">العربية</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -84,7 +83,7 @@
             <p class="device-hero__subtitle">Cross-sectional images from rotating X-rays</p>
             <p class="hero__text">A CT scanner uses many X-ray projections to create overlap-free cross-sectional images and 3D reconstructions of the body – fast and detailed, for example in stroke, trauma or cancer diagnostics.</p>
             <div class="device-hero__actions">
-              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="ct-scanner" aria-pressed="false">
+              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="ct-scanner" data-learned="false">
                 <span class="when-off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Mark as learned</span>
                 <span class="when-on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zM9 10l2 2 4-4"/></svg>Marked as learned</span>
               </button>
@@ -102,7 +101,28 @@
     <section class="section">
       <div class="container">
         <div class="device-layout">
-          <div>
+          <aside class="device-aside" aria-label="Page navigation">
+            <nav class="aside-box aside-box--toc" aria-labelledby="toc-title">
+              <h2 id="toc-title">On this page</h2>
+              <ul role="list">
+                <li><a href="#how">How it works</a></li>
+                <li><a href="#use">Areas of use</a></li>
+                <li><a href="#facts">At a glance</a></li>
+                <li><a href="#procurement">What to look for when procuring</a></li>
+                <li><a href="#glossary">Key terms</a></li>
+              </ul>
+            </nav>
+            <nav class="aside-box aside-box--related" aria-labelledby="related-title">
+              <h2 id="related-title">More devices in this category</h2>
+              <ul role="list">
+                <li><a href="ultrasound.html" data-device-id="ultrasound">Ultrasound system (sonography)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
+                <li><a href="digital-xray.html" data-device-id="digital-xray">Digital X-ray system<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
+                <li><a href="ct-scanner.html" data-device-id="ct-scanner" aria-current="page">Computed tomography scanner (CT)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
+                <li><a href="mri-scanner.html" data-device-id="mri-scanner">Magnetic resonance imaging scanner (MRI)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
+              </ul>
+            </nav>
+          </aside>
+          <div class="device-main">
           <section class="device-section" id="how" aria-labelledby="how-title">
             <h2 id="how-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>How it works</h2>
             <p>Inside the gantry ring, an X-ray tube and an opposing detector arc rotate around the patient while the table moves continuously through the opening (spiral or helical CT). Attenuation profiles of the body are acquired from hundreds of angular positions.</p>
@@ -111,7 +131,7 @@
           </section>
           <section class="device-section" id="use" aria-labelledby="use-title">
             <h2 id="use-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>Areas of use</h2>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>Stroke and head diagnostics</li>
               <li>Polytrauma and emergency diagnostics</li>
               <li>Oncology (staging, follow-up)</li>
@@ -130,7 +150,7 @@
           </section>
           <section class="device-section" id="procurement" aria-labelledby="procurement-title">
             <h2 id="procurement-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6M9 21h.01M18 21h.01"/></svg>What to look for when procuring</h2>
-            <ol class="tip-list">
+            <ol class="tip-list" role="list">
               <li>Choose detector rows, rotation time and gantry bore according to the clinical profile: emergency and cardiac CT need fast rotation and many rows, a practice with standard examinations needs fewer.</li>
               <li>Site preparation: clarify the radiation shielding calculation, floor loading, cooling/air conditioning, power supply with high connected load and the transport route for the gantry early on with specialist planners.</li>
               <li>Accessories and consumables: contrast injector, positioning aids, phantoms for quality assurance; contrast medium and consumables are ongoing running costs.</li>
@@ -145,35 +165,9 @@
               <div><dt>Hounsfield unit (HU)</dt><dd>The scale for attenuation values in CT images: water is 0 HU, air about −1000 HU, dense bone around +1000 HU and above.</dd></div>
               <div><dt>Spiral CT</dt><dd>Continuous table movement during tube rotation, so that a volume is acquired without gaps; the basis of most modern CT examinations – sequential (step-and-shoot) mode is still used, e.g. for ECG-triggered cardiac scans.</dd></div>
             </dl>
-            <p class="section-more"><a href="../glossary.html">Glossary: all technical terms <svg class="icon--flip icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+            <p class="section-more"><a class="link-arrow" href="../glossary.html">Glossary: all technical terms<svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
           </section>
           </div>
-          <aside class="device-aside" aria-label="Page navigation">
-            <nav class="aside-box" aria-labelledby="toc-title">
-              <h2 id="toc-title">On this page</h2>
-              <ul>
-                <li><a href="#how">How it works</a></li>
-                <li><a href="#use">Areas of use</a></li>
-                <li><a href="#facts">At a glance</a></li>
-                <li><a href="#procurement">What to look for when procuring</a></li>
-                <li><a href="#glossary">Key terms</a></li>
-              </ul>
-            </nav>
-            <nav class="aside-box" aria-labelledby="related-title">
-              <h2 id="related-title">More devices in this category</h2>
-              <ul>
-                <li><a href="ultrasound.html" data-device-id="ultrasound">Ultrasound system (sonography)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
-                <li><a href="digital-xray.html" data-device-id="digital-xray">Digital X-ray system<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
-                <li><a href="ct-scanner.html" data-device-id="ct-scanner" aria-current="page">Computed tomography scanner (CT)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
-                <li><a href="mri-scanner.html" data-device-id="mri-scanner">Magnetic resonance imaging scanner (MRI)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">Marked as learned</span></span></a></li>
-              </ul>
-            </nav>
-            <div class="aside-box aside-box--cta">
-              <h2>Planning to acquire a device like this?</h2>
-              <p>We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.</p>
-              <a class="btn btn--primary btn--sm" href="../contact.html">Request a consultation</a>
-            </div>
-          </aside>
         </div>
         <nav class="pager" aria-label="Previous and next device">
           <a class="pager__prev" href="digital-xray.html" rel="prev">
@@ -190,8 +184,10 @@
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">Planning to acquire a device like this?</h2>
-        <p>We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">Planning to acquire a device like this?</h2>
+          <p>We give independent, vendor-neutral advice, compare quotations and support you through the procurement process.</p>
+        </div>
         <a class="btn btn--light" href="../contact.html">Request a consultation</a>
       </div>
     </section>
@@ -210,7 +206,7 @@
         </div>
         <div>
           <h2>Navigation</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../about.html">About us</a></li>
             <li><a href="../medical-technology.html">Medical technology</a></li>
@@ -221,14 +217,14 @@
         </div>
         <div>
           <h2>Legal</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../legal-notice.html">Legal notice</a></li>
             <li><a href="../privacy.html">Privacy</a></li>
           </ul>
         </div>
         <div>
           <h2>Contact</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

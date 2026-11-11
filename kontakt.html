@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" data-page="contact">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <noscript><link rel="stylesheet" href="css/nojs.css"></noscript>
   <script src="js/site.js" defer></script>
 </head>
 <body data-page="contact">
@@ -55,15 +56,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="Hauptnavigation">
         <a href="index.html">Startseite</a>
         <a href="ueber-uns.html">Über uns</a>
         <a href="medizintechnik.html">Was ist Medizintechnik?</a>
         <a href="geraete.html">Geräte-Wissen</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="en/contact.html" lang="en" hreflang="en">English</a>
-        <a href="ar/contact.html" lang="ar" hreflang="ar">العربية</a>
-      </div>
+        <a href="kontakt.html" aria-current="page">Kontakt</a>
+      </nav>
     </noscript>
   </header>
 
@@ -200,7 +199,7 @@
         </div>
         <div>
           <h2>Navigation</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">Startseite</a></li>
             <li><a href="ueber-uns.html">Über uns</a></li>
             <li><a href="medizintechnik.html">Was ist Medizintechnik?</a></li>
@@ -211,14 +210,14 @@
         </div>
         <div>
           <h2>Rechtliches</h2>
-          <ul>
+          <ul role="list">
             <li><a href="impressum.html">Impressum</a></li>
             <li><a href="datenschutz.html">Datenschutz</a></li>
           </ul>
         </div>
         <div>
           <h2>Kontakt</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

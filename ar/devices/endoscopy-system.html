@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-page="device">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,7 @@
   <link rel="preload" href="../../assets/fonts/ibm-plex-sans-arabic-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/ibm-plex-sans-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../../css/styles.css">
+  <noscript><link rel="stylesheet" href="../../css/nojs.css"></noscript>
   <script src="../../js/site.js" defer></script>
 </head>
 <body data-page="device">
@@ -58,15 +59,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="التنقل الرئيسي">
         <a href="../index.html">الصفحة الرئيسية</a>
         <a href="../about.html">من نحن</a>
         <a href="../medical-technology.html">ما هي التقنيات الطبية؟</a>
-        <a href="../devices.html">دليل الأجهزة</a>
+        <a href="../devices.html" aria-current="true">دليل الأجهزة</a>
         <a href="../contact.html">اتصل بنا</a>
-        <a href="../../geraete/endoscopy-system.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../../en/devices/endoscopy-system.html" lang="en" hreflang="en">English</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -87,7 +86,7 @@
             <p class="device-hero__subtitle">كاميرا وإضاءة وشاشة للجراحة طفيفة التوغل</p>
             <p class="hero__text">يتكوّن نظام التنظير من منظار وكاميرا ومصدر ضوء وشاشة وأجهزة مساعدة؛ ويتيح التشخيص وإجراء العمليات عبر فتحات الجسم الطبيعية أو شقوق صغيرة.</p>
             <div class="device-hero__actions">
-              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="endoscopy-system" aria-pressed="false">
+              <button type="button" class="btn btn--secondary learn-toggle" id="learn-toggle" data-device-id="endoscopy-system" data-learned="false">
                 <span class="when-off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>تحديد كمُتعلَّم</span>
                 <span class="when-on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zM9 10l2 2 4-4"/></svg>محدَّد كمُتعلَّم</span>
               </button>
@@ -105,7 +104,28 @@
     <section class="section">
       <div class="container">
         <div class="device-layout">
-          <div>
+          <aside class="device-aside" aria-label="التنقل داخل الصفحة">
+            <nav class="aside-box aside-box--toc" aria-labelledby="toc-title">
+              <h2 id="toc-title">في هذه الصفحة</h2>
+              <ul role="list">
+                <li><a href="#how">مبدأ العمل</a></li>
+                <li><a href="#use">مجالات الاستخدام</a></li>
+                <li><a href="#facts">في لمحة</a></li>
+                <li><a href="#procurement">ما الذي يجب مراعاته عند الشراء؟</a></li>
+                <li><a href="#glossary">مصطلحات مهمة</a></li>
+              </ul>
+            </nav>
+            <nav class="aside-box aside-box--related" aria-labelledby="related-title">
+              <h2 id="related-title">أجهزة أخرى في هذه الفئة</h2>
+              <ul role="list">
+                <li><a href="anesthesia-machine.html" data-device-id="anesthesia-machine">جهاز التخدير<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="electrosurgical-unit.html" data-device-id="electrosurgical-unit">جهاز الجراحة الكهربائية (عالي التردد)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="endoscopy-system.html" data-device-id="endoscopy-system" aria-current="page">نظام التنظير (برج التنظير بالفيديو)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+                <li><a href="surgical-light.html" data-device-id="surgical-light">مصباح العمليات<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
+              </ul>
+            </nav>
+          </aside>
+          <div class="device-main">
           <section class="device-section" id="how" aria-labelledby="how-title">
             <h2 id="how-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>مبدأ العمل</h2>
             <p>المنظار أداة صلبة أو مرنة تُدخل إلى الجسم عبر فتحة طبيعية أو شق صغير. ويوجّه مصدر الضوء البارد الضوء عبر ألياف زجاجية إلى المنظار ليضيء حقل العملية. وتُلتقط الصورة إما عبر نظام عدسات (منظار صلب) أو مباشرة بواسطة مستشعر صورة في طرف المنظار (منظار فيديو).</p>
@@ -114,7 +134,7 @@
           </section>
           <section class="device-section" id="use" aria-labelledby="use-title">
             <h2 id="use-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>مجالات الاستخدام</h2>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>الجراحة بتنظير البطن (التجويف البطني)</li>
               <li>تنظير المفاصل</li>
               <li>أمراض الجهاز الهضمي (تنظير المعدة والقولون)</li>
@@ -133,7 +153,7 @@
           </section>
           <section class="device-section" id="procurement" aria-labelledby="procurement-title">
             <h2 id="procurement-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6M9 21h.01M18 21h.01"/></svg>ما الذي يجب مراعاته عند الشراء؟</h2>
-            <ol class="tip-list">
+            <ol class="tip-list" role="list">
               <li>تحديد التخصصات وأنواع المناظير: تفرض المناظير الصلبة (تنظير البطن والمفاصل) ومناظير الفيديو المرنة (الجهاز الهضمي وتنظير القصبات) متطلبات مختلفة على الكاميرا ومصدر الضوء وإعادة المعالجة.</li>
               <li>تقييم سلسلة التصوير ككل: يجب أن تتوافق الدقة (Full HD، 4K) ومصدر الضوء LED وحجم الشاشة ونقل الإشارة مع بعضها؛ فشاشة 4K قليلة الفائدة من دون كاميرا ومنظار مناسبين.</li>
               <li>التخطيط لإعادة المعالجة: تتطلب المناظير المرنة إجراء تنظيف وتطهير مُتحقَّقًا من صحته (في جهاز غسل وتطهير المناظير) وفق المادة 8 من لائحة MPBetreibV الألمانية وتوصية KRINKO/BfArM، وخزائن تجفيف واختبارات تسرّب؛ وتُعدّ إصلاحات المناظير عامل تكلفة رئيسيًا.</li>
@@ -148,35 +168,9 @@
               <div><dt>جهاز النفخ (Insufflator)</dt><dd>جهاز يضخ ثاني أكسيد الكربون في تجويف البطن بطريقة مضبوطة لتوفير المساحة والرؤية اللازمتين للعملية.</dd></div>
               <div><dt>مصدر الضوء البارد</dt><dd>مصدر ضوء قوي (عادةً LED اليوم) يُنقل ضوؤه إلى المنظار عبر كابل من الألياف الضوئية؛ ويُحتجز معظم الأشعة تحت الحمراء بحيث لا تكاد الأنسجة تسخن – ومع ذلك قد يسخن طرف كابل الضوء ورأس المنظار بشدة.</dd></div>
             </dl>
-            <p class="section-more"><a href="../glossary.html">المسرد: جميع المصطلحات <svg class="icon--flip icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+            <p class="section-more"><a class="link-arrow" href="../glossary.html">المسرد: جميع المصطلحات<svg class="icon--flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
           </section>
           </div>
-          <aside class="device-aside" aria-label="التنقل داخل الصفحة">
-            <nav class="aside-box" aria-labelledby="toc-title">
-              <h2 id="toc-title">في هذه الصفحة</h2>
-              <ul>
-                <li><a href="#how">مبدأ العمل</a></li>
-                <li><a href="#use">مجالات الاستخدام</a></li>
-                <li><a href="#facts">في لمحة</a></li>
-                <li><a href="#procurement">ما الذي يجب مراعاته عند الشراء؟</a></li>
-                <li><a href="#glossary">مصطلحات مهمة</a></li>
-              </ul>
-            </nav>
-            <nav class="aside-box" aria-labelledby="related-title">
-              <h2 id="related-title">أجهزة أخرى في هذه الفئة</h2>
-              <ul>
-                <li><a href="anesthesia-machine.html" data-device-id="anesthesia-machine">جهاز التخدير<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="electrosurgical-unit.html" data-device-id="electrosurgical-unit">جهاز الجراحة الكهربائية (عالي التردد)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="endoscopy-system.html" data-device-id="endoscopy-system" aria-current="page">نظام التنظير (برج التنظير بالفيديو)<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-                <li><a href="surgical-light.html" data-device-id="surgical-light">مصباح العمليات<span class="badge badge--success badge--icon" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12l5 5L19 7"/></svg><span class="visually-hidden">محدَّد كمُتعلَّم</span></span></a></li>
-              </ul>
-            </nav>
-            <div class="aside-box aside-box--cta">
-              <h2>هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
-              <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
-              <a class="btn btn--primary btn--sm" href="../contact.html">اطلب استشارة</a>
-            </div>
-          </aside>
         </div>
         <nav class="pager" aria-label="الجهاز السابق والتالي">
           <a class="pager__prev" href="electrosurgical-unit.html" rel="prev">
@@ -193,8 +187,10 @@
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
-        <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">هل تخطّطون لشراء جهاز من هذا النوع؟</h2>
+          <p>نقدّم لكم استشارة محايدة تجاه الشركات المصنّعة، ونقارن عروض الأسعار، ونرافق عملية التوريد.</p>
+        </div>
         <a class="btn btn--light" href="../contact.html">اطلب استشارة</a>
       </div>
     </section>
@@ -213,7 +209,7 @@
         </div>
         <div>
           <h2>التنقل</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../index.html">الصفحة الرئيسية</a></li>
             <li><a href="../about.html">من نحن</a></li>
             <li><a href="../medical-technology.html">ما هي التقنيات الطبية؟</a></li>
@@ -224,14 +220,14 @@
         </div>
         <div>
           <h2>الجوانب القانونية</h2>
-          <ul>
+          <ul role="list">
             <li><a href="../legal-notice.html">بيانات الناشر</a></li>
             <li><a href="../privacy.html">سياسة الخصوصية</a></li>
           </ul>
         </div>
         <div>
           <h2>اتصل بنا</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

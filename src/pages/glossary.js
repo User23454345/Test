@@ -44,13 +44,14 @@ module.exports = {
 
     <section class="section section--tight" aria-label="${t('glossary.hero.title')}">
       <div class="container">
-        <p id="glossary-status" class="visually-hidden" role="status"></p>
+        <p id="glossary-status" class="results-summary" role="status" hidden></p>
         <dl class="glossary glossary--page" id="glossary-list">
           ${items}
         </dl>
         <div id="glossary-empty" class="empty-state" hidden>
           <h2>${t('glossary.noResults')}</h2>
           <p>${t('devices.noResultsHint')}</p>
+          <button type="button" class="btn btn--secondary" id="glossary-reset">${icon('refresh')} ${t('devices.resetFilters')}</button>
         </div>
       </div>
     </section>

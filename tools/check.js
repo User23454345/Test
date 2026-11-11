@@ -141,7 +141,7 @@ if (manifest) {
   let links = 0;
   pages.forEach((file) => {
     const html = fs.readFileSync(path.join(ROOT, file), 'utf8');
-    const langMatch = html.match(/<html lang="([a-z]+)" dir="(ltr|rtl)">/);
+    const langMatch = html.match(/<html lang="([a-z]+)" dir="(ltr|rtl)"[^>]*>/);
     if (!langMatch) fail(`${file}: <html lang dir> fehlt`);
     if ((html.match(/<h1[\s>]/g) || []).length !== 1) fail(`${file}: genau eine <h1> erwartet`);
     if (!/<title>[^<]+<\/title>/.test(html)) fail(`${file}: <title> fehlt`);

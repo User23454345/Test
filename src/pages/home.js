@@ -22,10 +22,12 @@ module.exports = {
       .join('\n          ');
 
     const services = list('home.services.items')
-      .map((item, i) => `<article class="card card--hover">
+      .map((item, i) => `<article class="card card--row">
             <span class="card__icon card__icon--primary">${icon(SERVICE_ICONS[i % SERVICE_ICONS.length])}</span>
-            <h3>${esc(item.title)}</h3>
-            <p>${esc(item.text)}</p>
+            <div>
+              <h3>${esc(item.title)}</h3>
+              <p>${esc(item.text)}</p>
+            </div>
           </article>`)
       .join('\n          ');
 
@@ -86,7 +88,7 @@ module.exports = {
     <section class="section section--tight" aria-labelledby="trust-title">
       <div class="container">
         <h2 id="trust-title" class="visually-hidden">${t('about.values.title')}</h2>
-        <ul class="features">
+        <ul class="features" role="list">
           ${trust}
         </ul>
       </div>
@@ -95,7 +97,7 @@ module.exports = {
     <section class="section section--alt" aria-labelledby="services-title">
       <div class="container">
         ${sectionHead({ id: 'services-title', title: t('home.services.title'), lead: t('home.services.intro') })}
-        <div class="grid grid--4">
+        <div class="grid grid--2">
           ${services}
         </div>
         <p class="section-more"><a class="btn btn--secondary" href="${href('about', { hash: 'leistungen' })}">${t('home.services.more')}</a></p>
@@ -105,19 +107,19 @@ module.exports = {
     <section class="section" aria-labelledby="process-title">
       <div class="container">
         ${sectionHead({ id: 'process-title', title: t('home.process.title'), lead: t('home.process.intro'), center: true })}
-        <ol class="steps steps--row">
+        <ol class="steps steps--row" role="list">
           ${steps}
         </ol>
       </div>
     </section>
 
     <section class="section section--alt" aria-labelledby="portal-title">
-      <div class="container split">
+      <div class="container split split--wide-end">
         <div>
           <span class="eyebrow">${t('home.portal.eyebrow')}</span>
           <h2 id="portal-title">${t('home.portal.title')}</h2>
           <p class="lead">${t('home.portal.text')}</p>
-          <p class="section-more"><a class="btn btn--primary" href="${href('devices')}">${t('home.portal.cta')}</a></p>
+          <p class="section-more"><a class="btn btn--secondary" href="${href('devices')}">${t('home.portal.cta')}</a></p>
         </div>
         <div>
           <div class="stats">
@@ -125,7 +127,7 @@ module.exports = {
             <div class="stat"><span class="stat__value">${data.devices.length}</span><span class="stat__label">${t('home.portal.statDevices')}</span></div>
             <div class="stat"><span class="stat__value">${ctx.config.langs.length}</span><span class="stat__label">${t('home.portal.statLanguages')}</span></div>
           </div>
-          <ul class="cat-tiles">
+          <ul class="cat-tiles" role="list">
             ${categories}
           </ul>
         </div>
@@ -135,18 +137,13 @@ module.exports = {
     <section class="section" aria-labelledby="audience-title">
       <div class="container">
         ${sectionHead({ id: 'audience-title', title: t('home.audience.title') })}
-        <ul class="audience">
+        <ul class="audience" role="list">
           ${audience}
         </ul>
-      </div>
-    </section>
-
-    <section class="section section--tight" aria-labelledby="independence-title">
-      <div class="container">
-        <div class="notice">
+        <div class="notice notice--below">
           ${icon('shield-check')}
           <div>
-            <h2 id="independence-title" class="notice__title">${t('home.independence.title')}</h2>
+            <h3 class="notice__title">${t('home.independence.title')}</h3>
             <p>${t('home.independence.text')}</p>
           </div>
         </div>

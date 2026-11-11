@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-page="privacy">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,7 @@
   <link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/styles.css">
+  <noscript><link rel="stylesheet" href="../css/nojs.css"></noscript>
   <script src="../js/site.js" defer></script>
 </head>
 <body data-page="privacy">
@@ -59,15 +60,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="التنقل الرئيسي">
         <a href="index.html">الصفحة الرئيسية</a>
         <a href="about.html">من نحن</a>
         <a href="medical-technology.html">ما هي التقنيات الطبية؟</a>
         <a href="devices.html">دليل الأجهزة</a>
         <a href="contact.html">اتصل بنا</a>
-        <a href="../datenschutz.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../en/privacy.html" lang="en" hreflang="en">English</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -129,7 +128,7 @@
         </div>
         <div>
           <h2>التنقل</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">الصفحة الرئيسية</a></li>
             <li><a href="about.html">من نحن</a></li>
             <li><a href="medical-technology.html">ما هي التقنيات الطبية؟</a></li>
@@ -140,14 +139,14 @@
         </div>
         <div>
           <h2>الجوانب القانونية</h2>
-          <ul>
+          <ul role="list">
             <li><a href="legal-notice.html">بيانات الناشر</a></li>
             <li><a href="privacy.html">سياسة الخصوصية</a></li>
           </ul>
         </div>
         <div>
           <h2>اتصل بنا</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

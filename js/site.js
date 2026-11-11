@@ -172,6 +172,22 @@
   /* ==========================================================================
      2. Geräte-Wissen: Übersicht
      ========================================================================== */
+
+  /** Statusmeldung für Screenreader: erst nach einer Tipp-Pause und nur bei geändertem Text ansagen. */
+  function announcer(node) {
+    var timer = null;
+    return function (text, immediate) {
+      if (!node) return;
+      clearTimeout(timer);
+      timer = setTimeout(
+        function () {
+          if (node.textContent !== text) node.textContent = text;
+        },
+        immediate ? 0 : 700
+      );
+    };
+  }
+
   function initOverview() {
     var results = $("device-results");
     if (!results) return;
@@ -185,7 +201,7 @@
     var cards = results.querySelectorAll(".device-card");
     var summary = $("results-summary");
     var summaryCount = $("results-count");
-    var status = $("device-results-status");
+    var announce = announcer($("device-results-status"));
     var empty = $("empty-state");
 
     var known = {};
@@ -205,7 +221,7 @@
       return n === 1 ? str("countOne") : str("countMany", { count: n });
     }
 
-    function apply(announce) {
+    function apply(speak, immediate) {
       var total = 0;
       var perCat = {};
       each(cards, function (card) {
@@ -232,25 +248,23 @@
       if (summaryCount) summaryCount.textContent = countLabel(total);
       if (empty) empty.hidden = total !== 0;
       if (clearBtn) clearBtn.classList.toggle("is-visible", !!state.q);
-      // Für Screenreader nur die Trefferzahl ansagen, nicht die ganze Liste
-      if (status && announce) status.textContent = total ? countLabel(total) : str("noResults");
+      if (speak) announce(total ? countLabel(total) : str("noResults"), immediate);
       syncUrl({ q: state.q, cat: state.cat });
-    }
-
-    function reset() {
-      state.q = "";
-      state.cat = "";
-      if (input) input.value = "";
-      apply(true);
     }
 
     each(chips, function (chip) {
       chip.addEventListener("click", function () {
         var cat = chip.getAttribute("data-cat");
         state.cat = state.cat === cat ? "" : cat;
-        apply(true);
+        apply(true, true);
       });
     });
+    // Die Chip-Leiste scrollt auf kleinen Bildschirmen seitlich: fokussierten Chip vollständig zeigen
+    if (chipsWrap) {
+      chipsWrap.addEventListener("focusin", function (e) {
+        if (e.target && e.target.scrollIntoView) e.target.scrollIntoView({ block: "nearest", inline: "nearest" });
+      });
+    }
 
     var timer = null;
     if (input) {
@@ -258,7 +272,7 @@
         clearTimeout(timer);
         timer = setTimeout(function () {
           state.q = input.value.trim();
-          apply(true);
+          apply(true, false);
         }, 120);
       });
     }
@@ -267,7 +281,7 @@
         e.preventDefault();
         clearTimeout(timer);
         state.q = input ? input.value.trim() : "";
-        apply(true);
+        apply(true, true);
       });
     }
     if (clearBtn) {
@@ -277,13 +291,18 @@
           input.value = "";
           input.focus();
         }
-        apply(true);
+        apply(true, true);
       });
     }
     each(doc.querySelectorAll("[data-filter-reset]"), function (btn) {
       btn.addEventListener("click", function () {
-        reset();
-        if (input) input.focus();
+        state.q = "";
+        state.cat = "";
+        if (input) {
+          input.value = "";
+          input.focus();
+        }
+        apply(true, true);
       });
     });
 
@@ -306,33 +325,38 @@
         card.classList.toggle("device-card--learned", isLearned);
         var badge = card.querySelector(".device-card__learned");
         if (badge) badge.hidden = !isLearned;
+        var note = card.querySelector("[data-learned-text]");
+        if (note) note.hidden = !isLearned;
       });
       var total = cards.length;
-      if (progressText) progressText.textContent = str("progressText", { done: done, total: total });
+      var text = done === total && total > 0 ? str("progressDone") : str("progressText", { done: done, total: total });
+      if (progressText) progressText.textContent = text;
       if (progressFill) progressFill.style.width = (total ? Math.round((done / total) * 100) : 0) + "%";
       if (progressBar) {
         progressBar.setAttribute("aria-valuenow", String(done));
-        progressBar.setAttribute("aria-valuetext", str("progressText", { done: done, total: total }));
+        progressBar.setAttribute("aria-valuetext", text);
       }
       if (progressReset) progressReset.hidden = done === 0;
       if (progressContinue) {
         var link = nextCard ? nextCard.querySelector("h3 a") : null;
+        progressContinue.hidden = !link;
         if (link) {
           progressContinue.setAttribute("href", link.getAttribute("href"));
-          progressContinue.firstChild.textContent = str("progressContinue", { name: link.textContent }) + " ";
-          progressContinue.hidden = false;
-        } else {
-          progressContinue.hidden = true;
-          if (progressText) progressText.textContent = str("progressDone");
+          var label = progressContinue.querySelector("span");
+          if (label) label.textContent = str("progressContinue", { name: link.firstChild.textContent });
         }
       }
+      return text;
     }
 
     if (progressCard) {
       if (progressReset) {
         progressReset.addEventListener("click", function () {
           learned.set([]);
-          renderProgress();
+          var text = renderProgress();
+          // Die Schaltfläche verschwindet: Fokus sinnvoll weitergeben und das Ergebnis ansagen
+          if (progressContinue && !progressContinue.hidden) progressContinue.focus();
+          announce(text, true);
         });
       }
       renderProgress();
@@ -359,7 +383,8 @@
     function render() {
       var list = learned.get();
       var on = list.indexOf(id) !== -1;
-      button.setAttribute("aria-pressed", on ? "true" : "false");
+      // Die Beschriftung wechselt mit dem Zustand ("… markieren" / "… markiert"), daher kein aria-pressed
+      button.setAttribute("data-learned", on ? "true" : "false");
       button.classList.toggle("btn--secondary", !on);
       button.classList.toggle("btn--accent", on);
       each(doc.querySelectorAll(".device-aside a[data-device-id]"), function (a) {
@@ -387,11 +412,12 @@
     if (!listNode || !input) return;
     var entries = listNode.querySelectorAll(".glossary-entry");
     var clearBtn = $("glossary-search-clear");
+    var resetBtn = $("glossary-reset");
     var form = $("glossary-search-form");
     var empty = $("glossary-empty");
     var status = $("glossary-status");
 
-    function apply(announce) {
+    function apply() {
       var q = input.value.trim();
       var total = 0;
       each(entries, function (entry) {
@@ -402,34 +428,39 @@
       listNode.hidden = total === 0;
       if (empty) empty.hidden = total !== 0;
       if (clearBtn) clearBtn.classList.toggle("is-visible", !!q);
-      if (status && announce) status.textContent = total === 0 ? str("glossaryNone") : total === 1 ? str("glossaryCountOne") : str("glossaryCount", { count: total });
+      if (status) {
+        // Sichtbare Trefferzahl, zugleich Statusmeldung für Screenreader
+        var text = total === 0 ? str("glossaryNone") : total === 1 ? str("glossaryCountOne") : str("glossaryCount", { count: total });
+        status.hidden = !q || total === 0;
+        if (status.textContent !== text) status.textContent = text;
+      }
       syncUrl({ q: q });
+    }
+
+    function clear() {
+      input.value = "";
+      input.focus();
+      apply();
     }
 
     var timer = null;
     input.addEventListener("input", function () {
       clearTimeout(timer);
-      timer = setTimeout(function () {
-        apply(true);
-      }, 120);
+      timer = setTimeout(apply, 250);
     });
     if (form) {
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        apply(true);
+        clearTimeout(timer);
+        apply();
       });
     }
-    if (clearBtn) {
-      clearBtn.addEventListener("click", function () {
-        input.value = "";
-        input.focus();
-        apply(true);
-      });
-    }
+    if (clearBtn) clearBtn.addEventListener("click", clear);
+    if (resetBtn) resetBtn.addEventListener("click", clear);
     var params = readParams();
     if (params && params.get("q")) {
       input.value = params.get("q");
-      apply(false);
+      apply();
     }
   }
 
@@ -512,6 +543,7 @@
       var input = e.target;
       var field = input && fieldOf(input);
       if (field && field.classList.contains("is-invalid") && !errorFor(input)) setError(input, null);
+      if (summary && !form.querySelector(".is-invalid")) summary.hidden = true;
     });
 
     form.addEventListener("submit", function (e) {

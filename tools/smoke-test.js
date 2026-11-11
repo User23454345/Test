@@ -165,7 +165,7 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   await go(`${config.deviceDir.de}/${devices[0].id}.html`);
   expect((await page.locator('.device-section').count()) >= 4, 'Detailseite zeigt die Abschnitte');
   await page.click('#learn-toggle');
-  expect((await page.getAttribute('#learn-toggle', 'aria-pressed')) === 'true', 'Gerät als gelernt markiert');
+  expect((await page.getAttribute('#learn-toggle', 'data-learned')) === 'true', 'Gerät als gelernt markiert');
   await go(config.pages.devices.de);
   const progress = (await page.textContent('#progress-text')).trim();
   expect(/\b1\b/.test(progress), 'Lernfortschritt in der Übersicht: ' + progress, 'Lernfortschritt falsch: ' + progress);
@@ -180,7 +180,7 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   await go(config.pages.glossary.de);
   const terms = await page.locator('.glossary-entry:not([hidden])').count();
   await page.fill('#glossary-search', 'doppler');
-  await page.waitForTimeout(300);
+  await page.waitForTimeout(500);
   n = await page.locator('.glossary-entry:not([hidden])').count();
   expect(terms > 20 && n > 0 && n < terms, `Glossar: ${terms} Begriffe, Suche "doppler" → ${n}`, `Glossar-Suche fehlerhaft (${terms}/${n})`);
 

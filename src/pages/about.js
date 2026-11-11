@@ -23,7 +23,7 @@ module.exports = {
             <span class="card__icon card__icon--primary">${icon(SERVICE_ICONS[i % SERVICE_ICONS.length])}</span>
             <h3>${esc(item.title)}</h3>
             <p>${esc(item.text)}</p>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               ${(item.points || []).map((pt) => `<li>${esc(pt)}</li>`).join('\n              ')}
             </ul>
           </article>`)
@@ -45,7 +45,7 @@ module.exports = {
     <section class="section" aria-labelledby="intro-title">
       <div class="container split split--top">
         <div class="prose">
-          <h2 id="intro-title">${t('about.intro.title')}</h2>
+          <h2 id="intro-title" class="section-title">${t('about.intro.title')}</h2>
           <p>${t('about.intro.p1')}</p>
           <p>${t('about.intro.p2')}</p>
           <p>${t('about.intro.p3')}</p>
@@ -78,7 +78,7 @@ module.exports = {
     <section id="vorgehen" class="section section--alt" aria-labelledby="process-title">
       <div class="container">
         ${sectionHead({ id: 'process-title', title: t('about.process.title'), lead: t('about.process.intro') })}
-        <ol class="steps">
+        <ol class="steps steps--grid" role="list">
           ${steps}
         </ol>
       </div>

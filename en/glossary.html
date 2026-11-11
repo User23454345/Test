@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-page="glossary">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="../css/styles.css">
+  <noscript><link rel="stylesheet" href="../css/nojs.css"></noscript>
   <script src="../js/site.js" defer></script>
 </head>
 <body data-page="glossary">
@@ -55,15 +56,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About us</a>
         <a href="medical-technology.html">Medical technology</a>
-        <a href="devices.html">Device Knowledge</a>
+        <a href="devices.html" aria-current="true">Device Knowledge</a>
         <a href="contact.html">Contact</a>
-        <a href="../glossar.html" lang="de" hreflang="de">Deutsch</a>
-        <a href="../ar/glossary.html" lang="ar" hreflang="ar">العربية</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -91,7 +90,7 @@
 
     <section class="section section--tight" aria-label="Glossary">
       <div class="container">
-        <p id="glossary-status" class="visually-hidden" role="status"></p>
+        <p id="glossary-status" class="results-summary" role="status" hidden></p>
         <dl class="glossary glossary--page" id="glossary-list">
           <div class="glossary-entry" data-search="a0 value measure of the inactivation of microorganisms by moist heat an a0 value of 3000 corresponds for example to 90 c for five minutes and is the usual value for the thermal disinfection of instruments">
             <dt>A0 value</dt>
@@ -449,14 +448,17 @@
         <div id="glossary-empty" class="empty-state" hidden>
           <h2>No terms found.</h2>
           <p>Try a different term or reset the filter.</p>
+          <button type="button" class="btn btn--secondary" id="glossary-reset"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></svg> Reset filters</button>
         </div>
       </div>
     </section>
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">Would you like to go deeper?</h2>
-        <p>In Device Knowledge we present the most important devices in each category – with how they work, where they are used and procurement guidance.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">Would you like to go deeper?</h2>
+          <p>In Device Knowledge we present the most important devices in each category – with how they work, where they are used and procurement guidance.</p>
+        </div>
         <a class="btn btn--light" href="devices.html">Go to Device Knowledge</a>
       </div>
     </section>
@@ -475,7 +477,7 @@
         </div>
         <div>
           <h2>Navigation</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="medical-technology.html">Medical technology</a></li>
@@ -486,14 +488,14 @@
         </div>
         <div>
           <h2>Legal</h2>
-          <ul>
+          <ul role="list">
             <li><a href="legal-notice.html">Legal notice</a></li>
             <li><a href="privacy.html">Privacy</a></li>
           </ul>
         </div>
         <div>
           <h2>Contact</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

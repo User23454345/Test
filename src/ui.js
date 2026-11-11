@@ -75,7 +75,8 @@ function inlineSvgFile(relPath) {
     let svg = fs.readFileSync(path.join(ROOT, relPath), 'utf8').trim();
     svg = svg.replace(/<\?xml[^>]*\?>\s*/, '').replace(/<!--[\s\S]*?-->/g, '');
     if (/<script|\son\w+=/i.test(svg)) throw new Error('SVG enthält Skripte oder Event-Attribute: ' + relPath);
-    svg = svg.replace(/<svg\b/, '<svg aria-hidden="true" focusable="false"').replace(/\s(width|height)="[^"]*"/g, '');
+    // Nur am Wurzelelement Breite/Höhe entfernen – innere Formen (z. B. <rect>) brauchen ihre Maße.
+    svg = svg.replace(/<svg\b[^>]*>/, (tag) => tag.replace(/\s(width|height)="[^"]*"/g, '').replace('<svg', '<svg aria-hidden="true" focusable="false"'));
     fileCache[relPath] = svg;
   }
   return fileCache[relPath];

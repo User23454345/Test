@@ -61,10 +61,11 @@ function header(ctx) {
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
-        ${config.nav.map((key) => `<a href="${href(key)}">${t('nav.' + key)}</a>`).join('\n        ')}
-        ${config.langs.filter((l) => l.code !== ctx.lang).map((l) => `<a href="${ctx.langHref(l.code)}" lang="${l.code}" hreflang="${l.code}">${esc(l.label)}</a>`).join('\n        ')}
-      </div>
+      <nav class="container nojs-nav" aria-label="${t('nav.mainNavLabel')}">
+        ${config.nav
+          .map((key) => `<a href="${href(key)}"${key === ctx.pageKey ? ' aria-current="page"' : key === parent ? ' aria-current="true"' : ''}>${t('nav.' + key)}</a>`)
+          .join('\n        ')}
+      </nav>
     </noscript>
   </header>`;
 }
@@ -89,20 +90,20 @@ function footer(ctx) {
         </div>
         <div>
           <h2>${t('footer.navTitle')}</h2>
-          <ul>
+          <ul role="list">
             ${navKeys.map((key) => `<li><a href="${href(key)}">${t('nav.' + key)}</a></li>`).join('\n            ')}
           </ul>
         </div>
         <div>
           <h2>${t('footer.legalTitle')}</h2>
-          <ul>
+          <ul role="list">
             <li><a href="${href('imprint')}">${t('nav.imprint')}</a></li>
             <li><a href="${href('privacy')}">${t('nav.privacy')}</a></li>
           </ul>
         </div>
         <div>
           <h2>${t('footer.contactTitle')}</h2>
-          <ul>
+          <ul role="list">
             <li>${esc(o.name)}</li>
             <li><a href="mailto:${esc(o.email)}">${esc(o.email)}</a></li>
             <li><a href="tel:${esc(telHref(o.phone))}">${esc(o.phoneDisplay || o.phone)}</a></li>
@@ -172,7 +173,7 @@ function renderDocument(ctx, page) {
 
   return `<!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="${ctx.lang}" dir="${ctx.dir}">
+<html lang="${ctx.lang}" dir="${ctx.dir}" data-page="${ctx.pageKey}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -184,7 +185,7 @@ function renderDocument(ctx, page) {
   <link rel="icon" href="${asset('assets/img/favicon-32.png')}" sizes="32x32" type="image/png">
   <link rel="icon" href="${asset('assets/img/favicon.svg')}" type="image/svg+xml">
   <link rel="apple-touch-icon" href="${asset('assets/img/apple-touch-icon.png')}">
-  ${join(fontPreload.concat([`<link rel="stylesheet" href="${asset('css/styles.css')}">`, `<script src="${asset('js/site.js')}" defer></script>`]).concat(jsonLd), '\n  ')}
+  ${join(fontPreload.concat([`<link rel="stylesheet" href="${asset('css/styles.css')}">`, `<noscript><link rel="stylesheet" href="${asset('css/nojs.css')}"></noscript>`, `<script src="${asset('js/site.js')}" defer></script>`]).concat(jsonLd), '\n  ')}
 </head>
 <body data-page="${ctx.pageKey}">
   <a class="skip-link" href="#main">${ctx.t('nav.skipToContent')}</a>

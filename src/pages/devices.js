@@ -13,7 +13,7 @@ module.exports = {
     const chips = data.categories
       .map((cat) => {
         const count = data.devices.filter((d) => d.category === cat.id).length;
-        return `<button type="button" class="chip" data-cat="${esc(cat.id)}" aria-pressed="false"><span class="chip__icon">${inlineSvgFile(cat.icon)}</span><span>${esc(L(cat).name)}</span><span class="chip__count">${count}</span></button>`;
+        return `<button type="button" class="chip" data-cat="${esc(cat.id)}" aria-pressed="false"><span class="chip__icon">${inlineSvgFile(cat.icon)}</span><span>${esc(L(cat).name)}</span><span class="visually-hidden"> (${count})</span></button>`;
       })
       .join('\n          ');
 
@@ -41,18 +41,32 @@ module.exports = {
     const first = data.devices[0];
 
     const main = `    <section class="hero hero--compact">
-      <div class="container">
-        <span class="eyebrow">${t('devices.hero.eyebrow')}</span>
-        <h1 class="hero__title">${t('devices.hero.title')}</h1>
-        <p class="hero__text">${t('devices.hero.subtitle')}</p>
-        <form class="search" role="search" id="device-search-form" action="${href('devices')}" method="get">
-          <label for="device-search" class="visually-hidden">${t('devices.searchLabel')}</label>
-          ${icon('search', 'search__icon')}
-          <input id="device-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="${t('devices.searchPlaceholder')}">
-          <button type="button" class="search__clear" id="device-search-clear" aria-label="${t('devices.clearSearch')}">${icon('x')}</button>
-        </form>
-        <p class="hero__links"><a href="${href('glossary')}">${icon('book')} ${t('glossary.linkLabel')}</a></p>
-        <noscript><p class="noscript-note">${t('devices.noscript')}</p></noscript>
+      <div class="container hero__inner hero__inner--portal">
+        <div>
+          <span class="eyebrow">${t('devices.hero.eyebrow')}</span>
+          <h1 class="hero__title">${t('devices.hero.title')}</h1>
+          <p class="hero__text">${t('devices.hero.subtitle')}</p>
+          <form class="search" role="search" id="device-search-form" action="${href('devices')}" method="get">
+            <label for="device-search" class="visually-hidden">${t('devices.searchLabel')}</label>
+            ${icon('search', 'search__icon')}
+            <input id="device-search" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="${t('devices.searchPlaceholder')}">
+            <button type="button" class="search__clear" id="device-search-clear" aria-label="${t('devices.clearSearch')}">${icon('x')}</button>
+          </form>
+          <p class="hero__links"><a class="link-arrow" href="${href('glossary')}">${icon('book')}${t('glossary.linkLabel')}</a></p>
+          <noscript><p class="noscript-note">${t('devices.noscript')}</p></noscript>
+        </div>
+        <div id="progress-card" class="progress-card" data-total="${total}">
+          <div class="progress-card__head">
+            <strong id="progress-title">${t('devices.progress.title')}</strong>
+            <span id="progress-text" class="muted">${t('devices.progress.text', { done: 0, total })}</span>
+          </div>
+          <div class="progress-bar" id="progress-bar" role="progressbar" aria-labelledby="progress-title" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="0"><div class="progress-bar__fill" id="progress-fill"></div></div>
+          <p class="progress-card__foot">
+            <span>${t('devices.progress.hint')}</span>
+            <button type="button" class="link-button" id="progress-reset" hidden>${t('devices.progress.reset')}</button>
+          </p>
+          <a class="link-arrow progress-card__continue" id="progress-continue" href="${ctx.deviceHref(first.id)}"><span>${t('devices.progress.continue', { name: L(first).name })}</span>${icon('arrow-right', 'icon--flip')}</a>
+        </div>
       </div>
     </section>
 
@@ -67,19 +81,6 @@ module.exports = {
 
     <section class="section section--tight portal" aria-label="${t('devices.hero.title')}">
       <div class="container">
-        <div id="progress-card" class="progress-card" data-total="${total}">
-          <div class="progress-card__head">
-            <strong id="progress-title">${t('devices.progress.title')}</strong>
-            <span id="progress-text" class="muted">${t('devices.progress.text', { done: 0, total })}</span>
-          </div>
-          <div class="progress-bar" id="progress-bar" role="progressbar" aria-labelledby="progress-title" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="0"><div class="progress-bar__fill" id="progress-fill"></div></div>
-          <p class="progress-card__foot">
-            <span>${t('devices.progress.hint')}</span>
-            <button type="button" class="link-button" id="progress-reset">${t('devices.progress.reset')}</button>
-            <a class="progress-card__continue" id="progress-continue" href="${ctx.deviceHref(first.id)}">${t('devices.progress.continue', { name: L(first).name })} ${icon('arrow-right', 'icon--flip')}</a>
-          </p>
-        </div>
-
         <p id="results-summary" class="results-summary" hidden>
           <strong id="results-count"></strong>
           <button type="button" class="link-button" data-filter-reset>${t('devices.resetFilters')}</button>

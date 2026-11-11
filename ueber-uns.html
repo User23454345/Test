@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" data-page="about">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <noscript><link rel="stylesheet" href="css/nojs.css"></noscript>
   <script src="js/site.js" defer></script>
 </head>
 <body data-page="about">
@@ -55,15 +56,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="Hauptnavigation">
         <a href="index.html">Startseite</a>
-        <a href="ueber-uns.html">Über uns</a>
+        <a href="ueber-uns.html" aria-current="page">Über uns</a>
         <a href="medizintechnik.html">Was ist Medizintechnik?</a>
         <a href="geraete.html">Geräte-Wissen</a>
         <a href="kontakt.html">Kontakt</a>
-        <a href="en/about.html" lang="en" hreflang="en">English</a>
-        <a href="ar/about.html" lang="ar" hreflang="ar">العربية</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -79,7 +78,7 @@
     <section class="section" aria-labelledby="intro-title">
       <div class="container split split--top">
         <div class="prose">
-          <h2 id="intro-title">Wer wir sind</h2>
+          <h2 id="intro-title" class="section-title">Wer wir sind</h2>
           <p>Medny verfolgt ein klares Ziel: Medizintechnik-Entscheidungen sollen auf Fakten beruhen – nicht auf Verkaufsargumenten. Als unabhängiger Berater und Vermittler stehen wir ausschließlich auf der Seite unserer Kundinnen und Kunden.</p>
           <p>Geführt wird Medny von einem Inhaber mit Masterabschluss in Biomedizintechnik. Dieses Fundament aus Technik, Medizin und Regulatorik ermöglicht es uns, Geräte nicht nur zu vergleichen, sondern wirklich zu verstehen – und Ihnen die Unterschiede verständlich zu erklären.</p>
           <p>Wir sind kein Hersteller und vertreiben keine eigene Produktlinie. Genau das macht unsere Empfehlungen glaubwürdig.</p>
@@ -134,7 +133,7 @@
             <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 21l-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></svg></span>
             <h3>Bedarfsanalyse</h3>
             <p>Am Anfang steht die Frage, was Ihre Einrichtung tatsächlich braucht. Wir nehmen Ihre Abläufe, Räume, Schnittstellen und Budgets auf und leiten daraus ein belastbares Anforderungsprofil ab.</p>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>Aufnahme klinischer und organisatorischer Anforderungen</li>
               <li>Prüfung von Räumen, Infrastruktur und IT-Schnittstellen</li>
               <li>Erstellung eines Anforderungsprofils als Grundlage für Angebote</li>
@@ -144,7 +143,7 @@
             <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
             <h3>Unabhängige Beratung</h3>
             <p>Wir vergleichen in Frage kommende Geräte und Ausstattungsvarianten herstellerneutral und bewerten sie nach Nutzen, Lebenszykluskosten, Bedienbarkeit und Service.</p>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>Marktüberblick und objektiver Gerätevergleich</li>
               <li>Bewertung von Folgekosten: Wartung, Verbrauchsmaterial, Schulung</li>
               <li>Zweitmeinung zu bereits vorliegenden Angeboten</li>
@@ -154,7 +153,7 @@
             <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6M9 21h.01M18 21h.01"/></svg></span>
             <h3>Beschaffung &amp; Vermittlung</h3>
             <p>Wir holen vergleichbare Angebote ein, unterstützen bei Verhandlungen und koordinieren Bestellung, Lieferung, Installation und Abnahme.</p>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>Einholung und Vergleich strukturierter Angebote</li>
               <li>Unterstützung bei Verhandlungen und Prüfung der Konditionen</li>
               <li>Koordination von Lieferung, Installation und Abnahme</li>
@@ -164,7 +163,7 @@
             <span class="card__icon card__icon--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg></span>
             <h3>Support &amp; Nachbetreuung</h3>
             <p>Nach der Lieferung geht es weiter: Wir begleiten Einweisung und Dokumentation, helfen bei der Wartungsplanung und bleiben Ihr Ansprechpartner.</p>
-            <ul class="check-list">
+            <ul class="check-list" role="list">
               <li>Organisation von Einweisungen und Schulungen</li>
               <li>Unterstützung bei Medizinproduktebuch und Betreiberpflichten</li>
               <li>Planung von Wartung sowie sicherheits- und messtechnischen Kontrollen</li>
@@ -180,7 +179,7 @@
           <h2 id="process-title">Unsere Vorgehensweise</h2>
           <p class="lead">Vier Schritte, ein Ansprechpartner. So behalten Sie den Überblick – vom ersten Gespräch bis zum laufenden Betrieb.</p>
         </div>
-        <ol class="steps">
+        <ol class="steps steps--grid" role="list">
           <li class="step">
             <span class="step__num" aria-hidden="true">1</span>
             <div>
@@ -242,8 +241,10 @@
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">Lassen Sie uns über Ihr Projekt sprechen</h2>
-        <p>Ob Neuanschaffung, Ersatzbeschaffung oder eine Zweitmeinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">Lassen Sie uns über Ihr Projekt sprechen</h2>
+          <p>Ob Neuanschaffung, Ersatzbeschaffung oder eine Zweitmeinung zu einem vorliegenden Angebot – wir freuen uns auf Ihre Anfrage.</p>
+        </div>
         <a class="btn btn--light" href="kontakt.html">Kontakt aufnehmen</a>
       </div>
     </section>
@@ -262,7 +263,7 @@
         </div>
         <div>
           <h2>Navigation</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">Startseite</a></li>
             <li><a href="ueber-uns.html">Über uns</a></li>
             <li><a href="medizintechnik.html">Was ist Medizintechnik?</a></li>
@@ -273,14 +274,14 @@
         </div>
         <div>
           <h2>Rechtliches</h2>
-          <ul>
+          <ul role="list">
             <li><a href="impressum.html">Impressum</a></li>
             <li><a href="datenschutz.html">Datenschutz</a></li>
           </ul>
         </div>
         <div>
           <h2>Kontakt</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

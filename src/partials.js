@@ -25,8 +25,10 @@ function pageHero({ eyebrow, title, text, extra }) {
 function ctaBand(ctx, { title, text, button, target }) {
   return `    <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">${title}</h2>
-        <p>${text}</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">${title}</h2>
+          <p>${text}</p>
+        </div>
         <a class="btn btn--light" href="${ctx.href(target || 'contact')}">${button}</a>
       </div>
     </section>`;

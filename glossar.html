@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Automatisch erzeugt von tools/build.js – bitte nicht direkt bearbeiten. Quellen: src/ (Aufbau) und data/ (Texte). -->
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" data-page="glossary">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <noscript><link rel="stylesheet" href="css/nojs.css"></noscript>
   <script src="js/site.js" defer></script>
 </head>
 <body data-page="glossary">
@@ -55,15 +56,13 @@
       </nav>
     </div>
     <noscript>
-      <div class="container nojs-nav">
+      <nav class="container nojs-nav" aria-label="Hauptnavigation">
         <a href="index.html">Startseite</a>
         <a href="ueber-uns.html">Über uns</a>
         <a href="medizintechnik.html">Was ist Medizintechnik?</a>
-        <a href="geraete.html">Geräte-Wissen</a>
+        <a href="geraete.html" aria-current="true">Geräte-Wissen</a>
         <a href="kontakt.html">Kontakt</a>
-        <a href="en/glossary.html" lang="en" hreflang="en">English</a>
-        <a href="ar/glossary.html" lang="ar" hreflang="ar">العربية</a>
-      </div>
+      </nav>
     </noscript>
   </header>
 
@@ -91,7 +90,7 @@
 
     <section class="section section--tight" aria-label="Glossar">
       <div class="container">
-        <p id="glossary-status" class="visually-hidden" role="status"></p>
+        <p id="glossary-status" class="results-summary" role="status" hidden></p>
         <dl class="glossary glossary--page" id="glossary-list">
           <div class="glossary-entry" data-search="a0 wert mass fur die abtotung von mikroorganismen durch feuchte hitze a0 3000 entspricht beispielsweise 90 c uber funf minuten und ist der ubliche wert fur die thermische desinfektion von instrumenten">
             <dt>A0-Wert</dt>
@@ -449,14 +448,17 @@
         <div id="glossary-empty" class="empty-state" hidden>
           <h2>Keine Begriffe gefunden.</h2>
           <p>Versuchen Sie einen anderen Begriff oder setzen Sie den Filter zurück.</p>
+          <button type="button" class="btn btn--secondary" id="glossary-reset"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></svg> Filter zurücksetzen</button>
         </div>
       </div>
     </section>
 
     <section class="cta-band" aria-labelledby="cta-title">
       <div class="container">
-        <h2 id="cta-title">Sie möchten tiefer einsteigen?</h2>
-        <p>Im Geräte-Wissen stellen wir die wichtigsten Geräte jeder Kategorie vor – mit Funktionsweise, Einsatzbereich und Beschaffungshinweisen.</p>
+        <div class="cta-band__text">
+          <h2 id="cta-title">Sie möchten tiefer einsteigen?</h2>
+          <p>Im Geräte-Wissen stellen wir die wichtigsten Geräte jeder Kategorie vor – mit Funktionsweise, Einsatzbereich und Beschaffungshinweisen.</p>
+        </div>
         <a class="btn btn--light" href="geraete.html">Zum Geräte-Wissen</a>
       </div>
     </section>
@@ -475,7 +477,7 @@
         </div>
         <div>
           <h2>Navigation</h2>
-          <ul>
+          <ul role="list">
             <li><a href="index.html">Startseite</a></li>
             <li><a href="ueber-uns.html">Über uns</a></li>
             <li><a href="medizintechnik.html">Was ist Medizintechnik?</a></li>
@@ -486,14 +488,14 @@
         </div>
         <div>
           <h2>Rechtliches</h2>
-          <ul>
+          <ul role="list">
             <li><a href="impressum.html">Impressum</a></li>
             <li><a href="datenschutz.html">Datenschutz</a></li>
           </ul>
         </div>
         <div>
           <h2>Kontakt</h2>
-          <ul>
+          <ul role="list">
             <li>Vorname Nachname</li>
             <li><a href="mailto:kontakt@medny.example">kontakt@medny.example</a></li>
             <li><a href="tel:+490000000000">+49 (0) 000 000 00 00</a></li>

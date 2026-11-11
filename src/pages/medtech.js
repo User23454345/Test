@@ -52,7 +52,7 @@ module.exports = {
     <section class="section" aria-labelledby="definition-title">
       <div class="container">
         <div class="prose">
-          <h2 id="definition-title">${t('medtech.definition.title')}</h2>
+          <h2 id="definition-title" class="section-title">${t('medtech.definition.title')}</h2>
           <p>${t('medtech.definition.p1')}</p>
           <p>${t('medtech.definition.p2')}</p>
           <p>${t('medtech.definition.p3')}</p>
@@ -93,7 +93,7 @@ module.exports = {
           <h2 id="lifecycle-title">${t('medtech.lifecycle.title')}</h2>
           <p class="lead">${t('medtech.lifecycle.intro')}</p>
         </div>
-        <ol class="timeline">
+        <ol class="timeline" role="list">
           ${lifecycle}
         </ol>
       </div>

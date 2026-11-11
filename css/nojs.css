@@ -1,0 +1,15 @@
+/* Wird nur geladen, wenn JavaScript deaktiviert ist (über <noscript> im Seitenkopf).
+   Blendet Bedienelemente aus, die ohne Skript nichts tun; alle Inhalte bleiben lesbar. */
+.nav-toggle,
+.search,
+.filter-bar,
+.progress-card,
+.learn-toggle,
+.hero__links + .noscript-note ~ * {
+  display: none !important;
+}
+
+/* Die Ersatznavigation macht die Kopfzeile höher – sie soll dann nicht oben kleben bleiben */
+.site-header {
+  position: relative;
+}
