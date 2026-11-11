@@ -124,10 +124,10 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
 
   /* 3. Sprachwechsel führt auf dieselbe Seite in der anderen Sprache */
   await go(`${config.deviceDir.de}/${devices[1].id}.html`);
-  await page.click('.lang-switch a[lang="ar"]');
+  await page.click('.site-nav .lang-switch a[lang="ar"]');
   await page.waitForLoadState('networkidle');
   expect(page.url().endsWith(`${config.deviceDir.ar}/${devices[1].id}.html`) && (await page.evaluate(() => document.documentElement.dir)) === 'rtl', 'Sprachwechsel Deutsch → Arabisch bleibt auf demselben Gerät (RTL)', 'Sprachwechsel fehlerhaft: ' + page.url());
-  await page.click('.lang-switch a[lang="en"]');
+  await page.click('.site-nav .lang-switch a[lang="en"]');
   await page.waitForLoadState('networkidle');
   expect(page.url().endsWith(`${config.deviceDir.en}/${devices[1].id}.html`), 'Sprachwechsel Arabisch → Englisch', 'Sprachwechsel fehlerhaft: ' + page.url());
 
@@ -155,7 +155,7 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   n = await visible();
   expect(n > 0 && n < total && /cat=/.test(page.url()), `Kategorie-Filter → ${n} Geräte, Kategorie steht in der Adresse`, `Kategorie-Filter zeigt ${n}`);
   expect((await page.locator('#category-chips .chip[aria-pressed="true"]').count()) === 1, 'Genau ein Filter-Chip ist als aktiv markiert');
-  const langHref = await page.getAttribute('.lang-switch a[lang="en"]', 'href');
+  const langHref = await page.getAttribute('.site-nav .lang-switch a[lang="en"]', 'href');
   expect(/cat=/.test(langHref), 'Sprachlink übernimmt den aktiven Filter');
   await go(config.pages.devices.de + '?cat=therapy#cat-therapy');
   n = await visible();

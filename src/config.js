@@ -6,11 +6,12 @@
 module.exports = {
   defaultLang: 'de',
 
-  // Reihenfolge = Reihenfolge im Sprachumschalter. prefix = Unterordner der Sprache ('' = Wurzel).
+  // Reihenfolge = Reihenfolge im Sprachumschalter. short = Kurzform für die Kopfzeile auf dem Smartphone.
+  // prefix = Unterordner der Sprache ('' = Wurzel).
   langs: [
-    { code: 'de', dir: 'ltr', label: 'Deutsch', prefix: '', ogLocale: 'de_DE' },
-    { code: 'en', dir: 'ltr', label: 'English', prefix: 'en/', ogLocale: 'en_GB' },
-    { code: 'ar', dir: 'rtl', label: 'العربية', prefix: 'ar/', ogLocale: 'ar_AR' }
+    { code: 'de', dir: 'ltr', label: 'Deutsch', short: 'DE', prefix: '', ogLocale: 'de_DE' },
+    { code: 'en', dir: 'ltr', label: 'English', short: 'EN', prefix: 'en/', ogLocale: 'en_GB' },
+    { code: 'ar', dir: 'rtl', label: 'العربية', short: 'عربي', prefix: 'ar/', ogLocale: 'ar_AR' }
   ],
 
   // Ausgabedateien je Seite und Sprache (relativ zur Wurzel der Webseite).

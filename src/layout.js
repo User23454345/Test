@@ -23,12 +23,14 @@ function brand(ctx) {
       </a>`;
 }
 
-function langSwitch(ctx) {
+/** Sprachumschalter. compact = Kurzform für die Kopfzeile auf schmalen Bildschirmen (dort ist das Menü eingeklappt). */
+function langSwitch(ctx, compact) {
   const links = ctx.config.langs.map((l) => {
     const current = l.code === ctx.lang;
-    return `<a href="${ctx.langHref(l.code)}" lang="${l.code}" hreflang="${l.code}"${current ? ' aria-current="true"' : ''}>${esc(l.label)}</a>`;
+    const label = compact ? `<span aria-hidden="true">${esc(l.short || l.code.toUpperCase())}</span><span class="visually-hidden">${esc(l.label)}</span>` : esc(l.label);
+    return `<a href="${ctx.langHref(l.code)}" lang="${l.code}" hreflang="${l.code}"${current ? ' aria-current="true"' : ''}>${label}</a>`;
   });
-  return `<div class="lang-switch" role="group" aria-label="${ctx.t('nav.language')}">
+  return `<div class="lang-switch${compact ? ' lang-switch--compact' : ''}" role="group" aria-label="${ctx.t('nav.language')}">
             ${links.join('\n            ')}
           </div>`;
 }
@@ -43,6 +45,7 @@ function header(ctx) {
   return `<header class="site-header">
     <div class="container site-header__inner">
       ${brand(ctx)}
+      ${langSwitch(ctx, true)}
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="${t('nav.menuOpen')}">
         ${icon('menu', 'icon-menu')}
         ${icon('x', 'icon-close')}

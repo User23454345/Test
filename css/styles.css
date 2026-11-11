@@ -2683,3 +2683,41 @@ main:focus {
 .hero .breadcrumb {
   margin-bottom: 1rem;
 }
+
+/* Kompakter Sprachumschalter in der Kopfzeile (Smartphone/Tablet); ab Desktop-Breite steht der ausführliche im Menü */
+.lang-switch--compact {
+  margin-inline-start: auto;
+}
+
+.lang-switch--compact a {
+  min-height: 36px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.8rem;
+}
+
+.site-nav .lang-switch {
+  display: none;
+}
+
+@media (max-width: 359px) {
+  .brand {
+    font-size: 1.15rem;
+    gap: 0.4rem;
+  }
+  .brand svg {
+    width: 34px;
+    height: 34px;
+  }
+  .lang-switch--compact a {
+    padding-inline: 0.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lang-switch--compact {
+    display: none;
+  }
+  .site-nav .lang-switch {
+    display: inline-flex;
+  }
+}
