@@ -48,16 +48,20 @@ function deviceCard(ctx, device, { eager } = {}) {
  * gleiche Begriffe zusammengeführt, alphabetisch sortiert.
  * Ergebnis: [{ term, text, devices: [geraet, …], general: bool }]
  */
-function buildGlossary(lang, dict, data) {
+function buildGlossary(lang, dict, data, warn) {
   const byKey = new Map();
   const add = (term, text, device) => {
     const key = normalize(term);
-    if (!key) return;
+    if (!key) {
+      if (warn) warn(`Glossar (${lang}): Begriff "${term}" enthält weder Buchstaben noch Ziffern und wird ausgelassen`);
+      return;
+    }
     let entry = byKey.get(key);
     if (!entry) {
       entry = { term, text, devices: [], general: !device };
       byKey.set(key, entry);
     }
+    else if (warn && entry.text !== text) warn(`Glossar (${lang}): "${term}" ist mehrfach mit unterschiedlichem Text erklärt – im Glossar steht nur die erste Erklärung${device ? ' (abweichend: ' + device.id + ')' : ''}`);
     if (device && entry.devices.indexOf(device) === -1) entry.devices.push(device);
   };
   ((dict.medtech && dict.medtech.glossary && dict.medtech.glossary.items) || []).forEach((g) => add(g.term, g.text, null));

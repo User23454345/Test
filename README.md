@@ -119,13 +119,14 @@ Alle Geräte stehen in `data/devices.json`. Ein Gerät (gekürzt):
   Seiten neu erzeugen. Die Detailseite, die Karte in der Übersicht, der Lernpfad („Nächstes Gerät") und das
   Glossar entstehen automatisch.
 - **Neue Kategorie:** Eintrag in `categories` (mit `icon` und `order`). Sie erscheint automatisch in der Übersicht,
-  im Filter, auf der Startseite und unter „Was ist Medizintechnik?".
+  im Filter, auf der Startseite und unter „Was ist Medizintechnik?", sobald sie mindestens ein Gerät enthält.
 - **Reihenfolge:** `order` der Kategorie, darin `order` des Geräts. Das ist zugleich der Lernpfad.
   Auf breiten Bildschirmen stehen vier Karten in einer Reihe; vier Geräte je Kategorie füllen sie genau.
 - **Suche:** `keywords` ergänzen die Suche um Synonyme und Abkürzungen. Namen und Stichwörter aller Sprachen werden
   durchsucht – „MRI" findet auch auf der deutschen Seite den MRT.
 - **Glossar:** entsteht aus den `glossary`-Einträgen aller Geräte und aus `medtech.glossary.items`; gleiche Begriffe
-  werden zusammengeführt.
+  werden zusammengeführt. Ist ein Begriff bei zwei Geräten unterschiedlich erklärt, meldet `node tools/build.js` das.
+  Im Glossar steht dann nur die erste Erklärung.
 
 ### 3.4 Bilder ersetzen
 

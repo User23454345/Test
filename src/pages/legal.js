@@ -8,8 +8,8 @@ function legalPage(key) {
     render(ctx) {
       const { t, text, list } = ctx;
       const sections = list(key + '.sections')
-        .map((s) => `<h2>${esc(ctx.fill(s.title))}</h2>
-          <p class="pre-line">${esc(ctx.fill(s.text))}</p>`)
+        .map((s) => `<h2>${ctx.html(s.title)}</h2>
+          <p class="pre-line">${ctx.html(s.text)}</p>`)
         .join('\n\n          ');
 
       const main = `${pageHero({ title: t(key + '.title') })}

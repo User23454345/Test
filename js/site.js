@@ -101,8 +101,10 @@
   }
 
   /* ---------- Lernfortschritt (localStorage, verlässt den Browser nie) ---------- */
+  var learnedFallback = null; // gilt, solange localStorage nicht beschreibbar ist (z. B. privater Modus)
   var learned = {
     get: function () {
+      if (learnedFallback) return learnedFallback.slice();
       try {
         var list = JSON.parse(window.localStorage.getItem(LEARNED_KEY) || "[]");
         return Array.isArray(list) ? list : [];
@@ -113,8 +115,9 @@
     set: function (list) {
       try {
         window.localStorage.setItem(LEARNED_KEY, JSON.stringify(list));
+        learnedFallback = null;
       } catch (e) {
-        /* privater Modus o. Ä.: Markierung gilt dann nur für die aktuelle Ansicht */
+        learnedFallback = list.slice(); // privater Modus o. Ä.: Markierung gilt dann nur für die aktuelle Ansicht
       }
     },
     has: function (id) {
@@ -213,7 +216,7 @@
     var params = readParams();
     if (params) {
       state.q = params.get("q") || "";
-      state.cat = known[params.get("cat")] ? params.get("cat") : "";
+      state.cat = Object.prototype.hasOwnProperty.call(known, params.get("cat")) ? params.get("cat") : "";
     }
     if (input) input.value = state.q;
 
@@ -431,7 +434,8 @@
       if (status) {
         // Sichtbare Trefferzahl, zugleich Statusmeldung für Screenreader
         var text = total === 0 ? str("glossaryNone") : total === 1 ? str("glossaryCountOne") : str("glossaryCount", { count: total });
-        status.hidden = !q || total === 0;
+        status.hidden = !q;
+        status.classList.toggle("visually-hidden", total === 0); // sichtbar steht dann der Leerzustand, angesagt wird weiterhin
         if (status.textContent !== text) status.textContent = text;
       }
       syncUrl({ q: q });
@@ -489,15 +493,19 @@
       if (!field) return;
       var message = field.querySelector(".field__error");
       field.classList.toggle("is-invalid", !!messageKey);
+      // Vorhandene Beschreibung (Hinweis unter "Nachricht") behalten, die Fehlermeldung nur ergänzen
+      if (!input.hasAttribute("data-describedby")) input.setAttribute("data-describedby", input.getAttribute("aria-describedby") || "");
+      var base = input.getAttribute("data-describedby");
       if (messageKey) {
         input.setAttribute("aria-invalid", "true");
         if (message) {
           message.textContent = str(messageKey);
-          input.setAttribute("aria-describedby", message.id);
+          input.setAttribute("aria-describedby", (base ? base + " " : "") + message.id);
         }
       } else {
         input.removeAttribute("aria-invalid");
-        input.removeAttribute("aria-describedby");
+        if (base) input.setAttribute("aria-describedby", base);
+        else input.removeAttribute("aria-describedby");
       }
     }
 
@@ -535,7 +543,8 @@
         f.message.value.trim()
       ];
       var subject = str("mailSubject") + (topicLabel ? " – " + topicLabel : "");
-      return "mailto:" + form.getAttribute("data-email") + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\n"));
+      var to = encodeURIComponent(form.getAttribute("data-email") || "").replace(/%40/g, "@");
+      return "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\r\n").replace(/\r?\n/g, "\r\n"));
     }
 
     // Fehlermarkierung entfernen, sobald das Feld gültig ist

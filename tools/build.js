@@ -88,6 +88,7 @@ function build() {
   const warn = (msg) => {
     if (warnings.indexOf(msg) === -1) warnings.push(msg);
   };
+  if (flag('--out') && (!option('--out') || /^--/.test(option('--out')))) throw new Error('--out braucht einen Ordner, z. B.: node tools/build.js --out dist');
 
   /* 1. Daten laden und prüfen */
   const defaultLang = config.defaultLang;
@@ -114,7 +115,10 @@ function build() {
     });
     if (!fs.existsSync(path.join(ROOT, d.image))) throw new Error(`Gerät ${d.id}: Bild fehlt (${d.image})`);
   });
-  const data = { categories, devices };
+  // Kategorien ohne Geräte (z. B. gerade neu angelegt) noch nicht anzeigen – sonst zeigen Kacheln auf eine fehlende Sprungmarke
+  const shownCategories = categories.filter((c) => devices.some((d) => d.category === c.id));
+  categories.filter((c) => shownCategories.indexOf(c) === -1).forEach((c) => warn(`Kategorie "${c.id}" enthält noch keine Geräte und wird nicht angezeigt`));
+  const data = { categories: shownCategories, devices };
 
   // Abgeleitete Angaben für Texte: {site.company.zipCity}, {site.company.addressLine}
   site.company.zipCity = `${site.company.zip} ${site.company.city}`;
@@ -138,13 +142,16 @@ function build() {
     rawDevices.categories.concat(rawDevices.devices).forEach((item) => item.i18n && item.i18n[l.code] && fixSigns(item.i18n[l.code]));
   });
 
-  const baseUrl = String((site.company && site.company.url) || '').replace(/\/+$/, '');
+  const baseUrl = String((site.company && site.company.url) || '').trim().replace(/\/+$/, '');
+  if (baseUrl && !/^https?:\/\/[^\s/?#]+(\/[^\s?#]*)?$/i.test(baseUrl)) {
+    throw new Error(`data/site.json → company.url ist keine gültige Adresse: "${site.company.url}" (erwartet z. B. https://www.beispiel.de)`);
+  }
   const basePath = baseUrl ? new URL(baseUrl + '/').pathname : '/';
   const year = new Date().getFullYear();
 
   // Platzhalter erkennen: solange Beispielwerte eingetragen sind, zeigen die Seiten entsprechende Hinweise.
   const contactPlaceholder =
-    /Vorname Nachname/.test(site.owner.name) || /\.example$/.test(site.owner.email) || /Musterstra(ß|ss)e/.test(site.company.street) || /000 ?0000/.test(site.owner.phone);
+    /Vorname Nachname/.test(site.owner.name) || /\.example$/.test(site.owner.email) || /Musterstra(ß|ss)e/.test(site.company.street) || /^\+49 000 0000000$/.test(String(site.owner.phone).trim());
   const hasBrackets = (key) => ((dicts[defaultLang][key] || {}).sections || []).some((s) => /\[[^\]]+\]/.test(s.text + s.title));
   const placeholders = {
     contact: contactPlaceholder,
@@ -153,7 +160,7 @@ function build() {
   };
 
   const glossaries = {};
-  config.langs.forEach((l) => (glossaries[l.code] = buildGlossary(l.code, dicts[l.code], data)));
+  config.langs.forEach((l) => (glossaries[l.code] = buildGlossary(l.code, dicts[l.code], data, warn)));
 
   /* 2. Kontext für Vorlagen */
   const usedKeys = new Set();
@@ -173,18 +180,21 @@ function build() {
     const rel = relFn || ((target) => posixRelative(file, target));
 
     // {name}-Platzhalter ersetzen: übergebene Werte, {site.owner.name} usw. aus data/site.json, {year}
-    const fill = (template, vars, escapeValues) =>
+    // isolate: '' = reiner Text (<title>, Meta-Angaben, JSON), 'chars' = sichtbarer Text/Attribut, 'html' = sichtbares HTML
+    const fill = (template, vars, escapeValues, isolate) =>
       String(template).replace(/\{([\w.]+)\}/g, (match, name) => {
         let value;
+        let fromSite = false;
         if (vars && Object.prototype.hasOwnProperty.call(vars, name)) value = vars[name];
         else if (name.indexOf('site.') === 0) {
           value = resolveKey(site, name.slice(5));
-          // Lateinische Stammdaten in RTL-Texten als eigene Links-nach-rechts-Einheit einsetzen
-          if (value !== undefined && value !== null && langInfo.dir === 'rtl') value = LRI + value + PDI;
-        }
-        else if (name === 'year') value = year;
+          fromSite = true;
+        } else if (name === 'year') value = year;
         if (value === undefined || value === null) return match;
-        return escapeValues ? ui.esc(value) : String(value);
+        const out = escapeValues ? ui.esc(value) : String(value);
+        // Lateinische Stammdaten in RTL-Texten als eigene Links-nach-rechts-Einheit einsetzen – nur im sichtbaren Text
+        if (!fromSite || !isolate || langInfo.dir !== 'rtl') return out;
+        return isolate === 'html' ? `<bdi dir="ltr">${out}</bdi>` : LRI + out + PDI;
       });
 
     const string = (key, forLang) => {
@@ -208,11 +218,12 @@ function build() {
       placeholders,
       glossary: glossaries[lang],
       esc: ui.esc,
-      fill: (template, vars) => fill(template, vars, false),
+      /** Freier Text mit {Platzhaltern} als sichtbares, escaptes HTML (Impressum, Datenschutz). */
+      html: (template, vars) => fill(ui.esc(template), vars, true, 'html'),
       /** Übersetzter Text, HTML-sicher. rawVars = true: eingesetzte Werte sind bereits fertiges HTML. */
-      t: (key, vars, rawVars) => fill(ui.esc(string(key)), vars, !rawVars),
+      t: (key, vars, rawVars) => fill(ui.esc(string(key)), vars, !rawVars, 'chars'),
       /** Übersetzter Text in einer bestimmten Sprache (HTML-sicher). */
-      tIn: (code, key, vars) => fill(ui.esc(string(key, code)), vars, true),
+      tIn: (code, key, vars) => fill(ui.esc(string(key, code)), vars, true, 'chars'),
       /** Übersetzter Text unverändert (für <title>, JSON, Attribute, die selbst escapen). */
       text: (key, vars) => fill(string(key), vars, false),
       /** Liste oder Objekt aus der Übersetzungsdatei (Einträge selbst mit esc() ausgeben). */
@@ -300,6 +311,9 @@ function build() {
   }
   const stale = previous.filter((f) => files.indexOf(f) === -1);
   const changed = [];
+  // Die Jahreszahl im Fuß hält js/site.js aktuell – ein Jahreswechsel allein macht die Seiten nicht "veraltet".
+  const YEAR_RE = /(<span data-year>)\d{4}(<\/span>)/g;
+  const sameExceptYear = (a, b) => a !== null && a.replace(YEAR_RE, '$1$2') === b.replace(YEAR_RE, '$1$2');
   outputs.forEach((o) => {
     const target = path.join(OUT, o.file);
     let current = null;
@@ -308,7 +322,7 @@ function build() {
     } catch (err) {
       current = null;
     }
-    if (current !== o.content) {
+    if (CHECK ? !sameExceptYear(current, o.content) : current !== o.content) {
       changed.push(o.file);
       if (!CHECK) {
         fs.mkdirSync(path.dirname(target), { recursive: true });
@@ -372,11 +386,15 @@ function watch() {
     clearTimeout(timer);
     timer = setTimeout(run, 150);
   };
+  const watchTree = (dir) => {
+    fs.watch(dir, onChange);
+    fs.readdirSync(dir, { withFileTypes: true }).filter((e) => e.isDirectory()).forEach((e) => watchTree(path.join(dir, e.name)));
+  };
   ['data', 'src'].forEach((dir) => {
     try {
       fs.watch(path.join(ROOT, dir), { recursive: true }, onChange);
     } catch (err) {
-      fs.watch(path.join(ROOT, dir), onChange);
+      watchTree(path.join(ROOT, dir)); // kein rekursives Beobachten (Linux mit Node.js < 20): Unterordner einzeln
     }
   });
   console.log('… beobachte data/ und src/ (Strg+C beendet)');

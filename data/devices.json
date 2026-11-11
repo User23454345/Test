@@ -145,8 +145,8 @@
         },
         "en": {
           "name": "Sterilisation & hygiene",
-          "short": "Devices for the safe reprocessing of instruments – cleaning, packaging and sterilization.",
-          "description": "The reprocessing of medical devices follows a fixed sequence: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are cleaned and disinfected automatically in a washer-disinfector, then inspected, packaged, sealed and sterilized in a steam sterilizer. Every step must be validated and documented, because gaps in reprocessing endanger patients and breach legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
+          "short": "Devices for the safe reprocessing of instruments – cleaning, packaging and sterilisation.",
+          "description": "The reprocessing of medical devices follows a fixed sequence: after pre-cleaning – with pre-treatment in an ultrasonic bath if required – instruments are cleaned and disinfected automatically in a washer-disinfector, then inspected, packaged, sealed and sterilised in a steam steriliser. Every step must be validated and documented, because gaps in reprocessing endanger patients and breach legal requirements. This section explains the key reprocessing devices and shows what to look for in selection and procurement."
         },
         "ar": {
           "name": "التعقيم والنظافة الصحية",
@@ -1088,7 +1088,8 @@
             "Haematology",
             "Cell counter",
             "Differential count",
-            "5-part diff"
+            "5-part diff",
+            "Hematology"
           ]
         },
         "ar": {
@@ -1288,7 +1289,8 @@
             "Photometer",
             "Serum analysis",
             "Electrolytes",
-            "Chemistry analyzer"
+            "Chemistry analyzer",
+            "Chemistry analyser"
           ]
         },
         "ar": {
@@ -1815,7 +1817,7 @@
             },
             {
               "term": "Kapnografie",
-              "text": "Kontinuierliche Messung des Kohlendioxidgehalts in der Ausatemluft (etCO2) zur Überwachung von Beatmung und Kreislauf."
+              "text": "Kontinuierliche Messung des Kohlendioxids in der Ausatemluft (etCO2); sie bestätigt die korrekte Tubuslage und überwacht Beatmung und Kreislauf."
             }
           ],
           "keywords": [
@@ -1879,7 +1881,7 @@
             },
             {
               "term": "Capnography",
-              "text": "Continuous measurement of the carbon dioxide content in exhaled air (etCO2) to monitor ventilation and circulation."
+              "text": "Continuous measurement of carbon dioxide in exhaled air (etCO2); it confirms correct tube placement and monitors ventilation and circulation."
             }
           ],
           "keywords": [
@@ -1943,7 +1945,7 @@
             },
             {
               "term": "تخطيط ثاني أكسيد الكربون (Capnography)",
-              "text": "قياس مستمر لمحتوى ثاني أكسيد الكربون في هواء الزفير (etCO2) لمراقبة التهوية والدورة الدموية."
+              "text": "قياس مستمر لثاني أكسيد الكربون في هواء الزفير (etCO2)؛ يؤكد الموضع الصحيح للأنبوب الرغامي ويراقب التهوية والدورة الدموية."
             }
           ],
           "keywords": [
@@ -2615,7 +2617,7 @@
             },
             {
               "term": "Kapnografie",
-              "text": "Kontinuierliche Messung des Kohlendioxids in der Ausatemluft; sie bestätigt die korrekte Tubuslage und zeigt die Qualität der Beatmung."
+              "text": "Kontinuierliche Messung des Kohlendioxids in der Ausatemluft (etCO2); sie bestätigt die korrekte Tubuslage und überwacht Beatmung und Kreislauf."
             }
           ],
           "keywords": [
@@ -2679,7 +2681,7 @@
             },
             {
               "term": "Capnography",
-              "text": "Continuous measurement of carbon dioxide in exhaled air; it confirms correct tube placement and shows the quality of ventilation."
+              "text": "Continuous measurement of carbon dioxide in exhaled air (etCO2); it confirms correct tube placement and monitors ventilation and circulation."
             }
           ],
           "keywords": [
@@ -2688,7 +2690,10 @@
             "Anaesthesia",
             "Ventilation",
             "Vaporizer",
-            "Circle system"
+            "Circle system",
+            "Anesthesia workstation",
+            "Anesthesia machine",
+            "Anesthesia"
           ]
         },
         "ar": {
@@ -2743,7 +2748,7 @@
             },
             {
               "term": "تخطيط ثاني أكسيد الكربون (Capnography)",
-              "text": "قياس مستمر لثاني أكسيد الكربون في هواء الزفير؛ يؤكد الموضع الصحيح للأنبوب الرغامي ويبيّن جودة التهوية."
+              "text": "قياس مستمر لثاني أكسيد الكربون في هواء الزفير (etCO2)؛ يؤكد الموضع الصحيح للأنبوب الرغامي ويراقب التهوية والدورة الدموية."
             }
           ],
           "keywords": [
@@ -4088,7 +4093,9 @@
             "Renal replacement therapy",
             "Haemodiafiltration",
             "HDF",
-            "Kidney machine"
+            "Kidney machine",
+            "Hemodialysis",
+            "Hemodiafiltration"
           ]
         },
         "ar": {
@@ -4806,7 +4813,7 @@
           "glossary": [
             {
               "term": "Fraktioniertes Vorvakuum",
-              "text": "Mehrfaches Evakuieren und Bedampfen der Kammer vor der Sterilisation, um Luft vollständig zu entfernen."
+              "text": "Mehrfaches Abpumpen der Luft im Wechsel mit Dampfeinlass vor der Sterilisation; Voraussetzung dafür, dass Dampf auch enge Hohlräume vollständig erreicht."
             },
             {
               "term": "Helix-Test",
@@ -4869,7 +4876,7 @@
           "glossary": [
             {
               "term": "Fractionated pre-vacuum",
-              "text": "Repeated evacuation and steam flushing of the chamber before sterilisation to remove air completely."
+              "text": "Repeated evacuation of air alternating with steam admission before sterilisation; a prerequisite for steam to fully reach narrow cavities."
             },
             {
               "term": "Helix test",
@@ -4886,7 +4893,9 @@
             "class B",
             "steam sterilization",
             "pre-vacuum",
-            "instrument reprocessing"
+            "instrument reprocessing",
+            "steriliser",
+            "steam sterilisation"
           ]
         },
         "ar": {
@@ -4931,8 +4940,8 @@
           ],
           "glossary": [
             {
-              "term": "التفريغ المسبق المجزأ",
-              "text": "تفريغ الحجرة وملؤها بالبخار عدة مرات قبل التعقيم لإزالة الهواء بالكامل."
+              "term": "التفريغ المسبق المجزّأ",
+              "text": "سحب الهواء عدة مرات بالتناوب مع إدخال البخار قبل التعقيم؛ وهو شرط ليصل البخار بالكامل إلى التجاويف الضيقة."
             },
             {
               "term": "اختبار هيليكس",
@@ -5025,12 +5034,12 @@
           ]
         },
         "en": {
-          "name": "Steam Sterilizer (Autoclave)",
-          "subtitle": "Sterilization with saturated steam under pressure",
-          "short": "Steam sterilizers (autoclaves) use saturated, pressurized steam to destroy all microorganisms including spores on packaged instruments and are the standard sterilization method in hospitals and practices.",
+          "name": "Steam steriliser (autoclave)",
+          "subtitle": "Sterilisation with saturated steam under pressure",
+          "short": "Steam sterilisers (autoclaves) use saturated, pressurised steam to destroy all microorganisms including spores on packaged instruments and are the standard sterilisation method in hospitals and practices.",
           "how": [
-            "Air is first removed from the sterilization chamber, in class B devices by a fractionated pre-vacuum with several evacuation and steam pulses. Only in this way can the steam also penetrate hollow items such as tubing and handpieces as well as porous textiles. Pure steam is then admitted until pressure and temperature reach the set point.",
-            "The actual sterilization takes place at 134 °C and about 2 bar gauge pressure for at least three minutes, or at 121 °C for at least 15 minutes. The hot, moist steam condenses on the load, transfers its energy and denatures the proteins of the microorganisms. The combination of temperature, moisture, pressure and time is decisive, so the device monitors all parameters continuously.",
+            "Air is first removed from the sterilisation chamber, in class B devices by a fractionated pre-vacuum with several evacuation and steam pulses. Only in this way can the steam also penetrate hollow items such as tubing and handpieces as well as porous textiles. Pure steam is then admitted until pressure and temperature reach the set point.",
+            "The actual sterilisation takes place at 134 °C and about 2 bar gauge pressure for at least three minutes, or at 121 °C for at least 15 minutes. The hot, moist steam condenses on the load, transfers its energy and denatures the proteins of the microorganisms. The combination of temperature, moisture, pressure and time is decisive, so the device monitors all parameters continuously.",
             "After the holding time the steam is released and the load is dried in a post-vacuum so that the packaging stays dry and thus maintains its microbial barrier. Every cycle is recorded with its pressure, temperature and time profile, and batch monitoring, helix test and Bowie-Dick test additionally prove steam penetration. This release documentation is mandatory and must be retained."
           ],
           "use": [
@@ -5038,12 +5047,12 @@
             "Reprocessing room in medical practices and outpatient clinics",
             "Dental practices (benchtop autoclaves)",
             "Laboratories and nursing facilities",
-            "Sterilization of textiles, hollow items and packaged instrument sets"
+            "Sterilisation of textiles, hollow items and packaged instrument sets"
           ],
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIa (sterilizer for medical devices, MDR Rule 16)"
+              "value": "IIa (steriliser for medical devices, MDR Rule 16)"
             },
             {
               "label": "Typical settings",
@@ -5051,7 +5060,7 @@
             },
             {
               "label": "Space requirement",
-              "value": "Benchtop unit with a footprint from approx. 50 × 60 cm; large sterilizers as pass-through installations between the clean and sterile sides"
+              "value": "Benchtop unit with a footprint from approx. 50 × 60 cm; large sterilisers as pass-through installations between the clean and sterile sides"
             },
             {
               "label": "Typical service life",
@@ -5059,8 +5068,8 @@
             }
           ],
           "procurement": [
-            "Match device class and chamber volume to the volume of goods to be sterilized: class B according to EN 13060 for packaged hollow items and textiles in practices, large sterilizers according to EN 285 for the CSSD; the chamber size should cover the daily volume with some capacity to spare.",
-            "Check water and power supply: autoclaves need demineralized or distilled water (treatment unit or canisters), depending on the model a drain connection or a waste-water tank and, depending on size, three-phase power and adequate room ventilation because of the heat output.",
+            "Match device class and chamber volume to the volume of goods to be sterilised: class B according to EN 13060 for packaged hollow items and textiles in practices, large sterilisers according to EN 285 for the CSSD; the chamber size should cover the daily volume with some capacity to spare.",
+            "Check water and power supply: autoclaves need demineralised or distilled water (treatment unit or canisters), depending on the model a drain connection or a waste-water tank and, depending on size, three-phase power and adequate room ventilation because of the heat output.",
             "Documentation and interfaces: batch documentation via USB, network or printer, ideally linked to instrument tracking or practice management software, simplifies release and compliance with record-keeping obligations.",
             "Plan for validation: after installation, a performance qualification by a qualified service provider is required, followed by regular, usually annual, requalification; include these costs in the overall calculation.",
             "Budget for the service contract and consumables: door seals, filters, water treatment cartridges, indicators and process challenge devices are running costs; set maintenance intervals and response times in the contract and ensure staff receive documented user training."
@@ -5068,7 +5077,7 @@
           "glossary": [
             {
               "term": "Fractionated pre-vacuum",
-              "text": "Repeated evacuation of air alternating with steam admission before sterilization; a prerequisite for steam to fully reach narrow cavities."
+              "text": "Repeated evacuation of air alternating with steam admission before sterilisation; a prerequisite for steam to fully reach narrow cavities."
             },
             {
               "term": "Bowie-Dick test",
@@ -5076,7 +5085,7 @@
             },
             {
               "term": "Batch (load)",
-              "text": "All items of one sterilization cycle; they are documented, checked and released together."
+              "text": "All items of one sterilisation cycle; they are documented, checked and released together."
             }
           ],
           "keywords": [
@@ -5085,7 +5094,9 @@
             "Class B",
             "Steam sterilization",
             "CSSD",
-            "Sterile goods"
+            "Sterile goods",
+            "Steriliser",
+            "Steam sterilisation"
           ]
         },
         "ar": {
@@ -5225,12 +5236,12 @@
           ]
         },
         "en": {
-          "name": "Washer-Disinfector (WD)",
+          "name": "Washer-disinfector (WD)",
           "subtitle": "Automated cleaning and thermal disinfection",
           "short": "Washer-disinfectors clean and disinfect instruments automatically in a validated programme and thus replace error-prone manual reprocessing.",
           "how": [
             "The instruments are placed in the chamber in mesh baskets or on special loading carts, and hollow instruments are connected to flushing adapters so that they are flushed internally. The programme starts with a cold-water pre-rinse that loosens blood and tissue residues before heat could coagulate them.",
-            "In the cleaning phase, warm water with a usually alkaline or enzymatic detergent circulates through the chamber via spray arms. Intermediate rinses follow and, if necessary, neutralization with an acidic agent. For thermal disinfection, the demineralized rinse water is heated to 90 to 93 °C and held for a few minutes, which corresponds to a defined A0 value, usually 3000.",
+            "In the cleaning phase, warm water with a usually alkaline or enzymatic detergent circulates through the chamber via spray arms. Intermediate rinses follow and, if necessary, neutralisation with an acidic agent. For thermal disinfection, the demineralised rinse water is heated to 90 to 93 °C and held for a few minutes, which corresponds to a defined A0 value, usually 3000.",
             "Finally, a hot-air blower dries the load so that it can be inspected and packaged immediately. All programme parameters such as temperature, time and dosing quantity are recorded and stored as a batch record. Validation according to EN ISO 15883 demonstrates that the device reproducibly achieves the required result with the loads and chemicals used."
           ],
           "use": [
@@ -5238,7 +5249,7 @@
             "Reprocessing room in surgical and dental practices",
             "Endoscopy departments with special endoscope washer-disinfectors for flexible endoscopes (chemo-thermal disinfection at lower temperature)",
             "Reprocessing of anaesthesia and ventilation accessories",
-            "Cleaning of sterilization containers and theatre shoes in large chamber units"
+            "Cleaning of sterilisation containers and theatre shoes in large chamber units"
           ],
           "facts": [
             {
@@ -5260,8 +5271,8 @@
           ],
           "procurement": [
             "Define capacity and loading systems: the number of mesh baskets per cycle and inserts for hollow instruments, dental handpieces, anaesthesia accessories or instruments for minimally invasive surgery determine whether the device fits the actual instrument inventory.",
-            "Plan room and connections: cold, hot and demineralized water, a temperature-resistant drain, three-phase power and, for pass-through units, a structural separation into dirty and clean sides; take exhaust air and heat load in the room into account.",
-            "Process chemicals and dosing: detergent, neutralizer and rinse aid must be matched to the device and the instrument materials; automatic dosing pumps with level monitoring prevent faulty cycles.",
+            "Plan room and connections: cold, hot and demineralised water, a temperature-resistant drain, three-phase power and, for pass-through units, a structural separation into dirty and clean sides; take exhaust air and heat load in the room into account.",
+            "Process chemicals and dosing: detergent, neutraliser and rinse aid must be matched to the device and the instrument materials; automatic dosing pumps with level monitoring prevent faulty cycles.",
             "Plan for validation according to EN ISO 15883 and regular performance qualification, including process challenge devices for cleaning performance and protein detection; without a current validation, the batch may not be released.",
             "Documentation, service and training: archive batch records digitally, check integration with instrument tracking systems, agree on a service contract with maintenance and spare parts, and provide staff with user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
           ],
@@ -5307,7 +5318,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIa؛ وIIb إذا كان تطهير الأجهزة الباضعة (مثل المناظير المرنة) هو الخطوة الأخيرة في إعادة المعالجة (القاعدة 16 من لائحة MDR)"
+              "value": "IIa؛ والفئة IIb إذا كان تطهير الأجهزة الباضعة (مثل المناظير المرنة) هو الخطوة الأخيرة في إعادة المعالجة (القاعدة 16 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5423,13 +5434,13 @@
           ]
         },
         "en": {
-          "name": "Ultrasonic Cleaner",
+          "name": "Ultrasonic cleaner",
           "subtitle": "Pre-cleaning by cavitation in a liquid bath",
           "short": "Ultrasonic cleaners use high-frequency sound waves in a cleaning bath to loosen even stubborn soil from joints, grooves and cavities of instruments and complement automated reprocessing.",
           "how": [
             "Transducers on the bottom or walls of the stainless-steel tank convert electrical energy into sound waves, usually at frequencies of 35 to 45 kilohertz. These waves generate tiny vacuum bubbles in the cleaning liquid that implode within fractions of a second. This process is called cavitation.",
             "The implosions act like millions of tiny brushes and loosen blood, tissue residues and cement deposits even in places that cannot be reached mechanically, such as joints, serrations and lumens. A detergent in the bath matched to the instrument material supports the process chemically, and heating to about 40 °C improves the effect without fixing proteins.",
-            "The instruments lie open in a mesh basket that keeps them off the tank bottom and are rinsed thoroughly after a few minutes. The ultrasonic bath is a pre-cleaning step: the subsequent disinfection and sterilization take place in the washer-disinfector and the sterilizer. The liquid must be degassed after each fresh fill, and the bath must be changed regularly – usually every working day; effectiveness can be checked with foil or indicator tests."
+            "The instruments lie open in a mesh basket that keeps them off the tank bottom and are rinsed thoroughly after a few minutes. The ultrasonic bath is a pre-cleaning step: the subsequent disinfection and sterilisation take place in the washer-disinfector and the steriliser. The liquid must be degassed after each fresh fill, and the bath must be changed regularly – usually every working day; effectiveness can be checked with foil or indicator tests."
           ],
           "use": [
             "Pre-cleaning of surgical instruments with joints and fine structures",
@@ -5460,7 +5471,7 @@
             "Check the features: an adjustable timer, heating with a temperature limit, a degassing function, a lid to contain aerosols and a drain tap make operation easier and protect staff.",
             "Choose suitable cleaning chemicals: use only detergents approved for ultrasonic use and for the instrument materials (stainless steel, aluminium, plastics) and document the dosing and the in-use time of the bath.",
             "Integrate the ultrasonic step into the validated reprocessing chain: follow the instrument manufacturers' instructions, draw up a work instruction and verify effectiveness regularly with test pieces.",
-            "Expect low purchase costs, but budget for wear parts such as the tank, transducers and lid as well as the ongoing need for detergent and demineralized water; consider noise protection in continuous operation."
+            "Expect low purchase costs, but budget for wear parts such as the tank, transducers and lid as well as the ongoing need for detergent and demineralised water; consider noise protection in continuous operation."
           ],
           "glossary": [
             {
@@ -5502,7 +5513,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "عادةً I (جهاز تنظيف، القاعدة 1 من لائحة MDR)؛ وIIa إذا أعلن المصنّع عن فعالية تطهير (القاعدة 16)"
+              "value": "عادةً I (جهاز تنظيف، القاعدة 1 من لائحة MDR)؛ والفئة IIa إذا أعلن المصنّع عن فعالية تطهير (القاعدة 16)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5618,18 +5629,18 @@
           ]
         },
         "en": {
-          "name": "Heat Sealer for Sterile Packaging",
-          "subtitle": "Sealing sterilization packaging as a microbial barrier",
-          "short": "Heat sealers seal transparent paper-film pouches and reels to form a sterile barrier that is impermeable to microorganisms, so that instruments remain sterile from sterilization until use.",
+          "name": "Heat sealer for sterile packaging",
+          "subtitle": "Sealing sterilisation packaging as a microbial barrier",
+          "short": "Heat sealers seal transparent paper-film pouches and reels to form a sterile barrier that is impermeable to microorganisms, so that instruments remain sterile from sterilisation until use.",
           "how": [
-            "The instruments are placed in a pouch or a reel section cut to length, made of sterilization paper and transparent film. The sealer presses the open end between a heated sealing bar and a counter-pressure bar. The coating of the film melts and bonds permanently with the paper.",
+            "The instruments are placed in a pouch or a reel section cut to length, made of sterilisation paper and transparent film. The sealer presses the open end between a heated sealing bar and a counter-pressure bar. The coating of the film melts and bonds permanently with the paper.",
             "Three parameters are decisive: temperature, contact pressure and sealing time. Only when they are matched to the packaging material does a uniform seal at least six millimetres wide form, without creases, channels or burnt spots. Rotary sealers pull the packaging through the heating zone at a constant speed and are suitable for larger volumes, while bar sealers close each pack individually.",
-            "Modern devices monitor temperature and pressure electronically, report deviations and, if required, print the sterilization date, expiry date and batch number directly on the packaging. The seal can be checked with the ink test or the peel test. According to EN ISO 11607, the sealing process must be validated and checked regularly."
+            "Modern devices monitor temperature and pressure electronically, report deviations and, if required, print the sterilisation date, expiry date and batch number directly on the packaging. The seal can be checked with the ink test or the peel test. According to EN ISO 11607, the sealing process must be validated and checked regularly."
           ],
           "use": [
-            "Packaging instruments before steam sterilization in practices and the CSSD",
+            "Packaging instruments before steam sterilisation in practices and the CSSD",
             "Dental practices for handpieces, burs and single instruments",
-            "Sealing pouches for gas and plasma sterilization",
+            "Sealing pouches for gas and plasma sterilisation",
             "Labelling sterile goods with date and batch"
           ],
           "facts": [
@@ -5654,7 +5665,7 @@
             "Choose the design according to throughput: bar sealers for small practices with few packs per day, rotary sealers with reel holder and cutter for larger reprocessing units.",
             "Look for process parameters that can be validated: devices with monitored temperature, contact pressure and sealing speed, an alarm on deviation and record printout or export meet the requirements of EN ISO 11607 much more easily.",
             "Match packaging material and device: the sealing temperature differs between paper-film packaging and special materials for low-temperature processes; check the manufacturer's material approvals and the availability of consumables.",
-            "Plan for an integrated printer or label printer so that sterilization date, expiry date, batch and packer are documented directly on each pack; this is a prerequisite for traceability.",
+            "Plan for an integrated printer or label printer so that sterilisation date, expiry date, batch and packer are documented directly on each pack; this is a prerequisite for traceability.",
             "Specify annual maintenance and calibration, test equipment for seal inspection (ink test, peel-test strips) and staff training in correct packing and sealing, both contractually and in internal procedures."
           ],
           "glossary": [
@@ -5677,7 +5688,8 @@
             "Rotary sealer",
             "Sterile packaging",
             "Seal",
-            "Sterilization pouch"
+            "Sterilization pouch",
+            "Sterilisation pouch"
           ]
         },
         "ar": {

@@ -120,7 +120,7 @@ function footer(ctx) {
 }
 
 function telHref(phone) {
-  return String(phone || '').replace(/[^+\d]/g, '');
+  return String(phone || '').replace(/\(0\)/g, '').replace(/[^+\d]/g, '');
 }
 
 /** <head>-Angaben für Suchmaschinen und soziale Netzwerke. Absolute Adressen nur, wenn site.json → company.url gesetzt ist. */
@@ -136,9 +136,9 @@ function seoTags(ctx, page) {
   }
   tags.push(`<meta property="og:site_name" content="${esc(text('meta.siteName'))}">`);
   tags.push(`<meta property="og:type" content="${page.ogType || 'website'}">`);
-  tags.push(`<meta property="og:title" content="${esc(page.title)}">`);
-  tags.push(`<meta property="og:description" content="${esc(page.description)}">`);
-  tags.push(`<meta property="og:locale" content="${ctx.langInfo.ogLocale}">`);
+  tags.push(`<meta property="og:title" content="${esc(plain(page.title))}">`);
+  tags.push(`<meta property="og:description" content="${esc(plain(page.description))}">`);
+  if (ctx.langInfo.ogLocale) tags.push(`<meta property="og:locale" content="${esc(ctx.langInfo.ogLocale)}">`);
   if (ctx.baseUrl) {
     tags.push(`<meta property="og:url" content="${esc(ctx.absUrl(ctx.file))}">`);
     tags.push(`<meta property="og:image" content="${esc(ctx.baseUrl + '/assets/img/og-image.jpg')}">`);
@@ -149,9 +149,15 @@ function seoTags(ctx, page) {
   return tags;
 }
 
+/** Unsichtbare Richtungszeichen sind für sichtbaren RTL-Text gedacht – in Metadaten und strukturierten Daten stören sie. */
+function plain(value) {
+  return String(value === null || value === undefined ? '' : value).replace(/[\u200e\u200f\u2066-\u2069]/g, '');
+}
+
 function jsonBlock(type, id, data) {
   // "<" maskieren, damit der Block nie vorzeitig geschlossen werden kann
-  const json = JSON.stringify(data).replace(/</g, '\\u003c');
+  let json = JSON.stringify(data).replace(/</g, '\\u003c');
+  if (type === 'application/ld+json') json = plain(json);
   return `<script type="${type}"${id ? ` id="${id}"` : ''}>${json}</script>`;
 }
 
@@ -177,8 +183,8 @@ function renderDocument(ctx, page) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${esc(page.title)}</title>
-  <meta name="description" content="${esc(page.description)}">
+  <title>${esc(plain(page.title))}</title>
+  <meta name="description" content="${esc(plain(page.description))}">
   <meta http-equiv="Content-Security-Policy" content="${CSP}">
   <meta name="theme-color" content="#0b4f8a">
   ${join(seoTags(ctx, page), '\n  ')}

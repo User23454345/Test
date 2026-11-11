@@ -30,7 +30,12 @@ const ROOT = path.resolve(__dirname, '..');
 const config = require('../src/config');
 const BASE = (process.argv[2] || 'http://127.0.0.1:8080').replace(/\/+$/, '');
 const SHOTS = process.argv[3] || '';
-const devices = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/devices.json'), 'utf8')).devices;
+// Reihenfolge wie im Generator (tools/build.js): Kategorien nach "order", darin Geräte nach "order" – das ist der Lernpfad
+const rawData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/devices.json'), 'utf8'));
+const catOrder = {};
+rawData.categories.slice().sort((a, b) => (a.order || 0) - (b.order || 0)).forEach((c, i) => (catOrder[c.id] = i));
+const devices = rawData.devices.slice().sort((a, b) => catOrder[a.category] - catOrder[b.category] || (a.order || 0) - (b.order || 0));
+const site = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site.json'), 'utf8'));
 
 let failures = 0;
 const fail = (msg) => {
@@ -204,6 +209,10 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   expect(terms > 20 && n > 0 && n < terms, `Glossar: ${terms} Begriffe, Suche "doppler" → ${n}`, `Glossar-Suche fehlerhaft (${terms}/${n})`);
 
   /* 6. Kontaktformular */
+  let mailto = '';
+  page.on('request', (req) => {
+    if (/^mailto:/.test(req.url())) mailto = req.url();
+  });
   await go(config.pages.contact.de);
   await page.click('#contact-form button[type="submit"]');
   n = await page.locator('.field.is-invalid').count();
@@ -219,6 +228,17 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   await page.click('#contact-form button[type="submit"]');
   await page.waitForTimeout(300);
   expect(await page.evaluate(() => !document.getElementById('form-success').hidden && document.getElementById('contact-form').hidden), 'Erfolgsmeldung nach dem Absenden');
+  let draft = mailto;
+  try {
+    draft = decodeURIComponent(mailto);
+  } catch (e) {
+    /* draft bleibt die rohe Adresse */
+  }
+  expect(
+    draft.indexOf('mailto:' + site.owner.email + '?subject=') === 0 && /&body=/.test(mailto) && ['Test Person', 'test@example.com', 'Hallo'].every((part) => draft.indexOf(part) !== -1),
+    'E-Mail-Entwurf enthält Empfänger, Betreff, Absender und Nachricht',
+    'E-Mail-Entwurf fehlerhaft: ' + (mailto || '(kein mailto-Aufruf)')
+  );
   const real = problems.filter((p) => !/mailto|scheme/i.test(p));
   if (real.length) fail('Kontakt: ' + real.join(' | '));
 
@@ -229,6 +249,21 @@ const expect = (cond, good, bad) => (cond ? ok(good) : fail(bad || good));
   const plainInfo = await plain.evaluate(() => ({ sections: document.querySelectorAll('.device-section').length, nav: !!document.querySelector('.nojs-nav a'), dir: document.documentElement.dir }));
   expect(plainInfo.sections >= 4 && plainInfo.nav && plainInfo.dir === 'rtl', 'Ohne JavaScript: arabische Detailseite vollständig lesbar, Navigation vorhanden');
   await noJs.close();
+
+  /* 8. Fehlerseite: nutzt absolute Pfade ab der Wurzel der Webseite – prüfbar, wenn der Testserver unter demselben Pfad ausliefert */
+  const sitePath = site.company && site.company.url ? new URL(String(site.company.url).trim().replace(/\/+$/, '') + '/').pathname : '/';
+  if (new URL(BASE + '/').pathname === sitePath) {
+    await go('404.html');
+    const nf = await page.evaluate(async () => {
+      const urls = Array.from(document.querySelectorAll('[href], [src]'))
+        .map((el) => (el.href || el.src || '').split('#')[0])
+        .filter((u, i, all) => u.indexOf(location.origin + '/') === 0 && all.indexOf(u) === i);
+      const broken = [];
+      for (const u of urls) if (!(await fetch(u, { method: 'HEAD' })).ok) broken.push(u);
+      return { count: urls.length, broken };
+    });
+    expect(nf.count > 10 && !nf.broken.length, `Fehlerseite: ${nf.count} Verweise und Dateien erreichbar`, 'Fehlerseite fehlerhaft: ' + nf.broken.join(' | '));
+  }
 
   await browser.close();
   if (failures) {

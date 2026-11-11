@@ -57,6 +57,7 @@ function compare(a, b, p, lang) {
     if (typeof b !== 'string') return fail(`${lang}.json: kein Text bei ${p}`);
     if (placeholders(a) !== placeholders(b)) fail(`${lang}.json: Platzhalter weichen von de.json ab: ${p}`);
     if (!b.trim()) fail(`${lang}.json: leerer Text bei ${p}`);
+    if (a === b && /\p{L}{4,}\s+\p{L}{4,}\s+\p{L}{3,}/u.test(a)) fail(`${lang}.json: Text ist wortgleich mit de.json (nicht übersetzt?): ${p}`);
   }
 }
 if (LANGS.every((l) => dicts[l])) {
@@ -80,7 +81,7 @@ if (data) {
     if (!c.icon || !fs.existsSync(path.join(ROOT, c.icon))) fail(`Kategorie ${c.id}: Icon fehlt (${c.icon})`);
   });
   const ids = new Set();
-  const range = { how: [2, 3], use: [3, 5], facts: [3, 4], procurement: [3, 5], glossary: [2, 3], keywords: [3, 6] };
+  const range = { how: [2, 3], use: [3, 5], facts: [3, 4], procurement: [3, 5], glossary: [2, 3], keywords: [2, 12] };
   (data.devices || []).forEach((d) => {
     if (ids.has(d.id)) fail(`Doppelte Geräte-ID: ${d.id}`);
     ids.add(d.id);
@@ -129,6 +130,13 @@ try {
 }
 if (manifest) {
   const before = errors;
+  let basePath = '/';
+  try {
+    const siteUrl = String(((readJSON('data/site.json') || {}).company || {}).url || '').trim().replace(/\/+$/, '');
+    if (siteUrl) basePath = new URL(siteUrl + '/').pathname;
+  } catch (err) {
+    /* ungültige Adresse meldet bereits tools/build.js */
+  }
   const pages = manifest.files.filter((f) => /\.html$/.test(f));
   const idCache = {};
   const idsOf = (file) => {
@@ -149,7 +157,11 @@ if (manifest) {
     if (/\sstyle="/.test(html)) fail(`${file}: Inline-Style gefunden (von der Inhaltsrichtlinie blockiert)`);
     if (/<script(?![^>]*\ssrc=)(?![^>]*type="application\/(ld\+)?json")[^>]*>/.test(html)) fail(`${file}: Inline-Skript gefunden (von der Inhaltsrichtlinie blockiert)`);
     if (/\{[\w.]+\}/.test(html.replace(/<script[\s\S]*?<\/script>/g, ''))) fail(`${file}: nicht ersetzter {Platzhalter} im Text`);
-    if (file === '404.html') return; // nutzt absolute Pfade ab der Wurzel der Webseite
+    // Texte für js/site.js: dort werden nur diese Platzhalter ersetzt
+    const jsStrings = html.match(/<script type="application\/json" id="site-strings">([\s\S]*?)<\/script>/);
+    const unknown = jsStrings ? (jsStrings[1].match(/\{[\w.]+\}/g) || []).filter((ph) => ['{count}', '{done}', '{total}', '{name}'].indexOf(ph) === -1) : [];
+    if (unknown.length) fail(`${file}: Platzhalter, den js/site.js nicht kennt: ${unknown.join(', ')}`);
+    const absolute = file === '404.html'; // nutzt absolute Pfade ab der Wurzel der Webseite (inkl. Unterordner aus company.url)
     const re = /\s(?:href|src)="([^"]+)"/g;
     let m;
     while ((m = re.exec(html))) {
@@ -157,7 +169,14 @@ if (manifest) {
       if (/^(https?:|mailto:|tel:|data:)/.test(url)) continue;
       links++;
       const [beforeHash, hash] = url.split('#');
-      const rel = beforeHash.split('?')[0];
+      let rel = beforeHash.split('?')[0];
+      if (absolute && rel) {
+        if (rel.indexOf(basePath) !== 0) {
+          fail(`${file}: Verweis beginnt nicht mit dem Pfad der Webseite (${basePath}): ${url}`);
+          continue;
+        }
+        rel = rel.slice(basePath.length);
+      }
       const target = rel ? path.posix.normalize(path.posix.join(path.posix.dirname(file), rel)) : file;
       if (target.indexOf('..') === 0) {
         fail(`${file}: Link zeigt aus der Webseite heraus: ${url}`);
