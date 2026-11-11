@@ -1200,7 +1200,7 @@
           "procurement": [
             "Definieren Sie Testmenü und Durchsatz: Welche Parameter werden täglich benötigt und wie viele Proben fallen in Spitzenzeiten an?",
             "Achten Sie auf offene oder geschlossene Reagenzsysteme – geschlossene Systeme binden Sie an einen Anbieter, offene erlauben mehr Flexibilität, erfordern aber eine eigene Validierung.",
-            "Klären Sie die Infrastruktur: Anschluss an Reinstwasser und Abwasser, Stromabsicherung, Raumklimatisierung und ausreichend Stellfläche einschließlich Wartungszugang.",
+            "Klären Sie die Infrastruktur: Anschluss an Reinstwasser und Abwasser, abgesicherte Stromversorgung (bei Bedarf mit unterbrechungsfreier Stromversorgung, USV), Raumklimatisierung und ausreichend Stellfläche einschließlich Wartungszugang.",
             "Prüfen Sie die Schnittstellen zum Laborinformationssystem (HL7/ASTM), die Probenidentifikation per Barcode und die Möglichkeit, das Gerät an eine Laborautomation anzubinden.",
             "Planen Sie Reagenzlogistik und Lagerung (Kühlkette, Haltbarkeit), Kontrollmaterial, Servicevertrag sowie die Teilnahme an Ringversuchen gemäß nationalen Vorgaben (in Deutschland: Rili-BÄK)."
           ],
@@ -1264,7 +1264,7 @@
           "procurement": [
             "Define the test menu and throughput: which parameters are needed daily and how many samples arrive during peak times?",
             "Pay attention to open versus closed reagent systems – closed systems tie you to one supplier, open systems allow more flexibility but require your own validation.",
-            "Clarify the infrastructure: connection to purified water and drainage, power backup, room air conditioning and sufficient floor space including maintenance access.",
+            "Clarify the infrastructure: connection to purified water and drainage, a protected power supply (with an uninterruptible power supply, UPS, if required), room air conditioning and sufficient floor space including maintenance access.",
             "Check the interfaces to the laboratory information system (HL7/ASTM), barcode sample identification and the option of connecting the instrument to laboratory automation.",
             "Plan reagent logistics and storage (cold chain, shelf life), control material, a service contract and participation in proficiency testing according to national requirements (in Germany: Rili-BÄK)."
           ],
@@ -1298,7 +1298,7 @@
           "how": [
             "تُعرَّض العينة للطرد المركزي للحصول على المصل أو البلازما، ثم توضع في أنابيب العينات على الجهاز. يسحب ذراع الماصّة آلياً بضعة ميكرولترات ويمزجها مع الكاشف المناسب في خلية قياس (كوفيت). ويغيّر التفاعل الكيميائي لون المحلول أو عكارته.",
             "يُمرِّر مقياس الضوء (الفوتومتر) ضوءاً بأطوال موجية محددة عبر خلية القياس ويقيس مقدار الضوء الممتص. وتتناسب شدة الامتصاص مع تركيز المادة المطلوبة. وباستخدام منحنى معايرة مخزَّن مسبقاً يحوّل الجهاز القراءات إلى تراكيز.",
-            "تُحدَّد الشوارد مثل الصوديوم والبوتاسيوم والكلوريد عادةً بأقطاب انتقائية للأيونات (ISE) تولّد جهداً كهربائياً يتناسب مع تركيز الأيون. وتعالج الأنظمة الحديثة عدة مئات من الاختبارات في الساعة، وتجري ضبط الجودة آلياً، وترسل النتائج إلى نظام معلومات المختبر."
+            "تُحدَّد الشوارد مثل الصوديوم والبوتاسيوم والكلوريد عادةً بأقطاب انتقائية للأيونات (ISE) تولّد جهداً كهربائياً يتوافق مع تركيز الأيون. وتعالج الأنظمة الحديثة عدة مئات من الاختبارات في الساعة، وتجري ضبط الجودة آلياً، وترسل النتائج إلى نظام معلومات المختبر."
           ],
           "use": [
             "المختبرات المركزية في المستشفيات ذات الإنتاجية العالية",
@@ -1328,7 +1328,7 @@
           "procurement": [
             "حدّدوا قائمة الاختبارات والإنتاجية المطلوبة: ما المؤشرات اللازمة يومياً، وكم عدد العينات في أوقات الذروة؟",
             "انتبهوا للفرق بين أنظمة الكواشف المفتوحة والمغلقة؛ فالأنظمة المغلقة تربطكم بمورّد واحد، بينما تتيح الأنظمة المفتوحة مرونة أكبر لكنها تتطلب تحققاً من جانبكم.",
-            "تحققوا من البنية التحتية: توصيل الماء النقي والصرف، وتأمين التغذية الكهربائية، وتكييف الغرفة، ومساحة أرضية كافية تشمل حيّزاً للوصول لأغراض الصيانة.",
+            "تحققوا من البنية التحتية: توصيل الماء النقي والصرف، وتغذية كهربائية مؤمَّنة (مع مزوّد طاقة غير منقطعة UPS عند الحاجة)، وتكييف الغرفة، ومساحة أرضية كافية تشمل حيّزاً للوصول لأغراض الصيانة.",
             "افحصوا الواجهات مع نظام معلومات المختبر (HL7/ASTM)، وتعريف العينات بالباركود، وإمكانية ربط الجهاز بأتمتة المختبر.",
             "خططوا لإمداد الكواشف وتخزينها (سلسلة التبريد ومدة الصلاحية)، ومواد ضبط الجودة، وعقد الصيانة، والمشاركة في اختبارات الكفاءة الخارجية وفق المتطلبات الوطنية (في ألمانيا: Rili-BÄK)."
           ],
@@ -1896,7 +1896,7 @@
           "subtitle": "مراقبة متعددة المعايير للوظائف الحيوية",
           "short": "يسجّل جهاز مراقبة المريض عدة علامات حيوية في آن واحد، ويعرضها على شكل منحنيات وقيم رقمية، ويطلق إنذاراً عند تجاوز الحدود المضبوطة. وهو جهاز المراقبة المركزي في وحدات العناية المركزة وغرف العمليات وأقسام الطوارئ.",
           "how": [
-            "يلتقط الجهاز إشارات القياس مباشرة من المريض عبر الأقطاب الكهربائية والمستشعرات وأكمام قياس الضغط. وتشمل المعايير النموذجية تخطيط القلب (ECG) مع معدل ضربات القلب، وتشبّع الأكسجين (SpO2)، وضغط الدم غير الباضع (NIBP)، ومعدل التنفس، ودرجة حرارة الجسم. ويمكن حسب التجهيز إضافة ضغط الدم الباضع أو قياس ثاني أكسيد الكربون في هواء الزفير (etCO2) أو النتاج القلبي.",
+            "يلتقط الجهاز إشارات القياس مباشرة من المريض عبر الأقطاب الكهربائية والمستشعرات وأكمام قياس الضغط. وتشمل المعايير النموذجية تخطيط القلب (ECG) مع معدل ضربات القلب، وتشبّع الأكسجين (SpO2)، وضغط الدم غير الباضع (NIBP)، ومعدل التنفس، ودرجة حرارة الجسم. ويمكن حسب التجهيز إضافة ضغط الدم الباضع أو تخطيط ثاني أكسيد الكربون (etCO2) أو النتاج القلبي.",
             "تُعالج الإشارات رقمياً وتُعرض على شكل منحنيات وقيم رقمية، وتُقارن بحدود إنذار قابلة للضبط. وعند تجاوز هذه الحدود صعوداً أو هبوطاً يصدر الجهاز إنذارات بصرية وصوتية بدرجات أولوية متفاوتة. كما تُظهر عروض الاتجاهات الزمنية مسار القيم على مدى ساعات، مما يسهّل التقييم.",
             "كثير من الأجهزة ذات بنية معيارية، إذ يمكن إدخال وحدات القياس أو إزالتها حسب الحاجة. وعبر اتصال شبكي يمكن نقل البيانات إلى محطة مراقبة مركزية وإلى نظام إدارة بيانات المرضى، بحيث يتابع الطاقم عدة أسرّة في الوقت نفسه."
           ],
@@ -2130,7 +2130,7 @@
             "تحققوا من جودة برنامج التفسير ومن إمكانية استدعاء تخطيطات سابقة للمقارنة.",
             "وضّحوا نظام الأقطاب: الأقطاب اللاصقة تسبب تكاليف جارية، بينما توفر أقطاب الشفط أو أحزمة الأقطاب الوقت عند ارتفاع عدد المرضى.",
             "انتبهوا إلى التشغيل بالبطارية والوزن إذا كان الجهاز يُنقل بين الغرف أو في القسم، وإلى ملاءمته لتخطيط القلب بالجهد إن كان ذلك مخططاً.",
-            "خططوا لتدريب الطاقم، والصيانة والفحوصات وفق تعليمات المصنّع، وعقد صيانة؛ ففي ألمانيا لا يُعدّ الفحص المترولوجي (MTK) وفق لائحة MPBetreibV إلزامياً لأجهزة تخطيط القلب، لكنه مطلوب كل سنتين لجهاز قياس الجهد (الإرغومتر) المتصل بها. والورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية."
+            "خططوا لتدريب الطاقم، والصيانة والفحوصات وفق تعليمات المصنّع، وعقد صيانة؛ ففي ألمانيا لا يُعدّ الفحص المترولوجي (MTK) وفق لائحة MPBetreibV إلزامياً لأجهزة تخطيط القلب، لكنه مطلوب كل سنتين لجهاز قياس الجهد بالدراجة (إرغومتر الدراجة) المتصل بها. والورق الحراري وكابلات المريض من قطع الاستهلاك النموذجية."
           ],
           "glossary": [
             {
@@ -2182,7 +2182,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "IIa"
+              "value": "IIa oder IIb – je nach Zweckbestimmung (kontinuierliche Überwachung mit Alarmfunktion in der Regel IIb)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -2246,7 +2246,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIa"
+              "value": "IIa or IIb – depending on intended purpose (continuous monitoring with alarm function usually IIb)"
             },
             {
               "label": "Typical settings",
@@ -2310,7 +2310,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIa"
+              "value": "IIa أو IIb – بحسب الغرض المقصود (المراقبة المستمرة مع وظيفة الإنذار عادةً IIb)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -3066,7 +3066,7 @@
             "Evaluate the imaging chain as a whole: resolution (Full HD, 4K), LED light source, monitor size and signal transmission must match each other; a 4K monitor is of little use without a matching camera and telescope.",
             "Plan for reprocessing: flexible endoscopes require a validated cleaning and disinfection process (endoscope washer-disinfector) in line with Section 8 of the German MPBetreibV and the KRINKO/BfArM recommendation, drying cabinets and leak tests; endoscope repairs are a major cost factor.",
             "Consider consumables and spares: carbon dioxide for the insufflator, irrigation fluid, single-use instruments and spare telescopes so that surgery can continue while items are being repaired.",
-            "Clarify documentation and interfaces: image and video export to the PACS or hospital information system, integration into the operating room control system and user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
+            "Clarify documentation and interfaces: image and video export to the PACS or hospital information system, integration into the operating theatre control system and user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
           ],
           "glossary": [
             {
@@ -3079,7 +3079,7 @@
             },
             {
               "term": "Cold light source",
-              "text": "Powerful light source (today usually LED) whose light is guided into the endoscope through a fibre-optic cable without heating the tissue."
+              "text": "Powerful light source (today usually LED) whose light is guided into the endoscope through a fibre-optic cable; the infrared component is largely filtered out so that the tissue is hardly heated – the end of the light cable and the tip of the endoscope can nevertheless become hot."
             }
           ],
           "keywords": [
@@ -3166,10 +3166,10 @@
         "de": {
           "name": "OP-Leuchte",
           "subtitle": "Schattenarmes, farbtreues Licht für das Operationsfeld",
-          "short": "OP-Leuchten beleuchten das Operationsfeld hell, schattenarm und farbtreu, ohne das Gewebe zu erwärmen; sie sind an Decke, Wand oder Stativ montiert und frei positionierbar.",
+          "short": "OP-Leuchten beleuchten das Operationsfeld hell, schattenarm und farbtreu, ohne das Gewebe nennenswert zu erwärmen; sie sind an Decke, Wand oder Stativ montiert und frei positionierbar.",
           "how": [
             "Eine OP-Leuchte bündelt das Licht vieler einzelner Lichtquellen – heute fast ausschließlich LEDs – aus verschiedenen Winkeln auf das Operationsfeld. Dadurch wird ein Schatten, den Kopf oder Hände des Operateurs werfen, von den übrigen Lichtquellen ausgeglichen (Schattenmanagement). Reflektoren und Linsen formen ein homogenes Lichtfeld mit hoher Beleuchtungsstärke, dessen Durchmesser und Tiefe einstellbar sind.",
-            "Farbtemperatur und Farbwiedergabe sind so gewählt, dass Gewebe, Gefäße und Blut natürlich erscheinen und feine Farbunterschiede erkennbar bleiben. Weil LEDs kaum Infrarotanteile abgeben, erwärmen sie weder das Operationsfeld noch den Kopf des Operateurs. Die Helligkeit lässt sich dimmen, und viele Leuchten bieten einen Endo-Modus mit reduziertem Licht für endoskopische Eingriffe.",
+            "Farbtemperatur und Farbwiedergabe sind so gewählt, dass Gewebe, Gefäße und Blut natürlich erscheinen und feine Farbunterschiede erkennbar bleiben. Weil LEDs kaum Infrarotanteile abgeben, erwärmen sie das Operationsfeld und den Kopf des Operateurs nur wenig. Die Helligkeit lässt sich dimmen, und viele Leuchten bieten einen Endo-Modus mit reduziertem Licht für endoskopische Eingriffe.",
             "Die Leuchtenkörper hängen an mehrgelenkigen Tragarmen, die eine Positionierung in alle Richtungen bei sicherem Halt erlauben. Sterilisierbare Handgriffe ermöglichen dem OP-Team das Ausrichten ohne Verlust der Sterilität. Optional lassen sich Kamera- und Monitormodule integrieren, um das Operationsfeld für Lehre und Dokumentation aufzuzeichnen."
           ],
           "use": [
@@ -3230,10 +3230,10 @@
         "en": {
           "name": "Surgical light",
           "subtitle": "Low-shadow, colour-accurate light for the surgical field",
-          "short": "Surgical lights illuminate the surgical field brightly, with minimal shadows and accurate colours, without heating the tissue; they are mounted on the ceiling, wall or a stand and can be positioned freely.",
+          "short": "Surgical lights illuminate the surgical field brightly, with minimal shadows and accurate colours, without appreciably heating the tissue; they are mounted on the ceiling, wall or a stand and can be positioned freely.",
           "how": [
             "A surgical light focuses the light of many individual light sources – today almost exclusively LEDs – from different angles onto the surgical field. As a result, a shadow cast by the surgeon's head or hands is compensated by the remaining light sources (shadow management). Reflectors and lenses form a homogeneous light field of high illuminance whose diameter and depth can be adjusted.",
-            "Colour temperature and colour rendering are chosen so that tissue, vessels and blood appear natural and fine colour differences remain visible. Because LEDs emit hardly any infrared, they heat neither the surgical field nor the surgeon's head. The brightness can be dimmed, and many lights offer an endo mode with reduced light for endoscopic procedures.",
+            "Colour temperature and colour rendering are chosen so that tissue, vessels and blood appear natural and fine colour differences remain visible. Because LEDs emit hardly any infrared, they heat the surgical field and the surgeon's head only slightly. The brightness can be dimmed, and many lights offer an endo mode with reduced light for endoscopic procedures.",
             "The light heads hang on multi-jointed support arms that allow positioning in all directions while holding securely. Sterilisable handles allow the surgical team to adjust the light without breaking sterility. Optionally, camera and monitor modules can be integrated to record the surgical field for teaching and documentation."
           ],
           "use": [
@@ -3294,10 +3294,10 @@
         "ar": {
           "name": "مصباح العمليات",
           "subtitle": "إضاءة قليلة الظلال ودقيقة الألوان لحقل الجراحة",
-          "short": "تضيء مصابيح العمليات حقل الجراحة بسطوع عالٍ وظلال قليلة وألوان دقيقة من دون تسخين الأنسجة؛ وتُثبَّت في السقف أو الجدار أو على حامل متنقل ويمكن توجيهها بحرية.",
+          "short": "تضيء مصابيح العمليات حقل الجراحة بسطوع عالٍ وظلال قليلة وألوان دقيقة من دون تسخين يُذكر للأنسجة؛ وتُثبَّت في السقف أو الجدار أو على حامل متنقل ويمكن توجيهها بحرية.",
           "how": [
             "يركّز مصباح العمليات ضوء العديد من مصادر الضوء المنفردة – وهي اليوم تكاد تقتصر على مصابيح LED – من زوايا مختلفة على حقل الجراحة. وبذلك يُعوَّض الظل الذي يلقيه رأس الجرّاح أو يداه بمصادر الضوء المتبقية (إدارة الظلال). وتشكّل العاكسات والعدسات حقل ضوء متجانسًا بشدة إضاءة عالية يمكن ضبط قطره وعمقه.",
-            "تُختار درجة حرارة اللون ومؤشر تجسيد الألوان بحيث تبدو الأنسجة والأوعية والدم طبيعية وتبقى الفروق اللونية الدقيقة مرئية. ولأن مصابيح LED لا تصدر إلا قدرًا ضئيلًا من الأشعة تحت الحمراء، فإنها لا تسخّن حقل الجراحة ولا رأس الجرّاح. ويمكن تخفيف السطوع، وتوفّر مصابيح كثيرة نمط تنظير بإضاءة مخفّضة للعمليات بالمنظار.",
+            "تُختار درجة حرارة اللون ومؤشر تجسيد الألوان بحيث تبدو الأنسجة والأوعية والدم طبيعية وتبقى الفروق اللونية الدقيقة مرئية. ولأن مصابيح LED لا تصدر إلا قدرًا ضئيلًا من الأشعة تحت الحمراء، فإنها لا تكاد تسخّن حقل الجراحة ولا رأس الجرّاح. ويمكن تخفيف السطوع، وتوفّر مصابيح كثيرة نمط تنظير بإضاءة مخفّضة للعمليات بالمنظار.",
             "تتدلى رؤوس المصباح من أذرع حاملة متعددة المفاصل تتيح التوجيه في جميع الاتجاهات مع ثبات آمن. وتتيح المقابض القابلة للتعقيم لفريق الجراحة توجيه المصباح من دون الإخلال بالتعقيم. ويمكن اختياريًا دمج وحدات كاميرا وشاشة لتسجيل حقل الجراحة لأغراض التعليم والتوثيق."
           ],
           "use": [
@@ -3666,7 +3666,7 @@
             "Check consumable compatibility: many pumps require proprietary infusion sets, which determines the running costs for years.",
             "Look for a centrally maintained drug library and a uniform user interface throughout the facility to avoid operating errors.",
             "Clarify interfaces (for example with the PDMS or alarm forwarding) and whether docking stations with a shared power supply make sense.",
-            "Plan for the instruction of all users as required by the operator regulations for medical devices (in Germany the MPBetreibV), periodic safety inspections (STK) and battery replacement as part of the service contract."
+            "Plan for the instruction of all users under the German Medical Devices Operator Ordinance (MPBetreibV), periodic safety inspections (STK) and battery replacement as part of the service contract."
           ],
           "glossary": [
             {
@@ -3866,7 +3866,7 @@
             "Check the range of functions (cardioversion, pacing, compression feedback, monitoring) and whether electrodes and accessories are compatible with devices already in use.",
             "Budget for consumables with expiry dates: electrode pads and batteries must be replaced regularly; a system for tracking expiry dates is advisable.",
             "Look for self-test functions and status indicators so that readiness for use is visible without manual checks.",
-            "Plan for regular resuscitation training, user instruction as required by the operator regulations for medical devices (in Germany the MPBetreibV) and periodic safety inspections (STK); the location should be clearly visible and quickly accessible."
+            "Plan for regular resuscitation training, user instruction under the German Medical Devices Operator Ordinance (MPBetreibV) and periodic safety inspections (STK); the location should be clearly visible and quickly accessible."
           ],
           "glossary": [
             {
@@ -4066,7 +4066,7 @@
             "Clarify the required procedures (haemodialysis, online haemodiafiltration, continuous procedures for intensive care) and suitability for home dialysis.",
             "Consider the running costs of dialysers, tubing sets, concentrates and disinfectants; over the service life they often exceed the purchase price of the machine.",
             "Pay attention to interfaces with dialysis documentation software and to standardised operating concepts when several machines are run.",
-            "Agree on a service contract, periodic safety inspections (STK) as required by the operator regulations for medical devices and microbiological monitoring of water quality, and provide structured training for nursing staff."
+            "Agree on a service contract, periodic safety inspections (STK) under the German Medical Devices Operator Ordinance (MPBetreibV) and microbiological monitoring of water quality, and provide structured training for nursing staff."
           ],
           "glossary": [
             {
@@ -4130,7 +4130,7 @@
             "وضّحوا الإجراءات المطلوبة (الديلزة الدموية، الديلزة الدموية الترشيحية المباشرة (Online-HDF)، الإجراءات المستمرة للعناية المركزة) ومدى الملاءمة لغسيل الكلى المنزلي.",
             "ضعوا في الاعتبار التكاليف الجارية للديالات (المرشحات) وأطقم الأنابيب والمركّزات والمطهرات؛ فهي غالباً ما تتجاوز سعر الجهاز على مدى عمره التشغيلي.",
             "انتبهوا إلى الواجهات مع برامج توثيق غسيل الكلى وإلى مفاهيم التشغيل الموحدة عند تشغيل عدة أجهزة.",
-            "اتفقوا على عقد صيانة، وفحوصات فنية دورية للسلامة (STK) وفق لوائح تشغيل الأجهزة الطبية، ومراقبة ميكروبيولوجية لجودة الماء، ودرّبوا طاقم التمريض تدريباً منظماً."
+            "اتفقوا على عقد صيانة، وفحوصات فنية دورية للسلامة (STK) وفق لائحة تشغيل الأجهزة الطبية (في ألمانيا: MPBetreibV)، ومراقبة ميكروبيولوجية لجودة الماء، ودرّبوا طاقم التمريض تدريباً منظماً."
           ],
           "glossary": [
             {
@@ -4465,7 +4465,7 @@
             "Decide early whether you need a pure 2D panoramic function or an upgradable unit with cephalometric (ceph) or 3D (CBCT) capability – retrofitting is often more expensive than a combined solution from the outset.",
             "Plan radiation protection: the installation room usually requires structural shielding, an expert inspection and notification to or approval from the competent authority (in Germany under the Radiation Protection Act and Ordinance).",
             "Check the interfaces to your practice management software and image archive (DICOM, PACS connection) so that images can be stored and shared seamlessly between systems.",
-            "Account for ongoing obligations such as constancy tests, recurring expert inspections, the required radiation protection qualifications for practitioners and assisting staff, and documentation of exposures.",
+            "Account for ongoing obligations such as constancy tests, recurring expert inspections, the specialist qualification in radiation protection for practitioners, the required knowledge of radiation protection for assisting staff, and documentation of exposures.",
             "Look for positioning aids, paediatric programmes and low-dose exposure programmes – they improve image quality and radiation protection in daily use."
           ],
           "glossary": [
@@ -4518,7 +4518,7 @@
             },
             {
               "label": "المساحة المطلوبة",
-              "value": "غرفة أشعة مستقلة أو ركن مزوّد بتدريع واقٍ؛ متطلبات الوقاية من الإشعاع وفق التشريعات الوطنية"
+              "value": "غرفة أشعة مستقلة أو ركن مزوّد بتدريع واقٍ؛ متطلبات الحماية من الإشعاع وفق التشريعات الوطنية"
             },
             {
               "label": "مدة الاستخدام النموذجية",
@@ -4527,9 +4527,9 @@
           ],
           "procurement": [
             "قرر مبكراً ما إذا كنت تحتاج إلى وظيفة بانورامية ثنائية الأبعاد فقط أم إلى جهاز قابل للترقية بذراع التصوير السيفالومتري (Ceph) أو وظيفة ثلاثية الأبعاد (CBCT) – فالترقية اللاحقة غالباً أغلى من الحل المدمج منذ البداية.",
-            "خطط للوقاية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها (في ألمانيا وفق قانون ولائحة الوقاية من الإشعاع).",
+            "خطط للحماية من الإشعاع: تحتاج غرفة التركيب عادةً إلى تدريع إنشائي وفحص من خبير معتمد وإخطار الجهة المختصة أو الحصول على ترخيص منها (في ألمانيا وفق قانون ولائحة الحماية من الإشعاع).",
             "تحققوا من الواجهات مع برنامج إدارة العيادة وأرشيف الصور (DICOM، الربط بنظام PACS) حتى يمكن تخزين الصور ومشاركتها دون انقطاع في تدفق البيانات.",
-            "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية والمؤهلات المطلوبة في الوقاية من الإشعاع للأطباء والكادر المساعد، وتوثيق الصور.",
+            "ضع في الحسبان الالتزامات المستمرة مثل اختبارات الثبات وفحوصات الخبراء الدورية، والتأهيل التخصصي في الحماية من الإشعاع للأطباء، والمعارف المطلوبة في الحماية من الإشعاع للكادر المساعد، وتوثيق الصور.",
             "احرصوا على وجود أدوات المساعدة في تحديد الوضعية وبرامج الأطفال وبرامج التصوير بجرعة منخفضة – فهي تحسّن جودة الصورة والحماية من الإشعاع في الاستخدام اليومي."
           ],
           "glossary": [
@@ -4781,7 +4781,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "IIa (Gerät zur Sterilisation von Medizinprodukten, MDR-Regel 15)"
+              "value": "IIa (Gerät zur Sterilisation von Medizinprodukten, MDR-Regel 16)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -4844,7 +4844,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIa (device for sterilising medical devices, MDR Rule 15)"
+              "value": "IIa (device for sterilising medical devices, MDR Rule 16)"
             },
             {
               "label": "Typical settings",
@@ -4907,7 +4907,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIa (جهاز لتعقيم الأجهزة الطبية، القاعدة 15 من لائحة MDR)"
+              "value": "IIa (جهاز لتعقيم الأجهزة الطبية، القاعدة 16 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -4979,7 +4979,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "IIa (Sterilisator für Medizinprodukte, Regel 15 MDR)"
+              "value": "IIa (Sterilisator für Medizinprodukte, Regel 16 MDR)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5043,7 +5043,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIa (sterilizer for medical devices, MDR Rule 15)"
+              "value": "IIa (sterilizer for medical devices, MDR Rule 16)"
             },
             {
               "label": "Typical settings",
@@ -5107,7 +5107,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIa (جهاز تعقيم للأجهزة الطبية، القاعدة 15 من لائحة MDR)"
+              "value": "IIa (جهاز تعقيم للأجهزة الطبية، القاعدة 16 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5179,7 +5179,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "IIa; IIb, wenn die Desinfektion invasiver Produkte (z. B. flexibler Endoskope) der letzte Aufbereitungsschritt ist (Regel 15 MDR)"
+              "value": "IIa; IIb, wenn die Desinfektion invasiver Produkte (z. B. flexibler Endoskope) der letzte Aufbereitungsschritt ist (Regel 16 MDR)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5243,7 +5243,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "IIa; IIb if disinfection of invasive devices (e.g. flexible endoscopes) is the end point of processing (MDR Rule 15)"
+              "value": "IIa; IIb if disinfection of invasive devices (e.g. flexible endoscopes) is the end point of processing (MDR Rule 16)"
             },
             {
               "label": "Typical settings",
@@ -5262,7 +5262,7 @@
             "Define capacity and loading systems: the number of mesh baskets per cycle and inserts for hollow instruments, dental handpieces, anaesthesia accessories or instruments for minimally invasive surgery determine whether the device fits the actual instrument inventory.",
             "Plan room and connections: cold, hot and demineralized water, a temperature-resistant drain, three-phase power and, for pass-through units, a structural separation into dirty and clean sides; take exhaust air and heat load in the room into account.",
             "Process chemicals and dosing: detergent, neutralizer and rinse aid must be matched to the device and the instrument materials; automatic dosing pumps with level monitoring prevent faulty cycles.",
-            "Plan for validation according to EN ISO 15883 and regular performance qualification, including test soils for cleaning performance and protein detection; without a current validation, the batch may not be released.",
+            "Plan for validation according to EN ISO 15883 and regular performance qualification, including process challenge devices for cleaning performance and protein detection; without a current validation, the batch may not be released.",
             "Documentation, service and training: archive batch records digitally, check integration with instrument tracking systems, agree on a service contract with maintenance and spare parts, and provide staff with user training as required by the German Medical Devices Operator Ordinance (MPBetreibV)."
           ],
           "glossary": [
@@ -5307,7 +5307,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "IIa؛ وIIb إذا كان تطهير الأجهزة الباضعة (مثل المناظير المرنة) هو الخطوة الأخيرة في إعادة المعالجة (القاعدة 15 من لائحة MDR)"
+              "value": "IIa؛ وIIb إذا كان تطهير الأجهزة الباضعة (مثل المناظير المرنة) هو الخطوة الأخيرة في إعادة المعالجة (القاعدة 16 من لائحة MDR)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5336,7 +5336,7 @@
             },
             {
               "term": "التطهير الحراري",
-              "text": "تطهير بالماء الساخن فقط دون مطهّرات كيميائية؛ وهو موثوق وسهل التحقق منه ولا يترك بقايا."
+              "text": "تطهير بالماء الساخن فقط دون مطهّرات كيميائية؛ وهو موثوق ويسهل التحقق من صحته ولا يترك بقايا."
             },
             {
               "term": "محوّل الشطف",
@@ -5378,7 +5378,7 @@
           "facts": [
             {
               "label": "Risikoklasse (MDR)",
-              "value": "in der Regel I (Reinigungsgerät, Regel 1 MDR); bei vom Hersteller ausgelobter Desinfektionswirkung IIa (Regel 15)"
+              "value": "in der Regel I (Reinigungsgerät, Regel 1 MDR); bei vom Hersteller ausgelobter Desinfektionswirkung IIa (Regel 16)"
             },
             {
               "label": "Typische Einsatzorte",
@@ -5440,7 +5440,7 @@
           "facts": [
             {
               "label": "Risk class (MDR)",
-              "value": "usually I (cleaning device, MDR Rule 1); IIa if the manufacturer claims a disinfecting effect (Rule 15)"
+              "value": "usually I (cleaning device, MDR Rule 1); IIa if the manufacturer claims a disinfecting effect (Rule 16)"
             },
             {
               "label": "Typical settings",
@@ -5502,7 +5502,7 @@
           "facts": [
             {
               "label": "فئة المخاطر (MDR)",
-              "value": "عادةً I (جهاز تنظيف، القاعدة 1 من لائحة MDR)؛ وIIa إذا أعلن المصنّع عن فعالية تطهير (القاعدة 15)"
+              "value": "عادةً I (جهاز تنظيف، القاعدة 1 من لائحة MDR)؛ وIIa إذا أعلن المصنّع عن فعالية تطهير (القاعدة 16)"
             },
             {
               "label": "أماكن الاستخدام النموذجية",
@@ -5531,7 +5531,7 @@
             },
             {
               "term": "إزالة الغازات",
-              "text": "تشغيل الحمام فارغًا لفترة قصيرة بعد ملئه ليتسرب الهواء الذائب؛ فالغازات الذائبة تُضعف التكهّف وتقلل أداء التنظيف."
+              "text": "تشغيل الحمام دون حمولة لفترة قصيرة بعد ملئه ليتسرب الهواء الذائب؛ فالغازات الذائبة تُضعف التكهّف وتقلل أداء التنظيف."
             },
             {
               "term": "محوّل الطاقة (Transducer)",
@@ -5715,7 +5715,7 @@
           ],
           "procurement": [
             "اختيار نوع الجهاز وفق الإنتاجية: أجهزة الختم ذات القضيب للعيادات الصغيرة ذات العبوات القليلة يوميًا، وأجهزة الختم الدوّارة مع حامل لفائف وقاطع لوحدات إعادة المعالجة الأكبر.",
-            "الحرص على معايير عملية قابلة للتحقق: الأجهزة ذات درجة الحرارة وضغط التلامس وسرعة الختم المراقبة، مع تنبيه عند الانحراف وإخراج السجلات، تلبّي متطلبات المعيار EN ISO 11607 بسهولة أكبر بكثير.",
+            "الحرص على معايير عملية قابلة للتحقق من صحتها: الأجهزة ذات درجة الحرارة وضغط التلامس وسرعة الختم المراقبة، مع تنبيه عند الانحراف وإخراج السجلات، تلبّي متطلبات المعيار EN ISO 11607 بسهولة أكبر بكثير.",
             "مواءمة مادة التغليف مع الجهاز: تختلف درجة حرارة الختم بين عبوات الورق والفيلم والمواد الخاصة بعمليات التعقيم منخفضة الحرارة؛ ويجب التحقق من اعتمادات المصنّع للمواد ومن توافر المواد الاستهلاكية.",
             "التخطيط لطابعة مدمجة أو طابعة ملصقات لتوثيق تاريخ التعقيم وتاريخ انتهاء الصلاحية والدفعة واسم المغلِّف مباشرة على كل عبوة؛ فهذا شرط لإمكانية التتبع.",
             "تحديد الصيانة والمعايرة السنوية، ووسائل فحص خط الختم (اختبار الحبر وشرائط اختبار التقشير)، وتدريب العاملين على التغليف والختم الصحيحين، في العقد وفي التنظيم الداخلي."
